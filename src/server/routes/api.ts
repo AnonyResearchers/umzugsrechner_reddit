@@ -1,5 +1,6 @@
 import { Hono } from 'hono';
 import { context, redis, reddit } from '@devvit/web/server';
+import fetch from 'node-fetch';
 import type {
   DecrementResponse,
   IncrementResponse,
