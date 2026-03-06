@@ -1,10 +1,12 @@
-import { FiTrash2, FiChevronUp, FiChevronDown } from 'react-icons/fi';
+import { useState, useEffect } from 'react';
+import { FiTrash2, FiChevronUp, FiChevronDown, FiMapPin } from 'react-icons/fi';
 import type { Location } from '../../types/calculator';
 import { PropertyType, Etage, LKWDistance } from '../../types/calculator';
 import { Card } from '../shared/Card';
 import { Input } from '../shared/Input';
 import { Select } from '../shared/Select';
 import { Button } from '../shared/Button';
+import { lookupCityFromPLZ, debounce } from '../../utils/plzLookup';
 
 interface LocationCardProps {
   location: Location;
@@ -51,6 +53,26 @@ export const LocationCard = ({
   const showEtageFields = location.propertyType === PropertyType.WOHNUNG;
   const showAufzugField = showEtageFields && location.etage && location.etage !== Etage.EG;
 
+  // City lookup state
+  const [cityName, setCityName] = useState<string | null>(null);
+  const [lookingUpCity, setLookingUpCity] = useState(false);
+
+  // Lookup city when PLZ changes
+  useEffect(() => {
+    const debouncedLookup = debounce(async (plz: string) => {
+      if (plz.length === 5) {
+        setLookingUpCity(true);
+        const result = await lookupCityFromPLZ(plz);
+        setCityName(result.city);
+        setLookingUpCity(false);
+      } else {
+        setCityName(null);
+      }
+    }, 500);
+
+    debouncedLookup(location.plz);
+  }, [location.plz]);
+
   return (
     <Card className="mb-4">
       <div className="flex justify-between items-start mb-4">
@@ -90,16 +112,35 @@ export const LocationCard = ({
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* PLZ */}
-        <Input
-          label="Postleitzahl"
-          type="text"
-          value={location.plz}
-          onChange={(e) => onUpdate({ plz: e.target.value })}
-          placeholder="12345"
-          maxLength={5}
-          required
-          helpText="5-stellige PLZ"
-        />
+        <div className="flex flex-col">
+          <Input
+            label="Postleitzahl"
+            type="text"
+            inputMode="numeric"
+            pattern="[0-9]*"
+            value={location.plz}
+            onChange={(e) => {
+              const value = e.target.value.replace(/\D/g, ''); // Only allow digits
+              onUpdate({ plz: value });
+            }}
+            placeholder="12345"
+            maxLength={5}
+            required
+            helpText="5-stellige PLZ"
+          />
+          {/* City name display */}
+          {cityName && (
+            <div className="mt-1 flex items-center gap-1 text-sm text-green-600 dark:text-green-400">
+              <FiMapPin size={14} />
+              <span>{cityName}</span>
+            </div>
+          )}
+          {lookingUpCity && (
+            <div className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+              <span>Suche Stadt...</span>
+            </div>
+          )}
+        </div>
 
         {/* Property Type */}
         <Select
