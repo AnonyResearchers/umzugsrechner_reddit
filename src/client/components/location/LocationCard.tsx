@@ -49,6 +49,7 @@ export const LocationCard = ({
   canRemove,
 }: LocationCardProps) => {
   const showEtageFields = location.propertyType === PropertyType.WOHNUNG;
+  const showAufzugField = showEtageFields && location.etage && location.etage !== Etage.EG;
 
   return (
     <Card className="mb-4">
@@ -111,43 +112,44 @@ export const LocationCard = ({
 
         {/* Conditional: Etage (only for Wohnung) */}
         {showEtageFields && (
-          <>
-            <Select
-              label="Etage"
-              value={location.etage || Etage.EG}
-              onChange={(e) => onUpdate({ etage: e.target.value as Etage })}
-              options={etageOptions}
-              required
-            />
+          <Select
+            label="Etage"
+            value={location.etage || Etage.EG}
+            onChange={(e) => onUpdate({ etage: e.target.value as Etage })}
+            options={etageOptions}
+            required
+          />
+        )}
 
-            <div className="flex flex-col">
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Aufzug vorhanden?
+        {/* Conditional: Aufzug (only for Wohnung and NOT EG) */}
+        {showAufzugField && (
+          <div className="flex flex-col">
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              Aufzug vorhanden?
+            </label>
+            <div className="flex gap-4 mt-2">
+              <label className="flex items-center cursor-pointer">
+                <input
+                  type="radio"
+                  name={`aufzug-${location.id}`}
+                  checked={location.aufzugAvailable === true}
+                  onChange={() => onUpdate({ aufzugAvailable: true })}
+                  className="mr-2"
+                />
+                <span className="text-gray-700 dark:text-gray-300">Ja</span>
               </label>
-              <div className="flex gap-4 mt-2">
-                <label className="flex items-center cursor-pointer">
-                  <input
-                    type="radio"
-                    name={`aufzug-${location.id}`}
-                    checked={location.aufzugAvailable === true}
-                    onChange={() => onUpdate({ aufzugAvailable: true })}
-                    className="mr-2"
-                  />
-                  <span className="text-gray-700 dark:text-gray-300">Ja</span>
-                </label>
-                <label className="flex items-center cursor-pointer">
-                  <input
-                    type="radio"
-                    name={`aufzug-${location.id}`}
-                    checked={location.aufzugAvailable === false}
-                    onChange={() => onUpdate({ aufzugAvailable: false })}
-                    className="mr-2"
-                  />
-                  <span className="text-gray-700 dark:text-gray-300">Nein</span>
-                </label>
-              </div>
+              <label className="flex items-center cursor-pointer">
+                <input
+                  type="radio"
+                  name={`aufzug-${location.id}`}
+                  checked={location.aufzugAvailable === false}
+                  onChange={() => onUpdate({ aufzugAvailable: false })}
+                  className="mr-2"
+                />
+                <span className="text-gray-700 dark:text-gray-300">Nein</span>
+              </label>
             </div>
-          </>
+          </div>
         )}
 
         {/* LKW Distance */}
