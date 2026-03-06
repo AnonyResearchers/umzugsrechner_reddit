@@ -25,39 +25,27 @@ export async function lookupCityFromPLZ(plz: string): Promise<PLZLookupResult> {
   }
 
   try {
-    // Use Nominatim API (OpenStreetMap)
-    const response = await fetch(
-      `https://nominatim.openstreetmap.org/search?postalcode=${plz}&country=Germany&format=json&limit=1`,
-      {
-        headers: {
-          'User-Agent': 'Umzugsrechner/1.0',
-        },
-      }
-    );
+    // Call our backend API instead of Nominatim directly (CSP restriction)
+    const response = await fetch(`/api/plz/${plz}`);
 
     if (!response.ok) {
+      console.error('PLZ API response not OK:', response.status);
       return { city: null, state: null };
     }
 
     const data = await response.json();
 
-    if (data && data.length > 0) {
-      const result = data[0];
-      const city = result.address?.city || result.address?.town || result.address?.village || result.display_name.split(',')[0];
-      const state = result.address?.state || null;
+    const lookupResult = {
+      city: data.city || null,
+      state: data.state || null,
+    };
 
-      const lookupResult = {
-        city: city || null,
-        state: state || null,
-      };
-
-      // Cache the result
+    // Cache the result
+    if (lookupResult.city) {
       plzCache.set(plz, lookupResult);
-
-      return lookupResult;
     }
 
-    return { city: null, state: null };
+    return lookupResult;
   } catch (error) {
     console.error('PLZ lookup failed:', error);
     return { city: null, state: null };

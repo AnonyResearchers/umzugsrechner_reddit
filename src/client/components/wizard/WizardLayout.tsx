@@ -21,7 +21,10 @@ export const WizardLayout = ({ children }: WizardLayoutProps) => {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <div className="max-w-4xl mx-auto px-4 py-6">
         {/* Header */}
-        <div className="mb-6">
+        <div className="mb-6 relative">
+          <div className="absolute top-0 right-0 text-xs text-gray-400 dark:text-gray-500 font-mono">
+            v0.0.1.14
+          </div>
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
             Umzugsrechner
           </h1>
