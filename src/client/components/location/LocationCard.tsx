@@ -6,7 +6,7 @@ import { Card } from '../shared/Card';
 import { Input } from '../shared/Input';
 import { Select } from '../shared/Select';
 import { Button } from '../shared/Button';
-import { lookupCityFromPLZ, debounce } from '../../utils/plzLookup';
+import { lookupCityFromPLZ } from '../../utils/plzLookup';
 
 interface LocationCardProps {
   location: Location;
@@ -57,20 +57,35 @@ export const LocationCard = ({
   const [cityName, setCityName] = useState<string | null>(null);
   const [lookingUpCity, setLookingUpCity] = useState(false);
 
-  // Lookup city when PLZ changes
+  // Lookup city when PLZ changes (with debouncing)
   useEffect(() => {
-    const debouncedLookup = debounce(async (plz: string) => {
-      if (plz.length === 5) {
-        setLookingUpCity(true);
-        const result = await lookupCityFromPLZ(plz);
+    // Clear city name immediately if PLZ is invalid
+    if (location.plz.length !== 5) {
+      setCityName(null);
+      setLookingUpCity(false);
+      return;
+    }
+
+    // Set loading state
+    setLookingUpCity(true);
+
+    // Debounce the API call
+    const timeoutId = setTimeout(async () => {
+      try {
+        console.log('Looking up PLZ:', location.plz);
+        const result = await lookupCityFromPLZ(location.plz);
+        console.log('Lookup result:', result);
         setCityName(result.city);
-        setLookingUpCity(false);
-      } else {
+      } catch (error) {
+        console.error('City lookup error:', error);
         setCityName(null);
+      } finally {
+        setLookingUpCity(false);
       }
     }, 500);
 
-    debouncedLookup(location.plz);
+    // Cleanup timeout on unmount or when PLZ changes
+    return () => clearTimeout(timeoutId);
   }, [location.plz]);
 
   return (
@@ -120,8 +135,18 @@ export const LocationCard = ({
             pattern="[0-9]*"
             value={location.plz}
             onChange={(e) => {
-              const value = e.target.value.replace(/\D/g, ''); // Only allow digits
+              // Only allow digits, max 5 characters
+              const value = e.target.value.replace(/\D/g, '').slice(0, 5);
               onUpdate({ plz: value });
+            }}
+            onKeyDown={(e) => {
+              // Prevent non-numeric keys (except backspace, delete, arrows, tab)
+              if (
+                !/^\d$/.test(e.key) &&
+                !['Backspace', 'Delete', 'ArrowLeft', 'ArrowRight', 'Tab'].includes(e.key)
+              ) {
+                e.preventDefault();
+              }
             }}
             placeholder="12345"
             maxLength={5}
