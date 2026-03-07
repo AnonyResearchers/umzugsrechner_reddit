@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "umzugsrechner",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "BSD-3-Clause",
   "type": "module",
   "scripts": {
