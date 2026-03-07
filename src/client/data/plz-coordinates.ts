@@ -1,0 +1,54080 @@
+/**
+ * PLZ Coordinates Data
+ *
+ * Auto-generated from plz-coordinates.json
+ * DO NOT EDIT MANUALLY - regenerate using: node scripts/json-to-ts.js
+ */
+
+export interface PLZCoordinates {
+  lat: number;
+  lon: number;
+  city: string;
+}
+
+export const plzCoordinates: Record<string, PLZCoordinates> = {
+  "10026": {
+    "lat": 52.5172,
+    "lon": 13.4149,
+    "city": "N26 AG"
+  },
+  "10082": {
+    "lat": 52.5318,
+    "lon": 13.3838,
+    "city": "Deutsche Post AG RBZ Berlin EPOS-FI"
+  },
+  "10083": {
+    "lat": 52.5318,
+    "lon": 13.3838,
+    "city": "Deutsche Post AG Regionales Buchhaltungszentrum"
+  },
+  "10086": {
+    "lat": 52.5105,
+    "lon": 13.4024,
+    "city": "Job-Center Berlin Mitte"
+  },
+  "10096": {
+    "lat": 52.5137,
+    "lon": 13.4227,
+    "city": "Berliner Verkehrsbetriebe (BVG) Anstalt des öffentlichen Rechts"
+  },
+  "10098": {
+    "lat": 52.5237,
+    "lon": 13.3799,
+    "city": "Uni Klinikum Charite Medizinische Fakultät der Humboldt-Universität"
+  },
+  "10099": {
+    "lat": 52.5176,
+    "lon": 13.3938,
+    "city": "Humboldt-Universität"
+  },
+  "10102": {
+    "lat": 52.5175,
+    "lon": 13.3916,
+    "city": "Staatsbibliothek zu Berlin Preußischer Kulturbesitz"
+  },
+  "10103": {
+    "lat": 52.5286,
+    "lon": 13.3692,
+    "city": "TOTAL Deutschland GmbH"
+  },
+  "10104": {
+    "lat": 52.5106,
+    "lon": 13.3901,
+    "city": "Germany Trade & Invest Gesellschaft für Außenwirtschaft"
+  },
+  "10105": {
+    "lat": 52.5185,
+    "lon": 13.3874,
+    "city": "Adam Opel GmbH"
+  },
+  "10106": {
+    "lat": 52.5167,
+    "lon": 13.4269,
+    "city": "St. Hedwigskrankenhaus"
+  },
+  "10107": {
+    "lat": 52.5127,
+    "lon": 13.3922,
+    "city": "Elbo-Bau AG"
+  },
+  "10108": {
+    "lat": 52.5229,
+    "lon": 13.3835,
+    "city": "Jan Internationalo GmbH"
+  },
+  "10109": {
+    "lat": 52.5165,
+    "lon": 13.3914,
+    "city": "Stiftung Oper in Berlin"
+  },
+  "10112": {
+    "lat": 52.509,
+    "lon": 13.4279,
+    "city": "ver.di Bundesverwaltung"
+  },
+  "10115": {
+    "lat": 52.5323,
+    "lon": 13.3846,
+    "city": "Berlin"
+  },
+  "10117": {
+    "lat": 52.517,
+    "lon": 13.3872,
+    "city": "Berlin"
+  },
+  "10119": {
+    "lat": 52.5305,
+    "lon": 13.4053,
+    "city": "Berlin"
+  },
+  "10150": {
+    "lat": 52.5169,
+    "lon": 13.4147,
+    "city": "Berliner Feuerwehr"
+  },
+  "10169": {
+    "lat": 52.5176,
+    "lon": 13.4142,
+    "city": "Deutscher Mieterbund e.V."
+  },
+  "10173": {
+    "lat": 52.5258,
+    "lon": 13.4135,
+    "city": "Alex-Hausverwaltung GmbH"
+  },
+  "10178": {
+    "lat": 52.5213,
+    "lon": 13.4096,
+    "city": "Berlin"
+  },
+  "10179": {
+    "lat": 52.5122,
+    "lon": 13.4164,
+    "city": "Berlin"
+  },
+  "10243": {
+    "lat": 52.5123,
+    "lon": 13.4394,
+    "city": "Berlin Friedrichshain"
+  },
+  "10245": {
+    "lat": 52.5007,
+    "lon": 13.4647,
+    "city": "Berlin Friedrichshain"
+  },
+  "10247": {
+    "lat": 52.5161,
+    "lon": 13.4656,
+    "city": "Berlin Friedrichshain"
+  },
+  "10249": {
+    "lat": 52.5238,
+    "lon": 13.4428,
+    "city": "Berlin Friedrichshain"
+  },
+  "10306": {
+    "lat": 52.5094,
+    "lon": 13.5255,
+    "city": "Amt für Statistik Berlin-Brandenburg"
+  },
+  "10313": {
+    "lat": 52.4932,
+    "lon": 13.5259,
+    "city": "Fachhochschule für Technik und Wirtschaft Berlin"
+  },
+  "10315": {
+    "lat": 52.5132,
+    "lon": 13.5148,
+    "city": "Berlin"
+  },
+  "10317": {
+    "lat": 52.4979,
+    "lon": 13.4908,
+    "city": "Berlin"
+  },
+  "10318": {
+    "lat": 52.4835,
+    "lon": 13.5287,
+    "city": "Berlin"
+  },
+  "10319": {
+    "lat": 52.4992,
+    "lon": 13.5188,
+    "city": "Berlin"
+  },
+  "10356": {
+    "lat": 52.5183,
+    "lon": 13.4882,
+    "city": "Jobcenter Geschäftsstelle Lichtenberg"
+  },
+  "10358": {
+    "lat": 52.5094,
+    "lon": 13.5255,
+    "city": "Finanzamt Lichtenberg/Hohenschönhausen"
+  },
+  "10360": {
+    "lat": 52.5094,
+    "lon": 13.5255,
+    "city": "Bezirksamt Lichtenberg von Berlin"
+  },
+  "10361": {
+    "lat": 52.5232,
+    "lon": 13.4858,
+    "city": "BerlinerLuft Holding GmbH"
+  },
+  "10362": {
+    "lat": 52.5149,
+    "lon": 13.4887,
+    "city": "Finanzamt für Körperschaften II und IV"
+  },
+  "10365": {
+    "lat": 52.5206,
+    "lon": 13.4969,
+    "city": "Berlin"
+  },
+  "10367": {
+    "lat": 52.5246,
+    "lon": 13.4821,
+    "city": "Berlin"
+  },
+  "10369": {
+    "lat": 52.5295,
+    "lon": 13.4695,
+    "city": "Berlin"
+  },
+  "10400": {
+    "lat": 52.535,
+    "lon": 13.4279,
+    "city": "HUSS-MEDIEN GmbH"
+  },
+  "10405": {
+    "lat": 52.5352,
+    "lon": 13.4257,
+    "city": "Berlin"
+  },
+  "10407": {
+    "lat": 52.5336,
+    "lon": 13.4492,
+    "city": "Berlin"
+  },
+  "10409": {
+    "lat": 52.5443,
+    "lon": 13.4414,
+    "city": "Berlin"
+  },
+  "10431": {
+    "lat": 52.5426,
+    "lon": 13.43,
+    "city": "Finanzamt Pankow/Weißensee"
+  },
+  "10435": {
+    "lat": 52.5378,
+    "lon": 13.4112,
+    "city": "Berlin"
+  },
+  "10437": {
+    "lat": 52.5449,
+    "lon": 13.4126,
+    "city": "Berlin"
+  },
+  "10439": {
+    "lat": 52.5522,
+    "lon": 13.4121,
+    "city": "Berlin"
+  },
+  "10546": {
+    "lat": 52.5334,
+    "lon": 13.28,
+    "city": "VHV Vereinigte Hannoversche Versicherung a.G."
+  },
+  "10547": {
+    "lat": 52.5234,
+    "lon": 13.3446,
+    "city": "AVM"
+  },
+  "10548": {
+    "lat": 52.5293,
+    "lon": 13.3171,
+    "city": "Deutsche Post AG Filiale Berlin 21"
+  },
+  "10551": {
+    "lat": 52.5307,
+    "lon": 13.3372,
+    "city": "Berlin"
+  },
+  "10553": {
+    "lat": 52.5305,
+    "lon": 13.3215,
+    "city": "Berlin"
+  },
+  "10555": {
+    "lat": 52.5215,
+    "lon": 13.3355,
+    "city": "Berlin"
+  },
+  "10557": {
+    "lat": 52.5233,
+    "lon": 13.3594,
+    "city": "Berlin"
+  },
+  "10559": {
+    "lat": 52.5301,
+    "lon": 13.3499,
+    "city": "Berlin"
+  },
+  "10585": {
+    "lat": 52.5152,
+    "lon": 13.3057,
+    "city": "Berlin"
+  },
+  "10587": {
+    "lat": 52.5184,
+    "lon": 13.3195,
+    "city": "Berlin"
+  },
+  "10589": {
+    "lat": 52.5276,
+    "lon": 13.3057,
+    "city": "Berlin"
+  },
+  "10617": {
+    "lat": 52.5125,
+    "lon": 13.3177,
+    "city": "R+V Versicherung"
+  },
+  "10623": {
+    "lat": 52.5088,
+    "lon": 13.3274,
+    "city": "Berlin"
+  },
+  "10625": {
+    "lat": 52.5095,
+    "lon": 13.3147,
+    "city": "Berlin"
+  },
+  "10627": {
+    "lat": 52.508,
+    "lon": 13.303,
+    "city": "Berlin"
+  },
+  "10629": {
+    "lat": 52.5028,
+    "lon": 13.3086,
+    "city": "Berlin"
+  },
+  "10702": {
+    "lat": 52.4905,
+    "lon": 13.3188,
+    "city": "Böttger GmbH"
+  },
+  "10703": {
+    "lat": 52.5021,
+    "lon": 13.321,
+    "city": "NÜRNBERGER Lebensversicherung AG"
+  },
+  "10704": {
+    "lat": 52.4904,
+    "lon": 13.3112,
+    "city": "Deutsche Rentenversicherung Bund"
+  },
+  "10705": {
+    "lat": 52.4974,
+    "lon": 13.293,
+    "city": "ZBI GmbH"
+  },
+  "10707": {
+    "lat": 52.4967,
+    "lon": 13.3138,
+    "city": "Berlin"
+  },
+  "10709": {
+    "lat": 52.4939,
+    "lon": 13.3031,
+    "city": "Berlin"
+  },
+  "10711": {
+    "lat": 52.4981,
+    "lon": 13.2905,
+    "city": "Berlin"
+  },
+  "10713": {
+    "lat": 52.4851,
+    "lon": 13.3133,
+    "city": "Berlin"
+  },
+  "10715": {
+    "lat": 52.4824,
+    "lon": 13.3289,
+    "city": "Berlin"
+  },
+  "10717": {
+    "lat": 52.4908,
+    "lon": 13.3275,
+    "city": "Berlin"
+  },
+  "10719": {
+    "lat": 52.4988,
+    "lon": 13.3257,
+    "city": "Berlin"
+  },
+  "10768": {
+    "lat": 52.4998,
+    "lon": 13.3253,
+    "city": "Volksfürsorge Schadenzentrum"
+  },
+  "10772": {
+    "lat": 52.5061,
+    "lon": 13.357,
+    "city": "DeGeWo"
+  },
+  "10773": {
+    "lat": 52.506,
+    "lon": 13.3459,
+    "city": "Stiftung Warentest"
+  },
+  "10774": {
+    "lat": 52.5102,
+    "lon": 13.3762,
+    "city": "Linklaters LLP Rechtsanwälte Notare Steuerberater"
+  },
+  "10777": {
+    "lat": 52.4975,
+    "lon": 13.3427,
+    "city": "Berlin"
+  },
+  "10779": {
+    "lat": 52.4921,
+    "lon": 13.3395,
+    "city": "Berlin"
+  },
+  "10781": {
+    "lat": 52.4936,
+    "lon": 13.3529,
+    "city": "Berlin"
+  },
+  "10783": {
+    "lat": 52.4964,
+    "lon": 13.3624,
+    "city": "Berlin"
+  },
+  "10785": {
+    "lat": 52.5073,
+    "lon": 13.3643,
+    "city": "Berlin"
+  },
+  "10787": {
+    "lat": 52.5078,
+    "lon": 13.3439,
+    "city": "Berlin"
+  },
+  "10789": {
+    "lat": 52.5017,
+    "lon": 13.3377,
+    "city": "Berlin"
+  },
+  "10819": {
+    "lat": 52.4812,
+    "lon": 13.338,
+    "city": "Deutschlandradio Kultur"
+  },
+  "10820": {
+    "lat": 52.4841,
+    "lon": 13.345,
+    "city": "Bezirksamt Tempelhof-Schöneberg"
+  },
+  "10823": {
+    "lat": 52.4873,
+    "lon": 13.3509,
+    "city": "Berlin"
+  },
+  "10825": {
+    "lat": 52.4838,
+    "lon": 13.3413,
+    "city": "Berlin"
+  },
+  "10827": {
+    "lat": 52.4838,
+    "lon": 13.3543,
+    "city": "Berlin"
+  },
+  "10829": {
+    "lat": 52.4761,
+    "lon": 13.3607,
+    "city": "Berlin"
+  },
+  "10842": {
+    "lat": 52.4341,
+    "lon": 13.536,
+    "city": "Allianz Baufinanzierung"
+  },
+  "10850": {
+    "lat": 52.4341,
+    "lon": 13.536,
+    "city": "Allianz Lebensversicherungs-AG"
+  },
+  "10858": {
+    "lat": 52.3173,
+    "lon": 13.2654,
+    "city": "Mercedes-Benz Werk Berlin Ludwigsfelde GmbH"
+  },
+  "10859": {
+    "lat": 52.506,
+    "lon": 13.3924,
+    "city": "Agentur für Arbeit Berlin Mitte"
+  },
+  "10860": {
+    "lat": 52.4994,
+    "lon": 13.3816,
+    "city": "Amtsgericht Tempelhof-Kreuzberg -Familiengericht-"
+  },
+  "10861": {
+    "lat": 52.4892,
+    "lon": 13.3482,
+    "city": "Amtsgericht Schöneberg"
+  },
+  "10862": {
+    "lat": 52.5061,
+    "lon": 13.2951,
+    "city": "Amtsgericht Charlottenburg"
+  },
+  "10863": {
+    "lat": 52.5116,
+    "lon": 13.3891,
+    "city": "Kammergericht"
+  },
+  "10864": {
+    "lat": 52.5155,
+    "lon": 13.4107,
+    "city": "Berliner Wasserbetriebe Anstalt des Öffentlichen Rechts"
+  },
+  "10865": {
+    "lat": 52.5172,
+    "lon": 13.3913,
+    "city": "FuB"
+  },
+  "10867": {
+    "lat": 52.5078,
+    "lon": 13.3975,
+    "city": "Axel Springer SE"
+  },
+  "10868": {
+    "lat": 52.4915,
+    "lon": 13.3104,
+    "city": "Zentrale Zulagenstelle für Altersvermögen der BfA"
+  },
+  "10871": {
+    "lat": 52.4962,
+    "lon": 13.4548,
+    "city": "Stromnetz Berlin GmbH"
+  },
+  "10872": {
+    "lat": 52.5073,
+    "lon": 13.3749,
+    "city": "Toll Collect GmbH Fachbereich Kontrolle"
+  },
+  "10873": {
+    "lat": 52.5218,
+    "lon": 13.389,
+    "city": "VGA GmbH"
+  },
+  "10874": {
+    "lat": 52.5092,
+    "lon": 13.368,
+    "city": "B. Z. Ullstein GmbH"
+  },
+  "10875": {
+    "lat": 51.5132,
+    "lon": 12.3696,
+    "city": "LAB1886 GmbH"
+  },
+  "10876": {
+    "lat": 52.5045,
+    "lon": 13.3809,
+    "city": "Zitty Verlag"
+  },
+  "10877": {
+    "lat": 52.5119,
+    "lon": 13.4331,
+    "city": "Commerzbank AG"
+  },
+  "10878": {
+    "lat": 52.5068,
+    "lon": 13.4381,
+    "city": "Daimler AG Mercedes Benz Vertriebsorganisation Deutschland"
+  },
+  "10880": {
+    "lat": 52.5334,
+    "lon": 13.3842,
+    "city": "DB Mobility Logistics AG Service Center Personal, Fachcenter Fahrvergünstigung"
+  },
+  "10881": {
+    "lat": 52.4672,
+    "lon": 13.3726,
+    "city": "Deutsche Post AG Niederlassung BRIEF Berlin Zentrum"
+  },
+  "10882": {
+    "lat": 52.4644,
+    "lon": 13.3696,
+    "city": "TÜV Rheinland Group"
+  },
+  "10883": {
+    "lat": 52.5133,
+    "lon": 13.319,
+    "city": "Centralboden AG"
+  },
+  "10884": {
+    "lat": 52.5206,
+    "lon": 13.4928,
+    "city": "Sparda Bank Berlin"
+  },
+  "10885": {
+    "lat": 52.5255,
+    "lon": 13.3216,
+    "city": "TeleColumbus Gruppe Logistikzentrum"
+  },
+  "10886": {
+    "lat": 52.5199,
+    "lon": 13.4039,
+    "city": "Lloyds Bank GmbH"
+  },
+  "10887": {
+    "lat": 52.5172,
+    "lon": 13.3871,
+    "city": "ZDF Hauptstadtstudio Berlin"
+  },
+  "10888": {
+    "lat": 52.5078,
+    "lon": 13.3975,
+    "city": "Axel Springer SE"
+  },
+  "10889": {
+    "lat": 52.5208,
+    "lon": 13.4138,
+    "city": "Landesbank Berlin"
+  },
+  "10890": {
+    "lat": 52.5118,
+    "lon": 13.3888,
+    "city": "Deutsche Bank AG"
+  },
+  "10891": {
+    "lat": 52.5119,
+    "lon": 13.4331,
+    "city": "Commerzbank AG"
+  },
+  "10892": {
+    "lat": 52.5784,
+    "lon": 13.2943,
+    "city": "Berliner Volksbank eG"
+  },
+  "10893": {
+    "lat": 52.4834,
+    "lon": 13.293,
+    "city": "Weberbank Actiengesellschaft"
+  },
+  "10896": {
+    "lat": 52.5124,
+    "lon": 13.3146,
+    "city": "UniCredit Bank AG"
+  },
+  "10898": {
+    "lat": 52.3046,
+    "lon": 12.986,
+    "city": "Kahrs & Partner"
+  },
+  "10899": {
+    "lat": 52.5043,
+    "lon": 13.4506,
+    "city": "BASF Services Europe GmbH"
+  },
+  "10901": {
+    "lat": 52.5149,
+    "lon": 13.3292,
+    "city": "Daimler AG, NL Berlin"
+  },
+  "10902": {
+    "lat": 52.5045,
+    "lon": 13.3602,
+    "city": "Walter De Gruyter Verlag & Co."
+  },
+  "10903": {
+    "lat": 52.5068,
+    "lon": 13.379,
+    "city": "DKV AG"
+  },
+  "10904": {
+    "lat": 52.4955,
+    "lon": 13.484,
+    "city": "Deutsche Post AG Nachbuchung Post Service"
+  },
+  "10905": {
+    "lat": 52.4672,
+    "lon": 13.3726,
+    "city": "Deutsche Post AG SNL Filialen Sachgebiet Fulfilment Clearingstelle"
+  },
+  "10907": {
+    "lat": 52.5087,
+    "lon": 13.3523,
+    "city": "Konrad-Adenauer-Stiftung"
+  },
+  "10908": {
+    "lat": 52.4069,
+    "lon": 13.0537,
+    "city": "DKB AG - DKB Service GmbH"
+  },
+  "10909": {
+    "lat": 52.4069,
+    "lon": 13.0537,
+    "city": "DKB AG - DKB Service GmbH"
+  },
+  "10910": {
+    "lat": 50.7191,
+    "lon": 7.117,
+    "city": "norisbank GmbH"
+  },
+  "10912": {
+    "lat": 52.5047,
+    "lon": 13.3693,
+    "city": "OVAG"
+  },
+  "10913": {
+    "lat": 52.5047,
+    "lon": 13.3693,
+    "city": "Feuersozietät Berlin Brandenburg Versicherung AG"
+  },
+  "10914": {
+    "lat": 52.5018,
+    "lon": 13.336,
+    "city": "HUK-Coburg"
+  },
+  "10916": {
+    "lat": 52.5233,
+    "lon": 13.3475,
+    "city": "Postbank Niederlassung Berlin"
+  },
+  "10917": {
+    "lat": 52.5084,
+    "lon": 13.403,
+    "city": "Bundesdruckerei GmbH"
+  },
+  "10918": {
+    "lat": 52.5084,
+    "lon": 13.403,
+    "city": "Bundesdruckerei GmbH"
+  },
+  "10919": {
+    "lat": 52.511,
+    "lon": 13.3883,
+    "city": "Deutsche Kreditbank AG"
+  },
+  "10934": {
+    "lat": 52.5008,
+    "lon": 13.3884,
+    "city": "Berliner Wochenblatt Verlag GmbH"
+  },
+  "10956": {
+    "lat": 52.506,
+    "lon": 13.3924,
+    "city": "Agentur f. Arbeit Berlin Mitte"
+  },
+  "10958": {
+    "lat": 52.4994,
+    "lon": 13.3915,
+    "city": "Bundesdruckerei GmbH"
+  },
+  "10959": {
+    "lat": 52.4994,
+    "lon": 13.3816,
+    "city": "Amtsgericht Tempelhof-Kreuzberg -Familiengericht-"
+  },
+  "10961": {
+    "lat": 52.4926,
+    "lon": 13.3975,
+    "city": "Berlin Kreuzberg"
+  },
+  "10963": {
+    "lat": 52.5003,
+    "lon": 13.3813,
+    "city": "Berlin Kreuzberg"
+  },
+  "10965": {
+    "lat": 52.4855,
+    "lon": 13.3946,
+    "city": "Berlin Kreuzberg"
+  },
+  "10967": {
+    "lat": 52.4905,
+    "lon": 13.4164,
+    "city": "Berlin Kreuzberg"
+  },
+  "10969": {
+    "lat": 52.5025,
+    "lon": 13.4012,
+    "city": "Berlin Kreuzberg"
+  },
+  "10997": {
+    "lat": 52.5009,
+    "lon": 13.4356,
+    "city": "Berlin Kreuzberg"
+  },
+  "10999": {
+    "lat": 52.4969,
+    "lon": 13.4266,
+    "city": "Berlin Kreuzberg"
+  },
+  "11010": {
+    "lat": 52.5163,
+    "lon": 13.3527,
+    "city": "Bundespräsidialamt"
+  },
+  "11011": {
+    "lat": 52.5179,
+    "lon": 13.3759,
+    "city": "Berlin"
+  },
+  "11013": {
+    "lat": 52.5154,
+    "lon": 13.3985,
+    "city": "Auswärtiges Amt"
+  },
+  "11014": {
+    "lat": 52.5227,
+    "lon": 13.3622,
+    "city": "Bundesministerium des Innern und für Heimat"
+  },
+  "11017": {
+    "lat": 52.5124,
+    "lon": 13.3843,
+    "city": "Bundesministerium für Arbeit und Soziales"
+  },
+  "11052": {
+    "lat": 52.5147,
+    "lon": 13.4054,
+    "city": "Deutscher Industrie und Handelskammertag DIHK"
+  },
+  "11053": {
+    "lat": 52.5147,
+    "lon": 13.4054,
+    "city": "Deutsches NIAG/EDIG Büro"
+  },
+  "11054": {
+    "lat": 52.5147,
+    "lon": 13.4054,
+    "city": "Bundesvereinigung der Deutschen Arbeitgeberverbände"
+  },
+  "11055": {
+    "lat": 52.5418,
+    "lon": 13.4144,
+    "city": "Bundesverwaltungsamt"
+  },
+  "11056": {
+    "lat": 52.5133,
+    "lon": 13.3788,
+    "city": "Hessische Landesvertretung"
+  },
+  "11501": {
+    "lat": 52.5055,
+    "lon": 13.4473,
+    "city": "Zalando SE"
+  },
+  "11503": {
+    "lat": 52.4955,
+    "lon": 13.484,
+    "city": "Deutsche Post AG Finance & HR Operations Deutschland"
+  },
+  "11504": {
+    "lat": 52.4955,
+    "lon": 13.484,
+    "city": "Deutsche Post AG Service Center National SG 1216 Abrechnung Pressepost"
+  },
+  "11505": {
+    "lat": 52.4672,
+    "lon": 13.3721,
+    "city": "Deutsche Post AG NL Paket Berlin"
+  },
+  "11506": {
+    "lat": 52.5044,
+    "lon": 13.346,
+    "city": "GEMA - Bezirksdirektion"
+  },
+  "11507": {
+    "lat": 52.4716,
+    "lon": 13.366,
+    "city": "uni-assist e.V."
+  },
+  "11508": {
+    "lat": 52.4672,
+    "lon": 13.3726,
+    "city": "Deutsche Post AG Sonderstempelstelle"
+  },
+  "11509": {
+    "lat": 52.5077,
+    "lon": 13.4041,
+    "city": "Berliner Verlag GmbH"
+  },
+  "11510": {
+    "lat": 52.5068,
+    "lon": 13.4381,
+    "city": "Universal Music Entertainment GmbH"
+  },
+  "11511": {
+    "lat": 52.4765,
+    "lon": 13.3639,
+    "city": "Vattenfall GmbH"
+  },
+  "11512": {
+    "lat": 48.7709,
+    "lon": 9.1789,
+    "city": "Versorgungswerk der Presse GmbH"
+  },
+  "11513": {
+    "lat": 52.5151,
+    "lon": 13.3348,
+    "city": "Bundesamt für die Sicherheit der nuklearen Entsorgung"
+  },
+  "11515": {
+    "lat": 52.4341,
+    "lon": 13.536,
+    "city": "Allianz Versicherungs - AG Zweigniederlassung Berlin"
+  },
+  "11516": {
+    "lat": 52.5025,
+    "lon": 13.407,
+    "city": "AMN Data Solutions GmbH"
+  },
+  "12028": {
+    "lat": 52.479,
+    "lon": 13.4279,
+    "city": "Jobcenter Neukölln"
+  },
+  "12032": {
+    "lat": 52.5153,
+    "lon": 13.4125,
+    "city": "Senatsverwaltung für Finanzen Steuerabteilung"
+  },
+  "12037": {
+    "lat": 52.4739,
+    "lon": 13.4575,
+    "city": "Finanzamt Neukölln Nord"
+  },
+  "12038": {
+    "lat": 52.482,
+    "lon": 13.4339,
+    "city": "Amtsgericht Neukölln"
+  },
+  "12039": {
+    "lat": 52.4698,
+    "lon": 13.4648,
+    "city": "Agentur für Arbeit Berlin Süd"
+  },
+  "12040": {
+    "lat": 52.4813,
+    "lon": 13.435,
+    "city": "Bezirksamt Neukölln"
+  },
+  "12043": {
+    "lat": 52.4799,
+    "lon": 13.4371,
+    "city": "Berlin"
+  },
+  "12045": {
+    "lat": 52.4855,
+    "lon": 13.4392,
+    "city": "Berlin"
+  },
+  "12047": {
+    "lat": 52.4905,
+    "lon": 13.4285,
+    "city": "Berlin"
+  },
+  "12049": {
+    "lat": 52.4764,
+    "lon": 13.422,
+    "city": "Berlin"
+  },
+  "12051": {
+    "lat": 52.4669,
+    "lon": 13.4298,
+    "city": "Berlin"
+  },
+  "12053": {
+    "lat": 52.4768,
+    "lon": 13.4325,
+    "city": "Berlin"
+  },
+  "12055": {
+    "lat": 52.4712,
+    "lon": 13.4486,
+    "city": "Berlin"
+  },
+  "12057": {
+    "lat": 52.4684,
+    "lon": 13.4633,
+    "city": "Berlin"
+  },
+  "12059": {
+    "lat": 52.4809,
+    "lon": 13.4513,
+    "city": "Berlin"
+  },
+  "12095": {
+    "lat": 52.4007,
+    "lon": 13.3819,
+    "city": "Deutsche Postbank AG Belegarchiv Köln"
+  },
+  "12096": {
+    "lat": 52.4583,
+    "lon": 13.3894,
+    "city": "REWE Markt GmbH"
+  },
+  "12099": {
+    "lat": 52.4644,
+    "lon": 13.4023,
+    "city": "Berlin"
+  },
+  "12101": {
+    "lat": 52.4785,
+    "lon": 13.3791,
+    "city": "Berlin"
+  },
+  "12103": {
+    "lat": 52.4641,
+    "lon": 13.3747,
+    "city": "Berlin"
+  },
+  "12105": {
+    "lat": 52.4492,
+    "lon": 13.3714,
+    "city": "Berlin"
+  },
+  "12107": {
+    "lat": 52.4312,
+    "lon": 13.3917,
+    "city": "Berlin"
+  },
+  "12109": {
+    "lat": 52.4465,
+    "lon": 13.3993,
+    "city": "Berlin"
+  },
+  "12154": {
+    "lat": 52.4616,
+    "lon": 13.3241,
+    "city": "Wertheim"
+  },
+  "12157": {
+    "lat": 52.4653,
+    "lon": 13.3462,
+    "city": "Berlin"
+  },
+  "12159": {
+    "lat": 52.4737,
+    "lon": 13.3369,
+    "city": "Berlin"
+  },
+  "12161": {
+    "lat": 52.4704,
+    "lon": 13.327,
+    "city": "Berlin"
+  },
+  "12163": {
+    "lat": 52.4626,
+    "lon": 13.3185,
+    "city": "Berlin"
+  },
+  "12165": {
+    "lat": 52.4557,
+    "lon": 13.3148,
+    "city": "Berlin"
+  },
+  "12167": {
+    "lat": 52.4486,
+    "lon": 13.3338,
+    "city": "Berlin"
+  },
+  "12169": {
+    "lat": 52.4548,
+    "lon": 13.3435,
+    "city": "Berlin"
+  },
+  "12200": {
+    "lat": 52.4327,
+    "lon": 13.3032,
+    "city": "FES GmbH"
+  },
+  "12203": {
+    "lat": 52.4444,
+    "lon": 13.3096,
+    "city": "Berlin"
+  },
+  "12205": {
+    "lat": 52.434,
+    "lon": 13.2945,
+    "city": "Berlin"
+  },
+  "12207": {
+    "lat": 52.4199,
+    "lon": 13.3133,
+    "city": "Berlin"
+  },
+  "12209": {
+    "lat": 52.4179,
+    "lon": 13.3291,
+    "city": "Berlin"
+  },
+  "12247": {
+    "lat": 52.4395,
+    "lon": 13.3462,
+    "city": "Berlin"
+  },
+  "12249": {
+    "lat": 52.4264,
+    "lon": 13.3518,
+    "city": "Berlin"
+  },
+  "12274": {
+    "lat": 52.4116,
+    "lon": 13.383,
+    "city": "Willy Vogel AG"
+  },
+  "12277": {
+    "lat": 52.4134,
+    "lon": 13.375,
+    "city": "Berlin"
+  },
+  "12279": {
+    "lat": 52.4106,
+    "lon": 13.3531,
+    "city": "Berlin"
+  },
+  "12305": {
+    "lat": 52.4033,
+    "lon": 13.4021,
+    "city": "Berlin"
+  },
+  "12307": {
+    "lat": 52.3886,
+    "lon": 13.3907,
+    "city": "Berlin"
+  },
+  "12309": {
+    "lat": 52.3905,
+    "lon": 13.4171,
+    "city": "Berlin"
+  },
+  "12345": {
+    "lat": 52.4426,
+    "lon": 13.4385,
+    "city": "Krankenhaus Neukölln"
+  },
+  "12347": {
+    "lat": 52.4509,
+    "lon": 13.4281,
+    "city": "Berlin"
+  },
+  "12349": {
+    "lat": 52.4253,
+    "lon": 13.4221,
+    "city": "Berlin"
+  },
+  "12351": {
+    "lat": 52.4328,
+    "lon": 13.4555,
+    "city": "Berlin"
+  },
+  "12353": {
+    "lat": 52.4227,
+    "lon": 13.4589,
+    "city": "Berlin"
+  },
+  "12355": {
+    "lat": 52.411,
+    "lon": 13.4978,
+    "city": "Berlin"
+  },
+  "12357": {
+    "lat": 52.4293,
+    "lon": 13.4905,
+    "city": "Berlin"
+  },
+  "12359": {
+    "lat": 52.4473,
+    "lon": 13.4531,
+    "city": "Berlin"
+  },
+  "12435": {
+    "lat": 52.4866,
+    "lon": 13.4672,
+    "city": "Berlin"
+  },
+  "12437": {
+    "lat": 52.4624,
+    "lon": 13.4817,
+    "city": "Berlin"
+  },
+  "12439": {
+    "lat": 52.4528,
+    "lon": 13.5286,
+    "city": "Berlin"
+  },
+  "12459": {
+    "lat": 52.4656,
+    "lon": 13.528,
+    "city": "Berlin"
+  },
+  "12485": {
+    "lat": 52.4336,
+    "lon": 13.5569,
+    "city": "Berlin-Chemie-AG"
+  },
+  "12487": {
+    "lat": 52.4437,
+    "lon": 13.5052,
+    "city": "Berlin"
+  },
+  "12489": {
+    "lat": 52.4356,
+    "lon": 13.5432,
+    "city": "Berlin"
+  },
+  "12521": {
+    "lat": 52.3898,
+    "lon": 13.518,
+    "city": "Flughafen Berlin Brandenburg GmbH"
+  },
+  "12524": {
+    "lat": 52.4128,
+    "lon": 13.5417,
+    "city": "Berlin"
+  },
+  "12526": {
+    "lat": 52.3976,
+    "lon": 13.5642,
+    "city": "Berlin"
+  },
+  "12527": {
+    "lat": 52.3856,
+    "lon": 13.6339,
+    "city": "Berlin"
+  },
+  "12529": {
+    "lat": 52.4529,
+    "lon": 13.4519,
+    "city": "Berlin"
+  },
+  "12552": {
+    "lat": 52.4454,
+    "lon": 13.5936,
+    "city": "DRK Kliniken Köpenick"
+  },
+  "12555": {
+    "lat": 52.4627,
+    "lon": 13.5791,
+    "city": "Berlin"
+  },
+  "12557": {
+    "lat": 52.4303,
+    "lon": 13.592,
+    "city": "Berlin"
+  },
+  "12559": {
+    "lat": 52.4149,
+    "lon": 13.6634,
+    "city": "Berlin"
+  },
+  "12587": {
+    "lat": 52.4586,
+    "lon": 13.6362,
+    "city": "Berlin"
+  },
+  "12589": {
+    "lat": 52.4438,
+    "lon": 13.7034,
+    "city": "Berlin"
+  },
+  "12616": {
+    "lat": 52.5202,
+    "lon": 13.6052,
+    "city": "Krankenhaus Kaulsdorf"
+  },
+  "12619": {
+    "lat": 52.5235,
+    "lon": 13.5883,
+    "city": "Berlin"
+  },
+  "12621": {
+    "lat": 52.5027,
+    "lon": 13.5878,
+    "city": "Berlin"
+  },
+  "12623": {
+    "lat": 52.5026,
+    "lon": 13.6165,
+    "city": "Berlin"
+  },
+  "12627": {
+    "lat": 52.5372,
+    "lon": 13.6135,
+    "city": "Berlin"
+  },
+  "12629": {
+    "lat": 52.5413,
+    "lon": 13.5901,
+    "city": "Berlin"
+  },
+  "12670": {
+    "lat": 52.5533,
+    "lon": 13.5429,
+    "city": "Deutsche Versicherungs - AG KD Berlin"
+  },
+  "12671": {
+    "lat": 52.5275,
+    "lon": 13.54,
+    "city": "Bezirksamt Marzahn von Berlin"
+  },
+  "12677": {
+    "lat": 52.5396,
+    "lon": 13.5525,
+    "city": "Gewerbepark"
+  },
+  "12678": {
+    "lat": 49.9966,
+    "lon": 8.6564,
+    "city": "Banc Tec GmbH"
+  },
+  "12679": {
+    "lat": 52.5501,
+    "lon": 13.566,
+    "city": "Berlin"
+  },
+  "12681": {
+    "lat": 52.5369,
+    "lon": 13.5367,
+    "city": "Berlin"
+  },
+  "12683": {
+    "lat": 52.5075,
+    "lon": 13.5591,
+    "city": "Berlin"
+  },
+  "12685": {
+    "lat": 52.5391,
+    "lon": 13.565,
+    "city": "Berlin"
+  },
+  "12687": {
+    "lat": 52.5564,
+    "lon": 13.5645,
+    "city": "Berlin"
+  },
+  "12689": {
+    "lat": 52.5665,
+    "lon": 13.5675,
+    "city": "Berlin"
+  },
+  "12712": {
+    "lat": 52.386,
+    "lon": 13.4895,
+    "city": "Deutsche Post AG Niederlassung BRIEF Berlin Südost"
+  },
+  "13047": {
+    "lat": 52.5497,
+    "lon": 13.4562,
+    "city": "Reinickendorf"
+  },
+  "13048": {
+    "lat": 52.546,
+    "lon": 13.5012,
+    "city": "imbau Berlin GmbH"
+  },
+  "13051": {
+    "lat": 52.5815,
+    "lon": 13.4908,
+    "city": "Berlin"
+  },
+  "13053": {
+    "lat": 52.55,
+    "lon": 13.5046,
+    "city": "Berlin"
+  },
+  "13055": {
+    "lat": 52.5401,
+    "lon": 13.496,
+    "city": "Berlin"
+  },
+  "13057": {
+    "lat": 52.5711,
+    "lon": 13.5415,
+    "city": "Berlin"
+  },
+  "13059": {
+    "lat": 52.5809,
+    "lon": 13.5217,
+    "city": "Berlin"
+  },
+  "13086": {
+    "lat": 52.5565,
+    "lon": 13.4482,
+    "city": "Berlin"
+  },
+  "13088": {
+    "lat": 52.5603,
+    "lon": 13.4708,
+    "city": "Berlin"
+  },
+  "13089": {
+    "lat": 52.5707,
+    "lon": 13.441,
+    "city": "Berlin"
+  },
+  "13122": {
+    "lat": 52.6294,
+    "lon": 13.5063,
+    "city": "HELIOS Klinikum Buch"
+  },
+  "13125": {
+    "lat": 52.6329,
+    "lon": 13.4829,
+    "city": "Berlin"
+  },
+  "13127": {
+    "lat": 52.62,
+    "lon": 13.438,
+    "city": "Berlin"
+  },
+  "13129": {
+    "lat": 52.5921,
+    "lon": 13.4579,
+    "city": "Berlin"
+  },
+  "13156": {
+    "lat": 52.5824,
+    "lon": 13.3997,
+    "city": "Berlin"
+  },
+  "13158": {
+    "lat": 52.5932,
+    "lon": 13.3835,
+    "city": "Berlin"
+  },
+  "13159": {
+    "lat": 52.623,
+    "lon": 13.3978,
+    "city": "Berlin"
+  },
+  "13187": {
+    "lat": 52.5695,
+    "lon": 13.4084,
+    "city": "Berlin"
+  },
+  "13189": {
+    "lat": 52.5643,
+    "lon": 13.4219,
+    "city": "Berlin"
+  },
+  "13340": {
+    "lat": 52.5577,
+    "lon": 13.3724,
+    "city": "Frölich & Kaufmann Verlag und Versand GmbH"
+  },
+  "13341": {
+    "lat": 52.527,
+    "lon": 13.3385,
+    "city": "Bezirksamt Mitte von Berlin"
+  },
+  "13342": {
+    "lat": 52.5418,
+    "lon": 13.3667,
+    "city": "Bayer Pharma AG"
+  },
+  "13343": {
+    "lat": 52.5497,
+    "lon": 13.3752,
+    "city": "Zentrales Mahngericht"
+  },
+  "13344": {
+    "lat": 52.5384,
+    "lon": 13.3401,
+    "city": "Karstadt AG"
+  },
+  "13347": {
+    "lat": 52.5491,
+    "lon": 13.3655,
+    "city": "Berlin"
+  },
+  "13349": {
+    "lat": 52.558,
+    "lon": 13.3473,
+    "city": "Berlin"
+  },
+  "13351": {
+    "lat": 52.5507,
+    "lon": 13.3328,
+    "city": "Berlin"
+  },
+  "13353": {
+    "lat": 52.5416,
+    "lon": 13.3495,
+    "city": "Berlin"
+  },
+  "13355": {
+    "lat": 52.5416,
+    "lon": 13.3904,
+    "city": "Berlin"
+  },
+  "13357": {
+    "lat": 52.5502,
+    "lon": 13.3828,
+    "city": "Berlin"
+  },
+  "13359": {
+    "lat": 52.5599,
+    "lon": 13.3851,
+    "city": "Berlin"
+  },
+  "13400": {
+    "lat": 52.5865,
+    "lon": 13.3234,
+    "city": "Bundesarchiv"
+  },
+  "13403": {
+    "lat": 52.5739,
+    "lon": 13.3224,
+    "city": "Berlin"
+  },
+  "13405": {
+    "lat": 52.5596,
+    "lon": 13.2967,
+    "city": "Berlin"
+  },
+  "13407": {
+    "lat": 52.5727,
+    "lon": 13.3512,
+    "city": "Berlin"
+  },
+  "13409": {
+    "lat": 52.5679,
+    "lon": 13.3714,
+    "city": "Berlin"
+  },
+  "13435": {
+    "lat": 52.602,
+    "lon": 13.3456,
+    "city": "Berlin"
+  },
+  "13437": {
+    "lat": 52.5905,
+    "lon": 13.3284,
+    "city": "Berlin"
+  },
+  "13439": {
+    "lat": 52.5976,
+    "lon": 13.3584,
+    "city": "Berlin"
+  },
+  "13465": {
+    "lat": 52.6399,
+    "lon": 13.2896,
+    "city": "Berlin"
+  },
+  "13467": {
+    "lat": 52.6171,
+    "lon": 13.3075,
+    "city": "Berlin"
+  },
+  "13469": {
+    "lat": 52.6119,
+    "lon": 13.3422,
+    "city": "Berlin"
+  },
+  "13496": {
+    "lat": 52.5784,
+    "lon": 13.2943,
+    "city": "Deutsche Post AG NL Rentenservice Berlin"
+  },
+  "13497": {
+    "lat": 52.5784,
+    "lon": 13.2943,
+    "city": "Deutsche Post AG NL Rentenservice Berlin"
+  },
+  "13498": {
+    "lat": 52.5319,
+    "lon": 13.3899,
+    "city": "lekker Energie GmbH"
+  },
+  "13499": {
+    "lat": 52.5761,
+    "lon": 13.2953,
+    "city": "Deutsche Telekom AG Group Supply Services"
+  },
+  "13500": {
+    "lat": 52.5835,
+    "lon": 13.2923,
+    "city": "Karstadt AG"
+  },
+  "13503": {
+    "lat": 52.6122,
+    "lon": 13.2488,
+    "city": "Berlin"
+  },
+  "13505": {
+    "lat": 52.5839,
+    "lon": 13.2404,
+    "city": "Berlin"
+  },
+  "13507": {
+    "lat": 52.5765,
+    "lon": 13.2717,
+    "city": "Berlin"
+  },
+  "13509": {
+    "lat": 52.5892,
+    "lon": 13.3006,
+    "city": "Berlin"
+  },
+  "13565": {
+    "lat": 52.5641,
+    "lon": 13.2202,
+    "city": "KBA-Berlin GmbH"
+  },
+  "13578": {
+    "lat": 52.5341,
+    "lon": 13.1939,
+    "city": "Hertie GmbH"
+  },
+  "13581": {
+    "lat": 52.531,
+    "lon": 13.1794,
+    "city": "Berlin"
+  },
+  "13583": {
+    "lat": 52.5437,
+    "lon": 13.1824,
+    "city": "Berlin"
+  },
+  "13585": {
+    "lat": 52.5477,
+    "lon": 13.2049,
+    "city": "Berlin"
+  },
+  "13587": {
+    "lat": 52.5767,
+    "lon": 13.1854,
+    "city": "Berlin"
+  },
+  "13589": {
+    "lat": 52.557,
+    "lon": 13.1676,
+    "city": "Berlin"
+  },
+  "13591": {
+    "lat": 52.5345,
+    "lon": 13.1405,
+    "city": "Berlin"
+  },
+  "13593": {
+    "lat": 52.5148,
+    "lon": 13.1672,
+    "city": "Berlin"
+  },
+  "13595": {
+    "lat": 52.5116,
+    "lon": 13.1962,
+    "city": "Berlin"
+  },
+  "13597": {
+    "lat": 52.5272,
+    "lon": 13.2195,
+    "city": "Berlin"
+  },
+  "13599": {
+    "lat": 52.5463,
+    "lon": 13.235,
+    "city": "Berlin"
+  },
+  "13619": {
+    "lat": 52.5391,
+    "lon": 13.2182,
+    "city": "Mail Box Direkt-Marketing Service GmbH"
+  },
+  "13622": {
+    "lat": 52.5355,
+    "lon": 13.2745,
+    "city": "Siemens AG"
+  },
+  "13623": {
+    "lat": 52.5375,
+    "lon": 13.2622,
+    "city": "Siemens AG"
+  },
+  "13624": {
+    "lat": 52.5374,
+    "lon": 13.2636,
+    "city": "Siemens AG ASI 6"
+  },
+  "13625": {
+    "lat": 52.5417,
+    "lon": 13.2843,
+    "city": "Osram GmbH"
+  },
+  "13627": {
+    "lat": 52.5398,
+    "lon": 13.2991,
+    "city": "Berlin"
+  },
+  "13629": {
+    "lat": 52.5422,
+    "lon": 13.2661,
+    "city": "Berlin"
+  },
+  "13660": {
+    "lat": 52.6203,
+    "lon": 13.2079,
+    "city": "Deutsche Post AG Niederlassung BRIEF Berlin Nord"
+  },
+  "14045": {
+    "lat": 52.5162,
+    "lon": 13.2804,
+    "city": "Agentur für Arbeit Berlin Nord"
+  },
+  "14046": {
+    "lat": 52.5072,
+    "lon": 13.278,
+    "city": "RBB, ARD Textredaktion"
+  },
+  "14047": {
+    "lat": 52.5132,
+    "lon": 13.2822,
+    "city": "Deutsche Rentenversicherung Berlin"
+  },
+  "14050": {
+    "lat": 52.5208,
+    "lon": 13.2683,
+    "city": "Berlin"
+  },
+  "14052": {
+    "lat": 52.5156,
+    "lon": 13.2569,
+    "city": "Berlin"
+  },
+  "14053": {
+    "lat": 52.5159,
+    "lon": 13.2387,
+    "city": "Berlin"
+  },
+  "14055": {
+    "lat": 52.502,
+    "lon": 13.2447,
+    "city": "Berlin"
+  },
+  "14057": {
+    "lat": 52.5073,
+    "lon": 13.2879,
+    "city": "Berlin"
+  },
+  "14059": {
+    "lat": 52.5205,
+    "lon": 13.2878,
+    "city": "Berlin"
+  },
+  "14089": {
+    "lat": 52.4708,
+    "lon": 13.1516,
+    "city": "Berlin"
+  },
+  "14107": {
+    "lat": 52.4112,
+    "lon": 13.1298,
+    "city": "Helmholtz-Zentrum Berlin für Materialien und Energie GmbH"
+  },
+  "14109": {
+    "lat": 52.4197,
+    "lon": 13.144,
+    "city": "Berlin"
+  },
+  "14129": {
+    "lat": 52.4463,
+    "lon": 13.2026,
+    "city": "Berlin"
+  },
+  "14131": {
+    "lat": 52.517,
+    "lon": 13.4,
+    "city": "Berlin"
+  },
+  "14160": {
+    "lat": 52.4208,
+    "lon": 13.2663,
+    "city": "Ford Werke AG"
+  },
+  "14163": {
+    "lat": 52.4368,
+    "lon": 13.2385,
+    "city": "Berlin"
+  },
+  "14165": {
+    "lat": 52.4175,
+    "lon": 13.2536,
+    "city": "Berlin"
+  },
+  "14167": {
+    "lat": 52.4212,
+    "lon": 13.2765,
+    "city": "Berlin"
+  },
+  "14169": {
+    "lat": 52.4496,
+    "lon": 13.2573,
+    "city": "Berlin"
+  },
+  "14191": {
+    "lat": 52.4725,
+    "lon": 13.299,
+    "city": "Umweltbundesamt"
+  },
+  "14193": {
+    "lat": 52.4831,
+    "lon": 13.2365,
+    "city": "Berlin"
+  },
+  "14195": {
+    "lat": 52.4589,
+    "lon": 13.2829,
+    "city": "Berlin"
+  },
+  "14197": {
+    "lat": 52.4734,
+    "lon": 13.3118,
+    "city": "Berlin"
+  },
+  "14199": {
+    "lat": 52.4777,
+    "lon": 13.2951,
+    "city": "Berlin"
+  },
+  "14322": {
+    "lat": 52.4008,
+    "lon": 13.2515,
+    "city": "AOK Nordost Die Gesundheitskasse"
+  },
+  "14328": {
+    "lat": 52.4742,
+    "lon": 13.3021,
+    "city": "Cornelsen Verlag GmbH & Co."
+  },
+  "14329": {
+    "lat": 52.4001,
+    "lon": 13.2468,
+    "city": "Verti früher Direct Line Versicherung AG"
+  },
+  "14424": {
+    "lat": 52.4154,
+    "lon": 12.9687,
+    "city": "Max-Planck-Institut"
+  },
+  "14425": {
+    "lat": 52.3923,
+    "lon": 13.0827,
+    "city": "BASE c/o E-Plus Service GmbH & Co.KG"
+  },
+  "14456": {
+    "lat": 52.4008,
+    "lon": 13.2515,
+    "city": "AOK Nordost Die Gesundheitskasse"
+  },
+  "14457": {
+    "lat": 52.5072,
+    "lon": 13.3785,
+    "city": "Deutsche Post AG Direkt Marketing Center Potsdam"
+  },
+  "14458": {
+    "lat": 52.3748,
+    "lon": 13.0137,
+    "city": "Ostdeutsche Sparkassenakademie"
+  },
+  "14459": {
+    "lat": 52.3624,
+    "lon": 13.0948,
+    "city": "Mittelbrandenburgische Sparkasse in Potsdam"
+  },
+  "14461": {
+    "lat": 52.4031,
+    "lon": 13.0625,
+    "city": "Potsdam"
+  },
+  "14462": {
+    "lat": 52.3805,
+    "lon": 13.0866,
+    "city": "Agentur für Arbeit Potsdam"
+  },
+  "14463": {
+    "lat": 52.3748,
+    "lon": 13.0137,
+    "city": "LBS Landesbausparkasse NordOst AG"
+  },
+  "14464": {
+    "lat": 52.3771,
+    "lon": 13.3063,
+    "city": "Zalando Lounge"
+  },
+  "14465": {
+    "lat": 52.3882,
+    "lon": 13.0784,
+    "city": "Familienkasse Berlin-Brandenburg"
+  },
+  "14467": {
+    "lat": 52.403,
+    "lon": 13.0626,
+    "city": "Potsdam"
+  },
+  "14469": {
+    "lat": 52.4091,
+    "lon": 12.9899,
+    "city": "Potsdam"
+  },
+  "14471": {
+    "lat": 52.3744,
+    "lon": 13.0102,
+    "city": "Potsdam"
+  },
+  "14473": {
+    "lat": 52.3908,
+    "lon": 13.0645,
+    "city": "Potsdam"
+  },
+  "14476": {
+    "lat": 52.4582,
+    "lon": 12.9938,
+    "city": "Golm"
+  },
+  "14478": {
+    "lat": 52.3725,
+    "lon": 13.0914,
+    "city": "Potsdam"
+  },
+  "14480": {
+    "lat": 52.3689,
+    "lon": 13.1273,
+    "city": "Potsdam"
+  },
+  "14482": {
+    "lat": 52.3871,
+    "lon": 13.0993,
+    "city": "Potsdam"
+  },
+  "14510": {
+    "lat": 52.4013,
+    "lon": 13.2436,
+    "city": "AOK für das Land Brandenburg"
+  },
+  "14513": {
+    "lat": 52.4031,
+    "lon": 13.2601,
+    "city": "Teltow"
+  },
+  "14532": {
+    "lat": 52.3518,
+    "lon": 13.1821,
+    "city": "Nudow"
+  },
+  "14542": {
+    "lat": 52.3449,
+    "lon": 12.8512,
+    "city": "Schwielowsee"
+  },
+  "14547": {
+    "lat": 52.2416,
+    "lon": 13.0253,
+    "city": "Stücken"
+  },
+  "14548": {
+    "lat": 52.3389,
+    "lon": 12.9722,
+    "city": "Schwielowsee"
+  },
+  "14550": {
+    "lat": 52.4173,
+    "lon": 12.7974,
+    "city": "Deetz"
+  },
+  "14552": {
+    "lat": 52.2906,
+    "lon": 13.0824,
+    "city": "Fresdorf"
+  },
+  "14554": {
+    "lat": 52.2722,
+    "lon": 13.0167,
+    "city": "Seddiner See"
+  },
+  "14557": {
+    "lat": 52.3243,
+    "lon": 13.0645,
+    "city": "Langerwisch"
+  },
+  "14558": {
+    "lat": 52.3472,
+    "lon": 13.1053,
+    "city": "Bergholz-Rehbrücke"
+  },
+  "14612": {
+    "lat": 52.5601,
+    "lon": 13.0927,
+    "city": "Falkensee"
+  },
+  "14621": {
+    "lat": 52.6192,
+    "lon": 13.1265,
+    "city": "Schönwalde"
+  },
+  "14624": {
+    "lat": 52.5427,
+    "lon": 13.0584,
+    "city": "Dallgow-Döberitz"
+  },
+  "14627": {
+    "lat": 52.5425,
+    "lon": 12.9879,
+    "city": "Elstal"
+  },
+  "14641": {
+    "lat": 52.6173,
+    "lon": 12.8436,
+    "city": "Etzin"
+  },
+  "14655": {
+    "lat": 52.6038,
+    "lon": 12.9745,
+    "city": "MyBrands Zalando eLogistics GmbH & Co.KG"
+  },
+  "14656": {
+    "lat": 52.5833,
+    "lon": 13,
+    "city": "Brieselang"
+  },
+  "14662": {
+    "lat": 52.711,
+    "lon": 12.6149,
+    "city": "Warsow"
+  },
+  "14669": {
+    "lat": 52.4809,
+    "lon": 12.8149,
+    "city": "Ketzin"
+  },
+  "14710": {
+    "lat": 52.6048,
+    "lon": 12.3491,
+    "city": "Landkreis Havelland Haupt und Personalamt"
+  },
+  "14712": {
+    "lat": 52.6066,
+    "lon": 12.337,
+    "city": "Rathenow"
+  },
+  "14715": {
+    "lat": 52.5855,
+    "lon": 12.4367,
+    "city": "Liepe"
+  },
+  "14727": {
+    "lat": 52.527,
+    "lon": 12.3584,
+    "city": "Premnitz"
+  },
+  "14728": {
+    "lat": 52.7323,
+    "lon": 12.3747,
+    "city": "Rhinow"
+  },
+  "14765": {
+    "lat": 52.4118,
+    "lon": 12.5408,
+    "city": "Landesjustizkasse bei dem Brandenburgischen Oberlandesgericht"
+  },
+  "14767": {
+    "lat": 52.4092,
+    "lon": 12.5442,
+    "city": "Amtsgericht"
+  },
+  "14770": {
+    "lat": 52.4189,
+    "lon": 12.5228,
+    "city": "Brandenburg an der Havel"
+  },
+  "14772": {
+    "lat": 52.4358,
+    "lon": 12.5297,
+    "city": "Brandenburg an der Havel"
+  },
+  "14774": {
+    "lat": 52.3864,
+    "lon": 12.4144,
+    "city": "Brandenburg an der Havel"
+  },
+  "14776": {
+    "lat": 52.4043,
+    "lon": 12.568,
+    "city": "Brandenburg an der Havel"
+  },
+  "14778": {
+    "lat": 52.3595,
+    "lon": 12.6163,
+    "city": "Götz"
+  },
+  "14789": {
+    "lat": 52.3709,
+    "lon": 12.3588,
+    "city": "Rosenau"
+  },
+  "14793": {
+    "lat": 52.2265,
+    "lon": 12.3637,
+    "city": "Ziesar"
+  },
+  "14797": {
+    "lat": 52.3271,
+    "lon": 12.6625,
+    "city": "Kloster Lehnin"
+  },
+  "14798": {
+    "lat": 52.4929,
+    "lon": 12.4667,
+    "city": "Havelsee"
+  },
+  "14806": {
+    "lat": 52.1413,
+    "lon": 12.6059,
+    "city": "Belzig"
+  },
+  "14822": {
+    "lat": 52.2059,
+    "lon": 12.7861,
+    "city": "Brück"
+  },
+  "14823": {
+    "lat": 52.0686,
+    "lon": 12.6805,
+    "city": "Niemegk"
+  },
+  "14827": {
+    "lat": 52.1146,
+    "lon": 12.4553,
+    "city": "Wiesenburg"
+  },
+  "14828": {
+    "lat": 52.1718,
+    "lon": 12.3751,
+    "city": "Görzke"
+  },
+  "14913": {
+    "lat": 51.9442,
+    "lon": 13.232,
+    "city": "Ihlow"
+  },
+  "14929": {
+    "lat": 52.0975,
+    "lon": 12.8726,
+    "city": "Treuenbrietzen"
+  },
+  "14943": {
+    "lat": 52.1442,
+    "lon": 13.1426,
+    "city": "Lühsdorf"
+  },
+  "14947": {
+    "lat": 52.1116,
+    "lon": 13.2152,
+    "city": "Nuthe-Urstromtal"
+  },
+  "14959": {
+    "lat": 52.2149,
+    "lon": 13.1857,
+    "city": "Trebbin"
+  },
+  "14974": {
+    "lat": 52.2779,
+    "lon": 13.2468,
+    "city": "Thyrow"
+  },
+  "14979": {
+    "lat": 52.3586,
+    "lon": 13.3099,
+    "city": "Großbeeren"
+  },
+  "14980": {
+    "lat": 52.3771,
+    "lon": 13.3063,
+    "city": "Zalando Lounge"
+  },
+  "15220": {
+    "lat": 52.3298,
+    "lon": 14.5328,
+    "city": "Agentur für Arbeit Frankfurt (Oder)"
+  },
+  "15224": {
+    "lat": 52.2914,
+    "lon": 14.4697,
+    "city": "ARGUS DATA INSIGHTS Service GmbH"
+  },
+  "15227": {
+    "lat": 52.559,
+    "lon": 13.441,
+    "city": "Bundesverwaltungsamt"
+  },
+  "15228": {
+    "lat": 52.3112,
+    "lon": 14.4859,
+    "city": "Deutsche Rentenversicherung Berlin-Brandenburg"
+  },
+  "15229": {
+    "lat": 52.3399,
+    "lon": 14.5407,
+    "city": "Oder-Spree Energieversorgung AG"
+  },
+  "15230": {
+    "lat": 52.3475,
+    "lon": 14.5539,
+    "city": "Frankfurt (Oder)"
+  },
+  "15232": {
+    "lat": 52.3241,
+    "lon": 14.5325,
+    "city": "Frankfurt (Oder)"
+  },
+  "15234": {
+    "lat": 52.3646,
+    "lon": 14.5244,
+    "city": "Frankfurt (Oder)"
+  },
+  "15236": {
+    "lat": 52.3573,
+    "lon": 14.4049,
+    "city": "Treplin"
+  },
+  "15295": {
+    "lat": 52.2363,
+    "lon": 14.5797,
+    "city": "Wiesenau"
+  },
+  "15299": {
+    "lat": 52.1776,
+    "lon": 14.4084,
+    "city": "Mixdorf"
+  },
+  "15306": {
+    "lat": 52.5072,
+    "lon": 14.3652,
+    "city": "Werbig"
+  },
+  "15320": {
+    "lat": 52.6375,
+    "lon": 14.247,
+    "city": "Sietzing"
+  },
+  "15324": {
+    "lat": 52.6827,
+    "lon": 14.3556,
+    "city": "Ortwig"
+  },
+  "15326": {
+    "lat": 52.4334,
+    "lon": 14.4602,
+    "city": "Lebus"
+  },
+  "15328": {
+    "lat": 52.5678,
+    "lon": 14.5286,
+    "city": "Golzow"
+  },
+  "15344": {
+    "lat": 52.5786,
+    "lon": 13.8874,
+    "city": "Strausberg"
+  },
+  "15345": {
+    "lat": 52.5775,
+    "lon": 13.9627,
+    "city": "Werder"
+  },
+  "15366": {
+    "lat": 52.5382,
+    "lon": 13.7813,
+    "city": "Hönow"
+  },
+  "15370": {
+    "lat": 52.5125,
+    "lon": 13.7667,
+    "city": "Fredersdorf-Vogelsdorf"
+  },
+  "15372": {
+    "lat": 52.5,
+    "lon": 14.1333,
+    "city": "Müncheberg"
+  },
+  "15374": {
+    "lat": 52.5114,
+    "lon": 14.1359,
+    "city": "Müncheberg"
+  },
+  "15377": {
+    "lat": 52.5976,
+    "lon": 14.0785,
+    "city": "Ihlow"
+  },
+  "15378": {
+    "lat": 52.4947,
+    "lon": 13.8521,
+    "city": "Herzfelde"
+  },
+  "15515": {
+    "lat": 52.3618,
+    "lon": 14.0651,
+    "city": "Finanzamt"
+  },
+  "15517": {
+    "lat": 52.3824,
+    "lon": 14.0517,
+    "city": "Fürstenwalde/Spree"
+  },
+  "15518": {
+    "lat": 52.3937,
+    "lon": 14.1598,
+    "city": "Rauen"
+  },
+  "15526": {
+    "lat": 52.2765,
+    "lon": 14.0562,
+    "city": "Bad Saarow"
+  },
+  "15528": {
+    "lat": 52.3619,
+    "lon": 13.8935,
+    "city": "Spreenhagen"
+  },
+  "15537": {
+    "lat": 52.4187,
+    "lon": 13.8276,
+    "city": "Gosen"
+  },
+  "15559": {
+    "lat": 52.4859,
+    "lon": 13.8247,
+    "city": "Dienstleistungszentrum der Cemex"
+  },
+  "15562": {
+    "lat": 52.4707,
+    "lon": 13.7736,
+    "city": "Rüdersdorf bei Berlin"
+  },
+  "15566": {
+    "lat": 52.4598,
+    "lon": 13.7054,
+    "city": "Schöneiche bei Berlin"
+  },
+  "15569": {
+    "lat": 52.446,
+    "lon": 13.756,
+    "city": "Woltersdorf"
+  },
+  "15711": {
+    "lat": 52.286,
+    "lon": 13.6218,
+    "city": "Zeesen"
+  },
+  "15712": {
+    "lat": 52.2967,
+    "lon": 13.7048,
+    "city": "Senzig"
+  },
+  "15713": {
+    "lat": 52.3431,
+    "lon": 13.6767,
+    "city": "Wernsdorf"
+  },
+  "15732": {
+    "lat": 52.3624,
+    "lon": 13.5905,
+    "city": "Eichwalde"
+  },
+  "15738": {
+    "lat": 52.348,
+    "lon": 13.6217,
+    "city": "Zeuthen"
+  },
+  "15741": {
+    "lat": 52.2273,
+    "lon": 13.6471,
+    "city": "Pätz"
+  },
+  "15745": {
+    "lat": 52.3167,
+    "lon": 13.6333,
+    "city": "Wildau"
+  },
+  "15746": {
+    "lat": 52.1659,
+    "lon": 13.6594,
+    "city": "Groß Köris"
+  },
+  "15748": {
+    "lat": 52.1285,
+    "lon": 13.7999,
+    "city": "Münchehofe"
+  },
+  "15749": {
+    "lat": 52.298,
+    "lon": 13.5407,
+    "city": "Ragow"
+  },
+  "15752": {
+    "lat": 52.2234,
+    "lon": 13.8044,
+    "city": "Kolberg"
+  },
+  "15754": {
+    "lat": 52.2737,
+    "lon": 13.7741,
+    "city": "Gussow"
+  },
+  "15755": {
+    "lat": 52.1504,
+    "lon": 13.61,
+    "city": "Teupitz"
+  },
+  "15757": {
+    "lat": 52.092,
+    "lon": 13.7039,
+    "city": "Halbe"
+  },
+  "15806": {
+    "lat": 52.2179,
+    "lon": 13.4188,
+    "city": "Telz"
+  },
+  "15827": {
+    "lat": 52.3291,
+    "lon": 13.4261,
+    "city": "Dahlewitz"
+  },
+  "15831": {
+    "lat": 52.3533,
+    "lon": 13.4514,
+    "city": "Mahlow"
+  },
+  "15834": {
+    "lat": 52.2913,
+    "lon": 13.4195,
+    "city": "Rangsdorf"
+  },
+  "15837": {
+    "lat": 52.05,
+    "lon": 13.5,
+    "city": "Baruth/Mark"
+  },
+  "15838": {
+    "lat": 52.1407,
+    "lon": 13.4048,
+    "city": "Wünsdorf"
+  },
+  "15848": {
+    "lat": 52.1516,
+    "lon": 14.2196,
+    "city": "Tauche"
+  },
+  "15859": {
+    "lat": 52.2276,
+    "lon": 13.8948,
+    "city": "Rieplos"
+  },
+  "15864": {
+    "lat": 52.2204,
+    "lon": 14.0759,
+    "city": "Wendisch Rietz"
+  },
+  "15868": {
+    "lat": 52.0296,
+    "lon": 14.3467,
+    "city": "Jamlitz"
+  },
+  "15887": {
+    "lat": 52.165,
+    "lon": 14.606,
+    "city": "Medent GmbH"
+  },
+  "15888": {
+    "lat": 52.162,
+    "lon": 14.6276,
+    "city": "EKO - Stahl AG"
+  },
+  "15890": {
+    "lat": 52.1615,
+    "lon": 14.56,
+    "city": "Vogelsang"
+  },
+  "15898": {
+    "lat": 52.0625,
+    "lon": 14.6392,
+    "city": "Lawitz"
+  },
+  "15907": {
+    "lat": 51.9455,
+    "lon": 13.8852,
+    "city": "Lübben (Spreewald)"
+  },
+  "15910": {
+    "lat": 52.0582,
+    "lon": 13.9206,
+    "city": "Kuschkow"
+  },
+  "15913": {
+    "lat": 51.9719,
+    "lon": 14.1002,
+    "city": "Goyatz"
+  },
+  "15926": {
+    "lat": 51.8409,
+    "lon": 13.6966,
+    "city": "Duben"
+  },
+  "15936": {
+    "lat": 51.9229,
+    "lon": 13.4681,
+    "city": "Dahmetal"
+  },
+  "15938": {
+    "lat": 51.9461,
+    "lon": 13.5839,
+    "city": "Golßen"
+  },
+  "16222": {
+    "lat": 52.836,
+    "lon": 13.8078,
+    "city": "Agentur für Arbeit Eberswalde"
+  },
+  "16225": {
+    "lat": 52.8342,
+    "lon": 13.8218,
+    "city": "Eberswalde"
+  },
+  "16227": {
+    "lat": 52.8333,
+    "lon": 13.8333,
+    "city": "Eberswalde"
+  },
+  "16230": {
+    "lat": 52.8124,
+    "lon": 13.7855,
+    "city": "Britz"
+  },
+  "16244": {
+    "lat": 52.8866,
+    "lon": 13.7355,
+    "city": "Altenhof"
+  },
+  "16247": {
+    "lat": 52.9826,
+    "lon": 13.8011,
+    "city": "Ziethen"
+  },
+  "16248": {
+    "lat": 52.8833,
+    "lon": 14.0211,
+    "city": "Liepe"
+  },
+  "16259": {
+    "lat": 52.7652,
+    "lon": 14.042,
+    "city": "Bralitz"
+  },
+  "16269": {
+    "lat": 52.6912,
+    "lon": 14.1394,
+    "city": "Wriezen"
+  },
+  "16278": {
+    "lat": 53.049,
+    "lon": 14.0055,
+    "city": "Mürow"
+  },
+  "16303": {
+    "lat": 53.066,
+    "lon": 14.2711,
+    "city": "Schwedt/Oder"
+  },
+  "16306": {
+    "lat": 53.1757,
+    "lon": 14.2057,
+    "city": "Zichow"
+  },
+  "16307": {
+    "lat": 53.2624,
+    "lon": 14.3679,
+    "city": "Rosow"
+  },
+  "16321": {
+    "lat": 52.687,
+    "lon": 13.5969,
+    "city": "Bernau"
+  },
+  "16341": {
+    "lat": 52.638,
+    "lon": 13.5425,
+    "city": "Zepernick"
+  },
+  "16348": {
+    "lat": 52.8159,
+    "lon": 13.5156,
+    "city": "Prenden"
+  },
+  "16352": {
+    "lat": 52.6815,
+    "lon": 13.4412,
+    "city": "Basdorf"
+  },
+  "16356": {
+    "lat": 52.6332,
+    "lon": 13.663,
+    "city": "Eiche"
+  },
+  "16359": {
+    "lat": 52.7636,
+    "lon": 13.6048,
+    "city": "Lanke"
+  },
+  "16515": {
+    "lat": 52.7891,
+    "lon": 13.3107,
+    "city": "Malz"
+  },
+  "16540": {
+    "lat": 52.6687,
+    "lon": 13.2686,
+    "city": "Stolpe"
+  },
+  "16547": {
+    "lat": 52.6833,
+    "lon": 13.2833,
+    "city": "Birkenwerder"
+  },
+  "16548": {
+    "lat": 52.6351,
+    "lon": 13.3075,
+    "city": "Glienicke/Nordbahn"
+  },
+  "16552": {
+    "lat": 52.6363,
+    "lon": 13.376,
+    "city": "Schildow"
+  },
+  "16556": {
+    "lat": 52.7129,
+    "lon": 13.2767,
+    "city": "Borgsdorf"
+  },
+  "16559": {
+    "lat": 52.8761,
+    "lon": 13.4295,
+    "city": "Hammer"
+  },
+  "16562": {
+    "lat": 52.6729,
+    "lon": 13.3186,
+    "city": "Bergfelde"
+  },
+  "16565": {
+    "lat": 52.7405,
+    "lon": 13.2627,
+    "city": "Lehnitz"
+  },
+  "16567": {
+    "lat": 52.6601,
+    "lon": 13.3576,
+    "city": "Mühlenbeck"
+  },
+  "16727": {
+    "lat": 52.6374,
+    "lon": 13.246,
+    "city": "Velten"
+  },
+  "16759": {
+    "lat": 52.6328,
+    "lon": 13.2105,
+    "city": "B.R.A.H.M.S. Diagnostica GmbH"
+  },
+  "16761": {
+    "lat": 52.636,
+    "lon": 13.2042,
+    "city": "Hennigsdorf"
+  },
+  "16766": {
+    "lat": 52.6728,
+    "lon": 13.171,
+    "city": "Kremmen"
+  },
+  "16767": {
+    "lat": 52.7367,
+    "lon": 13.1816,
+    "city": "Leegebruch"
+  },
+  "16775": {
+    "lat": 53.0291,
+    "lon": 13.2161,
+    "city": "Kappe"
+  },
+  "16792": {
+    "lat": 52.9868,
+    "lon": 13.3966,
+    "city": "Wesendorf"
+  },
+  "16798": {
+    "lat": 53.1888,
+    "lon": 13.1725,
+    "city": "Zootzen"
+  },
+  "16814": {
+    "lat": 52.8895,
+    "lon": 12.8098,
+    "city": "Agentur für Arbeit Neuruppin"
+  },
+  "16816": {
+    "lat": 52.9282,
+    "lon": 12.8031,
+    "city": "Neuruppin"
+  },
+  "16818": {
+    "lat": 52.9219,
+    "lon": 12.7724,
+    "city": "Basdorf"
+  },
+  "16827": {
+    "lat": 52.9483,
+    "lon": 12.848,
+    "city": "Alt Ruppin"
+  },
+  "16831": {
+    "lat": 53.1055,
+    "lon": 12.8925,
+    "city": "Rheinsberg"
+  },
+  "16833": {
+    "lat": 52.7857,
+    "lon": 12.7732,
+    "city": "Fehrbellin"
+  },
+  "16835": {
+    "lat": 52.954,
+    "lon": 12.9904,
+    "city": "Vielitz"
+  },
+  "16837": {
+    "lat": 53.1556,
+    "lon": 12.7806,
+    "city": "Rheinsberg Kagar"
+  },
+  "16845": {
+    "lat": 52.8618,
+    "lon": 12.4749,
+    "city": "Dreetz"
+  },
+  "16866": {
+    "lat": 52.9828,
+    "lon": 12.2617,
+    "city": "Kunow"
+  },
+  "16868": {
+    "lat": 52.8833,
+    "lon": 12.4667,
+    "city": "Wusterhausen (Dosse)"
+  },
+  "16909": {
+    "lat": 53.1518,
+    "lon": 12.4802,
+    "city": "Heiligengrabe"
+  },
+  "16918": {
+    "lat": 53.2833,
+    "lon": 12.35,
+    "city": "Wittstock/Dosse Freyenstein"
+  },
+  "16921": {
+    "lat": 53.15,
+    "lon": 12.2667,
+    "city": "Alt Krüssow"
+  },
+  "16928": {
+    "lat": 53.1162,
+    "lon": 12.1849,
+    "city": "Helle"
+  },
+  "16945": {
+    "lat": 53.2771,
+    "lon": 12.201,
+    "city": "Meyenburg"
+  },
+  "16949": {
+    "lat": 53.2329,
+    "lon": 12.0709,
+    "city": "Putlitz"
+  },
+  "17030": {
+    "lat": 53.5193,
+    "lon": 13.2584,
+    "city": "Deutsche Rentenversicherung"
+  },
+  "17033": {
+    "lat": 53.5476,
+    "lon": 13.2555,
+    "city": "Neubrandenburg"
+  },
+  "17034": {
+    "lat": 53.5761,
+    "lon": 13.2797,
+    "city": "Neubrandenburg"
+  },
+  "17036": {
+    "lat": 53.5537,
+    "lon": 13.2969,
+    "city": "Neubrandenburg"
+  },
+  "17039": {
+    "lat": 53.6091,
+    "lon": 13.3074,
+    "city": "Brunn"
+  },
+  "17049": {
+    "lat": 53.5752,
+    "lon": 13.2134,
+    "city": "Deutsche Post AG Niederlassung BRIEF Neubrandenburg"
+  },
+  "17050": {
+    "lat": 53.5686,
+    "lon": 13.2678,
+    "city": "Agentur für Arbeit Neubrandenburg"
+  },
+  "17087": {
+    "lat": 53.6942,
+    "lon": 13.265,
+    "city": "Altentreptow"
+  },
+  "17089": {
+    "lat": 53.7571,
+    "lon": 13.2958,
+    "city": "Burow"
+  },
+  "17091": {
+    "lat": 53.6752,
+    "lon": 13.1147,
+    "city": "Mölln"
+  },
+  "17094": {
+    "lat": 53.4836,
+    "lon": 13.3409,
+    "city": "Cammin"
+  },
+  "17098": {
+    "lat": 53.6703,
+    "lon": 13.554,
+    "city": "Friedland"
+  },
+  "17099": {
+    "lat": 53.6319,
+    "lon": 13.4887,
+    "city": "Brohm"
+  },
+  "17109": {
+    "lat": 53.9076,
+    "lon": 13.0314,
+    "city": "Demmin"
+  },
+  "17111": {
+    "lat": 53.855,
+    "lon": 13.0348,
+    "city": "Upost"
+  },
+  "17121": {
+    "lat": 53.9883,
+    "lon": 13.1674,
+    "city": "Loitz"
+  },
+  "17126": {
+    "lat": 53.9239,
+    "lon": 13.3403,
+    "city": "Jarmen"
+  },
+  "17129": {
+    "lat": 53.8844,
+    "lon": 13.2683,
+    "city": "Plötz"
+  },
+  "17139": {
+    "lat": 53.7053,
+    "lon": 12.7482,
+    "city": "Gielow"
+  },
+  "17153": {
+    "lat": 53.6677,
+    "lon": 12.9168,
+    "city": "Gülzow"
+  },
+  "17154": {
+    "lat": 53.8227,
+    "lon": 12.7901,
+    "city": "Neukalen"
+  },
+  "17159": {
+    "lat": 53.9148,
+    "lon": 12.8517,
+    "city": "Wagun"
+  },
+  "17166": {
+    "lat": 53.7452,
+    "lon": 12.5641,
+    "city": "Bülow"
+  },
+  "17168": {
+    "lat": 53.8677,
+    "lon": 12.5704,
+    "city": "Remlin"
+  },
+  "17179": {
+    "lat": 53.9635,
+    "lon": 12.6823,
+    "city": "Gnoien"
+  },
+  "17192": {
+    "lat": 53.5469,
+    "lon": 12.7743,
+    "city": "Klink"
+  },
+  "17194": {
+    "lat": 53.6017,
+    "lon": 12.5644,
+    "city": "Jabel"
+  },
+  "17207": {
+    "lat": 53.3762,
+    "lon": 12.5914,
+    "city": "Kambs"
+  },
+  "17209": {
+    "lat": 53.3459,
+    "lon": 12.4843,
+    "city": "Melz"
+  },
+  "17213": {
+    "lat": 53.45,
+    "lon": 12.4455,
+    "city": "Kogel"
+  },
+  "17214": {
+    "lat": 53.5221,
+    "lon": 12.4035,
+    "city": "Silz"
+  },
+  "17217": {
+    "lat": 53.5174,
+    "lon": 13.0848,
+    "city": "Lapitz"
+  },
+  "17219": {
+    "lat": 53.5208,
+    "lon": 12.9711,
+    "city": "Marihn"
+  },
+  "17235": {
+    "lat": 53.3613,
+    "lon": 13.0729,
+    "city": "Neustrelitz"
+  },
+  "17237": {
+    "lat": 53.3738,
+    "lon": 13.1667,
+    "city": "Grünow"
+  },
+  "17240": {
+    "lat": 52.5055,
+    "lon": 13.4473,
+    "city": "Zalando SE"
+  },
+  "17248": {
+    "lat": 53.3143,
+    "lon": 12.736,
+    "city": "Lärz"
+  },
+  "17252": {
+    "lat": 53.2595,
+    "lon": 12.8296,
+    "city": "Mirow"
+  },
+  "17255": {
+    "lat": 53.2422,
+    "lon": 12.9919,
+    "city": "Wustrow"
+  },
+  "17258": {
+    "lat": 53.3391,
+    "lon": 13.4188,
+    "city": "Feldberger Seenlandschaft"
+  },
+  "17259": {
+    "lat": 53.3391,
+    "lon": 13.4188,
+    "city": "Feldberger Seenlandschaft"
+  },
+  "17268": {
+    "lat": 53.1183,
+    "lon": 13.561,
+    "city": "Beutel"
+  },
+  "17279": {
+    "lat": 53.2124,
+    "lon": 13.3148,
+    "city": "Lychen"
+  },
+  "17291": {
+    "lat": 53.3132,
+    "lon": 13.9322,
+    "city": "Grünow"
+  },
+  "17305": {
+    "lat": 53.5081,
+    "lon": 14.0221,
+    "city": "bon prix Handelsgesellschaft mbH"
+  },
+  "17306": {
+    "lat": 53.5081,
+    "lon": 14.0221,
+    "city": "prix chic Handelsgesellschaft mbH"
+  },
+  "17308": {
+    "lat": 53.5081,
+    "lon": 14.0221,
+    "city": "Rainbow Handelsgesellschaft mbH"
+  },
+  "17309": {
+    "lat": 53.5029,
+    "lon": 14.0094,
+    "city": "Polzow"
+  },
+  "17321": {
+    "lat": 53.4795,
+    "lon": 14.2306,
+    "city": "Ramin"
+  },
+  "17322": {
+    "lat": 53.4615,
+    "lon": 14.2743,
+    "city": "Boock"
+  },
+  "17326": {
+    "lat": 53.3997,
+    "lon": 14.1253,
+    "city": "Brüssow"
+  },
+  "17328": {
+    "lat": 53.306,
+    "lon": 14.2268,
+    "city": "Wollin"
+  },
+  "17329": {
+    "lat": 53.3379,
+    "lon": 14.3074,
+    "city": "Krackow"
+  },
+  "17335": {
+    "lat": 53.5103,
+    "lon": 13.7451,
+    "city": "Strasburg"
+  },
+  "17337": {
+    "lat": 53.5419,
+    "lon": 13.7887,
+    "city": "Uckerland"
+  },
+  "17348": {
+    "lat": 53.4824,
+    "lon": 13.5479,
+    "city": "Woldegk"
+  },
+  "17349": {
+    "lat": 53.535,
+    "lon": 13.5502,
+    "city": "Helpt"
+  },
+  "17358": {
+    "lat": 53.6367,
+    "lon": 14.0095,
+    "city": "Hammer"
+  },
+  "17367": {
+    "lat": 53.6797,
+    "lon": 14.0799,
+    "city": "Eggesin"
+  },
+  "17373": {
+    "lat": 53.7379,
+    "lon": 14.0447,
+    "city": "Ueckermünde"
+  },
+  "17375": {
+    "lat": 53.7202,
+    "lon": 14.0894,
+    "city": "Luckow"
+  },
+  "17379": {
+    "lat": 53.6698,
+    "lon": 13.8459,
+    "city": "Lübs"
+  },
+  "17389": {
+    "lat": 53.8564,
+    "lon": 13.6897,
+    "city": "Anklam"
+  },
+  "17390": {
+    "lat": 53.9132,
+    "lon": 13.653,
+    "city": "Rubkow"
+  },
+  "17391": {
+    "lat": 53.8416,
+    "lon": 13.4702,
+    "city": "Iven"
+  },
+  "17392": {
+    "lat": 53.7717,
+    "lon": 13.5891,
+    "city": "Pelsin"
+  },
+  "17398": {
+    "lat": 53.768,
+    "lon": 13.7521,
+    "city": "Löwitz"
+  },
+  "17406": {
+    "lat": 53.9032,
+    "lon": 13.9553,
+    "city": "Usedom"
+  },
+  "17419": {
+    "lat": 53.8975,
+    "lon": 14.1572,
+    "city": "Garz"
+  },
+  "17424": {
+    "lat": 53.95,
+    "lon": 14.1667,
+    "city": "Heringsdorf"
+  },
+  "17429": {
+    "lat": 53.9476,
+    "lon": 14.0676,
+    "city": "Benz"
+  },
+  "17438": {
+    "lat": 54.0528,
+    "lon": 13.772,
+    "city": "Wolgast"
+  },
+  "17440": {
+    "lat": 54.0117,
+    "lon": 13.7899,
+    "city": "Lütow"
+  },
+  "17449": {
+    "lat": 54.1023,
+    "lon": 13.8252,
+    "city": "Mölschow"
+  },
+  "17454": {
+    "lat": 54.0667,
+    "lon": 13.9,
+    "city": "Zinnowitz"
+  },
+  "17459": {
+    "lat": 54.0379,
+    "lon": 14.0033,
+    "city": "Zempin"
+  },
+  "17474": {
+    "lat": 54.0735,
+    "lon": 13.3843,
+    "city": "Agentur für Arbeit"
+  },
+  "17475": {
+    "lat": 54.0931,
+    "lon": 13.3994,
+    "city": "Universitätsklinikum der E.-M.-A.-UNI Anstalt des öffentlichen Rechts"
+  },
+  "17489": {
+    "lat": 54.0881,
+    "lon": 13.3876,
+    "city": "Greifswald"
+  },
+  "17491": {
+    "lat": 54.083,
+    "lon": 13.4058,
+    "city": "Greifswald"
+  },
+  "17493": {
+    "lat": 54.0902,
+    "lon": 13.4464,
+    "city": "Greifswald"
+  },
+  "17495": {
+    "lat": 53.9892,
+    "lon": 13.5658,
+    "city": "Züssow"
+  },
+  "17498": {
+    "lat": 54.0647,
+    "lon": 13.3583,
+    "city": "Dargelin"
+  },
+  "17506": {
+    "lat": 53.9482,
+    "lon": 13.4258,
+    "city": "Kammin"
+  },
+  "17509": {
+    "lat": 54.0888,
+    "lon": 13.5991,
+    "city": "Lubmin"
+  },
+  "18048": {
+    "lat": 54.087,
+    "lon": 12.0851,
+    "city": "Agentur für Arbeit Rostock"
+  },
+  "18050": {
+    "lat": 54.0886,
+    "lon": 12.1408,
+    "city": "Hansestadt Rostock -Stadtverwaltung-"
+  },
+  "18051": {
+    "lat": 54.0867,
+    "lon": 12.1357,
+    "city": "Universität Rostock"
+  },
+  "18052": {
+    "lat": 54.0913,
+    "lon": 12.1155,
+    "city": "HUK-Coburg"
+  },
+  "18053": {
+    "lat": 54.092,
+    "lon": 12.1083,
+    "city": "Deutsche Telekom AG T-Systems"
+  },
+  "18055": {
+    "lat": 54.0865,
+    "lon": 12.1544,
+    "city": "Rostock"
+  },
+  "18057": {
+    "lat": 54.0872,
+    "lon": 12.1062,
+    "city": "Rostock"
+  },
+  "18059": {
+    "lat": 54.0285,
+    "lon": 12.0976,
+    "city": "Rostock"
+  },
+  "18060": {
+    "lat": 54.079,
+    "lon": 12.22,
+    "city": "Deutsche Post AG HR Service Germany"
+  },
+  "18069": {
+    "lat": 54.1053,
+    "lon": 12.0426,
+    "city": "Rostock"
+  },
+  "18101": {
+    "lat": 54.079,
+    "lon": 12.22,
+    "city": "Deutsche Post AG Niederlassung Rostock"
+  },
+  "18106": {
+    "lat": 54.0833,
+    "lon": 12.1333,
+    "city": "Rostock"
+  },
+  "18107": {
+    "lat": 54.151,
+    "lon": 12.0246,
+    "city": "Rostock"
+  },
+  "18109": {
+    "lat": 54.1471,
+    "lon": 12.0689,
+    "city": "Rostock"
+  },
+  "18119": {
+    "lat": 54.0833,
+    "lon": 12.1333,
+    "city": "Rostock"
+  },
+  "18146": {
+    "lat": 54.1282,
+    "lon": 12.1761,
+    "city": "Rostock"
+  },
+  "18147": {
+    "lat": 54.1243,
+    "lon": 12.1243,
+    "city": "Rostock"
+  },
+  "18181": {
+    "lat": 54.2512,
+    "lon": 12.2514,
+    "city": "Seeheilbad Graal-Müritz"
+  },
+  "18182": {
+    "lat": 54.1699,
+    "lon": 12.2763,
+    "city": "Bentwisch"
+  },
+  "18184": {
+    "lat": 54.1113,
+    "lon": 12.2428,
+    "city": "Roggentin"
+  },
+  "18190": {
+    "lat": 54.0776,
+    "lon": 12.3756,
+    "city": "Sanitz"
+  },
+  "18195": {
+    "lat": 54.0371,
+    "lon": 12.5148,
+    "city": "Selpin"
+  },
+  "18196": {
+    "lat": 54.0179,
+    "lon": 12.2167,
+    "city": "Damm"
+  },
+  "18198": {
+    "lat": 54.0468,
+    "lon": 12.0383,
+    "city": "Kritzmow"
+  },
+  "18209": {
+    "lat": 54.1009,
+    "lon": 11.8678,
+    "city": "Reddelich"
+  },
+  "18211": {
+    "lat": 54.1197,
+    "lon": 11.9388,
+    "city": "Retschow"
+  },
+  "18225": {
+    "lat": 54.15,
+    "lon": 11.75,
+    "city": "Kühlungsborn"
+  },
+  "18230": {
+    "lat": 54.0987,
+    "lon": 11.7011,
+    "city": "Rerik"
+  },
+  "18231": {
+    "lat": 54.0319,
+    "lon": 11.6725,
+    "city": "Neubukow"
+  },
+  "18233": {
+    "lat": 54.0108,
+    "lon": 11.6844,
+    "city": "Rakow"
+  },
+  "18236": {
+    "lat": 54.0462,
+    "lon": 11.8043,
+    "city": "Kröpelin"
+  },
+  "18239": {
+    "lat": 54.0068,
+    "lon": 11.9223,
+    "city": "Satow"
+  },
+  "18246": {
+    "lat": 53.8643,
+    "lon": 11.9473,
+    "city": "Rühn"
+  },
+  "18249": {
+    "lat": 53.8343,
+    "lon": 11.9362,
+    "city": "Tarnow"
+  },
+  "18258": {
+    "lat": 53.9303,
+    "lon": 12.1013,
+    "city": "Kassow"
+  },
+  "18271": {
+    "lat": 53.7976,
+    "lon": 12.1805,
+    "city": "Amt Güstrow-Land"
+  },
+  "18273": {
+    "lat": 53.7972,
+    "lon": 12.1734,
+    "city": "Güstrow"
+  },
+  "18276": {
+    "lat": 53.7843,
+    "lon": 12.1481,
+    "city": "Kuhs"
+  },
+  "18279": {
+    "lat": 53.7657,
+    "lon": 12.3941,
+    "city": "Plaaz"
+  },
+  "18292": {
+    "lat": 53.6674,
+    "lon": 12.2952,
+    "city": "Bellin"
+  },
+  "18299": {
+    "lat": 53.908,
+    "lon": 12.3259,
+    "city": "Laage"
+  },
+  "18311": {
+    "lat": 54.2422,
+    "lon": 12.4567,
+    "city": "Ribnitz-Damgarten"
+  },
+  "18314": {
+    "lat": 54.3133,
+    "lon": 12.6735,
+    "city": "Löbnitz"
+  },
+  "18317": {
+    "lat": 54.3105,
+    "lon": 12.4994,
+    "city": "Saal"
+  },
+  "18320": {
+    "lat": 54.2086,
+    "lon": 12.6003,
+    "city": "Schlemmin"
+  },
+  "18334": {
+    "lat": 54.1108,
+    "lon": 12.6739,
+    "city": "Eixen"
+  },
+  "18337": {
+    "lat": 54.1544,
+    "lon": 12.5726,
+    "city": "Marlow"
+  },
+  "18347": {
+    "lat": 54.3436,
+    "lon": 12.3995,
+    "city": "Wustrow"
+  },
+  "18356": {
+    "lat": 54.3675,
+    "lon": 12.6671,
+    "city": "Barth"
+  },
+  "18374": {
+    "lat": 54.4357,
+    "lon": 12.6888,
+    "city": "Zingst"
+  },
+  "18375": {
+    "lat": 54.4231,
+    "lon": 12.5704,
+    "city": "Wieck"
+  },
+  "18431": {
+    "lat": 54.338,
+    "lon": 13.0674,
+    "city": "Deutsche Rentenversicherung Bund"
+  },
+  "18432": {
+    "lat": 54.308,
+    "lon": 13.0688,
+    "city": "Agentur für Arbeit Stralsund"
+  },
+  "18435": {
+    "lat": 54.3272,
+    "lon": 13.0642,
+    "city": "Stralsund"
+  },
+  "18437": {
+    "lat": 54.3041,
+    "lon": 13.046,
+    "city": "Stralsund"
+  },
+  "18439": {
+    "lat": 54.3024,
+    "lon": 13.0928,
+    "city": "Stralsund"
+  },
+  "18442": {
+    "lat": 54.2871,
+    "lon": 12.9453,
+    "city": "Lüssow"
+  },
+  "18445": {
+    "lat": 54.37,
+    "lon": 12.9976,
+    "city": "Prohn"
+  },
+  "18461": {
+    "lat": 54.192,
+    "lon": 12.8543,
+    "city": "Franzburg"
+  },
+  "18465": {
+    "lat": 54.1285,
+    "lon": 12.7701,
+    "city": "Drechow"
+  },
+  "18469": {
+    "lat": 54.287,
+    "lon": 12.8007,
+    "city": "Karnin"
+  },
+  "18507": {
+    "lat": 54.1122,
+    "lon": 13.0405,
+    "city": "Grimmen"
+  },
+  "18510": {
+    "lat": 54.1898,
+    "lon": 13.0739,
+    "city": "Zarrendorf"
+  },
+  "18513": {
+    "lat": 54.0605,
+    "lon": 12.8962,
+    "city": "Glewitz"
+  },
+  "18516": {
+    "lat": 54.0762,
+    "lon": 13.1333,
+    "city": "Süderholz"
+  },
+  "18519": {
+    "lat": 54.1885,
+    "lon": 13.2139,
+    "city": "Horst"
+  },
+  "18528": {
+    "lat": 54.4489,
+    "lon": 13.4416,
+    "city": "Rappin"
+  },
+  "18546": {
+    "lat": 54.5127,
+    "lon": 13.62,
+    "city": "Sassnitz"
+  },
+  "18551": {
+    "lat": 54.5593,
+    "lon": 13.5434,
+    "city": "Glowe"
+  },
+  "18556": {
+    "lat": 54.6352,
+    "lon": 13.3283,
+    "city": "Wiek"
+  },
+  "18565": {
+    "lat": 54.549,
+    "lon": 13.1036,
+    "city": "Insel Hiddensee"
+  },
+  "18569": {
+    "lat": 54.4918,
+    "lon": 13.2545,
+    "city": "Kluis"
+  },
+  "18573": {
+    "lat": 54.3609,
+    "lon": 13.2295,
+    "city": "Rambin"
+  },
+  "18574": {
+    "lat": 54.3066,
+    "lon": 13.3121,
+    "city": "Garz"
+  },
+  "18581": {
+    "lat": 54.3551,
+    "lon": 13.4763,
+    "city": "Putbus"
+  },
+  "18586": {
+    "lat": 54.3352,
+    "lon": 13.6921,
+    "city": "Gager"
+  },
+  "18609": {
+    "lat": 54.3833,
+    "lon": 13.6167,
+    "city": "Binz"
+  },
+  "19020": {
+    "lat": 53.6592,
+    "lon": 11.3602,
+    "city": "Agentur für Arbeit Schwerin"
+  },
+  "19048": {
+    "lat": 53.6276,
+    "lon": 11.4127,
+    "city": "Finanzministerium M V"
+  },
+  "19049": {
+    "lat": 53.6512,
+    "lon": 11.4067,
+    "city": "Klinikum Schwerin"
+  },
+  "19050": {
+    "lat": 53.6062,
+    "lon": 11.4254,
+    "city": "Zeitungsverlag Schwerin GmbH & Co. KG"
+  },
+  "19051": {
+    "lat": 53.6312,
+    "lon": 11.4097,
+    "city": "Techniker Krankenkasse Servicezentrum Unfälle"
+  },
+  "19053": {
+    "lat": 53.6313,
+    "lon": 11.4092,
+    "city": "Schwerin"
+  },
+  "19055": {
+    "lat": 53.6441,
+    "lon": 11.4103,
+    "city": "Schwerin"
+  },
+  "19057": {
+    "lat": 53.6382,
+    "lon": 11.3766,
+    "city": "Schwerin"
+  },
+  "19059": {
+    "lat": 53.641,
+    "lon": 11.3905,
+    "city": "Schwerin"
+  },
+  "19061": {
+    "lat": 53.5992,
+    "lon": 11.404,
+    "city": "Schwerin"
+  },
+  "19063": {
+    "lat": 53.6007,
+    "lon": 11.4433,
+    "city": "Schwerin"
+  },
+  "19065": {
+    "lat": 53.6143,
+    "lon": 11.5405,
+    "city": "Godern"
+  },
+  "19067": {
+    "lat": 53.7008,
+    "lon": 11.5295,
+    "city": "Cambs"
+  },
+  "19069": {
+    "lat": 53.7172,
+    "lon": 11.3705,
+    "city": "Böken"
+  },
+  "19071": {
+    "lat": 53.6855,
+    "lon": 11.2664,
+    "city": "Grambow"
+  },
+  "19073": {
+    "lat": 53.5846,
+    "lon": 11.2788,
+    "city": "Zülow"
+  },
+  "19075": {
+    "lat": 53.547,
+    "lon": 11.3386,
+    "city": "Warsow"
+  },
+  "19077": {
+    "lat": 53.4831,
+    "lon": 11.4261,
+    "city": "Uelitz"
+  },
+  "19079": {
+    "lat": 53.5123,
+    "lon": 11.528,
+    "city": "Sukow"
+  },
+  "19085": {
+    "lat": 53.5547,
+    "lon": 11.5029,
+    "city": "VSP Versand-Service Plate oHG"
+  },
+  "19086": {
+    "lat": 53.5515,
+    "lon": 11.5093,
+    "city": "Plate"
+  },
+  "19089": {
+    "lat": 53.5717,
+    "lon": 11.6854,
+    "city": "Tramm"
+  },
+  "19101": {
+    "lat": 53.5675,
+    "lon": 11.3752,
+    "city": "Deutsche Post AG Niederlassung BRIEF Schwerin"
+  },
+  "19205": {
+    "lat": 53.6855,
+    "lon": 11.1096,
+    "city": "Dragun"
+  },
+  "19209": {
+    "lat": 53.6212,
+    "lon": 11.1743,
+    "city": "Badow"
+  },
+  "19217": {
+    "lat": 53.7603,
+    "lon": 10.9674,
+    "city": "Bülow"
+  },
+  "19230": {
+    "lat": 53.4146,
+    "lon": 11.2253,
+    "city": "Hoort"
+  },
+  "19243": {
+    "lat": 53.5274,
+    "lon": 11.0712,
+    "city": "Karft"
+  },
+  "19246": {
+    "lat": 53.5363,
+    "lon": 10.9363,
+    "city": "Kogel"
+  },
+  "19249": {
+    "lat": 53.3065,
+    "lon": 11.0806,
+    "city": "Gößlow"
+  },
+  "19258": {
+    "lat": 53.4146,
+    "lon": 10.7825,
+    "city": "Greven"
+  },
+  "19260": {
+    "lat": 53.4151,
+    "lon": 10.9327,
+    "city": "Bennin"
+  },
+  "19273": {
+    "lat": 53.3364,
+    "lon": 10.9322,
+    "city": "Teldau"
+  },
+  "19288": {
+    "lat": 53.3449,
+    "lon": 11.4184,
+    "city": "Lüblow"
+  },
+  "19294": {
+    "lat": 53.2202,
+    "lon": 11.3824,
+    "city": "Grebs"
+  },
+  "19300": {
+    "lat": 53.2567,
+    "lon": 11.6369,
+    "city": "Balow"
+  },
+  "19303": {
+    "lat": 53.1789,
+    "lon": 11.2207,
+    "city": "Polz"
+  },
+  "19306": {
+    "lat": 53.3746,
+    "lon": 11.6413,
+    "city": "Brenz"
+  },
+  "19309": {
+    "lat": 53.0968,
+    "lon": 11.4594,
+    "city": "Lanz"
+  },
+  "19322": {
+    "lat": 52.9976,
+    "lon": 11.7823,
+    "city": "Breese"
+  },
+  "19334": {
+    "lat": 52.9604,
+    "lon": 11.951,
+    "city": "KMG Kliniken PLC"
+  },
+  "19336": {
+    "lat": 52.9692,
+    "lon": 12.0025,
+    "city": "Kletzke"
+  },
+  "19339": {
+    "lat": 52.9153,
+    "lon": 12.131,
+    "city": "Glöwen"
+  },
+  "19348": {
+    "lat": 53.1326,
+    "lon": 11.9253,
+    "city": "Baek"
+  },
+  "19357": {
+    "lat": 53.1774,
+    "lon": 11.6745,
+    "city": "Garlin"
+  },
+  "19367": {
+    "lat": 53.4285,
+    "lon": 11.8308,
+    "city": "Ticket Online Software GmbH"
+  },
+  "19370": {
+    "lat": 53.4263,
+    "lon": 11.8488,
+    "city": "Parchim"
+  },
+  "19372": {
+    "lat": 53.3717,
+    "lon": 11.8012,
+    "city": "Rom"
+  },
+  "19374": {
+    "lat": 53.5197,
+    "lon": 11.7996,
+    "city": "Damm"
+  },
+  "19376": {
+    "lat": 53.3417,
+    "lon": 11.9332,
+    "city": "Suckow"
+  },
+  "19386": {
+    "lat": 53.4548,
+    "lon": 12.0579,
+    "city": "Lübz"
+  },
+  "19395": {
+    "lat": 53.4317,
+    "lon": 12.23,
+    "city": "Karow"
+  },
+  "19399": {
+    "lat": 53.5793,
+    "lon": 12.0773,
+    "city": "Goldberg"
+  },
+  "19406": {
+    "lat": 53.6891,
+    "lon": 11.8863,
+    "city": "Dabel"
+  },
+  "19412": {
+    "lat": 53.733,
+    "lon": 11.6826,
+    "city": "Brüel"
+  },
+  "19417": {
+    "lat": 53.7911,
+    "lon": 11.661,
+    "city": "Warin"
+  },
+  "20038": {
+    "lat": 53.5544,
+    "lon": 9.9946,
+    "city": "Hamburg"
+  },
+  "20066": {
+    "lat": 53.6012,
+    "lon": 10.0265,
+    "city": "AdvoCard Rechtschutzversicherung Aktiengesellschaft"
+  },
+  "20067": {
+    "lat": 53.5484,
+    "lon": 10.0028,
+    "city": "Yvonne Bauer Service KG"
+  },
+  "20068": {
+    "lat": 53.5462,
+    "lon": 10.0262,
+    "city": "GlaxoSmithKline GmbH & Co. KG Rechnungskontrolle"
+  },
+  "20069": {
+    "lat": 53.5519,
+    "lon": 10.0175,
+    "city": "Familienkasse Nord"
+  },
+  "20070": {
+    "lat": 53.5519,
+    "lon": 10.0175,
+    "city": "Agentur für Arbeit Hamburg"
+  },
+  "20071": {
+    "lat": 53.6012,
+    "lon": 10.0265,
+    "city": "Volksfürsorge AG Vertriebsgesellschaft für Vorsorge- und Finanzprodukte"
+  },
+  "20072": {
+    "lat": 53.5455,
+    "lon": 10.0263,
+    "city": "neue leben Lebensversicherung AG"
+  },
+  "20073": {
+    "lat": 53.5334,
+    "lon": 9.9793,
+    "city": "Vattenfall Europe AG"
+  },
+  "20074": {
+    "lat": 53.5512,
+    "lon": 10.0138,
+    "city": "Generali Versicherung"
+  },
+  "20076": {
+    "lat": 53.6012,
+    "lon": 10.0265,
+    "city": "AMB Generali Schadenmanagement GmbH"
+  },
+  "20077": {
+    "lat": 53.5484,
+    "lon": 10.0028,
+    "city": "Heinrich Bauer Verlagsgruppe"
+  },
+  "20079": {
+    "lat": 53.5502,
+    "lon": 10.0032,
+    "city": "Kravag"
+  },
+  "20080": {
+    "lat": 53.5425,
+    "lon": 9.9845,
+    "city": "DPV Deutscher Pressevertrieb"
+  },
+  "20081": {
+    "lat": 53.5452,
+    "lon": 10.0214,
+    "city": "AachenMünchener Versicherung AG"
+  },
+  "20083": {
+    "lat": 48.105,
+    "lon": 11.6394,
+    "city": "Viridium Customer Service GmbH"
+  },
+  "20084": {
+    "lat": 53.6012,
+    "lon": 10.0265,
+    "city": "Volksfürsorge Deutsche Sachversicherung AG"
+  },
+  "20085": {
+    "lat": 53.5558,
+    "lon": 10.0167,
+    "city": "EOS DID Deutscher Inkasso-Dienst GmbH"
+  },
+  "20086": {
+    "lat": 53.5484,
+    "lon": 10.0028,
+    "city": "Bauer Vertriebs KG"
+  },
+  "20087": {
+    "lat": 53.5966,
+    "lon": 10.0614,
+    "city": "Neugebauer Service OHG"
+  },
+  "20088": {
+    "lat": 53.6058,
+    "lon": 10.0786,
+    "city": "Otto Versand"
+  },
+  "20090": {
+    "lat": 53.547,
+    "lon": 10.0203,
+    "city": "HUK - Coburg"
+  },
+  "20091": {
+    "lat": 53.5494,
+    "lon": 10.0086,
+    "city": "Mobil Krankenkasse"
+  },
+  "20092": {
+    "lat": 53.5585,
+    "lon": 10.0222,
+    "city": "Commerzbank AG GS-BO Credit"
+  },
+  "20095": {
+    "lat": 53.5494,
+    "lon": 10.0059,
+    "city": "Hamburg"
+  },
+  "20097": {
+    "lat": 53.5488,
+    "lon": 10.0196,
+    "city": "Hamburg"
+  },
+  "20099": {
+    "lat": 53.5533,
+    "lon": 10.0068,
+    "city": "Hamburg"
+  },
+  "20139": {
+    "lat": 53.5699,
+    "lon": 9.9922,
+    "city": "GVL"
+  },
+  "20140": {
+    "lat": 53.5758,
+    "lon": 9.9907,
+    "city": "GEZ"
+  },
+  "20144": {
+    "lat": 53.575,
+    "lon": 9.9754,
+    "city": "Hamburg"
+  },
+  "20146": {
+    "lat": 53.5708,
+    "lon": 9.984,
+    "city": "Hamburg"
+  },
+  "20148": {
+    "lat": 53.5711,
+    "lon": 9.9899,
+    "city": "Hamburg"
+  },
+  "20149": {
+    "lat": 53.575,
+    "lon": 9.9883,
+    "city": "Hamburg"
+  },
+  "20242": {
+    "lat": 53.564,
+    "lon": 9.9951,
+    "city": "Verlagsgruppe Milchstraße"
+  },
+  "20243": {
+    "lat": 53.5887,
+    "lon": 9.9742,
+    "city": "Welt Report"
+  },
+  "20244": {
+    "lat": 53.5899,
+    "lon": 9.9742,
+    "city": "Stiftung Anscharhöhe"
+  },
+  "20245": {
+    "lat": 53.5794,
+    "lon": 9.9599,
+    "city": "Beiersdorf AG"
+  },
+  "20246": {
+    "lat": 53.5902,
+    "lon": 9.9785,
+    "city": "Universitätsklinikum Hamburg-Eppendorf"
+  },
+  "20247": {
+    "lat": 53.5585,
+    "lon": 9.9092,
+    "city": "Wine Dock GmbH"
+  },
+  "20249": {
+    "lat": 53.5866,
+    "lon": 9.9902,
+    "city": "Hamburg"
+  },
+  "20251": {
+    "lat": 53.5915,
+    "lon": 9.9892,
+    "city": "Hamburg"
+  },
+  "20253": {
+    "lat": 53.5829,
+    "lon": 9.969,
+    "city": "Hamburg"
+  },
+  "20255": {
+    "lat": 53.5849,
+    "lon": 9.9527,
+    "city": "Hamburg"
+  },
+  "20257": {
+    "lat": 53.5697,
+    "lon": 9.9465,
+    "city": "Hamburg"
+  },
+  "20259": {
+    "lat": 53.5718,
+    "lon": 9.9516,
+    "city": "Hamburg"
+  },
+  "20346": {
+    "lat": 53.5549,
+    "lon": 9.984,
+    "city": "EXXON Mobil Central Europe Holding GmbH"
+  },
+  "20347": {
+    "lat": 53.5577,
+    "lon": 9.9825,
+    "city": "Glaxo GmbH"
+  },
+  "20348": {
+    "lat": 53.5563,
+    "lon": 9.9769,
+    "city": "Amtsgericht Hamburg"
+  },
+  "20350": {
+    "lat": 53.5522,
+    "lon": 9.9876,
+    "city": "WAMS"
+  },
+  "20351": {
+    "lat": 53.5613,
+    "lon": 9.9938,
+    "city": "SIGNAL IDUNA Gruppe"
+  },
+  "20354": {
+    "lat": 53.5568,
+    "lon": 9.9811,
+    "city": "Hamburg"
+  },
+  "20355": {
+    "lat": 53.5525,
+    "lon": 9.9765,
+    "city": "Hamburg"
+  },
+  "20357": {
+    "lat": 53.5615,
+    "lon": 9.9588,
+    "city": "Hamburg"
+  },
+  "20359": {
+    "lat": 53.5506,
+    "lon": 9.9627,
+    "city": "Hamburg"
+  },
+  "20444": {
+    "lat": 53.5453,
+    "lon": 9.9796,
+    "city": "Gruner + Jahr AG & CoKG"
+  },
+  "20445": {
+    "lat": 53.5486,
+    "lon": 9.99,
+    "city": "FUNKE Medien Hamburg GmbH"
+  },
+  "20446": {
+    "lat": 53.5434,
+    "lon": 9.9838,
+    "city": "Körber-Stiftung"
+  },
+  "20449": {
+    "lat": 53.5613,
+    "lon": 9.9938,
+    "city": "Deutscher Ring Krankenversicherungsverein a.G"
+  },
+  "20450": {
+    "lat": 53.5422,
+    "lon": 10.0018,
+    "city": "Greenpeace e.V."
+  },
+  "20451": {
+    "lat": 53.5735,
+    "lon": 10.0147,
+    "city": "ZEUS Vermittlungsgesellschaft mbH"
+  },
+  "20452": {
+    "lat": 53.5485,
+    "lon": 9.9846,
+    "city": "R+V Allgemeine Versicherung AG"
+  },
+  "20453": {
+    "lat": 53.5457,
+    "lon": 9.993,
+    "city": "Statistisches Amt für Hamburg und Schleswig-Holstein"
+  },
+  "20454": {
+    "lat": 53.5462,
+    "lon": 10.0075,
+    "city": "Hamburger Sparkasse AG"
+  },
+  "20457": {
+    "lat": 53.5402,
+    "lon": 9.9864,
+    "city": "Hamburg"
+  },
+  "20459": {
+    "lat": 53.5491,
+    "lon": 9.9822,
+    "city": "Hamburg"
+  },
+  "20531": {
+    "lat": 53.5461,
+    "lon": 10.0502,
+    "city": "Landeskrankenhilfe"
+  },
+  "20533": {
+    "lat": 53.5507,
+    "lon": 10.034,
+    "city": "REAL Solution Inkasso GmbH & Co. KG"
+  },
+  "20535": {
+    "lat": 53.5584,
+    "lon": 10.0443,
+    "city": "Hamburg"
+  },
+  "20537": {
+    "lat": 53.5508,
+    "lon": 10.0448,
+    "city": "Hamburg"
+  },
+  "20539": {
+    "lat": 53.526,
+    "lon": 10.02,
+    "city": "Hamburg"
+  },
+  "20901": {
+    "lat": 53.5826,
+    "lon": 10.0454,
+    "city": "Techniker Krankenkasse"
+  },
+  "20903": {
+    "lat": 53.5826,
+    "lon": 10.0454,
+    "city": "Techniker Krankenkasse"
+  },
+  "20911": {
+    "lat": 53.5597,
+    "lon": 9.9923,
+    "city": "Advigon Versicherung AG"
+  },
+  "20912": {
+    "lat": 53.5826,
+    "lon": 10.0454,
+    "city": "Techniker Krankenkasse"
+  },
+  "20913": {
+    "lat": 53.5826,
+    "lon": 10.0454,
+    "city": "Techniker Krankenkasse"
+  },
+  "20914": {
+    "lat": 53.5826,
+    "lon": 10.0454,
+    "city": "Techniker Krankenkasse"
+  },
+  "20915": {
+    "lat": 53.5826,
+    "lon": 10.0454,
+    "city": "Techniker Krankenkasse"
+  },
+  "21027": {
+    "lat": 53.4916,
+    "lon": 10.1761,
+    "city": "Körber-Stiftung"
+  },
+  "21029": {
+    "lat": 53.4631,
+    "lon": 10.2377,
+    "city": "Hamburg"
+  },
+  "21031": {
+    "lat": 53.5001,
+    "lon": 10.2097,
+    "city": "Hamburg"
+  },
+  "21033": {
+    "lat": 53.5017,
+    "lon": 10.1756,
+    "city": "Hamburg"
+  },
+  "21035": {
+    "lat": 53.4911,
+    "lon": 10.1555,
+    "city": "Hamburg"
+  },
+  "21037": {
+    "lat": 53.4654,
+    "lon": 10.1422,
+    "city": "Hamburg"
+  },
+  "21039": {
+    "lat": 53.4573,
+    "lon": 10.2572,
+    "city": "Hamburg"
+  },
+  "21071": {
+    "lat": 53.4622,
+    "lon": 9.9787,
+    "city": "Avad"
+  },
+  "21073": {
+    "lat": 53.4555,
+    "lon": 9.9662,
+    "city": "Hamburg"
+  },
+  "21075": {
+    "lat": 53.4606,
+    "lon": 9.9395,
+    "city": "Hamburg"
+  },
+  "21077": {
+    "lat": 53.4354,
+    "lon": 9.9739,
+    "city": "Hamburg"
+  },
+  "21079": {
+    "lat": 53.4538,
+    "lon": 9.9813,
+    "city": "Hamburg"
+  },
+  "21105": {
+    "lat": 53.4996,
+    "lon": 9.9845,
+    "city": "GoodMills Deutschland GmbH"
+  },
+  "21107": {
+    "lat": 53.5157,
+    "lon": 9.9862,
+    "city": "Hamburg"
+  },
+  "21109": {
+    "lat": 53.5089,
+    "lon": 10.0181,
+    "city": "Hamburg"
+  },
+  "21129": {
+    "lat": 53.5172,
+    "lon": 9.8719,
+    "city": "Hamburg"
+  },
+  "21147": {
+    "lat": 53.4772,
+    "lon": 9.8634,
+    "city": "Hamburg"
+  },
+  "21149": {
+    "lat": 53.4667,
+    "lon": 9.867,
+    "city": "Hamburg"
+  },
+  "21170": {
+    "lat": 53.4824,
+    "lon": 9.9037,
+    "city": "Deutsche Post AG Niederlassung BRIEF Hamburg Süd"
+  },
+  "21172": {
+    "lat": 53.3273,
+    "lon": 10.2036,
+    "city": "Medico-Lab GmbH"
+  },
+  "21175": {
+    "lat": 53.481,
+    "lon": 10.2055,
+    "city": "Nord-Ostsee Automobile SE & Co. KG"
+  },
+  "21217": {
+    "lat": 53.4193,
+    "lon": 10.0211,
+    "city": "Seevetal"
+  },
+  "21218": {
+    "lat": 53.4,
+    "lon": 9.9667,
+    "city": "Seevetal"
+  },
+  "21220": {
+    "lat": 53.3661,
+    "lon": 10.048,
+    "city": "Seevetal"
+  },
+  "21224": {
+    "lat": 53.4065,
+    "lon": 9.9256,
+    "city": "Rosengarten"
+  },
+  "21227": {
+    "lat": 53.3358,
+    "lon": 9.9615,
+    "city": "Bendestorf"
+  },
+  "21228": {
+    "lat": 53.35,
+    "lon": 9.9833,
+    "city": "Harmstorf"
+  },
+  "21244": {
+    "lat": 53.3264,
+    "lon": 9.8681,
+    "city": "Buchholz in der Nordheide"
+  },
+  "21255": {
+    "lat": 53.2759,
+    "lon": 9.7085,
+    "city": "Dohren"
+  },
+  "21256": {
+    "lat": 53.2456,
+    "lon": 9.8392,
+    "city": "Handeloh"
+  },
+  "21258": {
+    "lat": 53.3167,
+    "lon": 9.6667,
+    "city": "Heidenau"
+  },
+  "21259": {
+    "lat": 53.2402,
+    "lon": 9.7425,
+    "city": "Otter"
+  },
+  "21261": {
+    "lat": 53.2398,
+    "lon": 9.8018,
+    "city": "Welle"
+  },
+  "21266": {
+    "lat": 53.3097,
+    "lon": 9.9526,
+    "city": "Jesteburg"
+  },
+  "21271": {
+    "lat": 53.2797,
+    "lon": 9.9979,
+    "city": "Asendorf"
+  },
+  "21272": {
+    "lat": 53.193,
+    "lon": 10.063,
+    "city": "Egestorf"
+  },
+  "21274": {
+    "lat": 53.1971,
+    "lon": 9.9757,
+    "city": "Undeloh"
+  },
+  "21279": {
+    "lat": 53.3593,
+    "lon": 9.748,
+    "city": "Appel"
+  },
+  "21332": {
+    "lat": 53.2469,
+    "lon": 10.4045,
+    "city": "Landgericht"
+  },
+  "21333": {
+    "lat": 53.2453,
+    "lon": 10.4072,
+    "city": "Agentur für Arbeit Lüneburg"
+  },
+  "21335": {
+    "lat": 53.2329,
+    "lon": 10.4078,
+    "city": "Lüneburg"
+  },
+  "21337": {
+    "lat": 53.2558,
+    "lon": 10.4398,
+    "city": "Lüneburg"
+  },
+  "21339": {
+    "lat": 53.2604,
+    "lon": 10.3968,
+    "city": "Lüneburg"
+  },
+  "21354": {
+    "lat": 53.2897,
+    "lon": 10.7337,
+    "city": "Bleckede"
+  },
+  "21357": {
+    "lat": 53.3256,
+    "lon": 10.3905,
+    "city": "Barum"
+  },
+  "21358": {
+    "lat": 53.2833,
+    "lon": 10.3167,
+    "city": "Mechtersen"
+  },
+  "21360": {
+    "lat": 53.2745,
+    "lon": 10.3537,
+    "city": "Vögelsen"
+  },
+  "21365": {
+    "lat": 53.2819,
+    "lon": 10.4379,
+    "city": "Adendorf"
+  },
+  "21368": {
+    "lat": 53.1792,
+    "lon": 10.7455,
+    "city": "Boitze"
+  },
+  "21369": {
+    "lat": 53.1739,
+    "lon": 10.8138,
+    "city": "Nahrendorf"
+  },
+  "21371": {
+    "lat": 53.2098,
+    "lon": 10.8193,
+    "city": "Tosterglope"
+  },
+  "21376": {
+    "lat": 53.2223,
+    "lon": 10.1362,
+    "city": "Eyendorf"
+  },
+  "21379": {
+    "lat": 53.3084,
+    "lon": 10.5348,
+    "city": "Echem"
+  },
+  "21380": {
+    "lat": 53.3718,
+    "lon": 10.4879,
+    "city": "Artlenburg"
+  },
+  "21382": {
+    "lat": 53.3333,
+    "lon": 10.45,
+    "city": "Brietlingen"
+  },
+  "21385": {
+    "lat": 53.1266,
+    "lon": 10.2168,
+    "city": "Rehlingen"
+  },
+  "21386": {
+    "lat": 53.1375,
+    "lon": 10.3127,
+    "city": "Betzendorf"
+  },
+  "21388": {
+    "lat": 53.1428,
+    "lon": 10.1481,
+    "city": "Soderstorf"
+  },
+  "21391": {
+    "lat": 53.2519,
+    "lon": 10.3339,
+    "city": "Dachtmissen"
+  },
+  "21394": {
+    "lat": 53.226,
+    "lon": 10.2966,
+    "city": "Heiligenthal"
+  },
+  "21395": {
+    "lat": 53.3964,
+    "lon": 10.4108,
+    "city": "Tespe"
+  },
+  "21397": {
+    "lat": 53.2135,
+    "lon": 10.5336,
+    "city": "Vastorf"
+  },
+  "21398": {
+    "lat": 53.2652,
+    "lon": 10.6213,
+    "city": "Neetze"
+  },
+  "21400": {
+    "lat": 53.2345,
+    "lon": 10.5732,
+    "city": "Reinstorf"
+  },
+  "21401": {
+    "lat": 53.2333,
+    "lon": 10.6667,
+    "city": "Thomasburg"
+  },
+  "21403": {
+    "lat": 53.2167,
+    "lon": 10.4667,
+    "city": "Wendisch Evern"
+  },
+  "21406": {
+    "lat": 53.1583,
+    "lon": 10.3834,
+    "city": "Melbeck"
+  },
+  "21407": {
+    "lat": 53.2,
+    "lon": 10.4333,
+    "city": "Deutsch Evern"
+  },
+  "21409": {
+    "lat": 53.1761,
+    "lon": 10.3463,
+    "city": "Embsen"
+  },
+  "21421": {
+    "lat": 53.3642,
+    "lon": 10.1914,
+    "city": "Dorothea Halle GmbH"
+  },
+  "21423": {
+    "lat": 53.3826,
+    "lon": 10.2368,
+    "city": "Drage"
+  },
+  "21435": {
+    "lat": 53.3842,
+    "lon": 10.1114,
+    "city": "Stelle"
+  },
+  "21436": {
+    "lat": 53.4152,
+    "lon": 10.3752,
+    "city": "Marschacht"
+  },
+  "21438": {
+    "lat": 53.2997,
+    "lon": 10.0486,
+    "city": "Brackel"
+  },
+  "21439": {
+    "lat": 53.3121,
+    "lon": 10.0041,
+    "city": "Marxen"
+  },
+  "21441": {
+    "lat": 53.2847,
+    "lon": 10.1614,
+    "city": "Garstedt"
+  },
+  "21442": {
+    "lat": 53.2643,
+    "lon": 10.1145,
+    "city": "Toppenstedt"
+  },
+  "21444": {
+    "lat": 53.2667,
+    "lon": 10.2167,
+    "city": "Vierhöfen"
+  },
+  "21445": {
+    "lat": 53.3,
+    "lon": 10.15,
+    "city": "Wulfsen"
+  },
+  "21447": {
+    "lat": 53.3408,
+    "lon": 10.3465,
+    "city": "Handorf"
+  },
+  "21449": {
+    "lat": 53.3167,
+    "lon": 10.2833,
+    "city": "Radbruch"
+  },
+  "21462": {
+    "lat": 53.521,
+    "lon": 10.241,
+    "city": "Stadt Reinbek"
+  },
+  "21465": {
+    "lat": 53.5085,
+    "lon": 10.2494,
+    "city": "Reinbek"
+  },
+  "21481": {
+    "lat": 53.3811,
+    "lon": 10.5388,
+    "city": "Buchhorst"
+  },
+  "21483": {
+    "lat": 53.4228,
+    "lon": 10.5463,
+    "city": "Lütau"
+  },
+  "21493": {
+    "lat": 53.5514,
+    "lon": 10.5105,
+    "city": "Grove"
+  },
+  "21500": {
+    "lat": 53.428,
+    "lon": 10.3824,
+    "city": "Torquato AG"
+  },
+  "21502": {
+    "lat": 53.4465,
+    "lon": 10.4153,
+    "city": "Worth"
+  },
+  "21509": {
+    "lat": 53.5441,
+    "lon": 10.2005,
+    "city": "Glinde"
+  },
+  "21514": {
+    "lat": 53.5124,
+    "lon": 10.6408,
+    "city": "Güster"
+  },
+  "21516": {
+    "lat": 53.5257,
+    "lon": 10.595,
+    "city": "Tramm"
+  },
+  "21521": {
+    "lat": 53.5151,
+    "lon": 10.32,
+    "city": "Aumühle"
+  },
+  "21522": {
+    "lat": 53.3556,
+    "lon": 10.5696,
+    "city": "Hittbergen"
+  },
+  "21524": {
+    "lat": 53.4933,
+    "lon": 10.4252,
+    "city": "Brunstorf"
+  },
+  "21526": {
+    "lat": 53.4765,
+    "lon": 10.3646,
+    "city": "Hohenhorn"
+  },
+  "21527": {
+    "lat": 53.4667,
+    "lon": 10.4667,
+    "city": "Kollow"
+  },
+  "21529": {
+    "lat": 53.4898,
+    "lon": 10.317,
+    "city": "Kröppelshagen-Fahrendorf"
+  },
+  "21614": {
+    "lat": 53.4672,
+    "lon": 9.6864,
+    "city": "Buxtehude"
+  },
+  "21629": {
+    "lat": 53.4227,
+    "lon": 9.7896,
+    "city": "Neu Wulmstorf"
+  },
+  "21635": {
+    "lat": 53.532,
+    "lon": 9.6808,
+    "city": "Jork"
+  },
+  "21640": {
+    "lat": 53.4975,
+    "lon": 9.5856,
+    "city": "Horneburg"
+  },
+  "21641": {
+    "lat": 53.4333,
+    "lon": 9.6167,
+    "city": "Apensen"
+  },
+  "21643": {
+    "lat": 53.4167,
+    "lon": 9.6167,
+    "city": "Beckdorf"
+  },
+  "21644": {
+    "lat": 53.3833,
+    "lon": 9.6,
+    "city": "Sauensiek"
+  },
+  "21646": {
+    "lat": 53.3553,
+    "lon": 9.5985,
+    "city": "Halvesbostel"
+  },
+  "21647": {
+    "lat": 53.4062,
+    "lon": 9.6988,
+    "city": "Moisburg"
+  },
+  "21649": {
+    "lat": 53.3833,
+    "lon": 9.65,
+    "city": "Regesbostel"
+  },
+  "21676": {
+    "lat": 53.6016,
+    "lon": 9.4821,
+    "city": "Agentur für Arbeit Stade"
+  },
+  "21677": {
+    "lat": 53.6036,
+    "lon": 9.4758,
+    "city": "Landkreis Stade"
+  },
+  "21680": {
+    "lat": 53.5908,
+    "lon": 9.4848,
+    "city": "Stade"
+  },
+  "21682": {
+    "lat": 53.6084,
+    "lon": 9.4688,
+    "city": "Stade"
+  },
+  "21683": {
+    "lat": 53.6,
+    "lon": 9.4833,
+    "city": "Stade"
+  },
+  "21684": {
+    "lat": 53.5804,
+    "lon": 9.5076,
+    "city": "Stade"
+  },
+  "21698": {
+    "lat": 53.4569,
+    "lon": 9.4454,
+    "city": "Brest"
+  },
+  "21702": {
+    "lat": 53.4,
+    "lon": 9.45,
+    "city": "Ahlerstedt"
+  },
+  "21706": {
+    "lat": 53.7101,
+    "lon": 9.3846,
+    "city": "Drochtersen"
+  },
+  "21709": {
+    "lat": 53.6098,
+    "lon": 9.3072,
+    "city": "Burweg"
+  },
+  "21710": {
+    "lat": 53.6667,
+    "lon": 9.3333,
+    "city": "Engelschoff"
+  },
+  "21712": {
+    "lat": 53.6833,
+    "lon": 9.2667,
+    "city": "Großenwörden"
+  },
+  "21714": {
+    "lat": 53.6167,
+    "lon": 9.3667,
+    "city": "Hammah"
+  },
+  "21717": {
+    "lat": 53.5263,
+    "lon": 9.4236,
+    "city": "Deinste"
+  },
+  "21720": {
+    "lat": 53.5567,
+    "lon": 9.614,
+    "city": "Grünendeich"
+  },
+  "21723": {
+    "lat": 53.6,
+    "lon": 9.55,
+    "city": "Hollern-Twielenfleth"
+  },
+  "21726": {
+    "lat": 53.591,
+    "lon": 9.2631,
+    "city": "Oldendorf"
+  },
+  "21727": {
+    "lat": 53.576,
+    "lon": 9.2027,
+    "city": "Estorf"
+  },
+  "21729": {
+    "lat": 53.8333,
+    "lon": 9.2833,
+    "city": "Freiburg (Elbe)"
+  },
+  "21730": {
+    "lat": 53.8333,
+    "lon": 9.1333,
+    "city": "Balje"
+  },
+  "21732": {
+    "lat": 53.8308,
+    "lon": 9.2038,
+    "city": "Krummendeich"
+  },
+  "21734": {
+    "lat": 53.8027,
+    "lon": 9.2368,
+    "city": "Oederquart"
+  },
+  "21737": {
+    "lat": 53.7833,
+    "lon": 9.3167,
+    "city": "Wischhafen"
+  },
+  "21739": {
+    "lat": 53.5333,
+    "lon": 9.55,
+    "city": "Dollern"
+  },
+  "21745": {
+    "lat": 53.687,
+    "lon": 9.1549,
+    "city": "Hemmoor"
+  },
+  "21755": {
+    "lat": 53.6404,
+    "lon": 9.2394,
+    "city": "Hechthausen"
+  },
+  "21756": {
+    "lat": 53.7,
+    "lon": 9.2,
+    "city": "Osten"
+  },
+  "21762": {
+    "lat": 53.7936,
+    "lon": 8.921,
+    "city": "Osterbruch"
+  },
+  "21763": {
+    "lat": 53.777,
+    "lon": 8.8936,
+    "city": "Neuenkirchen"
+  },
+  "21765": {
+    "lat": 53.7667,
+    "lon": 8.8333,
+    "city": "Nordleda"
+  },
+  "21769": {
+    "lat": 53.6055,
+    "lon": 9.0889,
+    "city": "Lamstedt"
+  },
+  "21770": {
+    "lat": 53.65,
+    "lon": 9.0333,
+    "city": "Mittelstenahe"
+  },
+  "21772": {
+    "lat": 53.6612,
+    "lon": 8.9723,
+    "city": "Stinstedt"
+  },
+  "21775": {
+    "lat": 53.7041,
+    "lon": 8.9143,
+    "city": "Steinau"
+  },
+  "21776": {
+    "lat": 53.75,
+    "lon": 8.8,
+    "city": "Wanna"
+  },
+  "21781": {
+    "lat": 53.7693,
+    "lon": 9.0627,
+    "city": "Cadenberge"
+  },
+  "21782": {
+    "lat": 53.7461,
+    "lon": 8.9781,
+    "city": "Bülkau"
+  },
+  "21784": {
+    "lat": 53.8,
+    "lon": 9.0833,
+    "city": "Geversdorf"
+  },
+  "21785": {
+    "lat": 53.8086,
+    "lon": 9.0168,
+    "city": "Belum"
+  },
+  "21787": {
+    "lat": 53.75,
+    "lon": 9.15,
+    "city": "Oberndorf"
+  },
+  "21789": {
+    "lat": 53.7357,
+    "lon": 9.0805,
+    "city": "Wingst"
+  },
+  "22032": {
+    "lat": 53.5765,
+    "lon": 10.0792,
+    "city": "Hanseatische Krankenkasse"
+  },
+  "22033": {
+    "lat": 48.1915,
+    "lon": 11.6568,
+    "city": "Sky Deutschland GmbH"
+  },
+  "22034": {
+    "lat": 53.5765,
+    "lon": 10.0792,
+    "city": "Hanseatische Krankenkasse Beitragsabteilung"
+  },
+  "22035": {
+    "lat": 53.5802,
+    "lon": 10.1211,
+    "city": "BOESCHE Staatliche Lotterieeinnahme"
+  },
+  "22036": {
+    "lat": 53.5894,
+    "lon": 10.0932,
+    "city": "Mercedes-Benz AG LN 164/34540"
+  },
+  "22037": {
+    "lat": 53.5921,
+    "lon": 10.1072,
+    "city": "Deutsche Rentenversicherung Nord"
+  },
+  "22039": {
+    "lat": 53.578,
+    "lon": 10.0839,
+    "city": "Jungheinrich AG"
+  },
+  "22041": {
+    "lat": 53.575,
+    "lon": 10.0914,
+    "city": "Hamburg"
+  },
+  "22043": {
+    "lat": 53.5732,
+    "lon": 10.1131,
+    "city": "Hamburg"
+  },
+  "22045": {
+    "lat": 53.5823,
+    "lon": 10.1241,
+    "city": "Hamburg"
+  },
+  "22047": {
+    "lat": 53.5917,
+    "lon": 10.0956,
+    "city": "Hamburg"
+  },
+  "22049": {
+    "lat": 53.5809,
+    "lon": 10.0694,
+    "city": "Hamburg"
+  },
+  "22078": {
+    "lat": 53.5739,
+    "lon": 10.0122,
+    "city": "Norddeutsche Blindenhörbücherei e.V."
+  },
+  "22079": {
+    "lat": 53.5669,
+    "lon": 10.0587,
+    "city": "AOK Rheinland / Hamburg - Die Gesundheitskasse"
+  },
+  "22081": {
+    "lat": 53.5758,
+    "lon": 10.0364,
+    "city": "Hamburg"
+  },
+  "22083": {
+    "lat": 53.5775,
+    "lon": 10.0389,
+    "city": "Hamburg"
+  },
+  "22085": {
+    "lat": 53.5762,
+    "lon": 10.0272,
+    "city": "Hamburg"
+  },
+  "22087": {
+    "lat": 53.5653,
+    "lon": 10.0337,
+    "city": "Hamburg"
+  },
+  "22089": {
+    "lat": 53.5661,
+    "lon": 10.0594,
+    "city": "Hamburg"
+  },
+  "22102": {
+    "lat": 53.5469,
+    "lon": 10.0855,
+    "city": "KG Ritz Messwandler GmbH & Co."
+  },
+  "22111": {
+    "lat": 53.5407,
+    "lon": 10.106,
+    "city": "Hamburg"
+  },
+  "22113": {
+    "lat": 53.5229,
+    "lon": 10.127,
+    "city": "Hamburg"
+  },
+  "22115": {
+    "lat": 53.526,
+    "lon": 10.1566,
+    "city": "Hamburg"
+  },
+  "22117": {
+    "lat": 53.54,
+    "lon": 10.1261,
+    "city": "Hamburg"
+  },
+  "22119": {
+    "lat": 53.5482,
+    "lon": 10.1122,
+    "city": "Hamburg"
+  },
+  "22139": {
+    "lat": 53.6606,
+    "lon": 10.3124,
+    "city": "Bip Sossong GmbH Bärbel Sossong"
+  },
+  "22140": {
+    "lat": 53.6554,
+    "lon": 10.2916,
+    "city": "Catharina Reisen u. Vertriebs GmbH"
+  },
+  "22143": {
+    "lat": 53.6079,
+    "lon": 10.1798,
+    "city": "Hamburg"
+  },
+  "22145": {
+    "lat": 53.6096,
+    "lon": 10.1852,
+    "city": "Braak"
+  },
+  "22147": {
+    "lat": 53.6092,
+    "lon": 10.1481,
+    "city": "Hamburg"
+  },
+  "22149": {
+    "lat": 53.5945,
+    "lon": 10.1491,
+    "city": "Hamburg"
+  },
+  "22159": {
+    "lat": 53.6149,
+    "lon": 10.1133,
+    "city": "Hamburg"
+  },
+  "22175": {
+    "lat": 53.617,
+    "lon": 10.0857,
+    "city": "Hamburg"
+  },
+  "22177": {
+    "lat": 53.6112,
+    "lon": 10.0716,
+    "city": "Hamburg"
+  },
+  "22179": {
+    "lat": 53.609,
+    "lon": 10.086,
+    "city": "Hamburg"
+  },
+  "22222": {
+    "lat": 53.5615,
+    "lon": 9.9116,
+    "city": "Kasse.Hamburg"
+  },
+  "22276": {
+    "lat": 53.6013,
+    "lon": 10.0178,
+    "city": "ERGO Lebensversicherung AG Aktion"
+  },
+  "22277": {
+    "lat": 53.6044,
+    "lon": 10.0271,
+    "city": "Betriebs-Center für Banken AG"
+  },
+  "22278": {
+    "lat": 53.6061,
+    "lon": 10.0164,
+    "city": "interServ GmbH Center Hamburg interscan Zustellurkunden"
+  },
+  "22279": {
+    "lat": 53.6044,
+    "lon": 10.0271,
+    "city": "Deutsche Postbank AG Niederlassung Hamburg (Giro)"
+  },
+  "22280": {
+    "lat": 53.6044,
+    "lon": 10.0271,
+    "city": "Deutsche Postbank AG Niederlassung Hamburg (Giro)"
+  },
+  "22281": {
+    "lat": 53.6013,
+    "lon": 9.9902,
+    "city": "Verwaltungs-Berufsgenossenschaft Hauptverwaltung"
+  },
+  "22282": {
+    "lat": 53.5643,
+    "lon": 9.9405,
+    "city": "Deutsche Post AG Auftragserfassung Pressepost"
+  },
+  "22283": {
+    "lat": 53.6044,
+    "lon": 10.0271,
+    "city": "Deutsche Postbank AG Niederlassung Hamburg (Spar)"
+  },
+  "22284": {
+    "lat": 53.6206,
+    "lon": 10.0145,
+    "city": "Sodexo Services GmbH"
+  },
+  "22287": {
+    "lat": 53.6013,
+    "lon": 10.0178,
+    "city": "ERGO Lebensversicherung AG"
+  },
+  "22288": {
+    "lat": 53.5782,
+    "lon": 9.9988,
+    "city": "Jahreszeiten-Verlag"
+  },
+  "22290": {
+    "lat": 53.6069,
+    "lon": 10.0191,
+    "city": "Tchibo"
+  },
+  "22291": {
+    "lat": 53.5995,
+    "lon": 10.0275,
+    "city": "RWE-DEA AG"
+  },
+  "22292": {
+    "lat": 53.6056,
+    "lon": 10.0201,
+    "city": "Deutsche Post AG Hamburg 60"
+  },
+  "22293": {
+    "lat": 53.5833,
+    "lon": 10.0284,
+    "city": "Logica-CMG GmbH & Co. KG"
+  },
+  "22294": {
+    "lat": 53.5867,
+    "lon": 10.0506,
+    "city": "Hansa Baugenossenschaft eG"
+  },
+  "22297": {
+    "lat": 53.6026,
+    "lon": 10.0177,
+    "city": "Hamburg"
+  },
+  "22299": {
+    "lat": 53.5955,
+    "lon": 10.0069,
+    "city": "Hamburg"
+  },
+  "22301": {
+    "lat": 53.5898,
+    "lon": 10.0076,
+    "city": "Hamburg"
+  },
+  "22303": {
+    "lat": 53.5919,
+    "lon": 10.03,
+    "city": "Hamburg"
+  },
+  "22305": {
+    "lat": 53.59,
+    "lon": 10.0388,
+    "city": "Hamburg"
+  },
+  "22307": {
+    "lat": 53.5977,
+    "lon": 10.0466,
+    "city": "Hamburg"
+  },
+  "22309": {
+    "lat": 53.6106,
+    "lon": 10.0571,
+    "city": "Hamburg"
+  },
+  "22331": {
+    "lat": 53.6288,
+    "lon": 10.0209,
+    "city": "Gerstel KG"
+  },
+  "22332": {
+    "lat": 53.6217,
+    "lon": 9.997,
+    "city": "Dt. Lufthansa AG"
+  },
+  "22335": {
+    "lat": 53.6195,
+    "lon": 10.0143,
+    "city": "Hamburg"
+  },
+  "22337": {
+    "lat": 53.6203,
+    "lon": 10.0296,
+    "city": "Hamburg"
+  },
+  "22339": {
+    "lat": 53.6445,
+    "lon": 10.036,
+    "city": "Hamburg"
+  },
+  "22357": {
+    "lat": 53.6553,
+    "lon": 10.1047,
+    "city": "Brigitta Winter (Mutter und Kind Dienst)"
+  },
+  "22359": {
+    "lat": 53.6449,
+    "lon": 10.1603,
+    "city": "Hamburg"
+  },
+  "22389": {
+    "lat": 53.6574,
+    "lon": 10.0804,
+    "city": "Sick AG"
+  },
+  "22391": {
+    "lat": 53.6403,
+    "lon": 10.0773,
+    "city": "Hamburg"
+  },
+  "22393": {
+    "lat": 53.6422,
+    "lon": 10.097,
+    "city": "Hamburg"
+  },
+  "22395": {
+    "lat": 53.6697,
+    "lon": 10.1151,
+    "city": "Hamburg"
+  },
+  "22397": {
+    "lat": 53.6985,
+    "lon": 10.1072,
+    "city": "Hamburg"
+  },
+  "22399": {
+    "lat": 53.6639,
+    "lon": 10.0703,
+    "city": "Hamburg"
+  },
+  "22413": {
+    "lat": 53.6735,
+    "lon": 10.0092,
+    "city": "AK Heidberg"
+  },
+  "22415": {
+    "lat": 53.6477,
+    "lon": 10.0202,
+    "city": "Hamburg"
+  },
+  "22417": {
+    "lat": 53.6614,
+    "lon": 10.0305,
+    "city": "Hamburg"
+  },
+  "22419": {
+    "lat": 53.6648,
+    "lon": 10.007,
+    "city": "Hamburg"
+  },
+  "22451": {
+    "lat": 53.6264,
+    "lon": 9.958,
+    "city": "IKEA"
+  },
+  "22453": {
+    "lat": 53.6161,
+    "lon": 9.9834,
+    "city": "Hamburg"
+  },
+  "22455": {
+    "lat": 53.6319,
+    "lon": 9.9489,
+    "city": "Hamburg"
+  },
+  "22457": {
+    "lat": 53.6246,
+    "lon": 9.93,
+    "city": "Hamburg"
+  },
+  "22459": {
+    "lat": 53.6264,
+    "lon": 9.9384,
+    "city": "Hamburg"
+  },
+  "22520": {
+    "lat": 53.5949,
+    "lon": 9.9449,
+    "city": "Finanzamt Hamburg-Am Tierpark"
+  },
+  "22521": {
+    "lat": 53.5894,
+    "lon": 9.9281,
+    "city": "IKK classic"
+  },
+  "22523": {
+    "lat": 53.6079,
+    "lon": 9.9097,
+    "city": "Hamburg"
+  },
+  "22525": {
+    "lat": 53.5874,
+    "lon": 9.9182,
+    "city": "Hamburg"
+  },
+  "22527": {
+    "lat": 53.593,
+    "lon": 9.9404,
+    "city": "Hamburg"
+  },
+  "22529": {
+    "lat": 53.5991,
+    "lon": 9.9647,
+    "city": "Hamburg"
+  },
+  "22545": {
+    "lat": 53.5821,
+    "lon": 9.8624,
+    "city": "Josef Möbius Bau-GmbH"
+  },
+  "22547": {
+    "lat": 53.5863,
+    "lon": 9.887,
+    "city": "Hamburg"
+  },
+  "22549": {
+    "lat": 53.5799,
+    "lon": 9.8728,
+    "city": "Hamburg"
+  },
+  "22557": {
+    "lat": 53.5817,
+    "lon": 9.7696,
+    "city": "Berendsohn AG"
+  },
+  "22559": {
+    "lat": 53.5889,
+    "lon": 9.7608,
+    "city": "Hamburg"
+  },
+  "22585": {
+    "lat": 53.5648,
+    "lon": 9.8088,
+    "city": "Ortsamt Blankenese"
+  },
+  "22587": {
+    "lat": 53.5694,
+    "lon": 9.8123,
+    "city": "Hamburg"
+  },
+  "22589": {
+    "lat": 53.5755,
+    "lon": 9.818,
+    "city": "Hamburg"
+  },
+  "22603": {
+    "lat": 53.5739,
+    "lon": 9.8838,
+    "city": "Reemtsma Cigaretten Fabriken GmbH"
+  },
+  "22605": {
+    "lat": 53.5604,
+    "lon": 9.8903,
+    "city": "Hamburg"
+  },
+  "22607": {
+    "lat": 53.5623,
+    "lon": 9.8829,
+    "city": "Hamburg"
+  },
+  "22609": {
+    "lat": 53.5629,
+    "lon": 9.8696,
+    "city": "Hamburg"
+  },
+  "22743": {
+    "lat": 53.5585,
+    "lon": 9.9092,
+    "city": "AstraZeneca GmbH"
+  },
+  "22744": {
+    "lat": 53.5603,
+    "lon": 9.9591,
+    "city": "Broadway Musical Management GmbH"
+  },
+  "22745": {
+    "lat": 53.5422,
+    "lon": 10.0018,
+    "city": "Greenpeace e.V."
+  },
+  "22746": {
+    "lat": 53.5615,
+    "lon": 9.9116,
+    "city": "Euler Hermes Deutschland AG"
+  },
+  "22747": {
+    "lat": 53.5557,
+    "lon": 9.9427,
+    "city": "Amtsgericht Hamburg Zweigstelle Altona"
+  },
+  "22748": {
+    "lat": 53.5461,
+    "lon": 9.9369,
+    "city": "Siemssen & Co. GmbH"
+  },
+  "22750": {
+    "lat": 53.564,
+    "lon": 9.9951,
+    "city": "Verlagsgruppe Milchstraße"
+  },
+  "22754": {
+    "lat": 53.5539,
+    "lon": 9.9362,
+    "city": "Sparda - Bank Hamburg eG"
+  },
+  "22755": {
+    "lat": 53.5617,
+    "lon": 9.9457,
+    "city": "Holsten-Brauerei AG"
+  },
+  "22756": {
+    "lat": 53.5576,
+    "lon": 10.0207,
+    "city": "Wüstenrot Bausparkasse AG"
+  },
+  "22758": {
+    "lat": 53.5573,
+    "lon": 9.9076,
+    "city": "Wünsche AG"
+  },
+  "22761": {
+    "lat": 53.5679,
+    "lon": 9.9104,
+    "city": "Hamburg"
+  },
+  "22763": {
+    "lat": 53.554,
+    "lon": 9.9049,
+    "city": "Hamburg"
+  },
+  "22765": {
+    "lat": 53.5549,
+    "lon": 9.9336,
+    "city": "Hamburg"
+  },
+  "22767": {
+    "lat": 53.5518,
+    "lon": 9.9415,
+    "city": "Hamburg"
+  },
+  "22769": {
+    "lat": 53.5656,
+    "lon": 9.9437,
+    "city": "Hamburg"
+  },
+  "22776": {
+    "lat": 53.5486,
+    "lon": 10.019,
+    "city": "DAK - Deutsche Angestellten Krankenkasse Bayern und NRW"
+  },
+  "22777": {
+    "lat": 53.5486,
+    "lon": 10.019,
+    "city": "DAK - Deutsche Angestellten Krankenkasse Bayern und NRW"
+  },
+  "22778": {
+    "lat": 53.5486,
+    "lon": 10.019,
+    "city": "DAK-Gesundheit"
+  },
+  "22779": {
+    "lat": 53.5486,
+    "lon": 10.019,
+    "city": "DAK-Gesundheit"
+  },
+  "22780": {
+    "lat": 50.1448,
+    "lon": 8.5599,
+    "city": "Techem BBK Energie GmbH"
+  },
+  "22781": {
+    "lat": 48.7385,
+    "lon": 9.1096,
+    "city": "Yves Rocher GmbH Finanzbuchhaltung"
+  },
+  "22782": {
+    "lat": 53.5745,
+    "lon": 9.887,
+    "city": "Reemtsma Cigaretten GmbH"
+  },
+  "22783": {
+    "lat": 53.6044,
+    "lon": 10.0271,
+    "city": "Deutsche Postbank AG Niederlassung Hamburg (Giro)"
+  },
+  "22785": {
+    "lat": 53.566,
+    "lon": 9.9364,
+    "city": "Deutsche Post AG NL BRIEF"
+  },
+  "22787": {
+    "lat": 53.6012,
+    "lon": 10.0265,
+    "city": "Deutsche Telekom Kundenniederlassung Hamburg"
+  },
+  "22788": {
+    "lat": 53.5486,
+    "lon": 10.019,
+    "city": "DAK-Deutsche Angestellten-Krankenkasse Hauptgeschäftsstelle"
+  },
+  "22789": {
+    "lat": 53.5486,
+    "lon": 10.019,
+    "city": "DAK-Deutsche Angestellten-Krankenkasse Hauptgeschäftsstelle"
+  },
+  "22790": {
+    "lat": 53.6494,
+    "lon": 10.0347,
+    "city": "Nord-Ostsee Automobile SE & Co. KG"
+  },
+  "22791": {
+    "lat": 53.5585,
+    "lon": 9.9092,
+    "city": "Hanseatisches Wein- und Sekt-Kontor Hawesko GmbH"
+  },
+  "22792": {
+    "lat": 53.5616,
+    "lon": 9.9164,
+    "city": "Barclays Bank Ireland PLC"
+  },
+  "22794": {
+    "lat": 53.574,
+    "lon": 9.8874,
+    "city": "Deutsche Post AG Direkt Marketing Center Hamburg GWK"
+  },
+  "22795": {
+    "lat": 53.5822,
+    "lon": 10.028,
+    "city": "DP CSC Deutsche Post Customer Service Center"
+  },
+  "22796": {
+    "lat": 53.5505,
+    "lon": 9.9906,
+    "city": "UniCredit Bank AG"
+  },
+  "22797": {
+    "lat": 53.5496,
+    "lon": 9.9782,
+    "city": "Baloise Lebensversicherungs AG Deutschland"
+  },
+  "22799": {
+    "lat": 53.6012,
+    "lon": 10.0265,
+    "city": "Deutsche Telekom Hamburg Kundenniederlassung"
+  },
+  "22839": {
+    "lat": 53.6693,
+    "lon": 9.9683,
+    "city": "Tesa SE"
+  },
+  "22841": {
+    "lat": 53.756,
+    "lon": 9.9681,
+    "city": "Stadt Norderstedt Stadtverwaltung"
+  },
+  "22842": {
+    "lat": 53.6748,
+    "lon": 9.9907,
+    "city": "Gebr. Winkler"
+  },
+  "22844": {
+    "lat": 53.7246,
+    "lon": 10.0124,
+    "city": "Norderstedt"
+  },
+  "22846": {
+    "lat": 53.7099,
+    "lon": 9.9946,
+    "city": "Norderstedt"
+  },
+  "22848": {
+    "lat": 53.6736,
+    "lon": 9.9833,
+    "city": "Norderstedt"
+  },
+  "22850": {
+    "lat": 53.6855,
+    "lon": 9.9976,
+    "city": "Norderstedt"
+  },
+  "22851": {
+    "lat": 53.6874,
+    "lon": 10.0366,
+    "city": "Norderstedt"
+  },
+  "22865": {
+    "lat": 53.5942,
+    "lon": 9.835,
+    "city": "SPAR Inkassokontor GmbH & Co. KG"
+  },
+  "22866": {
+    "lat": 53.5869,
+    "lon": 9.8836,
+    "city": "Harry-Brot GmbH"
+  },
+  "22867": {
+    "lat": 53.5942,
+    "lon": 9.835,
+    "city": "SPAR Handels-Aktiengesellschaft"
+  },
+  "22869": {
+    "lat": 53.6,
+    "lon": 9.85,
+    "city": "Schenefeld"
+  },
+  "22876": {
+    "lat": 53.575,
+    "lon": 9.734,
+    "city": "Astra GmbH"
+  },
+  "22880": {
+    "lat": 53.5837,
+    "lon": 9.6984,
+    "city": "Wedel"
+  },
+  "22885": {
+    "lat": 53.5667,
+    "lon": 10.1667,
+    "city": "Barsbüttel"
+  },
+  "22889": {
+    "lat": 53.7333,
+    "lon": 10.0833,
+    "city": "Tangstedt"
+  },
+  "22923": {
+    "lat": 53.6803,
+    "lon": 10.2477,
+    "city": "Eurohypo AG"
+  },
+  "22926": {
+    "lat": 53.6752,
+    "lon": 10.2259,
+    "city": "Ahrensburg"
+  },
+  "22927": {
+    "lat": 53.6667,
+    "lon": 10.2833,
+    "city": "Großhansdorf"
+  },
+  "22929": {
+    "lat": 53.6329,
+    "lon": 10.3943,
+    "city": "Köthel"
+  },
+  "22939": {
+    "lat": 53.7296,
+    "lon": 10.2658,
+    "city": "Getriebebau Nord GmbH & Co. KG"
+  },
+  "22941": {
+    "lat": 53.731,
+    "lon": 10.2418,
+    "city": "Jersbek"
+  },
+  "22946": {
+    "lat": 53.6049,
+    "lon": 10.3844,
+    "city": "Grande"
+  },
+  "22949": {
+    "lat": 53.7,
+    "lon": 10.2,
+    "city": "Ammersbek"
+  },
+  "22952": {
+    "lat": 53.65,
+    "lon": 10.3667,
+    "city": "Lütjensee"
+  },
+  "22955": {
+    "lat": 53.65,
+    "lon": 10.3167,
+    "city": "Hoisdorf"
+  },
+  "22956": {
+    "lat": 53.6416,
+    "lon": 10.4078,
+    "city": "Grönwohld"
+  },
+  "22958": {
+    "lat": 53.5833,
+    "lon": 10.4,
+    "city": "Kuddewörde"
+  },
+  "22959": {
+    "lat": 53.6445,
+    "lon": 10.4685,
+    "city": "Linau"
+  },
+  "22962": {
+    "lat": 53.6333,
+    "lon": 10.3,
+    "city": "Siek"
+  },
+  "22964": {
+    "lat": 53.7167,
+    "lon": 10.4,
+    "city": "Steinburg"
+  },
+  "22965": {
+    "lat": 53.6946,
+    "lon": 10.3478,
+    "city": "Todendorf"
+  },
+  "22967": {
+    "lat": 53.7438,
+    "lon": 10.3102,
+    "city": "Tremsbüttel"
+  },
+  "22969": {
+    "lat": 53.5667,
+    "lon": 10.3333,
+    "city": "Witzhave"
+  },
+  "23533": {
+    "lat": 53.8482,
+    "lon": 10.6728,
+    "city": "Stadtwerke Lübeck Gruppe GmbH"
+  },
+  "23538": {
+    "lat": 53.8364,
+    "lon": 10.7111,
+    "city": "Universitätsklinikum Schleswig-Holstein Campus Lübeck"
+  },
+  "23539": {
+    "lat": 53.8696,
+    "lon": 10.6871,
+    "city": "Lübeck"
+  },
+  "23540": {
+    "lat": 53.8525,
+    "lon": 10.6809,
+    "city": "Finanzamt Lübeck"
+  },
+  "23541": {
+    "lat": 53.8514,
+    "lon": 10.6805,
+    "city": "Agentur für Arbeit Lübeck"
+  },
+  "23542": {
+    "lat": 53.8566,
+    "lon": 10.6695,
+    "city": "Drägerwerk AG & Co. KGaA Accounts Payable"
+  },
+  "23543": {
+    "lat": 53.8549,
+    "lon": 10.6314,
+    "city": "Lübecker Nachrichten Verlagsgruppe"
+  },
+  "23544": {
+    "lat": 53.8641,
+    "lon": 10.6504,
+    "city": "Deutsche Rentenversicherung Nord"
+  },
+  "23546": {
+    "lat": 53.8719,
+    "lon": 10.6664,
+    "city": "Deutsche Telekom AG Niederlassung Lübeck"
+  },
+  "23547": {
+    "lat": 53.8629,
+    "lon": 10.682,
+    "city": "BARMER"
+  },
+  "23552": {
+    "lat": 53.8685,
+    "lon": 10.6854,
+    "city": "Lübeck"
+  },
+  "23554": {
+    "lat": 53.876,
+    "lon": 10.6748,
+    "city": "Lübeck"
+  },
+  "23556": {
+    "lat": 53.8672,
+    "lon": 10.6478,
+    "city": "Lübeck"
+  },
+  "23558": {
+    "lat": 53.8606,
+    "lon": 10.6611,
+    "city": "Lübeck"
+  },
+  "23560": {
+    "lat": 53.8471,
+    "lon": 10.6845,
+    "city": "Lübeck"
+  },
+  "23562": {
+    "lat": 53.8511,
+    "lon": 10.7028,
+    "city": "Lübeck"
+  },
+  "23564": {
+    "lat": 53.8705,
+    "lon": 10.6986,
+    "city": "Lübeck"
+  },
+  "23566": {
+    "lat": 53.8658,
+    "lon": 10.7316,
+    "city": "Lübeck"
+  },
+  "23568": {
+    "lat": 53.8922,
+    "lon": 10.7583,
+    "city": "Lübeck"
+  },
+  "23569": {
+    "lat": 53.9167,
+    "lon": 10.8073,
+    "city": "Lübeck"
+  },
+  "23570": {
+    "lat": 53.8667,
+    "lon": 10.7,
+    "city": "Lübeck"
+  },
+  "23590": {
+    "lat": 53.8634,
+    "lon": 10.6042,
+    "city": "Deutsche Post AG Niederlassung BRIEF Lübeck"
+  },
+  "23611": {
+    "lat": 53.9189,
+    "lon": 10.6969,
+    "city": "Bad Schwartau"
+  },
+  "23615": {
+    "lat": 53.8901,
+    "lon": 10.632,
+    "city": "PVZ Pressevertriebszentrale GmbH & Co. KG"
+  },
+  "23616": {
+    "lat": 53.8901,
+    "lon": 10.632,
+    "city": "Club Verwaltungs OHG"
+  },
+  "23617": {
+    "lat": 53.8922,
+    "lon": 10.6471,
+    "city": "Stockelsdorf"
+  },
+  "23619": {
+    "lat": 53.8722,
+    "lon": 10.5361,
+    "city": "Zarpen"
+  },
+  "23623": {
+    "lat": 54.0086,
+    "lon": 10.5743,
+    "city": "Ahrensbök"
+  },
+  "23626": {
+    "lat": 53.95,
+    "lon": 10.7333,
+    "city": "Ratekau"
+  },
+  "23627": {
+    "lat": 53.7834,
+    "lon": 10.7417,
+    "city": "Groß Sarau"
+  },
+  "23628": {
+    "lat": 53.775,
+    "lon": 10.6584,
+    "city": "Klempau"
+  },
+  "23629": {
+    "lat": 54.0028,
+    "lon": 10.7101,
+    "city": "Sarkwitz"
+  },
+  "23669": {
+    "lat": 53.9953,
+    "lon": 10.7768,
+    "city": "Timmendorfer Strand"
+  },
+  "23683": {
+    "lat": 54.0345,
+    "lon": 10.7322,
+    "city": "Scharbeutz"
+  },
+  "23684": {
+    "lat": 54.0333,
+    "lon": 10.75,
+    "city": "Scharbeutz"
+  },
+  "23689": {
+    "lat": 53.9861,
+    "lon": 10.708,
+    "city": "Pansdorf, Holstein"
+  },
+  "23701": {
+    "lat": 54.1015,
+    "lon": 10.6743,
+    "city": "Eutin"
+  },
+  "23714": {
+    "lat": 54.1862,
+    "lon": 10.6215,
+    "city": "Malente"
+  },
+  "23715": {
+    "lat": 54.0979,
+    "lon": 10.4357,
+    "city": "Bosau"
+  },
+  "23717": {
+    "lat": 54.1667,
+    "lon": 10.7167,
+    "city": "Kasseedorf"
+  },
+  "23719": {
+    "lat": 54.05,
+    "lon": 10.5167,
+    "city": "Glasau"
+  },
+  "23730": {
+    "lat": 54.1101,
+    "lon": 10.8245,
+    "city": "Sierksdorf"
+  },
+  "23738": {
+    "lat": 54.2189,
+    "lon": 10.8984,
+    "city": "Damlos"
+  },
+  "23743": {
+    "lat": 54.15,
+    "lon": 10.9667,
+    "city": "Grömitz"
+  },
+  "23744": {
+    "lat": 54.1833,
+    "lon": 10.75,
+    "city": "Schönwalde am Bungsberg"
+  },
+  "23746": {
+    "lat": 54.1934,
+    "lon": 11.0616,
+    "city": "Kellenhusen"
+  },
+  "23747": {
+    "lat": 54.2167,
+    "lon": 11.0833,
+    "city": "Dahme"
+  },
+  "23749": {
+    "lat": 54.2333,
+    "lon": 11.0333,
+    "city": "Grube"
+  },
+  "23758": {
+    "lat": 54.2948,
+    "lon": 10.8879,
+    "city": "Göhl"
+  },
+  "23769": {
+    "lat": 54.4378,
+    "lon": 11.1935,
+    "city": "Fehmarn"
+  },
+  "23774": {
+    "lat": 54.3696,
+    "lon": 10.9802,
+    "city": "Heiligenhafen"
+  },
+  "23775": {
+    "lat": 54.3833,
+    "lon": 11.0833,
+    "city": "Großenbrode"
+  },
+  "23777": {
+    "lat": 54.301,
+    "lon": 11.0066,
+    "city": "Heringsdorf"
+  },
+  "23779": {
+    "lat": 54.3238,
+    "lon": 11.0144,
+    "city": "Neukirchen"
+  },
+  "23791": {
+    "lat": 53.9382,
+    "lon": 10.2988,
+    "city": "Möbel Kraft"
+  },
+  "23792": {
+    "lat": 53.9345,
+    "lon": 10.3093,
+    "city": "Finanzamt"
+  },
+  "23795": {
+    "lat": 53.9372,
+    "lon": 10.3077,
+    "city": "Mözen"
+  },
+  "23812": {
+    "lat": 53.9516,
+    "lon": 10.2063,
+    "city": "Wahlstedt"
+  },
+  "23813": {
+    "lat": 54.0131,
+    "lon": 10.3403,
+    "city": "Blunk"
+  },
+  "23815": {
+    "lat": 53.9238,
+    "lon": 10.4584,
+    "city": "Strukdorf"
+  },
+  "23816": {
+    "lat": 53.8658,
+    "lon": 10.2691,
+    "city": "Leezen"
+  },
+  "23818": {
+    "lat": 53.9,
+    "lon": 10.3833,
+    "city": "Neuengörs"
+  },
+  "23820": {
+    "lat": 53.95,
+    "lon": 10.4667,
+    "city": "Pronstorf"
+  },
+  "23821": {
+    "lat": 53.9667,
+    "lon": 10.3889,
+    "city": "Rohlstorf"
+  },
+  "23823": {
+    "lat": 54.05,
+    "lon": 10.4167,
+    "city": "Seedorf"
+  },
+  "23824": {
+    "lat": 54.0545,
+    "lon": 10.3177,
+    "city": "Damsdorf"
+  },
+  "23826": {
+    "lat": 53.8958,
+    "lon": 10.1866,
+    "city": "Bark"
+  },
+  "23827": {
+    "lat": 53.9944,
+    "lon": 10.4056,
+    "city": "Wensin"
+  },
+  "23829": {
+    "lat": 53.911,
+    "lon": 10.227,
+    "city": "Kükels"
+  },
+  "23840": {
+    "lat": 53.8045,
+    "lon": 10.3821,
+    "city": "Viking GmbH"
+  },
+  "23841": {
+    "lat": 53.8091,
+    "lon": 10.3824,
+    "city": "Agentur für Arbeit Bad Oldesloe"
+  },
+  "23843": {
+    "lat": 53.8071,
+    "lon": 10.3352,
+    "city": "Rümpel"
+  },
+  "23845": {
+    "lat": 53.8506,
+    "lon": 10.2811,
+    "city": "Seth"
+  },
+  "23847": {
+    "lat": 53.754,
+    "lon": 10.491,
+    "city": "Grinau"
+  },
+  "23858": {
+    "lat": 53.8315,
+    "lon": 10.4958,
+    "city": "Barnitz"
+  },
+  "23860": {
+    "lat": 53.8084,
+    "lon": 10.5584,
+    "city": "Klein Wesenberg"
+  },
+  "23863": {
+    "lat": 53.7703,
+    "lon": 10.1714,
+    "city": "Kayhude"
+  },
+  "23864": {
+    "lat": 53.7991,
+    "lon": 10.1347,
+    "city": "Werbeservice Danger"
+  },
+  "23866": {
+    "lat": 53.8,
+    "lon": 10.1333,
+    "city": "Nahe"
+  },
+  "23867": {
+    "lat": 53.8,
+    "lon": 10.2333,
+    "city": "Sülfeld"
+  },
+  "23869": {
+    "lat": 53.7667,
+    "lon": 10.2667,
+    "city": "Elmenhorst"
+  },
+  "23879": {
+    "lat": 53.617,
+    "lon": 10.6874,
+    "city": "Mölln"
+  },
+  "23881": {
+    "lat": 53.6212,
+    "lon": 10.6111,
+    "city": "Bälau"
+  },
+  "23883": {
+    "lat": 53.6036,
+    "lon": 10.7875,
+    "city": "Horst"
+  },
+  "23896": {
+    "lat": 53.6546,
+    "lon": 10.5868,
+    "city": "Nusse"
+  },
+  "23898": {
+    "lat": 53.6898,
+    "lon": 10.5327,
+    "city": "Kühsen"
+  },
+  "23899": {
+    "lat": 53.5445,
+    "lon": 10.7518,
+    "city": "Gudow"
+  },
+  "23909": {
+    "lat": 53.6976,
+    "lon": 10.7485,
+    "city": "Bäk"
+  },
+  "23911": {
+    "lat": 53.7019,
+    "lon": 10.7727,
+    "city": "Salem"
+  },
+  "23919": {
+    "lat": 53.7205,
+    "lon": 10.6418,
+    "city": "Niendorf"
+  },
+  "23923": {
+    "lat": 53.8304,
+    "lon": 10.916,
+    "city": "Niendorf"
+  },
+  "23935": {
+    "lat": 53.8264,
+    "lon": 11.2272,
+    "city": "Arla Foods Deutschland GmbH Niederlassung Upahl"
+  },
+  "23936": {
+    "lat": 53.8438,
+    "lon": 11.1544,
+    "city": "Upahl"
+  },
+  "23942": {
+    "lat": 53.9469,
+    "lon": 10.9799,
+    "city": "Dassow"
+  },
+  "23944": {
+    "lat": 53.9878,
+    "lon": 11.2019,
+    "city": "Ostseebad Boltenhagen"
+  },
+  "23946": {
+    "lat": 53.9833,
+    "lon": 11.2167,
+    "city": "Boltenhagen"
+  },
+  "23948": {
+    "lat": 53.9396,
+    "lon": 11.1683,
+    "city": "Klütz"
+  },
+  "23952": {
+    "lat": 53.8884,
+    "lon": 11.4622,
+    "city": "Wismar, Mecklenburg"
+  },
+  "23966": {
+    "lat": 53.892,
+    "lon": 11.4636,
+    "city": "Wismar"
+  },
+  "23968": {
+    "lat": 53.903,
+    "lon": 11.37,
+    "city": "Wismar"
+  },
+  "23970": {
+    "lat": 53.8927,
+    "lon": 11.5171,
+    "city": "Benz"
+  },
+  "23972": {
+    "lat": 53.8388,
+    "lon": 11.489,
+    "city": "Lübow"
+  },
+  "23974": {
+    "lat": 53.9613,
+    "lon": 11.5498,
+    "city": "Blowatz"
+  },
+  "23992": {
+    "lat": 53.8962,
+    "lon": 11.702,
+    "city": "Züsow"
+  },
+  "23996": {
+    "lat": 53.8007,
+    "lon": 11.4131,
+    "city": "Bobitz"
+  },
+  "23999": {
+    "lat": 54,
+    "lon": 11.4333,
+    "city": "Insel Poel"
+  },
+  "24088": {
+    "lat": 54.3155,
+    "lon": 10.1282,
+    "city": "HUK-Coburg"
+  },
+  "24090": {
+    "lat": 54.2752,
+    "lon": 10.1612,
+    "city": "Deutsche Post AG Direkt Marketing Center Kiel"
+  },
+  "24091": {
+    "lat": 54.3218,
+    "lon": 10.134,
+    "city": "Investitionsbank Schleswig-Holstein"
+  },
+  "24094": {
+    "lat": 54.3447,
+    "lon": 10.1326,
+    "city": "Finanzamt Kiel-Nord"
+  },
+  "24095": {
+    "lat": 54.3332,
+    "lon": 10.1392,
+    "city": "Finanzamt Kiel"
+  },
+  "24096": {
+    "lat": 54.3332,
+    "lon": 10.1392,
+    "city": "Finanzministerium des Landes Schleswig Holstein Amt für Informationstechnik"
+  },
+  "24097": {
+    "lat": 54.3154,
+    "lon": 10.1315,
+    "city": "Provinzial Versicherungsanstalten Schleswig Holstein"
+  },
+  "24098": {
+    "lat": 54.3383,
+    "lon": 10.1283,
+    "city": "Christian-Albrechts-Universität zu Kiel"
+  },
+  "24099": {
+    "lat": 54.3218,
+    "lon": 10.134,
+    "city": "Landeshauptstadt Kiel"
+  },
+  "24100": {
+    "lat": 54.3261,
+    "lon": 10.1263,
+    "city": "Studentenwerk"
+  },
+  "24103": {
+    "lat": 54.3205,
+    "lon": 10.1327,
+    "city": "Kiel"
+  },
+  "24105": {
+    "lat": 54.3347,
+    "lon": 10.1348,
+    "city": "Kiel"
+  },
+  "24106": {
+    "lat": 54.3506,
+    "lon": 10.1205,
+    "city": "Kiel"
+  },
+  "24107": {
+    "lat": 54.3358,
+    "lon": 10.0553,
+    "city": "Kiel"
+  },
+  "24109": {
+    "lat": 54.3186,
+    "lon": 10.0422,
+    "city": "Kiel"
+  },
+  "24111": {
+    "lat": 54.3333,
+    "lon": 10.1333,
+    "city": "Kiel"
+  },
+  "24113": {
+    "lat": 54.2839,
+    "lon": 10.0914,
+    "city": "Kiel"
+  },
+  "24114": {
+    "lat": 54.3157,
+    "lon": 10.1302,
+    "city": "Kiel"
+  },
+  "24116": {
+    "lat": 54.3253,
+    "lon": 10.1212,
+    "city": "Kiel"
+  },
+  "24118": {
+    "lat": 54.3334,
+    "lon": 10.1176,
+    "city": "Kiel"
+  },
+  "24119": {
+    "lat": 54.3333,
+    "lon": 10.0833,
+    "city": "Kronshagen"
+  },
+  "24130": {
+    "lat": 54.3085,
+    "lon": 10.1384,
+    "city": "thyssenkrupp Marine Systems GmbH Geschäftsbereich Submarines"
+  },
+  "24131": {
+    "lat": 54.309,
+    "lon": 10.1327,
+    "city": "Agentur für Arbeit Kiel"
+  },
+  "24143": {
+    "lat": 54.3061,
+    "lon": 10.1448,
+    "city": "Kiel"
+  },
+  "24145": {
+    "lat": 54.3333,
+    "lon": 10.1333,
+    "city": "Kiel"
+  },
+  "24146": {
+    "lat": 54.3333,
+    "lon": 10.1333,
+    "city": "Kiel"
+  },
+  "24147": {
+    "lat": 54.3212,
+    "lon": 10.1735,
+    "city": "Kiel"
+  },
+  "24148": {
+    "lat": 54.3187,
+    "lon": 10.1703,
+    "city": "Kiel"
+  },
+  "24149": {
+    "lat": 54.3333,
+    "lon": 10.1333,
+    "city": "Kiel"
+  },
+  "24159": {
+    "lat": 54.3973,
+    "lon": 10.1505,
+    "city": "Kiel"
+  },
+  "24161": {
+    "lat": 54.4,
+    "lon": 10.1333,
+    "city": "Altenholz"
+  },
+  "24180": {
+    "lat": 54.2752,
+    "lon": 10.1612,
+    "city": "Deutsche Post AG Niederlassung BRIEF Kiel"
+  },
+  "24211": {
+    "lat": 54.2274,
+    "lon": 10.2715,
+    "city": "Preetz"
+  },
+  "24214": {
+    "lat": 54.4024,
+    "lon": 9.9714,
+    "city": "Noer"
+  },
+  "24217": {
+    "lat": 54.3878,
+    "lon": 10.3715,
+    "city": "Wisch"
+  },
+  "24220": {
+    "lat": 54.2286,
+    "lon": 10.0845,
+    "city": "Boksee"
+  },
+  "24222": {
+    "lat": 54.2944,
+    "lon": 10.2167,
+    "city": "Schwentinental"
+  },
+  "24223": {
+    "lat": 54.2813,
+    "lon": 10.2491,
+    "city": "Raisdorf"
+  },
+  "24226": {
+    "lat": 54.3667,
+    "lon": 10.2,
+    "city": "Heikendorf"
+  },
+  "24229": {
+    "lat": 54.4426,
+    "lon": 10.1253,
+    "city": "Strande"
+  },
+  "24232": {
+    "lat": 54.3261,
+    "lon": 10.2567,
+    "city": "Dobersdorf"
+  },
+  "24235": {
+    "lat": 54.4024,
+    "lon": 10.2612,
+    "city": "Stein"
+  },
+  "24238": {
+    "lat": 54.2764,
+    "lon": 10.4276,
+    "city": "Selent"
+  },
+  "24239": {
+    "lat": 54.3132,
+    "lon": 9.9661,
+    "city": "Achterwehr"
+  },
+  "24241": {
+    "lat": 54.2139,
+    "lon": 10.0167,
+    "city": "Sören"
+  },
+  "24242": {
+    "lat": 54.3,
+    "lon": 9.9333,
+    "city": "Felde"
+  },
+  "24244": {
+    "lat": 54.4167,
+    "lon": 10.05,
+    "city": "Felm"
+  },
+  "24245": {
+    "lat": 54.2194,
+    "lon": 10.1569,
+    "city": "Barmissen"
+  },
+  "24247": {
+    "lat": 54.2833,
+    "lon": 10.0334,
+    "city": "Rodenbek"
+  },
+  "24248": {
+    "lat": 54.35,
+    "lon": 10.1833,
+    "city": "Mönkeberg"
+  },
+  "24250": {
+    "lat": 54.1858,
+    "lon": 10.1773,
+    "city": "Warnau"
+  },
+  "24251": {
+    "lat": 54.4333,
+    "lon": 10.0167,
+    "city": "Osdorf"
+  },
+  "24253": {
+    "lat": 54.3654,
+    "lon": 10.3094,
+    "city": "Fahren"
+  },
+  "24254": {
+    "lat": 54.2556,
+    "lon": 10.0245,
+    "city": "Rumohr"
+  },
+  "24256": {
+    "lat": 54.3349,
+    "lon": 10.367,
+    "city": "Schlesen"
+  },
+  "24257": {
+    "lat": 54.3581,
+    "lon": 10.4762,
+    "city": "Köhn"
+  },
+  "24259": {
+    "lat": 54.2745,
+    "lon": 9.8958,
+    "city": "Westensee"
+  },
+  "24300": {
+    "lat": 54.2835,
+    "lon": 10.1622,
+    "city": "AOK Schleswig-Holstein Direktion"
+  },
+  "24306": {
+    "lat": 54.1758,
+    "lon": 10.4247,
+    "city": "Plön"
+  },
+  "24321": {
+    "lat": 54.3162,
+    "lon": 10.5747,
+    "city": "Klamp"
+  },
+  "24326": {
+    "lat": 54.1236,
+    "lon": 10.3452,
+    "city": "Dersau"
+  },
+  "24327": {
+    "lat": 54.2607,
+    "lon": 10.6361,
+    "city": "Högsdorf"
+  },
+  "24329": {
+    "lat": 54.2302,
+    "lon": 10.5197,
+    "city": "Dannau"
+  },
+  "24340": {
+    "lat": 54.4604,
+    "lon": 9.8277,
+    "city": "Windeby"
+  },
+  "24349": {
+    "lat": 54.5857,
+    "lon": 10.0219,
+    "city": "Ostsee-Klinik"
+  },
+  "24351": {
+    "lat": 54.5829,
+    "lon": 9.9263,
+    "city": "Damp"
+  },
+  "24354": {
+    "lat": 54.5236,
+    "lon": 9.7867,
+    "city": "Kosel"
+  },
+  "24357": {
+    "lat": 54.4778,
+    "lon": 9.6945,
+    "city": "Güby"
+  },
+  "24358": {
+    "lat": 54.4222,
+    "lon": 9.7057,
+    "city": "Hütten"
+  },
+  "24360": {
+    "lat": 54.5,
+    "lon": 9.8333,
+    "city": "Barkelsby"
+  },
+  "24361": {
+    "lat": 54.3967,
+    "lon": 9.75,
+    "city": "Haby"
+  },
+  "24363": {
+    "lat": 54.4,
+    "lon": 9.85,
+    "city": "Holtsee"
+  },
+  "24364": {
+    "lat": 54.55,
+    "lon": 9.8833,
+    "city": "Holzdorf"
+  },
+  "24366": {
+    "lat": 54.5167,
+    "lon": 9.8833,
+    "city": "Loose"
+  },
+  "24367": {
+    "lat": 54.45,
+    "lon": 9.75,
+    "city": "Osterby"
+  },
+  "24369": {
+    "lat": 54.5333,
+    "lon": 9.9833,
+    "city": "Waabs"
+  },
+  "24376": {
+    "lat": 54.6689,
+    "lon": 9.9396,
+    "city": "Arnis"
+  },
+  "24392": {
+    "lat": 54.6394,
+    "lon": 9.7968,
+    "city": "Boren"
+  },
+  "24395": {
+    "lat": 54.7429,
+    "lon": 9.9071,
+    "city": "Nieby"
+  },
+  "24398": {
+    "lat": 54.6226,
+    "lon": 9.96,
+    "city": "Karby"
+  },
+  "24399": {
+    "lat": 54.6304,
+    "lon": 9.9316,
+    "city": "Arnis"
+  },
+  "24401": {
+    "lat": 54.65,
+    "lon": 9.7167,
+    "city": "Böel"
+  },
+  "24402": {
+    "lat": 54.7167,
+    "lon": 9.7833,
+    "city": "Esgrus"
+  },
+  "24404": {
+    "lat": 54.6833,
+    "lon": 9.9833,
+    "city": "Maasholm"
+  },
+  "24405": {
+    "lat": 54.675,
+    "lon": 9.7417,
+    "city": "Rügge"
+  },
+  "24407": {
+    "lat": 54.65,
+    "lon": 9.85,
+    "city": "Oersberg"
+  },
+  "24409": {
+    "lat": 54.7,
+    "lon": 9.8833,
+    "city": "Stoltebüll"
+  },
+  "24530": {
+    "lat": 54.0681,
+    "lon": 9.9868,
+    "city": "Agentur für Arbeit Neumünster"
+  },
+  "24531": {
+    "lat": 54.0696,
+    "lon": 9.9891,
+    "city": "Finanzamt Neumünster"
+  },
+  "24534": {
+    "lat": 54.0725,
+    "lon": 9.9828,
+    "city": "Neumünster"
+  },
+  "24536": {
+    "lat": 54.1039,
+    "lon": 10.014,
+    "city": "Tasdorf"
+  },
+  "24537": {
+    "lat": 54.0893,
+    "lon": 9.9779,
+    "city": "Neumünster"
+  },
+  "24539": {
+    "lat": 54.0614,
+    "lon": 9.9982,
+    "city": "Neumünster"
+  },
+  "24558": {
+    "lat": 53.7942,
+    "lon": 10.0289,
+    "city": "Wakendorf II"
+  },
+  "24568": {
+    "lat": 53.843,
+    "lon": 9.9811,
+    "city": "Nützen"
+  },
+  "24576": {
+    "lat": 53.9187,
+    "lon": 9.8557,
+    "city": "Hagen"
+  },
+  "24582": {
+    "lat": 54.174,
+    "lon": 10.0412,
+    "city": "Brügge"
+  },
+  "24589": {
+    "lat": 54.1797,
+    "lon": 9.8767,
+    "city": "Dätgen"
+  },
+  "24594": {
+    "lat": 54.0963,
+    "lon": 9.6816,
+    "city": "Mörel"
+  },
+  "24598": {
+    "lat": 53.9945,
+    "lon": 10.0611,
+    "city": "Boostedt"
+  },
+  "24601": {
+    "lat": 54.1109,
+    "lon": 10.2244,
+    "city": "Belau"
+  },
+  "24610": {
+    "lat": 54.0445,
+    "lon": 10.206,
+    "city": "Gönnebek"
+  },
+  "24613": {
+    "lat": 54.0635,
+    "lon": 9.7721,
+    "city": "Aukrug"
+  },
+  "24616": {
+    "lat": 53.9905,
+    "lon": 9.8249,
+    "city": "Borstel"
+  },
+  "24619": {
+    "lat": 54.0667,
+    "lon": 10.2278,
+    "city": "Tarbek"
+  },
+  "24620": {
+    "lat": 54.0833,
+    "lon": 10.0667,
+    "city": "Bönebüttel"
+  },
+  "24622": {
+    "lat": 54.1333,
+    "lon": 9.8167,
+    "city": "Gnutz"
+  },
+  "24623": {
+    "lat": 53.9833,
+    "lon": 9.9667,
+    "city": "Großenaspe"
+  },
+  "24625": {
+    "lat": 54.1298,
+    "lon": 10.0622,
+    "city": "Großharrie"
+  },
+  "24626": {
+    "lat": 54.05,
+    "lon": 10.0833,
+    "city": "Groß Kummerfeld"
+  },
+  "24628": {
+    "lat": 53.8986,
+    "lon": 10.0595,
+    "city": "Hartenholm"
+  },
+  "24629": {
+    "lat": 53.8167,
+    "lon": 10.0167,
+    "city": "Kisdorf"
+  },
+  "24631": {
+    "lat": 54.2103,
+    "lon": 9.9276,
+    "city": "Langwedel"
+  },
+  "24632": {
+    "lat": 53.85,
+    "lon": 9.8667,
+    "city": "Heidmoor"
+  },
+  "24634": {
+    "lat": 54.0417,
+    "lon": 9.8917,
+    "city": "Arpsdorf"
+  },
+  "24635": {
+    "lat": 54.0167,
+    "lon": 10.2084,
+    "city": "Daldorf"
+  },
+  "24637": {
+    "lat": 54.1167,
+    "lon": 10.1333,
+    "city": "Schillsdorf"
+  },
+  "24638": {
+    "lat": 54.083,
+    "lon": 10.2705,
+    "city": "Schmalensee"
+  },
+  "24640": {
+    "lat": 53.8917,
+    "lon": 9.975,
+    "city": "Hasenmoor"
+  },
+  "24641": {
+    "lat": 53.8419,
+    "lon": 10.1041,
+    "city": "Hüttblek"
+  },
+  "24643": {
+    "lat": 53.8667,
+    "lon": 10.05,
+    "city": "Struvenhütten"
+  },
+  "24644": {
+    "lat": 54.141,
+    "lon": 9.9259,
+    "city": "Loop"
+  },
+  "24646": {
+    "lat": 54.2167,
+    "lon": 9.8833,
+    "city": "Warder"
+  },
+  "24647": {
+    "lat": 54.0622,
+    "lon": 9.8987,
+    "city": "Wasbek"
+  },
+  "24649": {
+    "lat": 53.951,
+    "lon": 9.8949,
+    "city": "Fuhlendorf"
+  },
+  "24768": {
+    "lat": 54.3066,
+    "lon": 9.6631,
+    "city": "Rendsburg"
+  },
+  "24782": {
+    "lat": 54.3259,
+    "lon": 9.6698,
+    "city": "Rickert"
+  },
+  "24783": {
+    "lat": 54.2901,
+    "lon": 9.699,
+    "city": "Osterrönfeld"
+  },
+  "24784": {
+    "lat": 54.2833,
+    "lon": 9.65,
+    "city": "Westerrönfeld"
+  },
+  "24787": {
+    "lat": 54.3,
+    "lon": 9.6,
+    "city": "Fockbek"
+  },
+  "24790": {
+    "lat": 54.3124,
+    "lon": 9.7594,
+    "city": "Haßmoor"
+  },
+  "24791": {
+    "lat": 54.3667,
+    "lon": 9.65,
+    "city": "Alt Duvenstedt"
+  },
+  "24793": {
+    "lat": 54.1722,
+    "lon": 9.7556,
+    "city": "Brammer"
+  },
+  "24794": {
+    "lat": 54.3554,
+    "lon": 9.7087,
+    "city": "Bünsdorf"
+  },
+  "24796": {
+    "lat": 54.3297,
+    "lon": 9.8687,
+    "city": "Bovenau"
+  },
+  "24797": {
+    "lat": 54.2194,
+    "lon": 9.5535,
+    "city": "Hörsten"
+  },
+  "24799": {
+    "lat": 54.3137,
+    "lon": 9.4255,
+    "city": "Meggerdorf"
+  },
+  "24800": {
+    "lat": 54.2667,
+    "lon": 9.5167,
+    "city": "Elsdorf-Westermühlen"
+  },
+  "24802": {
+    "lat": 54.238,
+    "lon": 9.8373,
+    "city": "Bokel"
+  },
+  "24803": {
+    "lat": 54.2917,
+    "lon": 9.325,
+    "city": "Erfde"
+  },
+  "24805": {
+    "lat": 54.221,
+    "lon": 9.4843,
+    "city": "Hamdorf"
+  },
+  "24806": {
+    "lat": 54.2958,
+    "lon": 9.4917,
+    "city": "Hohn"
+  },
+  "24808": {
+    "lat": 54.2333,
+    "lon": 9.6667,
+    "city": "Jevenstedt"
+  },
+  "24809": {
+    "lat": 54.2667,
+    "lon": 9.6167,
+    "city": "Nübbel"
+  },
+  "24811": {
+    "lat": 54.4061,
+    "lon": 9.6349,
+    "city": "Owschlag"
+  },
+  "24813": {
+    "lat": 54.2667,
+    "lon": 9.6333,
+    "city": "Schülp bei Rendsburg"
+  },
+  "24814": {
+    "lat": 54.3667,
+    "lon": 9.8167,
+    "city": "Sehestedt"
+  },
+  "24816": {
+    "lat": 54.1709,
+    "lon": 9.6542,
+    "city": "Brinjahe"
+  },
+  "24817": {
+    "lat": 54.35,
+    "lon": 9.5,
+    "city": "Tetenhusen"
+  },
+  "24819": {
+    "lat": 54.1542,
+    "lon": 9.575,
+    "city": "Haale"
+  },
+  "24837": {
+    "lat": 54.5216,
+    "lon": 9.5586,
+    "city": "Schleswig"
+  },
+  "24848": {
+    "lat": 54.4125,
+    "lon": 9.4708,
+    "city": "Kropp"
+  },
+  "24850": {
+    "lat": 54.5222,
+    "lon": 9.4889,
+    "city": "Hüsby"
+  },
+  "24852": {
+    "lat": 54.6042,
+    "lon": 9.3375,
+    "city": "Eggebek"
+  },
+  "24855": {
+    "lat": 54.5747,
+    "lon": 9.4076,
+    "city": "Jübek"
+  },
+  "24857": {
+    "lat": 54.5,
+    "lon": 9.6334,
+    "city": "Fahrdorf"
+  },
+  "24860": {
+    "lat": 54.6167,
+    "lon": 9.5778,
+    "city": "Uelsby"
+  },
+  "24861": {
+    "lat": 54.3833,
+    "lon": 9.3167,
+    "city": "Bergenhusen"
+  },
+  "24863": {
+    "lat": 54.4,
+    "lon": 9.3833,
+    "city": "Börm"
+  },
+  "24864": {
+    "lat": 54.5417,
+    "lon": 9.7167,
+    "city": "Goltoft"
+  },
+  "24866": {
+    "lat": 54.4911,
+    "lon": 9.55,
+    "city": "Busdorf"
+  },
+  "24867": {
+    "lat": 54.4833,
+    "lon": 9.5,
+    "city": "Dannewerk"
+  },
+  "24869": {
+    "lat": 54.4333,
+    "lon": 9.3667,
+    "city": "Dörpstedt"
+  },
+  "24870": {
+    "lat": 54.4749,
+    "lon": 9.4114,
+    "city": "Ellingstedt"
+  },
+  "24872": {
+    "lat": 54.4415,
+    "lon": 9.4351,
+    "city": "Groß Rheide"
+  },
+  "24873": {
+    "lat": 54.65,
+    "lon": 9.5167,
+    "city": "Havetoft"
+  },
+  "24875": {
+    "lat": 54.6616,
+    "lon": 9.5592,
+    "city": "Havetoftloit"
+  },
+  "24876": {
+    "lat": 54.4593,
+    "lon": 9.337,
+    "city": "Hollingstedt"
+  },
+  "24878": {
+    "lat": 54.4533,
+    "lon": 9.5522,
+    "city": "Jagel"
+  },
+  "24879": {
+    "lat": 54.5667,
+    "lon": 9.525,
+    "city": "Idstedt"
+  },
+  "24881": {
+    "lat": 54.5667,
+    "lon": 9.5833,
+    "city": "Nübel"
+  },
+  "24882": {
+    "lat": 54.55,
+    "lon": 9.6333,
+    "city": "Schaalby"
+  },
+  "24884": {
+    "lat": 54.4667,
+    "lon": 9.5917,
+    "city": "Selk"
+  },
+  "24885": {
+    "lat": 54.6415,
+    "lon": 9.4695,
+    "city": "Sieverstedt"
+  },
+  "24887": {
+    "lat": 54.5167,
+    "lon": 9.3833,
+    "city": "Silberstedt"
+  },
+  "24888": {
+    "lat": 54.6084,
+    "lon": 9.725,
+    "city": "Loit"
+  },
+  "24890": {
+    "lat": 54.5917,
+    "lon": 9.5666,
+    "city": "Stolk"
+  },
+  "24891": {
+    "lat": 54.6405,
+    "lon": 9.6444,
+    "city": "Struxdorf"
+  },
+  "24893": {
+    "lat": 54.5667,
+    "lon": 9.6833,
+    "city": "Taarstedt"
+  },
+  "24894": {
+    "lat": 54.59,
+    "lon": 9.6609,
+    "city": "Tolk"
+  },
+  "24896": {
+    "lat": 54.5,
+    "lon": 9.3167,
+    "city": "Treia"
+  },
+  "24897": {
+    "lat": 54.5667,
+    "lon": 9.75,
+    "city": "Ulsnis"
+  },
+  "24899": {
+    "lat": 54.4061,
+    "lon": 9.2989,
+    "city": "Wohlde"
+  },
+  "24927": {
+    "lat": 54.7929,
+    "lon": 9.4237,
+    "city": "Agentur für Arbeit Flensburg"
+  },
+  "24930": {
+    "lat": 54.7761,
+    "lon": 9.3879,
+    "city": "Orion Versand GmbH"
+  },
+  "24932": {
+    "lat": 54.8133,
+    "lon": 9.4645,
+    "city": "Kraftfahrt-Bundesamt"
+  },
+  "24933": {
+    "lat": 54.7761,
+    "lon": 9.3879,
+    "city": "Orion-Versand GmbH & Co. KG"
+  },
+  "24937": {
+    "lat": 54.7862,
+    "lon": 9.4306,
+    "city": "Flensburg"
+  },
+  "24939": {
+    "lat": 54.7983,
+    "lon": 9.4206,
+    "city": "Flensburg"
+  },
+  "24941": {
+    "lat": 54.7512,
+    "lon": 9.4145,
+    "city": "Flensburg"
+  },
+  "24943": {
+    "lat": 54.7791,
+    "lon": 9.4753,
+    "city": "Tastrup"
+  },
+  "24944": {
+    "lat": 54.8092,
+    "lon": 9.4698,
+    "city": "Flensburg"
+  },
+  "24945": {
+    "lat": 54.7917,
+    "lon": 9.4394,
+    "city": "1&1 Versatel Deutschland GmbH Rechnungsprüfung"
+  },
+  "24955": {
+    "lat": 54.8,
+    "lon": 9.3833,
+    "city": "Harrislee"
+  },
+  "24960": {
+    "lat": 54.8176,
+    "lon": 9.5576,
+    "city": "Glücksburg"
+  },
+  "24963": {
+    "lat": 54.6617,
+    "lon": 9.3846,
+    "city": "Tarp"
+  },
+  "24966": {
+    "lat": 54.7167,
+    "lon": 9.6667,
+    "city": "Sörup"
+  },
+  "24969": {
+    "lat": 54.7,
+    "lon": 9.225,
+    "city": "Lindewitt"
+  },
+  "24972": {
+    "lat": 54.7571,
+    "lon": 9.7536,
+    "city": "Quern"
+  },
+  "24975": {
+    "lat": 54.7567,
+    "lon": 9.5519,
+    "city": "Hürup"
+  },
+  "24976": {
+    "lat": 54.7645,
+    "lon": 9.3153,
+    "city": "Handewitt"
+  },
+  "24977": {
+    "lat": 54.7986,
+    "lon": 9.6378,
+    "city": "Grundhof"
+  },
+  "24980": {
+    "lat": 54.7538,
+    "lon": 9.1824,
+    "city": "Meyn"
+  },
+  "24983": {
+    "lat": 54.7645,
+    "lon": 9.3153,
+    "city": "Handewitt"
+  },
+  "24986": {
+    "lat": 54.7584,
+    "lon": 9.5887,
+    "city": "Rüde"
+  },
+  "24988": {
+    "lat": 54.709,
+    "lon": 9.4284,
+    "city": "Oeversee"
+  },
+  "24989": {
+    "lat": 54.778,
+    "lon": 9.6798,
+    "city": "Dollerup"
+  },
+  "24991": {
+    "lat": 54.7138,
+    "lon": 9.5054,
+    "city": "Großsolt"
+  },
+  "24992": {
+    "lat": 54.6167,
+    "lon": 9.3,
+    "city": "Jörl"
+  },
+  "24994": {
+    "lat": 54.8243,
+    "lon": 9.1788,
+    "city": "Holt"
+  },
+  "24996": {
+    "lat": 54.7216,
+    "lon": 9.7345,
+    "city": "Ahneby"
+  },
+  "24997": {
+    "lat": 54.6833,
+    "lon": 9.3333,
+    "city": "Wanderup"
+  },
+  "24999": {
+    "lat": 54.8062,
+    "lon": 9.517,
+    "city": "Wees"
+  },
+  "25320": {
+    "lat": 53.7564,
+    "lon": 9.6621,
+    "city": "Agentur für Arbeit Elmshorn"
+  },
+  "25333": {
+    "lat": 53.7505,
+    "lon": 9.6689,
+    "city": "Finanzamt"
+  },
+  "25335": {
+    "lat": 53.7586,
+    "lon": 9.6213,
+    "city": "Elmshorn"
+  },
+  "25336": {
+    "lat": 53.7357,
+    "lon": 9.6567,
+    "city": "Elmshorn"
+  },
+  "25337": {
+    "lat": 53.7494,
+    "lon": 9.7042,
+    "city": "Elmshorn"
+  },
+  "25348": {
+    "lat": 53.7907,
+    "lon": 9.4419,
+    "city": "Glückstadt"
+  },
+  "25355": {
+    "lat": 53.79,
+    "lon": 9.7651,
+    "city": "Heede"
+  },
+  "25358": {
+    "lat": 53.8212,
+    "lon": 9.5923,
+    "city": "Hohenfelde"
+  },
+  "25361": {
+    "lat": 53.8282,
+    "lon": 9.5055,
+    "city": "Elskop"
+  },
+  "25364": {
+    "lat": 53.8601,
+    "lon": 9.7074,
+    "city": "Bokel"
+  },
+  "25365": {
+    "lat": 53.7975,
+    "lon": 9.6865,
+    "city": "Klein Offenseth-Sparrieshoop"
+  },
+  "25368": {
+    "lat": 53.7833,
+    "lon": 9.6167,
+    "city": "Kiebitzreihe"
+  },
+  "25370": {
+    "lat": 53.7178,
+    "lon": 9.598,
+    "city": "Seester"
+  },
+  "25371": {
+    "lat": 53.7,
+    "lon": 9.5667,
+    "city": "Seestermühe"
+  },
+  "25373": {
+    "lat": 53.726,
+    "lon": 9.7693,
+    "city": "Ellerhoop"
+  },
+  "25376": {
+    "lat": 53.8333,
+    "lon": 9.45,
+    "city": "Borsfleth"
+  },
+  "25377": {
+    "lat": 53.7294,
+    "lon": 9.4788,
+    "city": "Kollmar"
+  },
+  "25379": {
+    "lat": 53.7833,
+    "lon": 9.4833,
+    "city": "Herzhorn"
+  },
+  "25389": {
+    "lat": 53.7443,
+    "lon": 9.7026,
+    "city": "Deutsche Post AG Niederlassung BRIEF Elmshorn"
+  },
+  "25392": {
+    "lat": 53.745,
+    "lon": 9.7002,
+    "city": "Kreisverwaltung Pinneberg"
+  },
+  "25404": {
+    "lat": 53.659,
+    "lon": 9.801,
+    "city": "Pinneberg"
+  },
+  "25421": {
+    "lat": 53.6591,
+    "lon": 9.8009,
+    "city": "Pinneberg"
+  },
+  "25429": {
+    "lat": 53.6934,
+    "lon": 9.6542,
+    "city": "Uetersen"
+  },
+  "25436": {
+    "lat": 53.6907,
+    "lon": 9.6668,
+    "city": "Moorrege"
+  },
+  "25437": {
+    "lat": 53.7039,
+    "lon": 9.731,
+    "city": "Tornesch"
+  },
+  "25450": {
+    "lat": 53.7453,
+    "lon": 9.9416,
+    "city": "Schleswig-Holstein Netz AG"
+  },
+  "25451": {
+    "lat": 53.7283,
+    "lon": 9.9093,
+    "city": "Quickborn"
+  },
+  "25462": {
+    "lat": 53.6413,
+    "lon": 9.8647,
+    "city": "Rellingen"
+  },
+  "25469": {
+    "lat": 53.6333,
+    "lon": 9.85,
+    "city": "Halstenbek"
+  },
+  "25474": {
+    "lat": 53.6732,
+    "lon": 9.9011,
+    "city": "Hasloh"
+  },
+  "25479": {
+    "lat": 53.75,
+    "lon": 9.9167,
+    "city": "Ellerau"
+  },
+  "25482": {
+    "lat": 53.6581,
+    "lon": 9.7458,
+    "city": "Appen"
+  },
+  "25485": {
+    "lat": 53.7754,
+    "lon": 9.8597,
+    "city": "Bilsen"
+  },
+  "25486": {
+    "lat": 53.7833,
+    "lon": 9.9167,
+    "city": "Alveslohe"
+  },
+  "25488": {
+    "lat": 53.6167,
+    "lon": 9.6667,
+    "city": "Holm"
+  },
+  "25489": {
+    "lat": 53.6498,
+    "lon": 9.6058,
+    "city": "Haselau"
+  },
+  "25491": {
+    "lat": 53.6071,
+    "lon": 9.6372,
+    "city": "Hetlingen"
+  },
+  "25492": {
+    "lat": 53.65,
+    "lon": 9.65,
+    "city": "Heist"
+  },
+  "25494": {
+    "lat": 53.6833,
+    "lon": 9.8167,
+    "city": "Borstel-Hohenraden"
+  },
+  "25495": {
+    "lat": 53.6926,
+    "lon": 9.791,
+    "city": "Kummerfeld"
+  },
+  "25497": {
+    "lat": 53.6833,
+    "lon": 9.75,
+    "city": "Prisdorf"
+  },
+  "25499": {
+    "lat": 53.6771,
+    "lon": 9.8488,
+    "city": "Tangstedt"
+  },
+  "25518": {
+    "lat": 53.9596,
+    "lon": 9.484,
+    "city": "PROKON Regenerative Energien eG"
+  },
+  "25520": {
+    "lat": 53.9352,
+    "lon": 9.4977,
+    "city": "Itzehoer Versicherung"
+  },
+  "25521": {
+    "lat": 53.9352,
+    "lon": 9.4977,
+    "city": "Itzehoer Versicherung"
+  },
+  "25522": {
+    "lat": 53.9317,
+    "lon": 9.5202,
+    "city": "Novitas BKK"
+  },
+  "25524": {
+    "lat": 53.9188,
+    "lon": 9.5189,
+    "city": "Itzehoe"
+  },
+  "25541": {
+    "lat": 53.895,
+    "lon": 9.1048,
+    "city": "Brunsbüttel"
+  },
+  "25548": {
+    "lat": 53.9597,
+    "lon": 9.7078,
+    "city": "Auufer"
+  },
+  "25551": {
+    "lat": 53.9817,
+    "lon": 9.6213,
+    "city": "Silzen"
+  },
+  "25554": {
+    "lat": 53.9424,
+    "lon": 9.3754,
+    "city": "Kleve"
+  },
+  "25557": {
+    "lat": 54.1231,
+    "lon": 9.419,
+    "city": "Gokels"
+  },
+  "25560": {
+    "lat": 54.0522,
+    "lon": 9.466,
+    "city": "Puls"
+  },
+  "25563": {
+    "lat": 53.9257,
+    "lon": 9.763,
+    "city": "Wrist"
+  },
+  "25566": {
+    "lat": 53.8752,
+    "lon": 9.5845,
+    "city": "Rethwisch"
+  },
+  "25569": {
+    "lat": 53.8841,
+    "lon": 9.4571,
+    "city": "Hodorf"
+  },
+  "25572": {
+    "lat": 53.927,
+    "lon": 9.251,
+    "city": "Büttel"
+  },
+  "25573": {
+    "lat": 53.8794,
+    "lon": 9.4131,
+    "city": "Beidenfleth"
+  },
+  "25575": {
+    "lat": 54.1167,
+    "lon": 9.5333,
+    "city": "Beringstedt"
+  },
+  "25576": {
+    "lat": 53.8638,
+    "lon": 9.3231,
+    "city": "Brokdorf"
+  },
+  "25578": {
+    "lat": 53.872,
+    "lon": 9.5327,
+    "city": "Dägeling"
+  },
+  "25579": {
+    "lat": 54.0005,
+    "lon": 9.7541,
+    "city": "Rade"
+  },
+  "25581": {
+    "lat": 54.0333,
+    "lon": 9.7084,
+    "city": "Poyenberg"
+  },
+  "25582": {
+    "lat": 54.0029,
+    "lon": 9.5101,
+    "city": "Kaaks"
+  },
+  "25584": {
+    "lat": 54.0459,
+    "lon": 9.3541,
+    "city": "Besdorf"
+  },
+  "25585": {
+    "lat": 54.1583,
+    "lon": 9.4833,
+    "city": "Tackesdorf"
+  },
+  "25587": {
+    "lat": 53.9023,
+    "lon": 9.5412,
+    "city": "Münsterdorf"
+  },
+  "25588": {
+    "lat": 53.9784,
+    "lon": 9.4425,
+    "city": "Huje"
+  },
+  "25590": {
+    "lat": 54.1082,
+    "lon": 9.5744,
+    "city": "Osterstedt"
+  },
+  "25591": {
+    "lat": 53.9711,
+    "lon": 9.5042,
+    "city": "Ottenbüttel"
+  },
+  "25593": {
+    "lat": 54.0584,
+    "lon": 9.5583,
+    "city": "Reher"
+  },
+  "25594": {
+    "lat": 53.991,
+    "lon": 9.3697,
+    "city": "Vaale"
+  },
+  "25596": {
+    "lat": 54.0292,
+    "lon": 9.381,
+    "city": "Wacken"
+  },
+  "25597": {
+    "lat": 53.9122,
+    "lon": 9.6245,
+    "city": "Moordorf"
+  },
+  "25599": {
+    "lat": 53.85,
+    "lon": 9.4,
+    "city": "Wewelsfleth"
+  },
+  "25693": {
+    "lat": 53.9936,
+    "lon": 9.0853,
+    "city": "Gudendorf"
+  },
+  "25704": {
+    "lat": 54.093,
+    "lon": 9.0792,
+    "city": "Meldorf"
+  },
+  "25709": {
+    "lat": 53.9545,
+    "lon": 8.9869,
+    "city": "Marne"
+  },
+  "25712": {
+    "lat": 54.0043,
+    "lon": 9.2306,
+    "city": "Kuden"
+  },
+  "25715": {
+    "lat": 53.9516,
+    "lon": 9.1336,
+    "city": "Dingen"
+  },
+  "25718": {
+    "lat": 54.0167,
+    "lon": 8.9167,
+    "city": "Friedrichskoog"
+  },
+  "25719": {
+    "lat": 54.029,
+    "lon": 9.0438,
+    "city": "Barlt"
+  },
+  "25721": {
+    "lat": 54.05,
+    "lon": 9.2667,
+    "city": "Eggstedt"
+  },
+  "25724": {
+    "lat": 53.9056,
+    "lon": 9.0111,
+    "city": "Neufeld"
+  },
+  "25725": {
+    "lat": 54.0917,
+    "lon": 9.3166,
+    "city": "Bornholt"
+  },
+  "25727": {
+    "lat": 54.0498,
+    "lon": 9.1914,
+    "city": "Frestedt"
+  },
+  "25729": {
+    "lat": 54.05,
+    "lon": 9.1167,
+    "city": "Windbergen"
+  },
+  "25742": {
+    "lat": 54.1947,
+    "lon": 9.1249,
+    "city": "Nord-Ostsee Automobile SE & Co. KG"
+  },
+  "25744": {
+    "lat": 54.2022,
+    "lon": 9.1002,
+    "city": "Agentur für Arbeit Heide"
+  },
+  "25746": {
+    "lat": 54.202,
+    "lon": 9.0776,
+    "city": "Heide"
+  },
+  "25761": {
+    "lat": 54.152,
+    "lon": 8.8731,
+    "city": "Büsum"
+  },
+  "25764": {
+    "lat": 54.2046,
+    "lon": 8.9153,
+    "city": "Schülp"
+  },
+  "25767": {
+    "lat": 54.155,
+    "lon": 9.3035,
+    "city": "Bunsoh"
+  },
+  "25770": {
+    "lat": 54.153,
+    "lon": 9.0638,
+    "city": "Lieth"
+  },
+  "25774": {
+    "lat": 54.3093,
+    "lon": 9.0081,
+    "city": "Lehe"
+  },
+  "25776": {
+    "lat": 54.3135,
+    "lon": 9.0616,
+    "city": "Schlichting"
+  },
+  "25779": {
+    "lat": 54.2742,
+    "lon": 9.1581,
+    "city": "Kleve"
+  },
+  "25782": {
+    "lat": 54.2184,
+    "lon": 9.2759,
+    "city": "Hövede"
+  },
+  "25785": {
+    "lat": 54.1408,
+    "lon": 9.1869,
+    "city": "Odderade"
+  },
+  "25786": {
+    "lat": 54.2333,
+    "lon": 9.3667,
+    "city": "Dellstedt"
+  },
+  "25788": {
+    "lat": 54.2912,
+    "lon": 9.2473,
+    "city": "Delve"
+  },
+  "25791": {
+    "lat": 54.2417,
+    "lon": 9.1833,
+    "city": "Linden"
+  },
+  "25792": {
+    "lat": 54.2516,
+    "lon": 8.9791,
+    "city": "Strübbel"
+  },
+  "25794": {
+    "lat": 54.2642,
+    "lon": 9.3239,
+    "city": "Pahlen"
+  },
+  "25795": {
+    "lat": 54.2505,
+    "lon": 9.0705,
+    "city": "Weddingstedt"
+  },
+  "25797": {
+    "lat": 54.1667,
+    "lon": 9,
+    "city": "Wöhrden"
+  },
+  "25799": {
+    "lat": 54.2131,
+    "lon": 9.3821,
+    "city": "Wrohm"
+  },
+  "25813": {
+    "lat": 54.4577,
+    "lon": 9.0619,
+    "city": "Husum"
+  },
+  "25821": {
+    "lat": 54.6054,
+    "lon": 8.9858,
+    "city": "Breklum"
+  },
+  "25826": {
+    "lat": 54.3036,
+    "lon": 8.6414,
+    "city": "Sankt Peter-Ording"
+  },
+  "25832": {
+    "lat": 54.3261,
+    "lon": 8.9234,
+    "city": "Tönning"
+  },
+  "25836": {
+    "lat": 54.3278,
+    "lon": 8.7845,
+    "city": "Welt"
+  },
+  "25840": {
+    "lat": 54.3795,
+    "lon": 9.0767,
+    "city": "Koldenbüttel"
+  },
+  "25842": {
+    "lat": 54.6792,
+    "lon": 8.9292,
+    "city": "Bargum"
+  },
+  "25845": {
+    "lat": 54.5068,
+    "lon": 8.8851,
+    "city": "Nordstrand"
+  },
+  "25849": {
+    "lat": 54.5161,
+    "lon": 8.6451,
+    "city": "Pellworm"
+  },
+  "25850": {
+    "lat": 54.5667,
+    "lon": 9.2417,
+    "city": "Bondelum"
+  },
+  "25852": {
+    "lat": 54.6333,
+    "lon": 8.9333,
+    "city": "Bordelum"
+  },
+  "25853": {
+    "lat": 54.5944,
+    "lon": 9.0556,
+    "city": "Bohmstedt"
+  },
+  "25855": {
+    "lat": 54.6,
+    "lon": 9.1833,
+    "city": "Haselund"
+  },
+  "25856": {
+    "lat": 54.5389,
+    "lon": 9.0111,
+    "city": "Hattstedt"
+  },
+  "25858": {
+    "lat": 54.65,
+    "lon": 9.0667,
+    "city": "Högel"
+  },
+  "25859": {
+    "lat": 54.57,
+    "lon": 8.5481,
+    "city": "Hooge"
+  },
+  "25860": {
+    "lat": 54.5305,
+    "lon": 9.0888,
+    "city": "Olderup"
+  },
+  "25862": {
+    "lat": 54.6583,
+    "lon": 9.1292,
+    "city": "Goldebek"
+  },
+  "25863": {
+    "lat": 54.6333,
+    "lon": 8.6333,
+    "city": "Langeneß"
+  },
+  "25864": {
+    "lat": 54.6216,
+    "lon": 9.1726,
+    "city": "Löwenstedt"
+  },
+  "25866": {
+    "lat": 54.4667,
+    "lon": 9.1,
+    "city": "Mildstedt"
+  },
+  "25868": {
+    "lat": 54.36,
+    "lon": 9.2408,
+    "city": "Norderstapel"
+  },
+  "25869": {
+    "lat": 54.6333,
+    "lon": 8.7167,
+    "city": "Gröde"
+  },
+  "25870": {
+    "lat": 54.3882,
+    "lon": 8.9184,
+    "city": "Oldenswort"
+  },
+  "25872": {
+    "lat": 54.4654,
+    "lon": 9.2172,
+    "city": "Wittbek"
+  },
+  "25873": {
+    "lat": 54.4437,
+    "lon": 9.149,
+    "city": "Rantrum"
+  },
+  "25875": {
+    "lat": 54.5092,
+    "lon": 9.0062,
+    "city": "Schobüll"
+  },
+  "25876": {
+    "lat": 54.3957,
+    "lon": 9.2,
+    "city": "Hude"
+  },
+  "25878": {
+    "lat": 54.3612,
+    "lon": 9.1623,
+    "city": "Drage"
+  },
+  "25879": {
+    "lat": 54.35,
+    "lon": 9.2167,
+    "city": "Süderstapel"
+  },
+  "25881": {
+    "lat": 54.36,
+    "lon": 8.7006,
+    "city": "Tating"
+  },
+  "25882": {
+    "lat": 54.3521,
+    "lon": 8.8279,
+    "city": "Tetenbüll"
+  },
+  "25884": {
+    "lat": 54.5883,
+    "lon": 9.164,
+    "city": "Viöl"
+  },
+  "25885": {
+    "lat": 54.4894,
+    "lon": 9.2245,
+    "city": "Ahrenviöl"
+  },
+  "25887": {
+    "lat": 54.4333,
+    "lon": 9.2,
+    "city": "Winnert"
+  },
+  "25889": {
+    "lat": 54.4077,
+    "lon": 8.9536,
+    "city": "Witzwort"
+  },
+  "25899": {
+    "lat": 54.7772,
+    "lon": 8.8083,
+    "city": "Bosbüll"
+  },
+  "25917": {
+    "lat": 54.7706,
+    "lon": 9.0075,
+    "city": "Leck"
+  },
+  "25920": {
+    "lat": 54.7483,
+    "lon": 8.8983,
+    "city": "Stedesand"
+  },
+  "25923": {
+    "lat": 54.8537,
+    "lon": 8.8955,
+    "city": "Holm"
+  },
+  "25924": {
+    "lat": 54.8576,
+    "lon": 8.6776,
+    "city": "Rodenäs"
+  },
+  "25926": {
+    "lat": 54.8435,
+    "lon": 9.0095,
+    "city": "Karlum"
+  },
+  "25927": {
+    "lat": 54.8714,
+    "lon": 8.7512,
+    "city": "Aventoft"
+  },
+  "25938": {
+    "lat": 54.7101,
+    "lon": 8.4783,
+    "city": "Wrixum"
+  },
+  "25946": {
+    "lat": 54.6525,
+    "lon": 8.3587,
+    "city": "Nebel"
+  },
+  "25980": {
+    "lat": 54.8716,
+    "lon": 8.336,
+    "city": "Rantum"
+  },
+  "25992": {
+    "lat": 55.0192,
+    "lon": 8.4313,
+    "city": "List"
+  },
+  "25996": {
+    "lat": 54.9358,
+    "lon": 8.33,
+    "city": "Wenningstedt"
+  },
+  "25997": {
+    "lat": 54.7573,
+    "lon": 8.2883,
+    "city": "Hörnum"
+  },
+  "25999": {
+    "lat": 54.9541,
+    "lon": 8.3417,
+    "city": "Kampen"
+  },
+  "26060": {
+    "lat": 48.1325,
+    "lon": 11.6203,
+    "city": "DeutschlandCard GmbH"
+  },
+  "26066": {
+    "lat": 49.5938,
+    "lon": 11.0067,
+    "city": "ZBI GmbH"
+  },
+  "26090": {
+    "lat": 53.1094,
+    "lon": 8.263,
+    "city": "Deutsche Post AG Niederlassung Briefpost"
+  },
+  "26101": {
+    "lat": 53.1487,
+    "lon": 8.2,
+    "city": "OFFIS Team"
+  },
+  "26102": {
+    "lat": 53.1118,
+    "lon": 8.2102,
+    "city": "EWE NETZ GmbH"
+  },
+  "26105": {
+    "lat": 53.1524,
+    "lon": 8.1876,
+    "city": "Stadt Oldenburg (Oldb)"
+  },
+  "26106": {
+    "lat": 53.1388,
+    "lon": 8.2028,
+    "city": "Amt für regionale Landesentwicklung Weser-Ems"
+  },
+  "26107": {
+    "lat": 53.1466,
+    "lon": 8.2171,
+    "city": "EWE Vertrieb GmbH"
+  },
+  "26108": {
+    "lat": 53.1393,
+    "lon": 8.1963,
+    "city": "EWE Netz GmbH"
+  },
+  "26109": {
+    "lat": 53.1412,
+    "lon": 8.2253,
+    "city": "Agentur für Arbeit Oldenburg"
+  },
+  "26110": {
+    "lat": 53.188,
+    "lon": 8.227,
+    "city": "Nordwest-Zeitung Verlagsgesellschaft mbH & Co KG"
+  },
+  "26111": {
+    "lat": 53.1488,
+    "lon": 8.1823,
+    "city": "Carl von Ossietzky Universität Oldenburg"
+  },
+  "26114": {
+    "lat": 53.1107,
+    "lon": 8.2094,
+    "city": "EWE Vertrieb GmbH"
+  },
+  "26119": {
+    "lat": 53.1583,
+    "lon": 8.1817,
+    "city": "BARMER"
+  },
+  "26121": {
+    "lat": 53.1599,
+    "lon": 8.205,
+    "city": "Oldenburg"
+  },
+  "26122": {
+    "lat": 53.1407,
+    "lon": 8.2171,
+    "city": "Oldenburg"
+  },
+  "26123": {
+    "lat": 53.1567,
+    "lon": 8.2333,
+    "city": "Oldenburg"
+  },
+  "26125": {
+    "lat": 53.1698,
+    "lon": 8.225,
+    "city": "Oldenburg"
+  },
+  "26127": {
+    "lat": 53.1684,
+    "lon": 8.2106,
+    "city": "Oldenburg"
+  },
+  "26129": {
+    "lat": 53.1547,
+    "lon": 8.1706,
+    "city": "Oldenburg"
+  },
+  "26131": {
+    "lat": 53.131,
+    "lon": 8.1828,
+    "city": "Oldenburg"
+  },
+  "26133": {
+    "lat": 53.1156,
+    "lon": 8.2159,
+    "city": "Oldenburg"
+  },
+  "26135": {
+    "lat": 53.1267,
+    "lon": 8.2384,
+    "city": "Oldenburg"
+  },
+  "26158": {
+    "lat": 53.1858,
+    "lon": 8.0264,
+    "city": "Bundeswehrkrankenhaus Bad Zwischenahn"
+  },
+  "26160": {
+    "lat": 53.1717,
+    "lon": 8.0414,
+    "city": "Bad Zwischenahn"
+  },
+  "26169": {
+    "lat": 53.0226,
+    "lon": 7.8576,
+    "city": "Friesoythe"
+  },
+  "26177": {
+    "lat": 53.2799,
+    "lon": 8.1583,
+    "city": "Ulla Popken Junge Mode ab Größe 42 GmbH"
+  },
+  "26178": {
+    "lat": 53.2626,
+    "lon": 8.1732,
+    "city": "August Brötje GmbH"
+  },
+  "26180": {
+    "lat": 53.25,
+    "lon": 8.2,
+    "city": "Rastede"
+  },
+  "26188": {
+    "lat": 53.1228,
+    "lon": 8.1138,
+    "city": "Edewecht"
+  },
+  "26197": {
+    "lat": 52.9438,
+    "lon": 8.2532,
+    "city": "Großenkneten"
+  },
+  "26203": {
+    "lat": 53.0667,
+    "lon": 8.2,
+    "city": "Wardenburg"
+  },
+  "26209": {
+    "lat": 53.0167,
+    "lon": 8.35,
+    "city": "Hatten"
+  },
+  "26215": {
+    "lat": 53.25,
+    "lon": 8.1167,
+    "city": "Wiefelstede"
+  },
+  "26219": {
+    "lat": 53,
+    "lon": 7.95,
+    "city": "Bösel"
+  },
+  "26316": {
+    "lat": 53.3839,
+    "lon": 8.119,
+    "city": "Varel"
+  },
+  "26340": {
+    "lat": 53.4002,
+    "lon": 7.9628,
+    "city": "Zetel"
+  },
+  "26345": {
+    "lat": 53.3853,
+    "lon": 8.0171,
+    "city": "Bockhorn"
+  },
+  "26349": {
+    "lat": 53.3844,
+    "lon": 8.241,
+    "city": "Jade"
+  },
+  "26379": {
+    "lat": 53.5292,
+    "lon": 8.1292,
+    "city": "Marinearsenal"
+  },
+  "26380": {
+    "lat": 53.5216,
+    "lon": 8.1188,
+    "city": "Unfallversicherung Bund und Bahn"
+  },
+  "26382": {
+    "lat": 53.5234,
+    "lon": 8.1075,
+    "city": "Wilhelmshaven"
+  },
+  "26384": {
+    "lat": 53.5395,
+    "lon": 8.1441,
+    "city": "Wilhelmshaven"
+  },
+  "26386": {
+    "lat": 53.5568,
+    "lon": 8.1266,
+    "city": "Wilhelmshaven"
+  },
+  "26388": {
+    "lat": 53.577,
+    "lon": 8.1021,
+    "city": "Wilhelmshaven"
+  },
+  "26389": {
+    "lat": 53.5241,
+    "lon": 8.0867,
+    "city": "Wilhelmshaven"
+  },
+  "26392": {
+    "lat": 53.5163,
+    "lon": 8.1226,
+    "city": "Unfallversicherung Bund und Bahn"
+  },
+  "26409": {
+    "lat": 53.5887,
+    "lon": 7.7599,
+    "city": "Wittmund"
+  },
+  "26419": {
+    "lat": 53.5392,
+    "lon": 7.9603,
+    "city": "Schortens"
+  },
+  "26425": {
+    "lat": 53.6918,
+    "lon": 7.6915,
+    "city": "NV-Versicherungen VVag"
+  },
+  "26427": {
+    "lat": 53.637,
+    "lon": 7.644,
+    "city": "Esens"
+  },
+  "26434": {
+    "lat": 53.6504,
+    "lon": 7.9453,
+    "city": "Wangerland"
+  },
+  "26441": {
+    "lat": 53.5718,
+    "lon": 7.8938,
+    "city": "Jever"
+  },
+  "26446": {
+    "lat": 53.4636,
+    "lon": 7.8477,
+    "city": "Friedeburg"
+  },
+  "26452": {
+    "lat": 53.4959,
+    "lon": 8.0159,
+    "city": "Sande"
+  },
+  "26465": {
+    "lat": 53.75,
+    "lon": 7.4833,
+    "city": "Langeoog"
+  },
+  "26474": {
+    "lat": 53.7701,
+    "lon": 7.6948,
+    "city": "Spiekeroog"
+  },
+  "26486": {
+    "lat": 53.79,
+    "lon": 7.8994,
+    "city": "Wangerooge"
+  },
+  "26487": {
+    "lat": 53.5743,
+    "lon": 7.533,
+    "city": "Blomberg"
+  },
+  "26489": {
+    "lat": 53.6069,
+    "lon": 7.5162,
+    "city": "Ochtersum"
+  },
+  "26506": {
+    "lat": 53.5827,
+    "lon": 7.1922,
+    "city": "Norden"
+  },
+  "26524": {
+    "lat": 53.604,
+    "lon": 7.2885,
+    "city": "Hage"
+  },
+  "26529": {
+    "lat": 53.5239,
+    "lon": 7.2749,
+    "city": "Osteel"
+  },
+  "26532": {
+    "lat": 53.5931,
+    "lon": 7.3634,
+    "city": "Großheide"
+  },
+  "26548": {
+    "lat": 53.7083,
+    "lon": 7.1582,
+    "city": "Norderney"
+  },
+  "26553": {
+    "lat": 53.6548,
+    "lon": 7.4301,
+    "city": "Dornum"
+  },
+  "26556": {
+    "lat": 53.592,
+    "lon": 7.4534,
+    "city": "Utarp"
+  },
+  "26571": {
+    "lat": 53.6779,
+    "lon": 6.9958,
+    "city": "Juist"
+  },
+  "26579": {
+    "lat": 53.7284,
+    "lon": 7.3714,
+    "city": "Baltrum"
+  },
+  "26603": {
+    "lat": 53.4719,
+    "lon": 7.4775,
+    "city": "Aurich"
+  },
+  "26605": {
+    "lat": 53.473,
+    "lon": 7.5303,
+    "city": "Aurich"
+  },
+  "26607": {
+    "lat": 53.4839,
+    "lon": 7.5151,
+    "city": "Aurich"
+  },
+  "26623": {
+    "lat": 53.5004,
+    "lon": 7.3875,
+    "city": "Schecker GmbH"
+  },
+  "26624": {
+    "lat": 53.4755,
+    "lon": 7.3516,
+    "city": "Südbrookmerland"
+  },
+  "26629": {
+    "lat": 53.3974,
+    "lon": 7.5929,
+    "city": "Großefehn"
+  },
+  "26632": {
+    "lat": 53.4102,
+    "lon": 7.4029,
+    "city": "Ihlow"
+  },
+  "26639": {
+    "lat": 53.4136,
+    "lon": 7.7199,
+    "city": "Wiesmoor"
+  },
+  "26653": {
+    "lat": 53.2552,
+    "lon": 7.9294,
+    "city": "Amtsgericht"
+  },
+  "26655": {
+    "lat": 53.2568,
+    "lon": 7.9274,
+    "city": "Westerstede"
+  },
+  "26670": {
+    "lat": 53.3055,
+    "lon": 7.7512,
+    "city": "Uplengen"
+  },
+  "26676": {
+    "lat": 53.1698,
+    "lon": 7.7501,
+    "city": "Barßel"
+  },
+  "26683": {
+    "lat": 53.1033,
+    "lon": 7.6825,
+    "city": "Saterland"
+  },
+  "26689": {
+    "lat": 53.2262,
+    "lon": 7.7489,
+    "city": "Apen"
+  },
+  "26721": {
+    "lat": 53.3701,
+    "lon": 7.2031,
+    "city": "Emden"
+  },
+  "26723": {
+    "lat": 53.3667,
+    "lon": 7.2167,
+    "city": "Emden"
+  },
+  "26725": {
+    "lat": 53.3528,
+    "lon": 7.2184,
+    "city": "Emden"
+  },
+  "26736": {
+    "lat": 53.4397,
+    "lon": 7.0912,
+    "city": "Krummhörn"
+  },
+  "26757": {
+    "lat": 53.5809,
+    "lon": 6.6915,
+    "city": "Borkum"
+  },
+  "26759": {
+    "lat": 53.4215,
+    "lon": 7.1956,
+    "city": "Hinte"
+  },
+  "26786": {
+    "lat": 53.232,
+    "lon": 7.4585,
+    "city": "Agentur für Arbeit Leer"
+  },
+  "26787": {
+    "lat": 53.2324,
+    "lon": 7.4631,
+    "city": "Finanzamt"
+  },
+  "26789": {
+    "lat": 53.2348,
+    "lon": 7.4752,
+    "city": "Leer (Ostfriesland)"
+  },
+  "26802": {
+    "lat": 53.3114,
+    "lon": 7.423,
+    "city": "Moormerland"
+  },
+  "26810": {
+    "lat": 53.1692,
+    "lon": 7.4614,
+    "city": "Westoverledingen"
+  },
+  "26817": {
+    "lat": 53.1362,
+    "lon": 7.5747,
+    "city": "Rhauderfehn"
+  },
+  "26826": {
+    "lat": 53.1633,
+    "lon": 7.3505,
+    "city": "Weener"
+  },
+  "26831": {
+    "lat": 53.1865,
+    "lon": 7.2685,
+    "city": "Boen"
+  },
+  "26835": {
+    "lat": 53.305,
+    "lon": 7.6065,
+    "city": "Hesel"
+  },
+  "26842": {
+    "lat": 53.1333,
+    "lon": 7.6167,
+    "city": "Ostrhauderfehn"
+  },
+  "26844": {
+    "lat": 53.2667,
+    "lon": 7.3833,
+    "city": "Jemgum"
+  },
+  "26845": {
+    "lat": 53.2461,
+    "lon": 7.5718,
+    "city": "Nortmoor"
+  },
+  "26847": {
+    "lat": 53.2093,
+    "lon": 7.674,
+    "city": "Detern"
+  },
+  "26849": {
+    "lat": 53.2421,
+    "lon": 7.6279,
+    "city": "Filsum"
+  },
+  "26869": {
+    "lat": 53.0821,
+    "lon": 7.3899,
+    "city": "Amtsgericht"
+  },
+  "26871": {
+    "lat": 53.0774,
+    "lon": 7.4044,
+    "city": "Papenburg"
+  },
+  "26892": {
+    "lat": 52.9633,
+    "lon": 7.3405,
+    "city": "Lehe"
+  },
+  "26897": {
+    "lat": 52.991,
+    "lon": 7.6301,
+    "city": "Bockhorst"
+  },
+  "26899": {
+    "lat": 53.0602,
+    "lon": 7.2713,
+    "city": "Rhede"
+  },
+  "26901": {
+    "lat": 52.9192,
+    "lon": 7.6762,
+    "city": "Lorup"
+  },
+  "26903": {
+    "lat": 52.978,
+    "lon": 7.5153,
+    "city": "Surwold"
+  },
+  "26904": {
+    "lat": 52.9121,
+    "lon": 7.5358,
+    "city": "Börger"
+  },
+  "26906": {
+    "lat": 52.9611,
+    "lon": 7.2739,
+    "city": "Dersum"
+  },
+  "26907": {
+    "lat": 52.9272,
+    "lon": 7.2832,
+    "city": "Walchum"
+  },
+  "26909": {
+    "lat": 52.9814,
+    "lon": 7.4314,
+    "city": "Neulehe"
+  },
+  "26919": {
+    "lat": 53.3252,
+    "lon": 8.465,
+    "city": "Brake"
+  },
+  "26930": {
+    "lat": 53.2369,
+    "lon": 8.4599,
+    "city": "Georg Roll Briefmarken GmbH"
+  },
+  "26931": {
+    "lat": 53.2375,
+    "lon": 8.4566,
+    "city": "Elsfleth"
+  },
+  "26935": {
+    "lat": 53.3833,
+    "lon": 8.3833,
+    "city": "Stadland"
+  },
+  "26936": {
+    "lat": 53.3833,
+    "lon": 8.3833,
+    "city": "Stadland"
+  },
+  "26937": {
+    "lat": 53.3833,
+    "lon": 8.3833,
+    "city": "Stadland"
+  },
+  "26939": {
+    "lat": 53.3419,
+    "lon": 8.4218,
+    "city": "Ovelgönne"
+  },
+  "26954": {
+    "lat": 53.4861,
+    "lon": 8.4809,
+    "city": "Nordenham"
+  },
+  "26969": {
+    "lat": 53.5472,
+    "lon": 8.335,
+    "city": "Butjadingen"
+  },
+  "27209": {
+    "lat": 52.8242,
+    "lon": 8.6991,
+    "city": "Abfall Wirtschaftsgesellschaft mbh"
+  },
+  "27211": {
+    "lat": 52.8506,
+    "lon": 8.7279,
+    "city": "Bassum"
+  },
+  "27232": {
+    "lat": 52.6837,
+    "lon": 8.8095,
+    "city": "Sulingen"
+  },
+  "27239": {
+    "lat": 52.7993,
+    "lon": 8.6416,
+    "city": "Twistringen"
+  },
+  "27243": {
+    "lat": 52.9088,
+    "lon": 8.5873,
+    "city": "Dünsen"
+  },
+  "27245": {
+    "lat": 52.5949,
+    "lon": 8.8145,
+    "city": "Barenburg"
+  },
+  "27246": {
+    "lat": 52.6646,
+    "lon": 9.0201,
+    "city": "Borstel"
+  },
+  "27248": {
+    "lat": 52.75,
+    "lon": 8.7,
+    "city": "Ehrenburg"
+  },
+  "27249": {
+    "lat": 52.6996,
+    "lon": 8.8908,
+    "city": "Maasen"
+  },
+  "27251": {
+    "lat": 52.7548,
+    "lon": 8.7586,
+    "city": "Scholen"
+  },
+  "27252": {
+    "lat": 52.7377,
+    "lon": 8.8303,
+    "city": "Schwaförden"
+  },
+  "27254": {
+    "lat": 52.7048,
+    "lon": 8.9532,
+    "city": "Siedenburg"
+  },
+  "27257": {
+    "lat": 52.7883,
+    "lon": 8.8597,
+    "city": "Sudwalde"
+  },
+  "27259": {
+    "lat": 52.6245,
+    "lon": 8.6918,
+    "city": "Varrel"
+  },
+  "27270": {
+    "lat": 52.9264,
+    "lon": 9.2822,
+    "city": "VBS Bastel-Service"
+  },
+  "27279": {
+    "lat": 52.9233,
+    "lon": 9.2397,
+    "city": "Agentur für Arbeit Verden"
+  },
+  "27280": {
+    "lat": 52.9227,
+    "lon": 9.2392,
+    "city": "Vereinigte Informationssysteme Tierhaltung (VIT)"
+  },
+  "27281": {
+    "lat": 52.9215,
+    "lon": 9.2377,
+    "city": "Mars GmbH"
+  },
+  "27283": {
+    "lat": 52.9208,
+    "lon": 9.248,
+    "city": "Verden (Aller)"
+  },
+  "27298": {
+    "lat": 52.9839,
+    "lon": 9.1838,
+    "city": "DaSo Marketing GmbH"
+  },
+  "27299": {
+    "lat": 52.9786,
+    "lon": 9.1854,
+    "city": "Langwedel"
+  },
+  "27305": {
+    "lat": 52.8282,
+    "lon": 8.9437,
+    "city": "Engeln"
+  },
+  "27308": {
+    "lat": 52.9424,
+    "lon": 9.3181,
+    "city": "Kirchlinteln"
+  },
+  "27313": {
+    "lat": 52.85,
+    "lon": 9.2333,
+    "city": "Dörverden"
+  },
+  "27317": {
+    "lat": 52.8054,
+    "lon": 9.1354,
+    "city": "Volksbank Niedersachsen-Mitte eG"
+  },
+  "27318": {
+    "lat": 52.8304,
+    "lon": 9.1301,
+    "city": "Hoya"
+  },
+  "27321": {
+    "lat": 52.9512,
+    "lon": 9.021,
+    "city": "Morsum"
+  },
+  "27324": {
+    "lat": 52.7807,
+    "lon": 9.2318,
+    "city": "Eystrup"
+  },
+  "27327": {
+    "lat": 52.8879,
+    "lon": 9.0388,
+    "city": "Martfeld"
+  },
+  "27330": {
+    "lat": 52.7722,
+    "lon": 9.0049,
+    "city": "Asendorf"
+  },
+  "27333": {
+    "lat": 52.754,
+    "lon": 9.139,
+    "city": "Warpe"
+  },
+  "27336": {
+    "lat": 52.7872,
+    "lon": 9.4018,
+    "city": "Häuslingen"
+  },
+  "27337": {
+    "lat": 52.9167,
+    "lon": 9.1333,
+    "city": "Blender"
+  },
+  "27339": {
+    "lat": 52.9667,
+    "lon": 8.95,
+    "city": "Riede"
+  },
+  "27356": {
+    "lat": 53.1199,
+    "lon": 9.4238,
+    "city": "Rotenburg (Wümme)"
+  },
+  "27357": {
+    "lat": 53.0941,
+    "lon": 9.448,
+    "city": "Avides Media AG"
+  },
+  "27367": {
+    "lat": 53.1165,
+    "lon": 9.2596,
+    "city": "Reeßum"
+  },
+  "27374": {
+    "lat": 52.9855,
+    "lon": 9.5826,
+    "city": "Visselhövede"
+  },
+  "27383": {
+    "lat": 53.1667,
+    "lon": 9.4833,
+    "city": "Scheeßel"
+  },
+  "27386": {
+    "lat": 53.065,
+    "lon": 9.476,
+    "city": "Bothel"
+  },
+  "27389": {
+    "lat": 53.1995,
+    "lon": 9.5826,
+    "city": "Fintel"
+  },
+  "27400": {
+    "lat": 53.2799,
+    "lon": 9.3093,
+    "city": "DMK Deutsches Milchkontor GmbH"
+  },
+  "27404": {
+    "lat": 53.2928,
+    "lon": 9.2559,
+    "city": "Gyhum"
+  },
+  "27412": {
+    "lat": 53.2323,
+    "lon": 9.1147,
+    "city": "Vorwerk"
+  },
+  "27419": {
+    "lat": 53.2973,
+    "lon": 9.5021,
+    "city": "Tiste"
+  },
+  "27432": {
+    "lat": 53.4952,
+    "lon": 9.046,
+    "city": "Oerel"
+  },
+  "27442": {
+    "lat": 53.3833,
+    "lon": 9,
+    "city": "Gnarrenburg"
+  },
+  "27446": {
+    "lat": 53.4014,
+    "lon": 9.2392,
+    "city": "Farven"
+  },
+  "27449": {
+    "lat": 53.4815,
+    "lon": 9.3212,
+    "city": "Kutenholz"
+  },
+  "27470": {
+    "lat": 53.8625,
+    "lon": 8.6975,
+    "city": "Landkreis Cuxhaven"
+  },
+  "27472": {
+    "lat": 53.8584,
+    "lon": 8.709,
+    "city": "Cuxhaven"
+  },
+  "27474": {
+    "lat": 53.8555,
+    "lon": 8.6773,
+    "city": "Cuxhaven"
+  },
+  "27476": {
+    "lat": 53.861,
+    "lon": 8.6483,
+    "city": "Cuxhaven"
+  },
+  "27478": {
+    "lat": 53.8187,
+    "lon": 8.664,
+    "city": "Cuxhaven"
+  },
+  "27498": {
+    "lat": 54.1814,
+    "lon": 7.8863,
+    "city": "Helgoland"
+  },
+  "27499": {
+    "lat": 53.9167,
+    "lon": 8.5,
+    "city": "Hamburg Neuwerk"
+  },
+  "27554": {
+    "lat": 53.5426,
+    "lon": 8.5803,
+    "city": "Weser-Elbe Sparkasse"
+  },
+  "27568": {
+    "lat": 53.5687,
+    "lon": 8.5741,
+    "city": "Bremerhaven"
+  },
+  "27570": {
+    "lat": 53.5286,
+    "lon": 8.5907,
+    "city": "Bremerhaven"
+  },
+  "27572": {
+    "lat": 53.5002,
+    "lon": 8.6047,
+    "city": "Bremerhaven"
+  },
+  "27574": {
+    "lat": 53.5299,
+    "lon": 8.6098,
+    "city": "Bremerhaven"
+  },
+  "27576": {
+    "lat": 53.5545,
+    "lon": 8.5933,
+    "city": "Bremerhaven"
+  },
+  "27578": {
+    "lat": 53.5887,
+    "lon": 8.5977,
+    "city": "Bremerhaven"
+  },
+  "27580": {
+    "lat": 53.5685,
+    "lon": 8.5968,
+    "city": "Bremerhaven"
+  },
+  "27607": {
+    "lat": 53.6055,
+    "lon": 8.5951,
+    "city": "Langen"
+  },
+  "27612": {
+    "lat": 53.4667,
+    "lon": 8.65,
+    "city": "Loxstedt"
+  },
+  "27616": {
+    "lat": 53.4366,
+    "lon": 8.808,
+    "city": "Bokel"
+  },
+  "27619": {
+    "lat": 53.5333,
+    "lon": 8.65,
+    "city": "Schiffdorf"
+  },
+  "27624": {
+    "lat": 53.5973,
+    "lon": 8.8196,
+    "city": "Köhlen"
+  },
+  "27628": {
+    "lat": 53.349,
+    "lon": 8.6195,
+    "city": "Uthlede"
+  },
+  "27637": {
+    "lat": 53.7833,
+    "lon": 8.6,
+    "city": "Nordholz"
+  },
+  "27638": {
+    "lat": 53.65,
+    "lon": 8.5167,
+    "city": "Wremen"
+  },
+  "27639": {
+    "lat": 53.6972,
+    "lon": 8.559,
+    "city": "Dorum"
+  },
+  "27709": {
+    "lat": 53.2276,
+    "lon": 8.7801,
+    "city": "Stadt"
+  },
+  "27711": {
+    "lat": 53.227,
+    "lon": 8.7953,
+    "city": "Osterholz-Scharmbeck"
+  },
+  "27721": {
+    "lat": 53.1829,
+    "lon": 8.7355,
+    "city": "Ritterhude"
+  },
+  "27726": {
+    "lat": 53.2167,
+    "lon": 8.9333,
+    "city": "Worpswede"
+  },
+  "27729": {
+    "lat": 53.3393,
+    "lon": 8.83,
+    "city": "Holste"
+  },
+  "27747": {
+    "lat": 53.046,
+    "lon": 8.623,
+    "city": "Terex GmbH"
+  },
+  "27749": {
+    "lat": 53.0509,
+    "lon": 8.6291,
+    "city": "Delmenhorst"
+  },
+  "27751": {
+    "lat": 53.048,
+    "lon": 8.6606,
+    "city": "Delmenhorst"
+  },
+  "27753": {
+    "lat": 53.0628,
+    "lon": 8.6236,
+    "city": "Delmenhorst"
+  },
+  "27755": {
+    "lat": 53.0275,
+    "lon": 8.6385,
+    "city": "Delmenhorst"
+  },
+  "27777": {
+    "lat": 53.0333,
+    "lon": 8.5333,
+    "city": "Ganderkesee"
+  },
+  "27793": {
+    "lat": 52.8945,
+    "lon": 8.4338,
+    "city": "Wildeshausen"
+  },
+  "27798": {
+    "lat": 53.1167,
+    "lon": 8.4667,
+    "city": "Hude (Oldenburg)"
+  },
+  "27801": {
+    "lat": 52.9333,
+    "lon": 8.3833,
+    "city": "Dötlingen"
+  },
+  "27804": {
+    "lat": 53.1814,
+    "lon": 8.4822,
+    "city": "Berne"
+  },
+  "27809": {
+    "lat": 53.1667,
+    "lon": 8.6167,
+    "city": "Lemwerder"
+  },
+  "28100": {
+    "lat": 53.0804,
+    "lon": 8.7957,
+    "city": "Radio Bremen"
+  },
+  "28101": {
+    "lat": 53.0877,
+    "lon": 8.7846,
+    "city": "Zech Management GmbH"
+  },
+  "28102": {
+    "lat": 53.0829,
+    "lon": 8.8687,
+    "city": "Gesundheit - Nord gGmbH"
+  },
+  "28103": {
+    "lat": 53.0821,
+    "lon": 8.7885,
+    "city": "wpd onshore GmbH & Co. KG"
+  },
+  "28104": {
+    "lat": 53.2316,
+    "lon": 8.699,
+    "city": "EK Group GmbH"
+  },
+  "28105": {
+    "lat": 53.0807,
+    "lon": 8.8014,
+    "city": "AS Abrechnungsstelle für Heil- Hilfs- und Pflegeberufe AG"
+  },
+  "28107": {
+    "lat": 53.0803,
+    "lon": 8.732,
+    "city": "Winit Germany GmbH"
+  },
+  "28111": {
+    "lat": 53.0738,
+    "lon": 8.8053,
+    "city": "Kühne & Nagel (AG & Co.) KG"
+  },
+  "28163": {
+    "lat": 53.0766,
+    "lon": 8.8035,
+    "city": "Landschaftliche Brandkasse Hannover Öffentliche Versicherung Bremen"
+  },
+  "28174": {
+    "lat": 53.0761,
+    "lon": 8.8032,
+    "city": "Eilers & Schünemann Verlag KG"
+  },
+  "28177": {
+    "lat": 53.0751,
+    "lon": 8.8374,
+    "city": "Klinikum Bremen-Mitte gGmbH"
+  },
+  "28178": {
+    "lat": 53.0601,
+    "lon": 8.904,
+    "city": "Daimler Betriebskrankenkasse"
+  },
+  "28181": {
+    "lat": 53.0692,
+    "lon": 8.7865,
+    "city": "Mondelez Deutschland"
+  },
+  "28182": {
+    "lat": 53.0181,
+    "lon": 8.8779,
+    "city": "Paul Schrader GmbH & Co. KG"
+  },
+  "28183": {
+    "lat": 53.0543,
+    "lon": 8.7984,
+    "city": "AIRBUS Operations GmbH"
+  },
+  "28184": {
+    "lat": 53.0735,
+    "lon": 8.8116,
+    "city": "Amtsgericht Bremen"
+  },
+  "28185": {
+    "lat": 53.0761,
+    "lon": 8.8037,
+    "city": "hkk"
+  },
+  "28187": {
+    "lat": 53.073,
+    "lon": 8.8669,
+    "city": "Anwaltskanzlei Ehlers-Godron"
+  },
+  "28188": {
+    "lat": 53.0698,
+    "lon": 8.8685,
+    "city": "Seghorn AG"
+  },
+  "28189": {
+    "lat": 53.0795,
+    "lon": 8.8149,
+    "city": "HAG AG"
+  },
+  "28190": {
+    "lat": 53.0601,
+    "lon": 8.904,
+    "city": "Daimler AG Mercedes-Benz Werk Bremen"
+  },
+  "28192": {
+    "lat": 53.1409,
+    "lon": 8.7038,
+    "city": "BKK firmus"
+  },
+  "28195": {
+    "lat": 53.0889,
+    "lon": 8.7906,
+    "city": "Bremen"
+  },
+  "28197": {
+    "lat": 53.0854,
+    "lon": 8.7463,
+    "city": "Bremen"
+  },
+  "28199": {
+    "lat": 53.0618,
+    "lon": 8.79,
+    "city": "Bremen"
+  },
+  "28201": {
+    "lat": 53.0577,
+    "lon": 8.8036,
+    "city": "Bremen"
+  },
+  "28203": {
+    "lat": 53.0711,
+    "lon": 8.8317,
+    "city": "Bremen"
+  },
+  "28205": {
+    "lat": 53.0709,
+    "lon": 8.846,
+    "city": "Bremen"
+  },
+  "28207": {
+    "lat": 53.0687,
+    "lon": 8.8697,
+    "city": "Bremen"
+  },
+  "28209": {
+    "lat": 53.0841,
+    "lon": 8.8271,
+    "city": "Bremen"
+  },
+  "28211": {
+    "lat": 53.0859,
+    "lon": 8.8549,
+    "city": "Bremen"
+  },
+  "28213": {
+    "lat": 53.1094,
+    "lon": 8.7814,
+    "city": "Bremen"
+  },
+  "28215": {
+    "lat": 53.0926,
+    "lon": 8.8073,
+    "city": "Bremen"
+  },
+  "28217": {
+    "lat": 53.0938,
+    "lon": 8.783,
+    "city": "Bremen"
+  },
+  "28219": {
+    "lat": 53.1036,
+    "lon": 8.7875,
+    "city": "Bremen"
+  },
+  "28237": {
+    "lat": 53.1165,
+    "lon": 8.7595,
+    "city": "Bremen"
+  },
+  "28239": {
+    "lat": 53.124,
+    "lon": 8.7464,
+    "city": "Bremen"
+  },
+  "28259": {
+    "lat": 53.0543,
+    "lon": 8.7457,
+    "city": "Bremen"
+  },
+  "28275": {
+    "lat": 53.0831,
+    "lon": 8.8067,
+    "city": "BGHW Berufsgenossenschaft Handel und Warendistribution"
+  },
+  "28277": {
+    "lat": 53.1094,
+    "lon": 8.7814,
+    "city": "Bremen"
+  },
+  "28279": {
+    "lat": 53.0483,
+    "lon": 8.8383,
+    "city": "Bremen"
+  },
+  "28305": {
+    "lat": 53.0503,
+    "lon": 8.9007,
+    "city": "Wilkens & Söhne GmbH"
+  },
+  "28307": {
+    "lat": 53.0441,
+    "lon": 8.9558,
+    "city": "Bremen"
+  },
+  "28309": {
+    "lat": 53.0515,
+    "lon": 8.8896,
+    "city": "Bremen"
+  },
+  "28323": {
+    "lat": 53.0759,
+    "lon": 8.8859,
+    "city": "Radio Bremen"
+  },
+  "28325": {
+    "lat": 53.1094,
+    "lon": 8.7814,
+    "city": "Bremen"
+  },
+  "28327": {
+    "lat": 53.081,
+    "lon": 8.8925,
+    "city": "Bremen"
+  },
+  "28329": {
+    "lat": 53.0815,
+    "lon": 8.8721,
+    "city": "Bremen"
+  },
+  "28335": {
+    "lat": 53.054,
+    "lon": 8.746,
+    "city": "Bremen"
+  },
+  "28353": {
+    "lat": 53.1097,
+    "lon": 8.8518,
+    "city": "BEGO Medical GmbH"
+  },
+  "28355": {
+    "lat": 53.1001,
+    "lon": 8.9029,
+    "city": "Bremen"
+  },
+  "28357": {
+    "lat": 53.1178,
+    "lon": 8.8947,
+    "city": "Bremen"
+  },
+  "28359": {
+    "lat": 53.1003,
+    "lon": 8.8752,
+    "city": "Bremen"
+  },
+  "28363": {
+    "lat": 53.0851,
+    "lon": 8.7992,
+    "city": "Agentur für Arbeit Bremen"
+  },
+  "28365": {
+    "lat": 53.0674,
+    "lon": 8.7894,
+    "city": "Nordmilch eG"
+  },
+  "28366": {
+    "lat": 53.0791,
+    "lon": 8.7994,
+    "city": "HUK-Coburg"
+  },
+  "28375": {
+    "lat": 53.1732,
+    "lon": 8.6369,
+    "city": "Deutsche Post AG NL Filialen Zustellabrechnungscenter"
+  },
+  "28390": {
+    "lat": 53.1071,
+    "lon": 8.8655,
+    "city": "Deutsche Post AG Direkt Marketing Center Bremen"
+  },
+  "28700": {
+    "lat": 53.0518,
+    "lon": 8.7748,
+    "city": "Deutsche Post AG Niederlassung BRIEF Bremen"
+  },
+  "28717": {
+    "lat": 53.1735,
+    "lon": 8.7045,
+    "city": "Bremen"
+  },
+  "28719": {
+    "lat": 53.1728,
+    "lon": 8.7135,
+    "city": "Bremen"
+  },
+  "28751": {
+    "lat": 53.1419,
+    "lon": 8.7051,
+    "city": "Soller Multiservice GmbH & Co. KG"
+  },
+  "28755": {
+    "lat": 53.1094,
+    "lon": 8.7814,
+    "city": "Bremen"
+  },
+  "28757": {
+    "lat": 53.1094,
+    "lon": 8.7814,
+    "city": "Bremen"
+  },
+  "28759": {
+    "lat": 53.1094,
+    "lon": 8.7814,
+    "city": "Bremen"
+  },
+  "28777": {
+    "lat": 53.1094,
+    "lon": 8.7814,
+    "city": "Bremen"
+  },
+  "28779": {
+    "lat": 53.1094,
+    "lon": 8.7814,
+    "city": "Bremen"
+  },
+  "28788": {
+    "lat": 53.2248,
+    "lon": 8.5769,
+    "city": "Standortverwaltung Schwanewede"
+  },
+  "28790": {
+    "lat": 53.2321,
+    "lon": 8.5407,
+    "city": "Schwanewede"
+  },
+  "28816": {
+    "lat": 53.0333,
+    "lon": 8.75,
+    "city": "Stuhr"
+  },
+  "28832": {
+    "lat": 53.0142,
+    "lon": 9.0263,
+    "city": "Achim"
+  },
+  "28844": {
+    "lat": 52.989,
+    "lon": 8.8314,
+    "city": "Weyhe"
+  },
+  "28855": {
+    "lat": 52.9142,
+    "lon": 8.8211,
+    "city": "Amtsgericht"
+  },
+  "28857": {
+    "lat": 52.9135,
+    "lon": 8.8221,
+    "city": "Syke"
+  },
+  "28865": {
+    "lat": 53.1419,
+    "lon": 8.9034,
+    "city": "Lilienthal"
+  },
+  "28869": {
+    "lat": 53.0627,
+    "lon": 9.1728,
+    "city": "Dodenhof Posthausen KG"
+  },
+  "28870": {
+    "lat": 53.1292,
+    "lon": 9.1068,
+    "city": "Ottersberg"
+  },
+  "28876": {
+    "lat": 53.05,
+    "lon": 9.0167,
+    "city": "Oyten"
+  },
+  "28879": {
+    "lat": 53.1833,
+    "lon": 8.9833,
+    "city": "Grasberg"
+  },
+  "29216": {
+    "lat": 52.6343,
+    "lon": 10.0817,
+    "city": "Agentur für Arbeit Celle"
+  },
+  "29218": {
+    "lat": 52.613,
+    "lon": 10.0662,
+    "city": "Mobil Krankenkasse"
+  },
+  "29219": {
+    "lat": 52.6381,
+    "lon": 10.0498,
+    "city": "Heinze GmbH"
+  },
+  "29220": {
+    "lat": 52.6195,
+    "lon": 10.088,
+    "city": "Stadt Celle"
+  },
+  "29221": {
+    "lat": 52.6175,
+    "lon": 10.085,
+    "city": "Celle"
+  },
+  "29223": {
+    "lat": 52.6333,
+    "lon": 10.0842,
+    "city": "Celle"
+  },
+  "29225": {
+    "lat": 52.6122,
+    "lon": 10.0402,
+    "city": "Celle"
+  },
+  "29227": {
+    "lat": 52.611,
+    "lon": 10.0993,
+    "city": "Celle"
+  },
+  "29229": {
+    "lat": 52.6167,
+    "lon": 10.0833,
+    "city": "Celle"
+  },
+  "29270": {
+    "lat": 52.6416,
+    "lon": 10.1041,
+    "city": "Deutsche Post AG NL BRIEF Celle"
+  },
+  "29303": {
+    "lat": 52.8084,
+    "lon": 9.9637,
+    "city": "Bergen"
+  },
+  "29308": {
+    "lat": 52.6837,
+    "lon": 9.9095,
+    "city": "Winsen (Aller)"
+  },
+  "29313": {
+    "lat": 52.6333,
+    "lon": 9.9833,
+    "city": "Hambühren"
+  },
+  "29320": {
+    "lat": 52.8325,
+    "lon": 10.0896,
+    "city": "Hermannsburg"
+  },
+  "29323": {
+    "lat": 52.65,
+    "lon": 9.8333,
+    "city": "Wietze"
+  },
+  "29328": {
+    "lat": 52.9,
+    "lon": 10.1667,
+    "city": "Faßberg"
+  },
+  "29331": {
+    "lat": 52.6167,
+    "lon": 10.25,
+    "city": "Lachendorf"
+  },
+  "29336": {
+    "lat": 52.557,
+    "lon": 10.1021,
+    "city": "Nienhagen"
+  },
+  "29339": {
+    "lat": 52.5369,
+    "lon": 10.1507,
+    "city": "Wathlingen"
+  },
+  "29342": {
+    "lat": 52.5802,
+    "lon": 10.1886,
+    "city": "Wienhausen"
+  },
+  "29345": {
+    "lat": 52.8347,
+    "lon": 10.2969,
+    "city": "Unterlüß"
+  },
+  "29348": {
+    "lat": 52.7258,
+    "lon": 10.2594,
+    "city": "Eschede"
+  },
+  "29351": {
+    "lat": 52.6833,
+    "lon": 10.3333,
+    "city": "Eldingen"
+  },
+  "29352": {
+    "lat": 52.564,
+    "lon": 10.0604,
+    "city": "Adelheidsdorf"
+  },
+  "29353": {
+    "lat": 52.6107,
+    "lon": 10.2853,
+    "city": "Ahnsbeck"
+  },
+  "29355": {
+    "lat": 52.6429,
+    "lon": 10.2591,
+    "city": "Beedenbostel"
+  },
+  "29356": {
+    "lat": 52.5163,
+    "lon": 10.2151,
+    "city": "Bröckel"
+  },
+  "29358": {
+    "lat": 52.5504,
+    "lon": 10.1844,
+    "city": "Eicklingen"
+  },
+  "29359": {
+    "lat": 52.7086,
+    "lon": 10.2274,
+    "city": "Habighorst"
+  },
+  "29361": {
+    "lat": 52.6833,
+    "lon": 10.25,
+    "city": "Höfer"
+  },
+  "29362": {
+    "lat": 52.5872,
+    "lon": 10.376,
+    "city": "Hohne"
+  },
+  "29364": {
+    "lat": 52.5559,
+    "lon": 10.2829,
+    "city": "Langlingen"
+  },
+  "29365": {
+    "lat": 52.7667,
+    "lon": 10.4918,
+    "city": "Sprakensehl"
+  },
+  "29367": {
+    "lat": 52.6833,
+    "lon": 10.4,
+    "city": "Steinhorst"
+  },
+  "29369": {
+    "lat": 52.5911,
+    "lon": 10.4319,
+    "city": "Ummern"
+  },
+  "29377": {
+    "lat": 52.6653,
+    "lon": 10.6839,
+    "city": "Butting"
+  },
+  "29378": {
+    "lat": 52.7281,
+    "lon": 10.7391,
+    "city": "Wittingen"
+  },
+  "29379": {
+    "lat": 52.7333,
+    "lon": 10.7167,
+    "city": "Wittingen"
+  },
+  "29386": {
+    "lat": 52.7332,
+    "lon": 10.5657,
+    "city": "Obernholz"
+  },
+  "29389": {
+    "lat": 52.8333,
+    "lon": 10.6833,
+    "city": "Bad Bodenteich"
+  },
+  "29392": {
+    "lat": 52.6,
+    "lon": 10.5333,
+    "city": "Wesendorf"
+  },
+  "29393": {
+    "lat": 52.6476,
+    "lon": 10.4637,
+    "city": "Groß Oesingen"
+  },
+  "29394": {
+    "lat": 52.8088,
+    "lon": 10.6661,
+    "city": "Lüder"
+  },
+  "29396": {
+    "lat": 52.6333,
+    "lon": 10.6333,
+    "city": "Schönewörde"
+  },
+  "29399": {
+    "lat": 52.6167,
+    "lon": 10.6,
+    "city": "Wahrenholz"
+  },
+  "29410": {
+    "lat": 52.8522,
+    "lon": 11.1929,
+    "city": "Chüden"
+  },
+  "29413": {
+    "lat": 52.7989,
+    "lon": 10.9433,
+    "city": "Dähre"
+  },
+  "29416": {
+    "lat": 52.7982,
+    "lon": 11.2383,
+    "city": "Binde"
+  },
+  "29439": {
+    "lat": 52.9681,
+    "lon": 11.154,
+    "city": "Lüchow"
+  },
+  "29451": {
+    "lat": 53.0917,
+    "lon": 11.1009,
+    "city": "Schaafhausen"
+  },
+  "29456": {
+    "lat": 53.1498,
+    "lon": 11.0017,
+    "city": "Hitzacker"
+  },
+  "29459": {
+    "lat": 52.9514,
+    "lon": 10.9417,
+    "city": "Clenze"
+  },
+  "29462": {
+    "lat": 52.9237,
+    "lon": 11.1285,
+    "city": "Wustrow"
+  },
+  "29465": {
+    "lat": 52.8844,
+    "lon": 10.8717,
+    "city": "Schnega"
+  },
+  "29468": {
+    "lat": 52.8898,
+    "lon": 10.9396,
+    "city": "Bergen (Dumme)"
+  },
+  "29471": {
+    "lat": 53.0186,
+    "lon": 11.4452,
+    "city": "Gartow"
+  },
+  "29472": {
+    "lat": 53.1413,
+    "lon": 11.1692,
+    "city": "Damnatz"
+  },
+  "29473": {
+    "lat": 53.1272,
+    "lon": 10.9306,
+    "city": "Göhrde"
+  },
+  "29475": {
+    "lat": 53.0479,
+    "lon": 11.3669,
+    "city": "Gorleben"
+  },
+  "29476": {
+    "lat": 53.0745,
+    "lon": 11.2012,
+    "city": "Gusborn"
+  },
+  "29478": {
+    "lat": 53.0588,
+    "lon": 11.4351,
+    "city": "Höhbeck"
+  },
+  "29479": {
+    "lat": 53.0427,
+    "lon": 11.0504,
+    "city": "Jameln"
+  },
+  "29481": {
+    "lat": 53.0843,
+    "lon": 10.9986,
+    "city": "Karwitz"
+  },
+  "29482": {
+    "lat": 53.01,
+    "lon": 11.0352,
+    "city": "Küsten"
+  },
+  "29484": {
+    "lat": 53.1009,
+    "lon": 11.2558,
+    "city": "Langendorf"
+  },
+  "29485": {
+    "lat": 52.9167,
+    "lon": 11.3333,
+    "city": "Lemgow"
+  },
+  "29487": {
+    "lat": 52.9275,
+    "lon": 11.0486,
+    "city": "Luckau"
+  },
+  "29488": {
+    "lat": 52.9116,
+    "lon": 11.181,
+    "city": "Lübbow"
+  },
+  "29490": {
+    "lat": 53.229,
+    "lon": 10.8853,
+    "city": "Neu Darchau"
+  },
+  "29491": {
+    "lat": 52.9667,
+    "lon": 11.4,
+    "city": "Prezelle"
+  },
+  "29493": {
+    "lat": 53.0373,
+    "lon": 11.5645,
+    "city": "Schnackenburg"
+  },
+  "29494": {
+    "lat": 53,
+    "lon": 11.3167,
+    "city": "Trebel"
+  },
+  "29496": {
+    "lat": 52.9971,
+    "lon": 10.9655,
+    "city": "Waddeweitz"
+  },
+  "29497": {
+    "lat": 52.95,
+    "lon": 11.2167,
+    "city": "Woltersdorf"
+  },
+  "29499": {
+    "lat": 53.0685,
+    "lon": 10.8832,
+    "city": "Zernien"
+  },
+  "29523": {
+    "lat": 52.9689,
+    "lon": 10.5563,
+    "city": "Uelzena eG"
+  },
+  "29525": {
+    "lat": 52.9657,
+    "lon": 10.5611,
+    "city": "Uelzen"
+  },
+  "29549": {
+    "lat": 53.0792,
+    "lon": 10.5813,
+    "city": "Bad Bevensen"
+  },
+  "29553": {
+    "lat": 53.1416,
+    "lon": 10.4868,
+    "city": "Bienenbüttel"
+  },
+  "29556": {
+    "lat": 52.8959,
+    "lon": 10.4514,
+    "city": "Suderburg"
+  },
+  "29559": {
+    "lat": 52.9043,
+    "lon": 10.5749,
+    "city": "Wrestedt"
+  },
+  "29562": {
+    "lat": 52.9333,
+    "lon": 10.7667,
+    "city": "Suhlendorf"
+  },
+  "29565": {
+    "lat": 53.0313,
+    "lon": 10.2985,
+    "city": "Wriedel"
+  },
+  "29568": {
+    "lat": 52.8853,
+    "lon": 10.6587,
+    "city": "Wieren"
+  },
+  "29571": {
+    "lat": 52.9866,
+    "lon": 10.7518,
+    "city": "Rosche"
+  },
+  "29574": {
+    "lat": 53.0278,
+    "lon": 10.4184,
+    "city": "Ebstorf"
+  },
+  "29575": {
+    "lat": 53.1305,
+    "lon": 10.6016,
+    "city": "Altenmedingen"
+  },
+  "29576": {
+    "lat": 53.05,
+    "lon": 10.5167,
+    "city": "Barum"
+  },
+  "29578": {
+    "lat": 52.966,
+    "lon": 10.3132,
+    "city": "Eimke"
+  },
+  "29579": {
+    "lat": 53.0202,
+    "lon": 10.5646,
+    "city": "Emmendorf"
+  },
+  "29581": {
+    "lat": 52.9667,
+    "lon": 10.4167,
+    "city": "Gerdau"
+  },
+  "29582": {
+    "lat": 53.05,
+    "lon": 10.3667,
+    "city": "Hanstedt I"
+  },
+  "29584": {
+    "lat": 53.0942,
+    "lon": 10.7291,
+    "city": "Himbergen"
+  },
+  "29585": {
+    "lat": 53.1013,
+    "lon": 10.5224,
+    "city": "Jelmstorf"
+  },
+  "29587": {
+    "lat": 53.0798,
+    "lon": 10.4703,
+    "city": "Natendorf"
+  },
+  "29588": {
+    "lat": 53.0192,
+    "lon": 10.6757,
+    "city": "Oetzen"
+  },
+  "29590": {
+    "lat": 52.9758,
+    "lon": 10.6754,
+    "city": "Rätzlingen"
+  },
+  "29591": {
+    "lat": 53.1,
+    "lon": 10.65,
+    "city": "Römstedt"
+  },
+  "29593": {
+    "lat": 53.0056,
+    "lon": 10.4454,
+    "city": "Schwienau"
+  },
+  "29594": {
+    "lat": 52.8737,
+    "lon": 10.7616,
+    "city": "Soltendieck"
+  },
+  "29596": {
+    "lat": 52.8757,
+    "lon": 10.5562,
+    "city": "Stadensen"
+  },
+  "29597": {
+    "lat": 53.0667,
+    "lon": 10.7833,
+    "city": "Stoetze"
+  },
+  "29599": {
+    "lat": 53.0594,
+    "lon": 10.7028,
+    "city": "Weste"
+  },
+  "29611": {
+    "lat": 52.9651,
+    "lon": 9.8557,
+    "city": "hagebau Österreich GmbH & CO. KG"
+  },
+  "29612": {
+    "lat": 52.9651,
+    "lon": 9.8557,
+    "city": "hagebau Handelsgesellschaft f. Baustoffe GmbH & Co. KG Abt. Belegvorbereitung"
+  },
+  "29614": {
+    "lat": 52.9864,
+    "lon": 9.8434,
+    "city": "Soltau"
+  },
+  "29633": {
+    "lat": 52.9857,
+    "lon": 10.0876,
+    "city": "Munster"
+  },
+  "29640": {
+    "lat": 53.1168,
+    "lon": 9.7952,
+    "city": "Schneverdingen"
+  },
+  "29643": {
+    "lat": 53.0326,
+    "lon": 9.7064,
+    "city": "Neuenkirchen"
+  },
+  "29646": {
+    "lat": 53.0831,
+    "lon": 9.9977,
+    "city": "Bispingen"
+  },
+  "29649": {
+    "lat": 52.9167,
+    "lon": 9.9833,
+    "city": "Wietzendorf"
+  },
+  "29664": {
+    "lat": 52.8615,
+    "lon": 9.5926,
+    "city": "Walsrode"
+  },
+  "29683": {
+    "lat": 52.8497,
+    "lon": 9.688,
+    "city": "Fallingbostel"
+  },
+  "29690": {
+    "lat": 52.6801,
+    "lon": 9.6282,
+    "city": "Essel"
+  },
+  "29693": {
+    "lat": 52.7516,
+    "lon": 9.57,
+    "city": "Böhme"
+  },
+  "29699": {
+    "lat": 52.9,
+    "lon": 9.65,
+    "city": "Bomlitz"
+  },
+  "30125": {
+    "lat": 52.3713,
+    "lon": 9.8056,
+    "city": "KKH Kaufmännische Krankenkasse Hauptverwaltung"
+  },
+  "30126": {
+    "lat": 52.375,
+    "lon": 9.7428,
+    "city": "Commerzbank AG"
+  },
+  "30127": {
+    "lat": 52.3821,
+    "lon": 9.7542,
+    "city": "H./G./K. Hotel- und Gastronomie-Kauf eG"
+  },
+  "30130": {
+    "lat": 52.3709,
+    "lon": 9.7652,
+    "city": "Schlütersche Verlagsgesellschaft mbH & Co.KG"
+  },
+  "30131": {
+    "lat": 52.4162,
+    "lon": 9.7328,
+    "city": "Familienkasse Niedersachsen-Bremen"
+  },
+  "30132": {
+    "lat": 52.39,
+    "lon": 9.7549,
+    "city": "Berufsgenossenschaft Verkehrswirtschaft Post-Logistik, Telekommunikation"
+  },
+  "30133": {
+    "lat": 52.4015,
+    "lon": 9.7659,
+    "city": "VHV Allgemeine Kautionsversicherung"
+  },
+  "30134": {
+    "lat": 52.4191,
+    "lon": 9.8259,
+    "city": "Energie-BKK"
+  },
+  "30135": {
+    "lat": 52.4162,
+    "lon": 9.7328,
+    "city": "Deutsche Apotheker und Ärztebank e.G Zentrales Service Zentrum"
+  },
+  "30138": {
+    "lat": 52.4015,
+    "lon": 9.7659,
+    "city": "VHV Vereinigte Hannoversche Versicherung"
+  },
+  "30139": {
+    "lat": 52.3788,
+    "lon": 9.7331,
+    "city": "Deutsche Postbank AG Niederlassung Hannover"
+  },
+  "30140": {
+    "lat": 52.3702,
+    "lon": 9.7445,
+    "city": "Versicherungsgruppe Hannover Landschaft. Brandkasse Provinzial Lebensvers."
+  },
+  "30141": {
+    "lat": 52.3316,
+    "lon": 9.7746,
+    "city": "Berufsgenossenschaft der Bauwirtschaft Bezirksverwaltung Hannover (BG Bau)"
+  },
+  "30142": {
+    "lat": 52.3711,
+    "lon": 9.7687,
+    "city": "KG-413"
+  },
+  "30144": {
+    "lat": 52.3713,
+    "lon": 9.8056,
+    "city": "KKH Kaufmännische Krankenkasse Hauptverwaltung"
+  },
+  "30145": {
+    "lat": 52.3343,
+    "lon": 9.7794,
+    "city": "Deutsche Telekom AG Niederlassung Hannover"
+  },
+  "30146": {
+    "lat": 52.377,
+    "lon": 9.7263,
+    "city": "Allianz Lebensversicherungs-AG"
+  },
+  "30147": {
+    "lat": 52.3753,
+    "lon": 9.7283,
+    "city": "Agentur für Arbeit Hannover"
+  },
+  "30148": {
+    "lat": 52.3498,
+    "lon": 9.8027,
+    "city": "Verlagsgesellschaft Madsack GmbH & Co."
+  },
+  "30149": {
+    "lat": 52.3628,
+    "lon": 9.7216,
+    "city": "Niedersächsisches Landesamt für Bezüge und Versorgung (NLBV)"
+  },
+  "30151": {
+    "lat": 52.3679,
+    "lon": 9.7416,
+    "city": "NORD/LB"
+  },
+  "30152": {
+    "lat": 52.3995,
+    "lon": 9.7371,
+    "city": "R+V Versicherung"
+  },
+  "30153": {
+    "lat": 52.3753,
+    "lon": 9.7415,
+    "city": "Sparda Bank Hannover eG"
+  },
+  "30154": {
+    "lat": 52.421,
+    "lon": 9.7326,
+    "city": "GE Money Bank GmbH"
+  },
+  "30156": {
+    "lat": 52.3551,
+    "lon": 9.7596,
+    "city": "Sozialversicherung für Landwirtschaft Forsten und Gartenbau"
+  },
+  "30157": {
+    "lat": 52.1657,
+    "lon": 9.9921,
+    "city": "Aktivbank AG Zentralregulierung"
+  },
+  "30159": {
+    "lat": 52.3736,
+    "lon": 9.7371,
+    "city": "Hannover"
+  },
+  "30161": {
+    "lat": 52.3874,
+    "lon": 9.7465,
+    "city": "Hannover"
+  },
+  "30163": {
+    "lat": 52.3943,
+    "lon": 9.7475,
+    "city": "Hannover"
+  },
+  "30165": {
+    "lat": 52.4008,
+    "lon": 9.7217,
+    "city": "Hannover"
+  },
+  "30167": {
+    "lat": 52.3914,
+    "lon": 9.7083,
+    "city": "Hannover"
+  },
+  "30169": {
+    "lat": 52.3633,
+    "lon": 9.748,
+    "city": "Hannover"
+  },
+  "30171": {
+    "lat": 52.3697,
+    "lon": 9.7521,
+    "city": "Hannover"
+  },
+  "30173": {
+    "lat": 52.3586,
+    "lon": 9.7558,
+    "city": "Hannover"
+  },
+  "30175": {
+    "lat": 52.3667,
+    "lon": 9.7167,
+    "city": "Hannover"
+  },
+  "30177": {
+    "lat": 52.3973,
+    "lon": 9.7707,
+    "city": "Hannover"
+  },
+  "30179": {
+    "lat": 52.4137,
+    "lon": 9.7544,
+    "city": "Hannover"
+  },
+  "30417": {
+    "lat": 52.4165,
+    "lon": 9.6387,
+    "city": "VARTA AG"
+  },
+  "30419": {
+    "lat": 52.414,
+    "lon": 9.6603,
+    "city": "Hannover"
+  },
+  "30449": {
+    "lat": 52.3685,
+    "lon": 9.7082,
+    "city": "Hannover"
+  },
+  "30451": {
+    "lat": 52.3751,
+    "lon": 9.7094,
+    "city": "Hannover"
+  },
+  "30453": {
+    "lat": 52.3665,
+    "lon": 9.6815,
+    "city": "Hannover"
+  },
+  "30455": {
+    "lat": 52.3574,
+    "lon": 9.671,
+    "city": "Hannover"
+  },
+  "30457": {
+    "lat": 52.3288,
+    "lon": 9.7001,
+    "city": "Hannover"
+  },
+  "30459": {
+    "lat": 52.3425,
+    "lon": 9.7153,
+    "city": "Hannover"
+  },
+  "30517": {
+    "lat": 52.3279,
+    "lon": 9.7778,
+    "city": "MDKN Medizinischer Dienst der Krankenversicherung Niedersachsen"
+  },
+  "30519": {
+    "lat": 52.3398,
+    "lon": 9.7743,
+    "city": "Hannover"
+  },
+  "30521": {
+    "lat": 52.3667,
+    "lon": 9.7167,
+    "city": "Hannover"
+  },
+  "30539": {
+    "lat": 52.339,
+    "lon": 9.8288,
+    "city": "Hannover"
+  },
+  "30559": {
+    "lat": 52.3613,
+    "lon": 9.8344,
+    "city": "Hannover"
+  },
+  "30619": {
+    "lat": 52.3783,
+    "lon": 9.8074,
+    "city": "Mecklenburgische Versicherungs- Gesellschaften"
+  },
+  "30620": {
+    "lat": 52.3714,
+    "lon": 9.8052,
+    "city": "TUI Deutschland GmbH"
+  },
+  "30621": {
+    "lat": 52.3713,
+    "lon": 9.8056,
+    "city": "Concordia Versicherungsgruppe"
+  },
+  "30622": {
+    "lat": 52.4015,
+    "lon": 9.7659,
+    "city": "Hannoversche-Consult GmbH"
+  },
+  "30623": {
+    "lat": 52.3841,
+    "lon": 9.806,
+    "city": "Medizinische Hochschule Hannover"
+  },
+  "30625": {
+    "lat": 52.3795,
+    "lon": 9.8075,
+    "city": "Hannover"
+  },
+  "30627": {
+    "lat": 52.3667,
+    "lon": 9.7167,
+    "city": "Hannover"
+  },
+  "30629": {
+    "lat": 52.3895,
+    "lon": 9.8502,
+    "city": "Hannover"
+  },
+  "30645": {
+    "lat": 52.3835,
+    "lon": 9.8104,
+    "city": "Itsc GmbH"
+  },
+  "30647": {
+    "lat": 52.4108,
+    "lon": 9.8183,
+    "city": "HDI AG"
+  },
+  "30655": {
+    "lat": 52.4026,
+    "lon": 9.7939,
+    "city": "Hannover"
+  },
+  "30657": {
+    "lat": 52.4265,
+    "lon": 9.7921,
+    "city": "Hannover"
+  },
+  "30659": {
+    "lat": 52.4097,
+    "lon": 9.808,
+    "city": "Hannover"
+  },
+  "30669": {
+    "lat": 52.3667,
+    "lon": 9.7167,
+    "city": "Hannover"
+  },
+  "30684": {
+    "lat": 52.3316,
+    "lon": 9.7746,
+    "city": "Berufsgenossenschaft Rohstoffe u. chemische Industrie, Scanzentrum"
+  },
+  "30686": {
+    "lat": 51.5161,
+    "lon": 7.462,
+    "city": "E.ON Real Estate GmbH"
+  },
+  "30689": {
+    "lat": 52.3753,
+    "lon": 9.7283,
+    "city": "Agentur für Arbeit Hannover"
+  },
+  "30690": {
+    "lat": 52.2592,
+    "lon": 9.781,
+    "city": "Deutsche Post AG Niederlassung BRIEF Hannover"
+  },
+  "30691": {
+    "lat": 52.3767,
+    "lon": 9.729,
+    "city": "HUK-Coburg"
+  },
+  "30692": {
+    "lat": 52.4215,
+    "lon": 9.8298,
+    "city": "Deutsche Post AG (DMC) Direkt Marketing Center Hannover"
+  },
+  "30700": {
+    "lat": 52.3566,
+    "lon": 9.8749,
+    "city": "Deutsche Post AG Niederlassung Produktion Paket"
+  },
+  "30820": {
+    "lat": 52.4193,
+    "lon": 9.5738,
+    "city": "Heycom"
+  },
+  "30821": {
+    "lat": 52.4199,
+    "lon": 9.575,
+    "city": "SAZ Services GmbH"
+  },
+  "30823": {
+    "lat": 52.4182,
+    "lon": 9.6021,
+    "city": "Garbsen"
+  },
+  "30826": {
+    "lat": 52.4759,
+    "lon": 9.5359,
+    "city": "Garbsen"
+  },
+  "30827": {
+    "lat": 52.4353,
+    "lon": 9.611,
+    "city": "Garbsen"
+  },
+  "30851": {
+    "lat": 52.4378,
+    "lon": 9.7432,
+    "city": "Langenhagen"
+  },
+  "30853": {
+    "lat": 52.4506,
+    "lon": 9.7492,
+    "city": "Langenhagen"
+  },
+  "30855": {
+    "lat": 52.4402,
+    "lon": 9.6655,
+    "city": "Langenhagen"
+  },
+  "30875": {
+    "lat": 52.3001,
+    "lon": 9.8215,
+    "city": "Deutsche Rentenversicherung Braunschweig-Hannover"
+  },
+  "30876": {
+    "lat": 52.286,
+    "lon": 9.8212,
+    "city": "Siemens AG Zweigniederlassung Hannover"
+  },
+  "30880": {
+    "lat": 52.3151,
+    "lon": 9.7974,
+    "city": "Laatzen"
+  },
+  "30890": {
+    "lat": 52.3,
+    "lon": 9.45,
+    "city": "Barsinghausen"
+  },
+  "30900": {
+    "lat": 52.541,
+    "lon": 9.7429,
+    "city": "Wedemark"
+  },
+  "30916": {
+    "lat": 52.4333,
+    "lon": 9.85,
+    "city": "Isernhagen"
+  },
+  "30926": {
+    "lat": 52.3964,
+    "lon": 9.5973,
+    "city": "Seelze"
+  },
+  "30938": {
+    "lat": 52.5027,
+    "lon": 9.86,
+    "city": "Burgwedel"
+  },
+  "30952": {
+    "lat": 52.3194,
+    "lon": 9.6554,
+    "city": "Ronnenberg"
+  },
+  "30966": {
+    "lat": 52.3143,
+    "lon": 9.7236,
+    "city": "Hemmingen"
+  },
+  "30974": {
+    "lat": 52.274,
+    "lon": 9.5729,
+    "city": "Wennigsen"
+  },
+  "30982": {
+    "lat": 52.2645,
+    "lon": 9.7644,
+    "city": "Pattensen"
+  },
+  "30988": {
+    "lat": 52.3042,
+    "lon": 9.5976,
+    "city": "Robert-Koch-Krankenhaus"
+  },
+  "30989": {
+    "lat": 52.3136,
+    "lon": 9.6003,
+    "city": "Gehrden"
+  },
+  "31007": {
+    "lat": 52.1191,
+    "lon": 9.7364,
+    "city": "Stadtverwaltung Stadt Elze"
+  },
+  "31008": {
+    "lat": 52.1226,
+    "lon": 9.7359,
+    "city": "Elze"
+  },
+  "31020": {
+    "lat": 52.0887,
+    "lon": 9.6312,
+    "city": "Salzhemmendorf"
+  },
+  "31028": {
+    "lat": 52.0833,
+    "lon": 9.7833,
+    "city": "Gronau (Leine)"
+  },
+  "31029": {
+    "lat": 52.0667,
+    "lon": 9.75,
+    "city": "Banteln"
+  },
+  "31032": {
+    "lat": 52.1143,
+    "lon": 9.794,
+    "city": "Betheln"
+  },
+  "31033": {
+    "lat": 52.0425,
+    "lon": 9.7745,
+    "city": "Brüggen"
+  },
+  "31036": {
+    "lat": 52.0745,
+    "lon": 9.7212,
+    "city": "Eime"
+  },
+  "31039": {
+    "lat": 52.0578,
+    "lon": 9.7871,
+    "city": "Rheden"
+  },
+  "31061": {
+    "lat": 51.9881,
+    "lon": 9.817,
+    "city": "Alfeld (Leine)"
+  },
+  "31073": {
+    "lat": 51.9412,
+    "lon": 9.8027,
+    "city": "Delligsen"
+  },
+  "31079": {
+    "lat": 52.0362,
+    "lon": 9.9127,
+    "city": "Sibbesse"
+  },
+  "31084": {
+    "lat": 51.9333,
+    "lon": 9.9,
+    "city": "Freden (Leine)"
+  },
+  "31085": {
+    "lat": 51.95,
+    "lon": 9.9167,
+    "city": "Everode"
+  },
+  "31088": {
+    "lat": 51.9333,
+    "lon": 9.9333,
+    "city": "Winzenburg"
+  },
+  "31089": {
+    "lat": 52.0045,
+    "lon": 9.6958,
+    "city": "Duingen"
+  },
+  "31091": {
+    "lat": 51.9833,
+    "lon": 9.7333,
+    "city": "Coppengrave"
+  },
+  "31093": {
+    "lat": 52.0189,
+    "lon": 9.7535,
+    "city": "Hoyershausen"
+  },
+  "31094": {
+    "lat": 52.0372,
+    "lon": 9.6869,
+    "city": "Marienhagen"
+  },
+  "31096": {
+    "lat": 52.0333,
+    "lon": 9.6667,
+    "city": "Weenzen"
+  },
+  "31097": {
+    "lat": 51.9833,
+    "lon": 9.9667,
+    "city": "Harbarnsen"
+  },
+  "31099": {
+    "lat": 51.9833,
+    "lon": 9.95,
+    "city": "Woltershausen"
+  },
+  "31120": {
+    "lat": 52.1496,
+    "lon": 9.9473,
+    "city": "Niedersächsisches Landesamt für Soziales Jugend und Familie"
+  },
+  "31121": {
+    "lat": 52.1591,
+    "lon": 9.9584,
+    "city": "Agentur für Arbeit Hildesheim"
+  },
+  "31129": {
+    "lat": 52.1496,
+    "lon": 9.9473,
+    "city": "Niedersächsisches Landesamt für Soziales Jugend und Familie"
+  },
+  "31130": {
+    "lat": 52.1525,
+    "lon": 9.9518,
+    "city": "Sparkasse Hildesheim Goslar Peine"
+  },
+  "31131": {
+    "lat": 52.1574,
+    "lon": 9.9486,
+    "city": "Expert SE"
+  },
+  "31132": {
+    "lat": 52.1316,
+    "lon": 9.9229,
+    "city": "Robert Bosch GmbH"
+  },
+  "31134": {
+    "lat": 52.1531,
+    "lon": 9.9555,
+    "city": "Hildesheim"
+  },
+  "31135": {
+    "lat": 52.1647,
+    "lon": 9.9768,
+    "city": "Hildesheim"
+  },
+  "31137": {
+    "lat": 52.1603,
+    "lon": 9.9331,
+    "city": "Hildesheim"
+  },
+  "31139": {
+    "lat": 52.141,
+    "lon": 9.9407,
+    "city": "Hildesheim"
+  },
+  "31141": {
+    "lat": 52.1353,
+    "lon": 9.9713,
+    "city": "Hildesheim"
+  },
+  "31157": {
+    "lat": 52.235,
+    "lon": 9.8541,
+    "city": "Sarstedt"
+  },
+  "31162": {
+    "lat": 52.0578,
+    "lon": 10.0058,
+    "city": "Bad Salzdetfurth"
+  },
+  "31167": {
+    "lat": 52.0099,
+    "lon": 10.132,
+    "city": "Bockenem"
+  },
+  "31171": {
+    "lat": 52.162,
+    "lon": 9.7835,
+    "city": "Nordstemmen"
+  },
+  "31174": {
+    "lat": 52.1853,
+    "lon": 10.1023,
+    "city": "Schellerten"
+  },
+  "31177": {
+    "lat": 52.2104,
+    "lon": 9.9649,
+    "city": "Harsum"
+  },
+  "31180": {
+    "lat": 52.1972,
+    "lon": 9.8989,
+    "city": "Giesen"
+  },
+  "31185": {
+    "lat": 52.189,
+    "lon": 10.2324,
+    "city": "Söhlde"
+  },
+  "31188": {
+    "lat": 52.0872,
+    "lon": 10.1601,
+    "city": "Holle"
+  },
+  "31191": {
+    "lat": 52.2533,
+    "lon": 9.9691,
+    "city": "Algermissen"
+  },
+  "31195": {
+    "lat": 51.972,
+    "lon": 10.0305,
+    "city": "Neuhof"
+  },
+  "31196": {
+    "lat": 52.0124,
+    "lon": 9.9759,
+    "city": "Sehlem"
+  },
+  "31199": {
+    "lat": 52.0962,
+    "lon": 9.9195,
+    "city": "Diekholzen"
+  },
+  "31221": {
+    "lat": 52.3248,
+    "lon": 10.2414,
+    "city": "Finanzamt Peine"
+  },
+  "31224": {
+    "lat": 52.3233,
+    "lon": 10.2307,
+    "city": "Peine"
+  },
+  "31226": {
+    "lat": 52.3143,
+    "lon": 10.2336,
+    "city": "Peine"
+  },
+  "31228": {
+    "lat": 52.3395,
+    "lon": 10.2492,
+    "city": "Peine"
+  },
+  "31234": {
+    "lat": 52.387,
+    "lon": 10.2614,
+    "city": "Edemissen"
+  },
+  "31241": {
+    "lat": 52.2634,
+    "lon": 10.1992,
+    "city": "Ilsede"
+  },
+  "31246": {
+    "lat": 52.25,
+    "lon": 10.2167,
+    "city": "Lahstedt"
+  },
+  "31249": {
+    "lat": 52.2575,
+    "lon": 10.0642,
+    "city": "Hohenhameln"
+  },
+  "31272": {
+    "lat": 52.3645,
+    "lon": 10.0104,
+    "city": "REWE & Co. OHG"
+  },
+  "31273": {
+    "lat": 52.3885,
+    "lon": 9.9664,
+    "city": "BKK exklusiv"
+  },
+  "31275": {
+    "lat": 52.3719,
+    "lon": 9.9792,
+    "city": "Lehrte"
+  },
+  "31300": {
+    "lat": 52.4478,
+    "lon": 10.0046,
+    "city": "Gutenberg GmbH"
+  },
+  "31303": {
+    "lat": 52.4463,
+    "lon": 10.0064,
+    "city": "Burgdorf"
+  },
+  "31311": {
+    "lat": 52.4713,
+    "lon": 10.1581,
+    "city": "Uetze"
+  },
+  "31319": {
+    "lat": 52.3139,
+    "lon": 9.9682,
+    "city": "Sehnde"
+  },
+  "31513": {
+    "lat": 52.4201,
+    "lon": 9.4283,
+    "city": "Stadt Wunstorf"
+  },
+  "31515": {
+    "lat": 52.4238,
+    "lon": 9.4359,
+    "city": "Wunstorf"
+  },
+  "31533": {
+    "lat": 52.4935,
+    "lon": 9.4609,
+    "city": "KUBALD GMBH"
+  },
+  "31535": {
+    "lat": 52.5046,
+    "lon": 9.4587,
+    "city": "Neustadt am Rübenberge"
+  },
+  "31542": {
+    "lat": 52.3403,
+    "lon": 9.371,
+    "city": "Bad Nenndorf"
+  },
+  "31547": {
+    "lat": 52.454,
+    "lon": 9.2065,
+    "city": "Rehburg-Loccum"
+  },
+  "31552": {
+    "lat": 52.3043,
+    "lon": 9.3276,
+    "city": "Apelern"
+  },
+  "31553": {
+    "lat": 52.3965,
+    "lon": 9.2673,
+    "city": "Auhagen"
+  },
+  "31555": {
+    "lat": 52.3576,
+    "lon": 9.3894,
+    "city": "Suthfeld"
+  },
+  "31556": {
+    "lat": 52.419,
+    "lon": 9.2512,
+    "city": "Wölpinghausen"
+  },
+  "31558": {
+    "lat": 52.4338,
+    "lon": 9.3276,
+    "city": "Hagenburg"
+  },
+  "31559": {
+    "lat": 52.3695,
+    "lon": 9.3653,
+    "city": "Haste"
+  },
+  "31577": {
+    "lat": 52.6402,
+    "lon": 9.2039,
+    "city": "Landkreis Nienburg/Weser"
+  },
+  "31582": {
+    "lat": 52.6521,
+    "lon": 9.2382,
+    "city": "Nienburg (Weser)"
+  },
+  "31592": {
+    "lat": 52.5114,
+    "lon": 9.0384,
+    "city": "Stolzenau"
+  },
+  "31595": {
+    "lat": 52.5823,
+    "lon": 8.9998,
+    "city": "Steyerberg"
+  },
+  "31600": {
+    "lat": 52.4998,
+    "lon": 8.9093,
+    "city": "Uchte"
+  },
+  "31603": {
+    "lat": 52.4187,
+    "lon": 8.7176,
+    "city": "Diepenau"
+  },
+  "31604": {
+    "lat": 52.45,
+    "lon": 8.9667,
+    "city": "Raddestorf"
+  },
+  "31606": {
+    "lat": 52.457,
+    "lon": 8.8495,
+    "city": "Warmsen"
+  },
+  "31608": {
+    "lat": 52.6686,
+    "lon": 9.1422,
+    "city": "Marklohe"
+  },
+  "31609": {
+    "lat": 52.7167,
+    "lon": 9.1667,
+    "city": "Balge"
+  },
+  "31613": {
+    "lat": 52.7167,
+    "lon": 9.0833,
+    "city": "Wietzen"
+  },
+  "31618": {
+    "lat": 52.6036,
+    "lon": 9.0972,
+    "city": "Liebenau"
+  },
+  "31619": {
+    "lat": 52.6167,
+    "lon": 9.1333,
+    "city": "Binnen"
+  },
+  "31621": {
+    "lat": 52.6418,
+    "lon": 9.0263,
+    "city": "Pennigsehl"
+  },
+  "31622": {
+    "lat": 52.7206,
+    "lon": 9.2856,
+    "city": "Heemsen"
+  },
+  "31623": {
+    "lat": 52.6869,
+    "lon": 9.2108,
+    "city": "Drakenburg"
+  },
+  "31626": {
+    "lat": 52.7333,
+    "lon": 9.2333,
+    "city": "Haßbergen"
+  },
+  "31627": {
+    "lat": 52.7099,
+    "lon": 9.2323,
+    "city": "Rohrsen"
+  },
+  "31628": {
+    "lat": 52.5476,
+    "lon": 9.1452,
+    "city": "Landesbergen"
+  },
+  "31629": {
+    "lat": 52.5914,
+    "lon": 9.1454,
+    "city": "Estorf"
+  },
+  "31632": {
+    "lat": 52.5667,
+    "lon": 9.25,
+    "city": "Husum"
+  },
+  "31633": {
+    "lat": 52.5,
+    "lon": 9.1167,
+    "city": "Leese"
+  },
+  "31634": {
+    "lat": 52.6607,
+    "lon": 9.4015,
+    "city": "Steimbke"
+  },
+  "31636": {
+    "lat": 52.5935,
+    "lon": 9.3026,
+    "city": "Linsburg"
+  },
+  "31637": {
+    "lat": 52.6658,
+    "lon": 9.4821,
+    "city": "Rodewald"
+  },
+  "31638": {
+    "lat": 52.6407,
+    "lon": 9.3403,
+    "city": "Stöckse"
+  },
+  "31653": {
+    "lat": 52.3227,
+    "lon": 9.2037,
+    "city": "Finanzamt Stadthagen"
+  },
+  "31655": {
+    "lat": 52.3147,
+    "lon": 9.2173,
+    "city": "Stadthagen"
+  },
+  "31673": {
+    "lat": 52.2617,
+    "lon": 9.0507,
+    "city": "Landgericht"
+  },
+  "31675": {
+    "lat": 52.2826,
+    "lon": 9.0507,
+    "city": "Bückeburg"
+  },
+  "31681": {
+    "lat": 52.2791,
+    "lon": 9.1473,
+    "city": "BKK 24"
+  },
+  "31682": {
+    "lat": 52.2739,
+    "lon": 9.123,
+    "city": "UniMould GmbH"
+  },
+  "31683": {
+    "lat": 52.2656,
+    "lon": 9.1221,
+    "city": "Obernkirchen"
+  },
+  "31688": {
+    "lat": 52.2903,
+    "lon": 9.1673,
+    "city": "Nienstädt"
+  },
+  "31691": {
+    "lat": 52.3037,
+    "lon": 9.1087,
+    "city": "Helpsen"
+  },
+  "31693": {
+    "lat": 52.3261,
+    "lon": 9.1096,
+    "city": "Hespe"
+  },
+  "31698": {
+    "lat": 52.358,
+    "lon": 9.2864,
+    "city": "Lindhorst"
+  },
+  "31699": {
+    "lat": 52.35,
+    "lon": 9.3167,
+    "city": "Beckedorf"
+  },
+  "31700": {
+    "lat": 52.3324,
+    "lon": 9.2821,
+    "city": "Heuerßen"
+  },
+  "31702": {
+    "lat": 52.3531,
+    "lon": 9.2518,
+    "city": "Lüdersfeld"
+  },
+  "31707": {
+    "lat": 52.2371,
+    "lon": 9.0973,
+    "city": "Heeßen"
+  },
+  "31708": {
+    "lat": 52.2547,
+    "lon": 9.1009,
+    "city": "Ahnsen"
+  },
+  "31710": {
+    "lat": 52.2265,
+    "lon": 9.1278,
+    "city": "Buchholz"
+  },
+  "31711": {
+    "lat": 52.2266,
+    "lon": 9.0874,
+    "city": "Luhden"
+  },
+  "31712": {
+    "lat": 52.3521,
+    "lon": 9.1479,
+    "city": "Niedernwöhren"
+  },
+  "31714": {
+    "lat": 52.3605,
+    "lon": 9.2142,
+    "city": "Lauenhagen"
+  },
+  "31715": {
+    "lat": 52.3399,
+    "lon": 9.138,
+    "city": "Meerbeck"
+  },
+  "31717": {
+    "lat": 52.35,
+    "lon": 9.1833,
+    "city": "Nordsehl"
+  },
+  "31718": {
+    "lat": 52.3853,
+    "lon": 9.1881,
+    "city": "Pollhagen"
+  },
+  "31719": {
+    "lat": 52.3838,
+    "lon": 9.1202,
+    "city": "Wiedensahl"
+  },
+  "31735": {
+    "lat": 52.1887,
+    "lon": 9.0852,
+    "city": "IKK classic"
+  },
+  "31737": {
+    "lat": 52.1726,
+    "lon": 9.1191,
+    "city": "Rinteln"
+  },
+  "31749": {
+    "lat": 52.2402,
+    "lon": 9.2343,
+    "city": "Auetal"
+  },
+  "31774": {
+    "lat": 50.7191,
+    "lon": 7.117,
+    "city": "Postbank eine Niederlassung der Deutsche Bank AG"
+  },
+  "31778": {
+    "lat": 52.1074,
+    "lon": 9.3946,
+    "city": "Deutsche Postbank Kreditservice Rate"
+  },
+  "31779": {
+    "lat": 52.1074,
+    "lon": 9.3946,
+    "city": "DSL-Bank"
+  },
+  "31780": {
+    "lat": 52.11,
+    "lon": 9.3586,
+    "city": "Agentur für Arbeit Hameln"
+  },
+  "31781": {
+    "lat": 52.1074,
+    "lon": 9.3946,
+    "city": "BHW Bausparkasse AG"
+  },
+  "31783": {
+    "lat": 52.1069,
+    "lon": 9.359,
+    "city": "Agentur für Arbeit Hameln"
+  },
+  "31784": {
+    "lat": 52.1029,
+    "lon": 9.36,
+    "city": "Stadt Hameln"
+  },
+  "31785": {
+    "lat": 52.1037,
+    "lon": 9.3676,
+    "city": "Hameln"
+  },
+  "31787": {
+    "lat": 52.115,
+    "lon": 9.3388,
+    "city": "Hameln"
+  },
+  "31789": {
+    "lat": 52.0988,
+    "lon": 9.395,
+    "city": "Hameln"
+  },
+  "31810": {
+    "lat": 51.9893,
+    "lon": 9.2593,
+    "city": "Stadt Bad Pyrmont"
+  },
+  "31812": {
+    "lat": 51.9859,
+    "lon": 9.2525,
+    "city": "Bad Pyrmont"
+  },
+  "31829": {
+    "lat": 48.1918,
+    "lon": 11.6485,
+    "city": "Premiere Fernsehen GmbH & Co KG Aktion SC"
+  },
+  "31830": {
+    "lat": 52.2067,
+    "lon": 9.5583,
+    "city": "DRK Blutspendedienst"
+  },
+  "31832": {
+    "lat": 52.2084,
+    "lon": 9.5542,
+    "city": "Springe"
+  },
+  "31840": {
+    "lat": 52.1727,
+    "lon": 9.2491,
+    "city": "Hessisch Oldendorf"
+  },
+  "31848": {
+    "lat": 52.1955,
+    "lon": 9.4642,
+    "city": "Bad Münder am Deister"
+  },
+  "31855": {
+    "lat": 52.0495,
+    "lon": 9.2586,
+    "city": "Aerzen"
+  },
+  "31860": {
+    "lat": 52.0449,
+    "lon": 9.4001,
+    "city": "Emmerthal"
+  },
+  "31863": {
+    "lat": 52.1185,
+    "lon": 9.5487,
+    "city": "Coppenbrügge"
+  },
+  "31867": {
+    "lat": 52.2609,
+    "lon": 9.3723,
+    "city": "Pohle"
+  },
+  "31868": {
+    "lat": 51.9471,
+    "lon": 9.407,
+    "city": "Ottenstein"
+  },
+  "32042": {
+    "lat": 52.1221,
+    "lon": 8.6749,
+    "city": "Agentur für Arbeit Herford"
+  },
+  "32044": {
+    "lat": 52.1224,
+    "lon": 8.6681,
+    "city": "Ahlers AG"
+  },
+  "32045": {
+    "lat": 52.1176,
+    "lon": 8.671,
+    "city": "IKK classic"
+  },
+  "32046": {
+    "lat": 52.1148,
+    "lon": 8.6524,
+    "city": "Stadt Herford"
+  },
+  "32049": {
+    "lat": 52.1337,
+    "lon": 8.6963,
+    "city": "Herford"
+  },
+  "32051": {
+    "lat": 52.127,
+    "lon": 8.6427,
+    "city": "Herford"
+  },
+  "32052": {
+    "lat": 52.1005,
+    "lon": 8.6723,
+    "city": "Herford"
+  },
+  "32058": {
+    "lat": 52.0796,
+    "lon": 8.6195,
+    "city": "E.ON Westfalen Weser AG"
+  },
+  "32061": {
+    "lat": 52.0796,
+    "lon": 8.6195,
+    "city": "Deutsche Post AG Niederlassung BRIEF Herford"
+  },
+  "32102": {
+    "lat": 52.0731,
+    "lon": 8.748,
+    "city": "Ninkaplast GmbH"
+  },
+  "32105": {
+    "lat": 52.0808,
+    "lon": 8.7505,
+    "city": "Bad Salzuflen"
+  },
+  "32107": {
+    "lat": 52.0613,
+    "lon": 8.7341,
+    "city": "Bad Salzuflen"
+  },
+  "32108": {
+    "lat": 52.0692,
+    "lon": 8.7598,
+    "city": "Bad Salzuflen"
+  },
+  "32120": {
+    "lat": 52.1667,
+    "lon": 8.6167,
+    "city": "Hiddenhausen"
+  },
+  "32130": {
+    "lat": 52.1406,
+    "lon": 8.5577,
+    "city": "Enger"
+  },
+  "32139": {
+    "lat": 52.1402,
+    "lon": 8.4847,
+    "city": "Spenge"
+  },
+  "32255": {
+    "lat": 52.194,
+    "lon": 8.5767,
+    "city": "Finanzamt"
+  },
+  "32257": {
+    "lat": 52.1984,
+    "lon": 8.5864,
+    "city": "Bünde"
+  },
+  "32278": {
+    "lat": 52.2,
+    "lon": 8.6333,
+    "city": "Kirchlengern"
+  },
+  "32289": {
+    "lat": 52.25,
+    "lon": 8.4833,
+    "city": "Rödinghausen"
+  },
+  "32310": {
+    "lat": 52.3052,
+    "lon": 8.6319,
+    "city": "Hucke AG"
+  },
+  "32312": {
+    "lat": 52.307,
+    "lon": 8.6142,
+    "city": "Lübbecke"
+  },
+  "32337": {
+    "lat": 52.3747,
+    "lon": 8.6331,
+    "city": "MERKUR.COM AG"
+  },
+  "32339": {
+    "lat": 52.3825,
+    "lon": 8.6213,
+    "city": "Espelkamp"
+  },
+  "32351": {
+    "lat": 52.4167,
+    "lon": 8.45,
+    "city": "Stemwede"
+  },
+  "32361": {
+    "lat": 52.3412,
+    "lon": 8.5253,
+    "city": "Preußisch Oldendorf"
+  },
+  "32369": {
+    "lat": 52.4337,
+    "lon": 8.6126,
+    "city": "Rahden"
+  },
+  "32419": {
+    "lat": 52.3031,
+    "lon": 8.952,
+    "city": "Mars GmbH"
+  },
+  "32420": {
+    "lat": 52.2847,
+    "lon": 8.8993,
+    "city": "Amtsgericht"
+  },
+  "32421": {
+    "lat": 52.2884,
+    "lon": 8.9134,
+    "city": "Finanzamt"
+  },
+  "32423": {
+    "lat": 52.2873,
+    "lon": 8.9243,
+    "city": "Minden"
+  },
+  "32425": {
+    "lat": 52.2833,
+    "lon": 8.9167,
+    "city": "Minden"
+  },
+  "32427": {
+    "lat": 52.2946,
+    "lon": 8.8976,
+    "city": "Minden"
+  },
+  "32429": {
+    "lat": 52.2833,
+    "lon": 8.9167,
+    "city": "Minden"
+  },
+  "32455": {
+    "lat": 52.2387,
+    "lon": 8.9212,
+    "city": "Porta Möbel"
+  },
+  "32457": {
+    "lat": 52.2296,
+    "lon": 8.9161,
+    "city": "Porta Westfalica"
+  },
+  "32469": {
+    "lat": 52.3751,
+    "lon": 8.9654,
+    "city": "Petershagen"
+  },
+  "32479": {
+    "lat": 52.3333,
+    "lon": 8.75,
+    "city": "Hille"
+  },
+  "32543": {
+    "lat": 52.2002,
+    "lon": 8.7972,
+    "city": "Amtsgericht"
+  },
+  "32545": {
+    "lat": 52.1917,
+    "lon": 8.8093,
+    "city": "Bad Oeynhausen"
+  },
+  "32547": {
+    "lat": 52.206,
+    "lon": 8.8107,
+    "city": "Bad Oeynhausen"
+  },
+  "32549": {
+    "lat": 52.2473,
+    "lon": 8.7858,
+    "city": "Bad Oeynhausen"
+  },
+  "32582": {
+    "lat": 52.198,
+    "lon": 8.7201,
+    "city": "Sänger GmbH & Co"
+  },
+  "32584": {
+    "lat": 52.1885,
+    "lon": 8.6922,
+    "city": "Löhne"
+  },
+  "32602": {
+    "lat": 52.1388,
+    "lon": 8.7806,
+    "city": "Vlotho"
+  },
+  "32609": {
+    "lat": 52.2833,
+    "lon": 8.6667,
+    "city": "Hüllhorst"
+  },
+  "32655": {
+    "lat": 52.0327,
+    "lon": 8.901,
+    "city": "Amtsgericht"
+  },
+  "32657": {
+    "lat": 52.0279,
+    "lon": 8.899,
+    "city": "Lemgo"
+  },
+  "32676": {
+    "lat": 51.9583,
+    "lon": 9.2471,
+    "city": "Lügde"
+  },
+  "32683": {
+    "lat": 51.9904,
+    "lon": 9.1164,
+    "city": "Barntrup"
+  },
+  "32689": {
+    "lat": 52.1222,
+    "lon": 8.96,
+    "city": "Kalletal"
+  },
+  "32694": {
+    "lat": 52.0411,
+    "lon": 9.0028,
+    "city": "Dörentrup"
+  },
+  "32699": {
+    "lat": 52.067,
+    "lon": 9.1162,
+    "city": "Extertal"
+  },
+  "32750": {
+    "lat": 51.9331,
+    "lon": 8.8821,
+    "city": "Landesamt für Finanzen Scanstelle"
+  },
+  "32753": {
+    "lat": 51.9433,
+    "lon": 8.8627,
+    "city": "Agentur für Arbeit Detmold"
+  },
+  "32754": {
+    "lat": 51.939,
+    "lon": 8.8694,
+    "city": "Finanzamt Detmold"
+  },
+  "32756": {
+    "lat": 51.936,
+    "lon": 8.8783,
+    "city": "Detmold"
+  },
+  "32758": {
+    "lat": 51.9509,
+    "lon": 8.8658,
+    "city": "Detmold"
+  },
+  "32760": {
+    "lat": 51.8613,
+    "lon": 8.8645,
+    "city": "Detmold"
+  },
+  "32791": {
+    "lat": 51.9922,
+    "lon": 8.793,
+    "city": "Lage"
+  },
+  "32805": {
+    "lat": 51.8855,
+    "lon": 8.9624,
+    "city": "Horn-Bad Meinberg"
+  },
+  "32816": {
+    "lat": 51.8771,
+    "lon": 9.1954,
+    "city": "Schieder-Schwalenberg"
+  },
+  "32823": {
+    "lat": 51.9349,
+    "lon": 9.1046,
+    "city": "Phoenix Contact GmbH & Co. KG"
+  },
+  "32825": {
+    "lat": 51.9678,
+    "lon": 9.0473,
+    "city": "Blomberg"
+  },
+  "32832": {
+    "lat": 51.9094,
+    "lon": 8.7317,
+    "city": "Augustdorf"
+  },
+  "32839": {
+    "lat": 51.8707,
+    "lon": 9.0914,
+    "city": "Steinheim"
+  },
+  "33014": {
+    "lat": 51.733,
+    "lon": 9.0197,
+    "city": "Bad Driburg"
+  },
+  "33034": {
+    "lat": 51.7175,
+    "lon": 9.186,
+    "city": "Brakel"
+  },
+  "33039": {
+    "lat": 51.805,
+    "lon": 9.113,
+    "city": "Nieheim"
+  },
+  "33093": {
+    "lat": 51.7183,
+    "lon": 8.7527,
+    "city": "Stadt Paderborn"
+  },
+  "33094": {
+    "lat": 51.7227,
+    "lon": 8.718,
+    "city": "Siemens AG"
+  },
+  "33095": {
+    "lat": 51.7193,
+    "lon": 8.7442,
+    "city": "Stadt Paderborn"
+  },
+  "33096": {
+    "lat": 51.714,
+    "lon": 8.7411,
+    "city": "Agentur für Arbeit Paderborn"
+  },
+  "33098": {
+    "lat": 51.7136,
+    "lon": 8.7554,
+    "city": "Paderborn"
+  },
+  "33100": {
+    "lat": 51.7273,
+    "lon": 8.7706,
+    "city": "Paderborn"
+  },
+  "33102": {
+    "lat": 51.7171,
+    "lon": 8.7417,
+    "city": "Paderborn"
+  },
+  "33104": {
+    "lat": 51.7571,
+    "lon": 8.73,
+    "city": "Paderborn"
+  },
+  "33106": {
+    "lat": 51.7327,
+    "lon": 8.6885,
+    "city": "Paderborn"
+  },
+  "33129": {
+    "lat": 51.7802,
+    "lon": 8.484,
+    "city": "Delbrück"
+  },
+  "33142": {
+    "lat": 51.5511,
+    "lon": 8.5596,
+    "city": "Büren"
+  },
+  "33154": {
+    "lat": 51.6717,
+    "lon": 8.6009,
+    "city": "Salzkotten"
+  },
+  "33161": {
+    "lat": 51.8167,
+    "lon": 8.65,
+    "city": "Hövelhof"
+  },
+  "33165": {
+    "lat": 51.6171,
+    "lon": 8.8967,
+    "city": "Lichtenau"
+  },
+  "33175": {
+    "lat": 51.7833,
+    "lon": 8.8168,
+    "city": "Bad Lippspringe"
+  },
+  "33178": {
+    "lat": 51.6677,
+    "lon": 8.7228,
+    "city": "Borchen"
+  },
+  "33181": {
+    "lat": 51.521,
+    "lon": 8.6964,
+    "city": "Bad Wünnenberg"
+  },
+  "33184": {
+    "lat": 51.7645,
+    "lon": 8.942,
+    "city": "Altenbeken"
+  },
+  "33189": {
+    "lat": 51.8098,
+    "lon": 8.8461,
+    "city": "Schlangen"
+  },
+  "33311": {
+    "lat": 51.9,
+    "lon": 8.384,
+    "city": "Gütersloh"
+  },
+  "33324": {
+    "lat": 51.905,
+    "lon": 8.3493,
+    "city": "Kreisverwaltung"
+  },
+  "33325": {
+    "lat": 51.9112,
+    "lon": 8.3966,
+    "city": "Miele"
+  },
+  "33326": {
+    "lat": 51.9022,
+    "lon": 8.3899,
+    "city": "IKK classic"
+  },
+  "33330": {
+    "lat": 51.9074,
+    "lon": 8.3767,
+    "city": "Gütersloh"
+  },
+  "33332": {
+    "lat": 51.9005,
+    "lon": 8.3837,
+    "city": "Gütersloh"
+  },
+  "33334": {
+    "lat": 51.9436,
+    "lon": 8.4283,
+    "city": "Gütersloh"
+  },
+  "33335": {
+    "lat": 51.9316,
+    "lon": 8.4599,
+    "city": "Gütersloh"
+  },
+  "33372": {
+    "lat": 51.8387,
+    "lon": 8.2993,
+    "city": "Amtsgericht"
+  },
+  "33373": {
+    "lat": 51.8381,
+    "lon": 8.3039,
+    "city": "Garant-Möbel"
+  },
+  "33374": {
+    "lat": 51.85,
+    "lon": 8.2783,
+    "city": "Musterring International Josef Höner GmbH & Co. KG"
+  },
+  "33375": {
+    "lat": 51.847,
+    "lon": 8.2977,
+    "city": "Simonswerk GmbH"
+  },
+  "33378": {
+    "lat": 51.8497,
+    "lon": 8.3002,
+    "city": "Rheda-Wiedenbrück"
+  },
+  "33393": {
+    "lat": 51.8071,
+    "lon": 8.426,
+    "city": "Stadt Rietberg"
+  },
+  "33394": {
+    "lat": 51.8406,
+    "lon": 8.4376,
+    "city": "Lear Corporation GmbH"
+  },
+  "33395": {
+    "lat": 51.736,
+    "lon": 8.3814,
+    "city": "Röhr-Bush GmbH & Co. KG"
+  },
+  "33397": {
+    "lat": 51.8092,
+    "lon": 8.4284,
+    "city": "Rietberg"
+  },
+  "33411": {
+    "lat": 51.8772,
+    "lon": 8.4901,
+    "city": "Alulux GmbH"
+  },
+  "33413": {
+    "lat": 51.8848,
+    "lon": 8.4444,
+    "city": "McDonalds"
+  },
+  "33414": {
+    "lat": 51.8848,
+    "lon": 8.4444,
+    "city": "Lufthansa WorldShop"
+  },
+  "33415": {
+    "lat": 51.8833,
+    "lon": 8.5167,
+    "city": "Verl"
+  },
+  "33426": {
+    "lat": 51.9604,
+    "lon": 8.223,
+    "city": "Claas KGaA mbH"
+  },
+  "33428": {
+    "lat": 51.9622,
+    "lon": 8.2277,
+    "city": "Harsewinkel"
+  },
+  "33441": {
+    "lat": 51.8823,
+    "lon": 8.2263,
+    "city": "Steinel GmbH"
+  },
+  "33442": {
+    "lat": 51.9,
+    "lon": 8.2167,
+    "city": "Herzebrock-Clarholz"
+  },
+  "33449": {
+    "lat": 51.7721,
+    "lon": 8.3181,
+    "city": "Langenberg"
+  },
+  "33519": {
+    "lat": 52.033,
+    "lon": 8.533,
+    "city": "Bielefeld"
+  },
+  "33547": {
+    "lat": 52.0161,
+    "lon": 8.5372,
+    "city": "OEDIV"
+  },
+  "33583": {
+    "lat": 52.0158,
+    "lon": 8.5233,
+    "city": "HUK-Coburg"
+  },
+  "33584": {
+    "lat": 52.0807,
+    "lon": 8.4988,
+    "city": "Deutsche Post AG Direkt Marketing Center Bielefeld"
+  },
+  "33591": {
+    "lat": 52.0248,
+    "lon": 8.5426,
+    "city": "Agentur für Arbeit Bielefeld"
+  },
+  "33594": {
+    "lat": 52.0304,
+    "lon": 8.5302,
+    "city": "Hauptzollamt"
+  },
+  "33595": {
+    "lat": 52.0209,
+    "lon": 8.5346,
+    "city": "Arbeitsgericht"
+  },
+  "33596": {
+    "lat": 52.0203,
+    "lon": 8.5441,
+    "city": "Katag AG"
+  },
+  "33597": {
+    "lat": 52.0217,
+    "lon": 8.5347,
+    "city": "Stadt Bielefeld"
+  },
+  "33598": {
+    "lat": 52.0416,
+    "lon": 8.5852,
+    "city": "Cornelsen Verlagskontor GmbH"
+  },
+  "33600": {
+    "lat": 52.0103,
+    "lon": 8.5252,
+    "city": "BKK Diakonie"
+  },
+  "33602": {
+    "lat": 52.0245,
+    "lon": 8.5326,
+    "city": "Bielefeld"
+  },
+  "33604": {
+    "lat": 52.0106,
+    "lon": 8.5493,
+    "city": "Bielefeld"
+  },
+  "33605": {
+    "lat": 52.0008,
+    "lon": 8.574,
+    "city": "Bielefeld"
+  },
+  "33607": {
+    "lat": 52.0284,
+    "lon": 8.5759,
+    "city": "Bielefeld"
+  },
+  "33609": {
+    "lat": 52.0342,
+    "lon": 8.5553,
+    "city": "Bielefeld"
+  },
+  "33611": {
+    "lat": 52.0483,
+    "lon": 8.5492,
+    "city": "Bielefeld"
+  },
+  "33613": {
+    "lat": 52.044,
+    "lon": 8.5225,
+    "city": "Bielefeld"
+  },
+  "33615": {
+    "lat": 52.0307,
+    "lon": 8.5133,
+    "city": "Bielefeld"
+  },
+  "33617": {
+    "lat": 52.0119,
+    "lon": 8.5202,
+    "city": "Bielefeld"
+  },
+  "33619": {
+    "lat": 52.0333,
+    "lon": 8.5333,
+    "city": "Bielefeld"
+  },
+  "33644": {
+    "lat": 51.9795,
+    "lon": 8.4784,
+    "city": "BKK Gildemeister Seidensticker"
+  },
+  "33645": {
+    "lat": 51.9932,
+    "lon": 8.4838,
+    "city": "Böllhoff GmbH"
+  },
+  "33647": {
+    "lat": 51.99,
+    "lon": 8.5114,
+    "city": "Bielefeld"
+  },
+  "33649": {
+    "lat": 51.9745,
+    "lon": 8.4686,
+    "city": "Bielefeld"
+  },
+  "33659": {
+    "lat": 51.9692,
+    "lon": 8.5522,
+    "city": "Bielefeld"
+  },
+  "33687": {
+    "lat": 52.217,
+    "lon": 8.8285,
+    "city": "Union Knopf GmbH"
+  },
+  "33689": {
+    "lat": 51.9501,
+    "lon": 8.5793,
+    "city": "Bielefeld"
+  },
+  "33699": {
+    "lat": 52.0333,
+    "lon": 8.5333,
+    "city": "Bielefeld"
+  },
+  "33719": {
+    "lat": 52.0107,
+    "lon": 8.5926,
+    "city": "Bielefeld"
+  },
+  "33729": {
+    "lat": 52.0707,
+    "lon": 8.6002,
+    "city": "Bielefeld"
+  },
+  "33739": {
+    "lat": 52.0333,
+    "lon": 8.5333,
+    "city": "Bielefeld"
+  },
+  "33756": {
+    "lat": 51.8973,
+    "lon": 8.6326,
+    "city": "HOL-tex GmbH"
+  },
+  "33758": {
+    "lat": 51.9,
+    "lon": 8.6167,
+    "city": "Schloß Holte-Stukenbrock"
+  },
+  "33769": {
+    "lat": 52.0418,
+    "lon": 8.1447,
+    "city": "Stadt Versmold"
+  },
+  "33775": {
+    "lat": 52.0401,
+    "lon": 8.1527,
+    "city": "Versmold"
+  },
+  "33788": {
+    "lat": 52.0497,
+    "lon": 8.3686,
+    "city": "Amtsgericht Halle"
+  },
+  "33790": {
+    "lat": 52.0601,
+    "lon": 8.3608,
+    "city": "Halle"
+  },
+  "33801": {
+    "lat": 52.0164,
+    "lon": 8.4231,
+    "city": "Jung Pumpen GmbH & Co."
+  },
+  "33803": {
+    "lat": 52,
+    "lon": 8.4,
+    "city": "Steinhagen"
+  },
+  "33813": {
+    "lat": 51.9545,
+    "lon": 8.6622,
+    "city": "Oerlinghausen"
+  },
+  "33818": {
+    "lat": 52.0125,
+    "lon": 8.6983,
+    "city": "Leopoldshöhe"
+  },
+  "33824": {
+    "lat": 52.0777,
+    "lon": 8.4179,
+    "city": "Werther"
+  },
+  "33829": {
+    "lat": 52.1034,
+    "lon": 8.3021,
+    "city": "Borgholzhausen"
+  },
+  "34105": {
+    "lat": 51.2999,
+    "lon": 9.4813,
+    "city": "Sozialversicherung für Landwirtschaft Forsten und Gartenbau (SVLFG)"
+  },
+  "34106": {
+    "lat": 51.3046,
+    "lon": 9.4325,
+    "city": "Landesbetrieb Hessisches Landeslabor"
+  },
+  "34108": {
+    "lat": 51.3183,
+    "lon": 9.4764,
+    "city": "Versicherer im Raum der Kirchen Bruderhilfe Pax Familienfürsorge"
+  },
+  "34109": {
+    "lat": 51.323,
+    "lon": 9.5084,
+    "city": "Universität Kassel"
+  },
+  "34110": {
+    "lat": 51.3181,
+    "lon": 9.4988,
+    "city": "Regierungspräsidium Kassel Zentrale Bußgeldstelle, Dezernat 44"
+  },
+  "34111": {
+    "lat": 51.3113,
+    "lon": 9.4786,
+    "city": "EAM Netz GmbH"
+  },
+  "34112": {
+    "lat": 51.3169,
+    "lon": 9.4897,
+    "city": "Siemens AG"
+  },
+  "34113": {
+    "lat": 51.3017,
+    "lon": 9.5239,
+    "city": "Wegu GmbH"
+  },
+  "34114": {
+    "lat": 51.3073,
+    "lon": 9.4416,
+    "city": "Bundessozialgericht"
+  },
+  "34115": {
+    "lat": 51.2745,
+    "lon": 9.5096,
+    "city": "Deutsche Post AG Niederlassung BRIEF Kassel"
+  },
+  "34117": {
+    "lat": 51.3166,
+    "lon": 9.4912,
+    "city": "Kassel"
+  },
+  "34119": {
+    "lat": 51.3152,
+    "lon": 9.4647,
+    "city": "Kassel"
+  },
+  "34121": {
+    "lat": 51.3056,
+    "lon": 9.4652,
+    "city": "Kassel"
+  },
+  "34123": {
+    "lat": 51.2988,
+    "lon": 9.5297,
+    "city": "Kassel"
+  },
+  "34125": {
+    "lat": 51.3195,
+    "lon": 9.5163,
+    "city": "Kassel"
+  },
+  "34127": {
+    "lat": 51.3355,
+    "lon": 9.4913,
+    "city": "Kassel"
+  },
+  "34128": {
+    "lat": 51.336,
+    "lon": 9.4457,
+    "city": "Kassel"
+  },
+  "34130": {
+    "lat": 51.3247,
+    "lon": 9.4466,
+    "city": "Kassel"
+  },
+  "34131": {
+    "lat": 51.3173,
+    "lon": 9.4227,
+    "city": "Kassel"
+  },
+  "34132": {
+    "lat": 51.3167,
+    "lon": 9.5,
+    "city": "Kassel"
+  },
+  "34134": {
+    "lat": 51.2878,
+    "lon": 9.4705,
+    "city": "Kassel"
+  },
+  "34195": {
+    "lat": 51.3362,
+    "lon": 9.4808,
+    "city": "Agentur für Arbeit Kassel"
+  },
+  "34196": {
+    "lat": 51.3152,
+    "lon": 9.4931,
+    "city": "Familienkasse Hessen"
+  },
+  "34197": {
+    "lat": 51.3144,
+    "lon": 9.4861,
+    "city": "HUK-Coburg"
+  },
+  "34198": {
+    "lat": 51.276,
+    "lon": 9.5074,
+    "city": "Deutsche Post AG Direkt Marketing Center"
+  },
+  "34209": {
+    "lat": 51.1312,
+    "lon": 9.5506,
+    "city": "B. Braun Melsungen AG"
+  },
+  "34212": {
+    "lat": 51.1303,
+    "lon": 9.5524,
+    "city": "Melsungen"
+  },
+  "34219": {
+    "lat": 51.2609,
+    "lon": 9.4339,
+    "city": "Volkswagen AG Werk Kassel"
+  },
+  "34225": {
+    "lat": 51.2518,
+    "lon": 9.4075,
+    "city": "Baunatal"
+  },
+  "34233": {
+    "lat": 51.3484,
+    "lon": 9.5256,
+    "city": "Fuldatal"
+  },
+  "34246": {
+    "lat": 51.3581,
+    "lon": 9.4797,
+    "city": "Vellmar"
+  },
+  "34253": {
+    "lat": 51.2667,
+    "lon": 9.5333,
+    "city": "Lohfelden"
+  },
+  "34260": {
+    "lat": 51.2811,
+    "lon": 9.6186,
+    "city": "Kaufungen"
+  },
+  "34265": {
+    "lat": 51.3165,
+    "lon": 9.5412,
+    "city": "SMA Solar Technology AG"
+  },
+  "34266": {
+    "lat": 51.3083,
+    "lon": 9.5669,
+    "city": "Niestetal"
+  },
+  "34270": {
+    "lat": 51.2856,
+    "lon": 9.2717,
+    "city": "Schauenburg"
+  },
+  "34277": {
+    "lat": 51.2667,
+    "lon": 9.4833,
+    "city": "Fuldabrück"
+  },
+  "34281": {
+    "lat": 51.1771,
+    "lon": 9.3675,
+    "city": "Gudensberg"
+  },
+  "34286": {
+    "lat": 51.1164,
+    "lon": 9.6627,
+    "city": "Spangenberg"
+  },
+  "34289": {
+    "lat": 51.3695,
+    "lon": 9.3016,
+    "city": "Zierenberg"
+  },
+  "34292": {
+    "lat": 51.35,
+    "lon": 9.3833,
+    "city": "Ahnatal"
+  },
+  "34295": {
+    "lat": 51.2125,
+    "lon": 9.4208,
+    "city": "Edermünde"
+  },
+  "34298": {
+    "lat": 51.2598,
+    "lon": 9.6887,
+    "city": "Helsa"
+  },
+  "34302": {
+    "lat": 51.2,
+    "lon": 9.4833,
+    "city": "Guxhagen"
+  },
+  "34305": {
+    "lat": 51.2334,
+    "lon": 9.3103,
+    "city": "Niedenstein"
+  },
+  "34308": {
+    "lat": 51.2333,
+    "lon": 9.25,
+    "city": "Bad Emstal"
+  },
+  "34311": {
+    "lat": 51.2482,
+    "lon": 9.1657,
+    "city": "Naumburg"
+  },
+  "34314": {
+    "lat": 51.3966,
+    "lon": 9.4702,
+    "city": "Espenau"
+  },
+  "34317": {
+    "lat": 51.3285,
+    "lon": 9.3392,
+    "city": "Habichtswald"
+  },
+  "34320": {
+    "lat": 51.2056,
+    "lon": 9.5778,
+    "city": "Söhrewald"
+  },
+  "34323": {
+    "lat": 51.0908,
+    "lon": 9.5389,
+    "city": "Malsfeld"
+  },
+  "34326": {
+    "lat": 51.05,
+    "lon": 9.6,
+    "city": "Morschen"
+  },
+  "34327": {
+    "lat": 51.1667,
+    "lon": 9.5167,
+    "city": "Körle"
+  },
+  "34329": {
+    "lat": 51.3167,
+    "lon": 9.6667,
+    "city": "Nieste"
+  },
+  "34346": {
+    "lat": 51.4151,
+    "lon": 9.6505,
+    "city": "Hannoversch Münden"
+  },
+  "34355": {
+    "lat": 51.35,
+    "lon": 9.6333,
+    "city": "Staufenberg"
+  },
+  "34359": {
+    "lat": 51.4917,
+    "lon": 9.6083,
+    "city": "Reinhardshagen"
+  },
+  "34369": {
+    "lat": 51.4961,
+    "lon": 9.385,
+    "city": "Hofgeismar"
+  },
+  "34376": {
+    "lat": 51.4429,
+    "lon": 9.5231,
+    "city": "Immenhausen"
+  },
+  "34379": {
+    "lat": 51.4094,
+    "lon": 9.4019,
+    "city": "Calden"
+  },
+  "34385": {
+    "lat": 51.6426,
+    "lon": 9.4548,
+    "city": "Bad Karlshafen"
+  },
+  "34388": {
+    "lat": 51.5741,
+    "lon": 9.4209,
+    "city": "Trendelburg"
+  },
+  "34393": {
+    "lat": 51.4465,
+    "lon": 9.4125,
+    "city": "Grebenstein"
+  },
+  "34396": {
+    "lat": 51.497,
+    "lon": 9.2821,
+    "city": "Liebenau"
+  },
+  "34399": {
+    "lat": 51.5833,
+    "lon": 9.5667,
+    "city": "Oberweser"
+  },
+  "34414": {
+    "lat": 51.4901,
+    "lon": 9.1464,
+    "city": "Warburg"
+  },
+  "34431": {
+    "lat": 51.4617,
+    "lon": 8.8495,
+    "city": "Marsberg"
+  },
+  "34434": {
+    "lat": 51.5692,
+    "lon": 9.2411,
+    "city": "Borgentreich"
+  },
+  "34439": {
+    "lat": 51.6256,
+    "lon": 9.0369,
+    "city": "Willebadessen"
+  },
+  "34454": {
+    "lat": 51.3798,
+    "lon": 9.0145,
+    "city": "Bad Arolsen"
+  },
+  "34466": {
+    "lat": 51.3261,
+    "lon": 9.1702,
+    "city": "Wolfhagen"
+  },
+  "34471": {
+    "lat": 51.409,
+    "lon": 9.1181,
+    "city": "Volkmarsen"
+  },
+  "34474": {
+    "lat": 51.4878,
+    "lon": 9.0079,
+    "city": "Diemelstadt"
+  },
+  "34477": {
+    "lat": 51.3214,
+    "lon": 8.9548,
+    "city": "Twistetal"
+  },
+  "34479": {
+    "lat": 51.4157,
+    "lon": 9.185,
+    "city": "Breuna"
+  },
+  "34494": {
+    "lat": 51.2731,
+    "lon": 8.8626,
+    "city": "Agentur für Arbeit Korbach"
+  },
+  "34495": {
+    "lat": 51.2738,
+    "lon": 8.8668,
+    "city": "Amtsgericht"
+  },
+  "34497": {
+    "lat": 51.2756,
+    "lon": 8.873,
+    "city": "Korbach"
+  },
+  "34508": {
+    "lat": 51.3,
+    "lon": 8.6167,
+    "city": "Willingen (Upland)"
+  },
+  "34513": {
+    "lat": 51.2062,
+    "lon": 9.0629,
+    "city": "Waldeck"
+  },
+  "34516": {
+    "lat": 51.1815,
+    "lon": 8.8878,
+    "city": "Vöhl"
+  },
+  "34519": {
+    "lat": 51.3667,
+    "lon": 8.8,
+    "city": "Diemelsee"
+  },
+  "34535": {
+    "lat": 51.1174,
+    "lon": 9.1188,
+    "city": "poresta systems GmbH"
+  },
+  "34537": {
+    "lat": 51.1196,
+    "lon": 9.1247,
+    "city": "Bad Wildungen"
+  },
+  "34549": {
+    "lat": 51.159,
+    "lon": 9.0923,
+    "city": "Edertal"
+  },
+  "34558": {
+    "lat": 51.1325,
+    "lon": 9.2796,
+    "city": "Amtsgericht"
+  },
+  "34560": {
+    "lat": 51.1318,
+    "lon": 9.2756,
+    "city": "Fritzlar"
+  },
+  "34574": {
+    "lat": 51.0303,
+    "lon": 9.4051,
+    "city": "Schwalm-Eder-Kreis"
+  },
+  "34576": {
+    "lat": 51.0333,
+    "lon": 9.4,
+    "city": "Homberg (Efze)"
+  },
+  "34582": {
+    "lat": 51.0638,
+    "lon": 9.22,
+    "city": "Borken"
+  },
+  "34587": {
+    "lat": 51.1376,
+    "lon": 9.4214,
+    "city": "Felsberg"
+  },
+  "34590": {
+    "lat": 51.1,
+    "lon": 9.35,
+    "city": "Wabern"
+  },
+  "34593": {
+    "lat": 50.9771,
+    "lon": 9.4865,
+    "city": "Knüllwald"
+  },
+  "34596": {
+    "lat": 51.05,
+    "lon": 9.1833,
+    "city": "Bad Zwesten"
+  },
+  "34599": {
+    "lat": 51,
+    "lon": 9.2167,
+    "city": "Neuental"
+  },
+  "34613": {
+    "lat": 50.9333,
+    "lon": 9.2167,
+    "city": "Schwalmstadt"
+  },
+  "34621": {
+    "lat": 50.9707,
+    "lon": 9.3227,
+    "city": "Frielendorf"
+  },
+  "34626": {
+    "lat": 50.8691,
+    "lon": 9.3465,
+    "city": "Neukirchen"
+  },
+  "34628": {
+    "lat": 50.85,
+    "lon": 9.2,
+    "city": "Willingshausen"
+  },
+  "34630": {
+    "lat": 50.95,
+    "lon": 9.0667,
+    "city": "Gilserberg"
+  },
+  "34632": {
+    "lat": 51,
+    "lon": 9.15,
+    "city": "Jesberg"
+  },
+  "34633": {
+    "lat": 50.806,
+    "lon": 9.3857,
+    "city": "Ottrau"
+  },
+  "34637": {
+    "lat": 50.8333,
+    "lon": 9.2833,
+    "city": "Schrecksbach"
+  },
+  "34639": {
+    "lat": 50.9098,
+    "lon": 9.4466,
+    "city": "Schwarzenborn"
+  },
+  "35031": {
+    "lat": 50.8216,
+    "lon": 8.7712,
+    "city": "Deutsche Post AG SNL Kundentelefon Briefermittlungsstelle Marburg"
+  },
+  "35032": {
+    "lat": 50.8102,
+    "lon": 8.774,
+    "city": "Philipps-Universität"
+  },
+  "35034": {
+    "lat": 50.8057,
+    "lon": 8.7685,
+    "city": "Finanzamt"
+  },
+  "35035": {
+    "lat": 50.8088,
+    "lon": 8.7706,
+    "city": "Stadtverwaltung"
+  },
+  "35036": {
+    "lat": 50.8246,
+    "lon": 8.7696,
+    "city": "Agentur für Arbeit Marburg"
+  },
+  "35037": {
+    "lat": 50.803,
+    "lon": 8.7625,
+    "city": "Marburg"
+  },
+  "35039": {
+    "lat": 50.8098,
+    "lon": 8.7773,
+    "city": "Marburg"
+  },
+  "35041": {
+    "lat": 50.8165,
+    "lon": 8.7513,
+    "city": "Marburg"
+  },
+  "35043": {
+    "lat": 50.7765,
+    "lon": 8.7645,
+    "city": "Marburg"
+  },
+  "35066": {
+    "lat": 51.0585,
+    "lon": 8.7833,
+    "city": "Frankenberg (Eder)"
+  },
+  "35075": {
+    "lat": 50.7685,
+    "lon": 8.5808,
+    "city": "Gladenbach"
+  },
+  "35080": {
+    "lat": 50.75,
+    "lon": 8.5,
+    "city": "Bad Endbach"
+  },
+  "35083": {
+    "lat": 50.9025,
+    "lon": 8.7237,
+    "city": "Wetter"
+  },
+  "35085": {
+    "lat": 50.726,
+    "lon": 8.857,
+    "city": "Ebsdorfergrund"
+  },
+  "35088": {
+    "lat": 51.0136,
+    "lon": 8.6473,
+    "city": "Battenberg (Eder)"
+  },
+  "35091": {
+    "lat": 50.851,
+    "lon": 8.7809,
+    "city": "Cölbe"
+  },
+  "35094": {
+    "lat": 50.8619,
+    "lon": 8.6976,
+    "city": "Lahntal"
+  },
+  "35096": {
+    "lat": 50.7542,
+    "lon": 8.6958,
+    "city": "Weimar"
+  },
+  "35099": {
+    "lat": 51,
+    "lon": 8.75,
+    "city": "Burgwald"
+  },
+  "35102": {
+    "lat": 50.7333,
+    "lon": 8.6333,
+    "city": "Lohra"
+  },
+  "35104": {
+    "lat": 51.1583,
+    "lon": 8.7958,
+    "city": "Lichtenfels"
+  },
+  "35107": {
+    "lat": 51.03,
+    "lon": 8.6872,
+    "city": "Viessmann Werke GmbH & Co KG"
+  },
+  "35108": {
+    "lat": 51.0333,
+    "lon": 8.6792,
+    "city": "Allendorf (Eder)"
+  },
+  "35110": {
+    "lat": 51.0927,
+    "lon": 8.9345,
+    "city": "Frankenau"
+  },
+  "35112": {
+    "lat": 50.7,
+    "lon": 8.7,
+    "city": "Fronhausen"
+  },
+  "35114": {
+    "lat": 51.0278,
+    "lon": 8.9667,
+    "city": "Haina (Kloster)"
+  },
+  "35116": {
+    "lat": 51.0109,
+    "lon": 8.5866,
+    "city": "Hatzfeld (Eder)"
+  },
+  "35117": {
+    "lat": 50.9608,
+    "lon": 8.7184,
+    "city": "Münchhausen"
+  },
+  "35119": {
+    "lat": 50.9744,
+    "lon": 8.8674,
+    "city": "Rosenthal"
+  },
+  "35216": {
+    "lat": 50.9112,
+    "lon": 8.5302,
+    "city": "Biedenkopf"
+  },
+  "35232": {
+    "lat": 50.8417,
+    "lon": 8.5542,
+    "city": "Dautphetal"
+  },
+  "35236": {
+    "lat": 50.8873,
+    "lon": 8.4575,
+    "city": "Breidenbach"
+  },
+  "35239": {
+    "lat": 50.85,
+    "lon": 8.4833,
+    "city": "Steffenberg"
+  },
+  "35260": {
+    "lat": 50.8226,
+    "lon": 9.0129,
+    "city": "Stadtallendorf"
+  },
+  "35274": {
+    "lat": 50.8272,
+    "lon": 8.9281,
+    "city": "Kirchhain"
+  },
+  "35279": {
+    "lat": 50.85,
+    "lon": 9.1167,
+    "city": "Neustadt (Hessen)"
+  },
+  "35282": {
+    "lat": 50.8833,
+    "lon": 8.9186,
+    "city": "Rauschenberg"
+  },
+  "35285": {
+    "lat": 50.9667,
+    "lon": 8.9667,
+    "city": "Gemünden (Wohra)"
+  },
+  "35287": {
+    "lat": 50.796,
+    "lon": 8.9233,
+    "city": "Amöneburg"
+  },
+  "35288": {
+    "lat": 50.9375,
+    "lon": 8.9333,
+    "city": "Wohratal"
+  },
+  "35305": {
+    "lat": 50.594,
+    "lon": 8.9587,
+    "city": "Grünberg"
+  },
+  "35315": {
+    "lat": 50.7333,
+    "lon": 9,
+    "city": "Homberg (Ohm)"
+  },
+  "35321": {
+    "lat": 50.542,
+    "lon": 8.9903,
+    "city": "Laubach"
+  },
+  "35325": {
+    "lat": 50.6284,
+    "lon": 9.0547,
+    "city": "Mücke"
+  },
+  "35327": {
+    "lat": 50.5755,
+    "lon": 9.1927,
+    "city": "Ulrichstein"
+  },
+  "35329": {
+    "lat": 50.7,
+    "lon": 9.05,
+    "city": "Gemünden (Felda)"
+  },
+  "35383": {
+    "lat": 50.5741,
+    "lon": 8.686,
+    "city": "PASCOE Service GmbH"
+  },
+  "35384": {
+    "lat": 50.5904,
+    "lon": 8.6772,
+    "city": "Agentur für Arbeit Gießen"
+  },
+  "35385": {
+    "lat": 50.5771,
+    "lon": 8.6654,
+    "city": "Klinikum der JLU"
+  },
+  "35386": {
+    "lat": 50.581,
+    "lon": 8.6696,
+    "city": "Universitätsbibliothek"
+  },
+  "35387": {
+    "lat": 50.5879,
+    "lon": 8.6834,
+    "city": "Tucker GmbH"
+  },
+  "35388": {
+    "lat": 50.5863,
+    "lon": 8.6763,
+    "city": "HUK-Coburg"
+  },
+  "35390": {
+    "lat": 50.5849,
+    "lon": 8.6742,
+    "city": "Gießen"
+  },
+  "35392": {
+    "lat": 50.5669,
+    "lon": 8.6538,
+    "city": "Gießen"
+  },
+  "35394": {
+    "lat": 50.5746,
+    "lon": 8.7135,
+    "city": "Gießen"
+  },
+  "35396": {
+    "lat": 50.6165,
+    "lon": 8.7044,
+    "city": "Gießen"
+  },
+  "35398": {
+    "lat": 50.5833,
+    "lon": 8.65,
+    "city": "Gießen"
+  },
+  "35402": {
+    "lat": 50.4923,
+    "lon": 8.6475,
+    "city": "Deutsche Post AG Niederlassung BRIEF Gießen"
+  },
+  "35410": {
+    "lat": 50.4737,
+    "lon": 8.8933,
+    "city": "Hungen"
+  },
+  "35415": {
+    "lat": 50.5167,
+    "lon": 8.7,
+    "city": "Pohlheim"
+  },
+  "35418": {
+    "lat": 50.6148,
+    "lon": 8.783,
+    "city": "Buseck"
+  },
+  "35423": {
+    "lat": 50.5208,
+    "lon": 8.8157,
+    "city": "Lich"
+  },
+  "35428": {
+    "lat": 50.5,
+    "lon": 8.6667,
+    "city": "Langgöns"
+  },
+  "35435": {
+    "lat": 50.6167,
+    "lon": 8.65,
+    "city": "Wettenberg"
+  },
+  "35440": {
+    "lat": 50.5374,
+    "lon": 8.6497,
+    "city": "Linden"
+  },
+  "35444": {
+    "lat": 50.6182,
+    "lon": 8.6017,
+    "city": "Biebertal"
+  },
+  "35447": {
+    "lat": 50.6,
+    "lon": 8.8333,
+    "city": "Reiskirchen"
+  },
+  "35452": {
+    "lat": 50.5833,
+    "lon": 8.6333,
+    "city": "Heuchelheim"
+  },
+  "35457": {
+    "lat": 50.6465,
+    "lon": 8.7049,
+    "city": "Lollar"
+  },
+  "35460": {
+    "lat": 50.662,
+    "lon": 8.7316,
+    "city": "Staufenberg"
+  },
+  "35463": {
+    "lat": 50.55,
+    "lon": 8.7833,
+    "city": "Fernwald"
+  },
+  "35466": {
+    "lat": 50.6775,
+    "lon": 8.8643,
+    "city": "Rabenau"
+  },
+  "35469": {
+    "lat": 50.6833,
+    "lon": 8.8333,
+    "city": "Allendorf (Lumda)"
+  },
+  "35508": {
+    "lat": 48.1449,
+    "lon": 11.485,
+    "city": "Kantar Deutschland GmbH"
+  },
+  "35509": {
+    "lat": 50.4297,
+    "lon": 8.6887,
+    "city": "Firma Hess Natur Textilien GmbH"
+  },
+  "35510": {
+    "lat": 50.4339,
+    "lon": 8.6712,
+    "city": "Butzbach"
+  },
+  "35516": {
+    "lat": 50.4563,
+    "lon": 8.7293,
+    "city": "Münzenberg"
+  },
+  "35519": {
+    "lat": 50.4305,
+    "lon": 8.7369,
+    "city": "Rockenberg"
+  },
+  "35573": {
+    "lat": 50.554,
+    "lon": 8.4994,
+    "city": "Barmer GEK"
+  },
+  "35574": {
+    "lat": 50.5513,
+    "lon": 8.4993,
+    "city": "DAK-Gesundheit"
+  },
+  "35576": {
+    "lat": 50.5665,
+    "lon": 8.5247,
+    "city": "Wetzlar"
+  },
+  "35578": {
+    "lat": 50.5455,
+    "lon": 8.505,
+    "city": "Wetzlar"
+  },
+  "35579": {
+    "lat": 50.55,
+    "lon": 8.5,
+    "city": "Wetzlar"
+  },
+  "35580": {
+    "lat": 50.55,
+    "lon": 8.5,
+    "city": "Wetzlar"
+  },
+  "35581": {
+    "lat": 50.55,
+    "lon": 8.5,
+    "city": "Wetzlar"
+  },
+  "35582": {
+    "lat": 50.55,
+    "lon": 8.5,
+    "city": "Wetzlar"
+  },
+  "35583": {
+    "lat": 50.55,
+    "lon": 8.5,
+    "city": "Wetzlar"
+  },
+  "35584": {
+    "lat": 50.55,
+    "lon": 8.5,
+    "city": "Wetzlar"
+  },
+  "35585": {
+    "lat": 50.55,
+    "lon": 8.5,
+    "city": "Wetzlar"
+  },
+  "35586": {
+    "lat": 50.55,
+    "lon": 8.5,
+    "city": "Wetzlar"
+  },
+  "35606": {
+    "lat": 50.5362,
+    "lon": 8.407,
+    "city": "Solms"
+  },
+  "35614": {
+    "lat": 50.5916,
+    "lon": 8.4627,
+    "city": "Aßlar"
+  },
+  "35619": {
+    "lat": 50.5027,
+    "lon": 8.3936,
+    "city": "Braunfels"
+  },
+  "35625": {
+    "lat": 50.521,
+    "lon": 8.5758,
+    "city": "Hüttenberg"
+  },
+  "35630": {
+    "lat": 50.6,
+    "lon": 8.3833,
+    "city": "Ehringshausen"
+  },
+  "35633": {
+    "lat": 50.5833,
+    "lon": 8.5667,
+    "city": "Lahnau"
+  },
+  "35638": {
+    "lat": 50.5513,
+    "lon": 8.3584,
+    "city": "Leun"
+  },
+  "35641": {
+    "lat": 50.4935,
+    "lon": 8.4718,
+    "city": "Schöffengrund"
+  },
+  "35644": {
+    "lat": 50.6689,
+    "lon": 8.4896,
+    "city": "Hohenahr"
+  },
+  "35647": {
+    "lat": 50.4167,
+    "lon": 8.5167,
+    "city": "Waldsolms"
+  },
+  "35649": {
+    "lat": 50.7,
+    "lon": 8.45,
+    "city": "Bischoffen"
+  },
+  "35683": {
+    "lat": 50.7369,
+    "lon": 8.2873,
+    "city": "Dillenburg"
+  },
+  "35684": {
+    "lat": 50.7333,
+    "lon": 8.2833,
+    "city": "Dillenburg"
+  },
+  "35685": {
+    "lat": 50.7333,
+    "lon": 8.2833,
+    "city": "Dillenburg"
+  },
+  "35686": {
+    "lat": 50.7333,
+    "lon": 8.2833,
+    "city": "Dillenburg"
+  },
+  "35687": {
+    "lat": 50.7333,
+    "lon": 8.2833,
+    "city": "Dillenburg"
+  },
+  "35688": {
+    "lat": 50.7333,
+    "lon": 8.2833,
+    "city": "Dillenburg"
+  },
+  "35689": {
+    "lat": 50.7333,
+    "lon": 8.2833,
+    "city": "Dillenburg"
+  },
+  "35690": {
+    "lat": 50.7333,
+    "lon": 8.2833,
+    "city": "Dillenburg"
+  },
+  "35708": {
+    "lat": 50.7416,
+    "lon": 8.2078,
+    "city": "Haiger"
+  },
+  "35713": {
+    "lat": 50.8083,
+    "lon": 8.3583,
+    "city": "Eschenburg"
+  },
+  "35716": {
+    "lat": 50.8333,
+    "lon": 8.3167,
+    "city": "Dietzhölztal"
+  },
+  "35719": {
+    "lat": 50.8063,
+    "lon": 8.4164,
+    "city": "Angelburg"
+  },
+  "35745": {
+    "lat": 50.6814,
+    "lon": 8.3037,
+    "city": "Herborn"
+  },
+  "35753": {
+    "lat": 50.6167,
+    "lon": 8.3,
+    "city": "Greifenstein"
+  },
+  "35756": {
+    "lat": 50.7,
+    "lon": 8.3833,
+    "city": "Mittenaar"
+  },
+  "35759": {
+    "lat": 50.6333,
+    "lon": 8.1833,
+    "city": "Driedorf"
+  },
+  "35764": {
+    "lat": 50.65,
+    "lon": 8.3333,
+    "city": "Sinn"
+  },
+  "35767": {
+    "lat": 50.6851,
+    "lon": 8.1912,
+    "city": "Breitscheid"
+  },
+  "35768": {
+    "lat": 50.739,
+    "lon": 8.4179,
+    "city": "Siegbach"
+  },
+  "35779": {
+    "lat": 50.4862,
+    "lon": 8.2633,
+    "city": "Finanzamt"
+  },
+  "35781": {
+    "lat": 50.4844,
+    "lon": 8.2625,
+    "city": "Weilburg"
+  },
+  "35789": {
+    "lat": 50.4314,
+    "lon": 8.3767,
+    "city": "Weilmünster"
+  },
+  "35792": {
+    "lat": 50.513,
+    "lon": 8.272,
+    "city": "Löhnberg"
+  },
+  "35794": {
+    "lat": 50.5639,
+    "lon": 8.1555,
+    "city": "Mengerskirchen"
+  },
+  "35796": {
+    "lat": 50.4384,
+    "lon": 8.2913,
+    "city": "Weinbach"
+  },
+  "35799": {
+    "lat": 50.5071,
+    "lon": 8.1919,
+    "city": "Merenberg"
+  },
+  "36028": {
+    "lat": 50.5478,
+    "lon": 9.676,
+    "city": "Agentur für Arbeit Fulda"
+  },
+  "36030": {
+    "lat": 50.5522,
+    "lon": 9.6722,
+    "city": "Adecco Personaldienstleistungen GmbH"
+  },
+  "36035": {
+    "lat": 50.558,
+    "lon": 9.6863,
+    "city": "Mehler AG"
+  },
+  "36036": {
+    "lat": 50.5458,
+    "lon": 9.6744,
+    "city": "Schwenninger BKK"
+  },
+  "36037": {
+    "lat": 50.5518,
+    "lon": 9.6833,
+    "city": "Fulda"
+  },
+  "36039": {
+    "lat": 50.5732,
+    "lon": 9.6824,
+    "city": "Fulda"
+  },
+  "36041": {
+    "lat": 50.5569,
+    "lon": 9.6431,
+    "city": "Fulda"
+  },
+  "36043": {
+    "lat": 50.5345,
+    "lon": 9.6922,
+    "city": "Fulda"
+  },
+  "36047": {
+    "lat": 50.4834,
+    "lon": 9.7171,
+    "city": "Deutsche Post AG Niederlassung BRIEF Fulda"
+  },
+  "36084": {
+    "lat": 50.6746,
+    "lon": 9.7648,
+    "city": "Amtsgericht"
+  },
+  "36085": {
+    "lat": 50.6737,
+    "lon": 9.766,
+    "city": "Bundesgrenzschutz"
+  },
+  "36086": {
+    "lat": 50.6698,
+    "lon": 9.7652,
+    "city": "Regierungspräsidium Kassel Dezernat 13.2 Beihilfen /Hünfeld"
+  },
+  "36088": {
+    "lat": 50.6797,
+    "lon": 9.7673,
+    "city": "Hünfeld"
+  },
+  "36093": {
+    "lat": 50.5442,
+    "lon": 9.7179,
+    "city": "Künzell"
+  },
+  "36100": {
+    "lat": 50.5619,
+    "lon": 9.7131,
+    "city": "Petersberg"
+  },
+  "36103": {
+    "lat": 50.4239,
+    "lon": 9.5666,
+    "city": "Flieden"
+  },
+  "36110": {
+    "lat": 50.6742,
+    "lon": 9.561,
+    "city": "Schlitz"
+  },
+  "36115": {
+    "lat": 50.5164,
+    "lon": 9.9965,
+    "city": "Hilders"
+  },
+  "36119": {
+    "lat": 50.4531,
+    "lon": 9.6175,
+    "city": "Neuhof"
+  },
+  "36124": {
+    "lat": 50.4954,
+    "lon": 9.6967,
+    "city": "Eichenzell"
+  },
+  "36129": {
+    "lat": 50.4514,
+    "lon": 9.9142,
+    "city": "Gersfeld"
+  },
+  "36132": {
+    "lat": 50.7667,
+    "lon": 9.8,
+    "city": "Eiterfeld"
+  },
+  "36137": {
+    "lat": 50.5925,
+    "lon": 9.5423,
+    "city": "Großenlüder"
+  },
+  "36142": {
+    "lat": 50.6428,
+    "lon": 10.0238,
+    "city": "Tann"
+  },
+  "36145": {
+    "lat": 50.5863,
+    "lon": 9.8353,
+    "city": "Hofbieber"
+  },
+  "36148": {
+    "lat": 50.4045,
+    "lon": 9.6826,
+    "city": "Kalbach"
+  },
+  "36151": {
+    "lat": 50.6968,
+    "lon": 9.7245,
+    "city": "Burghaun"
+  },
+  "36154": {
+    "lat": 50.505,
+    "lon": 9.4797,
+    "city": "Hosenfeld"
+  },
+  "36157": {
+    "lat": 50.4554,
+    "lon": 9.7863,
+    "city": "Ebersburg"
+  },
+  "36160": {
+    "lat": 50.5433,
+    "lon": 9.7959,
+    "city": "Dipperz"
+  },
+  "36163": {
+    "lat": 50.4879,
+    "lon": 9.868,
+    "city": "Poppenhausen"
+  },
+  "36166": {
+    "lat": 50.7667,
+    "lon": 9.6667,
+    "city": "Haunetal"
+  },
+  "36167": {
+    "lat": 50.6333,
+    "lon": 9.85,
+    "city": "Nüsttal"
+  },
+  "36169": {
+    "lat": 50.7167,
+    "lon": 9.9,
+    "city": "Rasdorf"
+  },
+  "36179": {
+    "lat": 50.9745,
+    "lon": 9.7956,
+    "city": "Bebra"
+  },
+  "36199": {
+    "lat": 50.9956,
+    "lon": 9.7284,
+    "city": "Rotenburg an der Fulda"
+  },
+  "36205": {
+    "lat": 51.0717,
+    "lon": 9.9356,
+    "city": "Sontra"
+  },
+  "36208": {
+    "lat": 50.95,
+    "lon": 9.9833,
+    "city": "Wildeck"
+  },
+  "36211": {
+    "lat": 51.0333,
+    "lon": 9.6667,
+    "city": "Alheim"
+  },
+  "36214": {
+    "lat": 51.0167,
+    "lon": 9.9333,
+    "city": "Nentershausen"
+  },
+  "36217": {
+    "lat": 50.95,
+    "lon": 9.85,
+    "city": "Ronshausen"
+  },
+  "36219": {
+    "lat": 51.0416,
+    "lon": 9.8605,
+    "city": "Cornberg"
+  },
+  "36242": {
+    "lat": 50.8461,
+    "lon": 9.6781,
+    "city": "AMAZON Logistik GmbH"
+  },
+  "36244": {
+    "lat": 50.8552,
+    "lon": 9.705,
+    "city": "Libri GmbH"
+  },
+  "36246": {
+    "lat": 50.8743,
+    "lon": 9.7123,
+    "city": "Kreiskrankenhaus Bad Hersfeld GmbH"
+  },
+  "36247": {
+    "lat": 50.8669,
+    "lon": 9.7091,
+    "city": "Amtsgericht"
+  },
+  "36248": {
+    "lat": 50.8461,
+    "lon": 9.6781,
+    "city": "AMAZON Logistik GmbH"
+  },
+  "36249": {
+    "lat": 50.8461,
+    "lon": 9.6781,
+    "city": "AMAZON Logistik GmbH"
+  },
+  "36251": {
+    "lat": 50.886,
+    "lon": 9.7378,
+    "city": "Ludwigsau"
+  },
+  "36266": {
+    "lat": 50.8833,
+    "lon": 9.9873,
+    "city": "Heringen (Werra)"
+  },
+  "36269": {
+    "lat": 50.846,
+    "lon": 9.9795,
+    "city": "Philippsthal (Werra)"
+  },
+  "36272": {
+    "lat": 50.8,
+    "lon": 9.6,
+    "city": "Niederaula"
+  },
+  "36275": {
+    "lat": 50.8333,
+    "lon": 9.5667,
+    "city": "Kirchheim"
+  },
+  "36277": {
+    "lat": 50.8167,
+    "lon": 9.85,
+    "city": "Schenklengsfeld"
+  },
+  "36280": {
+    "lat": 50.85,
+    "lon": 9.4667,
+    "city": "Oberaula"
+  },
+  "36282": {
+    "lat": 50.8167,
+    "lon": 9.7333,
+    "city": "Hauneck"
+  },
+  "36284": {
+    "lat": 50.8,
+    "lon": 9.9,
+    "city": "Hohenroda"
+  },
+  "36286": {
+    "lat": 50.9333,
+    "lon": 9.55,
+    "city": "Neuenstein"
+  },
+  "36287": {
+    "lat": 50.7752,
+    "lon": 9.516,
+    "city": "Breitenbach am Herzberg"
+  },
+  "36289": {
+    "lat": 50.8833,
+    "lon": 9.8667,
+    "city": "Friedewald"
+  },
+  "36304": {
+    "lat": 50.7518,
+    "lon": 9.2708,
+    "city": "Alsfeld"
+  },
+  "36318": {
+    "lat": 50.6833,
+    "lon": 9.3,
+    "city": "Schwalmtal"
+  },
+  "36320": {
+    "lat": 50.7694,
+    "lon": 9.1039,
+    "city": "Kirtorf"
+  },
+  "36323": {
+    "lat": 50.7424,
+    "lon": 9.4731,
+    "city": "Grebenau"
+  },
+  "36325": {
+    "lat": 50.65,
+    "lon": 9.1667,
+    "city": "Feldatal"
+  },
+  "36326": {
+    "lat": 50.7667,
+    "lon": 9.1833,
+    "city": "Antrifttal"
+  },
+  "36329": {
+    "lat": 50.7134,
+    "lon": 9.2201,
+    "city": "Romrod"
+  },
+  "36338": {
+    "lat": 50.6425,
+    "lon": 9.3926,
+    "city": "Campe & Ohff"
+  },
+  "36339": {
+    "lat": 50.6374,
+    "lon": 9.396,
+    "city": "Balzer GmbH"
+  },
+  "36341": {
+    "lat": 50.6356,
+    "lon": 9.3978,
+    "city": "Lauterbach"
+  },
+  "36355": {
+    "lat": 50.4892,
+    "lon": 9.3386,
+    "city": "Grebenhain"
+  },
+  "36358": {
+    "lat": 50.536,
+    "lon": 9.3874,
+    "city": "Herbstein"
+  },
+  "36364": {
+    "lat": 50.6239,
+    "lon": 9.5082,
+    "city": "Bad Salzschlirf"
+  },
+  "36367": {
+    "lat": 50.6167,
+    "lon": 9.45,
+    "city": "Wartenberg"
+  },
+  "36369": {
+    "lat": 50.5833,
+    "lon": 9.2833,
+    "city": "Lautertal"
+  },
+  "36380": {
+    "lat": 49.8869,
+    "lon": 8.6514,
+    "city": "ENTEGA AG"
+  },
+  "36381": {
+    "lat": 50.3655,
+    "lon": 9.5829,
+    "city": "Schlüchtern"
+  },
+  "36391": {
+    "lat": 50.3127,
+    "lon": 9.6234,
+    "city": "Sinntal"
+  },
+  "36396": {
+    "lat": 50.314,
+    "lon": 9.4633,
+    "city": "Steinau an der Straße"
+  },
+  "36399": {
+    "lat": 50.4251,
+    "lon": 9.4027,
+    "city": "Freiensteinau"
+  },
+  "36404": {
+    "lat": 50.788,
+    "lon": 10.0503,
+    "city": "Vacha"
+  },
+  "36414": {
+    "lat": 50.8167,
+    "lon": 9.9833,
+    "city": "Unterbreizbach"
+  },
+  "36419": {
+    "lat": 50.7011,
+    "lon": 9.9707,
+    "city": "Geisa"
+  },
+  "36433": {
+    "lat": 50.8181,
+    "lon": 10.2494,
+    "city": "Leimbach"
+  },
+  "36448": {
+    "lat": 50.8246,
+    "lon": 10.351,
+    "city": "Schweina"
+  },
+  "36452": {
+    "lat": 50.6601,
+    "lon": 10.1267,
+    "city": "Zella"
+  },
+  "36456": {
+    "lat": 50.8,
+    "lon": 10.3,
+    "city": "Barchfeld"
+  },
+  "36457": {
+    "lat": 50.7616,
+    "lon": 10.151,
+    "city": "Weilar"
+  },
+  "36460": {
+    "lat": 50.8431,
+    "lon": 10.1162,
+    "city": "Dorndorf"
+  },
+  "36466": {
+    "lat": 50.7069,
+    "lon": 10.1426,
+    "city": "Dermbach"
+  },
+  "36469": {
+    "lat": 50.8395,
+    "lon": 10.166,
+    "city": "Tiefenort"
+  },
+  "37069": {
+    "lat": 51.5252,
+    "lon": 9.9482,
+    "city": "Gothaer Lebensversicherung a.G."
+  },
+  "37070": {
+    "lat": 51.5404,
+    "lon": 9.926,
+    "city": "Tedox KG"
+  },
+  "37073": {
+    "lat": 51.5364,
+    "lon": 9.939,
+    "city": "Göttingen"
+  },
+  "37075": {
+    "lat": 51.5509,
+    "lon": 9.9328,
+    "city": "Göttingen"
+  },
+  "37077": {
+    "lat": 51.5604,
+    "lon": 9.9319,
+    "city": "Göttingen"
+  },
+  "37079": {
+    "lat": 51.5333,
+    "lon": 9.9333,
+    "city": "Göttingen"
+  },
+  "37081": {
+    "lat": 51.5335,
+    "lon": 9.8993,
+    "city": "Göttingen"
+  },
+  "37083": {
+    "lat": 51.513,
+    "lon": 9.9535,
+    "city": "Göttingen"
+  },
+  "37085": {
+    "lat": 51.5333,
+    "lon": 9.9333,
+    "city": "Göttingen"
+  },
+  "37096": {
+    "lat": 51.5632,
+    "lon": 9.9232,
+    "city": "Deutsche Telekom AG, NL Göttingen"
+  },
+  "37097": {
+    "lat": 51.5376,
+    "lon": 9.9245,
+    "city": "Agentur für Arbeit Göttingen"
+  },
+  "37099": {
+    "lat": 51.5505,
+    "lon": 9.9423,
+    "city": "Georg-August-Universität Bereich Humanmedizin Med. Fakultät"
+  },
+  "37100": {
+    "lat": 51.5194,
+    "lon": 9.8909,
+    "city": "Deutsche Post AG Niederlassung BRIEF Göttingen"
+  },
+  "37115": {
+    "lat": 51.5131,
+    "lon": 10.2595,
+    "city": "Duderstadt"
+  },
+  "37120": {
+    "lat": 51.5884,
+    "lon": 9.9222,
+    "city": "Bovenden"
+  },
+  "37124": {
+    "lat": 51.5,
+    "lon": 9.9,
+    "city": "Rosdorf"
+  },
+  "37127": {
+    "lat": 51.4798,
+    "lon": 9.739,
+    "city": "Jühnde"
+  },
+  "37130": {
+    "lat": 51.4667,
+    "lon": 10.0333,
+    "city": "Gleichen"
+  },
+  "37133": {
+    "lat": 51.4192,
+    "lon": 9.9176,
+    "city": "Friedland"
+  },
+  "37136": {
+    "lat": 51.5537,
+    "lon": 10.1152,
+    "city": "Waake"
+  },
+  "37139": {
+    "lat": 51.5827,
+    "lon": 9.7546,
+    "city": "Adelebsen"
+  },
+  "37154": {
+    "lat": 51.7066,
+    "lon": 10,
+    "city": "Northeim"
+  },
+  "37170": {
+    "lat": 51.6569,
+    "lon": 9.635,
+    "city": "Uslar"
+  },
+  "37176": {
+    "lat": 51.6288,
+    "lon": 9.9359,
+    "city": "Nörten-Hardenberg"
+  },
+  "37181": {
+    "lat": 51.6523,
+    "lon": 9.8305,
+    "city": "Hardegsen"
+  },
+  "37186": {
+    "lat": 51.6992,
+    "lon": 9.8711,
+    "city": "Moringen"
+  },
+  "37191": {
+    "lat": 51.6833,
+    "lon": 10.1,
+    "city": "Katlenburg-Lindau"
+  },
+  "37194": {
+    "lat": 51.6368,
+    "lon": 9.5737,
+    "city": "Wahlsburg"
+  },
+  "37197": {
+    "lat": 51.6482,
+    "lon": 10.2386,
+    "city": "Hattorf am Harz"
+  },
+  "37199": {
+    "lat": 51.66,
+    "lon": 10.1744,
+    "city": "Wulften"
+  },
+  "37213": {
+    "lat": 51.3334,
+    "lon": 9.858,
+    "city": "Witzenhausen"
+  },
+  "37214": {
+    "lat": 51.3333,
+    "lon": 9.8667,
+    "city": "Witzenhausen"
+  },
+  "37215": {
+    "lat": 51.3333,
+    "lon": 9.8667,
+    "city": "Witzenhausen"
+  },
+  "37216": {
+    "lat": 51.3333,
+    "lon": 9.8667,
+    "city": "Witzenhausen"
+  },
+  "37217": {
+    "lat": 51.3333,
+    "lon": 9.8667,
+    "city": "Witzenhausen"
+  },
+  "37218": {
+    "lat": 51.3333,
+    "lon": 9.8667,
+    "city": "Witzenhausen"
+  },
+  "37235": {
+    "lat": 51.1995,
+    "lon": 9.7186,
+    "city": "Hessisch Lichtenau"
+  },
+  "37242": {
+    "lat": 51.2709,
+    "lon": 9.9748,
+    "city": "Bad Sooden-Allendorf"
+  },
+  "37247": {
+    "lat": 51.2586,
+    "lon": 9.7845,
+    "city": "Großalmerode"
+  },
+  "37249": {
+    "lat": 51.3833,
+    "lon": 9.8833,
+    "city": "Neu-Eichenberg"
+  },
+  "37267": {
+    "lat": 51.1887,
+    "lon": 10.046,
+    "city": "Finanzamt Eschwege"
+  },
+  "37269": {
+    "lat": 51.1839,
+    "lon": 10.0533,
+    "city": "Eschwege"
+  },
+  "37276": {
+    "lat": 51.2167,
+    "lon": 10.0667,
+    "city": "Meinhard"
+  },
+  "37281": {
+    "lat": 51.1821,
+    "lon": 10.1728,
+    "city": "Wanfried"
+  },
+  "37284": {
+    "lat": 51.1384,
+    "lon": 9.9432,
+    "city": "Waldkappel"
+  },
+  "37287": {
+    "lat": 51.15,
+    "lon": 10,
+    "city": "Wehretal"
+  },
+  "37290": {
+    "lat": 51.2,
+    "lon": 9.9333,
+    "city": "Meißner"
+  },
+  "37293": {
+    "lat": 51.0063,
+    "lon": 10.1673,
+    "city": "Herleshausen"
+  },
+  "37296": {
+    "lat": 51.0833,
+    "lon": 10.0667,
+    "city": "Ringgau"
+  },
+  "37297": {
+    "lat": 51.2333,
+    "lon": 9.9167,
+    "city": "Berkatal"
+  },
+  "37299": {
+    "lat": 51.1251,
+    "lon": 10.116,
+    "city": "Weißenborn"
+  },
+  "37308": {
+    "lat": 51.3306,
+    "lon": 10.1523,
+    "city": "Kella"
+  },
+  "37318": {
+    "lat": 51.3439,
+    "lon": 10.0321,
+    "city": "Uder"
+  },
+  "37327": {
+    "lat": 51.3815,
+    "lon": 10.3328,
+    "city": "Hausen"
+  },
+  "37339": {
+    "lat": 51.4494,
+    "lon": 10.3455,
+    "city": "Ferna"
+  },
+  "37345": {
+    "lat": 51.5189,
+    "lon": 10.4346,
+    "city": "Zwinge"
+  },
+  "37351": {
+    "lat": 51.3186,
+    "lon": 10.3081,
+    "city": "Helmsdorf"
+  },
+  "37355": {
+    "lat": 51.3656,
+    "lon": 10.4552,
+    "city": "Deuna"
+  },
+  "37359": {
+    "lat": 51.265,
+    "lon": 10.2603,
+    "city": "Effelder"
+  },
+  "37412": {
+    "lat": 51.661,
+    "lon": 10.3003,
+    "city": "Hörden"
+  },
+  "37431": {
+    "lat": 51.6327,
+    "lon": 10.4703,
+    "city": "Bad Lauterberg im Harz"
+  },
+  "37434": {
+    "lat": 51.5895,
+    "lon": 10.2058,
+    "city": "Krebeck"
+  },
+  "37441": {
+    "lat": 51.595,
+    "lon": 10.5555,
+    "city": "Bad Sachsa"
+  },
+  "37444": {
+    "lat": 51.71,
+    "lon": 10.5187,
+    "city": "Sankt Andreasberg"
+  },
+  "37445": {
+    "lat": 51.5833,
+    "lon": 10.6167,
+    "city": "Walkenried"
+  },
+  "37447": {
+    "lat": 51.634,
+    "lon": 10.587,
+    "city": "Wieda"
+  },
+  "37449": {
+    "lat": 51.6333,
+    "lon": 10.6333,
+    "city": "Zorge"
+  },
+  "37520": {
+    "lat": 51.7269,
+    "lon": 10.2509,
+    "city": "Osterode am Harz"
+  },
+  "37534": {
+    "lat": 51.7784,
+    "lon": 10.1865,
+    "city": "Eisdorf"
+  },
+  "37539": {
+    "lat": 51.8011,
+    "lon": 10.2228,
+    "city": "Windhausen"
+  },
+  "37547": {
+    "lat": 51.8536,
+    "lon": 9.9648,
+    "city": "Kreiensen"
+  },
+  "37568": {
+    "lat": 51.8181,
+    "lon": 9.8373,
+    "city": "Deutsche Post E-POST Solutions GmbH"
+  },
+  "37571": {
+    "lat": 51.8181,
+    "lon": 9.8373,
+    "city": "Deutsche Post E-POST Solutions GmbH"
+  },
+  "37572": {
+    "lat": 51.8138,
+    "lon": 9.8822,
+    "city": "Deutsche Post CSC Costumer Service Center GmbH"
+  },
+  "37574": {
+    "lat": 51.8202,
+    "lon": 9.8696,
+    "city": "Einbeck"
+  },
+  "37581": {
+    "lat": 51.8717,
+    "lon": 10.0254,
+    "city": "Bad Gandersheim"
+  },
+  "37586": {
+    "lat": 51.8018,
+    "lon": 9.689,
+    "city": "Dassel"
+  },
+  "37589": {
+    "lat": 51.8,
+    "lon": 10.0333,
+    "city": "Kalefeld"
+  },
+  "37601": {
+    "lat": 51.8206,
+    "lon": 9.4517,
+    "city": "Symrise AG"
+  },
+  "37603": {
+    "lat": 51.828,
+    "lon": 9.4455,
+    "city": "Holzminden"
+  },
+  "37619": {
+    "lat": 51.9727,
+    "lon": 9.513,
+    "city": "Heyen"
+  },
+  "37620": {
+    "lat": 51.9912,
+    "lon": 9.5653,
+    "city": "Halle"
+  },
+  "37627": {
+    "lat": 51.8673,
+    "lon": 9.631,
+    "city": "Lenne"
+  },
+  "37632": {
+    "lat": 51.9144,
+    "lon": 9.6976,
+    "city": "Eimen"
+  },
+  "37633": {
+    "lat": 51.9706,
+    "lon": 9.6067,
+    "city": "Dielmissen"
+  },
+  "37635": {
+    "lat": 51.9527,
+    "lon": 9.6245,
+    "city": "Lüerdissen"
+  },
+  "37639": {
+    "lat": 51.8583,
+    "lon": 9.4941,
+    "city": "Bevern"
+  },
+  "37640": {
+    "lat": 51.9,
+    "lon": 9.55,
+    "city": "Golmbach"
+  },
+  "37642": {
+    "lat": 51.9167,
+    "lon": 9.5833,
+    "city": "Holenberg"
+  },
+  "37643": {
+    "lat": 51.8833,
+    "lon": 9.5667,
+    "city": "Negenborn"
+  },
+  "37647": {
+    "lat": 51.9121,
+    "lon": 9.3871,
+    "city": "Polle"
+  },
+  "37649": {
+    "lat": 51.8833,
+    "lon": 9.4333,
+    "city": "Heinsen"
+  },
+  "37669": {
+    "lat": 51.7794,
+    "lon": 9.3836,
+    "city": "Finanzamt"
+  },
+  "37671": {
+    "lat": 51.775,
+    "lon": 9.3816,
+    "city": "Höxter"
+  },
+  "37688": {
+    "lat": 51.668,
+    "lon": 9.3742,
+    "city": "Beverungen"
+  },
+  "37691": {
+    "lat": 51.7224,
+    "lon": 9.4077,
+    "city": "Boffzen"
+  },
+  "37696": {
+    "lat": 51.8333,
+    "lon": 9.2167,
+    "city": "Marienmünster"
+  },
+  "37697": {
+    "lat": 51.6594,
+    "lon": 9.3871,
+    "city": "Lauenförde"
+  },
+  "37699": {
+    "lat": 51.7333,
+    "lon": 9.4,
+    "city": "Fürstenberg"
+  },
+  "38023": {
+    "lat": 52.255,
+    "lon": 10.541,
+    "city": "Braunschweig"
+  },
+  "38083": {
+    "lat": 52.2699,
+    "lon": 10.5312,
+    "city": "AOK -Die Gesundheitskasse für Niedersachsen Beleglesezentrum"
+  },
+  "38084": {
+    "lat": 52.2545,
+    "lon": 10.5066,
+    "city": "Agentur für Arbeit Braunschweig"
+  },
+  "38089": {
+    "lat": 52.2969,
+    "lon": 10.5168,
+    "city": "ADAC Finanzservice"
+  },
+  "38090": {
+    "lat": 52.2518,
+    "lon": 10.5184,
+    "city": "Direct Friends"
+  },
+  "38091": {
+    "lat": 52.2554,
+    "lon": 10.5347,
+    "city": "Deutsche Rentenversicherung Braunschweig - Hannover"
+  },
+  "38092": {
+    "lat": 52.2806,
+    "lon": 10.5359,
+    "city": "Techn. Universität"
+  },
+  "38093": {
+    "lat": 52.3031,
+    "lon": 10.5146,
+    "city": "Volkswagen Bank"
+  },
+  "38094": {
+    "lat": 52.3031,
+    "lon": 10.5146,
+    "city": "Volkswagen Leasing"
+  },
+  "38096": {
+    "lat": 52.2497,
+    "lon": 10.5174,
+    "city": "ÖFFENTLICHE VERSICHERUNG BRAUNSCHWEIG"
+  },
+  "38097": {
+    "lat": 52.2518,
+    "lon": 10.5184,
+    "city": "MDM Münzhandelsgesellschaft mbH Deutsche Münze"
+  },
+  "38098": {
+    "lat": 52.2518,
+    "lon": 10.5184,
+    "city": "MDM Münzhandelsgesellschaft mbH Deutsche Münze"
+  },
+  "38100": {
+    "lat": 52.2647,
+    "lon": 10.5233,
+    "city": "Braunschweig"
+  },
+  "38102": {
+    "lat": 52.2575,
+    "lon": 10.5365,
+    "city": "Braunschweig"
+  },
+  "38104": {
+    "lat": 52.2835,
+    "lon": 10.5822,
+    "city": "Braunschweig"
+  },
+  "38106": {
+    "lat": 52.2789,
+    "lon": 10.5427,
+    "city": "Braunschweig"
+  },
+  "38108": {
+    "lat": 52.3015,
+    "lon": 10.5688,
+    "city": "Braunschweig"
+  },
+  "38110": {
+    "lat": 52.328,
+    "lon": 10.4761,
+    "city": "Braunschweig"
+  },
+  "38112": {
+    "lat": 52.3022,
+    "lon": 10.4979,
+    "city": "Braunschweig"
+  },
+  "38114": {
+    "lat": 52.2764,
+    "lon": 10.5127,
+    "city": "Braunschweig"
+  },
+  "38116": {
+    "lat": 52.2667,
+    "lon": 10.5333,
+    "city": "Braunschweig"
+  },
+  "38118": {
+    "lat": 52.259,
+    "lon": 10.5002,
+    "city": "Braunschweig"
+  },
+  "38120": {
+    "lat": 52.2546,
+    "lon": 10.4879,
+    "city": "Braunschweig"
+  },
+  "38122": {
+    "lat": 52.224,
+    "lon": 10.4989,
+    "city": "Braunschweig"
+  },
+  "38124": {
+    "lat": 52.2258,
+    "lon": 10.5271,
+    "city": "Braunschweig"
+  },
+  "38126": {
+    "lat": 52.2443,
+    "lon": 10.5594,
+    "city": "Braunschweig"
+  },
+  "38140": {
+    "lat": 52.3182,
+    "lon": 10.4775,
+    "city": "Deutsche Post AG Niederlassung BRIEF Braunschweig"
+  },
+  "38142": {
+    "lat": 52.3153,
+    "lon": 10.5098,
+    "city": "Deutsche Post AG Direkt Marketing Center Braunschweig"
+  },
+  "38143": {
+    "lat": 52.2577,
+    "lon": 10.5346,
+    "city": "Volksbank eG Braunschweig Wolfsburg"
+  },
+  "38144": {
+    "lat": 52.3145,
+    "lon": 10.5486,
+    "city": "Luftfahrt-Bundesamt"
+  },
+  "38154": {
+    "lat": 52.2512,
+    "lon": 10.8168,
+    "city": "Königslutter am Elm"
+  },
+  "38159": {
+    "lat": 52.2604,
+    "lon": 10.3649,
+    "city": "Vechelde"
+  },
+  "38162": {
+    "lat": 52.25,
+    "lon": 10.65,
+    "city": "Cremlingen"
+  },
+  "38165": {
+    "lat": 52.3333,
+    "lon": 10.6667,
+    "city": "Lehre"
+  },
+  "38170": {
+    "lat": 52.125,
+    "lon": 10.7729,
+    "city": "Dahlum"
+  },
+  "38173": {
+    "lat": 52.2007,
+    "lon": 10.6829,
+    "city": "Dettum"
+  },
+  "38176": {
+    "lat": 52.3296,
+    "lon": 10.3926,
+    "city": "Wendeburg"
+  },
+  "38179": {
+    "lat": 52.3481,
+    "lon": 10.4463,
+    "city": "Schwülper"
+  },
+  "38223": {
+    "lat": 52.161,
+    "lon": 10.4312,
+    "city": "Salzgitter AG"
+  },
+  "38226": {
+    "lat": 52.1401,
+    "lon": 10.3546,
+    "city": "Salzgitter"
+  },
+  "38228": {
+    "lat": 52.1442,
+    "lon": 10.302,
+    "city": "Salzgitter"
+  },
+  "38229": {
+    "lat": 52.1269,
+    "lon": 10.3619,
+    "city": "Salzgitter"
+  },
+  "38236": {
+    "lat": 52.1431,
+    "lon": 10.4132,
+    "city": "Alstom LHB"
+  },
+  "38237": {
+    "lat": 52.1441,
+    "lon": 10.4182,
+    "city": "MAN Truck & Bus GmbH"
+  },
+  "38239": {
+    "lat": 52.1668,
+    "lon": 10.429,
+    "city": "Salzgitter"
+  },
+  "38259": {
+    "lat": 52.0646,
+    "lon": 10.3891,
+    "city": "Salzgitter"
+  },
+  "38268": {
+    "lat": 52.2049,
+    "lon": 10.3078,
+    "city": "Lengede"
+  },
+  "38271": {
+    "lat": 52.0833,
+    "lon": 10.2333,
+    "city": "Baddeckenstedt"
+  },
+  "38272": {
+    "lat": 52.1443,
+    "lon": 10.2176,
+    "city": "Burgdorf"
+  },
+  "38274": {
+    "lat": 52.0833,
+    "lon": 10.2833,
+    "city": "Elbe"
+  },
+  "38275": {
+    "lat": 52.0541,
+    "lon": 10.3282,
+    "city": "Haverlah"
+  },
+  "38277": {
+    "lat": 52.0667,
+    "lon": 10.25,
+    "city": "Heere"
+  },
+  "38279": {
+    "lat": 52.0389,
+    "lon": 10.2657,
+    "city": "Sehlde"
+  },
+  "38281": {
+    "lat": 52.159,
+    "lon": 10.535,
+    "city": "Wolfenbüttel"
+  },
+  "38296": {
+    "lat": 52.167,
+    "lon": 10.5467,
+    "city": "Mast-Jägermeister SE"
+  },
+  "38299": {
+    "lat": 52.1627,
+    "lon": 10.5377,
+    "city": "Schering AG"
+  },
+  "38300": {
+    "lat": 52.1578,
+    "lon": 10.5579,
+    "city": "Wolfenbüttel"
+  },
+  "38302": {
+    "lat": 52.1661,
+    "lon": 10.5514,
+    "city": "Wolfenbüttel"
+  },
+  "38304": {
+    "lat": 52.1424,
+    "lon": 10.5484,
+    "city": "Wolfenbüttel"
+  },
+  "38312": {
+    "lat": 52.0879,
+    "lon": 10.5443,
+    "city": "Achim"
+  },
+  "38315": {
+    "lat": 52.0349,
+    "lon": 10.5439,
+    "city": "Gielde"
+  },
+  "38319": {
+    "lat": 52.1137,
+    "lon": 10.6741,
+    "city": "Remlingen"
+  },
+  "38321": {
+    "lat": 52.15,
+    "lon": 10.6083,
+    "city": "Denkte"
+  },
+  "38322": {
+    "lat": 52.0667,
+    "lon": 10.6833,
+    "city": "Hedeper"
+  },
+  "38324": {
+    "lat": 52.1096,
+    "lon": 10.59,
+    "city": "Kissenbrück"
+  },
+  "38325": {
+    "lat": 52.0666,
+    "lon": 10.7409,
+    "city": "Roklum"
+  },
+  "38327": {
+    "lat": 52.0937,
+    "lon": 10.6969,
+    "city": "Semmenstedt"
+  },
+  "38329": {
+    "lat": 52.1297,
+    "lon": 10.64,
+    "city": "Wittmar"
+  },
+  "38346": {
+    "lat": 52.2229,
+    "lon": 11.019,
+    "city": "Agentur für Arbeit Helmstedt"
+  },
+  "38350": {
+    "lat": 52.2279,
+    "lon": 11.0098,
+    "city": "Helmstedt"
+  },
+  "38364": {
+    "lat": 52.138,
+    "lon": 10.9674,
+    "city": "Schöningen"
+  },
+  "38367": {
+    "lat": 52.2975,
+    "lon": 11.0086,
+    "city": "Steinecke GmbH & Co. KG"
+  },
+  "38368": {
+    "lat": 52.3029,
+    "lon": 10.9693,
+    "city": "Rennau"
+  },
+  "38372": {
+    "lat": 52.1704,
+    "lon": 11.0188,
+    "city": "Büddenstedt"
+  },
+  "38373": {
+    "lat": 52.2169,
+    "lon": 10.9096,
+    "city": "Süpplingen"
+  },
+  "38375": {
+    "lat": 52.196,
+    "lon": 10.8787,
+    "city": "Räbke"
+  },
+  "38376": {
+    "lat": 52.2507,
+    "lon": 10.9101,
+    "city": "Süpplingenburg"
+  },
+  "38378": {
+    "lat": 52.1812,
+    "lon": 10.9197,
+    "city": "Warberg"
+  },
+  "38379": {
+    "lat": 52.191,
+    "lon": 10.9388,
+    "city": "Wolsdorf"
+  },
+  "38381": {
+    "lat": 52.0817,
+    "lon": 10.8984,
+    "city": "Jerxheim"
+  },
+  "38382": {
+    "lat": 52.0741,
+    "lon": 10.8581,
+    "city": "Beierstedt"
+  },
+  "38384": {
+    "lat": 52.0766,
+    "lon": 10.8222,
+    "city": "Gevensleben"
+  },
+  "38385": {
+    "lat": 52.1066,
+    "lon": 10.8734,
+    "city": "Ingeleben"
+  },
+  "38387": {
+    "lat": 52.0898,
+    "lon": 10.9252,
+    "city": "Söllingen"
+  },
+  "38388": {
+    "lat": 52.1248,
+    "lon": 10.9168,
+    "city": "Twieflingen"
+  },
+  "38432": {
+    "lat": 52.428,
+    "lon": 10.7927,
+    "city": "LSW LandE Stadtwerke Wolfsburg GmbH & Co.KG"
+  },
+  "38433": {
+    "lat": 52.4358,
+    "lon": 10.8612,
+    "city": "BKK FTE"
+  },
+  "38435": {
+    "lat": 52.4301,
+    "lon": 10.7917,
+    "city": "AUTOSTADT GmbH"
+  },
+  "38436": {
+    "lat": 52.4259,
+    "lon": 10.7974,
+    "city": "Volkswagen AG"
+  },
+  "38438": {
+    "lat": 52.4259,
+    "lon": 10.7974,
+    "city": "Auto 5000 GmbH"
+  },
+  "38439": {
+    "lat": 52.4269,
+    "lon": 10.7922,
+    "city": "BARMER"
+  },
+  "38440": {
+    "lat": 52.4239,
+    "lon": 10.7812,
+    "city": "Wolfsburg"
+  },
+  "38442": {
+    "lat": 52.4204,
+    "lon": 10.7188,
+    "city": "Wolfsburg"
+  },
+  "38444": {
+    "lat": 52.4003,
+    "lon": 10.7531,
+    "city": "Wolfsburg"
+  },
+  "38446": {
+    "lat": 52.3808,
+    "lon": 10.8285,
+    "city": "Wolfsburg"
+  },
+  "38448": {
+    "lat": 52.4231,
+    "lon": 10.8224,
+    "city": "Wolfsburg"
+  },
+  "38458": {
+    "lat": 52.408,
+    "lon": 10.9364,
+    "city": "Velpke"
+  },
+  "38459": {
+    "lat": 52.3859,
+    "lon": 11.0004,
+    "city": "Bahrdorf"
+  },
+  "38461": {
+    "lat": 52.4247,
+    "lon": 10.9129,
+    "city": "Danndorf"
+  },
+  "38462": {
+    "lat": 52.4448,
+    "lon": 10.9451,
+    "city": "Grafhorst"
+  },
+  "38464": {
+    "lat": 52.3736,
+    "lon": 10.9193,
+    "city": "Groß Twülpstedt"
+  },
+  "38465": {
+    "lat": 52.6002,
+    "lon": 10.9375,
+    "city": "Brome"
+  },
+  "38467": {
+    "lat": 52.544,
+    "lon": 10.8451,
+    "city": "Bergfeld"
+  },
+  "38468": {
+    "lat": 52.5667,
+    "lon": 10.8,
+    "city": "Ehra-Lessien"
+  },
+  "38470": {
+    "lat": 52.5347,
+    "lon": 10.8902,
+    "city": "Parsau"
+  },
+  "38471": {
+    "lat": 52.4856,
+    "lon": 10.8864,
+    "city": "Rühen"
+  },
+  "38473": {
+    "lat": 52.5167,
+    "lon": 10.8,
+    "city": "Tiddische"
+  },
+  "38474": {
+    "lat": 52.5758,
+    "lon": 10.8782,
+    "city": "Tülau"
+  },
+  "38476": {
+    "lat": 52.5219,
+    "lon": 10.7749,
+    "city": "Barwedel"
+  },
+  "38477": {
+    "lat": 52.5,
+    "lon": 10.7667,
+    "city": "Jembke"
+  },
+  "38479": {
+    "lat": 52.4705,
+    "lon": 10.7407,
+    "city": "Tappenbeck"
+  },
+  "38486": {
+    "lat": 52.6163,
+    "lon": 11.0882,
+    "city": "Wenze"
+  },
+  "38489": {
+    "lat": 52.684,
+    "lon": 11.0002,
+    "city": "Hanum"
+  },
+  "38516": {
+    "lat": 52.4887,
+    "lon": 10.5425,
+    "city": "Finanzamt"
+  },
+  "38518": {
+    "lat": 52.4777,
+    "lon": 10.5511,
+    "city": "Gifhorn"
+  },
+  "38524": {
+    "lat": 52.5167,
+    "lon": 10.6333,
+    "city": "Sassenburg"
+  },
+  "38526": {
+    "lat": 52.3813,
+    "lon": 10.5388,
+    "city": "BTN Versandhandel GmbH"
+  },
+  "38527": {
+    "lat": 52.3849,
+    "lon": 10.5393,
+    "city": "Meine"
+  },
+  "38528": {
+    "lat": 52.3798,
+    "lon": 10.4508,
+    "city": "Adenbüttel"
+  },
+  "38530": {
+    "lat": 52.3804,
+    "lon": 10.4029,
+    "city": "Didderse"
+  },
+  "38531": {
+    "lat": 52.4167,
+    "lon": 10.5333,
+    "city": "Rötgesbüttel"
+  },
+  "38533": {
+    "lat": 52.3652,
+    "lon": 10.5204,
+    "city": "Vordorf"
+  },
+  "38536": {
+    "lat": 52.4744,
+    "lon": 10.3525,
+    "city": "Meinersen"
+  },
+  "38539": {
+    "lat": 52.5333,
+    "lon": 10.3667,
+    "city": "Müden (Aller)"
+  },
+  "38542": {
+    "lat": 52.4395,
+    "lon": 10.4346,
+    "city": "Leiferde"
+  },
+  "38543": {
+    "lat": 52.4167,
+    "lon": 10.4,
+    "city": "Hillerse"
+  },
+  "38547": {
+    "lat": 52.4207,
+    "lon": 10.6233,
+    "city": "Calberlah"
+  },
+  "38550": {
+    "lat": 52.4333,
+    "lon": 10.5833,
+    "city": "Isenbüttel"
+  },
+  "38551": {
+    "lat": 52.4344,
+    "lon": 10.51,
+    "city": "Ribbesbüttel"
+  },
+  "38553": {
+    "lat": 52.4133,
+    "lon": 10.5936,
+    "city": "Wasbüttel"
+  },
+  "38554": {
+    "lat": 52.4621,
+    "lon": 10.717,
+    "city": "Weyhausen"
+  },
+  "38556": {
+    "lat": 52.5,
+    "lon": 10.7167,
+    "city": "Bokensdorf"
+  },
+  "38557": {
+    "lat": 52.4693,
+    "lon": 10.6801,
+    "city": "Osloß"
+  },
+  "38559": {
+    "lat": 52.5523,
+    "lon": 10.5234,
+    "city": "Wagenhoff"
+  },
+  "38640": {
+    "lat": 51.9153,
+    "lon": 10.4243,
+    "city": "Goslar"
+  },
+  "38642": {
+    "lat": 51.9113,
+    "lon": 10.4588,
+    "city": "Goslar"
+  },
+  "38644": {
+    "lat": 51.9226,
+    "lon": 10.3953,
+    "city": "Goslar"
+  },
+  "38667": {
+    "lat": 51.8977,
+    "lon": 10.5579,
+    "city": "Bad Harzburg"
+  },
+  "38678": {
+    "lat": 51.8095,
+    "lon": 10.3382,
+    "city": "Clausthal-Zellerfeld"
+  },
+  "38685": {
+    "lat": 51.9238,
+    "lon": 10.3866,
+    "city": "Langelsheim"
+  },
+  "38690": {
+    "lat": 51.9524,
+    "lon": 10.5637,
+    "city": "Vienenburg"
+  },
+  "38700": {
+    "lat": 51.7265,
+    "lon": 10.6109,
+    "city": "Braunlage"
+  },
+  "38704": {
+    "lat": 52.0218,
+    "lon": 10.4317,
+    "city": "Liebenburg"
+  },
+  "38707": {
+    "lat": 51.8172,
+    "lon": 10.4374,
+    "city": "Altenau"
+  },
+  "38709": {
+    "lat": 51.8281,
+    "lon": 10.2815,
+    "city": "Wildemann"
+  },
+  "38717": {
+    "lat": 51.8787,
+    "lon": 10.155,
+    "city": "DVD-Logistik Center"
+  },
+  "38723": {
+    "lat": 51.891,
+    "lon": 10.1785,
+    "city": "Seesen"
+  },
+  "38729": {
+    "lat": 51.9854,
+    "lon": 10.2509,
+    "city": "Hahausen"
+  },
+  "38817": {
+    "lat": 51.8953,
+    "lon": 11.0594,
+    "city": "Agentur für Arbeit Sachsen-Anhalt West"
+  },
+  "38820": {
+    "lat": 51.8956,
+    "lon": 11.0562,
+    "city": "Halberstadt"
+  },
+  "38822": {
+    "lat": 51.9326,
+    "lon": 10.9819,
+    "city": "Ströbeck"
+  },
+  "38828": {
+    "lat": 51.8838,
+    "lon": 11.1735,
+    "city": "Wegeleben"
+  },
+  "38829": {
+    "lat": 51.8667,
+    "lon": 11.1,
+    "city": "Harsleben"
+  },
+  "38832": {
+    "lat": 51.966,
+    "lon": 10.6992,
+    "city": "Borek Kommunikation GmbH"
+  },
+  "38835": {
+    "lat": 51.9868,
+    "lon": 10.7126,
+    "city": "Zilly"
+  },
+  "38836": {
+    "lat": 52.0041,
+    "lon": 10.9016,
+    "city": "Pabstorf"
+  },
+  "38838": {
+    "lat": 51.9999,
+    "lon": 11.0088,
+    "city": "Eilsdorf"
+  },
+  "38845": {
+    "lat": 51.8442,
+    "lon": 10.7661,
+    "city": "Ascopharm GmbH"
+  },
+  "38855": {
+    "lat": 51.8819,
+    "lon": 10.8162,
+    "city": "Heudeber"
+  },
+  "38871": {
+    "lat": 51.892,
+    "lon": 10.7123,
+    "city": "Langeln"
+  },
+  "38875": {
+    "lat": 51.7299,
+    "lon": 10.7357,
+    "city": "Sorge"
+  },
+  "38877": {
+    "lat": 51.6682,
+    "lon": 10.7172,
+    "city": "Benneckenstein"
+  },
+  "38879": {
+    "lat": 51.7639,
+    "lon": 10.6621,
+    "city": "Schierke"
+  },
+  "38889": {
+    "lat": 51.7654,
+    "lon": 10.9338,
+    "city": "Wienrode"
+  },
+  "38895": {
+    "lat": 51.86,
+    "lon": 10.97,
+    "city": "Derenburg"
+  },
+  "38899": {
+    "lat": 51.6809,
+    "lon": 10.8408,
+    "city": "Stiege"
+  },
+  "38999": {
+    "lat": 52.2368,
+    "lon": 10.4916,
+    "city": "DHL Home Delivery GmbH Logistik Center Braunschweig"
+  },
+  "39014": {
+    "lat": 52.082,
+    "lon": 11.586,
+    "city": "Magdeburg"
+  },
+  "39081": {
+    "lat": 52.1734,
+    "lon": 11.6705,
+    "city": "STARK Deutschland GmbH"
+  },
+  "39082": {
+    "lat": 52.12,
+    "lon": 11.632,
+    "city": "HUK-Coburg"
+  },
+  "39083": {
+    "lat": 52.1273,
+    "lon": 11.6333,
+    "city": "Amtsgericht"
+  },
+  "39084": {
+    "lat": 52.1435,
+    "lon": 11.6402,
+    "city": "AOK Sachsen-Anhalt"
+  },
+  "39085": {
+    "lat": 52.1375,
+    "lon": 11.6486,
+    "city": "Agentur für Arbeit Sachsen-Anhalt Nord"
+  },
+  "39087": {
+    "lat": 52.1569,
+    "lon": 11.5821,
+    "city": "Städtisches Klinikum Magdeburg"
+  },
+  "39088": {
+    "lat": 52.1329,
+    "lon": 11.6213,
+    "city": "Regierungspräsidium Sachsen-Anhalt"
+  },
+  "39091": {
+    "lat": 52.1155,
+    "lon": 11.6113,
+    "city": "Deutsche Versicherungs-AG"
+  },
+  "39092": {
+    "lat": 52.1533,
+    "lon": 11.6324,
+    "city": "IKK gesund plus"
+  },
+  "39093": {
+    "lat": 52.1318,
+    "lon": 11.6391,
+    "city": "Industrie- und Handelskammer"
+  },
+  "39094": {
+    "lat": 52.1262,
+    "lon": 11.6342,
+    "city": "Landtag von Sachsen-Anhalt"
+  },
+  "39097": {
+    "lat": 52.1012,
+    "lon": 11.62,
+    "city": "Medizinische Fakultät der Otto-von-Guericke-Universität"
+  },
+  "39098": {
+    "lat": 52.1518,
+    "lon": 11.6385,
+    "city": "Stadtsparkasse Magdeburg"
+  },
+  "39099": {
+    "lat": 52.1391,
+    "lon": 11.6413,
+    "city": "Otto-von-Guericke-Universität"
+  },
+  "39104": {
+    "lat": 52.1243,
+    "lon": 11.6322,
+    "city": "Magdeburg"
+  },
+  "39106": {
+    "lat": 52.1469,
+    "lon": 11.6498,
+    "city": "Magdeburg"
+  },
+  "39108": {
+    "lat": 52.1333,
+    "lon": 11.6167,
+    "city": "Magdeburg"
+  },
+  "39110": {
+    "lat": 52.1263,
+    "lon": 11.6011,
+    "city": "Magdeburg"
+  },
+  "39112": {
+    "lat": 52.1104,
+    "lon": 11.6011,
+    "city": "Magdeburg"
+  },
+  "39114": {
+    "lat": 52.1333,
+    "lon": 11.6167,
+    "city": "Magdeburg"
+  },
+  "39116": {
+    "lat": 52.0819,
+    "lon": 11.5861,
+    "city": "Magdeburg"
+  },
+  "39118": {
+    "lat": 52.1333,
+    "lon": 11.6167,
+    "city": "Magdeburg"
+  },
+  "39120": {
+    "lat": 52.0816,
+    "lon": 11.6212,
+    "city": "Magdeburg"
+  },
+  "39122": {
+    "lat": 52.0891,
+    "lon": 11.6586,
+    "city": "Magdeburg"
+  },
+  "39124": {
+    "lat": 52.1638,
+    "lon": 11.6333,
+    "city": "Magdeburg"
+  },
+  "39126": {
+    "lat": 52.1805,
+    "lon": 11.6504,
+    "city": "Magdeburg"
+  },
+  "39128": {
+    "lat": 52.1624,
+    "lon": 11.6165,
+    "city": "Magdeburg"
+  },
+  "39130": {
+    "lat": 52.1561,
+    "lon": 11.5789,
+    "city": "Magdeburg"
+  },
+  "39148": {
+    "lat": 52.0519,
+    "lon": 11.5935,
+    "city": "Deutsche Post AG Rücksendezentrum Magdeburg"
+  },
+  "39149": {
+    "lat": 52.0519,
+    "lon": 11.5935,
+    "city": "Deutsche Post AG Nachsendezentrum Magdeburg"
+  },
+  "39157": {
+    "lat": 52.1288,
+    "lon": 11.6304,
+    "city": "Bundesagentur für Arbeit Zentrale Kindergeld-Service (ZKGS)"
+  },
+  "39164": {
+    "lat": 52.0633,
+    "lon": 11.4183,
+    "city": "Wanzleben"
+  },
+  "39167": {
+    "lat": 52.139,
+    "lon": 11.445,
+    "city": "Wellen"
+  },
+  "39171": {
+    "lat": 52.0167,
+    "lon": 11.55,
+    "city": "Sülzetal"
+  },
+  "39175": {
+    "lat": 52.1417,
+    "lon": 11.7565,
+    "city": "Gübs"
+  },
+  "39178": {
+    "lat": 52.1969,
+    "lon": 11.5988,
+    "city": "E.ON Avacon AG"
+  },
+  "39179": {
+    "lat": 52.1926,
+    "lon": 11.5963,
+    "city": "Barleben"
+  },
+  "39217": {
+    "lat": 52.0183,
+    "lon": 11.724,
+    "city": "Schönebeck (Elbe)"
+  },
+  "39218": {
+    "lat": 52.0183,
+    "lon": 11.724,
+    "city": "Schönebeck (Elbe)"
+  },
+  "39221": {
+    "lat": 51.9676,
+    "lon": 11.7097,
+    "city": "Zens"
+  },
+  "39240": {
+    "lat": 51.8947,
+    "lon": 11.837,
+    "city": "Calbe"
+  },
+  "39245": {
+    "lat": 52.0604,
+    "lon": 11.8315,
+    "city": "Plötzky"
+  },
+  "39249": {
+    "lat": 51.9728,
+    "lon": 11.8374,
+    "city": "Barby"
+  },
+  "39258": {
+    "lat": 51.9613,
+    "lon": 12.084,
+    "city": "Unfallkasse Sachsen-Anhalt"
+  },
+  "39261": {
+    "lat": 51.9662,
+    "lon": 12.0852,
+    "city": "Zerbst"
+  },
+  "39264": {
+    "lat": 51.9976,
+    "lon": 12.0827,
+    "city": "Leps"
+  },
+  "39279": {
+    "lat": 52.0947,
+    "lon": 12.0538,
+    "city": "Hobeck"
+  },
+  "39288": {
+    "lat": 52.2667,
+    "lon": 11.8631,
+    "city": "Burg"
+  },
+  "39291": {
+    "lat": 52.2135,
+    "lon": 11.9489,
+    "city": "Büden"
+  },
+  "39307": {
+    "lat": 52.3834,
+    "lon": 12.1923,
+    "city": "Kade"
+  },
+  "39317": {
+    "lat": 52.3833,
+    "lon": 12.0167,
+    "city": "Elbe-Parey"
+  },
+  "39319": {
+    "lat": 52.476,
+    "lon": 12.0755,
+    "city": "Wulkow"
+  },
+  "39326": {
+    "lat": 52.2512,
+    "lon": 11.6029,
+    "city": "Rogätz"
+  },
+  "39340": {
+    "lat": 52.3006,
+    "lon": 11.4303,
+    "city": "Haldensleben"
+  },
+  "39343": {
+    "lat": 52.2288,
+    "lon": 11.2721,
+    "city": "Emden"
+  },
+  "39345": {
+    "lat": 52.3234,
+    "lon": 11.3913,
+    "city": "Born"
+  },
+  "39356": {
+    "lat": 52.312,
+    "lon": 11.0987,
+    "city": "Döhren"
+  },
+  "39359": {
+    "lat": 52.3907,
+    "lon": 11.1797,
+    "city": "Etingen"
+  },
+  "39365": {
+    "lat": 52.1472,
+    "lon": 11.2209,
+    "city": "Harbke"
+  },
+  "39387": {
+    "lat": 52.0494,
+    "lon": 11.1943,
+    "city": "Ampfurth"
+  },
+  "39393": {
+    "lat": 52.0894,
+    "lon": 11.0559,
+    "city": "Völpke"
+  },
+  "39397": {
+    "lat": 51.9494,
+    "lon": 11.2032,
+    "city": "Nienhagen"
+  },
+  "39398": {
+    "lat": 52.0037,
+    "lon": 11.3229,
+    "city": "Alikendorf"
+  },
+  "39400": {
+    "lat": 52.0519,
+    "lon": 11.5935,
+    "city": "Deutsche Post AG Niederlassung BRIEF Magdeburg"
+  },
+  "39418": {
+    "lat": 51.8343,
+    "lon": 11.5759,
+    "city": "Staßfurt"
+  },
+  "39434": {
+    "lat": 51.85,
+    "lon": 11.5333,
+    "city": "Hecklingen bei Staßfurt"
+  },
+  "39435": {
+    "lat": 51.9267,
+    "lon": 11.4822,
+    "city": "Borne"
+  },
+  "39439": {
+    "lat": 51.799,
+    "lon": 11.6133,
+    "city": "Güsten"
+  },
+  "39443": {
+    "lat": 51.8817,
+    "lon": 11.6427,
+    "city": "Löbnitz"
+  },
+  "39444": {
+    "lat": 51.847,
+    "lon": 11.5342,
+    "city": "Hecklingen"
+  },
+  "39446": {
+    "lat": 51.8761,
+    "lon": 11.5397,
+    "city": "Löderburg"
+  },
+  "39448": {
+    "lat": 51.9536,
+    "lon": 11.3902,
+    "city": "Hakeborn"
+  },
+  "39517": {
+    "lat": 52.4243,
+    "lon": 11.8249,
+    "city": "Buch"
+  },
+  "39524": {
+    "lat": 52.6721,
+    "lon": 12.0902,
+    "city": "Wust"
+  },
+  "39539": {
+    "lat": 52.8309,
+    "lon": 12.0755,
+    "city": "Havelberg"
+  },
+  "39576": {
+    "lat": 52.6069,
+    "lon": 11.8587,
+    "city": "Stendal"
+  },
+  "39579": {
+    "lat": 52.6009,
+    "lon": 11.7485,
+    "city": "Rochau"
+  },
+  "39590": {
+    "lat": 52.5723,
+    "lon": 11.9547,
+    "city": "Heeren"
+  },
+  "39596": {
+    "lat": 52.6992,
+    "lon": 11.9298,
+    "city": "Baben"
+  },
+  "39599": {
+    "lat": 52.5685,
+    "lon": 11.6733,
+    "city": "Insel"
+  },
+  "39606": {
+    "lat": 52.7832,
+    "lon": 11.6877,
+    "city": "Iden"
+  },
+  "39615": {
+    "lat": 52.9145,
+    "lon": 11.7203,
+    "city": "Losse"
+  },
+  "39619": {
+    "lat": 52.8769,
+    "lon": 11.4663,
+    "city": "Kläden"
+  },
+  "39624": {
+    "lat": 52.6928,
+    "lon": 11.4183,
+    "city": "Badel"
+  },
+  "39629": {
+    "lat": 52.6429,
+    "lon": 11.563,
+    "city": "Könnigde"
+  },
+  "39638": {
+    "lat": 52.5198,
+    "lon": 11.3931,
+    "city": "Dorst"
+  },
+  "39646": {
+    "lat": 52.4342,
+    "lon": 10.9879,
+    "city": "Oebisfelde"
+  },
+  "39649": {
+    "lat": 52.5034,
+    "lon": 11.1814,
+    "city": "Köckte"
+  },
+  "40180": {
+    "lat": 51.2362,
+    "lon": 6.8199,
+    "city": "Agentur für Arbeit Düsseldorf"
+  },
+  "40181": {
+    "lat": 51.2368,
+    "lon": 6.8053,
+    "city": "Kassenzahnärztliche Vereinigung Nordrhein"
+  },
+  "40182": {
+    "lat": 51.2515,
+    "lon": 6.7649,
+    "city": "Kassenärztliche Vereinigung Nordrhein Hauptstelle"
+  },
+  "40186": {
+    "lat": 51.1941,
+    "lon": 6.7057,
+    "city": "LeasePlan Deutschland GmbH"
+  },
+  "40187": {
+    "lat": 51.2176,
+    "lon": 6.7787,
+    "city": "Deutsche Rentenversicherung Rheinland"
+  },
+  "40188": {
+    "lat": 51.2174,
+    "lon": 6.7705,
+    "city": "NRW.BANK"
+  },
+  "40189": {
+    "lat": 51.2217,
+    "lon": 6.7782,
+    "city": "Deutsche Bank AG"
+  },
+  "40190": {
+    "lat": 51.2183,
+    "lon": 6.7675,
+    "city": "Landesregierung NRW"
+  },
+  "40191": {
+    "lat": 51.1756,
+    "lon": 6.8394,
+    "city": "Henkel AG & Co. KGaA"
+  },
+  "40192": {
+    "lat": 51.2533,
+    "lon": 6.7766,
+    "city": "Landesamt für Besoldung und Versorgung NRW"
+  },
+  "40193": {
+    "lat": 51.2445,
+    "lon": 6.7777,
+    "city": "IT. NRW"
+  },
+  "40194": {
+    "lat": 51.2176,
+    "lon": 6.7787,
+    "city": "Deutsche Rentenversicherung Rheinland"
+  },
+  "40195": {
+    "lat": 51.196,
+    "lon": 6.8122,
+    "city": "Provinzial Versicherung AG"
+  },
+  "40196": {
+    "lat": 51.2338,
+    "lon": 6.6991,
+    "city": "Rheinische Post"
+  },
+  "40198": {
+    "lat": 51.2393,
+    "lon": 6.7846,
+    "city": "ERGO Versicherung AG"
+  },
+  "40199": {
+    "lat": 51.2132,
+    "lon": 6.7625,
+    "city": "Portigon AG"
+  },
+  "40202": {
+    "lat": 51.2362,
+    "lon": 6.8209,
+    "city": "HUK-Coburg"
+  },
+  "40204": {
+    "lat": 51.193,
+    "lon": 6.7952,
+    "city": "Heinrich-Heine-Universität"
+  },
+  "40210": {
+    "lat": 51.2216,
+    "lon": 6.7897,
+    "city": "Düsseldorf"
+  },
+  "40211": {
+    "lat": 51.2278,
+    "lon": 6.7861,
+    "city": "Düsseldorf"
+  },
+  "40212": {
+    "lat": 51.223,
+    "lon": 6.7827,
+    "city": "Düsseldorf"
+  },
+  "40213": {
+    "lat": 51.2249,
+    "lon": 6.7743,
+    "city": "Düsseldorf"
+  },
+  "40215": {
+    "lat": 51.2165,
+    "lon": 6.7836,
+    "city": "Düsseldorf"
+  },
+  "40217": {
+    "lat": 51.2157,
+    "lon": 6.7767,
+    "city": "Düsseldorf"
+  },
+  "40219": {
+    "lat": 51.2125,
+    "lon": 6.7637,
+    "city": "Düsseldorf"
+  },
+  "40221": {
+    "lat": 51.2002,
+    "lon": 6.7564,
+    "city": "Düsseldorf"
+  },
+  "40223": {
+    "lat": 51.1998,
+    "lon": 6.7727,
+    "city": "Düsseldorf"
+  },
+  "40225": {
+    "lat": 51.2055,
+    "lon": 6.7885,
+    "city": "Düsseldorf"
+  },
+  "40227": {
+    "lat": 51.2117,
+    "lon": 6.8071,
+    "city": "Düsseldorf"
+  },
+  "40229": {
+    "lat": 51.1984,
+    "lon": 6.8415,
+    "city": "Düsseldorf"
+  },
+  "40231": {
+    "lat": 51.217,
+    "lon": 6.8254,
+    "city": "Düsseldorf"
+  },
+  "40233": {
+    "lat": 51.2214,
+    "lon": 6.8116,
+    "city": "Düsseldorf"
+  },
+  "40235": {
+    "lat": 51.2301,
+    "lon": 6.8216,
+    "city": "Düsseldorf"
+  },
+  "40237": {
+    "lat": 51.2352,
+    "lon": 6.8191,
+    "city": "Düsseldorf"
+  },
+  "40239": {
+    "lat": 51.2167,
+    "lon": 6.7667,
+    "city": "Düsseldorf"
+  },
+  "40250": {
+    "lat": 51.1238,
+    "lon": 6.9326,
+    "city": "Deutsche Post AG Niederlassung BRIEF Düsseldorf"
+  },
+  "40251": {
+    "lat": 51.1218,
+    "lon": 6.9349,
+    "city": "Eurotops GVV Versand GmbH"
+  },
+  "40252": {
+    "lat": 51.2273,
+    "lon": 6.7076,
+    "city": "BARMER"
+  },
+  "40260": {
+    "lat": 51.1023,
+    "lon": 6.8872,
+    "city": "billbox GmbH"
+  },
+  "40300": {
+    "lat": 51.2415,
+    "lon": 6.7389,
+    "city": "Commerzbank AG"
+  },
+  "40302": {
+    "lat": 51.2533,
+    "lon": 6.7766,
+    "city": "Landesamt für Besoldung und Versorgung NRW"
+  },
+  "40340": {
+    "lat": 51.2533,
+    "lon": 6.7766,
+    "city": "Landesamt für Besoldung und Versorgung NRW"
+  },
+  "40463": {
+    "lat": 51.273,
+    "lon": 6.7666,
+    "city": "Deutsche Glasfaser Holding GmbH"
+  },
+  "40464": {
+    "lat": 51.2499,
+    "lon": 6.8007,
+    "city": "ARAG"
+  },
+  "40466": {
+    "lat": 51.2895,
+    "lon": 6.7966,
+    "city": "AOK Rheinland/Hamburg Die Gesundheitskasse"
+  },
+  "40467": {
+    "lat": 51.2545,
+    "lon": 6.7864,
+    "city": "Daimler AG"
+  },
+  "40468": {
+    "lat": 51.2561,
+    "lon": 6.7808,
+    "city": "Düsseldorf"
+  },
+  "40470": {
+    "lat": 51.2517,
+    "lon": 6.8143,
+    "city": "Düsseldorf"
+  },
+  "40472": {
+    "lat": 51.2686,
+    "lon": 6.81,
+    "city": "Düsseldorf"
+  },
+  "40474": {
+    "lat": 51.2696,
+    "lon": 6.748,
+    "city": "Düsseldorf"
+  },
+  "40476": {
+    "lat": 51.2465,
+    "lon": 6.7855,
+    "city": "Düsseldorf"
+  },
+  "40477": {
+    "lat": 51.2371,
+    "lon": 6.7795,
+    "city": "Düsseldorf"
+  },
+  "40479": {
+    "lat": 51.2167,
+    "lon": 6.7667,
+    "city": "Düsseldorf"
+  },
+  "40489": {
+    "lat": 51.2167,
+    "lon": 6.7667,
+    "city": "Düsseldorf"
+  },
+  "40541": {
+    "lat": 51.2414,
+    "lon": 6.7213,
+    "city": "BKK für Heilberufe"
+  },
+  "40542": {
+    "lat": 51.2281,
+    "lon": 6.7166,
+    "city": "ZA Zahnärztliche Abrechnungsgesellschaft AG"
+  },
+  "40543": {
+    "lat": 51.2327,
+    "lon": 6.7145,
+    "city": "Vodafone GmbH"
+  },
+  "40545": {
+    "lat": 51.2167,
+    "lon": 6.7667,
+    "city": "Düsseldorf"
+  },
+  "40547": {
+    "lat": 51.2429,
+    "lon": 6.7428,
+    "city": "Düsseldorf"
+  },
+  "40549": {
+    "lat": 51.2302,
+    "lon": 6.7135,
+    "city": "Düsseldorf"
+  },
+  "40589": {
+    "lat": 51.1668,
+    "lon": 6.8253,
+    "city": "Düsseldorf"
+  },
+  "40591": {
+    "lat": 51.1953,
+    "lon": 6.8324,
+    "city": "Düsseldorf"
+  },
+  "40593": {
+    "lat": 51.2167,
+    "lon": 6.7667,
+    "city": "Düsseldorf"
+  },
+  "40595": {
+    "lat": 51.2167,
+    "lon": 6.7667,
+    "city": "Düsseldorf"
+  },
+  "40597": {
+    "lat": 51.1659,
+    "lon": 6.8773,
+    "city": "Düsseldorf"
+  },
+  "40599": {
+    "lat": 51.1809,
+    "lon": 6.8598,
+    "city": "Düsseldorf"
+  },
+  "40625": {
+    "lat": 51.2322,
+    "lon": 6.8567,
+    "city": "Düsseldorf"
+  },
+  "40627": {
+    "lat": 51.2167,
+    "lon": 6.7667,
+    "city": "Düsseldorf"
+  },
+  "40629": {
+    "lat": 51.2596,
+    "lon": 6.8898,
+    "city": "Düsseldorf"
+  },
+  "40667": {
+    "lat": 51.2503,
+    "lon": 6.6899,
+    "city": "Meerbusch"
+  },
+  "40668": {
+    "lat": 51.3042,
+    "lon": 6.6718,
+    "city": "Meerbusch"
+  },
+  "40670": {
+    "lat": 51.2734,
+    "lon": 6.6484,
+    "city": "Meerbusch"
+  },
+  "40699": {
+    "lat": 51.2223,
+    "lon": 6.9083,
+    "city": "Erkrath"
+  },
+  "40718": {
+    "lat": 51.1648,
+    "lon": 6.9307,
+    "city": "PB Lebensversicherung AG"
+  },
+  "40721": {
+    "lat": 51.1694,
+    "lon": 6.9253,
+    "city": "Hilden"
+  },
+  "40723": {
+    "lat": 51.1578,
+    "lon": 6.939,
+    "city": "Hilden"
+  },
+  "40724": {
+    "lat": 51.1803,
+    "lon": 6.9472,
+    "city": "Hilden"
+  },
+  "40764": {
+    "lat": 51.1082,
+    "lon": 6.9483,
+    "city": "Langenfeld"
+  },
+  "40786": {
+    "lat": 51.0896,
+    "lon": 6.8941,
+    "city": "Schwarz Pharma AG"
+  },
+  "40789": {
+    "lat": 51.1027,
+    "lon": 6.8981,
+    "city": "Monheim am Rhein"
+  },
+  "40815": {
+    "lat": 51.2536,
+    "lon": 6.9514,
+    "city": "Zeus-Versand GmbH"
+  },
+  "40816": {
+    "lat": 51.2561,
+    "lon": 6.9857,
+    "city": "Agentur für Arbeit Mettmann"
+  },
+  "40822": {
+    "lat": 51.2504,
+    "lon": 6.9754,
+    "city": "Mettmann"
+  },
+  "40832": {
+    "lat": 51.3,
+    "lon": 6.85,
+    "city": "Ratingen"
+  },
+  "40842": {
+    "lat": 51.2902,
+    "lon": 6.8656,
+    "city": "Esprit Europe GmbH"
+  },
+  "40878": {
+    "lat": 51.2922,
+    "lon": 6.8485,
+    "city": "Ratingen"
+  },
+  "40880": {
+    "lat": 51.3,
+    "lon": 6.85,
+    "city": "Ratingen"
+  },
+  "40882": {
+    "lat": 51.2984,
+    "lon": 6.8585,
+    "city": "Ratingen"
+  },
+  "40883": {
+    "lat": 51.3,
+    "lon": 6.85,
+    "city": "Ratingen"
+  },
+  "40885": {
+    "lat": 51.3394,
+    "lon": 6.8528,
+    "city": "Ratingen"
+  },
+  "41050": {
+    "lat": 51.1905,
+    "lon": 6.4388,
+    "city": "Stadt Mönchengladbach Der Oberbürgermeister"
+  },
+  "41052": {
+    "lat": 51.1953,
+    "lon": 6.4241,
+    "city": "Santander Consumer Bank AG CC Bank AG"
+  },
+  "41054": {
+    "lat": 51.1951,
+    "lon": 6.4489,
+    "city": "Agentur für Arbeit Mönchengladbach"
+  },
+  "41061": {
+    "lat": 51.1958,
+    "lon": 6.4387,
+    "city": "Mönchengladbach"
+  },
+  "41063": {
+    "lat": 51.2,
+    "lon": 6.4333,
+    "city": "Mönchengladbach"
+  },
+  "41065": {
+    "lat": 51.1911,
+    "lon": 6.4467,
+    "city": "Mönchengladbach"
+  },
+  "41066": {
+    "lat": 51.2249,
+    "lon": 6.4838,
+    "city": "Mönchengladbach"
+  },
+  "41068": {
+    "lat": 51.1977,
+    "lon": 6.3911,
+    "city": "Mönchengladbach"
+  },
+  "41069": {
+    "lat": 51.1768,
+    "lon": 6.4021,
+    "city": "Mönchengladbach"
+  },
+  "41169": {
+    "lat": 51.2,
+    "lon": 6.4333,
+    "city": "Mönchengladbach"
+  },
+  "41179": {
+    "lat": 51.1723,
+    "lon": 6.3414,
+    "city": "Mönchengladbach"
+  },
+  "41189": {
+    "lat": 51.139,
+    "lon": 6.4102,
+    "city": "Mönchengladbach"
+  },
+  "41199": {
+    "lat": 51.129,
+    "lon": 6.4386,
+    "city": "Mönchengladbach"
+  },
+  "41200": {
+    "lat": 51.1125,
+    "lon": 6.4381,
+    "city": "MyBrands-Zalando GmbH"
+  },
+  "41236": {
+    "lat": 51.1666,
+    "lon": 6.4427,
+    "city": "Mönchengladbach"
+  },
+  "41238": {
+    "lat": 51.1514,
+    "lon": 6.4703,
+    "city": "Mönchengladbach"
+  },
+  "41239": {
+    "lat": 51.1604,
+    "lon": 6.4172,
+    "city": "Mönchengladbach"
+  },
+  "41260": {
+    "lat": 51.1178,
+    "lon": 6.4405,
+    "city": "Deutsche Post AG Niederlassung BRIEF Mönchengladbach"
+  },
+  "41261": {
+    "lat": 51.1652,
+    "lon": 6.7618,
+    "city": "RCI Banque S.A. Niederlassung Deutschland"
+  },
+  "41334": {
+    "lat": 51.3246,
+    "lon": 6.2329,
+    "city": "Nettetal"
+  },
+  "41352": {
+    "lat": 51.1914,
+    "lon": 6.5135,
+    "city": "Korschenbroich"
+  },
+  "41363": {
+    "lat": 51.1,
+    "lon": 6.5,
+    "city": "Jüchen"
+  },
+  "41366": {
+    "lat": 51.2167,
+    "lon": 6.2667,
+    "city": "Schwalmtal"
+  },
+  "41372": {
+    "lat": 51.2108,
+    "lon": 6.1775,
+    "city": "Niederkrüchten"
+  },
+  "41379": {
+    "lat": 51.2405,
+    "lon": 6.1838,
+    "city": "Brüggen"
+  },
+  "41424": {
+    "lat": 51.2033,
+    "lon": 6.7129,
+    "city": "Bank 11 für Privatkunden und Handel GmbH"
+  },
+  "41452": {
+    "lat": 51.0343,
+    "lon": 6.2557,
+    "city": "QVC eDistribution Inc. & Co.KG"
+  },
+  "41453": {
+    "lat": 51.1974,
+    "lon": 6.715,
+    "city": "3 M Deutschland GmbH"
+  },
+  "41455": {
+    "lat": 51.2037,
+    "lon": 6.7076,
+    "city": "BCA Autoauktionen GmbH Dokumentenverwaltung"
+  },
+  "41456": {
+    "lat": 51.1916,
+    "lon": 6.7065,
+    "city": "Stadt Neuss"
+  },
+  "41457": {
+    "lat": 51.1516,
+    "lon": 6.7435,
+    "city": "Caradon Esser GmbH"
+  },
+  "41460": {
+    "lat": 51.2014,
+    "lon": 6.6944,
+    "city": "Neuss"
+  },
+  "41462": {
+    "lat": 51.2154,
+    "lon": 6.6631,
+    "city": "Neuss"
+  },
+  "41464": {
+    "lat": 51.1843,
+    "lon": 6.6821,
+    "city": "Neuss"
+  },
+  "41466": {
+    "lat": 51.1682,
+    "lon": 6.6847,
+    "city": "Neuss"
+  },
+  "41468": {
+    "lat": 51.1646,
+    "lon": 6.7519,
+    "city": "Neuss"
+  },
+  "41469": {
+    "lat": 51.1576,
+    "lon": 6.7328,
+    "city": "Neuss"
+  },
+  "41470": {
+    "lat": 51.2,
+    "lon": 6.6833,
+    "city": "Neuss"
+  },
+  "41472": {
+    "lat": 51.2,
+    "lon": 6.6833,
+    "city": "Neuss"
+  },
+  "41513": {
+    "lat": 51.0814,
+    "lon": 6.5979,
+    "city": "Speira GmbH"
+  },
+  "41515": {
+    "lat": 51.0904,
+    "lon": 6.6067,
+    "city": "Grevenbroich"
+  },
+  "41516": {
+    "lat": 51.1292,
+    "lon": 6.6245,
+    "city": "Grevenbroich"
+  },
+  "41517": {
+    "lat": 51.0833,
+    "lon": 6.5833,
+    "city": "Grevenbroich"
+  },
+  "41538": {
+    "lat": 51.0836,
+    "lon": 6.8225,
+    "city": "Bayer AG"
+  },
+  "41539": {
+    "lat": 51.0964,
+    "lon": 6.84,
+    "city": "Dormagen"
+  },
+  "41540": {
+    "lat": 51.0923,
+    "lon": 6.8114,
+    "city": "Dormagen"
+  },
+  "41541": {
+    "lat": 51.127,
+    "lon": 6.8068,
+    "city": "Dormagen"
+  },
+  "41542": {
+    "lat": 51.113,
+    "lon": 6.7752,
+    "city": "Dormagen"
+  },
+  "41561": {
+    "lat": 51.222,
+    "lon": 6.6037,
+    "city": "Gärtner Pötschke Kaarst GmbH"
+  },
+  "41564": {
+    "lat": 51.2293,
+    "lon": 6.6188,
+    "city": "Kaarst"
+  },
+  "41569": {
+    "lat": 51.0333,
+    "lon": 6.6833,
+    "city": "Rommerskirchen"
+  },
+  "41747": {
+    "lat": 51.2556,
+    "lon": 6.3917,
+    "city": "Viersen"
+  },
+  "41748": {
+    "lat": 51.25,
+    "lon": 6.3833,
+    "city": "Viersen"
+  },
+  "41749": {
+    "lat": 51.2852,
+    "lon": 6.3871,
+    "city": "Viersen"
+  },
+  "41751": {
+    "lat": 51.25,
+    "lon": 6.3833,
+    "city": "Viersen"
+  },
+  "41812": {
+    "lat": 51.0795,
+    "lon": 6.3153,
+    "city": "Erkelenz"
+  },
+  "41833": {
+    "lat": 51.0343,
+    "lon": 6.2557,
+    "city": "QVC eDistribution Inc. & Co.KG"
+  },
+  "41836": {
+    "lat": 51.0555,
+    "lon": 6.2266,
+    "city": "Hückelhoven"
+  },
+  "41844": {
+    "lat": 51.1422,
+    "lon": 6.2844,
+    "city": "Wegberg"
+  },
+  "41849": {
+    "lat": 51.1001,
+    "lon": 6.1548,
+    "city": "Wassenberg"
+  },
+  "42093": {
+    "lat": 51.214,
+    "lon": 7.0579,
+    "city": "Zentrale Paketermittlung"
+  },
+  "42094": {
+    "lat": 51.2514,
+    "lon": 7.1586,
+    "city": "Barmenia Krankenversicherung a.G. -Allgemeine Versicherungen-"
+  },
+  "42095": {
+    "lat": 51.2534,
+    "lon": 7.1284,
+    "city": "Bau-Berufsgenossenschaft Wuppertal"
+  },
+  "42096": {
+    "lat": 51.2493,
+    "lon": 7.1168,
+    "city": "Bayer AG"
+  },
+  "42097": {
+    "lat": 51.2536,
+    "lon": 7.1395,
+    "city": "Landgericht"
+  },
+  "42098": {
+    "lat": 51.2493,
+    "lon": 7.1416,
+    "city": "Krankenversorgung der Bundesbahnbeamten"
+  },
+  "42099": {
+    "lat": 51.2541,
+    "lon": 7.1543,
+    "city": "Krankenversorgung der Bundesbahnbeamten"
+  },
+  "42101": {
+    "lat": 51.2561,
+    "lon": 7.1613,
+    "city": "DEVK Deutsche Eisenbahnversicherung"
+  },
+  "42103": {
+    "lat": 51.2569,
+    "lon": 7.1505,
+    "city": "Wuppertal"
+  },
+  "42105": {
+    "lat": 51.2649,
+    "lon": 7.1307,
+    "city": "Wuppertal"
+  },
+  "42107": {
+    "lat": 51.2619,
+    "lon": 7.1513,
+    "city": "Wuppertal"
+  },
+  "42109": {
+    "lat": 51.2765,
+    "lon": 7.1559,
+    "city": "Wuppertal"
+  },
+  "42111": {
+    "lat": 51.2667,
+    "lon": 7.1833,
+    "city": "Wuppertal"
+  },
+  "42113": {
+    "lat": 51.2678,
+    "lon": 7.1285,
+    "city": "Wuppertal"
+  },
+  "42115": {
+    "lat": 51.2497,
+    "lon": 7.103,
+    "city": "Wuppertal"
+  },
+  "42117": {
+    "lat": 51.2498,
+    "lon": 7.1239,
+    "city": "Wuppertal"
+  },
+  "42119": {
+    "lat": 51.2441,
+    "lon": 7.1661,
+    "city": "Wuppertal"
+  },
+  "42266": {
+    "lat": 51.2438,
+    "lon": 7.1839,
+    "city": "BARMER"
+  },
+  "42268": {
+    "lat": 51.2623,
+    "lon": 7.1704,
+    "city": "Agentur für Arbeit Wuppertal"
+  },
+  "42269": {
+    "lat": 51.2719,
+    "lon": 7.2001,
+    "city": "Stadtverwaltung Wuppertal"
+  },
+  "42270": {
+    "lat": 51.2733,
+    "lon": 7.1996,
+    "city": "Vorwerk SE & Co. KG"
+  },
+  "42271": {
+    "lat": 51.265,
+    "lon": 7.1867,
+    "city": "Vorwerk & Co. (grün)"
+  },
+  "42272": {
+    "lat": 51.2694,
+    "lon": 7.1697,
+    "city": "Johnson Controls Interiors GmbH"
+  },
+  "42273": {
+    "lat": 51.2858,
+    "lon": 7.2253,
+    "city": "akf Bank GmbH & Co. KG"
+  },
+  "42275": {
+    "lat": 51.2718,
+    "lon": 7.204,
+    "city": "Wuppertal"
+  },
+  "42277": {
+    "lat": 51.2742,
+    "lon": 7.2203,
+    "city": "Wuppertal"
+  },
+  "42279": {
+    "lat": 51.3077,
+    "lon": 7.2522,
+    "city": "Wuppertal"
+  },
+  "42281": {
+    "lat": 51.2878,
+    "lon": 7.194,
+    "city": "Wuppertal"
+  },
+  "42283": {
+    "lat": 51.2699,
+    "lon": 7.1838,
+    "city": "Wuppertal"
+  },
+  "42285": {
+    "lat": 51.259,
+    "lon": 7.1695,
+    "city": "Wuppertal"
+  },
+  "42287": {
+    "lat": 51.2432,
+    "lon": 7.2066,
+    "city": "Wuppertal"
+  },
+  "42289": {
+    "lat": 51.2667,
+    "lon": 7.1833,
+    "city": "Wuppertal"
+  },
+  "42300": {
+    "lat": 51.222,
+    "lon": 6.793,
+    "city": "Deutsche Post AG Direkt Marketing Center Düsseldorf"
+  },
+  "42327": {
+    "lat": 51.2424,
+    "lon": 7.06,
+    "city": "Wuppertal"
+  },
+  "42329": {
+    "lat": 51.2221,
+    "lon": 7.0639,
+    "city": "Wuppertal"
+  },
+  "42337": {
+    "lat": 51.2105,
+    "lon": 7.1436,
+    "city": "Knipex-Werk Gustav Putsch KG"
+  },
+  "42347": {
+    "lat": 51.2525,
+    "lon": 7.1338,
+    "city": "GEFA BANK GmbH"
+  },
+  "42349": {
+    "lat": 51.216,
+    "lon": 7.1418,
+    "city": "Wuppertal"
+  },
+  "42369": {
+    "lat": 51.2298,
+    "lon": 7.202,
+    "city": "Wuppertal"
+  },
+  "42387": {
+    "lat": 51.2824,
+    "lon": 7.2645,
+    "city": "Einkaufsbüro Deutscher Eisenhändler GmbH"
+  },
+  "42389": {
+    "lat": 51.2732,
+    "lon": 7.235,
+    "city": "Wuppertal"
+  },
+  "42399": {
+    "lat": 51.2667,
+    "lon": 7.1833,
+    "city": "Wuppertal"
+  },
+  "42409": {
+    "lat": 51.214,
+    "lon": 7.0579,
+    "city": "Deutsche Post AG Niederlassung BRIEF Wuppertal"
+  },
+  "42477": {
+    "lat": 51.2022,
+    "lon": 7.3603,
+    "city": "Radevormwald"
+  },
+  "42489": {
+    "lat": 51.282,
+    "lon": 7.0382,
+    "city": "Wülfrath"
+  },
+  "42499": {
+    "lat": 51.1498,
+    "lon": 7.3447,
+    "city": "Hückeswagen"
+  },
+  "42547": {
+    "lat": 51.3376,
+    "lon": 7.0461,
+    "city": "Finanzamt Velbert"
+  },
+  "42549": {
+    "lat": 51.3336,
+    "lon": 7.027,
+    "city": "Velbert"
+  },
+  "42551": {
+    "lat": 51.3434,
+    "lon": 7.0594,
+    "city": "Velbert"
+  },
+  "42553": {
+    "lat": 51.3005,
+    "lon": 7.0914,
+    "city": "Velbert"
+  },
+  "42555": {
+    "lat": 51.3515,
+    "lon": 7.1302,
+    "city": "Velbert"
+  },
+  "42577": {
+    "lat": 51.3246,
+    "lon": 6.9561,
+    "city": "Kiekert AG"
+  },
+  "42579": {
+    "lat": 51.3266,
+    "lon": 6.9711,
+    "city": "Heiligenhaus"
+  },
+  "42645": {
+    "lat": 51.1629,
+    "lon": 7.0863,
+    "city": "cisbox GmbH c/o CISBOX 139044"
+  },
+  "42648": {
+    "lat": 51.174,
+    "lon": 7.0839,
+    "city": "Esab GmbH"
+  },
+  "42649": {
+    "lat": 51.1696,
+    "lon": 7.0456,
+    "city": "Avena GmbH"
+  },
+  "42651": {
+    "lat": 51.1728,
+    "lon": 7.094,
+    "city": "Solingen"
+  },
+  "42653": {
+    "lat": 51.1878,
+    "lon": 7.0785,
+    "city": "Solingen"
+  },
+  "42655": {
+    "lat": 51.176,
+    "lon": 7.0653,
+    "city": "Solingen"
+  },
+  "42657": {
+    "lat": 51.1532,
+    "lon": 7.0595,
+    "city": "Solingen"
+  },
+  "42659": {
+    "lat": 51.1595,
+    "lon": 7.1036,
+    "city": "Solingen"
+  },
+  "42697": {
+    "lat": 51.1611,
+    "lon": 7.0016,
+    "city": "Solingen"
+  },
+  "42699": {
+    "lat": 51.156,
+    "lon": 7.0152,
+    "city": "Solingen"
+  },
+  "42715": {
+    "lat": 51.1921,
+    "lon": 7.0625,
+    "city": "Die BERGISCHE Krankenkasse"
+  },
+  "42717": {
+    "lat": 51.1945,
+    "lon": 7.0682,
+    "city": "Krups GmbH"
+  },
+  "42719": {
+    "lat": 51.1825,
+    "lon": 7.0454,
+    "city": "Solingen"
+  },
+  "42781": {
+    "lat": 51.1938,
+    "lon": 7.0133,
+    "city": "Haan"
+  },
+  "42799": {
+    "lat": 51.1063,
+    "lon": 7.0187,
+    "city": "Leichlingen"
+  },
+  "42849": {
+    "lat": 51.1814,
+    "lon": 7.1859,
+    "city": "Amtsgericht Remscheid"
+  },
+  "42850": {
+    "lat": 51.1708,
+    "lon": 7.2111,
+    "city": "Vaillant GmbH"
+  },
+  "42853": {
+    "lat": 51.1802,
+    "lon": 7.1872,
+    "city": "Remscheid"
+  },
+  "42855": {
+    "lat": 51.1807,
+    "lon": 7.2066,
+    "city": "Remscheid"
+  },
+  "42857": {
+    "lat": 51.1775,
+    "lon": 7.1661,
+    "city": "Remscheid"
+  },
+  "42859": {
+    "lat": 51.1833,
+    "lon": 7.2,
+    "city": "Remscheid"
+  },
+  "42895": {
+    "lat": 50.8345,
+    "lon": 8.1785,
+    "city": "Steinhaus GmbH"
+  },
+  "42897": {
+    "lat": 51.1833,
+    "lon": 7.2556,
+    "city": "Remscheid"
+  },
+  "42899": {
+    "lat": 51.2201,
+    "lon": 7.2407,
+    "city": "Remscheid"
+  },
+  "42926": {
+    "lat": 51.143,
+    "lon": 7.2289,
+    "city": "Ortlinghaus-Werke GmbH"
+  },
+  "42929": {
+    "lat": 51.1397,
+    "lon": 7.2158,
+    "city": "Wermelskirchen"
+  },
+  "44111": {
+    "lat": 51.5195,
+    "lon": 7.4577,
+    "city": "Deutsche Post AG Direkt Marketing Center"
+  },
+  "44112": {
+    "lat": 51.5195,
+    "lon": 7.4577,
+    "city": "Deutsche Post AG, Finance Operations SSC Accounting Kreditoren"
+  },
+  "44113": {
+    "lat": 51.5195,
+    "lon": 7.4577,
+    "city": "DHL Freight GmbH c/o Deutsche Post AG Finance Operations Deutschland"
+  },
+  "44115": {
+    "lat": 51.5157,
+    "lon": 7.4783,
+    "city": "Amtsgericht"
+  },
+  "44116": {
+    "lat": 51.5202,
+    "lon": 7.459,
+    "city": "Agentur für Arbeit Dortmund"
+  },
+  "44117": {
+    "lat": 51.5085,
+    "lon": 7.4697,
+    "city": "Familienkasse Nordrhein-Westfalen-Ost"
+  },
+  "44118": {
+    "lat": 51.5018,
+    "lon": 7.4676,
+    "city": "Continentale Krankenversicherung"
+  },
+  "44119": {
+    "lat": 51.5018,
+    "lon": 7.4676,
+    "city": "Continentale Sachversicherung"
+  },
+  "44120": {
+    "lat": 51.4988,
+    "lon": 7.4759,
+    "city": "JobCenter Dortmund Wendepunkt"
+  },
+  "44121": {
+    "lat": 51.4975,
+    "lon": 7.4639,
+    "city": "Signal Iduna Gruppe"
+  },
+  "44122": {
+    "lat": 51.5117,
+    "lon": 7.4675,
+    "city": "Stadtverwaltung"
+  },
+  "44123": {
+    "lat": 51.5085,
+    "lon": 7.4575,
+    "city": "ServiceDO GmbH"
+  },
+  "44124": {
+    "lat": 51.4995,
+    "lon": 7.4792,
+    "city": "RWE Service GmbH"
+  },
+  "44125": {
+    "lat": 51.5122,
+    "lon": 7.4335,
+    "city": "Versorgungsamt"
+  },
+  "44126": {
+    "lat": 51.5062,
+    "lon": 7.4698,
+    "city": "Sozialgericht"
+  },
+  "44127": {
+    "lat": 51.509,
+    "lon": 7.4825,
+    "city": "KHS GmbH"
+  },
+  "44128": {
+    "lat": 51.5101,
+    "lon": 7.4632,
+    "city": "Hochschulstart"
+  },
+  "44129": {
+    "lat": 51.5108,
+    "lon": 7.4613,
+    "city": "Deutsche Telekom AG Direktion Dortmund"
+  },
+  "44130": {
+    "lat": 51.5101,
+    "lon": 7.4616,
+    "city": "Deutsche Postbank AG"
+  },
+  "44131": {
+    "lat": 51.5101,
+    "lon": 7.4616,
+    "city": "Deutsche Postbank AG Niederlassung Dortmund"
+  },
+  "44133": {
+    "lat": 51.506,
+    "lon": 7.4701,
+    "city": "HUK-Coburg"
+  },
+  "44135": {
+    "lat": 51.5125,
+    "lon": 7.477,
+    "city": "Dortmund"
+  },
+  "44137": {
+    "lat": 51.5097,
+    "lon": 7.4601,
+    "city": "Dortmund"
+  },
+  "44139": {
+    "lat": 51.4995,
+    "lon": 7.4717,
+    "city": "Dortmund"
+  },
+  "44141": {
+    "lat": 51.5044,
+    "lon": 7.4998,
+    "city": "Dortmund"
+  },
+  "44143": {
+    "lat": 51.5208,
+    "lon": 7.5184,
+    "city": "Dortmund"
+  },
+  "44145": {
+    "lat": 51.529,
+    "lon": 7.4802,
+    "city": "Dortmund"
+  },
+  "44147": {
+    "lat": 51.5198,
+    "lon": 7.4378,
+    "city": "Dortmund"
+  },
+  "44149": {
+    "lat": 51.5005,
+    "lon": 7.4063,
+    "city": "Dortmund"
+  },
+  "44221": {
+    "lat": 51.4844,
+    "lon": 7.414,
+    "city": "Technische Universität Dortmund"
+  },
+  "44222": {
+    "lat": 51.4926,
+    "lon": 7.4164,
+    "city": "Universitätsbibliothek"
+  },
+  "44225": {
+    "lat": 51.4759,
+    "lon": 7.4434,
+    "city": "Dortmund"
+  },
+  "44227": {
+    "lat": 51.444,
+    "lon": 7.4546,
+    "city": "Dortmund"
+  },
+  "44229": {
+    "lat": 51.4455,
+    "lon": 7.4642,
+    "city": "Dortmund"
+  },
+  "44261": {
+    "lat": 51.4929,
+    "lon": 7.498,
+    "city": "WILO SE"
+  },
+  "44263": {
+    "lat": 51.4847,
+    "lon": 7.4996,
+    "city": "Dortmund"
+  },
+  "44265": {
+    "lat": 51.461,
+    "lon": 7.4837,
+    "city": "Dortmund"
+  },
+  "44267": {
+    "lat": 51.469,
+    "lon": 7.5154,
+    "city": "Dortmund"
+  },
+  "44269": {
+    "lat": 51.4856,
+    "lon": 7.5366,
+    "city": "Dortmund"
+  },
+  "44280": {
+    "lat": 51.5025,
+    "lon": 7.5694,
+    "city": "RTL Teleshopping"
+  },
+  "44285": {
+    "lat": 51.5027,
+    "lon": 7.5606,
+    "city": "MM Graphia Dortmund GmbH"
+  },
+  "44287": {
+    "lat": 51.4996,
+    "lon": 7.5495,
+    "city": "Dortmund"
+  },
+  "44289": {
+    "lat": 51.5161,
+    "lon": 7.4683,
+    "city": "Dortmund"
+  },
+  "44309": {
+    "lat": 51.5251,
+    "lon": 7.5475,
+    "city": "Dortmund"
+  },
+  "44319": {
+    "lat": 51.5301,
+    "lon": 7.5972,
+    "city": "Dortmund"
+  },
+  "44328": {
+    "lat": 51.553,
+    "lon": 7.5385,
+    "city": "Dortmund"
+  },
+  "44329": {
+    "lat": 51.5161,
+    "lon": 7.4683,
+    "city": "Dortmund"
+  },
+  "44339": {
+    "lat": 51.5607,
+    "lon": 7.4657,
+    "city": "Dortmund"
+  },
+  "44357": {
+    "lat": 51.5161,
+    "lon": 7.4683,
+    "city": "Dortmund"
+  },
+  "44359": {
+    "lat": 51.5724,
+    "lon": 7.3892,
+    "city": "Dortmund"
+  },
+  "44369": {
+    "lat": 51.5287,
+    "lon": 7.4137,
+    "city": "Dortmund"
+  },
+  "44379": {
+    "lat": 51.525,
+    "lon": 7.3676,
+    "city": "Dortmund"
+  },
+  "44388": {
+    "lat": 51.501,
+    "lon": 7.3371,
+    "city": "Dortmund"
+  },
+  "44401": {
+    "lat": 51.5031,
+    "lon": 7.4966,
+    "city": "Commerzbank AG Com TS Mailservice Dortmund"
+  },
+  "44402": {
+    "lat": 51.5176,
+    "lon": 7.4651,
+    "city": "IKK classic"
+  },
+  "44530": {
+    "lat": 51.614,
+    "lon": 7.5233,
+    "city": "HBT GmbH"
+  },
+  "44532": {
+    "lat": 51.6067,
+    "lon": 7.5241,
+    "city": "Lünen"
+  },
+  "44534": {
+    "lat": 51.6189,
+    "lon": 7.5222,
+    "city": "Lünen"
+  },
+  "44536": {
+    "lat": 51.5993,
+    "lon": 7.4681,
+    "city": "Lünen"
+  },
+  "44573": {
+    "lat": 51.5592,
+    "lon": 7.3119,
+    "city": "Amtsgericht"
+  },
+  "44575": {
+    "lat": 51.55,
+    "lon": 7.3167,
+    "city": "Castrop-Rauxel"
+  },
+  "44577": {
+    "lat": 51.55,
+    "lon": 7.3167,
+    "city": "Castrop-Rauxel"
+  },
+  "44579": {
+    "lat": 51.55,
+    "lon": 7.3167,
+    "city": "Castrop-Rauxel"
+  },
+  "44581": {
+    "lat": 51.55,
+    "lon": 7.3167,
+    "city": "Castrop-Rauxel"
+  },
+  "44621": {
+    "lat": 51.5388,
+    "lon": 7.2299,
+    "city": "Stadt Herne"
+  },
+  "44623": {
+    "lat": 51.5426,
+    "lon": 7.219,
+    "city": "Herne"
+  },
+  "44625": {
+    "lat": 51.5324,
+    "lon": 7.206,
+    "city": "Herne"
+  },
+  "44627": {
+    "lat": 51.55,
+    "lon": 7.2167,
+    "city": "Herne"
+  },
+  "44628": {
+    "lat": 51.55,
+    "lon": 7.2167,
+    "city": "Herne"
+  },
+  "44629": {
+    "lat": 51.5493,
+    "lon": 7.2149,
+    "city": "Herne"
+  },
+  "44647": {
+    "lat": 51.5386,
+    "lon": 7.1634,
+    "city": "Schwing GmbH"
+  },
+  "44649": {
+    "lat": 51.5329,
+    "lon": 7.1611,
+    "city": "Herne"
+  },
+  "44651": {
+    "lat": 51.55,
+    "lon": 7.2167,
+    "city": "Herne"
+  },
+  "44652": {
+    "lat": 51.5312,
+    "lon": 7.1704,
+    "city": "Herne"
+  },
+  "44653": {
+    "lat": 51.5448,
+    "lon": 7.1691,
+    "city": "Herne"
+  },
+  "44771": {
+    "lat": 51.4727,
+    "lon": 7.2252,
+    "city": "Agentur für Arbeit Bochum"
+  },
+  "44772": {
+    "lat": 51.5156,
+    "lon": 7.2081,
+    "city": "Vodafone GmbH, Vodafone Shop, Kundenservice Mittelstand"
+  },
+  "44773": {
+    "lat": 51.4618,
+    "lon": 7.2338,
+    "city": "Studienkreis GmbH"
+  },
+  "44774": {
+    "lat": 51.4709,
+    "lon": 7.2195,
+    "city": "GLS Gemeinschaftsbank eG"
+  },
+  "44775": {
+    "lat": 51.4707,
+    "lon": 7.2706,
+    "city": "VIACTIV Krankenkasse"
+  },
+  "44776": {
+    "lat": 51.4782,
+    "lon": 7.2283,
+    "city": "ARAL Aktiengesellschaft"
+  },
+  "44778": {
+    "lat": 51.447,
+    "lon": 7.2278,
+    "city": "Faber GmbH"
+  },
+  "44779": {
+    "lat": 51.447,
+    "lon": 7.2278,
+    "city": "FABER GmbH & Co. KG"
+  },
+  "44780": {
+    "lat": 51.4459,
+    "lon": 7.2604,
+    "city": "Ruhr-Universität Bochum"
+  },
+  "44781": {
+    "lat": 51.4714,
+    "lon": 7.2149,
+    "city": "Deutsche Rentenversicherung Knappschaft-Bahn-See"
+  },
+  "44782": {
+    "lat": 51.4777,
+    "lon": 7.2253,
+    "city": "BARMER"
+  },
+  "44784": {
+    "lat": 51.4694,
+    "lon": 7.2634,
+    "city": "Vonovia SE"
+  },
+  "44785": {
+    "lat": 51.4727,
+    "lon": 7.2252,
+    "city": "Familienkasse Nordrhein-Westfalen-Nord"
+  },
+  "44787": {
+    "lat": 51.4803,
+    "lon": 7.2183,
+    "city": "Bochum"
+  },
+  "44789": {
+    "lat": 51.4661,
+    "lon": 7.2491,
+    "city": "Bochum"
+  },
+  "44791": {
+    "lat": 51.49,
+    "lon": 7.2493,
+    "city": "Bochum"
+  },
+  "44793": {
+    "lat": 51.4822,
+    "lon": 7.1868,
+    "city": "Bochum"
+  },
+  "44795": {
+    "lat": 51.4501,
+    "lon": 7.1984,
+    "city": "Bochum"
+  },
+  "44797": {
+    "lat": 51.4285,
+    "lon": 7.2424,
+    "city": "Bochum"
+  },
+  "44799": {
+    "lat": 51.4509,
+    "lon": 7.2388,
+    "city": "Bochum"
+  },
+  "44801": {
+    "lat": 51.4833,
+    "lon": 7.2167,
+    "city": "Bochum"
+  },
+  "44803": {
+    "lat": 51.4637,
+    "lon": 7.2446,
+    "city": "Bochum"
+  },
+  "44805": {
+    "lat": 51.518,
+    "lon": 7.2722,
+    "city": "Bochum"
+  },
+  "44807": {
+    "lat": 51.5156,
+    "lon": 7.2118,
+    "city": "Bochum"
+  },
+  "44809": {
+    "lat": 51.4997,
+    "lon": 7.1944,
+    "city": "Bochum"
+  },
+  "44863": {
+    "lat": 51.4749,
+    "lon": 7.1517,
+    "city": "D & W Auto, Sport + Zubehör Handelsgesellschaft mbH & Co. KG"
+  },
+  "44866": {
+    "lat": 51.4808,
+    "lon": 7.1486,
+    "city": "Bochum"
+  },
+  "44867": {
+    "lat": 51.4645,
+    "lon": 7.1418,
+    "city": "Bochum"
+  },
+  "44869": {
+    "lat": 51.4658,
+    "lon": 7.1572,
+    "city": "Bochum"
+  },
+  "44879": {
+    "lat": 51.4271,
+    "lon": 7.1543,
+    "city": "Bochum"
+  },
+  "44892": {
+    "lat": 51.4745,
+    "lon": 7.311,
+    "city": "Bochum"
+  },
+  "44894": {
+    "lat": 51.4925,
+    "lon": 7.3106,
+    "city": "Bochum"
+  },
+  "45058": {
+    "lat": 51.4864,
+    "lon": 7.0322,
+    "city": "RAG Aktiengesellschaft"
+  },
+  "45060": {
+    "lat": 51.4534,
+    "lon": 7.0183,
+    "city": "Deutsche Rentenversicherung Rentenversicherung"
+  },
+  "45061": {
+    "lat": 51.462,
+    "lon": 6.9283,
+    "city": "Deichmann SE"
+  },
+  "45062": {
+    "lat": 51.4536,
+    "lon": 7.0103,
+    "city": "Commerzbank AG Regionalcenter Essen"
+  },
+  "45063": {
+    "lat": 51.4619,
+    "lon": 6.9942,
+    "city": "ThyssenKrupp AG"
+  },
+  "45064": {
+    "lat": 51.4674,
+    "lon": 7.0238,
+    "city": "VIACTIV Krankenkasse"
+  },
+  "45091": {
+    "lat": 51.4534,
+    "lon": 7.0183,
+    "city": "Deutsche Rentenversicherung Knappschaft-Bahn-See"
+  },
+  "45092": {
+    "lat": 51.4585,
+    "lon": 7.0593,
+    "city": "Medion AG"
+  },
+  "45093": {
+    "lat": 51.4534,
+    "lon": 7.0183,
+    "city": "Deutsche Rentenversicherung Sozialmedizinischer Dienst SMD"
+  },
+  "45095": {
+    "lat": 51.4534,
+    "lon": 7.0183,
+    "city": "Knappschaft Kranken- und Pflegeversicherung"
+  },
+  "45097": {
+    "lat": 51.4568,
+    "lon": 6.9896,
+    "city": "OPTA-DATA Abrechnungs GmbH"
+  },
+  "45098": {
+    "lat": 51.4597,
+    "lon": 7.0036,
+    "city": "Agentur für Arbeit Essen"
+  },
+  "45099": {
+    "lat": 51.4589,
+    "lon": 7.0197,
+    "city": "DAK DigiZ Essen"
+  },
+  "45102": {
+    "lat": 51.4714,
+    "lon": 7.2149,
+    "city": "Deutsche Rentenversicherung Knappschaft-Bahn-See"
+  },
+  "45113": {
+    "lat": 51.4542,
+    "lon": 7.0161,
+    "city": "HUK-Coburg"
+  },
+  "45114": {
+    "lat": 51.4169,
+    "lon": 6.9795,
+    "city": "GALERIA Karstadt Kaufhof GmbH Scanstelle"
+  },
+  "45115": {
+    "lat": 51.4534,
+    "lon": 7.0183,
+    "city": "Deutsche Rentenversicherung Knappschaft-Bahn-See"
+  },
+  "45116": {
+    "lat": 51.4462,
+    "lon": 7.0053,
+    "city": "Logistik Bild"
+  },
+  "45117": {
+    "lat": 51.444,
+    "lon": 7.0074,
+    "city": "Ruhrverband"
+  },
+  "45119": {
+    "lat": 51.4169,
+    "lon": 6.9795,
+    "city": "GALERIA Karstadt Kaufhof GmbH Hauptverwaltung"
+  },
+  "45120": {
+    "lat": 51.4729,
+    "lon": 7.0269,
+    "city": "DDG-Deutsches Dienstleistungszentrum für das Gesundheitswesen GmbH"
+  },
+  "45121": {
+    "lat": 51.4576,
+    "lon": 7.0175,
+    "city": "Stadtverwaltung"
+  },
+  "45122": {
+    "lat": 51.4362,
+    "lon": 6.9898,
+    "city": "Universitätsklinikum Essen"
+  },
+  "45123": {
+    "lat": 51.4616,
+    "lon": 7.0036,
+    "city": "FUNKE MEDIEN GmbH NRW"
+  },
+  "45124": {
+    "lat": 51.4481,
+    "lon": 7.0231,
+    "city": "Novitas BKK"
+  },
+  "45125": {
+    "lat": 51.4505,
+    "lon": 7.013,
+    "city": "Deutsche Postbank AG Niederlassung Essen"
+  },
+  "45126": {
+    "lat": 51.452,
+    "lon": 7.0121,
+    "city": "Deutsche Post AG Direkt Marketing Center Essen"
+  },
+  "45127": {
+    "lat": 51.4535,
+    "lon": 7.0102,
+    "city": "Essen"
+  },
+  "45128": {
+    "lat": 51.4457,
+    "lon": 7.0103,
+    "city": "Essen"
+  },
+  "45130": {
+    "lat": 51.434,
+    "lon": 7.0161,
+    "city": "Essen"
+  },
+  "45131": {
+    "lat": 51.4273,
+    "lon": 6.9967,
+    "city": "Essen"
+  },
+  "45133": {
+    "lat": 51.4112,
+    "lon": 6.9931,
+    "city": "Essen"
+  },
+  "45134": {
+    "lat": 51.4232,
+    "lon": 7.0298,
+    "city": "Essen"
+  },
+  "45136": {
+    "lat": 51.4353,
+    "lon": 7.0352,
+    "city": "Essen"
+  },
+  "45138": {
+    "lat": 51.447,
+    "lon": 7.0381,
+    "city": "Essen"
+  },
+  "45139": {
+    "lat": 51.4602,
+    "lon": 7.0439,
+    "city": "Essen"
+  },
+  "45141": {
+    "lat": 51.4705,
+    "lon": 7.0221,
+    "city": "Essen"
+  },
+  "45143": {
+    "lat": 51.4631,
+    "lon": 6.9741,
+    "city": "Essen"
+  },
+  "45144": {
+    "lat": 51.45,
+    "lon": 7.0167,
+    "city": "Essen"
+  },
+  "45145": {
+    "lat": 51.449,
+    "lon": 6.9734,
+    "city": "Essen"
+  },
+  "45147": {
+    "lat": 51.4408,
+    "lon": 6.9863,
+    "city": "Essen"
+  },
+  "45149": {
+    "lat": 51.4209,
+    "lon": 6.9708,
+    "city": "Essen"
+  },
+  "45195": {
+    "lat": 50.7156,
+    "lon": 7.1305,
+    "city": "Deutsche Post AG, Abt. 1U1"
+  },
+  "45196": {
+    "lat": 50.7156,
+    "lon": 7.1305,
+    "city": "Deutsche Post AG, Abt. 1U1"
+  },
+  "45219": {
+    "lat": 51.45,
+    "lon": 7.0167,
+    "city": "Essen"
+  },
+  "45239": {
+    "lat": 51.3806,
+    "lon": 7.0169,
+    "city": "Essen"
+  },
+  "45257": {
+    "lat": 51.3935,
+    "lon": 7.0825,
+    "city": "Essen"
+  },
+  "45259": {
+    "lat": 51.45,
+    "lon": 7.0167,
+    "city": "Essen"
+  },
+  "45276": {
+    "lat": 51.4467,
+    "lon": 7.0821,
+    "city": "Essen"
+  },
+  "45277": {
+    "lat": 51.45,
+    "lon": 7.0167,
+    "city": "Essen"
+  },
+  "45279": {
+    "lat": 51.45,
+    "lon": 7.0167,
+    "city": "Essen"
+  },
+  "45289": {
+    "lat": 51.4159,
+    "lon": 7.1215,
+    "city": "Essen"
+  },
+  "45307": {
+    "lat": 51.4614,
+    "lon": 7.0785,
+    "city": "Essen"
+  },
+  "45309": {
+    "lat": 51.4804,
+    "lon": 7.0714,
+    "city": "Essen"
+  },
+  "45326": {
+    "lat": 51.4844,
+    "lon": 7.005,
+    "city": "Essen"
+  },
+  "45327": {
+    "lat": 51.4992,
+    "lon": 7.0488,
+    "city": "Essen"
+  },
+  "45329": {
+    "lat": 51.5032,
+    "lon": 7.0073,
+    "city": "Essen"
+  },
+  "45355": {
+    "lat": 51.4698,
+    "lon": 6.9517,
+    "city": "Essen"
+  },
+  "45356": {
+    "lat": 51.4824,
+    "lon": 6.9748,
+    "city": "Essen"
+  },
+  "45357": {
+    "lat": 51.4918,
+    "lon": 6.9402,
+    "city": "Essen"
+  },
+  "45359": {
+    "lat": 51.4681,
+    "lon": 6.9174,
+    "city": "Essen"
+  },
+  "45365": {
+    "lat": 51.5002,
+    "lon": 6.9865,
+    "city": "Deutsche Post AG Niederlassung Briefpost"
+  },
+  "45403": {
+    "lat": 51.4333,
+    "lon": 6.8833,
+    "city": "Mülheim an der Ruhr"
+  },
+  "45466": {
+    "lat": 51.4337,
+    "lon": 6.8895,
+    "city": "Wissoll"
+  },
+  "45468": {
+    "lat": 51.4268,
+    "lon": 6.8806,
+    "city": "Mülheim an der Ruhr"
+  },
+  "45470": {
+    "lat": 51.4194,
+    "lon": 6.8937,
+    "city": "Mülheim an der Ruhr"
+  },
+  "45472": {
+    "lat": 51.4374,
+    "lon": 6.9566,
+    "city": "Mülheim an der Ruhr"
+  },
+  "45473": {
+    "lat": 51.4421,
+    "lon": 6.8982,
+    "city": "Mülheim an der Ruhr"
+  },
+  "45475": {
+    "lat": 51.4587,
+    "lon": 6.8885,
+    "city": "Mülheim an der Ruhr"
+  },
+  "45476": {
+    "lat": 51.449,
+    "lon": 6.8612,
+    "city": "Mülheim an der Ruhr"
+  },
+  "45478": {
+    "lat": 51.4326,
+    "lon": 6.8216,
+    "city": "Mülheim an der Ruhr"
+  },
+  "45479": {
+    "lat": 51.422,
+    "lon": 6.8566,
+    "city": "Mülheim an der Ruhr"
+  },
+  "45481": {
+    "lat": 51.4004,
+    "lon": 6.8773,
+    "city": "Mülheim an der Ruhr"
+  },
+  "45523": {
+    "lat": 51.401,
+    "lon": 7.1769,
+    "city": "Amtsgericht"
+  },
+  "45525": {
+    "lat": 51.3954,
+    "lon": 7.1779,
+    "city": "Hattingen"
+  },
+  "45527": {
+    "lat": 51.4,
+    "lon": 7.1667,
+    "city": "Hattingen"
+  },
+  "45529": {
+    "lat": 51.4,
+    "lon": 7.1667,
+    "city": "Hattingen"
+  },
+  "45549": {
+    "lat": 51.3467,
+    "lon": 7.2434,
+    "city": "Sprockhövel"
+  },
+  "45630": {
+    "lat": 51.6184,
+    "lon": 7.2035,
+    "city": "Agentur für Arbeit Recklinghausen"
+  },
+  "45655": {
+    "lat": 51.6112,
+    "lon": 7.1934,
+    "city": "Amtsgericht"
+  },
+  "45657": {
+    "lat": 51.6132,
+    "lon": 7.1956,
+    "city": "Recklinghausen"
+  },
+  "45659": {
+    "lat": 51.6007,
+    "lon": 7.1927,
+    "city": "Recklinghausen"
+  },
+  "45661": {
+    "lat": 51.6167,
+    "lon": 7.2,
+    "city": "Recklinghausen"
+  },
+  "45663": {
+    "lat": 51.5794,
+    "lon": 7.2158,
+    "city": "Recklinghausen"
+  },
+  "45665": {
+    "lat": 51.6017,
+    "lon": 7.2183,
+    "city": "Recklinghausen"
+  },
+  "45697": {
+    "lat": 51.5896,
+    "lon": 7.1303,
+    "city": "Herta GmbH"
+  },
+  "45699": {
+    "lat": 51.5964,
+    "lon": 7.1439,
+    "city": "Herten"
+  },
+  "45701": {
+    "lat": 51.5996,
+    "lon": 7.0962,
+    "city": "Herten"
+  },
+  "45711": {
+    "lat": 51.656,
+    "lon": 7.3453,
+    "city": "Datteln"
+  },
+  "45721": {
+    "lat": 51.7287,
+    "lon": 7.1666,
+    "city": "Haltern am See"
+  },
+  "45729": {
+    "lat": 51.6182,
+    "lon": 7.4196,
+    "city": "Manufactum GmbH"
+  },
+  "45731": {
+    "lat": 51.6213,
+    "lon": 7.4024,
+    "city": "Waltrop"
+  },
+  "45739": {
+    "lat": 51.642,
+    "lon": 7.2645,
+    "city": "Oer-Erkenschwick"
+  },
+  "45765": {
+    "lat": 51.6605,
+    "lon": 7.097,
+    "city": "Finanzamt"
+  },
+  "45768": {
+    "lat": 51.6484,
+    "lon": 7.0845,
+    "city": "Marl"
+  },
+  "45770": {
+    "lat": 51.6566,
+    "lon": 7.1101,
+    "city": "Marl"
+  },
+  "45772": {
+    "lat": 51.6744,
+    "lon": 7.1343,
+    "city": "Marl"
+  },
+  "45801": {
+    "lat": 51.5256,
+    "lon": 7.0831,
+    "city": "Sparkasse"
+  },
+  "45833": {
+    "lat": 51.2171,
+    "lon": 6.8042,
+    "city": "Sirius Inkasso GmbH"
+  },
+  "45835": {
+    "lat": 51.5109,
+    "lon": 7.0913,
+    "city": "Agentur für Arbeit Gelsenkirchen"
+  },
+  "45875": {
+    "lat": 51.5086,
+    "lon": 7.1076,
+    "city": "Stadtverwaltung"
+  },
+  "45876": {
+    "lat": 51.6076,
+    "lon": 7.0465,
+    "city": "Veba Oel AG"
+  },
+  "45877": {
+    "lat": 51.5729,
+    "lon": 7.0564,
+    "city": "HERTIE GmbH"
+  },
+  "45879": {
+    "lat": 51.5087,
+    "lon": 7.0968,
+    "city": "Gelsenkirchen"
+  },
+  "45881": {
+    "lat": 51.5213,
+    "lon": 7.0747,
+    "city": "Gelsenkirchen"
+  },
+  "45883": {
+    "lat": 51.5221,
+    "lon": 7.0575,
+    "city": "Gelsenkirchen"
+  },
+  "45884": {
+    "lat": 51.4866,
+    "lon": 7.0835,
+    "city": "Gelsenkirchen"
+  },
+  "45886": {
+    "lat": 51.4967,
+    "lon": 7.1136,
+    "city": "Gelsenkirchen"
+  },
+  "45888": {
+    "lat": 51.5185,
+    "lon": 7.1222,
+    "city": "Gelsenkirchen"
+  },
+  "45889": {
+    "lat": 51.5305,
+    "lon": 7.1143,
+    "city": "Gelsenkirchen"
+  },
+  "45891": {
+    "lat": 51.5592,
+    "lon": 7.0841,
+    "city": "Gelsenkirchen"
+  },
+  "45892": {
+    "lat": 51.5748,
+    "lon": 7.1165,
+    "city": "Gelsenkirchen"
+  },
+  "45894": {
+    "lat": 51.579,
+    "lon": 7.0579,
+    "city": "Gelsenkirchen"
+  },
+  "45896": {
+    "lat": 51.6071,
+    "lon": 7.0488,
+    "city": "Gelsenkirchen"
+  },
+  "45897": {
+    "lat": 51.5717,
+    "lon": 7.0471,
+    "city": "Gelsenkirchen"
+  },
+  "45899": {
+    "lat": 51.533,
+    "lon": 7.0234,
+    "city": "Gelsenkirchen"
+  },
+  "45964": {
+    "lat": 51.5713,
+    "lon": 6.9827,
+    "city": "Gladbeck"
+  },
+  "45966": {
+    "lat": 51.5842,
+    "lon": 6.9746,
+    "city": "Gladbeck"
+  },
+  "45968": {
+    "lat": 51.5566,
+    "lon": 7.0025,
+    "city": "Gladbeck"
+  },
+  "46020": {
+    "lat": 51.4803,
+    "lon": 6.8641,
+    "city": "Jobcenter Oberhausen"
+  },
+  "46040": {
+    "lat": 51.4803,
+    "lon": 6.8641,
+    "city": "Agentur für Arbeit Oberhausen"
+  },
+  "46042": {
+    "lat": 51.4737,
+    "lon": 6.8603,
+    "city": "Stadt Oberhausen"
+  },
+  "46045": {
+    "lat": 51.4706,
+    "lon": 6.8568,
+    "city": "Oberhausen"
+  },
+  "46047": {
+    "lat": 51.4834,
+    "lon": 6.8798,
+    "city": "Oberhausen"
+  },
+  "46049": {
+    "lat": 51.4773,
+    "lon": 6.8413,
+    "city": "Oberhausen"
+  },
+  "46117": {
+    "lat": 51.5005,
+    "lon": 6.8859,
+    "city": "Oberhausen"
+  },
+  "46119": {
+    "lat": 51.4667,
+    "lon": 6.85,
+    "city": "Oberhausen"
+  },
+  "46142": {
+    "lat": 51.5154,
+    "lon": 6.8495,
+    "city": "MAN Gutehoffnungshütte AG"
+  },
+  "46145": {
+    "lat": 51.5256,
+    "lon": 6.8517,
+    "city": "Oberhausen"
+  },
+  "46147": {
+    "lat": 51.5355,
+    "lon": 6.8116,
+    "city": "Oberhausen"
+  },
+  "46149": {
+    "lat": 51.5175,
+    "lon": 6.8332,
+    "city": "Oberhausen"
+  },
+  "46236": {
+    "lat": 51.5232,
+    "lon": 6.9253,
+    "city": "Bottrop"
+  },
+  "46238": {
+    "lat": 51.5303,
+    "lon": 6.9681,
+    "city": "Bottrop"
+  },
+  "46240": {
+    "lat": 51.5167,
+    "lon": 6.9167,
+    "city": "Bottrop"
+  },
+  "46242": {
+    "lat": 51.5214,
+    "lon": 6.9071,
+    "city": "Bottrop"
+  },
+  "46244": {
+    "lat": 51.6061,
+    "lon": 6.9154,
+    "city": "Bottrop"
+  },
+  "46282": {
+    "lat": 51.6566,
+    "lon": 6.9657,
+    "city": "Dorsten"
+  },
+  "46284": {
+    "lat": 51.6812,
+    "lon": 6.963,
+    "city": "Dorsten"
+  },
+  "46286": {
+    "lat": 51.7377,
+    "lon": 7.0067,
+    "city": "Dorsten"
+  },
+  "46322": {
+    "lat": 51.8464,
+    "lon": 6.8568,
+    "city": "Amtsgericht"
+  },
+  "46325": {
+    "lat": 51.8438,
+    "lon": 6.8577,
+    "city": "Borken"
+  },
+  "46342": {
+    "lat": 51.8945,
+    "lon": 6.9881,
+    "city": "Velen"
+  },
+  "46348": {
+    "lat": 51.7667,
+    "lon": 6.85,
+    "city": "Raesfeld"
+  },
+  "46354": {
+    "lat": 51.9333,
+    "lon": 6.8667,
+    "city": "Südlohn"
+  },
+  "46359": {
+    "lat": 51.8333,
+    "lon": 6.9333,
+    "city": "Heiden"
+  },
+  "46393": {
+    "lat": 51.8317,
+    "lon": 6.6093,
+    "city": "Amtsgericht"
+  },
+  "46395": {
+    "lat": 51.8208,
+    "lon": 6.6063,
+    "city": "Bocholt"
+  },
+  "46397": {
+    "lat": 51.8413,
+    "lon": 6.6242,
+    "city": "Bocholt"
+  },
+  "46399": {
+    "lat": 51.8453,
+    "lon": 6.6035,
+    "city": "Bocholt"
+  },
+  "46414": {
+    "lat": 51.8354,
+    "lon": 6.696,
+    "city": "Rhede"
+  },
+  "46419": {
+    "lat": 51.8323,
+    "lon": 6.4643,
+    "city": "Isselburg"
+  },
+  "46444": {
+    "lat": 51.8318,
+    "lon": 6.2467,
+    "city": "Volksbank Emmerich-Rees eG"
+  },
+  "46446": {
+    "lat": 51.8393,
+    "lon": 6.2479,
+    "city": "Emmerich"
+  },
+  "46459": {
+    "lat": 51.8097,
+    "lon": 6.4004,
+    "city": "Rees"
+  },
+  "46480": {
+    "lat": 51.6668,
+    "lon": 6.6088,
+    "city": "Agentur für Arbeit Wesel"
+  },
+  "46482": {
+    "lat": 51.6631,
+    "lon": 6.6683,
+    "city": "Rechenzentrum für Heilberufe GmbH"
+  },
+  "46483": {
+    "lat": 51.6669,
+    "lon": 6.6204,
+    "city": "Wesel"
+  },
+  "46485": {
+    "lat": 51.6637,
+    "lon": 6.6824,
+    "city": "Wesel"
+  },
+  "46487": {
+    "lat": 51.6833,
+    "lon": 6.5762,
+    "city": "Wesel"
+  },
+  "46499": {
+    "lat": 51.7326,
+    "lon": 6.5903,
+    "city": "Hamminkeln"
+  },
+  "46509": {
+    "lat": 51.6588,
+    "lon": 6.453,
+    "city": "Xanten"
+  },
+  "46514": {
+    "lat": 51.6833,
+    "lon": 6.8667,
+    "city": "Schermbeck"
+  },
+  "46519": {
+    "lat": 51.5833,
+    "lon": 6.5167,
+    "city": "Alpen"
+  },
+  "46535": {
+    "lat": 51.559,
+    "lon": 6.7357,
+    "city": "Dinslaken"
+  },
+  "46537": {
+    "lat": 51.5774,
+    "lon": 6.7465,
+    "city": "Dinslaken"
+  },
+  "46539": {
+    "lat": 51.5675,
+    "lon": 6.7625,
+    "city": "Dinslaken"
+  },
+  "46562": {
+    "lat": 51.6251,
+    "lon": 6.6525,
+    "city": "Voerde"
+  },
+  "46569": {
+    "lat": 51.65,
+    "lon": 6.7833,
+    "city": "Hünxe"
+  },
+  "47044": {
+    "lat": 51.4394,
+    "lon": 6.7844,
+    "city": "Agentur für Arbeit Duisburg"
+  },
+  "47048": {
+    "lat": 51.4286,
+    "lon": 6.7995,
+    "city": "Universität Duisburg-Essen Campus Duisburg"
+  },
+  "47049": {
+    "lat": 51.431,
+    "lon": 6.7593,
+    "city": "Stadtverwaltung Duisburg"
+  },
+  "47050": {
+    "lat": 51.4396,
+    "lon": 6.7631,
+    "city": "NOVITAS BKK"
+  },
+  "47051": {
+    "lat": 51.4294,
+    "lon": 6.7744,
+    "city": "Duisburg"
+  },
+  "47053": {
+    "lat": 51.4216,
+    "lon": 6.7553,
+    "city": "Duisburg"
+  },
+  "47055": {
+    "lat": 51.4034,
+    "lon": 6.7703,
+    "city": "Duisburg"
+  },
+  "47057": {
+    "lat": 51.4216,
+    "lon": 6.7957,
+    "city": "Duisburg"
+  },
+  "47058": {
+    "lat": 51.4346,
+    "lon": 6.7858,
+    "city": "Duisburg"
+  },
+  "47059": {
+    "lat": 51.4375,
+    "lon": 6.7428,
+    "city": "Duisburg"
+  },
+  "47118": {
+    "lat": 51.4525,
+    "lon": 6.7339,
+    "city": "Amtsgericht Duisburg-Ruhrort"
+  },
+  "47119": {
+    "lat": 51.4632,
+    "lon": 6.7328,
+    "city": "Duisburg"
+  },
+  "47137": {
+    "lat": 51.468,
+    "lon": 6.7715,
+    "city": "Duisburg"
+  },
+  "47138": {
+    "lat": 51.4333,
+    "lon": 6.75,
+    "city": "Duisburg"
+  },
+  "47139": {
+    "lat": 51.4784,
+    "lon": 6.7334,
+    "city": "Duisburg"
+  },
+  "47161": {
+    "lat": 51.4915,
+    "lon": 6.7421,
+    "city": "ThyssenKrupp Steel Europe AG"
+  },
+  "47163": {
+    "lat": 51.505,
+    "lon": 6.7632,
+    "city": "St. Johannes-Hospital"
+  },
+  "47166": {
+    "lat": 51.4913,
+    "lon": 6.7741,
+    "city": "Duisburg"
+  },
+  "47167": {
+    "lat": 51.507,
+    "lon": 6.7963,
+    "city": "Duisburg"
+  },
+  "47169": {
+    "lat": 51.5044,
+    "lon": 6.7538,
+    "city": "Duisburg"
+  },
+  "47178": {
+    "lat": 51.4333,
+    "lon": 6.75,
+    "city": "Duisburg"
+  },
+  "47179": {
+    "lat": 51.4333,
+    "lon": 6.75,
+    "city": "Duisburg"
+  },
+  "47198": {
+    "lat": 51.4499,
+    "lon": 6.6901,
+    "city": "Duisburg"
+  },
+  "47199": {
+    "lat": 51.4333,
+    "lon": 6.75,
+    "city": "Duisburg"
+  },
+  "47226": {
+    "lat": 51.4076,
+    "lon": 6.7215,
+    "city": "Duisburg"
+  },
+  "47228": {
+    "lat": 51.4134,
+    "lon": 6.6963,
+    "city": "Duisburg"
+  },
+  "47229": {
+    "lat": 51.391,
+    "lon": 6.7071,
+    "city": "Duisburg"
+  },
+  "47239": {
+    "lat": 51.3926,
+    "lon": 6.6564,
+    "city": "Duisburg"
+  },
+  "47249": {
+    "lat": 51.3831,
+    "lon": 6.7521,
+    "city": "Duisburg"
+  },
+  "47259": {
+    "lat": 51.3614,
+    "lon": 6.7246,
+    "city": "Duisburg"
+  },
+  "47269": {
+    "lat": 51.3601,
+    "lon": 6.7793,
+    "city": "Duisburg"
+  },
+  "47279": {
+    "lat": 51.3929,
+    "lon": 6.7981,
+    "city": "Duisburg"
+  },
+  "47299": {
+    "lat": 51.4299,
+    "lon": 6.6924,
+    "city": "Deutsche Post AG Niederlassung BRIEF Duisburg"
+  },
+  "47300": {
+    "lat": 51.4789,
+    "lon": 6.7942,
+    "city": "Daimler AG Niederlassung Rhein-Ruhr"
+  },
+  "47303": {
+    "lat": 51.4314,
+    "lon": 6.7633,
+    "city": "HUK-Coburg"
+  },
+  "47305": {
+    "lat": 51.4321,
+    "lon": 6.7757,
+    "city": "Targobank AG Zahlungsverkehr"
+  },
+  "47439": {
+    "lat": 51.4543,
+    "lon": 6.6265,
+    "city": "Stadt Moers"
+  },
+  "47441": {
+    "lat": 51.4463,
+    "lon": 6.6396,
+    "city": "Moers"
+  },
+  "47443": {
+    "lat": 51.4542,
+    "lon": 6.6679,
+    "city": "Moers"
+  },
+  "47445": {
+    "lat": 51.45,
+    "lon": 6.65,
+    "city": "Moers"
+  },
+  "47447": {
+    "lat": 51.45,
+    "lon": 6.65,
+    "city": "Moers"
+  },
+  "47475": {
+    "lat": 51.5047,
+    "lon": 6.5459,
+    "city": "Kamp-Lintfort"
+  },
+  "47493": {
+    "lat": 51.5466,
+    "lon": 6.5935,
+    "city": "Stadt Rheinberg"
+  },
+  "47495": {
+    "lat": 51.5465,
+    "lon": 6.5952,
+    "city": "Rheinberg"
+  },
+  "47504": {
+    "lat": 51.4431,
+    "lon": 6.5548,
+    "city": "TROX GmbH"
+  },
+  "47506": {
+    "lat": 51.45,
+    "lon": 6.55,
+    "city": "Neukirchen-Vluyn"
+  },
+  "47509": {
+    "lat": 51.4667,
+    "lon": 6.4667,
+    "city": "Rheurdt"
+  },
+  "47526": {
+    "lat": 51.2511,
+    "lon": 6.7961,
+    "city": "Bau-und Liegenschaftsbetrieb NRW Zentrale"
+  },
+  "47533": {
+    "lat": 51.7883,
+    "lon": 6.1386,
+    "city": "Kleve"
+  },
+  "47546": {
+    "lat": 51.7391,
+    "lon": 6.291,
+    "city": "Kalkar"
+  },
+  "47551": {
+    "lat": 51.7667,
+    "lon": 6.1667,
+    "city": "Bedburg-Hau"
+  },
+  "47559": {
+    "lat": 51.7833,
+    "lon": 6.0167,
+    "city": "Kranenburg"
+  },
+  "47574": {
+    "lat": 51.6787,
+    "lon": 6.159,
+    "city": "Goch"
+  },
+  "47589": {
+    "lat": 51.6652,
+    "lon": 6.2737,
+    "city": "Uedem"
+  },
+  "47608": {
+    "lat": 51.5191,
+    "lon": 6.3236,
+    "city": "Geldern"
+  },
+  "47623": {
+    "lat": 51.5829,
+    "lon": 6.2414,
+    "city": "Kevelaer"
+  },
+  "47624": {
+    "lat": 51.5833,
+    "lon": 6.25,
+    "city": "Kevelaer"
+  },
+  "47625": {
+    "lat": 51.5833,
+    "lon": 6.25,
+    "city": "Kevelaer"
+  },
+  "47626": {
+    "lat": 51.5833,
+    "lon": 6.25,
+    "city": "Kevelaer"
+  },
+  "47627": {
+    "lat": 51.5833,
+    "lon": 6.25,
+    "city": "Kevelaer"
+  },
+  "47638": {
+    "lat": 51.4419,
+    "lon": 6.2664,
+    "city": "Straelen"
+  },
+  "47647": {
+    "lat": 51.45,
+    "lon": 6.3667,
+    "city": "Kerken"
+  },
+  "47652": {
+    "lat": 51.6268,
+    "lon": 6.1979,
+    "city": "Weeze"
+  },
+  "47661": {
+    "lat": 51.5333,
+    "lon": 6.4333,
+    "city": "Issum"
+  },
+  "47665": {
+    "lat": 51.6074,
+    "lon": 6.3792,
+    "city": "Sonsbeck"
+  },
+  "47669": {
+    "lat": 51.3974,
+    "lon": 6.2919,
+    "city": "Wachtendonk"
+  },
+  "47789": {
+    "lat": 54.7684,
+    "lon": 9.4416,
+    "city": "Versa Distanzhandel GmbH"
+  },
+  "47791": {
+    "lat": 51.292,
+    "lon": 6.5199,
+    "city": "Reklame Center"
+  },
+  "47792": {
+    "lat": 51.3344,
+    "lon": 6.5531,
+    "city": "Landgericht Krefeld"
+  },
+  "47795": {
+    "lat": 51.3209,
+    "lon": 6.5661,
+    "city": "Helios Klinikum Krefeld"
+  },
+  "47796": {
+    "lat": 51.3286,
+    "lon": 6.5737,
+    "city": "Agentur für Arbeit Krefeld"
+  },
+  "47798": {
+    "lat": 51.3311,
+    "lon": 6.5616,
+    "city": "Krefeld"
+  },
+  "47799": {
+    "lat": 51.3319,
+    "lon": 6.5717,
+    "city": "Krefeld"
+  },
+  "47800": {
+    "lat": 51.3428,
+    "lon": 6.5951,
+    "city": "Krefeld"
+  },
+  "47802": {
+    "lat": 51.3333,
+    "lon": 6.5683,
+    "city": "Krefeld"
+  },
+  "47803": {
+    "lat": 51.3516,
+    "lon": 6.5496,
+    "city": "Krefeld"
+  },
+  "47804": {
+    "lat": 51.3037,
+    "lon": 6.5032,
+    "city": "Krefeld"
+  },
+  "47805": {
+    "lat": 51.3251,
+    "lon": 6.5805,
+    "city": "Krefeld"
+  },
+  "47807": {
+    "lat": 51.304,
+    "lon": 6.5899,
+    "city": "Krefeld"
+  },
+  "47809": {
+    "lat": 51.3281,
+    "lon": 6.616,
+    "city": "Krefeld"
+  },
+  "47829": {
+    "lat": 51.3553,
+    "lon": 6.6366,
+    "city": "Krefeld"
+  },
+  "47839": {
+    "lat": 51.3755,
+    "lon": 6.5091,
+    "city": "Krefeld"
+  },
+  "47875": {
+    "lat": 51.2498,
+    "lon": 6.4778,
+    "city": "Stadt Willich"
+  },
+  "47877": {
+    "lat": 51.2637,
+    "lon": 6.5473,
+    "city": "Willich"
+  },
+  "47904": {
+    "lat": 51.3629,
+    "lon": 6.4294,
+    "city": "PORTICA GmbH Marketing Support"
+  },
+  "47906": {
+    "lat": 51.3643,
+    "lon": 6.4186,
+    "city": "Kempen"
+  },
+  "47918": {
+    "lat": 51.3209,
+    "lon": 6.4941,
+    "city": "Tönisvorst"
+  },
+  "47929": {
+    "lat": 51.3363,
+    "lon": 6.3407,
+    "city": "Grefrath"
+  },
+  "48079": {
+    "lat": 51.96,
+    "lon": 7.631,
+    "city": "Münster"
+  },
+  "48084": {
+    "lat": 51.9056,
+    "lon": 7.6518,
+    "city": "Landwirtschaftsverlag GmbH"
+  },
+  "48108": {
+    "lat": 51.9873,
+    "lon": 7.6339,
+    "city": "Landwirtschaftskammer Westfalen-Lippe Institutszentrum"
+  },
+  "48119": {
+    "lat": 51.9533,
+    "lon": 7.6195,
+    "city": "Westdeutsche Lotterie GmbH&Co OHG"
+  },
+  "48121": {
+    "lat": 51.9312,
+    "lon": 7.5913,
+    "city": "innogy SE"
+  },
+  "48122": {
+    "lat": 51.9543,
+    "lon": 7.6312,
+    "city": "HUK-Coburg"
+  },
+  "48123": {
+    "lat": 51.9551,
+    "lon": 7.6308,
+    "city": "Bahn-BKK PostCenter"
+  },
+  "48124": {
+    "lat": 51.9484,
+    "lon": 7.6408,
+    "city": "Oberfinanzdirektion"
+  },
+  "48125": {
+    "lat": 51.978,
+    "lon": 7.6375,
+    "city": "Deutsche Rentenversicherung Westfalen"
+  },
+  "48126": {
+    "lat": 51.9491,
+    "lon": 7.6143,
+    "city": "LVM Versicherungen"
+  },
+  "48127": {
+    "lat": 51.9611,
+    "lon": 7.6292,
+    "city": "Stadt Münster"
+  },
+  "48128": {
+    "lat": 51.9612,
+    "lon": 7.625,
+    "city": "Bezirksregierung Münster"
+  },
+  "48129": {
+    "lat": 51.9612,
+    "lon": 7.6007,
+    "city": "UKM Universitätsklinikum Münster"
+  },
+  "48130": {
+    "lat": 51.9592,
+    "lon": 7.6136,
+    "city": "Westdeutsche Landesbausparkasse"
+  },
+  "48131": {
+    "lat": 51.9911,
+    "lon": 7.6207,
+    "city": "Westfälische Provinzial Versicherung der Sparkassen"
+  },
+  "48132": {
+    "lat": 51.9241,
+    "lon": 7.562,
+    "city": "Westdeutsche Blindenhörbücherei e.V."
+  },
+  "48133": {
+    "lat": 51.9625,
+    "lon": 7.6359,
+    "city": "Landschaftsverband Westfalen-Lippe"
+  },
+  "48134": {
+    "lat": 51.9615,
+    "lon": 7.6365,
+    "city": "NRW.Bank"
+  },
+  "48135": {
+    "lat": 51.9613,
+    "lon": 7.6272,
+    "city": "BARMER"
+  },
+  "48136": {
+    "lat": 51.9484,
+    "lon": 7.6267,
+    "city": "DZ HYP AG"
+  },
+  "48137": {
+    "lat": 51.9391,
+    "lon": 7.6241,
+    "city": "Deutsche Post AG Direkt Marketing Center Münster"
+  },
+  "48138": {
+    "lat": 51.9347,
+    "lon": 7.6526,
+    "city": "Agentur für Arbeit Münster"
+  },
+  "48139": {
+    "lat": 51.9644,
+    "lon": 7.6285,
+    "city": "Volksbank im Münsterland eG"
+  },
+  "48140": {
+    "lat": 52.137,
+    "lon": 7.5579,
+    "city": "Deutsche Post AG Niederlassung BRIEF Münster"
+  },
+  "48141": {
+    "lat": 51.9671,
+    "lon": 7.6348,
+    "city": "Landesbetrieb NRW Straßenbau NL Münster"
+  },
+  "48143": {
+    "lat": 51.9597,
+    "lon": 7.6314,
+    "city": "Münster"
+  },
+  "48145": {
+    "lat": 51.9667,
+    "lon": 7.6333,
+    "city": "Münster"
+  },
+  "48147": {
+    "lat": 51.9858,
+    "lon": 7.648,
+    "city": "Münster"
+  },
+  "48149": {
+    "lat": 51.9716,
+    "lon": 7.6068,
+    "city": "Münster"
+  },
+  "48151": {
+    "lat": 51.951,
+    "lon": 7.6181,
+    "city": "Münster"
+  },
+  "48153": {
+    "lat": 51.9268,
+    "lon": 7.6313,
+    "city": "Münster"
+  },
+  "48155": {
+    "lat": 51.9597,
+    "lon": 7.6349,
+    "city": "Münster"
+  },
+  "48157": {
+    "lat": 52.0003,
+    "lon": 7.6893,
+    "city": "Münster"
+  },
+  "48159": {
+    "lat": 51.9915,
+    "lon": 7.6124,
+    "city": "Münster"
+  },
+  "48161": {
+    "lat": 51.9471,
+    "lon": 7.5446,
+    "city": "Münster"
+  },
+  "48163": {
+    "lat": 51.9176,
+    "lon": 7.5725,
+    "city": "Münster"
+  },
+  "48165": {
+    "lat": 51.903,
+    "lon": 7.6395,
+    "city": "Münster"
+  },
+  "48167": {
+    "lat": 51.9162,
+    "lon": 7.7108,
+    "city": "Münster"
+  },
+  "48172": {
+    "lat": 51.9592,
+    "lon": 7.6352,
+    "city": "DB Regionalbahn Westfalen RAN Team Westfalen"
+  },
+  "48229": {
+    "lat": 51.9736,
+    "lon": 7.9915,
+    "city": "Deutsche Reiterliche Vereinigung e.V."
+  },
+  "48231": {
+    "lat": 51.9511,
+    "lon": 7.9876,
+    "city": "Warendorf"
+  },
+  "48249": {
+    "lat": 51.8315,
+    "lon": 7.2808,
+    "city": "Dülmen"
+  },
+  "48268": {
+    "lat": 52.0936,
+    "lon": 7.594,
+    "city": "Greven"
+  },
+  "48282": {
+    "lat": 52.1734,
+    "lon": 7.5278,
+    "city": "Emsdetten"
+  },
+  "48291": {
+    "lat": 51.98,
+    "lon": 7.7829,
+    "city": "Telgte"
+  },
+  "48301": {
+    "lat": 51.9333,
+    "lon": 7.35,
+    "city": "Nottuln"
+  },
+  "48308": {
+    "lat": 51.8564,
+    "lon": 7.4833,
+    "city": "Senden"
+  },
+  "48317": {
+    "lat": 51.7953,
+    "lon": 7.7382,
+    "city": "Drensteinfurt"
+  },
+  "48324": {
+    "lat": 51.8559,
+    "lon": 7.7884,
+    "city": "Sendenhorst"
+  },
+  "48329": {
+    "lat": 51.9833,
+    "lon": 7.4167,
+    "city": "Havixbeck"
+  },
+  "48336": {
+    "lat": 51.9922,
+    "lon": 8.0407,
+    "city": "Sassenberg"
+  },
+  "48341": {
+    "lat": 52.05,
+    "lon": 7.4667,
+    "city": "Altenberge"
+  },
+  "48346": {
+    "lat": 52.0402,
+    "lon": 7.8423,
+    "city": "Ostbevern"
+  },
+  "48351": {
+    "lat": 51.9259,
+    "lon": 7.8469,
+    "city": "Everswinkel"
+  },
+  "48356": {
+    "lat": 52.0833,
+    "lon": 7.4833,
+    "city": "Nordwalde"
+  },
+  "48361": {
+    "lat": 51.9291,
+    "lon": 8.1112,
+    "city": "Beelen"
+  },
+  "48366": {
+    "lat": 52.0556,
+    "lon": 7.3577,
+    "city": "Laer"
+  },
+  "48369": {
+    "lat": 52.1737,
+    "lon": 7.634,
+    "city": "Saerbeck"
+  },
+  "48416": {
+    "lat": 52.2694,
+    "lon": 7.4164,
+    "city": "Agentur für Arbeit Rheine"
+  },
+  "48427": {
+    "lat": 52.2857,
+    "lon": 7.4469,
+    "city": "apetito AG"
+  },
+  "48429": {
+    "lat": 52.2868,
+    "lon": 7.4437,
+    "city": "Rheine"
+  },
+  "48431": {
+    "lat": 52.2772,
+    "lon": 7.432,
+    "city": "Rheine"
+  },
+  "48432": {
+    "lat": 52.2672,
+    "lon": 7.4443,
+    "city": "Rheine"
+  },
+  "48455": {
+    "lat": 52.3007,
+    "lon": 7.1576,
+    "city": "Bad Bentheim"
+  },
+  "48465": {
+    "lat": 52.3246,
+    "lon": 7.2159,
+    "city": "Ohne"
+  },
+  "48477": {
+    "lat": 52.2976,
+    "lon": 7.5838,
+    "city": "Hörstel"
+  },
+  "48480": {
+    "lat": 52.3988,
+    "lon": 7.4866,
+    "city": "Lünne"
+  },
+  "48485": {
+    "lat": 52.2447,
+    "lon": 7.3718,
+    "city": "Neuenkirchen"
+  },
+  "48488": {
+    "lat": 52.4,
+    "lon": 7.3,
+    "city": "Emsbüren"
+  },
+  "48493": {
+    "lat": 52.2094,
+    "lon": 7.319,
+    "city": "Wettringen"
+  },
+  "48496": {
+    "lat": 52.3817,
+    "lon": 7.6016,
+    "city": "Hopsten"
+  },
+  "48499": {
+    "lat": 52.3256,
+    "lon": 7.4305,
+    "city": "Salzbergen"
+  },
+  "48522": {
+    "lat": 52.4329,
+    "lon": 7.0665,
+    "city": "Tien Versand GmbH"
+  },
+  "48525": {
+    "lat": 52.4325,
+    "lon": 7.0611,
+    "city": "Agentur für Arbeit Nordhorn"
+  },
+  "48527": {
+    "lat": 52.4491,
+    "lon": 7.0518,
+    "city": "Nordhorn"
+  },
+  "48529": {
+    "lat": 52.4149,
+    "lon": 7.0766,
+    "city": "Nordhorn"
+  },
+  "48531": {
+    "lat": 52.4517,
+    "lon": 7.1065,
+    "city": "Nordhorn"
+  },
+  "48563": {
+    "lat": 52.1502,
+    "lon": 7.3329,
+    "city": "Sparkasse"
+  },
+  "48565": {
+    "lat": 52.1504,
+    "lon": 7.3366,
+    "city": "Steinfurt"
+  },
+  "48596": {
+    "lat": 52.208,
+    "lon": 7.0459,
+    "city": "EUREGIO"
+  },
+  "48599": {
+    "lat": 52.2012,
+    "lon": 7.0409,
+    "city": "Gronau (Westfalen)"
+  },
+  "48607": {
+    "lat": 52.208,
+    "lon": 7.1899,
+    "city": "Ochtrup"
+  },
+  "48612": {
+    "lat": 52.081,
+    "lon": 7.3054,
+    "city": "Horstmar"
+  },
+  "48619": {
+    "lat": 52.1167,
+    "lon": 7.1,
+    "city": "Heek"
+  },
+  "48624": {
+    "lat": 52.1,
+    "lon": 7.2333,
+    "city": "Schöppingen"
+  },
+  "48629": {
+    "lat": 52.1443,
+    "lon": 7.2127,
+    "city": "Metelen"
+  },
+  "48649": {
+    "lat": 51.9491,
+    "lon": 7.1677,
+    "city": "Agentur für Arbeit Coesfeld"
+  },
+  "48651": {
+    "lat": 51.959,
+    "lon": 7.1829,
+    "city": "IKK classic"
+  },
+  "48653": {
+    "lat": 51.9435,
+    "lon": 7.1681,
+    "city": "Coesfeld"
+  },
+  "48681": {
+    "lat": 52.0793,
+    "lon": 7.0033,
+    "city": "Amtsgericht"
+  },
+  "48683": {
+    "lat": 52.092,
+    "lon": 6.9739,
+    "city": "Ahaus"
+  },
+  "48691": {
+    "lat": 52.0379,
+    "lon": 6.828,
+    "city": "Vreden"
+  },
+  "48702": {
+    "lat": 51.9912,
+    "lon": 6.9142,
+    "city": "Spahn GmbH"
+  },
+  "48703": {
+    "lat": 51.994,
+    "lon": 6.9192,
+    "city": "Stadtlohn"
+  },
+  "48712": {
+    "lat": 51.954,
+    "lon": 7.0048,
+    "city": "Gescher"
+  },
+  "48720": {
+    "lat": 52.0167,
+    "lon": 7.2167,
+    "city": "Rosendahl"
+  },
+  "48727": {
+    "lat": 51.9783,
+    "lon": 7.2926,
+    "city": "Billerbeck"
+  },
+  "48734": {
+    "lat": 51.8324,
+    "lon": 7.0347,
+    "city": "Reken"
+  },
+  "48739": {
+    "lat": 52.0333,
+    "lon": 7.1,
+    "city": "Legden"
+  },
+  "49068": {
+    "lat": 52.2675,
+    "lon": 8.0464,
+    "city": "Agentur für Arbeit Osnabrück"
+  },
+  "49070": {
+    "lat": 52.2659,
+    "lon": 8.0171,
+    "city": "Intan Media-Service GmbH"
+  },
+  "49074": {
+    "lat": 52.2738,
+    "lon": 8.0521,
+    "city": "Osnabrück"
+  },
+  "49076": {
+    "lat": 52.2832,
+    "lon": 7.9485,
+    "city": "Osnabrück"
+  },
+  "49078": {
+    "lat": 52.2651,
+    "lon": 8.0096,
+    "city": "Osnabrück"
+  },
+  "49080": {
+    "lat": 52.2491,
+    "lon": 8.0367,
+    "city": "Osnabrück"
+  },
+  "49082": {
+    "lat": 52.244,
+    "lon": 8.0613,
+    "city": "Osnabrück"
+  },
+  "49084": {
+    "lat": 52.2667,
+    "lon": 8.0725,
+    "city": "Osnabrück"
+  },
+  "49086": {
+    "lat": 52.2887,
+    "lon": 8.0892,
+    "city": "Osnabrück"
+  },
+  "49088": {
+    "lat": 52.2667,
+    "lon": 8.05,
+    "city": "Osnabrück"
+  },
+  "49090": {
+    "lat": 52.2983,
+    "lon": 8.0131,
+    "city": "Osnabrück"
+  },
+  "49101": {
+    "lat": 52.2649,
+    "lon": 8.0597,
+    "city": "Bridgetec GmbH & Co. KG"
+  },
+  "49124": {
+    "lat": 52.203,
+    "lon": 8.0448,
+    "city": "Georgsmarienhütte"
+  },
+  "49134": {
+    "lat": 52.35,
+    "lon": 8.0167,
+    "city": "Wallenhorst"
+  },
+  "49143": {
+    "lat": 52.2333,
+    "lon": 8.1667,
+    "city": "Bissendorf"
+  },
+  "49152": {
+    "lat": 52.3175,
+    "lon": 8.413,
+    "city": "Bad Essen"
+  },
+  "49163": {
+    "lat": 52.3667,
+    "lon": 8.3167,
+    "city": "Bohmte"
+  },
+  "49170": {
+    "lat": 52.2094,
+    "lon": 7.9206,
+    "city": "Hagen am Teutoburger Wald"
+  },
+  "49176": {
+    "lat": 52.1644,
+    "lon": 8.1468,
+    "city": "Hilter am Teutoburger Wald"
+  },
+  "49179": {
+    "lat": 52.35,
+    "lon": 8.2333,
+    "city": "Ostercappeln"
+  },
+  "49186": {
+    "lat": 52.1549,
+    "lon": 8.0422,
+    "city": "Bad Iburg"
+  },
+  "49191": {
+    "lat": 52.3,
+    "lon": 8.1333,
+    "city": "Belm"
+  },
+  "49195": {
+    "lat": 52.0981,
+    "lon": 8.0974,
+    "city": "Sanicare-Apotheke BS-Apotheken OHG"
+  },
+  "49196": {
+    "lat": 52.1,
+    "lon": 8.0833,
+    "city": "Bad Laer"
+  },
+  "49201": {
+    "lat": 52.1167,
+    "lon": 8.2,
+    "city": "Dissen am Teutoburger Wald"
+  },
+  "49205": {
+    "lat": 52.2375,
+    "lon": 7.9611,
+    "city": "Hasbergen"
+  },
+  "49213": {
+    "lat": 52.0904,
+    "lon": 8.1739,
+    "city": "Ultra Pharm"
+  },
+  "49214": {
+    "lat": 52.1167,
+    "lon": 8.1667,
+    "city": "Bad Rothenfelde"
+  },
+  "49219": {
+    "lat": 52.0847,
+    "lon": 7.9994,
+    "city": "Glandorf"
+  },
+  "49324": {
+    "lat": 52.1977,
+    "lon": 8.3389,
+    "city": "Melle"
+  },
+  "49326": {
+    "lat": 52.2,
+    "lon": 8.35,
+    "city": "Melle"
+  },
+  "49328": {
+    "lat": 52.2,
+    "lon": 8.35,
+    "city": "Melle"
+  },
+  "49356": {
+    "lat": 52.6078,
+    "lon": 8.3701,
+    "city": "Diepholz"
+  },
+  "49374": {
+    "lat": 52.7208,
+    "lon": 8.2769,
+    "city": "Agentur für Arbeit Vechta"
+  },
+  "49375": {
+    "lat": 52.7263,
+    "lon": 8.2857,
+    "city": "AOK"
+  },
+  "49377": {
+    "lat": 52.7263,
+    "lon": 8.286,
+    "city": "Vechta"
+  },
+  "49393": {
+    "lat": 52.6589,
+    "lon": 8.225,
+    "city": "Lohne (Oldenburg)"
+  },
+  "49401": {
+    "lat": 52.5216,
+    "lon": 8.1979,
+    "city": "Damme"
+  },
+  "49406": {
+    "lat": 52.7155,
+    "lon": 8.5381,
+    "city": "Barnstorf"
+  },
+  "49413": {
+    "lat": 52.6622,
+    "lon": 8.1244,
+    "city": "Dinklage"
+  },
+  "49419": {
+    "lat": 52.55,
+    "lon": 8.5833,
+    "city": "Wagenfeld"
+  },
+  "49424": {
+    "lat": 52.7883,
+    "lon": 8.432,
+    "city": "Goldenstedt"
+  },
+  "49429": {
+    "lat": 52.8333,
+    "lon": 8.3167,
+    "city": "Visbek"
+  },
+  "49434": {
+    "lat": 52.5167,
+    "lon": 8.0667,
+    "city": "Neuenkirchen-Vörden"
+  },
+  "49439": {
+    "lat": 52.5864,
+    "lon": 8.2157,
+    "city": "Steinfeld (Oldenburg)"
+  },
+  "49447": {
+    "lat": 52.4415,
+    "lon": 8.3363,
+    "city": "ZF Lemförder GmbH"
+  },
+  "49448": {
+    "lat": 52.4693,
+    "lon": 8.3846,
+    "city": "Marl"
+  },
+  "49451": {
+    "lat": 52.5833,
+    "lon": 8.1167,
+    "city": "Holdorf"
+  },
+  "49453": {
+    "lat": 52.6178,
+    "lon": 8.5006,
+    "city": "Dickel"
+  },
+  "49456": {
+    "lat": 52.7412,
+    "lon": 8.1955,
+    "city": "Bakum"
+  },
+  "49457": {
+    "lat": 52.65,
+    "lon": 8.4333,
+    "city": "Drebber"
+  },
+  "49459": {
+    "lat": 52.5333,
+    "lon": 8.35,
+    "city": "Lembruch"
+  },
+  "49475": {
+    "lat": 52.2747,
+    "lon": 7.7174,
+    "city": "Finanzamt"
+  },
+  "49477": {
+    "lat": 52.2601,
+    "lon": 7.7135,
+    "city": "Ibbenbüren"
+  },
+  "49479": {
+    "lat": 52.2667,
+    "lon": 7.7333,
+    "city": "Ibbenbüren"
+  },
+  "49492": {
+    "lat": 52.3167,
+    "lon": 7.8833,
+    "city": "Westerkappeln"
+  },
+  "49497": {
+    "lat": 52.3167,
+    "lon": 7.7833,
+    "city": "Mettingen"
+  },
+  "49504": {
+    "lat": 52.2833,
+    "lon": 7.9167,
+    "city": "Lotte"
+  },
+  "49509": {
+    "lat": 52.3689,
+    "lon": 7.7212,
+    "city": "Recke"
+  },
+  "49523": {
+    "lat": 52.1848,
+    "lon": 7.8573,
+    "city": "Deutsche Telekom AG"
+  },
+  "49525": {
+    "lat": 52.1866,
+    "lon": 7.8604,
+    "city": "Lengerich"
+  },
+  "49536": {
+    "lat": 52.15,
+    "lon": 7.9833,
+    "city": "Lienen"
+  },
+  "49541": {
+    "lat": 52.2627,
+    "lon": 7.7812,
+    "city": "Berg-Apotheke Apotheker P.-Christoph Dörr e. K."
+  },
+  "49545": {
+    "lat": 52.2196,
+    "lon": 7.8136,
+    "city": "Tecklenburg"
+  },
+  "49549": {
+    "lat": 52.1333,
+    "lon": 7.75,
+    "city": "Ladbergen"
+  },
+  "49562": {
+    "lat": 52.4027,
+    "lon": 7.9751,
+    "city": "Duni GmbH"
+  },
+  "49565": {
+    "lat": 52.4088,
+    "lon": 7.9729,
+    "city": "Bramsche"
+  },
+  "49577": {
+    "lat": 52.5667,
+    "lon": 7.8444,
+    "city": "Ankum"
+  },
+  "49584": {
+    "lat": 52.5167,
+    "lon": 7.6767,
+    "city": "Fürstenau"
+  },
+  "49586": {
+    "lat": 52.4502,
+    "lon": 7.8361,
+    "city": "Merzen"
+  },
+  "49593": {
+    "lat": 52.5516,
+    "lon": 7.9484,
+    "city": "Bersenbrück"
+  },
+  "49594": {
+    "lat": 52.5,
+    "lon": 7.95,
+    "city": "Alfhausen"
+  },
+  "49596": {
+    "lat": 52.5768,
+    "lon": 8.0034,
+    "city": "Gehrde"
+  },
+  "49597": {
+    "lat": 52.4833,
+    "lon": 8.0167,
+    "city": "Rieste"
+  },
+  "49599": {
+    "lat": 52.4333,
+    "lon": 7.75,
+    "city": "Voltlage"
+  },
+  "49609": {
+    "lat": 52.6739,
+    "lon": 7.9528,
+    "city": "Stadt"
+  },
+  "49610": {
+    "lat": 52.675,
+    "lon": 7.9498,
+    "city": "Quakenbrück"
+  },
+  "49624": {
+    "lat": 52.7368,
+    "lon": 7.7581,
+    "city": "Löningen"
+  },
+  "49626": {
+    "lat": 52.6033,
+    "lon": 7.7394,
+    "city": "Berge"
+  },
+  "49632": {
+    "lat": 52.7,
+    "lon": 7.9167,
+    "city": "Essen (Oldenburg)"
+  },
+  "49635": {
+    "lat": 52.6333,
+    "lon": 7.9833,
+    "city": "Badbergen"
+  },
+  "49637": {
+    "lat": 52.6833,
+    "lon": 7.8167,
+    "city": "Menslage"
+  },
+  "49638": {
+    "lat": 52.615,
+    "lon": 7.8607,
+    "city": "Nortrup"
+  },
+  "49659": {
+    "lat": 52.848,
+    "lon": 8.0449,
+    "city": "Stadt"
+  },
+  "49661": {
+    "lat": 52.8475,
+    "lon": 8.045,
+    "city": "Cloppenburg"
+  },
+  "49681": {
+    "lat": 52.95,
+    "lon": 8.0167,
+    "city": "Garrel"
+  },
+  "49685": {
+    "lat": 52.8333,
+    "lon": 8.15,
+    "city": "Emstek"
+  },
+  "49688": {
+    "lat": 52.7947,
+    "lon": 7.8671,
+    "city": "Lastrup"
+  },
+  "49691": {
+    "lat": 52.8026,
+    "lon": 8.1203,
+    "city": "Beckermann Küchen GmbH"
+  },
+  "49692": {
+    "lat": 52.8167,
+    "lon": 8.1167,
+    "city": "Cappeln (Oldenburg)"
+  },
+  "49696": {
+    "lat": 52.8512,
+    "lon": 7.9716,
+    "city": "Molbergen"
+  },
+  "49699": {
+    "lat": 52.85,
+    "lon": 7.7833,
+    "city": "Lindern (Oldenburg)"
+  },
+  "49716": {
+    "lat": 52.6906,
+    "lon": 7.291,
+    "city": "Meppen"
+  },
+  "49733": {
+    "lat": 52.7886,
+    "lon": 7.1841,
+    "city": "Haren"
+  },
+  "49740": {
+    "lat": 52.6741,
+    "lon": 7.4846,
+    "city": "Haselünne"
+  },
+  "49744": {
+    "lat": 52.6,
+    "lon": 7.2667,
+    "city": "Geeste"
+  },
+  "49751": {
+    "lat": 52.8439,
+    "lon": 7.5362,
+    "city": "Sögel"
+  },
+  "49757": {
+    "lat": 52.85,
+    "lon": 7.6889,
+    "city": "Lahn"
+  },
+  "49762": {
+    "lat": 52.8917,
+    "lon": 7.3208,
+    "city": "Lathen"
+  },
+  "49767": {
+    "lat": 52.6561,
+    "lon": 7.1057,
+    "city": "Twist"
+  },
+  "49770": {
+    "lat": 52.6677,
+    "lon": 7.5914,
+    "city": "Dohren"
+  },
+  "49774": {
+    "lat": 52.7455,
+    "lon": 7.5704,
+    "city": "Lähden"
+  },
+  "49777": {
+    "lat": 52.7743,
+    "lon": 7.4574,
+    "city": "Stavern"
+  },
+  "49779": {
+    "lat": 52.8536,
+    "lon": 7.2744,
+    "city": "Oberlangen"
+  },
+  "49801": {
+    "lat": 52.4884,
+    "lon": 7.325,
+    "city": "EMP Merchandising Handelsgesellschaft"
+  },
+  "49803": {
+    "lat": 52.5253,
+    "lon": 7.3106,
+    "city": "Finanzamt"
+  },
+  "49808": {
+    "lat": 52.5138,
+    "lon": 7.3133,
+    "city": "Lingen"
+  },
+  "49809": {
+    "lat": 52.5223,
+    "lon": 7.3284,
+    "city": "Lingen"
+  },
+  "49811": {
+    "lat": 52.5167,
+    "lon": 7.3167,
+    "city": "Lingen"
+  },
+  "49824": {
+    "lat": 52.6056,
+    "lon": 6.8389,
+    "city": "Laar"
+  },
+  "49828": {
+    "lat": 52.5198,
+    "lon": 6.9966,
+    "city": "Lage"
+  },
+  "49832": {
+    "lat": 52.4774,
+    "lon": 7.5153,
+    "city": "Thuine"
+  },
+  "49835": {
+    "lat": 52.5181,
+    "lon": 7.1341,
+    "city": "Wietmarschen"
+  },
+  "49838": {
+    "lat": 52.5661,
+    "lon": 7.5383,
+    "city": "Langen"
+  },
+  "49843": {
+    "lat": 52.4967,
+    "lon": 6.8567,
+    "city": "Halle"
+  },
+  "49844": {
+    "lat": 52.6,
+    "lon": 7.4,
+    "city": "Bawinkel"
+  },
+  "49846": {
+    "lat": 52.5833,
+    "lon": 6.95,
+    "city": "Hoogstede"
+  },
+  "49847": {
+    "lat": 52.5062,
+    "lon": 6.8035,
+    "city": "Itterbeck"
+  },
+  "49849": {
+    "lat": 52.5333,
+    "lon": 6.85,
+    "city": "Wilsum"
+  },
+  "50123": {
+    "lat": 50.9497,
+    "lon": 6.641,
+    "city": "Deutsche Rentenversicherung Knappschaft Bahn-See GST Bergheim"
+  },
+  "50124": {
+    "lat": 50.9513,
+    "lon": 6.6317,
+    "city": "Erftkreis Der Landrat"
+  },
+  "50126": {
+    "lat": 50.9562,
+    "lon": 6.6349,
+    "city": "Bergheim"
+  },
+  "50127": {
+    "lat": 50.9412,
+    "lon": 6.6631,
+    "city": "Bergheim"
+  },
+  "50129": {
+    "lat": 50.9741,
+    "lon": 6.6794,
+    "city": "Bergheim"
+  },
+  "50169": {
+    "lat": 50.8748,
+    "lon": 6.7435,
+    "city": "Kerpen"
+  },
+  "50170": {
+    "lat": 50.8964,
+    "lon": 6.6829,
+    "city": "Kerpen"
+  },
+  "50171": {
+    "lat": 50.8791,
+    "lon": 6.6939,
+    "city": "Kerpen"
+  },
+  "50181": {
+    "lat": 50.9926,
+    "lon": 6.5713,
+    "city": "Bedburg"
+  },
+  "50189": {
+    "lat": 50.9374,
+    "lon": 6.5683,
+    "city": "Elsdorf"
+  },
+  "50226": {
+    "lat": 50.9149,
+    "lon": 6.8118,
+    "city": "Frechen"
+  },
+  "50259": {
+    "lat": 50.9996,
+    "lon": 6.8063,
+    "city": "Pulheim"
+  },
+  "50318": {
+    "lat": 50.8285,
+    "lon": 6.8954,
+    "city": "Agentur für Arbeit Brühl"
+  },
+  "50319": {
+    "lat": 50.8318,
+    "lon": 6.903,
+    "city": "Amtsgericht"
+  },
+  "50321": {
+    "lat": 50.8293,
+    "lon": 6.905,
+    "city": "Brühl"
+  },
+  "50351": {
+    "lat": 50.8806,
+    "lon": 6.8825,
+    "city": "Stadtverwaltung"
+  },
+  "50354": {
+    "lat": 50.8708,
+    "lon": 6.8676,
+    "city": "Hürth"
+  },
+  "50374": {
+    "lat": 50.8148,
+    "lon": 6.7939,
+    "city": "Erftstadt"
+  },
+  "50387": {
+    "lat": 50.8211,
+    "lon": 6.9852,
+    "city": "Stadtverwaltung"
+  },
+  "50389": {
+    "lat": 50.8271,
+    "lon": 6.9747,
+    "city": "Wesseling"
+  },
+  "50399": {
+    "lat": 50.9212,
+    "lon": 6.8361,
+    "city": "Großannahmestelle BZ Köln West"
+  },
+  "50411": {
+    "lat": 50.947,
+    "lon": 6.9465,
+    "city": "AachenMünchener Versicherung AG"
+  },
+  "50412": {
+    "lat": 50.947,
+    "lon": 6.9465,
+    "city": "Generali Deutschland Versicherung AG"
+  },
+  "50413": {
+    "lat": 50.9597,
+    "lon": 6.9052,
+    "city": "Mazda Bank Niederlassung d. FCE Bank plc"
+  },
+  "50414": {
+    "lat": 50.947,
+    "lon": 6.9465,
+    "city": "AachenMünchener Lebensversicherung AG"
+  },
+  "50415": {
+    "lat": 50.9155,
+    "lon": 6.8649,
+    "city": "Wahl Finance"
+  },
+  "50416": {
+    "lat": 50.9228,
+    "lon": 6.8767,
+    "city": "RWE Power AG"
+  },
+  "50417": {
+    "lat": 50.9409,
+    "lon": 6.8899,
+    "city": "Deutsche Post AG Niederl. Rentenservice"
+  },
+  "50418": {
+    "lat": 50.886,
+    "lon": 6.9225,
+    "city": "Deutsche Post AG Niederlassung Köln (Paket)"
+  },
+  "50419": {
+    "lat": 50.9212,
+    "lon": 6.8361,
+    "city": "Deutsche Post AG Niederlassung BRIEF Köln West"
+  },
+  "50421": {
+    "lat": 50.9424,
+    "lon": 6.9469,
+    "city": "HUK-Coburg"
+  },
+  "50422": {
+    "lat": 50.9155,
+    "lon": 6.8649,
+    "city": "Daihatsu Versicherungsdienst"
+  },
+  "50423": {
+    "lat": 53.6012,
+    "lon": 10.0265,
+    "city": "AdvoCard Rechtschutzversicherung Aktiengesellschaft"
+  },
+  "50424": {
+    "lat": 49.232,
+    "lon": 7.0073,
+    "city": "COSMOS Lebensversicherungs-AG"
+  },
+  "50425": {
+    "lat": 50.9417,
+    "lon": 6.9526,
+    "city": "Generali Deutschland Holding AG"
+  },
+  "50426": {
+    "lat": 50.8694,
+    "lon": 6.8791,
+    "city": "Apotheke LUX 99 Abt. Deutsche Internet Apotheke"
+  },
+  "50427": {
+    "lat": 50.9354,
+    "lon": 6.9777,
+    "city": "Zurich Service GmbH"
+  },
+  "50428": {
+    "lat": 50.9459,
+    "lon": 6.959,
+    "city": "REWE Zentralfinanz eG"
+  },
+  "50569": {
+    "lat": 50.9354,
+    "lon": 6.9777,
+    "city": "Lanxess AG"
+  },
+  "50574": {
+    "lat": 50.922,
+    "lon": 6.9346,
+    "city": "Familienkasse Nordrhein-Westfalen-Nord"
+  },
+  "50575": {
+    "lat": 50.9821,
+    "lon": 6.8964,
+    "city": "Agentur für Arbeit Köln"
+  },
+  "50576": {
+    "lat": 50.9345,
+    "lon": 6.9396,
+    "city": "Generali Schadenservice-Center Köln"
+  },
+  "50579": {
+    "lat": 50.9345,
+    "lon": 6.9396,
+    "city": "Generali Versicherung"
+  },
+  "50580": {
+    "lat": 50.9435,
+    "lon": 6.9728,
+    "city": "HDI AG"
+  },
+  "50581": {
+    "lat": 50.947,
+    "lon": 6.9498,
+    "city": "Generali Deutschland Schadenmanagement GmbH"
+  },
+  "50582": {
+    "lat": 51.5195,
+    "lon": 7.4577,
+    "city": "DHL Freight GmbH SSC Accounting Kreditorenbuchhaltung"
+  },
+  "50583": {
+    "lat": 50.947,
+    "lon": 6.9498,
+    "city": "ENVIVAS Krankenversicherung AG"
+  },
+  "50585": {
+    "lat": 50.939,
+    "lon": 6.9777,
+    "city": "Atradius Kreditversicherung"
+  },
+  "50586": {
+    "lat": 50.9165,
+    "lon": 6.9385,
+    "city": "BERLIN-KÖLNISCHE VERSICHERUNGEN"
+  },
+  "50587": {
+    "lat": 50.9425,
+    "lon": 6.9551,
+    "city": "Deutsche Bank AG"
+  },
+  "50588": {
+    "lat": 50.944,
+    "lon": 6.954,
+    "city": "Deutsche Post AG, SSC Accouting Kreditorenbuchhaltung"
+  },
+  "50589": {
+    "lat": 50.944,
+    "lon": 6.954,
+    "city": "Deutsche Post AG SSC Acc Abt. Faktura / Reklamationsmanagement"
+  },
+  "50590": {
+    "lat": 50.9665,
+    "lon": 6.9694,
+    "city": "EXPRESS"
+  },
+  "50591": {
+    "lat": 50.9438,
+    "lon": 6.942,
+    "city": "Allianz ONE-Business Solutions GmbH O-RE-KL-GEBS"
+  },
+  "50592": {
+    "lat": 50.9645,
+    "lon": 7.053,
+    "city": "AXA Colonia Krankenversicherung AG"
+  },
+  "50593": {
+    "lat": 50.947,
+    "lon": 6.9465,
+    "city": "Central Krankenversicherung AG"
+  },
+  "50594": {
+    "lat": 50.9379,
+    "lon": 6.8723,
+    "city": "DKV AG"
+  },
+  "50595": {
+    "lat": 50.9372,
+    "lon": 6.9223,
+    "city": "Europa Versicherungen AG"
+  },
+  "50596": {
+    "lat": 50.941,
+    "lon": 6.9383,
+    "city": "AKB Autobörse AG"
+  },
+  "50598": {
+    "lat": 50.9154,
+    "lon": 6.9398,
+    "city": "Gothaer Versicherungen"
+  },
+  "50600": {
+    "lat": 50.94,
+    "lon": 6.9513,
+    "city": "Westdeutscher Rundfunk Köln"
+  },
+  "50602": {
+    "lat": 50.9366,
+    "lon": 6.947,
+    "city": "Kreissparkasse KSK KÃ¶ln"
+  },
+  "50603": {
+    "lat": 50.9459,
+    "lon": 6.959,
+    "city": "Rewe-Zentral-AG"
+  },
+  "50604": {
+    "lat": 50.9355,
+    "lon": 6.9408,
+    "city": "Sparkasse Köln Bonn"
+  },
+  "50605": {
+    "lat": 50.939,
+    "lon": 6.9817,
+    "city": "Stadt Köln Stadthaus"
+  },
+  "50606": {
+    "lat": 50.8539,
+    "lon": 7.04,
+    "city": "SIGNAL IDUNA"
+  },
+  "50607": {
+    "lat": 50.9438,
+    "lon": 6.9545,
+    "city": "Deutsche Postbank AG Niederlassung Köln"
+  },
+  "50657": {
+    "lat": 50.9552,
+    "lon": 6.968,
+    "city": "Zürich-Agrippina AG"
+  },
+  "50658": {
+    "lat": 50.9561,
+    "lon": 6.9531,
+    "city": "Finanzamt Köln-Nord"
+  },
+  "50661": {
+    "lat": 50.947,
+    "lon": 6.9465,
+    "city": "AMB Generali Pensionskasse AG"
+  },
+  "50662": {
+    "lat": 50.9328,
+    "lon": 6.957,
+    "city": "Finanzamt Köln-Mitte"
+  },
+  "50663": {
+    "lat": 50.9265,
+    "lon": 6.982,
+    "city": "Landschaftsverband Rheinland"
+  },
+  "50664": {
+    "lat": 50.9308,
+    "lon": 6.9749,
+    "city": "STRABAG AG"
+  },
+  "50667": {
+    "lat": 50.9387,
+    "lon": 6.9547,
+    "city": "Köln"
+  },
+  "50668": {
+    "lat": 50.9499,
+    "lon": 6.9628,
+    "city": "Köln"
+  },
+  "50670": {
+    "lat": 50.9504,
+    "lon": 6.9502,
+    "city": "Köln"
+  },
+  "50672": {
+    "lat": 50.9439,
+    "lon": 6.9363,
+    "city": "Köln"
+  },
+  "50674": {
+    "lat": 50.9326,
+    "lon": 6.9342,
+    "city": "Köln"
+  },
+  "50676": {
+    "lat": 50.9314,
+    "lon": 6.9526,
+    "city": "Köln"
+  },
+  "50677": {
+    "lat": 50.9214,
+    "lon": 6.9507,
+    "city": "Köln"
+  },
+  "50678": {
+    "lat": 50.9233,
+    "lon": 6.9635,
+    "city": "Köln"
+  },
+  "50679": {
+    "lat": 50.9365,
+    "lon": 6.9781,
+    "city": "Köln"
+  },
+  "50725": {
+    "lat": 51.0054,
+    "lon": 6.9596,
+    "city": "Ford Werke GmbH"
+  },
+  "50726": {
+    "lat": 50.9823,
+    "lon": 6.9434,
+    "city": "Gödde GmbH"
+  },
+  "50727": {
+    "lat": 51.0011,
+    "lon": 6.95,
+    "city": "bauer druck Köln KG"
+  },
+  "50728": {
+    "lat": 50.9696,
+    "lon": 6.9707,
+    "city": "Bundesverwaltungsamt"
+  },
+  "50729": {
+    "lat": 50.9581,
+    "lon": 6.9753,
+    "city": "DEVK Versicherungen"
+  },
+  "50730": {
+    "lat": 50.9649,
+    "lon": 6.9839,
+    "city": "Versorgungsamt Köln"
+  },
+  "50733": {
+    "lat": 50.9643,
+    "lon": 6.9537,
+    "city": "Köln"
+  },
+  "50735": {
+    "lat": 50.9896,
+    "lon": 6.9622,
+    "city": "Köln"
+  },
+  "50737": {
+    "lat": 50.9923,
+    "lon": 6.9334,
+    "city": "Köln"
+  },
+  "50739": {
+    "lat": 50.9807,
+    "lon": 6.9212,
+    "city": "Köln"
+  },
+  "50765": {
+    "lat": 51.0198,
+    "lon": 6.8684,
+    "city": "Köln"
+  },
+  "50767": {
+    "lat": 51.0033,
+    "lon": 6.8847,
+    "city": "Köln"
+  },
+  "50769": {
+    "lat": 51.0458,
+    "lon": 6.876,
+    "city": "Köln"
+  },
+  "50819": {
+    "lat": 50.9586,
+    "lon": 6.8872,
+    "city": "Daimler AG"
+  },
+  "50820": {
+    "lat": 50.9766,
+    "lon": 6.8587,
+    "city": "A. Nattermann & Cie. GmbH"
+  },
+  "50823": {
+    "lat": 50.9511,
+    "lon": 6.9264,
+    "city": "Köln"
+  },
+  "50825": {
+    "lat": 50.9541,
+    "lon": 6.9103,
+    "city": "Köln"
+  },
+  "50827": {
+    "lat": 50.9667,
+    "lon": 6.9,
+    "city": "Köln"
+  },
+  "50829": {
+    "lat": 50.9746,
+    "lon": 6.8713,
+    "city": "Köln"
+  },
+  "50855": {
+    "lat": 50.9223,
+    "lon": 6.8591,
+    "city": "IKK classic"
+  },
+  "50858": {
+    "lat": 50.9243,
+    "lon": 6.8565,
+    "city": "Köln"
+  },
+  "50859": {
+    "lat": 50.9535,
+    "lon": 6.8328,
+    "city": "Köln"
+  },
+  "50919": {
+    "lat": 50.9409,
+    "lon": 6.8899,
+    "city": "Deutsche Post AG Direkt Marketing Center"
+  },
+  "50922": {
+    "lat": 50.9225,
+    "lon": 6.9356,
+    "city": "Amtsgericht Köln"
+  },
+  "50924": {
+    "lat": 50.9265,
+    "lon": 6.9235,
+    "city": "Krankenhaus Weyertal"
+  },
+  "50925": {
+    "lat": 50.9387,
+    "lon": 6.9238,
+    "city": "Finanzamt Köln-West"
+  },
+  "50926": {
+    "lat": 50.928,
+    "lon": 6.9126,
+    "city": "IFH KÃ¶ln GmbH"
+  },
+  "50927": {
+    "lat": 50.942,
+    "lon": 6.8938,
+    "city": "Pfeifer & Langen"
+  },
+  "50928": {
+    "lat": 50.9125,
+    "lon": 6.9184,
+    "city": "Arbeiter-Samariter Bund"
+  },
+  "50931": {
+    "lat": 50.9323,
+    "lon": 6.9183,
+    "city": "Köln"
+  },
+  "50933": {
+    "lat": 50.9427,
+    "lon": 6.8763,
+    "city": "Köln"
+  },
+  "50935": {
+    "lat": 50.9225,
+    "lon": 6.8956,
+    "city": "Köln"
+  },
+  "50937": {
+    "lat": 50.9124,
+    "lon": 6.9108,
+    "city": "Köln"
+  },
+  "50939": {
+    "lat": 50.9078,
+    "lon": 6.9247,
+    "city": "Köln"
+  },
+  "50960": {
+    "lat": 50.9086,
+    "lon": 6.9751,
+    "city": "BG Energie Textil Elektro Medienerzeugnisse ( BG ETEM)"
+  },
+  "50962": {
+    "lat": 50.9086,
+    "lon": 6.9751,
+    "city": "BG Energie Textil Elektro Medienerzeugnisse ( BG ETEM)"
+  },
+  "50963": {
+    "lat": 50.9058,
+    "lon": 6.9619,
+    "city": "Leybold GmbH"
+  },
+  "50964": {
+    "lat": 50.9419,
+    "lon": 6.9821,
+    "city": "Bundesamt für Familie und zivilgesellschaftliche Aufgaben"
+  },
+  "50965": {
+    "lat": 50.9158,
+    "lon": 6.9411,
+    "city": "UNICEF Deutschland"
+  },
+  "50966": {
+    "lat": 50.9362,
+    "lon": 6.9494,
+    "city": "BARMER"
+  },
+  "50968": {
+    "lat": 50.9033,
+    "lon": 6.9647,
+    "city": "Köln"
+  },
+  "50969": {
+    "lat": 50.9036,
+    "lon": 6.9385,
+    "city": "Köln"
+  },
+  "50996": {
+    "lat": 50.8834,
+    "lon": 6.9902,
+    "city": "Köln"
+  },
+  "50997": {
+    "lat": 50.864,
+    "lon": 6.9512,
+    "city": "Köln"
+  },
+  "50999": {
+    "lat": 50.8753,
+    "lon": 7.0202,
+    "city": "Köln"
+  },
+  "51057": {
+    "lat": 50.9538,
+    "lon": 6.9909,
+    "city": "Deutz AG"
+  },
+  "51058": {
+    "lat": 50.9627,
+    "lon": 7.0238,
+    "city": "NOKIA KABEL GMBH"
+  },
+  "51059": {
+    "lat": 50.9645,
+    "lon": 7.053,
+    "city": "AXA Versicherung AG"
+  },
+  "51061": {
+    "lat": 50.994,
+    "lon": 7.003,
+    "city": "Köln"
+  },
+  "51063": {
+    "lat": 50.9685,
+    "lon": 7.0054,
+    "city": "Köln"
+  },
+  "51065": {
+    "lat": 50.9549,
+    "lon": 7.0121,
+    "city": "Köln"
+  },
+  "51067": {
+    "lat": 50.9656,
+    "lon": 7.042,
+    "city": "Köln"
+  },
+  "51069": {
+    "lat": 50.9925,
+    "lon": 7.0537,
+    "city": "Köln"
+  },
+  "51101": {
+    "lat": 50.9411,
+    "lon": 7.0189,
+    "city": "Malteser Werke GmbH"
+  },
+  "51103": {
+    "lat": 50.942,
+    "lon": 7.0166,
+    "city": "Köln"
+  },
+  "51105": {
+    "lat": 50.9188,
+    "lon": 6.9972,
+    "city": "Köln"
+  },
+  "51107": {
+    "lat": 50.9236,
+    "lon": 7.0905,
+    "city": "Köln"
+  },
+  "51109": {
+    "lat": 50.9447,
+    "lon": 7.0699,
+    "city": "Köln"
+  },
+  "51139": {
+    "lat": 50.8834,
+    "lon": 7.0615,
+    "city": "Finanzamt Köln-Porz"
+  },
+  "51140": {
+    "lat": 50.8974,
+    "lon": 7.0568,
+    "city": "Bull GmbH"
+  },
+  "51141": {
+    "lat": 50.9136,
+    "lon": 7.0675,
+    "city": "Kaufhof Warenhaus AG ZAL/DL Porz"
+  },
+  "51143": {
+    "lat": 50.8598,
+    "lon": 7.036,
+    "city": "Köln"
+  },
+  "51145": {
+    "lat": 50.8824,
+    "lon": 7.0804,
+    "city": "Köln"
+  },
+  "51147": {
+    "lat": 50.8686,
+    "lon": 7.1073,
+    "city": "Köln"
+  },
+  "51149": {
+    "lat": 50.9055,
+    "lon": 7.0414,
+    "city": "Köln"
+  },
+  "51169": {
+    "lat": 50.9106,
+    "lon": 7.0472,
+    "city": "Deutsche Post AG Nachsendezentrum Köln Ost"
+  },
+  "51170": {
+    "lat": 50.9131,
+    "lon": 7.0484,
+    "city": "ITS Reisen"
+  },
+  "51171": {
+    "lat": 50.9645,
+    "lon": 7.053,
+    "city": "AXA Versicherung AG (Colonia)"
+  },
+  "51172": {
+    "lat": 50.9645,
+    "lon": 7.053,
+    "city": "Axa Lebensversicherung AG"
+  },
+  "51173": {
+    "lat": 50.9645,
+    "lon": 7.053,
+    "city": "AXA Service AG (Corona GmbH)"
+  },
+  "51174": {
+    "lat": 50.9126,
+    "lon": 7.0528,
+    "city": "Postbank Easy Trade AG"
+  },
+  "51175": {
+    "lat": 50.9165,
+    "lon": 6.9385,
+    "city": "ASSTEL ProKunde Versicherungskonzepte GmbH"
+  },
+  "51178": {
+    "lat": 50.9106,
+    "lon": 7.0472,
+    "city": "Deutsche Post AG Rücksendezentrum Köln"
+  },
+  "51221": {
+    "lat": 50.9172,
+    "lon": 7.0504,
+    "city": "AdmiralDirekt.de GmbH"
+  },
+  "51222": {
+    "lat": 50.9126,
+    "lon": 7.0528,
+    "city": "Postbank Niederlassung Köln"
+  },
+  "51365": {
+    "lat": 51.0141,
+    "lon": 6.9881,
+    "city": "Covestro AG"
+  },
+  "51366": {
+    "lat": 51.0141,
+    "lon": 6.9881,
+    "city": "Bayer HealthCare Deutschland AG"
+  },
+  "51367": {
+    "lat": 51.0641,
+    "lon": 7.0275,
+    "city": "illbruck GmbH"
+  },
+  "51369": {
+    "lat": 51.0141,
+    "lon": 6.9881,
+    "city": "LANXESS AG"
+  },
+  "51370": {
+    "lat": 51.0335,
+    "lon": 7.0172,
+    "city": "Finanzamt Leverkusen"
+  },
+  "51371": {
+    "lat": 51.0645,
+    "lon": 6.9592,
+    "city": "Leverkusen"
+  },
+  "51373": {
+    "lat": 51.0307,
+    "lon": 6.9898,
+    "city": "Leverkusen"
+  },
+  "51375": {
+    "lat": 51.0331,
+    "lon": 7.052,
+    "city": "Leverkusen"
+  },
+  "51377": {
+    "lat": 51.0509,
+    "lon": 7.0633,
+    "city": "Leverkusen"
+  },
+  "51379": {
+    "lat": 51.0665,
+    "lon": 7.004,
+    "city": "Leverkusen"
+  },
+  "51381": {
+    "lat": 51.05,
+    "lon": 7.0167,
+    "city": "Leverkusen"
+  },
+  "51399": {
+    "lat": 51.0847,
+    "lon": 7.1139,
+    "city": "Burscheid"
+  },
+  "51424": {
+    "lat": 50.9612,
+    "lon": 7.1838,
+    "city": "TechnologiePark Bergisch Gladbach Verwaltungs GmbH"
+  },
+  "51425": {
+    "lat": 50.9639,
+    "lon": 7.1531,
+    "city": "Amtsgericht"
+  },
+  "51427": {
+    "lat": 50.952,
+    "lon": 7.1114,
+    "city": "Bergisch Gladbach"
+  },
+  "51429": {
+    "lat": 50.9655,
+    "lon": 7.1823,
+    "city": "Bergisch Gladbach"
+  },
+  "51462": {
+    "lat": 50.9825,
+    "lon": 7.1099,
+    "city": "Zanders GmbH"
+  },
+  "51463": {
+    "lat": 50.9858,
+    "lon": 7.1338,
+    "city": "Agentur für Arbeit Bergisch Gladbach"
+  },
+  "51465": {
+    "lat": 50.9891,
+    "lon": 7.129,
+    "city": "Bergisch Gladbach"
+  },
+  "51467": {
+    "lat": 51.0089,
+    "lon": 7.1052,
+    "city": "Bergisch Gladbach"
+  },
+  "51469": {
+    "lat": 50.9854,
+    "lon": 7.1141,
+    "city": "Bergisch Gladbach"
+  },
+  "51489": {
+    "lat": 50.9652,
+    "lon": 7.3284,
+    "city": "Soennecken eG"
+  },
+  "51491": {
+    "lat": 50.9327,
+    "lon": 7.2839,
+    "city": "Overath"
+  },
+  "51503": {
+    "lat": 50.8956,
+    "lon": 7.1818,
+    "city": "Rösrath"
+  },
+  "51515": {
+    "lat": 51.05,
+    "lon": 7.2667,
+    "city": "Kürten"
+  },
+  "51519": {
+    "lat": 51.0333,
+    "lon": 7.1167,
+    "city": "Odenthal"
+  },
+  "51545": {
+    "lat": 50.8758,
+    "lon": 7.6169,
+    "city": "Waldbröl"
+  },
+  "51570": {
+    "lat": 50.7909,
+    "lon": 7.5676,
+    "city": "Windeck"
+  },
+  "51578": {
+    "lat": 50.9292,
+    "lon": 7.7605,
+    "city": "Kierdorf-Inkasso"
+  },
+  "51580": {
+    "lat": 50.9284,
+    "lon": 7.6432,
+    "city": "Reichshof"
+  },
+  "51588": {
+    "lat": 50.9043,
+    "lon": 7.5406,
+    "city": "Nümbrecht"
+  },
+  "51597": {
+    "lat": 50.8666,
+    "lon": 7.7279,
+    "city": "Morsbach"
+  },
+  "51598": {
+    "lat": 50.9038,
+    "lon": 7.8096,
+    "city": "Friesenhagen"
+  },
+  "51641": {
+    "lat": 51.0237,
+    "lon": 7.5676,
+    "city": "Finanzamt Gummersbach"
+  },
+  "51643": {
+    "lat": 51.0143,
+    "lon": 7.5724,
+    "city": "Gummersbach"
+  },
+  "51645": {
+    "lat": 51.0006,
+    "lon": 7.5693,
+    "city": "Gummersbach"
+  },
+  "51647": {
+    "lat": 51.0333,
+    "lon": 7.55,
+    "city": "Gummersbach"
+  },
+  "51674": {
+    "lat": 50.9495,
+    "lon": 7.5506,
+    "city": "Wiehl"
+  },
+  "51688": {
+    "lat": 51.1161,
+    "lon": 7.3986,
+    "city": "Wipperfürth"
+  },
+  "51700": {
+    "lat": 51.0274,
+    "lon": 7.6904,
+    "city": "Stiftung Missionswerk Werner Heukelbach"
+  },
+  "51702": {
+    "lat": 51.025,
+    "lon": 7.656,
+    "city": "Bergneustadt"
+  },
+  "51709": {
+    "lat": 51.0832,
+    "lon": 7.5309,
+    "city": "Marienheide"
+  },
+  "51766": {
+    "lat": 50.9885,
+    "lon": 7.4139,
+    "city": "Engelskirchen"
+  },
+  "51777": {
+    "lat": 50.9838,
+    "lon": 7.4098,
+    "city": "Christkindspostamt"
+  },
+  "51789": {
+    "lat": 51.0196,
+    "lon": 7.3776,
+    "city": "Lindlar"
+  },
+  "52028": {
+    "lat": 50.8116,
+    "lon": 6.0605,
+    "city": "Agentur für Arbeit Aachen"
+  },
+  "52045": {
+    "lat": 50.7717,
+    "lon": 6.0851,
+    "city": "HUK-Coburg"
+  },
+  "52046": {
+    "lat": 50.7846,
+    "lon": 6.0677,
+    "city": "Chocoladefabriken Lindt & Sprüngli GmbH"
+  },
+  "52047": {
+    "lat": 50.7773,
+    "lon": 6.1306,
+    "city": "BIG direkt gesund"
+  },
+  "52049": {
+    "lat": 50.7722,
+    "lon": 6.0887,
+    "city": "Allianz Vers. AG"
+  },
+  "52053": {
+    "lat": 50.7808,
+    "lon": 6.1332,
+    "city": "Pro-Idee GmbH & Co. KG"
+  },
+  "52054": {
+    "lat": 50.7705,
+    "lon": 6.0864,
+    "city": "AachenMünchener Versicherung Aktiengesellschaft Direktion"
+  },
+  "52055": {
+    "lat": 50.7808,
+    "lon": 6.1332,
+    "city": "Junghans Wollversand GmbH & Co. KG"
+  },
+  "52056": {
+    "lat": 50.7771,
+    "lon": 6.0778,
+    "city": "RWTH Aachen"
+  },
+  "52057": {
+    "lat": 50.7765,
+    "lon": 6.0424,
+    "city": "Universitätsklinikum der RWTH Aachen"
+  },
+  "52058": {
+    "lat": 50.7757,
+    "lon": 6.0833,
+    "city": "Stadtverwaltung"
+  },
+  "52059": {
+    "lat": 50.7744,
+    "lon": 6.0879,
+    "city": "Sparkasse Aachen"
+  },
+  "52060": {
+    "lat": 50.7676,
+    "lon": 6.1495,
+    "city": "Deutsche Telekom AG NL Aachen"
+  },
+  "52062": {
+    "lat": 50.776,
+    "lon": 6.0872,
+    "city": "Aachen"
+  },
+  "52064": {
+    "lat": 50.7683,
+    "lon": 6.076,
+    "city": "Aachen"
+  },
+  "52066": {
+    "lat": 50.7564,
+    "lon": 6.0914,
+    "city": "Aachen"
+  },
+  "52068": {
+    "lat": 50.7787,
+    "lon": 6.1085,
+    "city": "Aachen"
+  },
+  "52070": {
+    "lat": 50.7884,
+    "lon": 6.1044,
+    "city": "Aachen"
+  },
+  "52072": {
+    "lat": 50.8034,
+    "lon": 6.0627,
+    "city": "Aachen"
+  },
+  "52074": {
+    "lat": 50.7479,
+    "lon": 6.0485,
+    "city": "Aachen"
+  },
+  "52076": {
+    "lat": 50.7167,
+    "lon": 6.1481,
+    "city": "Aachen"
+  },
+  "52078": {
+    "lat": 50.7624,
+    "lon": 6.138,
+    "city": "Aachen"
+  },
+  "52080": {
+    "lat": 50.7793,
+    "lon": 6.1642,
+    "city": "Aachen"
+  },
+  "52081": {
+    "lat": 50.7917,
+    "lon": 6.1067,
+    "city": "Elegance GmbH & Co. KG"
+  },
+  "52084": {
+    "lat": 50.7711,
+    "lon": 6.0891,
+    "city": "AMB Generali Schadenmanagement GmbH"
+  },
+  "52090": {
+    "lat": 50.7685,
+    "lon": 6.0981,
+    "city": "StädteRegion Aachen"
+  },
+  "52099": {
+    "lat": 50.7667,
+    "lon": 6.1486,
+    "city": "Grünenthal GmbH"
+  },
+  "52101": {
+    "lat": 50.7913,
+    "lon": 6.0624,
+    "city": "Deutsche Post AG Direkt Marketing Center Aachen"
+  },
+  "52115": {
+    "lat": 50.8614,
+    "lon": 6.0814,
+    "city": "knpbmedia b.v."
+  },
+  "52134": {
+    "lat": 50.8687,
+    "lon": 6.0932,
+    "city": "Herzogenrath"
+  },
+  "52146": {
+    "lat": 50.8181,
+    "lon": 6.1347,
+    "city": "Würselen"
+  },
+  "52152": {
+    "lat": 50.6,
+    "lon": 6.3,
+    "city": "Simmerath"
+  },
+  "52156": {
+    "lat": 50.5546,
+    "lon": 6.24,
+    "city": "Monschau"
+  },
+  "52159": {
+    "lat": 50.65,
+    "lon": 6.2,
+    "city": "Roetgen"
+  },
+  "52220": {
+    "lat": 50.7752,
+    "lon": 6.2285,
+    "city": "Stadtverwaltung"
+  },
+  "52222": {
+    "lat": 50.7775,
+    "lon": 6.2209,
+    "city": "Stolberg (Rheinland)"
+  },
+  "52223": {
+    "lat": 50.7318,
+    "lon": 6.2104,
+    "city": "Stolberg (Rheinland)"
+  },
+  "52224": {
+    "lat": 50.74,
+    "lon": 6.2877,
+    "city": "Stolberg (Rheinland)"
+  },
+  "52249": {
+    "lat": 50.8185,
+    "lon": 6.2718,
+    "city": "Eschweiler"
+  },
+  "52348": {
+    "lat": 50.8005,
+    "lon": 6.4756,
+    "city": "Finanzamt"
+  },
+  "52349": {
+    "lat": 50.8009,
+    "lon": 6.4788,
+    "city": "Düren"
+  },
+  "52351": {
+    "lat": 50.8086,
+    "lon": 6.4982,
+    "city": "Düren"
+  },
+  "52353": {
+    "lat": 50.8294,
+    "lon": 6.462,
+    "city": "Düren"
+  },
+  "52355": {
+    "lat": 50.7907,
+    "lon": 6.4659,
+    "city": "Düren"
+  },
+  "52372": {
+    "lat": 50.747,
+    "lon": 6.4907,
+    "city": "Kreuzau"
+  },
+  "52379": {
+    "lat": 50.8167,
+    "lon": 6.35,
+    "city": "Langerwehe"
+  },
+  "52382": {
+    "lat": 50.8833,
+    "lon": 6.4667,
+    "city": "Niederzier"
+  },
+  "52385": {
+    "lat": 50.6927,
+    "lon": 6.4844,
+    "city": "Nideggen"
+  },
+  "52388": {
+    "lat": 50.806,
+    "lon": 6.6395,
+    "city": "Nörvenich"
+  },
+  "52391": {
+    "lat": 50.7333,
+    "lon": 6.6,
+    "city": "Vettweiß"
+  },
+  "52393": {
+    "lat": 50.7167,
+    "lon": 6.3667,
+    "city": "Hürtgenwald"
+  },
+  "52396": {
+    "lat": 50.6369,
+    "lon": 6.469,
+    "city": "Heimbach"
+  },
+  "52399": {
+    "lat": 50.8268,
+    "lon": 6.5249,
+    "city": "Merzenich"
+  },
+  "52425": {
+    "lat": 50.9013,
+    "lon": 6.3974,
+    "city": "Forschungszentrum Jülich GmbH"
+  },
+  "52426": {
+    "lat": 50.9038,
+    "lon": 6.3884,
+    "city": "Heinrich-Heine-Universität Institut für Enzymtechnologie"
+  },
+  "52428": {
+    "lat": 50.9215,
+    "lon": 6.3627,
+    "city": "Jülich"
+  },
+  "52441": {
+    "lat": 50.98,
+    "lon": 6.2705,
+    "city": "Linnich"
+  },
+  "52445": {
+    "lat": 51.0062,
+    "lon": 6.4248,
+    "city": "Titz"
+  },
+  "52457": {
+    "lat": 50.9,
+    "lon": 6.2833,
+    "city": "Aldenhoven"
+  },
+  "52459": {
+    "lat": 50.8431,
+    "lon": 6.36,
+    "city": "Inden"
+  },
+  "52475": {
+    "lat": 50.8759,
+    "lon": 6.1759,
+    "city": "Cinram GmbH"
+  },
+  "52477": {
+    "lat": 50.8767,
+    "lon": 6.164,
+    "city": "Alsdorf"
+  },
+  "52499": {
+    "lat": 50.9096,
+    "lon": 6.1887,
+    "city": "Baesweiler"
+  },
+  "52509": {
+    "lat": 50.9683,
+    "lon": 6.118,
+    "city": "CSB-Systems SE"
+  },
+  "52511": {
+    "lat": 50.9675,
+    "lon": 6.1176,
+    "city": "Geilenkirchen"
+  },
+  "52523": {
+    "lat": 51.06,
+    "lon": 6.116,
+    "city": "BIS Hilma GmbH"
+  },
+  "52525": {
+    "lat": 51.0649,
+    "lon": 6.044,
+    "city": "Heinsberg"
+  },
+  "52531": {
+    "lat": 50.9177,
+    "lon": 6.1234,
+    "city": "Übach-Palenberg"
+  },
+  "52538": {
+    "lat": 51.0073,
+    "lon": 5.9639,
+    "city": "Gangelt"
+  },
+  "53094": {
+    "lat": 50.726,
+    "lon": 7.1114,
+    "city": "Bundesamt für Justiz"
+  },
+  "53095": {
+    "lat": 50.6791,
+    "lon": 7.16,
+    "city": "Verlag Norman Rentrop"
+  },
+  "53096": {
+    "lat": 50.728,
+    "lon": 7.0955,
+    "city": "Zurich Gruppe Deutschland"
+  },
+  "53099": {
+    "lat": 50.7053,
+    "lon": 7.0463,
+    "city": "Bundesministerium der Verteidigung"
+  },
+  "53100": {
+    "lat": 50.7393,
+    "lon": 7.0559,
+    "city": "General-Anzeiger Bonn GmbH"
+  },
+  "53102": {
+    "lat": 50.7083,
+    "lon": 7.1129,
+    "city": "Berufsgenossenschaft Handel und Warenlogistik (BGHW)"
+  },
+  "53103": {
+    "lat": 50.7366,
+    "lon": 7.0951,
+    "city": "Stadtverwaltung"
+  },
+  "53104": {
+    "lat": 50.7122,
+    "lon": 7.0601,
+    "city": "Agentur für Arbeit Bonn"
+  },
+  "53105": {
+    "lat": 50.7288,
+    "lon": 7.1003,
+    "city": "Landgericht"
+  },
+  "53106": {
+    "lat": 50.7134,
+    "lon": 7.1234,
+    "city": "Inforum"
+  },
+  "53107": {
+    "lat": 50.717,
+    "lon": 7.0596,
+    "city": "Streitkräfteamt -Außenstelle-"
+  },
+  "53108": {
+    "lat": 50.7417,
+    "lon": 7.0807,
+    "city": "Schmitz KG"
+  },
+  "53109": {
+    "lat": 50.7309,
+    "lon": 7.0945,
+    "city": "Streitkräfteamt"
+  },
+  "53110": {
+    "lat": 50.716,
+    "lon": 7.1284,
+    "city": "Deutsche Welle"
+  },
+  "53111": {
+    "lat": 50.7362,
+    "lon": 7.1002,
+    "city": "Bonn"
+  },
+  "53113": {
+    "lat": 50.7231,
+    "lon": 7.1068,
+    "city": "Bonn"
+  },
+  "53115": {
+    "lat": 50.7272,
+    "lon": 7.0851,
+    "city": "Bonn"
+  },
+  "53117": {
+    "lat": 50.761,
+    "lon": 7.063,
+    "city": "Bonn"
+  },
+  "53119": {
+    "lat": 50.7431,
+    "lon": 7.059,
+    "city": "Bonn"
+  },
+  "53121": {
+    "lat": 50.7317,
+    "lon": 7.0575,
+    "city": "Bonn"
+  },
+  "53123": {
+    "lat": 50.711,
+    "lon": 7.0489,
+    "city": "Bonn"
+  },
+  "53125": {
+    "lat": 50.7333,
+    "lon": 7.1,
+    "city": "Bonn"
+  },
+  "53127": {
+    "lat": 50.7112,
+    "lon": 7.0668,
+    "city": "Bonn"
+  },
+  "53129": {
+    "lat": 50.7207,
+    "lon": 7.107,
+    "city": "Bonn"
+  },
+  "53160": {
+    "lat": 50.7048,
+    "lon": 7.1409,
+    "city": "Aktion Mensch"
+  },
+  "53168": {
+    "lat": 50.6733,
+    "lon": 7.1828,
+    "city": "Bundesanstalt für Landwirtschaft und Ernährung"
+  },
+  "53169": {
+    "lat": 50.7351,
+    "lon": 7.0717,
+    "city": "Telekom Deutschland GmbH Segment Geschäftskunden"
+  },
+  "53170": {
+    "lat": 50.6944,
+    "lon": 7.1496,
+    "city": "Botschaft USA"
+  },
+  "53171": {
+    "lat": 50.7114,
+    "lon": 7.1264,
+    "city": "Deutsche Telekom Kundenservice GmbH"
+  },
+  "53173": {
+    "lat": 50.6902,
+    "lon": 7.1666,
+    "city": "Bonn"
+  },
+  "53175": {
+    "lat": 50.6975,
+    "lon": 7.1417,
+    "city": "Bonn"
+  },
+  "53177": {
+    "lat": 50.6813,
+    "lon": 7.1546,
+    "city": "Bonn"
+  },
+  "53179": {
+    "lat": 50.6653,
+    "lon": 7.1822,
+    "city": "Bonn"
+  },
+  "53221": {
+    "lat": 50.745,
+    "lon": 7.1247,
+    "city": "Bundeszentralamt für Steuern"
+  },
+  "53222": {
+    "lat": 50.7506,
+    "lon": 7.1305,
+    "city": "Rathaus Beuel"
+  },
+  "53223": {
+    "lat": 50.7191,
+    "lon": 7.1519,
+    "city": "SER Solutions Deutschland GmbH"
+  },
+  "53225": {
+    "lat": 50.7462,
+    "lon": 7.1294,
+    "city": "Bonn"
+  },
+  "53227": {
+    "lat": 50.7248,
+    "lon": 7.1555,
+    "city": "Bonn"
+  },
+  "53229": {
+    "lat": 50.7323,
+    "lon": 7.1847,
+    "city": "Bonn"
+  },
+  "53241": {
+    "lat": 50.7191,
+    "lon": 7.117,
+    "city": "Postbank eine Niederlassung der Deutsche Bank AG"
+  },
+  "53243": {
+    "lat": 50.7191,
+    "lon": 7.117,
+    "city": "Postbank eine Niederlassung der Deutsche Bank AG"
+  },
+  "53245": {
+    "lat": 50.7191,
+    "lon": 7.117,
+    "city": "Postbank eine Niederlassung der Deutsche Bank AG"
+  },
+  "53247": {
+    "lat": 50.7156,
+    "lon": 7.1305,
+    "city": "Deutsche Post AG Kundenservice"
+  },
+  "53248": {
+    "lat": 50.7123,
+    "lon": 7.1346,
+    "city": "Kundenservice Paket"
+  },
+  "53249": {
+    "lat": 50.7241,
+    "lon": 7.0645,
+    "city": "HUK-Coburg"
+  },
+  "53250": {
+    "lat": 50.7156,
+    "lon": 7.1305,
+    "city": "Deutsche Post AG Zentrale"
+  },
+  "53251": {
+    "lat": 50.7156,
+    "lon": 7.1305,
+    "city": "Deutsche Post AG Bewerberservice"
+  },
+  "53252": {
+    "lat": 50.7048,
+    "lon": 7.1409,
+    "city": "Volksbank Köln Bonn eG"
+  },
+  "53253": {
+    "lat": 50.8277,
+    "lon": 7.0993,
+    "city": "Deutsche Post AG Niederlassung Betrieb Bonn"
+  },
+  "53254": {
+    "lat": 50.7156,
+    "lon": 7.1305,
+    "city": "Deutsche Post EuroExpress Deutschland GmbH & Co. OHG"
+  },
+  "53255": {
+    "lat": 50.7565,
+    "lon": 7.0908,
+    "city": "Deutsche Bank 24"
+  },
+  "53262": {
+    "lat": 50.7114,
+    "lon": 7.1264,
+    "city": "Deutsche Telekom AG"
+  },
+  "53284": {
+    "lat": 50.716,
+    "lon": 7.1284,
+    "city": "Infas-Institut fÃ¼r angewandte Sozialwissenschaft GmbH"
+  },
+  "53285": {
+    "lat": 50.728,
+    "lon": 7.0955,
+    "city": "Zurich Service GmbH"
+  },
+  "53286": {
+    "lat": 50.728,
+    "lon": 7.0955,
+    "city": "Zurich Service GmbH"
+  },
+  "53287": {
+    "lat": 50.728,
+    "lon": 7.0955,
+    "city": "Zurich Service GmbH"
+  },
+  "53288": {
+    "lat": 50.728,
+    "lon": 7.0955,
+    "city": "Zurich Service GmbH"
+  },
+  "53289": {
+    "lat": 48.1544,
+    "lon": 11.5886,
+    "city": "ADAC Autoversicherungs AG c/o Allianz Deutschland AG"
+  },
+  "53330": {
+    "lat": 50.7577,
+    "lon": 7.0046,
+    "city": "Stadtverwaltung"
+  },
+  "53332": {
+    "lat": 50.7631,
+    "lon": 6.9909,
+    "city": "Bornheim"
+  },
+  "53338": {
+    "lat": 50.6357,
+    "lon": 7.0314,
+    "city": "Hobein"
+  },
+  "53340": {
+    "lat": 50.6239,
+    "lon": 7.0294,
+    "city": "Meckenheim"
+  },
+  "53343": {
+    "lat": 50.6333,
+    "lon": 7.1,
+    "city": "Wachtberg"
+  },
+  "53347": {
+    "lat": 50.7333,
+    "lon": 7.0167,
+    "city": "Alfter"
+  },
+  "53357": {
+    "lat": 50.6271,
+    "lon": 6.9496,
+    "city": "Amtsgericht"
+  },
+  "53359": {
+    "lat": 50.6256,
+    "lon": 6.9491,
+    "city": "Rheinbach"
+  },
+  "53423": {
+    "lat": 50.5637,
+    "lon": 7.2488,
+    "city": "rz-Media GmbH"
+  },
+  "53424": {
+    "lat": 50.5788,
+    "lon": 7.227,
+    "city": "Remagen"
+  },
+  "53426": {
+    "lat": 50.492,
+    "lon": 7.1689,
+    "city": "Dedenbach"
+  },
+  "53455": {
+    "lat": 50.5714,
+    "lon": 7.0935,
+    "city": "HARIBO GmbH & Co. KG"
+  },
+  "53470": {
+    "lat": 50.5516,
+    "lon": 7.0545,
+    "city": "Norizia-Kellereien GmbH"
+  },
+  "53474": {
+    "lat": 50.5432,
+    "lon": 7.1113,
+    "city": "Bad Neuenahr-Ahrweiler"
+  },
+  "53489": {
+    "lat": 50.5438,
+    "lon": 7.2464,
+    "city": "Sinzig"
+  },
+  "53498": {
+    "lat": 50.4906,
+    "lon": 7.2629,
+    "city": "Waldorf"
+  },
+  "53501": {
+    "lat": 50.5833,
+    "lon": 7.0667,
+    "city": "Grafschaft"
+  },
+  "53505": {
+    "lat": 50.5362,
+    "lon": 6.9602,
+    "city": "Berg"
+  },
+  "53506": {
+    "lat": 50.486,
+    "lon": 6.9952,
+    "city": "Rech"
+  },
+  "53507": {
+    "lat": 50.5333,
+    "lon": 7.05,
+    "city": "Dernau"
+  },
+  "53508": {
+    "lat": 50.5208,
+    "lon": 7.0169,
+    "city": "Mayschoß"
+  },
+  "53518": {
+    "lat": 50.365,
+    "lon": 6.9305,
+    "city": "Adenau"
+  },
+  "53520": {
+    "lat": 50.3994,
+    "lon": 6.8877,
+    "city": "Drees"
+  },
+  "53533": {
+    "lat": 50.4075,
+    "lon": 6.8224,
+    "city": "Müsch"
+  },
+  "53534": {
+    "lat": 50.3534,
+    "lon": 6.8599,
+    "city": "Wirft"
+  },
+  "53539": {
+    "lat": 50.3094,
+    "lon": 6.9066,
+    "city": "Borler"
+  },
+  "53545": {
+    "lat": 50.5725,
+    "lon": 7.2799,
+    "city": "Ockenfels"
+  },
+  "53547": {
+    "lat": 50.5657,
+    "lon": 7.3756,
+    "city": "Roßbach"
+  },
+  "53557": {
+    "lat": 50.5169,
+    "lon": 7.312,
+    "city": "Bad Hönningen"
+  },
+  "53560": {
+    "lat": 50.6167,
+    "lon": 7.35,
+    "city": "Vettelschoß"
+  },
+  "53562": {
+    "lat": 50.5833,
+    "lon": 7.3833,
+    "city": "Sankt Katharinen"
+  },
+  "53567": {
+    "lat": 50.6767,
+    "lon": 7.406,
+    "city": "Asbach"
+  },
+  "53572": {
+    "lat": 50.5983,
+    "lon": 7.2345,
+    "city": "Unkel"
+  },
+  "53577": {
+    "lat": 50.6209,
+    "lon": 7.4325,
+    "city": "Neustadt (Wied)"
+  },
+  "53578": {
+    "lat": 50.6412,
+    "lon": 7.3535,
+    "city": "Windhagen"
+  },
+  "53579": {
+    "lat": 50.5833,
+    "lon": 7.2333,
+    "city": "Erpel"
+  },
+  "53602": {
+    "lat": 50.6341,
+    "lon": 7.2227,
+    "city": "Delu-Fabrik Hans Becker GmbH & Co. KG"
+  },
+  "53604": {
+    "lat": 50.6434,
+    "lon": 7.2278,
+    "city": "Bad Honnef"
+  },
+  "53619": {
+    "lat": 50.6167,
+    "lon": 7.2333,
+    "city": "Rheinbreitbach"
+  },
+  "53637": {
+    "lat": 50.6913,
+    "lon": 7.2069,
+    "city": "CDA"
+  },
+  "53639": {
+    "lat": 50.7026,
+    "lon": 7.2584,
+    "city": "Königswinter"
+  },
+  "53717": {
+    "lat": 50.7949,
+    "lon": 7.2041,
+    "city": "VR-Bank Rhein-Sieg"
+  },
+  "53718": {
+    "lat": 50.7941,
+    "lon": 7.2758,
+    "city": "Ahrens + Sieberz"
+  },
+  "53719": {
+    "lat": 50.7963,
+    "lon": 7.2076,
+    "city": "rhenag"
+  },
+  "53721": {
+    "lat": 50.8002,
+    "lon": 7.2077,
+    "city": "Siegburg"
+  },
+  "53754": {
+    "lat": 50.771,
+    "lon": 7.1885,
+    "city": "Bundeswehr"
+  },
+  "53757": {
+    "lat": 50.7754,
+    "lon": 7.197,
+    "city": "Sankt Augustin"
+  },
+  "53773": {
+    "lat": 50.7756,
+    "lon": 7.2831,
+    "city": "Hennef"
+  },
+  "53783": {
+    "lat": 50.7667,
+    "lon": 7.45,
+    "city": "Eitorf"
+  },
+  "53797": {
+    "lat": 50.8387,
+    "lon": 7.214,
+    "city": "Lohmar"
+  },
+  "53804": {
+    "lat": 50.8747,
+    "lon": 7.3537,
+    "city": "Much"
+  },
+  "53809": {
+    "lat": 50.8437,
+    "lon": 7.4841,
+    "city": "Ruppichteroth"
+  },
+  "53819": {
+    "lat": 50.8667,
+    "lon": 7.325,
+    "city": "Neunkirchen-Seelscheid"
+  },
+  "53839": {
+    "lat": 50.8147,
+    "lon": 7.1457,
+    "city": "Gerflor MIPOLAM GmbH"
+  },
+  "53840": {
+    "lat": 50.8152,
+    "lon": 7.172,
+    "city": "Troisdorf"
+  },
+  "53842": {
+    "lat": 50.8189,
+    "lon": 7.1189,
+    "city": "Troisdorf"
+  },
+  "53844": {
+    "lat": 50.8015,
+    "lon": 7.1271,
+    "city": "Troisdorf"
+  },
+  "53859": {
+    "lat": 50.815,
+    "lon": 7.0378,
+    "city": "Niederkassel"
+  },
+  "53877": {
+    "lat": 50.6632,
+    "lon": 6.802,
+    "city": "Telekom"
+  },
+  "53879": {
+    "lat": 50.6606,
+    "lon": 6.7872,
+    "city": "Euskirchen"
+  },
+  "53881": {
+    "lat": 50.6272,
+    "lon": 6.8478,
+    "city": "Euskirchen"
+  },
+  "53884": {
+    "lat": 50.587,
+    "lon": 6.6505,
+    "city": "Feldpostleitstelle Mechernich"
+  },
+  "53894": {
+    "lat": 50.6399,
+    "lon": 6.7042,
+    "city": "Mechernich"
+  },
+  "53902": {
+    "lat": 50.5567,
+    "lon": 6.7642,
+    "city": "Bad Münstereifel"
+  },
+  "53909": {
+    "lat": 50.7,
+    "lon": 6.65,
+    "city": "Zülpich"
+  },
+  "53913": {
+    "lat": 50.7,
+    "lon": 6.9167,
+    "city": "Swisttal"
+  },
+  "53919": {
+    "lat": 50.7529,
+    "lon": 6.8458,
+    "city": "Weilerswist"
+  },
+  "53925": {
+    "lat": 50.5422,
+    "lon": 6.563,
+    "city": "Kall"
+  },
+  "53937": {
+    "lat": 50.529,
+    "lon": 6.4769,
+    "city": "Schleiden"
+  },
+  "53940": {
+    "lat": 50.4412,
+    "lon": 6.4361,
+    "city": "Hellenthal"
+  },
+  "53945": {
+    "lat": 50.4333,
+    "lon": 6.65,
+    "city": "Blankenheim"
+  },
+  "53947": {
+    "lat": 50.4937,
+    "lon": 6.629,
+    "city": "Nettersheim"
+  },
+  "53949": {
+    "lat": 50.3861,
+    "lon": 6.5477,
+    "city": "Dahlem"
+  },
+  "54187": {
+    "lat": 49.7708,
+    "lon": 6.6704,
+    "city": "Agentur für Arbeit Trier"
+  },
+  "54189": {
+    "lat": 49.7487,
+    "lon": 6.6187,
+    "city": "Westnetz GmbH Zentraler Rechnungseingang"
+  },
+  "54190": {
+    "lat": 49.7986,
+    "lon": 6.693,
+    "city": "Deutsche Post AG Niederlassung BRIEF Trier"
+  },
+  "54286": {
+    "lat": 49.7457,
+    "lon": 6.6884,
+    "city": "Universität Trier"
+  },
+  "54287": {
+    "lat": 49.7603,
+    "lon": 6.6504,
+    "city": "Deutsche Telekom Niederlassung Trier"
+  },
+  "54290": {
+    "lat": 49.7537,
+    "lon": 6.6393,
+    "city": "Trier"
+  },
+  "54292": {
+    "lat": 49.7728,
+    "lon": 6.6645,
+    "city": "Trier"
+  },
+  "54293": {
+    "lat": 49.75,
+    "lon": 6.6333,
+    "city": "Trier"
+  },
+  "54294": {
+    "lat": 49.744,
+    "lon": 6.6188,
+    "city": "Trier"
+  },
+  "54295": {
+    "lat": 49.75,
+    "lon": 6.6333,
+    "city": "Trier"
+  },
+  "54296": {
+    "lat": 49.75,
+    "lon": 6.6333,
+    "city": "Trier"
+  },
+  "54298": {
+    "lat": 49.7888,
+    "lon": 6.5841,
+    "city": "Igel"
+  },
+  "54306": {
+    "lat": 49.8333,
+    "lon": 6.6333,
+    "city": "Kordel"
+  },
+  "54308": {
+    "lat": 49.7244,
+    "lon": 6.4991,
+    "city": "Langsur"
+  },
+  "54309": {
+    "lat": 49.8124,
+    "lon": 6.583,
+    "city": "Newel"
+  },
+  "54310": {
+    "lat": 49.8278,
+    "lon": 6.4833,
+    "city": "Minden"
+  },
+  "54311": {
+    "lat": 49.7623,
+    "lon": 6.5599,
+    "city": "Trierweiler"
+  },
+  "54313": {
+    "lat": 49.9,
+    "lon": 6.7,
+    "city": "Zemmer"
+  },
+  "54314": {
+    "lat": 49.6167,
+    "lon": 6.6861,
+    "city": "Zerf"
+  },
+  "54316": {
+    "lat": 49.6778,
+    "lon": 6.7232,
+    "city": "Pluwig"
+  },
+  "54317": {
+    "lat": 49.7261,
+    "lon": 6.769,
+    "city": "Herl"
+  },
+  "54318": {
+    "lat": 49.7721,
+    "lon": 6.7329,
+    "city": "Mertesdorf"
+  },
+  "54320": {
+    "lat": 49.7462,
+    "lon": 6.7454,
+    "city": "Waldrach"
+  },
+  "54329": {
+    "lat": 49.7005,
+    "lon": 6.5765,
+    "city": "Konz"
+  },
+  "54331": {
+    "lat": 49.6925,
+    "lon": 6.5887,
+    "city": "Pellingen"
+  },
+  "54332": {
+    "lat": 49.7074,
+    "lon": 6.5394,
+    "city": "Wasserliesch"
+  },
+  "54338": {
+    "lat": 49.811,
+    "lon": 6.768,
+    "city": "Longen"
+  },
+  "54340": {
+    "lat": 49.8275,
+    "lon": 6.8273,
+    "city": "Riol"
+  },
+  "54341": {
+    "lat": 49.7667,
+    "lon": 6.7833,
+    "city": "Fell"
+  },
+  "54343": {
+    "lat": 49.8593,
+    "lon": 6.7648,
+    "city": "Föhren"
+  },
+  "54344": {
+    "lat": 49.8,
+    "lon": 6.7167,
+    "city": "Kenn"
+  },
+  "54346": {
+    "lat": 49.8,
+    "lon": 6.8333,
+    "city": "Mehring"
+  },
+  "54347": {
+    "lat": 49.8555,
+    "lon": 6.8978,
+    "city": "Neumagen-Dhron"
+  },
+  "54349": {
+    "lat": 49.8247,
+    "lon": 6.8993,
+    "city": "Trittenheim"
+  },
+  "54411": {
+    "lat": 49.724,
+    "lon": 7.0147,
+    "city": "Rorodt"
+  },
+  "54413": {
+    "lat": 49.6905,
+    "lon": 6.9214,
+    "city": "Damflos"
+  },
+  "54421": {
+    "lat": 49.6917,
+    "lon": 6.8917,
+    "city": "Reinsfeld"
+  },
+  "54422": {
+    "lat": 49.6587,
+    "lon": 7.0328,
+    "city": "Züsch"
+  },
+  "54424": {
+    "lat": 49.754,
+    "lon": 6.9883,
+    "city": "Etgert"
+  },
+  "54426": {
+    "lat": 49.7659,
+    "lon": 6.9551,
+    "city": "Breit"
+  },
+  "54427": {
+    "lat": 49.6331,
+    "lon": 6.8222,
+    "city": "Kell am See"
+  },
+  "54429": {
+    "lat": 49.625,
+    "lon": 6.775,
+    "city": "Heddert"
+  },
+  "54439": {
+    "lat": 49.5933,
+    "lon": 6.4693,
+    "city": "Fisch"
+  },
+  "54441": {
+    "lat": 49.6195,
+    "lon": 6.5349,
+    "city": "Ayl"
+  },
+  "54450": {
+    "lat": 49.5435,
+    "lon": 6.5329,
+    "city": "Freudenburg"
+  },
+  "54451": {
+    "lat": 49.6049,
+    "lon": 6.5955,
+    "city": "Irsch"
+  },
+  "54453": {
+    "lat": 49.65,
+    "lon": 6.45,
+    "city": "Nittel"
+  },
+  "54455": {
+    "lat": 49.5752,
+    "lon": 6.5745,
+    "city": "Serrig"
+  },
+  "54456": {
+    "lat": 49.6584,
+    "lon": 6.5,
+    "city": "Tawern"
+  },
+  "54457": {
+    "lat": 49.609,
+    "lon": 6.426,
+    "city": "Wincheringen"
+  },
+  "54459": {
+    "lat": 49.6592,
+    "lon": 6.5926,
+    "city": "Wiltingen"
+  },
+  "54469": {
+    "lat": 49.9195,
+    "lon": 7.0636,
+    "city": "Amtsgericht"
+  },
+  "54470": {
+    "lat": 49.9224,
+    "lon": 7.0522,
+    "city": "Graach"
+  },
+  "54472": {
+    "lat": 49.8867,
+    "lon": 7.0743,
+    "city": "Burgen"
+  },
+  "54483": {
+    "lat": 49.9,
+    "lon": 7.1833,
+    "city": "Kleinich"
+  },
+  "54484": {
+    "lat": 49.9333,
+    "lon": 7,
+    "city": "Maring-Noviand"
+  },
+  "54486": {
+    "lat": 49.9125,
+    "lon": 7.0195,
+    "city": "Mülheim"
+  },
+  "54487": {
+    "lat": 49.8833,
+    "lon": 6.95,
+    "city": "Wintrich"
+  },
+  "54492": {
+    "lat": 49.9667,
+    "lon": 7.0222,
+    "city": "Erden"
+  },
+  "54497": {
+    "lat": 49.8093,
+    "lon": 7.0565,
+    "city": "Horath"
+  },
+  "54498": {
+    "lat": 49.8864,
+    "lon": 6.9165,
+    "city": "Piesport"
+  },
+  "54516": {
+    "lat": 50.0014,
+    "lon": 6.9132,
+    "city": "Flußbach"
+  },
+  "54518": {
+    "lat": 49.9383,
+    "lon": 6.8312,
+    "city": "Esch"
+  },
+  "54523": {
+    "lat": 49.8917,
+    "lon": 6.7834,
+    "city": "Hetzerath"
+  },
+  "54524": {
+    "lat": 49.9,
+    "lon": 6.8833,
+    "city": "Klausen"
+  },
+  "54526": {
+    "lat": 49.9833,
+    "lon": 6.7667,
+    "city": "Landscheid"
+  },
+  "54528": {
+    "lat": 49.9333,
+    "lon": 6.85,
+    "city": "Salmtal"
+  },
+  "54529": {
+    "lat": 49.9833,
+    "lon": 6.6833,
+    "city": "Spangdahlem"
+  },
+  "54531": {
+    "lat": 50.0982,
+    "lon": 6.8266,
+    "city": "Eckfeld"
+  },
+  "54533": {
+    "lat": 50.0542,
+    "lon": 6.8378,
+    "city": "Hasborn"
+  },
+  "54534": {
+    "lat": 50.032,
+    "lon": 6.808,
+    "city": "Karl"
+  },
+  "54536": {
+    "lat": 49.9833,
+    "lon": 7.0833,
+    "city": "Kröv"
+  },
+  "54538": {
+    "lat": 50.0182,
+    "lon": 7.0123,
+    "city": "Bengel"
+  },
+  "54539": {
+    "lat": 49.9794,
+    "lon": 7.0061,
+    "city": "Ürzig"
+  },
+  "54550": {
+    "lat": 50.1972,
+    "lon": 6.8294,
+    "city": "Daun"
+  },
+  "54552": {
+    "lat": 50.205,
+    "lon": 6.8879,
+    "city": "Udler"
+  },
+  "54558": {
+    "lat": 50.1222,
+    "lon": 6.9174,
+    "city": "Winkel"
+  },
+  "54567": {
+    "lat": 50.2409,
+    "lon": 6.66,
+    "city": "Rocky Venture Capital GmbH"
+  },
+  "54568": {
+    "lat": 50.2222,
+    "lon": 6.6598,
+    "city": "Gerolstein"
+  },
+  "54570": {
+    "lat": 50.1832,
+    "lon": 6.7121,
+    "city": "Salm"
+  },
+  "54574": {
+    "lat": 50.1833,
+    "lon": 6.6083,
+    "city": "Kopp"
+  },
+  "54576": {
+    "lat": 50.2793,
+    "lon": 6.6682,
+    "city": "Hillesheim"
+  },
+  "54578": {
+    "lat": 50.3048,
+    "lon": 6.7,
+    "city": "Nohn"
+  },
+  "54579": {
+    "lat": 50.35,
+    "lon": 6.75,
+    "city": "Üxheim"
+  },
+  "54584": {
+    "lat": 50.3425,
+    "lon": 6.5994,
+    "city": "Feusdorf"
+  },
+  "54585": {
+    "lat": 50.3667,
+    "lon": 6.6167,
+    "city": "Esch"
+  },
+  "54586": {
+    "lat": 50.3333,
+    "lon": 6.5833,
+    "city": "Schüller"
+  },
+  "54587": {
+    "lat": 50.3167,
+    "lon": 6.6084,
+    "city": "Birgel"
+  },
+  "54589": {
+    "lat": 50.35,
+    "lon": 6.5167,
+    "city": "Stadtkyll"
+  },
+  "54595": {
+    "lat": 50.2013,
+    "lon": 6.4006,
+    "city": "Prüm"
+  },
+  "54597": {
+    "lat": 50.188,
+    "lon": 6.4334,
+    "city": "Roth"
+  },
+  "54608": {
+    "lat": 50.2338,
+    "lon": 6.2927,
+    "city": "Buchet"
+  },
+  "54610": {
+    "lat": 50.2167,
+    "lon": 6.55,
+    "city": "Büdesheim"
+  },
+  "54611": {
+    "lat": 50.3568,
+    "lon": 6.43,
+    "city": "Scheid"
+  },
+  "54612": {
+    "lat": 50.1111,
+    "lon": 6.4778,
+    "city": "Lasel"
+  },
+  "54614": {
+    "lat": 50.1553,
+    "lon": 6.4377,
+    "city": "Giesdorf"
+  },
+  "54616": {
+    "lat": 50.2167,
+    "lon": 6.2167,
+    "city": "Winterspelt"
+  },
+  "54617": {
+    "lat": 50.1333,
+    "lon": 6.1722,
+    "city": "Harspelt"
+  },
+  "54619": {
+    "lat": 50.1314,
+    "lon": 6.2218,
+    "city": "Reiff"
+  },
+  "54634": {
+    "lat": 49.9529,
+    "lon": 6.5233,
+    "city": "Bitburg"
+  },
+  "54636": {
+    "lat": 49.9819,
+    "lon": 6.4825,
+    "city": "Hamm"
+  },
+  "54646": {
+    "lat": 49.9469,
+    "lon": 6.3743,
+    "city": "Burg"
+  },
+  "54647": {
+    "lat": 49.9778,
+    "lon": 6.6333,
+    "city": "Gondorf"
+  },
+  "54649": {
+    "lat": 50.0948,
+    "lon": 6.3724,
+    "city": "Mauel"
+  },
+  "54655": {
+    "lat": 50.055,
+    "lon": 6.5999,
+    "city": "Usch"
+  },
+  "54657": {
+    "lat": 50.0389,
+    "lon": 6.6056,
+    "city": "Badem"
+  },
+  "54662": {
+    "lat": 49.9458,
+    "lon": 6.6583,
+    "city": "Herforst"
+  },
+  "54664": {
+    "lat": 49.9022,
+    "lon": 6.6217,
+    "city": "Hosten"
+  },
+  "54666": {
+    "lat": 49.8454,
+    "lon": 6.457,
+    "city": "Irrel"
+  },
+  "54668": {
+    "lat": 49.8721,
+    "lon": 6.4302,
+    "city": "Ernzen"
+  },
+  "54669": {
+    "lat": 49.8527,
+    "lon": 6.3579,
+    "city": "Bollendorf"
+  },
+  "54673": {
+    "lat": 50.0113,
+    "lon": 6.2489,
+    "city": "Gemünd"
+  },
+  "54675": {
+    "lat": 49.936,
+    "lon": 6.2962,
+    "city": "Lahr"
+  },
+  "54687": {
+    "lat": 50.0896,
+    "lon": 6.2707,
+    "city": "Arzfeld"
+  },
+  "54689": {
+    "lat": 50.0518,
+    "lon": 6.1818,
+    "city": "Dahnen"
+  },
+  "55097": {
+    "lat": 49.9818,
+    "lon": 8.2902,
+    "city": "HUK-Coburg"
+  },
+  "55098": {
+    "lat": 50.0161,
+    "lon": 8.2541,
+    "city": "Landesbank Baden-WÃ¼rttemberg / Rheinland-Pfalz"
+  },
+  "55099": {
+    "lat": 49.9958,
+    "lon": 8.2464,
+    "city": "Johannes-Gutenberg-UniversitÃ¤t"
+  },
+  "55100": {
+    "lat": 49.9639,
+    "lon": 8.2059,
+    "city": "ZDF Sendezentrum"
+  },
+  "55101": {
+    "lat": 49.993,
+    "lon": 8.2592,
+    "city": "Universitätsmedizin der Johannes-Gutenberg-Universität Mainz"
+  },
+  "55116": {
+    "lat": 50.001,
+    "lon": 8.2688,
+    "city": "Mainz"
+  },
+  "55118": {
+    "lat": 50,
+    "lon": 8.2711,
+    "city": "Mainz"
+  },
+  "55120": {
+    "lat": 50.0196,
+    "lon": 8.2321,
+    "city": "Mainz"
+  },
+  "55122": {
+    "lat": 49.995,
+    "lon": 8.237,
+    "city": "Mainz"
+  },
+  "55124": {
+    "lat": 50.0025,
+    "lon": 8.2148,
+    "city": "Mainz"
+  },
+  "55126": {
+    "lat": 49.9836,
+    "lon": 8.1767,
+    "city": "Mainz"
+  },
+  "55127": {
+    "lat": 50,
+    "lon": 8.2711,
+    "city": "Mainz"
+  },
+  "55128": {
+    "lat": 49.9808,
+    "lon": 8.2422,
+    "city": "Mainz"
+  },
+  "55129": {
+    "lat": 49.9661,
+    "lon": 8.2663,
+    "city": "Mainz"
+  },
+  "55130": {
+    "lat": 49.9873,
+    "lon": 8.2965,
+    "city": "Mainz"
+  },
+  "55131": {
+    "lat": 49.9823,
+    "lon": 8.2609,
+    "city": "Mainz"
+  },
+  "55146": {
+    "lat": 50.0039,
+    "lon": 8.2467,
+    "city": "Südwestrundfunk"
+  },
+  "55147": {
+    "lat": 49.997,
+    "lon": 8.2546,
+    "city": "Agentur für Arbeit Mainz"
+  },
+  "55148": {
+    "lat": 49.9949,
+    "lon": 8.228,
+    "city": "Deutsche Bundesbank Servicezentrum Außenwirtschaftsstatistik"
+  },
+  "55149": {
+    "lat": 49.997,
+    "lon": 8.2546,
+    "city": "Familienkasse Rheinland-Pfalz-Saarland"
+  },
+  "55150": {
+    "lat": 49.9609,
+    "lon": 8.2532,
+    "city": "Deutsche Post AG Niederlassung BRIEF Mainz"
+  },
+  "55218": {
+    "lat": 49.9708,
+    "lon": 8.0588,
+    "city": "Ingelheim am Rhein"
+  },
+  "55232": {
+    "lat": 49.7765,
+    "lon": 8.1154,
+    "city": "Alzey"
+  },
+  "55234": {
+    "lat": 49.7354,
+    "lon": 8.1146,
+    "city": "Nack"
+  },
+  "55237": {
+    "lat": 49.7822,
+    "lon": 8.059,
+    "city": "Flonheim"
+  },
+  "55239": {
+    "lat": 49.7847,
+    "lon": 8.1942,
+    "city": "Gau-Odernheim"
+  },
+  "55246": {
+    "lat": 50.0051,
+    "lon": 8.3134,
+    "city": "Mainz-Kostheim"
+  },
+  "55252": {
+    "lat": 50.0102,
+    "lon": 8.2844,
+    "city": "Mainz-Kastel"
+  },
+  "55257": {
+    "lat": 50.0167,
+    "lon": 8.1667,
+    "city": "Budenheim"
+  },
+  "55262": {
+    "lat": 50,
+    "lon": 8.1261,
+    "city": "Heidesheim am Rhein"
+  },
+  "55263": {
+    "lat": 49.9744,
+    "lon": 8.1167,
+    "city": "Wackernheim"
+  },
+  "55266": {
+    "lat": 49.9048,
+    "lon": 8.2036,
+    "city": "Freixenet GmbH"
+  },
+  "55268": {
+    "lat": 49.9117,
+    "lon": 8.2053,
+    "city": "Nieder-Olm"
+  },
+  "55270": {
+    "lat": 49.9146,
+    "lon": 8.1451,
+    "city": "Ober-Olm"
+  },
+  "55271": {
+    "lat": 49.9122,
+    "lon": 8.1253,
+    "city": "Stadecken-Elsheim"
+  },
+  "55276": {
+    "lat": 49.846,
+    "lon": 8.3547,
+    "city": "Dienheim"
+  },
+  "55278": {
+    "lat": 49.833,
+    "lon": 8.2725,
+    "city": "Selzen"
+  },
+  "55283": {
+    "lat": 49.87,
+    "lon": 8.3365,
+    "city": "Nierstein"
+  },
+  "55286": {
+    "lat": 49.8459,
+    "lon": 8.1079,
+    "city": "Sulzheim"
+  },
+  "55288": {
+    "lat": 49.8371,
+    "lon": 8.1243,
+    "city": "Udenheim"
+  },
+  "55291": {
+    "lat": 49.8774,
+    "lon": 8.1363,
+    "city": "Saulheim"
+  },
+  "55294": {
+    "lat": 49.9353,
+    "lon": 8.32,
+    "city": "Bodenheim"
+  },
+  "55296": {
+    "lat": 49.9065,
+    "lon": 8.2772,
+    "city": "Harxheim"
+  },
+  "55299": {
+    "lat": 49.9153,
+    "lon": 8.3389,
+    "city": "Nackenheim"
+  },
+  "55408": {
+    "lat": 49.9692,
+    "lon": 7.9362,
+    "city": "Alfa Metalcraft Corporation Handelsgesellschaft mbH"
+  },
+  "55409": {
+    "lat": 49.9607,
+    "lon": 7.9137,
+    "city": "Edeka"
+  },
+  "55411": {
+    "lat": 49.9667,
+    "lon": 7.8992,
+    "city": "Bingen am Rhein"
+  },
+  "55413": {
+    "lat": 50.014,
+    "lon": 7.8075,
+    "city": "Weiler"
+  },
+  "55422": {
+    "lat": 50.0536,
+    "lon": 7.7348,
+    "city": "Bacharach"
+  },
+  "55424": {
+    "lat": 49.9434,
+    "lon": 7.8943,
+    "city": "Münster-Sarmsheim"
+  },
+  "55425": {
+    "lat": 49.95,
+    "lon": 7.8333,
+    "city": "Waldalgesheim"
+  },
+  "55430": {
+    "lat": 50.1026,
+    "lon": 7.714,
+    "city": "Urbar"
+  },
+  "55432": {
+    "lat": 50.1084,
+    "lon": 7.6917,
+    "city": "Damscheid"
+  },
+  "55435": {
+    "lat": 49.9567,
+    "lon": 8.0157,
+    "city": "Gau-Algesheim"
+  },
+  "55437": {
+    "lat": 49.9218,
+    "lon": 8.0189,
+    "city": "Appenheim"
+  },
+  "55442": {
+    "lat": 49.9485,
+    "lon": 7.7766,
+    "city": "Roth"
+  },
+  "55444": {
+    "lat": 49.9354,
+    "lon": 7.7532,
+    "city": "Eckenroth"
+  },
+  "55450": {
+    "lat": 49.9,
+    "lon": 7.9,
+    "city": "Langenlonsheim"
+  },
+  "55452": {
+    "lat": 49.9093,
+    "lon": 7.844,
+    "city": "Dorsheim"
+  },
+  "55457": {
+    "lat": 49.9,
+    "lon": 7.95,
+    "city": "Gensingen"
+  },
+  "55459": {
+    "lat": 49.9042,
+    "lon": 7.9497,
+    "city": "Aspisheim"
+  },
+  "55469": {
+    "lat": 49.995,
+    "lon": 7.5328,
+    "city": "Horn"
+  },
+  "55471": {
+    "lat": 49.9798,
+    "lon": 7.4822,
+    "city": "Külz"
+  },
+  "55481": {
+    "lat": 49.946,
+    "lon": 7.3898,
+    "city": "Hecken"
+  },
+  "55483": {
+    "lat": 49.9251,
+    "lon": 7.3382,
+    "city": "Kappel"
+  },
+  "55487": {
+    "lat": 49.916,
+    "lon": 7.331,
+    "city": "Dill"
+  },
+  "55490": {
+    "lat": 49.8852,
+    "lon": 7.4629,
+    "city": "Henau"
+  },
+  "55491": {
+    "lat": 49.907,
+    "lon": 7.2711,
+    "city": "Wahlenau"
+  },
+  "55494": {
+    "lat": 50.0171,
+    "lon": 7.6431,
+    "city": "Erbach"
+  },
+  "55496": {
+    "lat": 49.9667,
+    "lon": 7.6,
+    "city": "Argenthal"
+  },
+  "55497": {
+    "lat": 49.9825,
+    "lon": 7.6303,
+    "city": "Ellern"
+  },
+  "55499": {
+    "lat": 49.959,
+    "lon": 7.5567,
+    "city": "Riesweiler"
+  },
+  "55538": {
+    "lat": 49.8412,
+    "lon": 7.8667,
+    "city": "Agentur für Arbeit Bad Kreuznach"
+  },
+  "55540": {
+    "lat": 49.839,
+    "lon": 7.8586,
+    "city": "AVENA GmbH"
+  },
+  "55541": {
+    "lat": 49.8161,
+    "lon": 8.0707,
+    "city": "KHS GmbH"
+  },
+  "55543": {
+    "lat": 49.8368,
+    "lon": 7.8647,
+    "city": "Bad Kreuznach"
+  },
+  "55545": {
+    "lat": 49.8484,
+    "lon": 7.8378,
+    "city": "Bad Kreuznach"
+  },
+  "55546": {
+    "lat": 49.8106,
+    "lon": 7.9165,
+    "city": "Fürfeld"
+  },
+  "55559": {
+    "lat": 49.878,
+    "lon": 7.8965,
+    "city": "Bretzenheim"
+  },
+  "55566": {
+    "lat": 49.816,
+    "lon": 7.6225,
+    "city": "Rehbach"
+  },
+  "55568": {
+    "lat": 49.7533,
+    "lon": 7.6519,
+    "city": "Abtweiler"
+  },
+  "55569": {
+    "lat": 49.8161,
+    "lon": 7.5941,
+    "city": "Auen"
+  },
+  "55571": {
+    "lat": 49.7648,
+    "lon": 7.7061,
+    "city": "Odernheim am Glan"
+  },
+  "55576": {
+    "lat": 49.8567,
+    "lon": 7.9667,
+    "city": "Badenheim"
+  },
+  "55578": {
+    "lat": 49.8576,
+    "lon": 8.0443,
+    "city": "Wolfsheim"
+  },
+  "55583": {
+    "lat": 49.8116,
+    "lon": 7.8452,
+    "city": "Bad Münster am Stein-Ebernburg"
+  },
+  "55585": {
+    "lat": 49.7907,
+    "lon": 7.7913,
+    "city": "Norheim"
+  },
+  "55590": {
+    "lat": 49.7072,
+    "lon": 7.6677,
+    "city": "Meisenheim"
+  },
+  "55592": {
+    "lat": 49.7167,
+    "lon": 7.64,
+    "city": "Rehborn"
+  },
+  "55593": {
+    "lat": 49.85,
+    "lon": 7.8167,
+    "city": "Rüdesheim"
+  },
+  "55595": {
+    "lat": 49.8622,
+    "lon": 7.7337,
+    "city": "Boos"
+  },
+  "55596": {
+    "lat": 49.8056,
+    "lon": 7.7222,
+    "city": "Oberstreit"
+  },
+  "55597": {
+    "lat": 49.8167,
+    "lon": 7.975,
+    "city": "Wöllstein"
+  },
+  "55599": {
+    "lat": 49.7971,
+    "lon": 7.9775,
+    "city": "Wonsheim"
+  },
+  "55606": {
+    "lat": 49.7942,
+    "lon": 7.4903,
+    "city": "Kirn"
+  },
+  "55608": {
+    "lat": 49.8036,
+    "lon": 7.4149,
+    "city": "Bergen"
+  },
+  "55618": {
+    "lat": 49.8098,
+    "lon": 7.5228,
+    "city": "Simmertal"
+  },
+  "55619": {
+    "lat": 49.8167,
+    "lon": 7.4333,
+    "city": "Hennweiler"
+  },
+  "55621": {
+    "lat": 49.7167,
+    "lon": 7.55,
+    "city": "Hundsbach"
+  },
+  "55624": {
+    "lat": 49.8717,
+    "lon": 7.3431,
+    "city": "Rhaunen"
+  },
+  "55626": {
+    "lat": 49.8428,
+    "lon": 7.3783,
+    "city": "Bundenbach"
+  },
+  "55627": {
+    "lat": 49.7977,
+    "lon": 7.5534,
+    "city": "Merxheim"
+  },
+  "55629": {
+    "lat": 49.8485,
+    "lon": 7.5322,
+    "city": "Seesbach"
+  },
+  "55743": {
+    "lat": 49.7362,
+    "lon": 7.3282,
+    "city": "Gerach"
+  },
+  "55756": {
+    "lat": 49.7833,
+    "lon": 7.3333,
+    "city": "Herrstein"
+  },
+  "55758": {
+    "lat": 49.7746,
+    "lon": 7.3203,
+    "city": "Sien"
+  },
+  "55765": {
+    "lat": 49.6503,
+    "lon": 7.1741,
+    "city": "Dambach"
+  },
+  "55767": {
+    "lat": 49.6701,
+    "lon": 7.1892,
+    "city": "Nohen"
+  },
+  "55768": {
+    "lat": 49.6167,
+    "lon": 7.2,
+    "city": "Hoppstädten-Weiersbach"
+  },
+  "55774": {
+    "lat": 49.6489,
+    "lon": 7.3975,
+    "city": "Baumholder"
+  },
+  "55776": {
+    "lat": 49.6086,
+    "lon": 7.2608,
+    "city": "Rohrbach"
+  },
+  "55777": {
+    "lat": 49.578,
+    "lon": 7.294,
+    "city": "Mettweiler"
+  },
+  "55779": {
+    "lat": 49.6,
+    "lon": 7.2334,
+    "city": "Heimbach"
+  },
+  "56037": {
+    "lat": 50.3887,
+    "lon": 7.5829,
+    "city": "Deutsche Post AG Niederlassung BRIEF Koblenz"
+  },
+  "56040": {
+    "lat": 50.3769,
+    "lon": 7.5836,
+    "city": "AOK Rheinland-Pfalz / Saarland Die Gesundheitskasse"
+  },
+  "56048": {
+    "lat": 50.3727,
+    "lon": 7.5551,
+    "city": "Debeka BKK"
+  },
+  "56053": {
+    "lat": 50.3593,
+    "lon": 7.5858,
+    "city": "HUK-Coburg"
+  },
+  "56054": {
+    "lat": 50.3372,
+    "lon": 7.5584,
+    "city": "Debeka Bausparkasse"
+  },
+  "56055": {
+    "lat": 50.3477,
+    "lon": 7.495,
+    "city": "Mittelrhein-Verlag GmbH"
+  },
+  "56056": {
+    "lat": 50.3573,
+    "lon": 7.6026,
+    "city": "Struktur- und Genehmigungsdirektion Nord"
+  },
+  "56057": {
+    "lat": 50.3615,
+    "lon": 7.5721,
+    "city": "Bundesamt für Ausrüstung, Informationst. u. Nutzung d. Bundeswehr (BAAINBw)"
+  },
+  "56058": {
+    "lat": 50.3372,
+    "lon": 7.5584,
+    "city": "Debeka Lebensversicherung AG, Hauptverwaltung"
+  },
+  "56059": {
+    "lat": 50.3416,
+    "lon": 7.5855,
+    "city": "EVM AG Privat- u. Geschäftskundenvertrieb"
+  },
+  "56060": {
+    "lat": 50.359,
+    "lon": 7.5682,
+    "city": "Finanzamt Koblenz"
+  },
+  "56062": {
+    "lat": 50.3574,
+    "lon": 7.5796,
+    "city": "Landesamt fÃ¼r Finanzen"
+  },
+  "56063": {
+    "lat": 50.3609,
+    "lon": 7.5857,
+    "city": "AOK"
+  },
+  "56064": {
+    "lat": 50.357,
+    "lon": 7.5794,
+    "city": "Bundesarchiv"
+  },
+  "56065": {
+    "lat": 50.3581,
+    "lon": 7.5921,
+    "city": "Integrationsamt"
+  },
+  "56066": {
+    "lat": 50.3589,
+    "lon": 7.5718,
+    "city": "Agentur für Arbeit Koblenz"
+  },
+  "56068": {
+    "lat": 50.3567,
+    "lon": 7.5932,
+    "city": "Koblenz"
+  },
+  "56070": {
+    "lat": 50.3849,
+    "lon": 7.5741,
+    "city": "Koblenz"
+  },
+  "56072": {
+    "lat": 50.3578,
+    "lon": 7.5251,
+    "city": "Koblenz"
+  },
+  "56073": {
+    "lat": 50.3586,
+    "lon": 7.5812,
+    "city": "Koblenz"
+  },
+  "56075": {
+    "lat": 50.3201,
+    "lon": 7.5682,
+    "city": "Koblenz"
+  },
+  "56076": {
+    "lat": 50.35,
+    "lon": 7.6,
+    "city": "Koblenz"
+  },
+  "56077": {
+    "lat": 50.35,
+    "lon": 7.6,
+    "city": "Koblenz"
+  },
+  "56078": {
+    "lat": 50.3805,
+    "lon": 7.5649,
+    "city": "Debeka Krankenversicherung Leistungszentrum"
+  },
+  "56079": {
+    "lat": 50.3874,
+    "lon": 7.5789,
+    "city": "CompuGroup Holding AG"
+  },
+  "56080": {
+    "lat": 50.3887,
+    "lon": 7.5829,
+    "city": "Deutsche Post AG Direkt Marketing Center"
+  },
+  "56112": {
+    "lat": 50.3,
+    "lon": 7.6167,
+    "city": "Lahnstein"
+  },
+  "56128": {
+    "lat": 50.3293,
+    "lon": 7.7287,
+    "city": "Statistisches Landesamt"
+  },
+  "56129": {
+    "lat": 50.3349,
+    "lon": 7.7206,
+    "city": "Kreisverwaltung des Rhein-Lahn-Kreises"
+  },
+  "56130": {
+    "lat": 50.3354,
+    "lon": 7.7137,
+    "city": "Bad Ems"
+  },
+  "56132": {
+    "lat": 50.3266,
+    "lon": 7.7113,
+    "city": "Frücht"
+  },
+  "56133": {
+    "lat": 50.3333,
+    "lon": 7.6833,
+    "city": "Fachbach"
+  },
+  "56154": {
+    "lat": 50.2308,
+    "lon": 7.5899,
+    "city": "Boppard"
+  },
+  "56170": {
+    "lat": 50.4229,
+    "lon": 7.5792,
+    "city": "Bendorf"
+  },
+  "56179": {
+    "lat": 50.3979,
+    "lon": 7.6205,
+    "city": "Vallendar"
+  },
+  "56182": {
+    "lat": 50.3833,
+    "lon": 7.6333,
+    "city": "Urbar"
+  },
+  "56191": {
+    "lat": 50.4167,
+    "lon": 7.6,
+    "city": "Weitersburg"
+  },
+  "56203": {
+    "lat": 50.4347,
+    "lon": 7.669,
+    "city": "Höhr-Grenzhausen"
+  },
+  "56204": {
+    "lat": 50.4064,
+    "lon": 7.6986,
+    "city": "Hillscheid"
+  },
+  "56206": {
+    "lat": 50.4596,
+    "lon": 7.6817,
+    "city": "Hilgert"
+  },
+  "56218": {
+    "lat": 50.3851,
+    "lon": 7.4989,
+    "city": "Mülheim-Kärlich"
+  },
+  "56220": {
+    "lat": 50.4005,
+    "lon": 7.511,
+    "city": "Kettig"
+  },
+  "56235": {
+    "lat": 50.4676,
+    "lon": 7.7153,
+    "city": "Hundsdorf"
+  },
+  "56237": {
+    "lat": 50.4852,
+    "lon": 7.67,
+    "city": "Caan"
+  },
+  "56242": {
+    "lat": 50.5273,
+    "lon": 7.7489,
+    "city": "Selters"
+  },
+  "56244": {
+    "lat": 50.5417,
+    "lon": 7.8048,
+    "city": "Krümmel"
+  },
+  "56249": {
+    "lat": 50.5833,
+    "lon": 7.7333,
+    "city": "Herschbach"
+  },
+  "56253": {
+    "lat": 50.1717,
+    "lon": 7.3022,
+    "city": "Treis-Karden"
+  },
+  "56254": {
+    "lat": 50.1897,
+    "lon": 7.3552,
+    "city": "Müden"
+  },
+  "56269": {
+    "lat": 50.5552,
+    "lon": 7.6728,
+    "city": "Dierdorf"
+  },
+  "56271": {
+    "lat": 50.5571,
+    "lon": 7.6628,
+    "city": "Maroth"
+  },
+  "56276": {
+    "lat": 50.5084,
+    "lon": 7.6417,
+    "city": "Stebach"
+  },
+  "56281": {
+    "lat": 50.1476,
+    "lon": 7.5804,
+    "city": "Dörth"
+  },
+  "56283": {
+    "lat": 50.1819,
+    "lon": 7.4987,
+    "city": "Ney"
+  },
+  "56288": {
+    "lat": 50.0683,
+    "lon": 7.4528,
+    "city": "Roth"
+  },
+  "56290": {
+    "lat": 50.1202,
+    "lon": 7.402,
+    "city": "Lütz"
+  },
+  "56291": {
+    "lat": 50.105,
+    "lon": 7.5836,
+    "city": "Norath"
+  },
+  "56294": {
+    "lat": 50.2558,
+    "lon": 7.3607,
+    "city": "Kalt"
+  },
+  "56295": {
+    "lat": 50.3089,
+    "lon": 7.3795,
+    "city": "Rüber"
+  },
+  "56299": {
+    "lat": 50.35,
+    "lon": 7.3833,
+    "city": "Ochtendung"
+  },
+  "56305": {
+    "lat": 50.6138,
+    "lon": 7.5614,
+    "city": "Puderbach"
+  },
+  "56307": {
+    "lat": 50.5741,
+    "lon": 7.5907,
+    "city": "Dernbach"
+  },
+  "56316": {
+    "lat": 50.575,
+    "lon": 7.625,
+    "city": "Raubach"
+  },
+  "56317": {
+    "lat": 50.5708,
+    "lon": 7.5667,
+    "city": "Urbach"
+  },
+  "56321": {
+    "lat": 50.2769,
+    "lon": 7.622,
+    "city": "Brey"
+  },
+  "56322": {
+    "lat": 50.2588,
+    "lon": 7.6484,
+    "city": "Spay"
+  },
+  "56323": {
+    "lat": 50.2833,
+    "lon": 7.55,
+    "city": "Waldesch"
+  },
+  "56329": {
+    "lat": 50.1488,
+    "lon": 7.7072,
+    "city": "Sankt Goar"
+  },
+  "56330": {
+    "lat": 50.3023,
+    "lon": 7.4561,
+    "city": "Kobern-Gondorf"
+  },
+  "56332": {
+    "lat": 50.2625,
+    "lon": 7.4437,
+    "city": "Löf"
+  },
+  "56333": {
+    "lat": 50.3167,
+    "lon": 7.5167,
+    "city": "Winningen"
+  },
+  "56335": {
+    "lat": 50.3836,
+    "lon": 7.7096,
+    "city": "Neuhäusel"
+  },
+  "56337": {
+    "lat": 50.3824,
+    "lon": 7.72,
+    "city": "Simmern"
+  },
+  "56338": {
+    "lat": 50.2736,
+    "lon": 7.6451,
+    "city": "Braubach"
+  },
+  "56340": {
+    "lat": 50.244,
+    "lon": 7.6466,
+    "city": "Osterspai"
+  },
+  "56341": {
+    "lat": 50.2315,
+    "lon": 7.6043,
+    "city": "Filsen"
+  },
+  "56346": {
+    "lat": 50.1806,
+    "lon": 7.6879,
+    "city": "Prath"
+  },
+  "56348": {
+    "lat": 50.1479,
+    "lon": 7.7325,
+    "city": "Weisel"
+  },
+  "56349": {
+    "lat": 50.0883,
+    "lon": 7.7607,
+    "city": "Kaub"
+  },
+  "56355": {
+    "lat": 50.2108,
+    "lon": 7.8212,
+    "city": "Hunzel"
+  },
+  "56357": {
+    "lat": 50.2028,
+    "lon": 7.8047,
+    "city": "Ehr"
+  },
+  "56368": {
+    "lat": 50.2677,
+    "lon": 7.9454,
+    "city": "Roth"
+  },
+  "56370": {
+    "lat": 50.2725,
+    "lon": 7.9628,
+    "city": "Rettert"
+  },
+  "56377": {
+    "lat": 50.3054,
+    "lon": 7.7966,
+    "city": "Nassau"
+  },
+  "56379": {
+    "lat": 50.3306,
+    "lon": 7.8521,
+    "city": "Winden"
+  },
+  "56407": {
+    "lat": 50.4378,
+    "lon": 7.8353,
+    "city": "Agentur für Arbeit Montabaur"
+  },
+  "56409": {
+    "lat": 50.4372,
+    "lon": 7.8281,
+    "city": "Finanzamt"
+  },
+  "56410": {
+    "lat": 50.4359,
+    "lon": 7.8232,
+    "city": "Montabaur"
+  },
+  "56412": {
+    "lat": 50.4065,
+    "lon": 7.8687,
+    "city": "Girod"
+  },
+  "56414": {
+    "lat": 50.4785,
+    "lon": 7.936,
+    "city": "Salz"
+  },
+  "56422": {
+    "lat": 50.4719,
+    "lon": 7.7984,
+    "city": "Wirges"
+  },
+  "56424": {
+    "lat": 50.4735,
+    "lon": 7.8257,
+    "city": "Staudt"
+  },
+  "56427": {
+    "lat": 50.4864,
+    "lon": 7.7797,
+    "city": "Siershahn"
+  },
+  "56428": {
+    "lat": 50.4667,
+    "lon": 7.7833,
+    "city": "Dernbach (Westerwald)"
+  },
+  "56456": {
+    "lat": 50.5611,
+    "lon": 7.9764,
+    "city": "Amtsgericht"
+  },
+  "56457": {
+    "lat": 50.5777,
+    "lon": 7.9714,
+    "city": "Halbs"
+  },
+  "56459": {
+    "lat": 50.5604,
+    "lon": 7.9451,
+    "city": "Kaden"
+  },
+  "56462": {
+    "lat": 50.6167,
+    "lon": 7.9833,
+    "city": "Höhn"
+  },
+  "56469": {
+    "lat": 50.6514,
+    "lon": 7.9474,
+    "city": "Menk Apparatebau GmbH"
+  },
+  "56470": {
+    "lat": 50.6495,
+    "lon": 7.9496,
+    "city": "Bad Marienberg"
+  },
+  "56472": {
+    "lat": 50.6498,
+    "lon": 7.9696,
+    "city": "Hof"
+  },
+  "56476": {
+    "lat": 50.8461,
+    "lon": 9.6781,
+    "city": "AMAZON Logistik GmbH"
+  },
+  "56477": {
+    "lat": 50.6417,
+    "lon": 8.0738,
+    "city": "Rennerod"
+  },
+  "56479": {
+    "lat": 50.6187,
+    "lon": 8.0757,
+    "city": "Seck"
+  },
+  "56560": {
+    "lat": 50.428,
+    "lon": 7.4664,
+    "city": "Agentur für Arbeit Neuwied"
+  },
+  "56562": {
+    "lat": 50.4333,
+    "lon": 7.4675,
+    "city": "Finanzamt"
+  },
+  "56564": {
+    "lat": 50.4326,
+    "lon": 7.463,
+    "city": "Neuwied"
+  },
+  "56566": {
+    "lat": 50.4369,
+    "lon": 7.5452,
+    "city": "Neuwied"
+  },
+  "56567": {
+    "lat": 50.4565,
+    "lon": 7.4693,
+    "city": "Neuwied"
+  },
+  "56575": {
+    "lat": 50.4172,
+    "lon": 7.4507,
+    "city": "Weißenthurm"
+  },
+  "56578": {
+    "lat": 50.5053,
+    "lon": 7.487,
+    "city": "Berge & Meer Touristik GmbH"
+  },
+  "56579": {
+    "lat": 50.5135,
+    "lon": 7.502,
+    "city": "Hardert"
+  },
+  "56581": {
+    "lat": 50.5104,
+    "lon": 7.4722,
+    "city": "Melsbach"
+  },
+  "56584": {
+    "lat": 50.5083,
+    "lon": 7.5667,
+    "city": "Rüscheid"
+  },
+  "56587": {
+    "lat": 50.5464,
+    "lon": 7.5241,
+    "city": "Oberraden"
+  },
+  "56588": {
+    "lat": 50.55,
+    "lon": 7.4167,
+    "city": "Waldbreitbach"
+  },
+  "56589": {
+    "lat": 50.5236,
+    "lon": 7.4189,
+    "city": "Datzeroth"
+  },
+  "56593": {
+    "lat": 50.5931,
+    "lon": 7.5154,
+    "city": "Krunkel"
+  },
+  "56594": {
+    "lat": 50.5691,
+    "lon": 7.5275,
+    "city": "Willroth"
+  },
+  "56598": {
+    "lat": 50.4917,
+    "lon": 7.3417,
+    "city": "Rheinbrohl"
+  },
+  "56599": {
+    "lat": 50.45,
+    "lon": 7.3833,
+    "city": "Leutesdorf"
+  },
+  "56624": {
+    "lat": 50.4316,
+    "lon": 7.4095,
+    "city": "Amtsgericht"
+  },
+  "56626": {
+    "lat": 50.4311,
+    "lon": 7.4042,
+    "city": "Andernach"
+  },
+  "56630": {
+    "lat": 50.3957,
+    "lon": 7.3625,
+    "city": "Kretz"
+  },
+  "56637": {
+    "lat": 50.3926,
+    "lon": 7.3925,
+    "city": "Plaidt"
+  },
+  "56642": {
+    "lat": 50.3833,
+    "lon": 7.3333,
+    "city": "Kruft"
+  },
+  "56645": {
+    "lat": 50.4142,
+    "lon": 7.3273,
+    "city": "Nickenich"
+  },
+  "56647": {
+    "lat": 50.388,
+    "lon": 7.404,
+    "city": "E.ON Real Estate GmbH"
+  },
+  "56648": {
+    "lat": 50.3833,
+    "lon": 7.4167,
+    "city": "Saffig"
+  },
+  "56651": {
+    "lat": 50.4487,
+    "lon": 7.1919,
+    "city": "Brenk"
+  },
+  "56653": {
+    "lat": 50.4278,
+    "lon": 7.25,
+    "city": "Wehr"
+  },
+  "56656": {
+    "lat": 50.483,
+    "lon": 7.3291,
+    "city": "Brohl-Lützing"
+  },
+  "56659": {
+    "lat": 50.4546,
+    "lon": 7.2772,
+    "city": "Burgbrohl"
+  },
+  "56723": {
+    "lat": 50.3287,
+    "lon": 7.2311,
+    "city": "Mahnstelle Amtsgericht Mayen"
+  },
+  "56724": {
+    "lat": 50.326,
+    "lon": 7.2403,
+    "city": "Amtsgericht"
+  },
+  "56725": {
+    "lat": 50.3266,
+    "lon": 7.2249,
+    "city": "Deutsche Post AG Filialbezirksleitung Mayen"
+  },
+  "56727": {
+    "lat": 50.3316,
+    "lon": 7.1909,
+    "city": "Mayen"
+  },
+  "56729": {
+    "lat": 50.3365,
+    "lon": 7.0872,
+    "city": "Münk"
+  },
+  "56736": {
+    "lat": 50.35,
+    "lon": 7.25,
+    "city": "Kottenheim"
+  },
+  "56743": {
+    "lat": 50.3618,
+    "lon": 7.2801,
+    "city": "Thür"
+  },
+  "56745": {
+    "lat": 50.3983,
+    "lon": 7.166,
+    "city": "Bell"
+  },
+  "56746": {
+    "lat": 50.4256,
+    "lon": 7.098,
+    "city": "Spessart"
+  },
+  "56751": {
+    "lat": 50.2833,
+    "lon": 7.2866,
+    "city": "Einig"
+  },
+  "56753": {
+    "lat": 50.2817,
+    "lon": 7.3106,
+    "city": "Trimbs"
+  },
+  "56754": {
+    "lat": 50.2205,
+    "lon": 7.2611,
+    "city": "Roes"
+  },
+  "56759": {
+    "lat": 50.2395,
+    "lon": 7.089,
+    "city": "Laubach"
+  },
+  "56761": {
+    "lat": 50.2387,
+    "lon": 7.1628,
+    "city": "Eulgem"
+  },
+  "56766": {
+    "lat": 50.2085,
+    "lon": 6.9725,
+    "city": "Filz"
+  },
+  "56767": {
+    "lat": 50.2556,
+    "lon": 6.9921,
+    "city": "Ueß"
+  },
+  "56769": {
+    "lat": 50.2792,
+    "lon": 7.0042,
+    "city": "Arbach"
+  },
+  "56812": {
+    "lat": 50.1415,
+    "lon": 7.1673,
+    "city": "Dohr"
+  },
+  "56814": {
+    "lat": 50.1538,
+    "lon": 7.1773,
+    "city": "Faid"
+  },
+  "56818": {
+    "lat": 50.1667,
+    "lon": 7.2,
+    "city": "Klotten"
+  },
+  "56820": {
+    "lat": 50.0917,
+    "lon": 7.2021,
+    "city": "Nehren"
+  },
+  "56821": {
+    "lat": 50.1,
+    "lon": 7.2333,
+    "city": "Ellenz-Poltersdorf"
+  },
+  "56823": {
+    "lat": 50.1729,
+    "lon": 7.0832,
+    "city": "Büchel"
+  },
+  "56825": {
+    "lat": 50.1365,
+    "lon": 7.0574,
+    "city": "Beuren"
+  },
+  "56826": {
+    "lat": 50.1423,
+    "lon": 6.9913,
+    "city": "Lutzerath"
+  },
+  "56828": {
+    "lat": 50.1768,
+    "lon": 7.0395,
+    "city": "Alflen"
+  },
+  "56829": {
+    "lat": 50.1778,
+    "lon": 7.2611,
+    "city": "Kail"
+  },
+  "56841": {
+    "lat": 49.9508,
+    "lon": 7.1156,
+    "city": "Traben-Trarbach"
+  },
+  "56843": {
+    "lat": 49.9602,
+    "lon": 7.1639,
+    "city": "Irmenach"
+  },
+  "56850": {
+    "lat": 49.967,
+    "lon": 7.21,
+    "city": "Hahn"
+  },
+  "56856": {
+    "lat": 50.0292,
+    "lon": 7.1823,
+    "city": "Zell"
+  },
+  "56858": {
+    "lat": 50.0469,
+    "lon": 7.2737,
+    "city": "Belg"
+  },
+  "56859": {
+    "lat": 50.0545,
+    "lon": 7.1304,
+    "city": "Alf"
+  },
+  "56861": {
+    "lat": 50.0167,
+    "lon": 7.1167,
+    "city": "Reil"
+  },
+  "56862": {
+    "lat": 50.04,
+    "lon": 7.128,
+    "city": "Pünderich"
+  },
+  "56864": {
+    "lat": 50.0667,
+    "lon": 7.0333,
+    "city": "Bad Bertrich"
+  },
+  "56865": {
+    "lat": 50.0365,
+    "lon": 7.2884,
+    "city": "Schauren"
+  },
+  "56867": {
+    "lat": 50.0167,
+    "lon": 7.15,
+    "city": "Briedel"
+  },
+  "56869": {
+    "lat": 50.0667,
+    "lon": 7.35,
+    "city": "Mastershausen"
+  },
+  "57068": {
+    "lat": 50.9063,
+    "lon": 8.0277,
+    "city": "Universität"
+  },
+  "57069": {
+    "lat": 50.8748,
+    "lon": 8.0286,
+    "city": "IKK classic"
+  },
+  "57070": {
+    "lat": 50.8778,
+    "lon": 8.0278,
+    "city": "Agentur für Arbeit Siegen"
+  },
+  "57072": {
+    "lat": 50.8734,
+    "lon": 8.0104,
+    "city": "Siegen"
+  },
+  "57074": {
+    "lat": 50.8625,
+    "lon": 8.0338,
+    "city": "Siegen"
+  },
+  "57076": {
+    "lat": 50.8994,
+    "lon": 8.031,
+    "city": "Siegen"
+  },
+  "57078": {
+    "lat": 50.9116,
+    "lon": 8.008,
+    "city": "Siegen"
+  },
+  "57080": {
+    "lat": 50.834,
+    "lon": 8.0219,
+    "city": "Siegen"
+  },
+  "57110": {
+    "lat": 50.9122,
+    "lon": 7.9109,
+    "city": "Deutsche Post AG Direkt Marketing Center Siegen"
+  },
+  "57223": {
+    "lat": 50.9678,
+    "lon": 7.9885,
+    "city": "Kreuztal"
+  },
+  "57234": {
+    "lat": 50.8167,
+    "lon": 8.1,
+    "city": "Wilnsdorf"
+  },
+  "57250": {
+    "lat": 50.8998,
+    "lon": 8.1513,
+    "city": "Netphen"
+  },
+  "57258": {
+    "lat": 50.8974,
+    "lon": 7.8741,
+    "city": "Freudenberg"
+  },
+  "57271": {
+    "lat": 50.9969,
+    "lon": 8.1106,
+    "city": "Hilchenbach"
+  },
+  "57289": {
+    "lat": 50.7867,
+    "lon": 8.0014,
+    "city": "Zenith Maschinenfabrik"
+  },
+  "57290": {
+    "lat": 50.8,
+    "lon": 8,
+    "city": "Neunkirchen"
+  },
+  "57299": {
+    "lat": 50.7511,
+    "lon": 8.0794,
+    "city": "Burbach"
+  },
+  "57319": {
+    "lat": 51.0388,
+    "lon": 8.4157,
+    "city": "Bad Berleburg"
+  },
+  "57334": {
+    "lat": 50.9409,
+    "lon": 8.3302,
+    "city": "Bad Laasphe"
+  },
+  "57339": {
+    "lat": 50.9893,
+    "lon": 8.2529,
+    "city": "Erndtebrück"
+  },
+  "57368": {
+    "lat": 51.1172,
+    "lon": 8.0671,
+    "city": "Lennestadt"
+  },
+  "57392": {
+    "lat": 51.1547,
+    "lon": 8.285,
+    "city": "Schmallenberg"
+  },
+  "57399": {
+    "lat": 51.0856,
+    "lon": 8.0889,
+    "city": "Kirchhundem"
+  },
+  "57413": {
+    "lat": 51.168,
+    "lon": 7.973,
+    "city": "Finnentrop"
+  },
+  "57437": {
+    "lat": 51.1293,
+    "lon": 7.9006,
+    "city": "Viega GmbH & Co.KG"
+  },
+  "57439": {
+    "lat": 51.1264,
+    "lon": 7.9033,
+    "city": "Attendorn"
+  },
+  "57462": {
+    "lat": 51.029,
+    "lon": 7.8514,
+    "city": "Olpe"
+  },
+  "57482": {
+    "lat": 50.9667,
+    "lon": 7.8667,
+    "city": "Wenden"
+  },
+  "57489": {
+    "lat": 51.0236,
+    "lon": 7.7736,
+    "city": "Drolshagen"
+  },
+  "57517": {
+    "lat": 50.7941,
+    "lon": 7.855,
+    "city": "Amtsgericht"
+  },
+  "57518": {
+    "lat": 50.7762,
+    "lon": 7.8706,
+    "city": "Alsdorf"
+  },
+  "57520": {
+    "lat": 50.7316,
+    "lon": 7.914,
+    "city": "Mauden"
+  },
+  "57537": {
+    "lat": 50.7848,
+    "lon": 7.7409,
+    "city": "Forst"
+  },
+  "57539": {
+    "lat": 50.7692,
+    "lon": 7.7052,
+    "city": "Roth"
+  },
+  "57548": {
+    "lat": 50.8085,
+    "lon": 7.8863,
+    "city": "Kirchen"
+  },
+  "57555": {
+    "lat": 50.8209,
+    "lon": 7.9384,
+    "city": "Brachbach"
+  },
+  "57562": {
+    "lat": 50.777,
+    "lon": 7.9537,
+    "city": "Herdorf"
+  },
+  "57567": {
+    "lat": 50.7333,
+    "lon": 7.9667,
+    "city": "Daaden"
+  },
+  "57572": {
+    "lat": 50.85,
+    "lon": 7.85,
+    "city": "Harbach"
+  },
+  "57577": {
+    "lat": 50.7598,
+    "lon": 7.682,
+    "city": "Hamm"
+  },
+  "57578": {
+    "lat": 50.7333,
+    "lon": 7.8833,
+    "city": "Elkenroth"
+  },
+  "57580": {
+    "lat": 50.7444,
+    "lon": 7.8056,
+    "city": "Elben"
+  },
+  "57581": {
+    "lat": 50.8147,
+    "lon": 7.8224,
+    "city": "Katzwinkel"
+  },
+  "57583": {
+    "lat": 50.6987,
+    "lon": 7.8799,
+    "city": "Mörlen"
+  },
+  "57584": {
+    "lat": 50.7937,
+    "lon": 7.8373,
+    "city": "Wallmenroth"
+  },
+  "57586": {
+    "lat": 50.7254,
+    "lon": 7.9281,
+    "city": "Weitefeld"
+  },
+  "57587": {
+    "lat": 50.8167,
+    "lon": 7.7333,
+    "city": "Birken-Honigsessen"
+  },
+  "57589": {
+    "lat": 50.7479,
+    "lon": 7.6218,
+    "city": "Pracht"
+  },
+  "57609": {
+    "lat": 50.6883,
+    "lon": 7.6444,
+    "city": "Finanzamt"
+  },
+  "57610": {
+    "lat": 50.6865,
+    "lon": 7.6637,
+    "city": "Ingelbach"
+  },
+  "57612": {
+    "lat": 50.7161,
+    "lon": 7.6627,
+    "city": "Isert"
+  },
+  "57614": {
+    "lat": 50.6468,
+    "lon": 7.6588,
+    "city": "Borod"
+  },
+  "57626": {
+    "lat": 50.6602,
+    "lon": 7.8139,
+    "city": "EBK GmbH"
+  },
+  "57627": {
+    "lat": 50.6774,
+    "lon": 7.7892,
+    "city": "Astert"
+  },
+  "57629": {
+    "lat": 50.6719,
+    "lon": 7.8115,
+    "city": "Wied"
+  },
+  "57632": {
+    "lat": 50.6495,
+    "lon": 7.5299,
+    "city": "Rott"
+  },
+  "57635": {
+    "lat": 50.7058,
+    "lon": 7.5238,
+    "city": "Kraam"
+  },
+  "57636": {
+    "lat": 50.7,
+    "lon": 7.675,
+    "city": "Sörth"
+  },
+  "57638": {
+    "lat": 50.6673,
+    "lon": 7.5839,
+    "city": "Obernau"
+  },
+  "57639": {
+    "lat": 50.6319,
+    "lon": 7.6578,
+    "city": "Oberdreis"
+  },
+  "57641": {
+    "lat": 50.623,
+    "lon": 7.5169,
+    "city": "Oberlahr"
+  },
+  "57642": {
+    "lat": 50.6333,
+    "lon": 7.8667,
+    "city": "Alpenrod"
+  },
+  "57644": {
+    "lat": 50.6499,
+    "lon": 7.7421,
+    "city": "Hattert"
+  },
+  "57645": {
+    "lat": 50.6758,
+    "lon": 7.8383,
+    "city": "Nister"
+  },
+  "57647": {
+    "lat": 50.625,
+    "lon": 7.8917,
+    "city": "Enspel"
+  },
+  "57648": {
+    "lat": 50.6578,
+    "lon": 7.9125,
+    "city": "Unnau"
+  },
+  "58079": {
+    "lat": 51.3624,
+    "lon": 7.469,
+    "city": "AOK NordWest"
+  },
+  "58080": {
+    "lat": 51.3508,
+    "lon": 7.4415,
+    "city": "Agentur für Arbeit Hagen"
+  },
+  "58081": {
+    "lat": 51.3848,
+    "lon": 7.4793,
+    "city": "Amtsgericht Hagen -Mahnabteilung-"
+  },
+  "58082": {
+    "lat": 51.381,
+    "lon": 7.5132,
+    "city": "Westfalia Werkzeugcompany GmbH & Co.KG"
+  },
+  "58083": {
+    "lat": 51.3824,
+    "lon": 7.5183,
+    "city": "Westfalia Technica GmbH"
+  },
+  "58084": {
+    "lat": 51.3775,
+    "lon": 7.4909,
+    "city": "FernUniversität in Hagen"
+  },
+  "58085": {
+    "lat": 51.3665,
+    "lon": 7.4795,
+    "city": "BARMER"
+  },
+  "58086": {
+    "lat": 51.3627,
+    "lon": 7.4774,
+    "city": "Landgericht Hagen"
+  },
+  "58089": {
+    "lat": 51.3801,
+    "lon": 7.4394,
+    "city": "Hagen"
+  },
+  "58091": {
+    "lat": 51.3201,
+    "lon": 7.508,
+    "city": "Hagen"
+  },
+  "58093": {
+    "lat": 51.3657,
+    "lon": 7.5207,
+    "city": "Hagen"
+  },
+  "58095": {
+    "lat": 51.3606,
+    "lon": 7.4785,
+    "city": "Hagen"
+  },
+  "58097": {
+    "lat": 51.3668,
+    "lon": 7.4776,
+    "city": "Hagen"
+  },
+  "58099": {
+    "lat": 51.3987,
+    "lon": 7.4901,
+    "city": "Hagen"
+  },
+  "58117": {
+    "lat": 51.3546,
+    "lon": 7.5648,
+    "city": "SPARCO"
+  },
+  "58119": {
+    "lat": 51.3529,
+    "lon": 7.563,
+    "city": "Hagen"
+  },
+  "58133": {
+    "lat": 51.3447,
+    "lon": 7.4185,
+    "city": "Wikinger Reisen GmbH"
+  },
+  "58135": {
+    "lat": 51.3474,
+    "lon": 7.4274,
+    "city": "Hagen"
+  },
+  "58147": {
+    "lat": 51.3926,
+    "lon": 7.4944,
+    "city": "bol.de"
+  },
+  "58237": {
+    "lat": 51.4443,
+    "lon": 7.57,
+    "city": "EUROCOIN GmbH"
+  },
+  "58239": {
+    "lat": 51.4439,
+    "lon": 7.5675,
+    "city": "Schwerte"
+  },
+  "58256": {
+    "lat": 51.2985,
+    "lon": 7.3629,
+    "city": "Ennepetal"
+  },
+  "58283": {
+    "lat": 51.3268,
+    "lon": 7.354,
+    "city": "INTERTRACTOR AG"
+  },
+  "58285": {
+    "lat": 51.3197,
+    "lon": 7.3392,
+    "city": "Gevelsberg"
+  },
+  "58292": {
+    "lat": 51.3792,
+    "lon": 7.3648,
+    "city": "Taprogge GmbH"
+  },
+  "58298": {
+    "lat": 51.387,
+    "lon": 7.3914,
+    "city": "August Fischer GmbH"
+  },
+  "58300": {
+    "lat": 51.3875,
+    "lon": 7.3928,
+    "city": "Wetter (Ruhr)"
+  },
+  "58311": {
+    "lat": 51.417,
+    "lon": 7.43,
+    "city": "Med-Pharm GmbH"
+  },
+  "58313": {
+    "lat": 51.4,
+    "lon": 7.4358,
+    "city": "Herdecke"
+  },
+  "58330": {
+    "lat": 51.289,
+    "lon": 7.2984,
+    "city": "Finanzamt"
+  },
+  "58332": {
+    "lat": 51.2863,
+    "lon": 7.2939,
+    "city": "Schwelm"
+  },
+  "58339": {
+    "lat": 51.2593,
+    "lon": 7.4681,
+    "city": "Breckerfeld"
+  },
+  "58448": {
+    "lat": 51.4524,
+    "lon": 7.3572,
+    "city": "Private Universität Witten/Herdecke"
+  },
+  "58449": {
+    "lat": 51.4421,
+    "lon": 7.3421,
+    "city": "Amtsgericht"
+  },
+  "58452": {
+    "lat": 51.4315,
+    "lon": 7.334,
+    "city": "Witten"
+  },
+  "58453": {
+    "lat": 51.4434,
+    "lon": 7.3633,
+    "city": "Witten"
+  },
+  "58454": {
+    "lat": 51.4644,
+    "lon": 7.3739,
+    "city": "Witten"
+  },
+  "58455": {
+    "lat": 51.4452,
+    "lon": 7.3303,
+    "city": "Witten"
+  },
+  "58456": {
+    "lat": 51.4046,
+    "lon": 7.2583,
+    "city": "Witten"
+  },
+  "58505": {
+    "lat": 51.2252,
+    "lon": 7.6292,
+    "city": "ERCO Leuchten GmbH"
+  },
+  "58507": {
+    "lat": 51.2258,
+    "lon": 7.6342,
+    "city": "Lüdenscheid"
+  },
+  "58509": {
+    "lat": 51.2269,
+    "lon": 7.613,
+    "city": "Lüdenscheid"
+  },
+  "58511": {
+    "lat": 51.2169,
+    "lon": 7.6457,
+    "city": "Lüdenscheid"
+  },
+  "58513": {
+    "lat": 51.2462,
+    "lon": 7.6201,
+    "city": "Lüdenscheid"
+  },
+  "58515": {
+    "lat": 51.2012,
+    "lon": 7.6258,
+    "city": "Lüdenscheid"
+  },
+  "58540": {
+    "lat": 51.1074,
+    "lon": 7.6484,
+    "city": "Meinerzhagen"
+  },
+  "58553": {
+    "lat": 51.1861,
+    "lon": 7.4982,
+    "city": "Halver"
+  },
+  "58566": {
+    "lat": 51.134,
+    "lon": 7.5908,
+    "city": "Kierspe"
+  },
+  "58579": {
+    "lat": 51.2412,
+    "lon": 7.5279,
+    "city": "Schalksmühle"
+  },
+  "58603": {
+    "lat": 51.3728,
+    "lon": 7.7057,
+    "city": "Agentur für Arbeit Iserlohn"
+  },
+  "58634": {
+    "lat": 51.3842,
+    "lon": 7.6984,
+    "city": "Karstadt AG"
+  },
+  "58636": {
+    "lat": 51.38,
+    "lon": 7.7032,
+    "city": "Iserlohn"
+  },
+  "58638": {
+    "lat": 51.3743,
+    "lon": 7.6961,
+    "city": "Iserlohn"
+  },
+  "58640": {
+    "lat": 51.3667,
+    "lon": 7.7,
+    "city": "Iserlohn"
+  },
+  "58642": {
+    "lat": 51.3708,
+    "lon": 7.6109,
+    "city": "Iserlohn"
+  },
+  "58644": {
+    "lat": 51.3246,
+    "lon": 7.6968,
+    "city": "Iserlohn"
+  },
+  "58675": {
+    "lat": 51.3871,
+    "lon": 7.7702,
+    "city": "Hemer"
+  },
+  "58706": {
+    "lat": 51.4408,
+    "lon": 7.7887,
+    "city": "Menden"
+  },
+  "58708": {
+    "lat": 51.4553,
+    "lon": 7.7764,
+    "city": "Menden"
+  },
+  "58710": {
+    "lat": 51.4187,
+    "lon": 7.8259,
+    "city": "Menden"
+  },
+  "58730": {
+    "lat": 51.4756,
+    "lon": 7.7695,
+    "city": "Fröndenberg"
+  },
+  "58739": {
+    "lat": 51.4964,
+    "lon": 7.8659,
+    "city": "Wickede"
+  },
+  "58762": {
+    "lat": 51.2947,
+    "lon": 7.6734,
+    "city": "Altena"
+  },
+  "58769": {
+    "lat": 51.3167,
+    "lon": 7.6167,
+    "city": "Nachrodt-Wiblingwerde"
+  },
+  "58791": {
+    "lat": 51.2601,
+    "lon": 7.7661,
+    "city": "Werdohl"
+  },
+  "58802": {
+    "lat": 51.3315,
+    "lon": 7.8642,
+    "city": "Balve"
+  },
+  "58809": {
+    "lat": 51.2828,
+    "lon": 7.7825,
+    "city": "Neuenrade"
+  },
+  "58840": {
+    "lat": 51.2095,
+    "lon": 7.8726,
+    "city": "Plettenberg"
+  },
+  "58849": {
+    "lat": 51.1923,
+    "lon": 7.8063,
+    "city": "Herscheid"
+  },
+  "59056": {
+    "lat": 51.6775,
+    "lon": 7.8202,
+    "city": "Agentur für Arbeit Hamm"
+  },
+  "59057": {
+    "lat": 51.6767,
+    "lon": 7.8059,
+    "city": "Commerzbank AG"
+  },
+  "59059": {
+    "lat": 51.6767,
+    "lon": 7.8059,
+    "city": "Commerzbank AG"
+  },
+  "59060": {
+    "lat": 51.6785,
+    "lon": 7.8152,
+    "city": "Commerzbank AG ComTs West GmbH"
+  },
+  "59061": {
+    "lat": 51.6776,
+    "lon": 7.8144,
+    "city": "Amtsgericht"
+  },
+  "59062": {
+    "lat": 51.6788,
+    "lon": 7.8139,
+    "city": "HUK-Coburg"
+  },
+  "59063": {
+    "lat": 51.6747,
+    "lon": 7.8407,
+    "city": "Hamm"
+  },
+  "59065": {
+    "lat": 51.6802,
+    "lon": 7.8134,
+    "city": "Hamm"
+  },
+  "59067": {
+    "lat": 51.6742,
+    "lon": 7.7799,
+    "city": "Hamm"
+  },
+  "59069": {
+    "lat": 51.645,
+    "lon": 7.8608,
+    "city": "Hamm"
+  },
+  "59071": {
+    "lat": 51.691,
+    "lon": 7.8704,
+    "city": "Hamm"
+  },
+  "59073": {
+    "lat": 51.6833,
+    "lon": 7.8,
+    "city": "Hamm"
+  },
+  "59075": {
+    "lat": 51.6866,
+    "lon": 7.7359,
+    "city": "Hamm"
+  },
+  "59077": {
+    "lat": 51.6425,
+    "lon": 7.7343,
+    "city": "Hamm"
+  },
+  "59089": {
+    "lat": 51.5657,
+    "lon": 8.0067,
+    "city": "Sparkasse SoestWerl"
+  },
+  "59090": {
+    "lat": 51.5602,
+    "lon": 7.8936,
+    "city": "Deutsche Post AG Niederlassung BRIEF Hamm"
+  },
+  "59172": {
+    "lat": 51.5853,
+    "lon": 7.6659,
+    "city": "Amtsgericht"
+  },
+  "59174": {
+    "lat": 51.5923,
+    "lon": 7.6638,
+    "city": "Kamen"
+  },
+  "59192": {
+    "lat": 51.6163,
+    "lon": 7.6445,
+    "city": "Bergkamen"
+  },
+  "59199": {
+    "lat": 51.6,
+    "lon": 7.7667,
+    "city": "Bönen"
+  },
+  "59215": {
+    "lat": 51.773,
+    "lon": 7.9453,
+    "city": "LR Health & Beauty Systems GmbH"
+  },
+  "59225": {
+    "lat": 51.763,
+    "lon": 7.8935,
+    "city": "IKK classic"
+  },
+  "59227": {
+    "lat": 51.7602,
+    "lon": 7.8845,
+    "city": "Ahlen"
+  },
+  "59229": {
+    "lat": 51.7502,
+    "lon": 7.8968,
+    "city": "Ahlen"
+  },
+  "59267": {
+    "lat": 51.7625,
+    "lon": 8.0489,
+    "city": "Amtsgericht"
+  },
+  "59269": {
+    "lat": 51.7557,
+    "lon": 8.0407,
+    "city": "Beckum"
+  },
+  "59299": {
+    "lat": 51.835,
+    "lon": 8.1393,
+    "city": "Stadtverwaltung"
+  },
+  "59302": {
+    "lat": 51.8289,
+    "lon": 8.1472,
+    "city": "Oelde"
+  },
+  "59320": {
+    "lat": 51.8384,
+    "lon": 8.0309,
+    "city": "Ennigerloh"
+  },
+  "59329": {
+    "lat": 51.7333,
+    "lon": 8.25,
+    "city": "Wadersloh"
+  },
+  "59348": {
+    "lat": 51.7683,
+    "lon": 7.4438,
+    "city": "Lüdinghausen"
+  },
+  "59366": {
+    "lat": 51.6666,
+    "lon": 7.634,
+    "city": "Stadtverwaltung"
+  },
+  "59368": {
+    "lat": 51.6645,
+    "lon": 7.6342,
+    "city": "Werne"
+  },
+  "59379": {
+    "lat": 51.6969,
+    "lon": 7.4681,
+    "city": "Selm"
+  },
+  "59385": {
+    "lat": 51.7907,
+    "lon": 7.6088,
+    "city": "Compass Yachtzubehör Handels-GmbH"
+  },
+  "59387": {
+    "lat": 51.7833,
+    "lon": 7.6167,
+    "city": "Ascheberg"
+  },
+  "59394": {
+    "lat": 51.7383,
+    "lon": 7.522,
+    "city": "Nordkirchen"
+  },
+  "59399": {
+    "lat": 51.7079,
+    "lon": 7.3789,
+    "city": "Olfen"
+  },
+  "59423": {
+    "lat": 51.5302,
+    "lon": 7.676,
+    "city": "Unna"
+  },
+  "59425": {
+    "lat": 51.5485,
+    "lon": 7.6849,
+    "city": "Unna"
+  },
+  "59427": {
+    "lat": 51.5393,
+    "lon": 7.7283,
+    "city": "Unna"
+  },
+  "59438": {
+    "lat": 51.506,
+    "lon": 7.6005,
+    "city": "V.W. WERKE WIEDERHOLT"
+  },
+  "59439": {
+    "lat": 51.5,
+    "lon": 7.6333,
+    "city": "Holzwickede"
+  },
+  "59455": {
+    "lat": 51.555,
+    "lon": 7.9088,
+    "city": "Stadt Werl"
+  },
+  "59457": {
+    "lat": 51.5549,
+    "lon": 7.914,
+    "city": "Werl"
+  },
+  "59469": {
+    "lat": 51.5133,
+    "lon": 7.9494,
+    "city": "Ense"
+  },
+  "59490": {
+    "lat": 51.573,
+    "lon": 8.0986,
+    "city": "Agentur für Arbeit Soest"
+  },
+  "59491": {
+    "lat": 51.5624,
+    "lon": 8.1061,
+    "city": "Stadt Soest"
+  },
+  "59494": {
+    "lat": 51.5756,
+    "lon": 8.1062,
+    "city": "Soest"
+  },
+  "59495": {
+    "lat": 51.5728,
+    "lon": 8.1141,
+    "city": "Kreis Soest"
+  },
+  "59505": {
+    "lat": 51.5833,
+    "lon": 8.1667,
+    "city": "Bad Sassendorf"
+  },
+  "59510": {
+    "lat": 51.6766,
+    "lon": 8.1224,
+    "city": "Lippetal"
+  },
+  "59514": {
+    "lat": 51.6167,
+    "lon": 7.9667,
+    "city": "Welver"
+  },
+  "59519": {
+    "lat": 51.5,
+    "lon": 8.1333,
+    "city": "Möhnesee"
+  },
+  "59552": {
+    "lat": 51.6722,
+    "lon": 8.3595,
+    "city": "Hella KG Hueck & Co."
+  },
+  "59553": {
+    "lat": 51.6742,
+    "lon": 8.3545,
+    "city": "Finanzamt"
+  },
+  "59555": {
+    "lat": 51.6767,
+    "lon": 8.3411,
+    "city": "Lippstadt"
+  },
+  "59556": {
+    "lat": 51.6667,
+    "lon": 8.35,
+    "city": "Lippstadt"
+  },
+  "59557": {
+    "lat": 51.6574,
+    "lon": 8.3435,
+    "city": "Lippstadt"
+  },
+  "59558": {
+    "lat": 51.6667,
+    "lon": 8.35,
+    "city": "Lippstadt"
+  },
+  "59578": {
+    "lat": 51.4517,
+    "lon": 8.3548,
+    "city": "Heinrich Jungeblodt GmbH & Co. KG"
+  },
+  "59581": {
+    "lat": 51.4662,
+    "lon": 8.3108,
+    "city": "Warstein"
+  },
+  "59590": {
+    "lat": 51.6409,
+    "lon": 8.5109,
+    "city": "Geseke"
+  },
+  "59597": {
+    "lat": 51.6034,
+    "lon": 8.2908,
+    "city": "Erwitte"
+  },
+  "59602": {
+    "lat": 51.4909,
+    "lon": 8.436,
+    "city": "Rüthen"
+  },
+  "59609": {
+    "lat": 51.5667,
+    "lon": 8.3333,
+    "city": "Anröchte"
+  },
+  "59753": {
+    "lat": 51.4376,
+    "lon": 7.9805,
+    "city": "Stadt Arnsberg"
+  },
+  "59755": {
+    "lat": 51.3833,
+    "lon": 8.0833,
+    "city": "Arnsberg"
+  },
+  "59757": {
+    "lat": 51.3833,
+    "lon": 8.0833,
+    "city": "Arnsberg"
+  },
+  "59759": {
+    "lat": 51.4263,
+    "lon": 7.9913,
+    "city": "Arnsberg"
+  },
+  "59817": {
+    "lat": 51.3996,
+    "lon": 8.074,
+    "city": "Bezirksregierung Arnsberg"
+  },
+  "59818": {
+    "lat": 51.3948,
+    "lon": 8.0657,
+    "city": "Landgericht"
+  },
+  "59821": {
+    "lat": 51.3997,
+    "lon": 8.0627,
+    "city": "Arnsberg"
+  },
+  "59823": {
+    "lat": 51.3833,
+    "lon": 8.0833,
+    "city": "Arnsberg"
+  },
+  "59844": {
+    "lat": 51.3268,
+    "lon": 8.0048,
+    "city": "Schulte-Ufer"
+  },
+  "59846": {
+    "lat": 51.3281,
+    "lon": 8.0037,
+    "city": "Sundern"
+  },
+  "59870": {
+    "lat": 51.3536,
+    "lon": 8.2487,
+    "city": "Finanzamt"
+  },
+  "59872": {
+    "lat": 51.3502,
+    "lon": 8.2833,
+    "city": "Meschede"
+  },
+  "59889": {
+    "lat": 51.2673,
+    "lon": 8.2351,
+    "city": "Eslohe"
+  },
+  "59909": {
+    "lat": 51.3608,
+    "lon": 8.4008,
+    "city": "Bestwig"
+  },
+  "59929": {
+    "lat": 51.3946,
+    "lon": 8.5715,
+    "city": "Brilon"
+  },
+  "59939": {
+    "lat": 51.3561,
+    "lon": 8.489,
+    "city": "Olsberg"
+  },
+  "59955": {
+    "lat": 51.1925,
+    "lon": 8.5347,
+    "city": "Winterberg"
+  },
+  "59964": {
+    "lat": 51.1971,
+    "lon": 8.7063,
+    "city": "Medebach"
+  },
+  "59969": {
+    "lat": 51.1024,
+    "lon": 8.6233,
+    "city": "Hallenberg"
+  },
+  "60060": {
+    "lat": 50.1125,
+    "lon": 8.6535,
+    "city": "PricewaterhouseCoopers AG Wirtschaftsprüfungsgesellschaft"
+  },
+  "60185": {
+    "lat": 50.1125,
+    "lon": 8.6535,
+    "city": "Tower 185 Immobilien GmbH & Co. KG"
+  },
+  "60222": {
+    "lat": 50.1361,
+    "lon": 8.6755,
+    "city": "Hessischer Rundfunk"
+  },
+  "60223": {
+    "lat": 50.1118,
+    "lon": 8.6597,
+    "city": "Gontard & Metallbank AG"
+  },
+  "60252": {
+    "lat": 50.1111,
+    "lon": 8.6551,
+    "city": "Zürich Beteiligungs-AG"
+  },
+  "60254": {
+    "lat": 50.1124,
+    "lon": 8.6758,
+    "city": "Deutsche Bank AG Filiale"
+  },
+  "60255": {
+    "lat": 50.1074,
+    "lon": 8.74,
+    "city": "Frankfurter Sparkasse"
+  },
+  "60256": {
+    "lat": 50.1164,
+    "lon": 8.6896,
+    "city": "Amtsgericht Frankfurt am Main"
+  },
+  "60257": {
+    "lat": 50.0992,
+    "lon": 8.667,
+    "city": "Allianz Versicherungen"
+  },
+  "60259": {
+    "lat": 50.1105,
+    "lon": 8.6908,
+    "city": "Agentur für Arbeit Frankfurt am Main"
+  },
+  "60261": {
+    "lat": 50.1109,
+    "lon": 8.6829,
+    "city": "Commerzbank AG"
+  },
+  "60262": {
+    "lat": 50.1138,
+    "lon": 8.6684,
+    "city": "Deutsche Bank AG"
+  },
+  "60263": {
+    "lat": 50.1362,
+    "lon": 8.6496,
+    "city": "Deutsche Bundesbank"
+  },
+  "60264": {
+    "lat": 50.1036,
+    "lon": 8.6465,
+    "city": "Deutscher Fachverlag GmbH"
+  },
+  "60265": {
+    "lat": 50.1097,
+    "lon": 8.6607,
+    "city": "DZ Bank AG"
+  },
+  "60267": {
+    "lat": 50.1086,
+    "lon": 8.6297,
+    "city": "Frankfurter Allgemeine Zeitung GmbH"
+  },
+  "60270": {
+    "lat": 50.1105,
+    "lon": 8.6908,
+    "city": "Agentur für Arbeit Frankfurt am Main"
+  },
+  "60274": {
+    "lat": 50.11,
+    "lon": 8.6608,
+    "city": "DZ Bank AG"
+  },
+  "60275": {
+    "lat": 50.1105,
+    "lon": 8.6826,
+    "city": "Stadt Frankfurt am Main -Der Magistrat-"
+  },
+  "60276": {
+    "lat": 50.1109,
+    "lon": 8.6883,
+    "city": "Stadtwerke Frankfurt am Main GmbH"
+  },
+  "60277": {
+    "lat": 50.1162,
+    "lon": 8.6298,
+    "city": "Avaya GmbH & Co. KG"
+  },
+  "60278": {
+    "lat": 50.1109,
+    "lon": 8.6829,
+    "city": "Commerzbank AG"
+  },
+  "60279": {
+    "lat": 50.1109,
+    "lon": 8.6829,
+    "city": "Commerzbank AG"
+  },
+  "60280": {
+    "lat": 50.1109,
+    "lon": 8.6829,
+    "city": "Commerzbank AG"
+  },
+  "60281": {
+    "lat": 50.1109,
+    "lon": 8.6829,
+    "city": "Commerzbank AG"
+  },
+  "60282": {
+    "lat": 50.1109,
+    "lon": 8.6829,
+    "city": "Commerzbank AG"
+  },
+  "60284": {
+    "lat": 50.1091,
+    "lon": 8.6758,
+    "city": "Isbank"
+  },
+  "60285": {
+    "lat": 50.1139,
+    "lon": 8.6532,
+    "city": "Deutsche Post Transport GmbH Frankfurt am Main"
+  },
+  "60286": {
+    "lat": 50.1162,
+    "lon": 8.6298,
+    "city": "American Express Reisescheck"
+  },
+  "60287": {
+    "lat": 50.1109,
+    "lon": 8.6829,
+    "city": "Commerzbank AG"
+  },
+  "60289": {
+    "lat": 50.1109,
+    "lon": 8.6829,
+    "city": "Commerzbank AG Cobranding Kreditkartenservice"
+  },
+  "60290": {
+    "lat": 50.1338,
+    "lon": 8.5733,
+    "city": "Postbank Frankfurt"
+  },
+  "60291": {
+    "lat": 50.1045,
+    "lon": 8.6822,
+    "city": "DAK -Sozialversicherungswahlen-"
+  },
+  "60296": {
+    "lat": 50.1162,
+    "lon": 8.6298,
+    "city": "American Express Europe S.A (Germany branch)"
+  },
+  "60297": {
+    "lat": 50.1119,
+    "lon": 8.6725,
+    "city": "Landesbank Hessen-Thüringen"
+  },
+  "60298": {
+    "lat": 50.2219,
+    "lon": 8.6212,
+    "city": "First Data Deutschland GmbH"
+  },
+  "60300": {
+    "lat": 50.099,
+    "lon": 8.6337,
+    "city": "Stadt Frankfurt am Main -Ordnungsamt-"
+  },
+  "60301": {
+    "lat": 50.1087,
+    "lon": 8.672,
+    "city": "Commerzbank AG Dresdner Corporate Card Service"
+  },
+  "60304": {
+    "lat": 50.2219,
+    "lon": 8.6212,
+    "city": "GZS Gesellschaft für Zahlungssysteme mbH"
+  },
+  "60305": {
+    "lat": 50.1028,
+    "lon": 8.6592,
+    "city": "Finanzamt Frankfurt am Main I"
+  },
+  "60306": {
+    "lat": 50.1159,
+    "lon": 8.6702,
+    "city": "Frankfurt am Main"
+  },
+  "60307": {
+    "lat": 50.1201,
+    "lon": 8.6552,
+    "city": "Stadt- und Universitätsbibliothek"
+  },
+  "60308": {
+    "lat": 50.1125,
+    "lon": 8.6529,
+    "city": "Frankfurt am Main"
+  },
+  "60309": {
+    "lat": 50.1291,
+    "lon": 8.6834,
+    "city": "Volksfürsorge Schadenzentrum"
+  },
+  "60310": {
+    "lat": 50.1107,
+    "lon": 8.673,
+    "city": "Frankfurt am Main"
+  },
+  "60311": {
+    "lat": 50.1112,
+    "lon": 8.6831,
+    "city": "Frankfurt am Main"
+  },
+  "60313": {
+    "lat": 50.1153,
+    "lon": 8.6823,
+    "city": "Frankfurt am Main"
+  },
+  "60314": {
+    "lat": 50.1137,
+    "lon": 8.7119,
+    "city": "Frankfurt am Main"
+  },
+  "60316": {
+    "lat": 50.1209,
+    "lon": 8.6966,
+    "city": "Frankfurt am Main"
+  },
+  "60318": {
+    "lat": 50.1252,
+    "lon": 8.6865,
+    "city": "Frankfurt am Main"
+  },
+  "60320": {
+    "lat": 50.139,
+    "lon": 8.6725,
+    "city": "Frankfurt am Main"
+  },
+  "60322": {
+    "lat": 50.125,
+    "lon": 8.6762,
+    "city": "Frankfurt am Main"
+  },
+  "60323": {
+    "lat": 50.1219,
+    "lon": 8.6655,
+    "city": "Frankfurt am Main"
+  },
+  "60325": {
+    "lat": 50.1155,
+    "lon": 8.6596,
+    "city": "Frankfurt am Main"
+  },
+  "60326": {
+    "lat": 50.1025,
+    "lon": 8.6299,
+    "city": "Frankfurt am Main"
+  },
+  "60327": {
+    "lat": 50.1038,
+    "lon": 8.6522,
+    "city": "Frankfurt am Main"
+  },
+  "60329": {
+    "lat": 50.1074,
+    "lon": 8.6663,
+    "city": "Frankfurt am Main"
+  },
+  "60377": {
+    "lat": 50.1291,
+    "lon": 8.6834,
+    "city": "Generali Schadenbüro"
+  },
+  "60379": {
+    "lat": 50.128,
+    "lon": 8.7677,
+    "city": "DAK-Gesundheit"
+  },
+  "60380": {
+    "lat": 50.1332,
+    "lon": 8.7131,
+    "city": "Metro Deutschland GmbH"
+  },
+  "60382": {
+    "lat": 50.128,
+    "lon": 8.7677,
+    "city": "Allessa GmbH"
+  },
+  "60385": {
+    "lat": 50.1253,
+    "lon": 8.7108,
+    "city": "Frankfurt am Main"
+  },
+  "60386": {
+    "lat": 50.1268,
+    "lon": 8.7554,
+    "city": "Frankfurt am Main"
+  },
+  "60388": {
+    "lat": 50.1506,
+    "lon": 8.7537,
+    "city": "Frankfurt am Main"
+  },
+  "60389": {
+    "lat": 50.1383,
+    "lon": 8.7116,
+    "city": "Frankfurt am Main"
+  },
+  "60422": {
+    "lat": 50.1171,
+    "lon": 8.6724,
+    "city": "DIFA Deutsche Immobilien Fonds AG"
+  },
+  "60423": {
+    "lat": 50.1611,
+    "lon": 8.6593,
+    "city": "VDO Luftfahrtgeräte Werk GmbH"
+  },
+  "60424": {
+    "lat": 50.1681,
+    "lon": 8.6351,
+    "city": "Bund-Verlag GmbH"
+  },
+  "60428": {
+    "lat": 50.188,
+    "lon": 8.66,
+    "city": "Rodenstock GmbH"
+  },
+  "60429": {
+    "lat": 50.1901,
+    "lon": 8.6544,
+    "city": "Presse-Vertriebs-Gesellschaft KG"
+  },
+  "60431": {
+    "lat": 50.1457,
+    "lon": 8.6549,
+    "city": "Frankfurt am Main"
+  },
+  "60433": {
+    "lat": 50.1605,
+    "lon": 8.6684,
+    "city": "Frankfurt am Main"
+  },
+  "60435": {
+    "lat": 50.1544,
+    "lon": 8.6912,
+    "city": "Frankfurt am Main"
+  },
+  "60437": {
+    "lat": 50.1924,
+    "lon": 8.6753,
+    "city": "Frankfurt am Main"
+  },
+  "60438": {
+    "lat": 50.1787,
+    "lon": 8.632,
+    "city": "Frankfurt am Main"
+  },
+  "60439": {
+    "lat": 50.1605,
+    "lon": 8.6337,
+    "city": "Frankfurt am Main"
+  },
+  "60482": {
+    "lat": 50.1172,
+    "lon": 8.6295,
+    "city": "R+V Versicherung Frankfurt"
+  },
+  "60484": {
+    "lat": 50.1257,
+    "lon": 8.6363,
+    "city": "Hartmann & Braun AG"
+  },
+  "60485": {
+    "lat": 50.1357,
+    "lon": 8.5695,
+    "city": "Deutsche Börse AG"
+  },
+  "60486": {
+    "lat": 50.1162,
+    "lon": 8.6365,
+    "city": "Frankfurt am Main"
+  },
+  "60487": {
+    "lat": 50.1257,
+    "lon": 8.6414,
+    "city": "Frankfurt am Main"
+  },
+  "60488": {
+    "lat": 50.1416,
+    "lon": 8.6155,
+    "city": "Frankfurt am Main"
+  },
+  "60489": {
+    "lat": 50.1252,
+    "lon": 8.6088,
+    "city": "Frankfurt am Main"
+  },
+  "60490": {
+    "lat": 50.1175,
+    "lon": 8.6284,
+    "city": "THA Immo Verwaltungs GmbH"
+  },
+  "60519": {
+    "lat": 50.1037,
+    "lon": 8.6665,
+    "city": "IG Metall Vorstand"
+  },
+  "60521": {
+    "lat": 50.0851,
+    "lon": 8.6294,
+    "city": "ADAC Hessen-Thüringen e.V."
+  },
+  "60523": {
+    "lat": 50.0851,
+    "lon": 8.6294,
+    "city": "Nestle Deutschland AG"
+  },
+  "60524": {
+    "lat": 50.0851,
+    "lon": 8.6294,
+    "city": "HUK-Coburg Geschäfts- und Schadenaußenstelle"
+  },
+  "60525": {
+    "lat": 50.0792,
+    "lon": 8.6334,
+    "city": "Techniker Krankenkasse"
+  },
+  "60528": {
+    "lat": 50.0837,
+    "lon": 8.644,
+    "city": "Frankfurt am Main"
+  },
+  "60529": {
+    "lat": 50.0841,
+    "lon": 8.5916,
+    "city": "Frankfurt am Main"
+  },
+  "60544": {
+    "lat": 50.0302,
+    "lon": 8.5683,
+    "city": "Deutsche Post AG NL internationale Produktion BRIEF Frankfurt am Main"
+  },
+  "60546": {
+    "lat": 50.0302,
+    "lon": 8.5683,
+    "city": "Lufthansa Group Taste & More GmbH"
+  },
+  "60547": {
+    "lat": 50.0302,
+    "lon": 8.5683,
+    "city": "Flughafen Frankfurt Main AG"
+  },
+  "60549": {
+    "lat": 50.0413,
+    "lon": 8.5702,
+    "city": "Frankfurt am Main"
+  },
+  "60589": {
+    "lat": 50.0986,
+    "lon": 8.6565,
+    "city": "Mc Cann Erickson GmbH"
+  },
+  "60590": {
+    "lat": 50.0964,
+    "lon": 8.6611,
+    "city": "Universitätsklinikum Frankfurt"
+  },
+  "60591": {
+    "lat": 50.1015,
+    "lon": 8.6849,
+    "city": "Radeberger Gruppe KG"
+  },
+  "60594": {
+    "lat": 50.1039,
+    "lon": 8.6886,
+    "city": "Frankfurt am Main"
+  },
+  "60596": {
+    "lat": 50.0974,
+    "lon": 8.6735,
+    "city": "Frankfurt am Main"
+  },
+  "60598": {
+    "lat": 50.09,
+    "lon": 8.6816,
+    "city": "Frankfurt am Main"
+  },
+  "60599": {
+    "lat": 50.096,
+    "lon": 8.7111,
+    "city": "Frankfurt am Main"
+  },
+  "60600": {
+    "lat": 50.0462,
+    "lon": 8.5793,
+    "city": "PATRIZIA THE SQUAIRE 18"
+  },
+  "60607": {
+    "lat": 50.1422,
+    "lon": 8.6573,
+    "city": "Deutsche Telekom AG Niederlassung 2 Frankfurt am Main"
+  },
+  "60608": {
+    "lat": 50.1367,
+    "lon": 8.743,
+    "city": "1822 direkt Gesellschaft der Frankfurter Sparkasse mbH"
+  },
+  "60609": {
+    "lat": 50.1264,
+    "lon": 8.5857,
+    "city": "BHW Bausparkasse AG"
+  },
+  "60610": {
+    "lat": 50.092,
+    "lon": 8.6314,
+    "city": "Deutsche Post AG Niederlassung BRIEF Frankfurt am Main"
+  },
+  "60611": {
+    "lat": 50.1139,
+    "lon": 8.6532,
+    "city": "Deutsche Post AG c/o Customer Service Center GmbH Kundenservice int."
+  },
+  "60612": {
+    "lat": 50.1087,
+    "lon": 8.6589,
+    "city": "Deutsche Asset & Wealth Management Investment GmbH"
+  },
+  "60613": {
+    "lat": 50.1087,
+    "lon": 8.672,
+    "city": "Commerzbank AG Dresdner Corporate Card Service"
+  },
+  "60614": {
+    "lat": 50.1013,
+    "lon": 8.6404,
+    "city": "Mediapolis Horizons Media GmbH"
+  },
+  "60615": {
+    "lat": 50.1161,
+    "lon": 8.6346,
+    "city": "MorgenFund GmbH"
+  },
+  "60620": {
+    "lat": 50.1361,
+    "lon": 8.6755,
+    "city": "Hessischer Rundfunk Werbung GmbH"
+  },
+  "60621": {
+    "lat": 50.1094,
+    "lon": 8.6772,
+    "city": "Union Investment Service Bank AG"
+  },
+  "60622": {
+    "lat": 50.1106,
+    "lon": 8.6728,
+    "city": "UniCredit Bank AG"
+  },
+  "60623": {
+    "lat": 50.1189,
+    "lon": 8.634,
+    "city": "MAINOVA AG"
+  },
+  "60624": {
+    "lat": 50.0958,
+    "lon": 8.6952,
+    "city": "Ferrero Management Services & Consulting GmbH & Co. KG"
+  },
+  "60625": {
+    "lat": 50.1125,
+    "lon": 8.667,
+    "city": "DekaBank, Deutsche Girozentrale"
+  },
+  "60626": {
+    "lat": 50.1109,
+    "lon": 8.6829,
+    "city": "Commerzbank AG Group Banking Operations Credit"
+  },
+  "60627": {
+    "lat": 50.1058,
+    "lon": 8.6698,
+    "city": "Allianz Shared Infrastructure Services GmbH (ASIC)"
+  },
+  "60628": {
+    "lat": 50.114,
+    "lon": 8.6485,
+    "city": "ING-DiBa AG"
+  },
+  "60629": {
+    "lat": 50.1235,
+    "lon": 8.6627,
+    "city": "Johann Wolfgang Goethe-Universität"
+  },
+  "60630": {
+    "lat": 50.1264,
+    "lon": 8.5857,
+    "city": "Xchanging Transaction Bank GmbH"
+  },
+  "60631": {
+    "lat": 50.1325,
+    "lon": 8.6774,
+    "city": "Bundesanstalt für Landwirtschaft und Ernährung"
+  },
+  "60632": {
+    "lat": 50.0672,
+    "lon": 8.6396,
+    "city": "FIFA Fußballweltmeisterschaft 2006 Organisationskomitee Deutschland"
+  },
+  "60633": {
+    "lat": 50.1147,
+    "lon": 8.6416,
+    "city": "Deutsche Bank AG Geschäfts- und Privatkunden AG Qualitätsmanagement"
+  },
+  "60634": {
+    "lat": 50.1036,
+    "lon": 8.6663,
+    "city": "Deutsche Vermögensberatung Aktiengesellschaft"
+  },
+  "60637": {
+    "lat": 50.1109,
+    "lon": 8.6829,
+    "city": "Commerzbank AG Group Banking Operations Credit"
+  },
+  "60638": {
+    "lat": 50.0302,
+    "lon": 8.5683,
+    "city": "Lufthansa Group Taste & More GmbH"
+  },
+  "60639": {
+    "lat": 50.1138,
+    "lon": 8.6684,
+    "city": "Deutsche Bank AG Zahlungsverkehr"
+  },
+  "60640": {
+    "lat": 50.1098,
+    "lon": 8.7028,
+    "city": "Europäische Zentralbank"
+  },
+  "60643": {
+    "lat": 50.1069,
+    "lon": 8.6399,
+    "city": "DB Fernverkehr AG Bahn Card"
+  },
+  "60644": {
+    "lat": 50.1069,
+    "lon": 8.6399,
+    "city": "DB Fernverkehr AG Bahn Card"
+  },
+  "60645": {
+    "lat": 50.1069,
+    "lon": 8.6399,
+    "city": "DB Fernverkehr AG Bahn Card"
+  },
+  "60647": {
+    "lat": 52.5159,
+    "lon": 13.328,
+    "city": "Servicecenter Fahrgastrechte"
+  },
+  "60651": {
+    "lat": 50.7156,
+    "lon": 7.1305,
+    "city": "Deutsche Post AG, Abt. 1U1"
+  },
+  "60652": {
+    "lat": 50.7156,
+    "lon": 7.1305,
+    "city": "Deutsche Post AG, Abt. 1U1"
+  },
+  "60699": {
+    "lat": 50.1139,
+    "lon": 8.6532,
+    "city": "Deutsche Post AG GB V B GWK Direkt Marketing Center Frankfurt"
+  },
+  "61116": {
+    "lat": 50.1929,
+    "lon": 8.7423,
+    "city": "harmony.fm"
+  },
+  "61118": {
+    "lat": 50.1787,
+    "lon": 8.7376,
+    "city": "Bad Vilbel"
+  },
+  "61130": {
+    "lat": 50.2381,
+    "lon": 8.867,
+    "city": "Nidderau"
+  },
+  "61137": {
+    "lat": 50.2056,
+    "lon": 8.8333,
+    "city": "Schöneck"
+  },
+  "61138": {
+    "lat": 50.1942,
+    "lon": 8.8,
+    "city": "Niederdorfelden"
+  },
+  "61167": {
+    "lat": 50.33,
+    "lon": 8.7496,
+    "city": "Finanzamt"
+  },
+  "61169": {
+    "lat": 50.3374,
+    "lon": 8.7559,
+    "city": "Friedberg"
+  },
+  "61182": {
+    "lat": 50.2287,
+    "lon": 8.7609,
+    "city": "ESAB-Hancock GmbH"
+  },
+  "61184": {
+    "lat": 50.2302,
+    "lon": 8.7716,
+    "city": "Karben"
+  },
+  "61191": {
+    "lat": 50.2931,
+    "lon": 8.6965,
+    "city": "Rosbach vor der Höhe"
+  },
+  "61194": {
+    "lat": 50.2833,
+    "lon": 8.8333,
+    "city": "Niddatal"
+  },
+  "61197": {
+    "lat": 50.3287,
+    "lon": 8.9167,
+    "city": "Florstadt"
+  },
+  "61200": {
+    "lat": 50.4,
+    "lon": 8.8167,
+    "city": "Wölfersheim"
+  },
+  "61203": {
+    "lat": 50.3564,
+    "lon": 8.8745,
+    "city": "Reichelsheim"
+  },
+  "61206": {
+    "lat": 50.2833,
+    "lon": 8.7667,
+    "city": "Wöllstadt"
+  },
+  "61209": {
+    "lat": 50.3889,
+    "lon": 8.8861,
+    "city": "Echzell"
+  },
+  "61229": {
+    "lat": 50.3612,
+    "lon": 8.7425,
+    "city": "Interbaustoff GmbH & Co KG"
+  },
+  "61231": {
+    "lat": 50.3646,
+    "lon": 8.7386,
+    "city": "Bad Nauheim"
+  },
+  "61239": {
+    "lat": 50.3735,
+    "lon": 8.6909,
+    "city": "Ober-Mörlen"
+  },
+  "61250": {
+    "lat": 50.3355,
+    "lon": 8.5369,
+    "city": "Usingen"
+  },
+  "61267": {
+    "lat": 50.3167,
+    "lon": 8.5,
+    "city": "Neu-Anspach"
+  },
+  "61273": {
+    "lat": 50.3,
+    "lon": 8.5667,
+    "city": "Wehrheim"
+  },
+  "61276": {
+    "lat": 50.3333,
+    "lon": 8.4167,
+    "city": "Weilrod"
+  },
+  "61279": {
+    "lat": 50.3902,
+    "lon": 8.4569,
+    "city": "Grävenwiesbach"
+  },
+  "61300": {
+    "lat": 50.2387,
+    "lon": 8.5884,
+    "city": "Bundesverwaltungsamt"
+  },
+  "61341": {
+    "lat": 50.2188,
+    "lon": 8.6167,
+    "city": "Start Amadeus GmbH"
+  },
+  "61342": {
+    "lat": 50.2128,
+    "lon": 8.655,
+    "city": "Agentur für Arbeit Bad Homburg"
+  },
+  "61343": {
+    "lat": 50.2215,
+    "lon": 8.6238,
+    "city": "Finanzamt"
+  },
+  "61344": {
+    "lat": 50.2175,
+    "lon": 8.6171,
+    "city": "Meda Pharma GmbH & Co. KG"
+  },
+  "61345": {
+    "lat": 50.2211,
+    "lon": 8.6242,
+    "city": "Baloise Sachversicherung AG Deutschland"
+  },
+  "61346": {
+    "lat": 50.2153,
+    "lon": 8.6235,
+    "city": "Fresenius Netcare"
+  },
+  "61348": {
+    "lat": 50.2265,
+    "lon": 8.612,
+    "city": "Bad Homburg vor der Höhe"
+  },
+  "61350": {
+    "lat": 50.2377,
+    "lon": 8.6024,
+    "city": "Bad Homburg vor der Höhe"
+  },
+  "61352": {
+    "lat": 50.2167,
+    "lon": 8.6167,
+    "city": "Bad Homburg vor der Höhe"
+  },
+  "61378": {
+    "lat": 50.0805,
+    "lon": 8.6323,
+    "city": "InterCityHotel GmbH"
+  },
+  "61381": {
+    "lat": 50.2496,
+    "lon": 8.6428,
+    "city": "Friedrichsdorf"
+  },
+  "61389": {
+    "lat": 50.2667,
+    "lon": 8.45,
+    "city": "Schmitten"
+  },
+  "61434": {
+    "lat": 50.1111,
+    "lon": 8.6551,
+    "city": "DA Deutsche Allgemeine Versicherung AG"
+  },
+  "61435": {
+    "lat": 50.212,
+    "lon": 8.5742,
+    "city": "Alte Leipziger"
+  },
+  "61437": {
+    "lat": 50.2033,
+    "lon": 8.5817,
+    "city": "Lafarge Roofing GmbH"
+  },
+  "61440": {
+    "lat": 50.2073,
+    "lon": 8.5775,
+    "city": "Oberursel"
+  },
+  "61449": {
+    "lat": 50.1648,
+    "lon": 8.5706,
+    "city": "Steinbach (Taunus)"
+  },
+  "61462": {
+    "lat": 50.177,
+    "lon": 8.4662,
+    "city": "Königstein im Taunus"
+  },
+  "61474": {
+    "lat": 50.1785,
+    "lon": 8.5079,
+    "city": "Magistrat der Stadt Kronberg"
+  },
+  "61476": {
+    "lat": 50.1789,
+    "lon": 8.5134,
+    "city": "Kronberg im Taunus"
+  },
+  "61479": {
+    "lat": 50.2167,
+    "lon": 8.4,
+    "city": "Glashütten"
+  },
+  "63057": {
+    "lat": 50.1066,
+    "lon": 8.7538,
+    "city": "Agentur für Arbeit Offenbach"
+  },
+  "63059": {
+    "lat": 50.1053,
+    "lon": 8.7418,
+    "city": "AXA / DBV Krankenversicherung AG"
+  },
+  "63060": {
+    "lat": 50.1348,
+    "lon": 8.9215,
+    "city": "AOK - Die Gesundheitskasse in Hessen"
+  },
+  "63061": {
+    "lat": 50.1057,
+    "lon": 8.7611,
+    "city": "Stadtverwaltung"
+  },
+  "63063": {
+    "lat": 50.0973,
+    "lon": 8.7655,
+    "city": "IHK"
+  },
+  "63064": {
+    "lat": 50.0833,
+    "lon": 8.7451,
+    "city": "Deutsche Post AG Bewerberservice"
+  },
+  "63065": {
+    "lat": 50.1054,
+    "lon": 8.762,
+    "city": "Offenbach"
+  },
+  "63067": {
+    "lat": 50.1069,
+    "lon": 8.7344,
+    "city": "Offenbach"
+  },
+  "63069": {
+    "lat": 50.0894,
+    "lon": 8.7494,
+    "city": "Offenbach"
+  },
+  "63071": {
+    "lat": 50.0993,
+    "lon": 8.7852,
+    "city": "Offenbach"
+  },
+  "63073": {
+    "lat": 50.1,
+    "lon": 8.7667,
+    "city": "Offenbach"
+  },
+  "63075": {
+    "lat": 50.123,
+    "lon": 8.7921,
+    "city": "Offenbach"
+  },
+  "63106": {
+    "lat": 50.0246,
+    "lon": 8.8945,
+    "city": "Stadtverwaltung"
+  },
+  "63110": {
+    "lat": 50.0263,
+    "lon": 8.8859,
+    "city": "Rodgau"
+  },
+  "63126": {
+    "lat": 50.0146,
+    "lon": 8.7889,
+    "city": "ALS-Verlag GmbH"
+  },
+  "63128": {
+    "lat": 50.0098,
+    "lon": 8.7778,
+    "city": "Dietzenbach"
+  },
+  "63147": {
+    "lat": 50.0525,
+    "lon": 8.81,
+    "city": "Herth & Buss"
+  },
+  "63150": {
+    "lat": 50.0555,
+    "lon": 8.8008,
+    "city": "Heusenstamm"
+  },
+  "63165": {
+    "lat": 50.1078,
+    "lon": 8.8318,
+    "city": "Mühlheim"
+  },
+  "63177": {
+    "lat": 50.0722,
+    "lon": 8.8563,
+    "city": "Picard Lederwaren GmbH & Co. KG"
+  },
+  "63179": {
+    "lat": 50.0714,
+    "lon": 8.8512,
+    "city": "Obertshausen"
+  },
+  "63222": {
+    "lat": 49.9842,
+    "lon": 8.6627,
+    "city": "Finanzamt"
+  },
+  "63223": {
+    "lat": 49.997,
+    "lon": 8.6533,
+    "city": "SAG GmbH"
+  },
+  "63225": {
+    "lat": 49.9896,
+    "lon": 8.6685,
+    "city": "Langen"
+  },
+  "63256": {
+    "lat": 50.053,
+    "lon": 8.6563,
+    "city": "Philipp Holzmann AG"
+  },
+  "63257": {
+    "lat": 50.0474,
+    "lon": 8.6995,
+    "city": "Stadtverwaltung"
+  },
+  "63258": {
+    "lat": 50.0452,
+    "lon": 8.686,
+    "city": "Lufthansa AirPlus Servicekarten GmbH Servicekarten"
+  },
+  "63259": {
+    "lat": 50.0483,
+    "lon": 8.7126,
+    "city": "Mobil Krankenkasse"
+  },
+  "63263": {
+    "lat": 50.0583,
+    "lon": 8.6918,
+    "city": "Neu-Isenburg"
+  },
+  "63299": {
+    "lat": 50.0255,
+    "lon": 8.6996,
+    "city": "Stadtverwaltung"
+  },
+  "63303": {
+    "lat": 50.02,
+    "lon": 8.6961,
+    "city": "Dreieich"
+  },
+  "63317": {
+    "lat": 49.9644,
+    "lon": 8.8231,
+    "city": "The Bradford Exchange, Ltd."
+  },
+  "63318": {
+    "lat": 49.9776,
+    "lon": 8.8279,
+    "city": "Der Magistrat der Stadt Rödermark"
+  },
+  "63322": {
+    "lat": 49.974,
+    "lon": 8.8282,
+    "city": "Rödermark"
+  },
+  "63328": {
+    "lat": 49.9653,
+    "lon": 8.6603,
+    "city": "SMC Deutschland GmbH"
+  },
+  "63329": {
+    "lat": 49.9679,
+    "lon": 8.6634,
+    "city": "Egelsbach"
+  },
+  "63405": {
+    "lat": 50.1333,
+    "lon": 8.9167,
+    "city": "Hanau"
+  },
+  "63438": {
+    "lat": 50.1147,
+    "lon": 8.6416,
+    "city": "Deutsche Bank Privat- und Geschäftskunden Service AG"
+  },
+  "63441": {
+    "lat": 50.1147,
+    "lon": 8.6416,
+    "city": "Deutsche Bank AG"
+  },
+  "63442": {
+    "lat": 50.1221,
+    "lon": 8.9313,
+    "city": "Agentur für Arbeit Hanau"
+  },
+  "63443": {
+    "lat": 50.1227,
+    "lon": 8.92,
+    "city": "sheego GmbH"
+  },
+  "63446": {
+    "lat": 50.1301,
+    "lon": 8.9244,
+    "city": "Dunlop GmbH"
+  },
+  "63447": {
+    "lat": 50.0964,
+    "lon": 8.9004,
+    "city": "Flexa GmbH & Co. KG"
+  },
+  "63450": {
+    "lat": 50.1316,
+    "lon": 8.9208,
+    "city": "Hanau"
+  },
+  "63452": {
+    "lat": 50.1442,
+    "lon": 8.9169,
+    "city": "Hanau"
+  },
+  "63454": {
+    "lat": 50.1391,
+    "lon": 8.8864,
+    "city": "Hanau"
+  },
+  "63456": {
+    "lat": 50.1139,
+    "lon": 8.9107,
+    "city": "Hanau"
+  },
+  "63457": {
+    "lat": 50.1063,
+    "lon": 8.9495,
+    "city": "Hanau"
+  },
+  "63475": {
+    "lat": 49.921,
+    "lon": 8.7328,
+    "city": "Stadtverwaltung Maintal"
+  },
+  "63477": {
+    "lat": 50.15,
+    "lon": 8.8333,
+    "city": "Maintal"
+  },
+  "63486": {
+    "lat": 50.1785,
+    "lon": 8.9232,
+    "city": "Bruchköbel"
+  },
+  "63499": {
+    "lat": 50.0466,
+    "lon": 8.9689,
+    "city": "Stadtverwaltung"
+  },
+  "63500": {
+    "lat": 50.0432,
+    "lon": 8.9739,
+    "city": "Seligenstadt"
+  },
+  "63505": {
+    "lat": 50.1766,
+    "lon": 9.04,
+    "city": "Langenselbold"
+  },
+  "63512": {
+    "lat": 50.0833,
+    "lon": 8.9333,
+    "city": "Hainburg"
+  },
+  "63517": {
+    "lat": 50.15,
+    "lon": 9.0333,
+    "city": "Rodenbach"
+  },
+  "63526": {
+    "lat": 50.163,
+    "lon": 8.9782,
+    "city": "Erlensee"
+  },
+  "63532": {
+    "lat": 50.016,
+    "lon": 9.0016,
+    "city": "anwr Ariston-Nord-West-Ring eG"
+  },
+  "63533": {
+    "lat": 50.0127,
+    "lon": 8.9901,
+    "city": "Mainhausen"
+  },
+  "63538": {
+    "lat": 50.0833,
+    "lon": 8.9833,
+    "city": "Großkrotzenburg"
+  },
+  "63543": {
+    "lat": 50.2,
+    "lon": 8.9833,
+    "city": "Neuberg"
+  },
+  "63546": {
+    "lat": 50.2167,
+    "lon": 8.9833,
+    "city": "Hammersbach"
+  },
+  "63549": {
+    "lat": 50.2278,
+    "lon": 9.0556,
+    "city": "Ronneburg"
+  },
+  "63569": {
+    "lat": 50.2023,
+    "lon": 9.1883,
+    "city": "Amtsgericht"
+  },
+  "63571": {
+    "lat": 50.2016,
+    "lon": 9.1874,
+    "city": "Gelnhausen"
+  },
+  "63579": {
+    "lat": 50.1323,
+    "lon": 9.1346,
+    "city": "Freigericht"
+  },
+  "63584": {
+    "lat": 50.2064,
+    "lon": 9.1388,
+    "city": "Gründau"
+  },
+  "63589": {
+    "lat": 50.1667,
+    "lon": 9.2167,
+    "city": "Linsengericht"
+  },
+  "63594": {
+    "lat": 50.1667,
+    "lon": 9.1,
+    "city": "Hasselroth"
+  },
+  "63599": {
+    "lat": 50.1806,
+    "lon": 9.2861,
+    "city": "Biebergemünd"
+  },
+  "63607": {
+    "lat": 50.2551,
+    "lon": 9.2956,
+    "city": "Wächtersbach"
+  },
+  "63619": {
+    "lat": 50.2279,
+    "lon": 9.3478,
+    "city": "Bad Orb"
+  },
+  "63628": {
+    "lat": 50.2757,
+    "lon": 9.367,
+    "city": "Bad Soden-Salmünster"
+  },
+  "63633": {
+    "lat": 50.35,
+    "lon": 9.3,
+    "city": "Birstein"
+  },
+  "63636": {
+    "lat": 50.3167,
+    "lon": 9.2833,
+    "city": "Brachttal"
+  },
+  "63637": {
+    "lat": 50.1792,
+    "lon": 9.4583,
+    "city": "Jossgrund"
+  },
+  "63639": {
+    "lat": 50.1208,
+    "lon": 9.4375,
+    "city": "Flörsbachtal"
+  },
+  "63652": {
+    "lat": 50.2861,
+    "lon": 9.1139,
+    "city": "Amtsgericht"
+  },
+  "63654": {
+    "lat": 50.2901,
+    "lon": 9.1114,
+    "city": "Büdingen"
+  },
+  "63667": {
+    "lat": 50.4133,
+    "lon": 9.0064,
+    "city": "Nidda"
+  },
+  "63674": {
+    "lat": 50.2875,
+    "lon": 8.9437,
+    "city": "Altenstadt"
+  },
+  "63679": {
+    "lat": 50.5035,
+    "lon": 9.1252,
+    "city": "Schotten"
+  },
+  "63683": {
+    "lat": 50.3558,
+    "lon": 9.056,
+    "city": "Ortenberg"
+  },
+  "63688": {
+    "lat": 50.4248,
+    "lon": 9.1984,
+    "city": "Gedern"
+  },
+  "63691": {
+    "lat": 50.3574,
+    "lon": 8.9837,
+    "city": "Ranstadt"
+  },
+  "63694": {
+    "lat": 50.2591,
+    "lon": 8.9776,
+    "city": "Limeshain"
+  },
+  "63695": {
+    "lat": 50.3167,
+    "lon": 9,
+    "city": "Glauburg"
+  },
+  "63697": {
+    "lat": 50.4,
+    "lon": 9.1333,
+    "city": "Hirzenhain"
+  },
+  "63699": {
+    "lat": 50.3448,
+    "lon": 9.2114,
+    "city": "Kefenrod"
+  },
+  "63715": {
+    "lat": 49.9787,
+    "lon": 9.1579,
+    "city": "Agentur für Arbeit Aschaffenburg"
+  },
+  "63735": {
+    "lat": 49.9815,
+    "lon": 9.2761,
+    "city": "HMK GmbH"
+  },
+  "63736": {
+    "lat": 49.9795,
+    "lon": 9.152,
+    "city": "AOK"
+  },
+  "63739": {
+    "lat": 49.9757,
+    "lon": 9.1478,
+    "city": "Aschaffenburg"
+  },
+  "63741": {
+    "lat": 49.9751,
+    "lon": 9.1314,
+    "city": "Aschaffenburg"
+  },
+  "63743": {
+    "lat": 49.9648,
+    "lon": 9.1647,
+    "city": "Aschaffenburg"
+  },
+  "63754": {
+    "lat": 50.0903,
+    "lon": 9.0531,
+    "city": "Nukem GmbH"
+  },
+  "63755": {
+    "lat": 50.0888,
+    "lon": 9.0646,
+    "city": "Alzenau in Unterfranken"
+  },
+  "63762": {
+    "lat": 49.9199,
+    "lon": 9.076,
+    "city": "Großostheim"
+  },
+  "63768": {
+    "lat": 50.0065,
+    "lon": 9.2076,
+    "city": "Hösbach"
+  },
+  "63773": {
+    "lat": 49.9995,
+    "lon": 9.1844,
+    "city": "Goldbach"
+  },
+  "63776": {
+    "lat": 50.0692,
+    "lon": 9.1637,
+    "city": "Mömbris"
+  },
+  "63784": {
+    "lat": 49.829,
+    "lon": 9.1536,
+    "city": "Mainsite GmbH & Co. KG"
+  },
+  "63785": {
+    "lat": 49.8358,
+    "lon": 9.131,
+    "city": "Obernburg am Main"
+  },
+  "63791": {
+    "lat": 50.0487,
+    "lon": 9.0287,
+    "city": "Karlstein am Main"
+  },
+  "63796": {
+    "lat": 50.0698,
+    "lon": 9.0055,
+    "city": "Kahl am Main"
+  },
+  "63801": {
+    "lat": 50,
+    "lon": 9.0667,
+    "city": "Kleinostheim"
+  },
+  "63806": {
+    "lat": 49.9636,
+    "lon": 9.19,
+    "city": "Adler Modemärkte GmbH"
+  },
+  "63808": {
+    "lat": 49.9644,
+    "lon": 9.2072,
+    "city": "Haibach"
+  },
+  "63811": {
+    "lat": 49.97,
+    "lon": 9.0715,
+    "city": "Stockstadt am Main"
+  },
+  "63814": {
+    "lat": 49.9817,
+    "lon": 9.09,
+    "city": "Mainaschaff"
+  },
+  "63820": {
+    "lat": 49.8429,
+    "lon": 9.1636,
+    "city": "Elsenfeld"
+  },
+  "63825": {
+    "lat": 50.0805,
+    "lon": 9.2468,
+    "city": "Sommerkahl"
+  },
+  "63826": {
+    "lat": 50.1233,
+    "lon": 9.1966,
+    "city": "Geiselbach"
+  },
+  "63828": {
+    "lat": 50.1167,
+    "lon": 9.2667,
+    "city": "Kleinkahl"
+  },
+  "63829": {
+    "lat": 50.0832,
+    "lon": 9.2061,
+    "city": "Krombach"
+  },
+  "63831": {
+    "lat": 50.1167,
+    "lon": 9.3667,
+    "city": "Wiesen"
+  },
+  "63834": {
+    "lat": 49.9115,
+    "lon": 9.1532,
+    "city": "Sulzbach am Main"
+  },
+  "63839": {
+    "lat": 49.8746,
+    "lon": 9.1693,
+    "city": "Kleinwallstadt"
+  },
+  "63840": {
+    "lat": 49.8697,
+    "lon": 9.2103,
+    "city": "Hausen"
+  },
+  "63843": {
+    "lat": 49.9122,
+    "lon": 9.1369,
+    "city": "Niedernberg"
+  },
+  "63846": {
+    "lat": 50.0167,
+    "lon": 9.3,
+    "city": "Laufach"
+  },
+  "63849": {
+    "lat": 49.9014,
+    "lon": 9.2217,
+    "city": "Leidersbach"
+  },
+  "63853": {
+    "lat": 49.8597,
+    "lon": 9.0833,
+    "city": "Mömlingen"
+  },
+  "63856": {
+    "lat": 49.9694,
+    "lon": 9.2686,
+    "city": "Bessenbach"
+  },
+  "63857": {
+    "lat": 49.9753,
+    "lon": 9.3019,
+    "city": "Waldaschaff"
+  },
+  "63860": {
+    "lat": 49.9653,
+    "lon": 9.3939,
+    "city": "Rothenbuch"
+  },
+  "63863": {
+    "lat": 49.8189,
+    "lon": 9.2592,
+    "city": "Eschau"
+  },
+  "63864": {
+    "lat": 50,
+    "lon": 9.15,
+    "city": "Glattbach"
+  },
+  "63867": {
+    "lat": 50.0316,
+    "lon": 9.1425,
+    "city": "Johannesberg"
+  },
+  "63868": {
+    "lat": 49.8794,
+    "lon": 9.1534,
+    "city": "Großwallstadt"
+  },
+  "63869": {
+    "lat": 50.0282,
+    "lon": 9.3712,
+    "city": "Heigenbrücken"
+  },
+  "63871": {
+    "lat": 50.0711,
+    "lon": 9.343,
+    "city": "Heinrichsthal"
+  },
+  "63872": {
+    "lat": 49.8892,
+    "lon": 9.2956,
+    "city": "Heimbuchenthal"
+  },
+  "63874": {
+    "lat": 49.8577,
+    "lon": 9.3276,
+    "city": "Dammbach"
+  },
+  "63875": {
+    "lat": 49.9144,
+    "lon": 9.2919,
+    "city": "Mespelbrunn"
+  },
+  "63877": {
+    "lat": 50.0246,
+    "lon": 9.2593,
+    "city": "Sailauf"
+  },
+  "63879": {
+    "lat": 49.9308,
+    "lon": 9.3661,
+    "city": "Weibersbrunn"
+  },
+  "63897": {
+    "lat": 49.7045,
+    "lon": 9.2673,
+    "city": "Miltenberg"
+  },
+  "63906": {
+    "lat": 49.8034,
+    "lon": 9.1631,
+    "city": "Erlenbach am Main"
+  },
+  "63911": {
+    "lat": 49.7851,
+    "lon": 9.1803,
+    "city": "Klingenberg am Main"
+  },
+  "63916": {
+    "lat": 49.6444,
+    "lon": 9.2218,
+    "city": "Amorbach"
+  },
+  "63920": {
+    "lat": 49.7283,
+    "lon": 9.2228,
+    "city": "Großheubach"
+  },
+  "63924": {
+    "lat": 49.7163,
+    "lon": 9.1963,
+    "city": "Rüdenau"
+  },
+  "63925": {
+    "lat": 49.7458,
+    "lon": 9.1761,
+    "city": "Laudenbach"
+  },
+  "63927": {
+    "lat": 49.7148,
+    "lon": 9.2692,
+    "city": "Bürgstadt"
+  },
+  "63928": {
+    "lat": 49.7056,
+    "lon": 9.3292,
+    "city": "Eichenbühl"
+  },
+  "63930": {
+    "lat": 49.7072,
+    "lon": 9.4025,
+    "city": "Neunkirchen"
+  },
+  "63931": {
+    "lat": 49.618,
+    "lon": 9.1779,
+    "city": "Kirchzell"
+  },
+  "63933": {
+    "lat": 49.7933,
+    "lon": 9.2686,
+    "city": "Mönchberg"
+  },
+  "63934": {
+    "lat": 49.7731,
+    "lon": 9.2461,
+    "city": "Röllbach"
+  },
+  "63936": {
+    "lat": 49.6402,
+    "lon": 9.2506,
+    "city": "Schneeberg"
+  },
+  "63937": {
+    "lat": 49.6681,
+    "lon": 9.2164,
+    "city": "Weilbach"
+  },
+  "63939": {
+    "lat": 49.7972,
+    "lon": 9.1539,
+    "city": "Wörth am Main"
+  },
+  "64271": {
+    "lat": 49.8981,
+    "lon": 8.6544,
+    "city": "Merck KGaA"
+  },
+  "64272": {
+    "lat": 49.8627,
+    "lon": 8.6398,
+    "city": "Agentur für Arbeit Darmstadt"
+  },
+  "64273": {
+    "lat": 49.8788,
+    "lon": 8.6399,
+    "city": "Carl Schenck AG"
+  },
+  "64275": {
+    "lat": 49.8785,
+    "lon": 8.6356,
+    "city": "Röhm GmbH Chemische Fabrik"
+  },
+  "64276": {
+    "lat": 49.8702,
+    "lon": 8.6365,
+    "city": "Klinikum Darmstadt"
+  },
+  "64277": {
+    "lat": 49.8754,
+    "lon": 8.6559,
+    "city": "Technische Universität Darmstadt Der Präsident"
+  },
+  "64278": {
+    "lat": 49.8813,
+    "lon": 8.6521,
+    "city": "Landgericht Darmstadt"
+  },
+  "64279": {
+    "lat": 49.8914,
+    "lon": 8.611,
+    "city": "Merck Accounting Solutions & Services Europe GmbH"
+  },
+  "64280": {
+    "lat": 49.8162,
+    "lon": 8.6316,
+    "city": "Goldwell Vertriebs-GmbH"
+  },
+  "64283": {
+    "lat": 49.8719,
+    "lon": 8.6484,
+    "city": "Darmstadt"
+  },
+  "64285": {
+    "lat": 49.8591,
+    "lon": 8.6486,
+    "city": "Darmstadt"
+  },
+  "64287": {
+    "lat": 49.8676,
+    "lon": 8.6644,
+    "city": "Darmstadt"
+  },
+  "64289": {
+    "lat": 49.8972,
+    "lon": 8.6809,
+    "city": "Darmstadt"
+  },
+  "64291": {
+    "lat": 49.9111,
+    "lon": 8.6573,
+    "city": "Darmstadt"
+  },
+  "64293": {
+    "lat": 49.8875,
+    "lon": 8.6446,
+    "city": "Darmstadt"
+  },
+  "64295": {
+    "lat": 49.8611,
+    "lon": 8.6373,
+    "city": "Darmstadt"
+  },
+  "64297": {
+    "lat": 49.8192,
+    "lon": 8.6449,
+    "city": "Darmstadt"
+  },
+  "64304": {
+    "lat": 49.8627,
+    "lon": 8.6398,
+    "city": "Agentur für Arbeit Darmstadt"
+  },
+  "64305": {
+    "lat": 49.8588,
+    "lon": 8.622,
+    "city": "Deutsche Post AG Niederlassung BRIEF Darmstadt"
+  },
+  "64306": {
+    "lat": 49.855,
+    "lon": 8.4872,
+    "city": "Transgourmet Deutschland GmbH & Co. OHG"
+  },
+  "64307": {
+    "lat": 49.8702,
+    "lon": 8.6317,
+    "city": "Deutsche Telekom AG"
+  },
+  "64308": {
+    "lat": 49.8162,
+    "lon": 8.6316,
+    "city": "KAO Germany GmbH"
+  },
+  "64319": {
+    "lat": 49.8056,
+    "lon": 8.6031,
+    "city": "Pfungstadt"
+  },
+  "64331": {
+    "lat": 49.9039,
+    "lon": 8.5887,
+    "city": "Weiterstadt"
+  },
+  "64342": {
+    "lat": 49.765,
+    "lon": 8.6519,
+    "city": "Seeheim-Jugenheim"
+  },
+  "64346": {
+    "lat": 49.8613,
+    "lon": 8.5898,
+    "city": "Intermail Direktmarketing GmbH"
+  },
+  "64347": {
+    "lat": 49.8609,
+    "lon": 8.5725,
+    "city": "Griesheim"
+  },
+  "64354": {
+    "lat": 49.8292,
+    "lon": 8.8357,
+    "city": "Reinheim"
+  },
+  "64367": {
+    "lat": 49.8156,
+    "lon": 8.7081,
+    "city": "Mühltal"
+  },
+  "64372": {
+    "lat": 49.8308,
+    "lon": 8.7489,
+    "city": "Ober-Ramstadt"
+  },
+  "64380": {
+    "lat": 49.8597,
+    "lon": 8.7617,
+    "city": "Roßdorf"
+  },
+  "64385": {
+    "lat": 49.7121,
+    "lon": 8.839,
+    "city": "Reichelsheim"
+  },
+  "64390": {
+    "lat": 49.9553,
+    "lon": 8.6475,
+    "city": "Erzhausen"
+  },
+  "64395": {
+    "lat": 49.7739,
+    "lon": 8.8844,
+    "city": "Brensbach"
+  },
+  "64397": {
+    "lat": 49.7606,
+    "lon": 8.7208,
+    "city": "Modautal"
+  },
+  "64401": {
+    "lat": 49.8006,
+    "lon": 8.8243,
+    "city": "Groß-Bieberau"
+  },
+  "64404": {
+    "lat": 49.7592,
+    "lon": 8.6175,
+    "city": "Bickenbach"
+  },
+  "64405": {
+    "lat": 49.7647,
+    "lon": 8.785,
+    "city": "Fischbachtal"
+  },
+  "64407": {
+    "lat": 49.7461,
+    "lon": 8.8586,
+    "city": "Fränkisch-Crumbach"
+  },
+  "64409": {
+    "lat": 49.9383,
+    "lon": 8.7406,
+    "city": "Messel"
+  },
+  "64517": {
+    "lat": 49.9301,
+    "lon": 8.4968,
+    "city": "Cover Girl GmbH"
+  },
+  "64518": {
+    "lat": 49.8588,
+    "lon": 8.4882,
+    "city": "DETEC FERTIGUNG GMBH"
+  },
+  "64520": {
+    "lat": 49.9134,
+    "lon": 8.4855,
+    "city": "AOK Die Gesundheitskasse in Hessen"
+  },
+  "64521": {
+    "lat": 49.9214,
+    "lon": 8.4825,
+    "city": "Groß-Gerau"
+  },
+  "64542": {
+    "lat": 49.9818,
+    "lon": 8.5815,
+    "city": "das inserat Verlag GmbH"
+  },
+  "64543": {
+    "lat": 49.9792,
+    "lon": 8.5744,
+    "city": "NCH GmbH"
+  },
+  "64545": {
+    "lat": 50.0146,
+    "lon": 8.5805,
+    "city": "Gesipa Blindniettechnik GmbH"
+  },
+  "64546": {
+    "lat": 49.9947,
+    "lon": 8.5836,
+    "city": "Mörfelden-Walldorf"
+  },
+  "64560": {
+    "lat": 49.8341,
+    "lon": 8.4962,
+    "city": "Riedstadt"
+  },
+  "64569": {
+    "lat": 49.9508,
+    "lon": 8.4633,
+    "city": "Nauheim"
+  },
+  "64572": {
+    "lat": 49.9033,
+    "lon": 8.5233,
+    "city": "Büttelborn"
+  },
+  "64579": {
+    "lat": 49.7531,
+    "lon": 8.4886,
+    "city": "Gernsheim"
+  },
+  "64584": {
+    "lat": 49.7836,
+    "lon": 8.4744,
+    "city": "Biebesheim am Rhein"
+  },
+  "64589": {
+    "lat": 49.8094,
+    "lon": 8.4728,
+    "city": "Stockstadt am Rhein"
+  },
+  "64623": {
+    "lat": 49.6782,
+    "lon": 8.6157,
+    "city": "Amtsgericht"
+  },
+  "64624": {
+    "lat": 49.6694,
+    "lon": 8.6183,
+    "city": "Sirona Imobilien GmbH"
+  },
+  "64625": {
+    "lat": 49.6837,
+    "lon": 8.6184,
+    "city": "Bensheim"
+  },
+  "64646": {
+    "lat": 49.6407,
+    "lon": 8.6367,
+    "city": "Heppenheim (Bergstraße)"
+  },
+  "64653": {
+    "lat": 49.65,
+    "lon": 8.5667,
+    "city": "Lorsch"
+  },
+  "64658": {
+    "lat": 49.6508,
+    "lon": 8.7847,
+    "city": "Fürth"
+  },
+  "64665": {
+    "lat": 49.7386,
+    "lon": 8.5958,
+    "city": "Alsbach-Hähnlein"
+  },
+  "64668": {
+    "lat": 49.625,
+    "lon": 8.7631,
+    "city": "Rimbach"
+  },
+  "64673": {
+    "lat": 49.7239,
+    "lon": 8.6108,
+    "city": "Zwingenberg"
+  },
+  "64678": {
+    "lat": 49.6837,
+    "lon": 8.7815,
+    "city": "Lindenfels"
+  },
+  "64683": {
+    "lat": 49.6767,
+    "lon": 8.5483,
+    "city": "Einhausen"
+  },
+  "64686": {
+    "lat": 49.7258,
+    "lon": 8.7033,
+    "city": "Lautertal"
+  },
+  "64689": {
+    "lat": 49.63,
+    "lon": 8.8822,
+    "city": "Grasellenbach"
+  },
+  "64711": {
+    "lat": 49.6615,
+    "lon": 8.994,
+    "city": "Erbach"
+  },
+  "64720": {
+    "lat": 49.6757,
+    "lon": 9.0037,
+    "city": "Michelstadt"
+  },
+  "64732": {
+    "lat": 49.7432,
+    "lon": 9.0075,
+    "city": "Bad König"
+  },
+  "64738": {
+    "lat": 49.8049,
+    "lon": 9.0032,
+    "city": "Hübbe Reisen OHG"
+  },
+  "64739": {
+    "lat": 49.7997,
+    "lon": 8.9994,
+    "city": "Höchst im Odenwald"
+  },
+  "64743": {
+    "lat": 49.5686,
+    "lon": 8.9744,
+    "city": "Beerfelden"
+  },
+  "64747": {
+    "lat": 49.8,
+    "lon": 9.0667,
+    "city": "Breuberg"
+  },
+  "64750": {
+    "lat": 49.7883,
+    "lon": 9.0753,
+    "city": "Lützelbach"
+  },
+  "64753": {
+    "lat": 49.7325,
+    "lon": 8.9622,
+    "city": "Brombachtal"
+  },
+  "64754": {
+    "lat": 49.5699,
+    "lon": 9.0629,
+    "city": "Hesseneck"
+  },
+  "64756": {
+    "lat": 49.6533,
+    "lon": 8.9289,
+    "city": "Mossautal"
+  },
+  "64757": {
+    "lat": 49.4992,
+    "lon": 8.9192,
+    "city": "Rothenberg"
+  },
+  "64807": {
+    "lat": 49.8974,
+    "lon": 8.8461,
+    "city": "Dieburg"
+  },
+  "64823": {
+    "lat": 49.869,
+    "lon": 8.9321,
+    "city": "Groß-Umstadt"
+  },
+  "64832": {
+    "lat": 49.9652,
+    "lon": 8.9513,
+    "city": "Babenhausen"
+  },
+  "64839": {
+    "lat": 49.9228,
+    "lon": 8.8678,
+    "city": "Münster"
+  },
+  "64846": {
+    "lat": 49.8758,
+    "lon": 8.8344,
+    "city": "Groß-Zimmern"
+  },
+  "64850": {
+    "lat": 49.9242,
+    "lon": 9.0094,
+    "city": "Schaafheim"
+  },
+  "64853": {
+    "lat": 49.8261,
+    "lon": 8.9225,
+    "city": "Otzberg"
+  },
+  "64859": {
+    "lat": 49.9506,
+    "lon": 8.8539,
+    "city": "Eppertshausen"
+  },
+  "65164": {
+    "lat": 50.9645,
+    "lon": 7.053,
+    "city": "AXA Versicherung AG (Colonia)"
+  },
+  "65166": {
+    "lat": 50.081,
+    "lon": 8.2194,
+    "city": "Agentur für Arbeit Wiesbaden"
+  },
+  "65169": {
+    "lat": 50.0741,
+    "lon": 8.2553,
+    "city": "DBV-Winterthur Lebensversicherung AG"
+  },
+  "65170": {
+    "lat": 50.0632,
+    "lon": 8.2721,
+    "city": "DBV-Winterthur Lebensversicherung Aktiengesellschaft"
+  },
+  "65171": {
+    "lat": 50.0741,
+    "lon": 8.2553,
+    "city": "DBV Deutsche Beamten-Versicherung AG"
+  },
+  "65172": {
+    "lat": 50.0741,
+    "lon": 8.2553,
+    "city": "DBV-Winterthur Krankenversicherung AG"
+  },
+  "65173": {
+    "lat": 50.0698,
+    "lon": 8.2399,
+    "city": "Dyckerhoff AG"
+  },
+  "65174": {
+    "lat": 50.0683,
+    "lon": 8.2426,
+    "city": "Justizbehörden"
+  },
+  "65175": {
+    "lat": 50.0737,
+    "lon": 8.2441,
+    "city": "St. Josefs-Hospital"
+  },
+  "65176": {
+    "lat": 50.0444,
+    "lon": 8.2161,
+    "city": "edilon sedra GmbH"
+  },
+  "65177": {
+    "lat": 50.0468,
+    "lon": 8.2036,
+    "city": "Stickel u. Co. GmbH"
+  },
+  "65178": {
+    "lat": 50.0632,
+    "lon": 8.2721,
+    "city": "DBV-Winterthur Holding Aktiengesellschaft"
+  },
+  "65179": {
+    "lat": 50.07,
+    "lon": 8.2534,
+    "city": "Zusatzversorgungskasse des Baugewerbes"
+  },
+  "65180": {
+    "lat": 50.0714,
+    "lon": 8.2523,
+    "city": "Statistisches Bundesamt"
+  },
+  "65181": {
+    "lat": 50.0863,
+    "lon": 8.2439,
+    "city": "R+V Versicherung"
+  },
+  "65182": {
+    "lat": 50.0679,
+    "lon": 8.25,
+    "city": "HUK-Coburg"
+  },
+  "65183": {
+    "lat": 50.0817,
+    "lon": 8.2389,
+    "city": "Wiesbaden"
+  },
+  "65185": {
+    "lat": 50.0773,
+    "lon": 8.2424,
+    "city": "Wiesbaden"
+  },
+  "65187": {
+    "lat": 50.0691,
+    "lon": 8.2254,
+    "city": "Wiesbaden"
+  },
+  "65189": {
+    "lat": 50.071,
+    "lon": 8.2565,
+    "city": "Wiesbaden"
+  },
+  "65191": {
+    "lat": 50.0876,
+    "lon": 8.2797,
+    "city": "Wiesbaden"
+  },
+  "65193": {
+    "lat": 50.0896,
+    "lon": 8.2428,
+    "city": "Wiesbaden"
+  },
+  "65195": {
+    "lat": 50.1095,
+    "lon": 8.1967,
+    "city": "Wiesbaden"
+  },
+  "65197": {
+    "lat": 50.0794,
+    "lon": 8.2157,
+    "city": "Wiesbaden"
+  },
+  "65199": {
+    "lat": 50.0734,
+    "lon": 8.196,
+    "city": "Wiesbaden"
+  },
+  "65201": {
+    "lat": 50.0441,
+    "lon": 8.2036,
+    "city": "Wiesbaden"
+  },
+  "65203": {
+    "lat": 50.045,
+    "lon": 8.2453,
+    "city": "Wiesbaden"
+  },
+  "65205": {
+    "lat": 50.0613,
+    "lon": 8.3442,
+    "city": "Wiesbaden"
+  },
+  "65207": {
+    "lat": 50.123,
+    "lon": 8.3018,
+    "city": "Wiesbaden"
+  },
+  "65209": {
+    "lat": 50.1456,
+    "lon": 8.5583,
+    "city": "VR Smart Finanz AG"
+  },
+  "65212": {
+    "lat": 50.0291,
+    "lon": 8.2754,
+    "city": "Deutsche Post AG Niederlassung BRIEF Wiesbaden"
+  },
+  "65215": {
+    "lat": 50.0557,
+    "lon": 8.2905,
+    "city": "R+V Betriebskrankenkasse"
+  },
+  "65216": {
+    "lat": 50.0445,
+    "lon": 8.1617,
+    "city": "PS-Team"
+  },
+  "65218": {
+    "lat": 50.0072,
+    "lon": 8.4136,
+    "city": "MCE Bank GmbH"
+  },
+  "65219": {
+    "lat": 50.15,
+    "lon": 8.15,
+    "city": "Taunusstein"
+  },
+  "65220": {
+    "lat": 50.15,
+    "lon": 8.15,
+    "city": "Taunusstein"
+  },
+  "65221": {
+    "lat": 50.15,
+    "lon": 8.15,
+    "city": "Taunusstein"
+  },
+  "65222": {
+    "lat": 50.15,
+    "lon": 8.15,
+    "city": "Taunusstein"
+  },
+  "65223": {
+    "lat": 50.15,
+    "lon": 8.15,
+    "city": "Taunusstein"
+  },
+  "65224": {
+    "lat": 50.15,
+    "lon": 8.15,
+    "city": "Taunusstein"
+  },
+  "65232": {
+    "lat": 50.1377,
+    "lon": 8.1337,
+    "city": "Taunusstein"
+  },
+  "65239": {
+    "lat": 50.0144,
+    "lon": 8.3522,
+    "city": "Hochheim am Main"
+  },
+  "65307": {
+    "lat": 50.142,
+    "lon": 8.0696,
+    "city": "Bad Schwalbach"
+  },
+  "65321": {
+    "lat": 50.1649,
+    "lon": 7.9535,
+    "city": "Heidenrod"
+  },
+  "65326": {
+    "lat": 50.25,
+    "lon": 8.0667,
+    "city": "Aarbergen"
+  },
+  "65329": {
+    "lat": 50.2,
+    "lon": 8.0667,
+    "city": "Hohenstein"
+  },
+  "65341": {
+    "lat": 50.0463,
+    "lon": 8.1248,
+    "city": "Vertriebsunion Meynen GmbH & Co. KG"
+  },
+  "65343": {
+    "lat": 50.0333,
+    "lon": 8.1167,
+    "city": "Eltville am Rhein"
+  },
+  "65344": {
+    "lat": 50.0333,
+    "lon": 8.1167,
+    "city": "Eltville am Rhein"
+  },
+  "65345": {
+    "lat": 50.0333,
+    "lon": 8.1167,
+    "city": "Eltville am Rhein"
+  },
+  "65346": {
+    "lat": 50.0333,
+    "lon": 8.1167,
+    "city": "Eltville am Rhein"
+  },
+  "65347": {
+    "lat": 50.0132,
+    "lon": 8.0615,
+    "city": "Eltville am Rhein"
+  },
+  "65366": {
+    "lat": 49.9847,
+    "lon": 7.9684,
+    "city": "Geisenheim"
+  },
+  "65375": {
+    "lat": 50,
+    "lon": 8,
+    "city": "Oestrich-Winkel"
+  },
+  "65385": {
+    "lat": 49.9821,
+    "lon": 7.9296,
+    "city": "Rüdesheim am Rhein"
+  },
+  "65388": {
+    "lat": 50.0932,
+    "lon": 8.1031,
+    "city": "Schlangenbad"
+  },
+  "65391": {
+    "lat": 50.0659,
+    "lon": 7.8127,
+    "city": "Lorch"
+  },
+  "65396": {
+    "lat": 50.04,
+    "lon": 8.1554,
+    "city": "Walluf"
+  },
+  "65399": {
+    "lat": 50.0396,
+    "lon": 8.0853,
+    "city": "Kiedrich"
+  },
+  "65423": {
+    "lat": 49.9918,
+    "lon": 8.4129,
+    "city": "Opel Automobile GmbH"
+  },
+  "65424": {
+    "lat": 49.988,
+    "lon": 8.4132,
+    "city": "Amtsgericht"
+  },
+  "65428": {
+    "lat": 49.9896,
+    "lon": 8.4225,
+    "city": "Rüsselsheim"
+  },
+  "65438": {
+    "lat": 50.0096,
+    "lon": 8.4209,
+    "city": "Gebr. Graulich"
+  },
+  "65439": {
+    "lat": 50.0131,
+    "lon": 8.4278,
+    "city": "Flörsheim"
+  },
+  "65450": {
+    "lat": 50.0523,
+    "lon": 8.5356,
+    "city": "Kühne & Nagel Luftfracht GmbH"
+  },
+  "65451": {
+    "lat": 50.0613,
+    "lon": 8.5292,
+    "city": "Kelsterbach"
+  },
+  "65462": {
+    "lat": 49.9711,
+    "lon": 8.3453,
+    "city": "Ginsheim-Gustavsburg"
+  },
+  "65468": {
+    "lat": 49.9264,
+    "lon": 8.4073,
+    "city": "Trebur"
+  },
+  "65473": {
+    "lat": 49.9868,
+    "lon": 8.359,
+    "city": "büroshop24 GmbH"
+  },
+  "65474": {
+    "lat": 49.9939,
+    "lon": 8.3672,
+    "city": "Bischofsheim"
+  },
+  "65479": {
+    "lat": 50.0132,
+    "lon": 8.4525,
+    "city": "Raunheim"
+  },
+  "65509": {
+    "lat": 50.2098,
+    "lon": 8.2574,
+    "city": "Stanley Black & Decker Deutschland GmbH"
+  },
+  "65510": {
+    "lat": 50.2255,
+    "lon": 8.2251,
+    "city": "Idstein"
+  },
+  "65520": {
+    "lat": 50.297,
+    "lon": 8.269,
+    "city": "Bad Camberg"
+  },
+  "65527": {
+    "lat": 50.1631,
+    "lon": 8.3134,
+    "city": "Niedernhausen"
+  },
+  "65529": {
+    "lat": 50.25,
+    "lon": 8.3333,
+    "city": "Waldems"
+  },
+  "65546": {
+    "lat": 50.3904,
+    "lon": 8.0534,
+    "city": "Agentur für Arbeit Limburg an der Lahn"
+  },
+  "65547": {
+    "lat": 50.3895,
+    "lon": 8.0631,
+    "city": "Karstadt AG"
+  },
+  "65549": {
+    "lat": 50.383,
+    "lon": 8.0611,
+    "city": "Limburg an der Lahn"
+  },
+  "65550": {
+    "lat": 50.3833,
+    "lon": 8.05,
+    "city": "Limburg an der Lahn"
+  },
+  "65551": {
+    "lat": 50.3833,
+    "lon": 8.05,
+    "city": "Limburg an der Lahn"
+  },
+  "65552": {
+    "lat": 50.3833,
+    "lon": 8.05,
+    "city": "Limburg an der Lahn"
+  },
+  "65553": {
+    "lat": 50.3833,
+    "lon": 8.05,
+    "city": "Limburg an der Lahn"
+  },
+  "65554": {
+    "lat": 50.3833,
+    "lon": 8.05,
+    "city": "Limburg an der Lahn"
+  },
+  "65555": {
+    "lat": 50.3833,
+    "lon": 8.05,
+    "city": "Limburg an der Lahn"
+  },
+  "65556": {
+    "lat": 50.3833,
+    "lon": 8.05,
+    "city": "Limburg an der Lahn"
+  },
+  "65558": {
+    "lat": 50.3519,
+    "lon": 8.0013,
+    "city": "Flacht"
+  },
+  "65580": {
+    "lat": 50.3712,
+    "lon": 8.0226,
+    "city": "Amtsgericht"
+  },
+  "65582": {
+    "lat": 50.3866,
+    "lon": 7.9975,
+    "city": "Aull"
+  },
+  "65589": {
+    "lat": 50.4459,
+    "lon": 8.0425,
+    "city": "Hadamar"
+  },
+  "65594": {
+    "lat": 50.4057,
+    "lon": 8.1546,
+    "city": "Runkel"
+  },
+  "65597": {
+    "lat": 50.3286,
+    "lon": 8.1476,
+    "city": "Hünfelden"
+  },
+  "65599": {
+    "lat": 50.5167,
+    "lon": 8.0167,
+    "city": "Dornburg"
+  },
+  "65604": {
+    "lat": 50.4167,
+    "lon": 8.0333,
+    "city": "Elz"
+  },
+  "65606": {
+    "lat": 50.3929,
+    "lon": 8.1931,
+    "city": "Villmar"
+  },
+  "65611": {
+    "lat": 50.3556,
+    "lon": 8.1778,
+    "city": "Brechen"
+  },
+  "65614": {
+    "lat": 50.4583,
+    "lon": 8.1458,
+    "city": "Beselich"
+  },
+  "65617": {
+    "lat": 50.3364,
+    "lon": 8.2437,
+    "city": "Wachtturm Bibel- und Traktat- Gesellschaft e.V."
+  },
+  "65618": {
+    "lat": 50.35,
+    "lon": 8.2667,
+    "city": "Selters (Taunus)"
+  },
+  "65620": {
+    "lat": 50.5167,
+    "lon": 8.1167,
+    "city": "Waldbrunn (Westerwald)"
+  },
+  "65623": {
+    "lat": 50.2943,
+    "lon": 8.0637,
+    "city": "Netzbach"
+  },
+  "65624": {
+    "lat": 50.3667,
+    "lon": 7.9833,
+    "city": "Altendiez"
+  },
+  "65626": {
+    "lat": 50.3581,
+    "lon": 8.0027,
+    "city": "Birlenbach"
+  },
+  "65627": {
+    "lat": 50.5,
+    "lon": 8.05,
+    "city": "Elbtal"
+  },
+  "65629": {
+    "lat": 50.3333,
+    "lon": 8.05,
+    "city": "Niederneisen"
+  },
+  "65717": {
+    "lat": 50.0845,
+    "lon": 8.4452,
+    "city": "Barmer Ersatzkasse"
+  },
+  "65719": {
+    "lat": 50.0902,
+    "lon": 8.4493,
+    "city": "Hofheim am Taunus"
+  },
+  "65754": {
+    "lat": 50.1346,
+    "lon": 8.5699,
+    "city": "Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)"
+  },
+  "65755": {
+    "lat": 50.1338,
+    "lon": 8.5733,
+    "city": "Deutsche Bank AG"
+  },
+  "65756": {
+    "lat": 50.1379,
+    "lon": 8.5697,
+    "city": "Unielektro GmbH"
+  },
+  "65757": {
+    "lat": 50.1605,
+    "lon": 8.5347,
+    "city": "Data General GmbH"
+  },
+  "65758": {
+    "lat": 50.1382,
+    "lon": 8.5816,
+    "city": "Eurohypo Aktiengesellschaft"
+  },
+  "65760": {
+    "lat": 50.1433,
+    "lon": 8.5711,
+    "city": "Eschborn"
+  },
+  "65779": {
+    "lat": 50.137,
+    "lon": 8.4502,
+    "city": "Kelkheim (Taunus)"
+  },
+  "65784": {
+    "lat": 50.0706,
+    "lon": 8.4911,
+    "city": "TASSO"
+  },
+  "65795": {
+    "lat": 50.0785,
+    "lon": 8.4755,
+    "city": "Hattersheim"
+  },
+  "65810": {
+    "lat": 50.1479,
+    "lon": 8.4998,
+    "city": "Barmer Ersatzkasse"
+  },
+  "65812": {
+    "lat": 50.1408,
+    "lon": 8.5045,
+    "city": "Bad Soden am Taunus"
+  },
+  "65817": {
+    "lat": 50.1428,
+    "lon": 8.3923,
+    "city": "Eppstein"
+  },
+  "65823": {
+    "lat": 50.144,
+    "lon": 8.5313,
+    "city": "Procter & Gamble GmbH"
+  },
+  "65824": {
+    "lat": 50.15,
+    "lon": 8.5333,
+    "city": "Schwalbach am Taunus"
+  },
+  "65830": {
+    "lat": 50.0841,
+    "lon": 8.4698,
+    "city": "Kriftel"
+  },
+  "65835": {
+    "lat": 50.1185,
+    "lon": 8.4885,
+    "city": "Liederbach am Taunus"
+  },
+  "65840": {
+    "lat": 50.1288,
+    "lon": 8.5212,
+    "city": "Clariant GmbH"
+  },
+  "65842": {
+    "lat": 50.1311,
+    "lon": 8.5212,
+    "city": "Guerbet GmbH"
+  },
+  "65843": {
+    "lat": 50.134,
+    "lon": 8.528,
+    "city": "Sulzbach"
+  },
+  "65844": {
+    "lat": 50.1288,
+    "lon": 8.5212,
+    "city": "Ticona GmbH"
+  },
+  "65925": {
+    "lat": 50.1083,
+    "lon": 8.5528,
+    "city": "Abele-Optik"
+  },
+  "65927": {
+    "lat": 50.0961,
+    "lon": 8.538,
+    "city": "Sanofi-Aventis Deutschland GmbH"
+  },
+  "65929": {
+    "lat": 50.1045,
+    "lon": 8.5389,
+    "city": "Frankfurt am Main"
+  },
+  "65931": {
+    "lat": 50.091,
+    "lon": 8.5044,
+    "city": "Frankfurt am Main"
+  },
+  "65933": {
+    "lat": 50.0979,
+    "lon": 8.5999,
+    "city": "Frankfurt am Main"
+  },
+  "65934": {
+    "lat": 50.1027,
+    "lon": 8.5749,
+    "city": "Frankfurt am Main"
+  },
+  "65936": {
+    "lat": 50.1207,
+    "lon": 8.5663,
+    "city": "Frankfurt am Main"
+  },
+  "66087": {
+    "lat": 49.232,
+    "lon": 7.0312,
+    "city": "Union Reiseversicherung AG ( URV )"
+  },
+  "66088": {
+    "lat": 49.2392,
+    "lon": 6.9858,
+    "city": "Agentur für Arbeit Saarbrücken"
+  },
+  "66090": {
+    "lat": 49.2275,
+    "lon": 7.0251,
+    "city": "Mercedes-Benz Banking Service GmbH"
+  },
+  "66094": {
+    "lat": 49.2251,
+    "lon": 7.0421,
+    "city": "MediServ GmbH"
+  },
+  "66097": {
+    "lat": 49.2397,
+    "lon": 6.9558,
+    "city": "Deutsche Post AG Direkt Marketing Center Saarbrücken"
+  },
+  "66098": {
+    "lat": 49.2359,
+    "lon": 6.9923,
+    "city": "Innungskrankenkasse Südwest"
+  },
+  "66099": {
+    "lat": 49.232,
+    "lon": 7.0312,
+    "city": "UKV ( Union Krankenversicherung AG)"
+  },
+  "66100": {
+    "lat": 49.2205,
+    "lon": 7.0351,
+    "city": "Saarländischer Rundfunk Funkhaus Halberg"
+  },
+  "66101": {
+    "lat": 49.232,
+    "lon": 7.0073,
+    "city": "Cosmos Direkt Versicherung"
+  },
+  "66102": {
+    "lat": 49.2397,
+    "lon": 6.9798,
+    "city": "Staatl. Lotterie Ein. M. Weber KG"
+  },
+  "66103": {
+    "lat": 49.235,
+    "lon": 6.9898,
+    "city": "Regio Print"
+  },
+  "66104": {
+    "lat": 49.2355,
+    "lon": 6.9996,
+    "city": "HDI AG"
+  },
+  "66106": {
+    "lat": 49.2398,
+    "lon": 6.9993,
+    "city": "reha GmbH"
+  },
+  "66108": {
+    "lat": 49.2407,
+    "lon": 7.0064,
+    "city": "Deutsche Rentenversicherung Saarland"
+  },
+  "66109": {
+    "lat": 49.233,
+    "lon": 7.002,
+    "city": "HUK Coburg"
+  },
+  "66111": {
+    "lat": 49.2461,
+    "lon": 7.0022,
+    "city": "Saarbrücken"
+  },
+  "66113": {
+    "lat": 49.2431,
+    "lon": 6.9757,
+    "city": "Saarbrücken"
+  },
+  "66115": {
+    "lat": 49.2399,
+    "lon": 6.9696,
+    "city": "Saarbrücken"
+  },
+  "66117": {
+    "lat": 49.2146,
+    "lon": 6.9682,
+    "city": "Saarbrücken"
+  },
+  "66119": {
+    "lat": 49.2087,
+    "lon": 7.0202,
+    "city": "Saarbrücken"
+  },
+  "66121": {
+    "lat": 49.229,
+    "lon": 7.0124,
+    "city": "Saarbrücken"
+  },
+  "66123": {
+    "lat": 49.2333,
+    "lon": 7,
+    "city": "Saarbrücken"
+  },
+  "66125": {
+    "lat": 49.2718,
+    "lon": 7.0325,
+    "city": "Saarbrücken"
+  },
+  "66126": {
+    "lat": 49.2333,
+    "lon": 7,
+    "city": "Saarbrücken"
+  },
+  "66127": {
+    "lat": 49.2333,
+    "lon": 7,
+    "city": "Saarbrücken"
+  },
+  "66128": {
+    "lat": 49.2333,
+    "lon": 7,
+    "city": "Saarbrücken"
+  },
+  "66129": {
+    "lat": 49.2333,
+    "lon": 7,
+    "city": "Saarbrücken"
+  },
+  "66130": {
+    "lat": 49.247,
+    "lon": 6.9105,
+    "city": "Saarbrücken"
+  },
+  "66131": {
+    "lat": 49.2333,
+    "lon": 7,
+    "city": "Saarbrücken"
+  },
+  "66132": {
+    "lat": 49.2333,
+    "lon": 7,
+    "city": "Saarbrücken"
+  },
+  "66133": {
+    "lat": 49.2333,
+    "lon": 7,
+    "city": "Saarbrücken"
+  },
+  "66150": {
+    "lat": 49.2136,
+    "lon": 6.9681,
+    "city": "Deutsche Post AG Niederlassung BRIEF Saarbrücken"
+  },
+  "66265": {
+    "lat": 49.3363,
+    "lon": 6.9304,
+    "city": "Heusweiler"
+  },
+  "66271": {
+    "lat": 49.1578,
+    "lon": 7.0373,
+    "city": "Kleinblittersdorf"
+  },
+  "66280": {
+    "lat": 49.3,
+    "lon": 7.0667,
+    "city": "Sulzbach/Saar"
+  },
+  "66287": {
+    "lat": 49.3167,
+    "lon": 7.05,
+    "city": "Quierschied"
+  },
+  "66292": {
+    "lat": 49.3,
+    "lon": 6.9333,
+    "city": "Riegelsberg"
+  },
+  "66299": {
+    "lat": 49.3279,
+    "lon": 7.0962,
+    "city": "Friedrichsthal"
+  },
+  "66330": {
+    "lat": 49.2525,
+    "lon": 6.8511,
+    "city": "Saarstahl AG"
+  },
+  "66333": {
+    "lat": 49.2516,
+    "lon": 6.8587,
+    "city": "Völklingen"
+  },
+  "66346": {
+    "lat": 49.2855,
+    "lon": 6.8872,
+    "city": "Püttlingen"
+  },
+  "66352": {
+    "lat": 49.203,
+    "lon": 6.8415,
+    "city": "Großrosseln"
+  },
+  "66359": {
+    "lat": 49.2773,
+    "lon": 6.8013,
+    "city": "Bous"
+  },
+  "66386": {
+    "lat": 49.277,
+    "lon": 7.1167,
+    "city": "Sankt Ingbert"
+  },
+  "66399": {
+    "lat": 49.1833,
+    "lon": 7.1667,
+    "city": "Mandelbachtal"
+  },
+  "66421": {
+    "lat": 49.3153,
+    "lon": 7.3428,
+    "city": "Universitätskliniken des Saarlandes"
+  },
+  "66424": {
+    "lat": 49.3264,
+    "lon": 7.3387,
+    "city": "Homburg"
+  },
+  "66440": {
+    "lat": 49.2372,
+    "lon": 7.2562,
+    "city": "Blieskastel"
+  },
+  "66450": {
+    "lat": 49.3462,
+    "lon": 7.2553,
+    "city": "Bexbach"
+  },
+  "66453": {
+    "lat": 49.15,
+    "lon": 7.2,
+    "city": "Gersheim"
+  },
+  "66458": {
+    "lat": 49.2867,
+    "lon": 7.2161,
+    "city": "Praktiker"
+  },
+  "66459": {
+    "lat": 49.2833,
+    "lon": 7.2333,
+    "city": "Kirkel"
+  },
+  "66482": {
+    "lat": 49.2469,
+    "lon": 7.3698,
+    "city": "Zweibrücken"
+  },
+  "66484": {
+    "lat": 49.2276,
+    "lon": 7.4541,
+    "city": "Walshausen"
+  },
+  "66497": {
+    "lat": 49.25,
+    "lon": 7.4333,
+    "city": "Contwig"
+  },
+  "66500": {
+    "lat": 49.1856,
+    "lon": 7.3844,
+    "city": "Hornbach"
+  },
+  "66501": {
+    "lat": 49.3084,
+    "lon": 7.425,
+    "city": "Großbundenbach"
+  },
+  "66503": {
+    "lat": 49.234,
+    "lon": 7.474,
+    "city": "Dellfeld"
+  },
+  "66504": {
+    "lat": 49.1833,
+    "lon": 7.5,
+    "city": "Bottenbach"
+  },
+  "66506": {
+    "lat": 49.2667,
+    "lon": 7.5333,
+    "city": "Maßweiler"
+  },
+  "66507": {
+    "lat": 49.2828,
+    "lon": 7.5096,
+    "city": "Reifenberg"
+  },
+  "66509": {
+    "lat": 49.2333,
+    "lon": 7.5,
+    "city": "Rieschweiler-Mühlbach"
+  },
+  "66538": {
+    "lat": 49.3448,
+    "lon": 7.1799,
+    "city": "Neunkirchen/Saar"
+  },
+  "66539": {
+    "lat": 49.3366,
+    "lon": 7.2191,
+    "city": "Neunkirchen/Saar"
+  },
+  "66540": {
+    "lat": 49.367,
+    "lon": 7.1841,
+    "city": "Neunkirchen/Saar"
+  },
+  "66557": {
+    "lat": 49.3736,
+    "lon": 7.0476,
+    "city": "Illingen"
+  },
+  "66564": {
+    "lat": 49.4013,
+    "lon": 7.1642,
+    "city": "Ottweiler"
+  },
+  "66571": {
+    "lat": 49.4,
+    "lon": 6.9667,
+    "city": "Eppelborn"
+  },
+  "66578": {
+    "lat": 49.3667,
+    "lon": 7.1333,
+    "city": "Schiffweiler"
+  },
+  "66583": {
+    "lat": 49.3167,
+    "lon": 7.1333,
+    "city": "Spiesen-Elversberg"
+  },
+  "66589": {
+    "lat": 49.35,
+    "lon": 7.05,
+    "city": "Merchweiler"
+  },
+  "66606": {
+    "lat": 49.4663,
+    "lon": 7.1681,
+    "city": "Sankt Wendel"
+  },
+  "66620": {
+    "lat": 49.6076,
+    "lon": 6.9699,
+    "city": "Nonnweiler"
+  },
+  "66625": {
+    "lat": 49.5759,
+    "lon": 7.0808,
+    "city": "Nohfelden"
+  },
+  "66629": {
+    "lat": 49.55,
+    "lon": 7.25,
+    "city": "Freisen"
+  },
+  "66636": {
+    "lat": 49.4837,
+    "lon": 7.0369,
+    "city": "Tholey"
+  },
+  "66640": {
+    "lat": 49.5217,
+    "lon": 7.1407,
+    "city": "Namborn"
+  },
+  "66646": {
+    "lat": 49.4523,
+    "lon": 7.0582,
+    "city": "Marpingen"
+  },
+  "66649": {
+    "lat": 49.5126,
+    "lon": 7.0838,
+    "city": "Oberthal"
+  },
+  "66661": {
+    "lat": 49.4651,
+    "lon": 6.6151,
+    "city": "Assist Heimpflege-Bedarf GmbH"
+  },
+  "66663": {
+    "lat": 49.4433,
+    "lon": 6.6387,
+    "city": "Merzig"
+  },
+  "66679": {
+    "lat": 49.5181,
+    "lon": 6.735,
+    "city": "Losheim am See"
+  },
+  "66687": {
+    "lat": 49.5412,
+    "lon": 6.8877,
+    "city": "Wadern"
+  },
+  "66693": {
+    "lat": 49.4936,
+    "lon": 6.5969,
+    "city": "Mettlach"
+  },
+  "66701": {
+    "lat": 49.4,
+    "lon": 6.7,
+    "city": "Beckingen"
+  },
+  "66706": {
+    "lat": 49.4717,
+    "lon": 6.3813,
+    "city": "Perl"
+  },
+  "66709": {
+    "lat": 49.55,
+    "lon": 6.8167,
+    "city": "Weiskirchen"
+  },
+  "66738": {
+    "lat": 49.3257,
+    "lon": 6.7483,
+    "city": "Bundeszentralamt für Steuern Dienstsitz Saarlouis"
+  },
+  "66740": {
+    "lat": 49.3137,
+    "lon": 6.7515,
+    "city": "Saarlouis"
+  },
+  "66763": {
+    "lat": 49.3556,
+    "lon": 6.7278,
+    "city": "Dillingen"
+  },
+  "66773": {
+    "lat": 49.3,
+    "lon": 6.8167,
+    "city": "Schwalbach"
+  },
+  "66780": {
+    "lat": 49.3756,
+    "lon": 6.6844,
+    "city": "Rehlingen-Siersburg"
+  },
+  "66787": {
+    "lat": 49.2667,
+    "lon": 6.7833,
+    "city": "Wadgassen"
+  },
+  "66793": {
+    "lat": 49.3543,
+    "lon": 6.8049,
+    "city": "Saarwellingen"
+  },
+  "66798": {
+    "lat": 49.3275,
+    "lon": 6.711,
+    "city": "Wallerfangen"
+  },
+  "66802": {
+    "lat": 49.2419,
+    "lon": 6.6984,
+    "city": "Überherrn"
+  },
+  "66806": {
+    "lat": 49.3,
+    "lon": 6.7833,
+    "city": "Ensdorf"
+  },
+  "66809": {
+    "lat": 49.3833,
+    "lon": 6.7833,
+    "city": "Nalbach"
+  },
+  "66822": {
+    "lat": 49.4112,
+    "lon": 6.9099,
+    "city": "Lebach"
+  },
+  "66839": {
+    "lat": 49.4333,
+    "lon": 6.85,
+    "city": "Schmelz"
+  },
+  "66849": {
+    "lat": 49.4131,
+    "lon": 7.5702,
+    "city": "Landstuhl"
+  },
+  "66851": {
+    "lat": 49.3625,
+    "lon": 7.6021,
+    "city": "Bann"
+  },
+  "66862": {
+    "lat": 49.4167,
+    "lon": 7.6167,
+    "city": "Kindsbach"
+  },
+  "66869": {
+    "lat": 49.5421,
+    "lon": 7.3908,
+    "city": "Kusel"
+  },
+  "66871": {
+    "lat": 49.5351,
+    "lon": 7.3542,
+    "city": "Konken"
+  },
+  "66877": {
+    "lat": 49.4445,
+    "lon": 7.5553,
+    "city": "Ramstein-Miesenbach"
+  },
+  "66879": {
+    "lat": 49.4951,
+    "lon": 7.5272,
+    "city": "Niedermohr"
+  },
+  "66882": {
+    "lat": 49.4167,
+    "lon": 7.4833,
+    "city": "Hütschenhausen"
+  },
+  "66885": {
+    "lat": 49.5593,
+    "lon": 7.4623,
+    "city": "Bedesbach"
+  },
+  "66887": {
+    "lat": 49.5683,
+    "lon": 7.4916,
+    "city": "Ulmet"
+  },
+  "66892": {
+    "lat": 49.3833,
+    "lon": 7.4333,
+    "city": "Bruchmühlbach-Miesau"
+  },
+  "66894": {
+    "lat": 49.3518,
+    "lon": 7.4556,
+    "city": "Käshofen"
+  },
+  "66901": {
+    "lat": 49.4074,
+    "lon": 7.3723,
+    "city": "Schönenberg-Kübelberg"
+  },
+  "66903": {
+    "lat": 49.4388,
+    "lon": 7.3412,
+    "city": "Gries"
+  },
+  "66904": {
+    "lat": 49.4325,
+    "lon": 7.38,
+    "city": "Brücken"
+  },
+  "66907": {
+    "lat": 49.479,
+    "lon": 7.4421,
+    "city": "Rehweiler"
+  },
+  "66909": {
+    "lat": 49.477,
+    "lon": 7.3891,
+    "city": "Hüffler"
+  },
+  "66914": {
+    "lat": 49.3833,
+    "lon": 7.3333,
+    "city": "Waldmohr"
+  },
+  "66916": {
+    "lat": 49.4246,
+    "lon": 7.2861,
+    "city": "Dunzweiler"
+  },
+  "66917": {
+    "lat": 49.3224,
+    "lon": 7.5016,
+    "city": "Wallhalben"
+  },
+  "66919": {
+    "lat": 49.325,
+    "lon": 7.5794,
+    "city": "Weselberg"
+  },
+  "66950": {
+    "lat": 49.1943,
+    "lon": 7.608,
+    "city": "Finanzamt Pirmasens"
+  },
+  "66951": {
+    "lat": 49.2045,
+    "lon": 7.5958,
+    "city": "Profine GmbH"
+  },
+  "66953": {
+    "lat": 49.2149,
+    "lon": 7.629,
+    "city": "Pirmasens"
+  },
+  "66954": {
+    "lat": 49.2071,
+    "lon": 7.5911,
+    "city": "Pirmasens"
+  },
+  "66955": {
+    "lat": 49.1839,
+    "lon": 7.6134,
+    "city": "Pirmasens"
+  },
+  "66957": {
+    "lat": 49.1491,
+    "lon": 7.5648,
+    "city": "Hilst"
+  },
+  "66969": {
+    "lat": 49.1731,
+    "lon": 7.6511,
+    "city": "Lemberg"
+  },
+  "66976": {
+    "lat": 49.2394,
+    "lon": 7.6396,
+    "city": "Rodalben"
+  },
+  "66978": {
+    "lat": 49.2611,
+    "lon": 7.7047,
+    "city": "Leimen"
+  },
+  "66981": {
+    "lat": 49.2167,
+    "lon": 7.7,
+    "city": "Münchweiler an der Rodalb"
+  },
+  "66986": {
+    "lat": 49.2612,
+    "lon": 7.5624,
+    "city": "Reno Versandhandel GmbH"
+  },
+  "66987": {
+    "lat": 49.2667,
+    "lon": 7.5833,
+    "city": "Thaleischweiler-Fröschen"
+  },
+  "66989": {
+    "lat": 49.246,
+    "lon": 7.5595,
+    "city": "Höheinöd"
+  },
+  "66994": {
+    "lat": 49.151,
+    "lon": 7.7784,
+    "city": "Dahn"
+  },
+  "66996": {
+    "lat": 49.0938,
+    "lon": 7.7533,
+    "city": "Schönau"
+  },
+  "66999": {
+    "lat": 49.2,
+    "lon": 7.75,
+    "city": "Hinterweidenthal"
+  },
+  "67055": {
+    "lat": 49.48,
+    "lon": 8.4441,
+    "city": "Agentur für Arbeit Ludwigshafen am Rhein"
+  },
+  "67056": {
+    "lat": 49.4949,
+    "lon": 8.434,
+    "city": "BASF SE"
+  },
+  "67057": {
+    "lat": 49.474,
+    "lon": 8.4251,
+    "city": "Postbank Niederlassung Ludwigshafen"
+  },
+  "67059": {
+    "lat": 49.4828,
+    "lon": 8.4376,
+    "city": "Ludwigshafen am Rhein"
+  },
+  "67061": {
+    "lat": 49.4705,
+    "lon": 8.4454,
+    "city": "Ludwigshafen am Rhein"
+  },
+  "67063": {
+    "lat": 49.499,
+    "lon": 8.4109,
+    "city": "Ludwigshafen am Rhein"
+  },
+  "67065": {
+    "lat": 49.4603,
+    "lon": 8.4162,
+    "city": "Ludwigshafen am Rhein"
+  },
+  "67067": {
+    "lat": 49.4811,
+    "lon": 8.4353,
+    "city": "Ludwigshafen am Rhein"
+  },
+  "67069": {
+    "lat": 49.5235,
+    "lon": 8.4022,
+    "city": "Ludwigshafen am Rhein"
+  },
+  "67071": {
+    "lat": 49.489,
+    "lon": 8.3791,
+    "city": "Ludwigshafen am Rhein"
+  },
+  "67075": {
+    "lat": 49.4436,
+    "lon": 8.4034,
+    "city": "Joseph Vögele AG"
+  },
+  "67076": {
+    "lat": 49.474,
+    "lon": 8.4251,
+    "city": "Deutsche Postbank AG Niederlassung Ludwigshafen"
+  },
+  "67077": {
+    "lat": 49.4748,
+    "lon": 8.4265,
+    "city": "Deutsche Post AG Niederlassung BRIEF Ludwigshafen"
+  },
+  "67078": {
+    "lat": 49.4748,
+    "lon": 8.4265,
+    "city": "Deutsche Post AG NL Brief Mainz Personaladministration Filial GmbH"
+  },
+  "67082": {
+    "lat": 49.476,
+    "lon": 8.4556,
+    "city": "pronova BKK"
+  },
+  "67098": {
+    "lat": 49.4563,
+    "lon": 8.0814,
+    "city": "Bad Dürkheim"
+  },
+  "67105": {
+    "lat": 49.3842,
+    "lon": 8.3775,
+    "city": "Schifferstadt"
+  },
+  "67112": {
+    "lat": 49.4414,
+    "lon": 8.3561,
+    "city": "Mutterstadt"
+  },
+  "67117": {
+    "lat": 49.4244,
+    "lon": 8.3919,
+    "city": "Limburgerhof"
+  },
+  "67122": {
+    "lat": 49.4356,
+    "lon": 8.4947,
+    "city": "Altrip"
+  },
+  "67125": {
+    "lat": 49.4403,
+    "lon": 8.3086,
+    "city": "Dannstadt-Schauernheim"
+  },
+  "67126": {
+    "lat": 49.4194,
+    "lon": 8.2817,
+    "city": "Hochdorf-Assenheim"
+  },
+  "67127": {
+    "lat": 49.43,
+    "lon": 8.2614,
+    "city": "Rödersheim-Gronau"
+  },
+  "67133": {
+    "lat": 49.4881,
+    "lon": 8.2917,
+    "city": "Maxdorf"
+  },
+  "67134": {
+    "lat": 49.4814,
+    "lon": 8.2619,
+    "city": "Birkenheide"
+  },
+  "67136": {
+    "lat": 49.4611,
+    "lon": 8.2922,
+    "city": "Fußgönheim"
+  },
+  "67141": {
+    "lat": 49.4278,
+    "lon": 8.4247,
+    "city": "Neuhofen"
+  },
+  "67146": {
+    "lat": 49.4078,
+    "lon": 8.1844,
+    "city": "Deidesheim"
+  },
+  "67147": {
+    "lat": 49.4258,
+    "lon": 8.1911,
+    "city": "Forst an der Weinstraße"
+  },
+  "67149": {
+    "lat": 49.4044,
+    "lon": 8.2392,
+    "city": "Meckenheim"
+  },
+  "67150": {
+    "lat": 49.415,
+    "lon": 8.21,
+    "city": "Niederkirchen bei Deidesheim"
+  },
+  "67152": {
+    "lat": 49.4003,
+    "lon": 8.1961,
+    "city": "Ruppertsberg"
+  },
+  "67157": {
+    "lat": 49.448,
+    "lon": 8.1712,
+    "city": "Wachenheim an der Weinstraße"
+  },
+  "67158": {
+    "lat": 49.4617,
+    "lon": 8.2594,
+    "city": "Ellerstadt"
+  },
+  "67159": {
+    "lat": 49.4469,
+    "lon": 8.2231,
+    "city": "Friedelsheim"
+  },
+  "67161": {
+    "lat": 49.4481,
+    "lon": 8.2386,
+    "city": "Gönnheim"
+  },
+  "67165": {
+    "lat": 49.3953,
+    "lon": 8.4403,
+    "city": "Waldsee"
+  },
+  "67166": {
+    "lat": 49.3722,
+    "lon": 8.4478,
+    "city": "Otterstadt"
+  },
+  "67167": {
+    "lat": 49.4892,
+    "lon": 8.2247,
+    "city": "Erpolzheim"
+  },
+  "67169": {
+    "lat": 49.4908,
+    "lon": 8.1761,
+    "city": "Kallstadt"
+  },
+  "67225": {
+    "lat": 49.5375,
+    "lon": 8.3546,
+    "city": "KSB AG"
+  },
+  "67227": {
+    "lat": 49.5386,
+    "lon": 8.354,
+    "city": "Frankenthal (Pfalz)"
+  },
+  "67229": {
+    "lat": 49.5467,
+    "lon": 8.2413,
+    "city": "Gerolsheim"
+  },
+  "67240": {
+    "lat": 49.5875,
+    "lon": 8.3578,
+    "city": "Bobenheim-Roxheim"
+  },
+  "67245": {
+    "lat": 49.5136,
+    "lon": 8.2878,
+    "city": "Lambsheim"
+  },
+  "67246": {
+    "lat": 49.5633,
+    "lon": 8.2447,
+    "city": "Dirmstein"
+  },
+  "67251": {
+    "lat": 49.5065,
+    "lon": 8.2119,
+    "city": "Freinsheim"
+  },
+  "67256": {
+    "lat": 49.5181,
+    "lon": 8.2478,
+    "city": "Weisenheim am Sand"
+  },
+  "67258": {
+    "lat": 49.5458,
+    "lon": 8.3078,
+    "city": "Heßheim"
+  },
+  "67259": {
+    "lat": 49.5715,
+    "lon": 8.3112,
+    "city": "Beindersheim"
+  },
+  "67269": {
+    "lat": 49.563,
+    "lon": 8.1628,
+    "city": "Grünstadt"
+  },
+  "67271": {
+    "lat": 49.5605,
+    "lon": 8.1565,
+    "city": "Mertesheim"
+  },
+  "67273": {
+    "lat": 49.5169,
+    "lon": 8.1679,
+    "city": "Dackenheim"
+  },
+  "67278": {
+    "lat": 49.6067,
+    "lon": 8.1849,
+    "city": "Bockenheim"
+  },
+  "67280": {
+    "lat": 49.5764,
+    "lon": 8.1175,
+    "city": "Quirnheim"
+  },
+  "67281": {
+    "lat": 49.5365,
+    "lon": 8.1925,
+    "city": "Bissersheim"
+  },
+  "67283": {
+    "lat": 49.5442,
+    "lon": 8.2044,
+    "city": "Obrigheim"
+  },
+  "67292": {
+    "lat": 49.6625,
+    "lon": 8.0151,
+    "city": "Kirchheimbolanden"
+  },
+  "67294": {
+    "lat": 49.6854,
+    "lon": 8.041,
+    "city": "Orbis"
+  },
+  "67295": {
+    "lat": 49.6392,
+    "lon": 8.0119,
+    "city": "Bolanden"
+  },
+  "67297": {
+    "lat": 49.6328,
+    "lon": 8.04,
+    "city": "Marnheim"
+  },
+  "67304": {
+    "lat": 49.5695,
+    "lon": 8.043,
+    "city": "Eisenberg"
+  },
+  "67305": {
+    "lat": 49.5369,
+    "lon": 8.0133,
+    "city": "Ramsen"
+  },
+  "67307": {
+    "lat": 49.595,
+    "lon": 8.0508,
+    "city": "Göllheim"
+  },
+  "67308": {
+    "lat": 49.6304,
+    "lon": 8.1154,
+    "city": "Bubenheim"
+  },
+  "67310": {
+    "lat": 49.5356,
+    "lon": 8.0736,
+    "city": "Hettenleidelheim"
+  },
+  "67311": {
+    "lat": 49.5386,
+    "lon": 8.1039,
+    "city": "Tiefenthal"
+  },
+  "67316": {
+    "lat": 49.5039,
+    "lon": 8.0417,
+    "city": "Carlsberg"
+  },
+  "67317": {
+    "lat": 49.5075,
+    "lon": 8.0733,
+    "city": "Altleiningen"
+  },
+  "67319": {
+    "lat": 49.5217,
+    "lon": 8.0617,
+    "city": "Wattenheim"
+  },
+  "67340": {
+    "lat": 49.3199,
+    "lon": 8.4208,
+    "city": "Deutsche Rentenversicherung Rheinland-Pfalz"
+  },
+  "67342": {
+    "lat": 49.3199,
+    "lon": 8.4208,
+    "city": "Deutsche Rentenversicherung Rheinland-Pfalz"
+  },
+  "67343": {
+    "lat": 49.319,
+    "lon": 8.4345,
+    "city": "Finanzamt"
+  },
+  "67346": {
+    "lat": 49.3208,
+    "lon": 8.4311,
+    "city": "Speyer"
+  },
+  "67354": {
+    "lat": 49.2954,
+    "lon": 8.407,
+    "city": "Römerberg"
+  },
+  "67360": {
+    "lat": 49.2539,
+    "lon": 8.3386,
+    "city": "Lingenfeld"
+  },
+  "67361": {
+    "lat": 49.2717,
+    "lon": 8.2719,
+    "city": "Freisbach"
+  },
+  "67363": {
+    "lat": 49.2448,
+    "lon": 8.2741,
+    "city": "Lustadt"
+  },
+  "67365": {
+    "lat": 49.27,
+    "lon": 8.3286,
+    "city": "Schwegenheim"
+  },
+  "67366": {
+    "lat": 49.2595,
+    "lon": 8.2862,
+    "city": "Weingarten"
+  },
+  "67368": {
+    "lat": 49.2464,
+    "lon": 8.3236,
+    "city": "Westheim"
+  },
+  "67373": {
+    "lat": 49.3186,
+    "lon": 8.3886,
+    "city": "Dudenhofen"
+  },
+  "67374": {
+    "lat": 49.3167,
+    "lon": 8.3408,
+    "city": "Hanhofen"
+  },
+  "67376": {
+    "lat": 49.2942,
+    "lon": 8.345,
+    "city": "Harthausen"
+  },
+  "67377": {
+    "lat": 49.2911,
+    "lon": 8.2658,
+    "city": "Gommersheim"
+  },
+  "67378": {
+    "lat": 49.2328,
+    "lon": 8.2472,
+    "city": "Zeiskam"
+  },
+  "67429": {
+    "lat": 49.3538,
+    "lon": 8.1435,
+    "city": "HERTIE GmbH"
+  },
+  "67433": {
+    "lat": 49.3465,
+    "lon": 8.1491,
+    "city": "Neustadt an der Weinstraße"
+  },
+  "67434": {
+    "lat": 49.3505,
+    "lon": 8.1363,
+    "city": "Neustadt an der Weinstraße"
+  },
+  "67435": {
+    "lat": 49.3567,
+    "lon": 8.1378,
+    "city": "Neustadt an der Weinstraße"
+  },
+  "67454": {
+    "lat": 49.3628,
+    "lon": 8.2581,
+    "city": "Haßloch"
+  },
+  "67459": {
+    "lat": 49.3806,
+    "lon": 8.3039,
+    "city": "Böhl-Iggelheim"
+  },
+  "67466": {
+    "lat": 49.3705,
+    "lon": 8.0726,
+    "city": "Lambrecht"
+  },
+  "67468": {
+    "lat": 49.4018,
+    "lon": 8.0241,
+    "city": "Frankeneck"
+  },
+  "67471": {
+    "lat": 49.3667,
+    "lon": 7.9333,
+    "city": "Elmstein"
+  },
+  "67472": {
+    "lat": 49.3833,
+    "lon": 7.9833,
+    "city": "Esthal"
+  },
+  "67473": {
+    "lat": 49.3803,
+    "lon": 8.0986,
+    "city": "Lindenberg"
+  },
+  "67475": {
+    "lat": 49.4167,
+    "lon": 8,
+    "city": "Weidenthal"
+  },
+  "67480": {
+    "lat": 49.2839,
+    "lon": 8.1271,
+    "city": "Edenkoben"
+  },
+  "67482": {
+    "lat": 49.2808,
+    "lon": 8.2125,
+    "city": "Altdorf"
+  },
+  "67483": {
+    "lat": 49.2652,
+    "lon": 8.1661,
+    "city": "Edesheim"
+  },
+  "67487": {
+    "lat": 49.3028,
+    "lon": 8.1185,
+    "city": "Maikammer"
+  },
+  "67489": {
+    "lat": 49.3019,
+    "lon": 8.1656,
+    "city": "Kirrweiler (Pfalz)"
+  },
+  "67545": {
+    "lat": 49.6372,
+    "lon": 8.3561,
+    "city": "EWR AG"
+  },
+  "67547": {
+    "lat": 49.6326,
+    "lon": 8.3619,
+    "city": "Worms"
+  },
+  "67549": {
+    "lat": 49.6356,
+    "lon": 8.3338,
+    "city": "Worms"
+  },
+  "67550": {
+    "lat": 49.6356,
+    "lon": 8.3597,
+    "city": "Worms"
+  },
+  "67551": {
+    "lat": 49.6163,
+    "lon": 8.2753,
+    "city": "Worms"
+  },
+  "67574": {
+    "lat": 49.7038,
+    "lon": 8.3242,
+    "city": "Osthofen"
+  },
+  "67575": {
+    "lat": 49.75,
+    "lon": 8.3989,
+    "city": "Eich"
+  },
+  "67577": {
+    "lat": 49.7681,
+    "lon": 8.3403,
+    "city": "Alsheim"
+  },
+  "67578": {
+    "lat": 49.7778,
+    "lon": 8.375,
+    "city": "Gimbsheim"
+  },
+  "67580": {
+    "lat": 49.7323,
+    "lon": 8.4327,
+    "city": "Hamm"
+  },
+  "67582": {
+    "lat": 49.74,
+    "lon": 8.3258,
+    "city": "Mettenheim"
+  },
+  "67583": {
+    "lat": 49.7975,
+    "lon": 8.3456,
+    "city": "Guntersblum"
+  },
+  "67585": {
+    "lat": 49.7686,
+    "lon": 8.2697,
+    "city": "Dorn-Dürkheim"
+  },
+  "67586": {
+    "lat": 49.7764,
+    "lon": 8.2561,
+    "city": "Hillesheim"
+  },
+  "67587": {
+    "lat": 49.7786,
+    "lon": 8.2803,
+    "city": "Wintersheim"
+  },
+  "67590": {
+    "lat": 49.6372,
+    "lon": 8.2119,
+    "city": "Monsheim"
+  },
+  "67591": {
+    "lat": 49.6283,
+    "lon": 8.2232,
+    "city": "Offstein"
+  },
+  "67592": {
+    "lat": 49.6755,
+    "lon": 8.2089,
+    "city": "Flörsheim-Dalsheim"
+  },
+  "67593": {
+    "lat": 49.6932,
+    "lon": 8.2358,
+    "city": "Westhofen"
+  },
+  "67595": {
+    "lat": 49.7278,
+    "lon": 8.2922,
+    "city": "Bechtheim"
+  },
+  "67596": {
+    "lat": 49.7518,
+    "lon": 8.2408,
+    "city": "Frettenheim"
+  },
+  "67598": {
+    "lat": 49.6961,
+    "lon": 8.2025,
+    "city": "Gundersheim"
+  },
+  "67599": {
+    "lat": 49.6758,
+    "lon": 8.2378,
+    "city": "Gundheim"
+  },
+  "67650": {
+    "lat": 49.439,
+    "lon": 7.7743,
+    "city": "Agentur für Arbeit Kaiserslautern"
+  },
+  "67653": {
+    "lat": 49.4417,
+    "lon": 7.7641,
+    "city": "ARGE Land"
+  },
+  "67655": {
+    "lat": 49.4425,
+    "lon": 7.7659,
+    "city": "Kaiserslautern"
+  },
+  "67657": {
+    "lat": 49.4495,
+    "lon": 7.7948,
+    "city": "Kaiserslautern"
+  },
+  "67659": {
+    "lat": 49.4467,
+    "lon": 7.7609,
+    "city": "Kaiserslautern"
+  },
+  "67661": {
+    "lat": 49.4126,
+    "lon": 7.7107,
+    "city": "Kaiserslautern"
+  },
+  "67663": {
+    "lat": 49.436,
+    "lon": 7.7503,
+    "city": "Kaiserslautern"
+  },
+  "67677": {
+    "lat": 49.4833,
+    "lon": 7.9,
+    "city": "Enkenbach-Alsenborn"
+  },
+  "67678": {
+    "lat": 49.4914,
+    "lon": 7.8547,
+    "city": "Mehlingen"
+  },
+  "67680": {
+    "lat": 49.5167,
+    "lon": 7.9167,
+    "city": "Neuhemsbach"
+  },
+  "67681": {
+    "lat": 49.5197,
+    "lon": 7.8596,
+    "city": "Sembach"
+  },
+  "67685": {
+    "lat": 49.4947,
+    "lon": 7.6193,
+    "city": "Eulenbis"
+  },
+  "67686": {
+    "lat": 49.4667,
+    "lon": 7.5833,
+    "city": "Mackenbach"
+  },
+  "67688": {
+    "lat": 49.4728,
+    "lon": 7.6579,
+    "city": "Rodenbach"
+  },
+  "67691": {
+    "lat": 49.4421,
+    "lon": 7.895,
+    "city": "Hochspeyer"
+  },
+  "67693": {
+    "lat": 49.425,
+    "lon": 7.9,
+    "city": "Fischbach"
+  },
+  "67697": {
+    "lat": 49.503,
+    "lon": 7.7699,
+    "city": "Otterberg"
+  },
+  "67699": {
+    "lat": 49.5441,
+    "lon": 7.7559,
+    "city": "Heiligenmoschel"
+  },
+  "67700": {
+    "lat": 49.5833,
+    "lon": 7.7,
+    "city": "Niederkirchen"
+  },
+  "67701": {
+    "lat": 49.55,
+    "lon": 7.7167,
+    "city": "Schallodenbach"
+  },
+  "67705": {
+    "lat": 49.3684,
+    "lon": 7.7565,
+    "city": "Trippstadt"
+  },
+  "67706": {
+    "lat": 49.3667,
+    "lon": 7.6667,
+    "city": "Krickenbach"
+  },
+  "67707": {
+    "lat": 49.35,
+    "lon": 7.6833,
+    "city": "Schopp"
+  },
+  "67714": {
+    "lat": 49.2833,
+    "lon": 7.6667,
+    "city": "Waldfischbach-Burgalben"
+  },
+  "67715": {
+    "lat": 49.3261,
+    "lon": 7.6971,
+    "city": "Geiselberg"
+  },
+  "67716": {
+    "lat": 49.3167,
+    "lon": 7.7167,
+    "city": "Heltersberg"
+  },
+  "67718": {
+    "lat": 49.3333,
+    "lon": 7.7333,
+    "city": "Schmalenberg"
+  },
+  "67722": {
+    "lat": 49.5625,
+    "lon": 7.8497,
+    "city": "Potzbach"
+  },
+  "67724": {
+    "lat": 49.5722,
+    "lon": 7.8115,
+    "city": "Gonbach"
+  },
+  "67725": {
+    "lat": 49.5722,
+    "lon": 7.9546,
+    "city": "Börrstadt"
+  },
+  "67727": {
+    "lat": 49.55,
+    "lon": 7.85,
+    "city": "Lohnsfeld"
+  },
+  "67728": {
+    "lat": 49.55,
+    "lon": 7.8833,
+    "city": "Münchweiler an der Alsenz"
+  },
+  "67729": {
+    "lat": 49.55,
+    "lon": 7.9333,
+    "city": "Sippersfeld"
+  },
+  "67731": {
+    "lat": 49.4855,
+    "lon": 7.7345,
+    "city": "Otterbach"
+  },
+  "67732": {
+    "lat": 49.5197,
+    "lon": 7.6788,
+    "city": "Hirschhorn"
+  },
+  "67734": {
+    "lat": 49.5084,
+    "lon": 7.6834,
+    "city": "Katzweiler"
+  },
+  "67735": {
+    "lat": 49.5167,
+    "lon": 7.7167,
+    "city": "Mehlbach"
+  },
+  "67737": {
+    "lat": 49.5361,
+    "lon": 7.646,
+    "city": "Olsbrücken"
+  },
+  "67742": {
+    "lat": 49.6458,
+    "lon": 7.5824,
+    "city": "Buborn"
+  },
+  "67744": {
+    "lat": 49.6513,
+    "lon": 7.5949,
+    "city": "Seelen"
+  },
+  "67745": {
+    "lat": 49.65,
+    "lon": 7.5667,
+    "city": "Grumbach"
+  },
+  "67746": {
+    "lat": 49.6667,
+    "lon": 7.5111,
+    "city": "Merzweiler"
+  },
+  "67748": {
+    "lat": 49.6833,
+    "lon": 7.65,
+    "city": "Odenbach"
+  },
+  "67749": {
+    "lat": 49.6087,
+    "lon": 7.5506,
+    "city": "Nerzweiler"
+  },
+  "67752": {
+    "lat": 49.5836,
+    "lon": 7.6128,
+    "city": "Wolfstein"
+  },
+  "67753": {
+    "lat": 49.6,
+    "lon": 7.6333,
+    "city": "Einöllen"
+  },
+  "67754": {
+    "lat": 49.5582,
+    "lon": 7.5642,
+    "city": "Eßweiler"
+  },
+  "67756": {
+    "lat": 49.5889,
+    "lon": 7.5889,
+    "city": "Relsberg"
+  },
+  "67757": {
+    "lat": 49.55,
+    "lon": 7.6333,
+    "city": "Kreimbach-Kaulbach"
+  },
+  "67759": {
+    "lat": 49.6167,
+    "lon": 7.7167,
+    "city": "Nußbach"
+  },
+  "67806": {
+    "lat": 49.6321,
+    "lon": 7.7918,
+    "city": "Dörnbach"
+  },
+  "67808": {
+    "lat": 49.6397,
+    "lon": 7.8641,
+    "city": "Mörsfeld"
+  },
+  "67811": {
+    "lat": 49.6667,
+    "lon": 7.8167,
+    "city": "Dielkirchen"
+  },
+  "67813": {
+    "lat": 49.675,
+    "lon": 7.8667,
+    "city": "Gerbach"
+  },
+  "67814": {
+    "lat": 49.6227,
+    "lon": 7.9468,
+    "city": "Dannenfels"
+  },
+  "67816": {
+    "lat": 49.6017,
+    "lon": 7.997,
+    "city": "Dreisen"
+  },
+  "67817": {
+    "lat": 49.5833,
+    "lon": 7.8833,
+    "city": "Imsbach"
+  },
+  "67819": {
+    "lat": 49.7099,
+    "lon": 7.9169,
+    "city": "Kriegsfeld"
+  },
+  "67821": {
+    "lat": 49.7167,
+    "lon": 7.8167,
+    "city": "Alsenz"
+  },
+  "67822": {
+    "lat": 49.715,
+    "lon": 7.8283,
+    "city": "Kalkofen"
+  },
+  "67823": {
+    "lat": 49.7189,
+    "lon": 7.7612,
+    "city": "Sitters"
+  },
+  "67824": {
+    "lat": 49.7667,
+    "lon": 7.8,
+    "city": "Feilbingert"
+  },
+  "67826": {
+    "lat": 49.7593,
+    "lon": 7.7888,
+    "city": "Hallgarten"
+  },
+  "67827": {
+    "lat": 49.65,
+    "lon": 7.6833,
+    "city": "Becherbach"
+  },
+  "67829": {
+    "lat": 49.6889,
+    "lon": 7.6944,
+    "city": "Callbach"
+  },
+  "68051": {
+    "lat": 49.4526,
+    "lon": 8.5191,
+    "city": "EOS KSI Inkasso Deutschland GmbH"
+  },
+  "68112": {
+    "lat": 49.4875,
+    "lon": 8.4688,
+    "city": "Commerzbank AG Mannheim"
+  },
+  "68122": {
+    "lat": 49.4799,
+    "lon": 8.473,
+    "city": "HUK-Coburg"
+  },
+  "68123": {
+    "lat": 49.449,
+    "lon": 8.5051,
+    "city": "Deutsche Telekom AG Niederlassung Mannheim"
+  },
+  "68124": {
+    "lat": 49.4941,
+    "lon": 8.4566,
+    "city": "Stadtverwaltung, Verkehrsüberwachung u. Ordnungswidrigkeiten"
+  },
+  "68126": {
+    "lat": 49.4808,
+    "lon": 8.4831,
+    "city": "Imtech Deutschland GmbH Co. KG"
+  },
+  "68127": {
+    "lat": 49.4776,
+    "lon": 8.491,
+    "city": "Mannheimer Versicherung"
+  },
+  "68128": {
+    "lat": 49.5057,
+    "lon": 8.5069,
+    "city": "ALSTOM Power Generation Aktiengesellschaft"
+  },
+  "68130": {
+    "lat": 49.5043,
+    "lon": 8.4732,
+    "city": "Deutsche Post AG Direkt Marketing Center"
+  },
+  "68131": {
+    "lat": 49.4822,
+    "lon": 8.4666,
+    "city": "Universität"
+  },
+  "68132": {
+    "lat": 49.4971,
+    "lon": 8.4985,
+    "city": "Bauhaus"
+  },
+  "68133": {
+    "lat": 49.4756,
+    "lon": 8.4712,
+    "city": "Stadt Mannheim -Technischer Bereich-"
+  },
+  "68134": {
+    "lat": 49.4784,
+    "lon": 8.4679,
+    "city": "Victoria Versicherung AG"
+  },
+  "68135": {
+    "lat": 49.4912,
+    "lon": 8.487,
+    "city": "Klinikum Mannheim Gmbh"
+  },
+  "68136": {
+    "lat": 49.4744,
+    "lon": 8.4934,
+    "city": "Berufsgenossenschaft Nahrungsmittel und Gastgewerbe"
+  },
+  "68138": {
+    "lat": 49.5117,
+    "lon": 8.4989,
+    "city": "Deutsche Post AG Niederlassung BRIEF Mannheim"
+  },
+  "68139": {
+    "lat": 49.472,
+    "lon": 8.5401,
+    "city": "ABB Business Services GmbH"
+  },
+  "68140": {
+    "lat": 49.4881,
+    "lon": 8.4816,
+    "city": "Felina GmbH"
+  },
+  "68141": {
+    "lat": 49.4783,
+    "lon": 8.4758,
+    "city": "AXA Versicherung AG"
+  },
+  "68142": {
+    "lat": 49.4846,
+    "lon": 8.4813,
+    "city": "MVV AG"
+  },
+  "68143": {
+    "lat": 49.4539,
+    "lon": 8.5127,
+    "city": "Berrang SE"
+  },
+  "68144": {
+    "lat": 49.4809,
+    "lon": 8.4914,
+    "city": "Medialog"
+  },
+  "68145": {
+    "lat": 49.501,
+    "lon": 8.4747,
+    "city": "HESTIA Pharma GmbH"
+  },
+  "68146": {
+    "lat": 49.4905,
+    "lon": 8.4859,
+    "city": "Vögele AG"
+  },
+  "68147": {
+    "lat": 49.4756,
+    "lon": 8.4712,
+    "city": "SV Sparkassen-Versicherung Baden-Württemberg Holding AG"
+  },
+  "68148": {
+    "lat": 49.4932,
+    "lon": 8.4812,
+    "city": "Südwestrundfunk"
+  },
+  "68149": {
+    "lat": 49.4852,
+    "lon": 8.4646,
+    "city": "Staatsanwaltschaft"
+  },
+  "68150": {
+    "lat": 49.4683,
+    "lon": 8.4855,
+    "city": "Sozialgericht Mannheim"
+  },
+  "68151": {
+    "lat": 49.4887,
+    "lon": 8.475,
+    "city": "Stadtbücherei"
+  },
+  "68156": {
+    "lat": 49.4853,
+    "lon": 8.4664,
+    "city": "Agentur für Arbeit Mannheim"
+  },
+  "68159": {
+    "lat": 49.4934,
+    "lon": 8.4653,
+    "city": "Mannheim"
+  },
+  "68161": {
+    "lat": 49.4873,
+    "lon": 8.4695,
+    "city": "Mannheim"
+  },
+  "68163": {
+    "lat": 49.4883,
+    "lon": 8.4647,
+    "city": "Mannheim"
+  },
+  "68165": {
+    "lat": 49.4772,
+    "lon": 8.4818,
+    "city": "Mannheim"
+  },
+  "68167": {
+    "lat": 49.4996,
+    "lon": 8.4939,
+    "city": "Mannheim"
+  },
+  "68169": {
+    "lat": 49.503,
+    "lon": 8.4693,
+    "city": "Mannheim"
+  },
+  "68197": {
+    "lat": 49.4567,
+    "lon": 8.4976,
+    "city": "Flamme"
+  },
+  "68199": {
+    "lat": 49.4598,
+    "lon": 8.4881,
+    "city": "Mannheim"
+  },
+  "68219": {
+    "lat": 49.4883,
+    "lon": 8.4647,
+    "city": "Mannheim"
+  },
+  "68229": {
+    "lat": 49.4883,
+    "lon": 8.4647,
+    "city": "Mannheim"
+  },
+  "68239": {
+    "lat": 49.4883,
+    "lon": 8.4647,
+    "city": "Mannheim"
+  },
+  "68259": {
+    "lat": 49.4903,
+    "lon": 8.5339,
+    "city": "Mannheim"
+  },
+  "68298": {
+    "lat": 49.5287,
+    "lon": 8.4692,
+    "city": "Roche Diagnostics GmbH"
+  },
+  "68299": {
+    "lat": 49.5167,
+    "lon": 8.478,
+    "city": "Daimler AG Mercedes-Benz Werk Mannheim"
+  },
+  "68300": {
+    "lat": 49.5057,
+    "lon": 8.5069,
+    "city": "Asea Brown Boveri (ABB)"
+  },
+  "68301": {
+    "lat": 49.5334,
+    "lon": 8.4746,
+    "city": "VAG GmbH"
+  },
+  "68302": {
+    "lat": 49.5045,
+    "lon": 8.5091,
+    "city": "AVG"
+  },
+  "68305": {
+    "lat": 49.5257,
+    "lon": 8.4965,
+    "city": "Mannheim"
+  },
+  "68307": {
+    "lat": 49.5461,
+    "lon": 8.4488,
+    "city": "Mannheim"
+  },
+  "68309": {
+    "lat": 49.5121,
+    "lon": 8.5316,
+    "city": "Mannheim"
+  },
+  "68517": {
+    "lat": 49.5405,
+    "lon": 8.5851,
+    "city": "LOG SPED GmbH"
+  },
+  "68519": {
+    "lat": 49.5403,
+    "lon": 8.5782,
+    "city": "Viernheim"
+  },
+  "68526": {
+    "lat": 49.4731,
+    "lon": 8.609,
+    "city": "Ladenburg"
+  },
+  "68535": {
+    "lat": 49.4572,
+    "lon": 8.6064,
+    "city": "Edingen-Neckarhausen"
+  },
+  "68542": {
+    "lat": 49.5056,
+    "lon": 8.6036,
+    "city": "Heddesheim"
+  },
+  "68549": {
+    "lat": 49.474,
+    "lon": 8.5674,
+    "city": "Ilvesheim"
+  },
+  "68619": {
+    "lat": 49.5991,
+    "lon": 8.468,
+    "city": "Amtsgericht"
+  },
+  "68623": {
+    "lat": 49.5979,
+    "lon": 8.4725,
+    "city": "Lampertheim"
+  },
+  "68642": {
+    "lat": 49.6427,
+    "lon": 8.4594,
+    "city": "Bürstadt"
+  },
+  "68647": {
+    "lat": 49.6917,
+    "lon": 8.4586,
+    "city": "Biblis"
+  },
+  "68649": {
+    "lat": 49.7211,
+    "lon": 8.4828,
+    "city": "Groß-Rohrheim"
+  },
+  "68721": {
+    "lat": 49.3844,
+    "lon": 8.5772,
+    "city": "Zeneca GmbH"
+  },
+  "68723": {
+    "lat": 49.3806,
+    "lon": 8.5872,
+    "city": "Oftersheim"
+  },
+  "68753": {
+    "lat": 49.2499,
+    "lon": 8.5126,
+    "city": "Waghäusel"
+  },
+  "68764": {
+    "lat": 49.333,
+    "lon": 8.5364,
+    "city": "Krämer Pferdesport GmbH & Co. KG"
+  },
+  "68766": {
+    "lat": 49.3233,
+    "lon": 8.5519,
+    "city": "Hockenheim"
+  },
+  "68775": {
+    "lat": 49.3678,
+    "lon": 8.5311,
+    "city": "Ketsch"
+  },
+  "68782": {
+    "lat": 49.3972,
+    "lon": 8.5336,
+    "city": "Brühl"
+  },
+  "68789": {
+    "lat": 49.2659,
+    "lon": 8.618,
+    "city": "Sankt Leon-Rot"
+  },
+  "68794": {
+    "lat": 49.2739,
+    "lon": 8.4717,
+    "city": "Oberhausen-Rheinhausen"
+  },
+  "68799": {
+    "lat": 49.2983,
+    "lon": 8.5642,
+    "city": "Reilingen"
+  },
+  "68804": {
+    "lat": 49.3017,
+    "lon": 8.4992,
+    "city": "Altlußheim"
+  },
+  "68809": {
+    "lat": 49.2981,
+    "lon": 8.5183,
+    "city": "Neulußheim"
+  },
+  "69108": {
+    "lat": 49.4034,
+    "lon": 8.6835,
+    "city": "Agentur für Arbeit Heidelberg"
+  },
+  "69110": {
+    "lat": 49.401,
+    "lon": 8.6724,
+    "city": "Verivox GmbH"
+  },
+  "69111": {
+    "lat": 49.4018,
+    "lon": 8.6788,
+    "city": "Haldex GmbH"
+  },
+  "69112": {
+    "lat": 49.4035,
+    "lon": 8.6787,
+    "city": "ProMinent GmbH"
+  },
+  "69113": {
+    "lat": 49.4052,
+    "lon": 8.6762,
+    "city": "SRH Shared Services GmbH"
+  },
+  "69115": {
+    "lat": 49.4062,
+    "lon": 8.6868,
+    "city": "Heidelberg"
+  },
+  "69117": {
+    "lat": 49.4095,
+    "lon": 8.6935,
+    "city": "Heidelberg"
+  },
+  "69118": {
+    "lat": 49.4194,
+    "lon": 8.7345,
+    "city": "Heidelberg"
+  },
+  "69120": {
+    "lat": 49.4169,
+    "lon": 8.6764,
+    "city": "Heidelberg"
+  },
+  "69121": {
+    "lat": 49.4322,
+    "lon": 8.6824,
+    "city": "Heidelberg"
+  },
+  "69123": {
+    "lat": 49.4167,
+    "lon": 8.7,
+    "city": "Heidelberg"
+  },
+  "69124": {
+    "lat": 49.3829,
+    "lon": 8.6656,
+    "city": "Heidelberg"
+  },
+  "69126": {
+    "lat": 49.3757,
+    "lon": 8.6911,
+    "city": "Heidelberg"
+  },
+  "69151": {
+    "lat": 49.389,
+    "lon": 8.7959,
+    "city": "Neckargemünd"
+  },
+  "69159": {
+    "lat": 49.2882,
+    "lon": 8.6601,
+    "city": "Heidelberger Druckmaschinen AG Werk Wiesloch"
+  },
+  "69168": {
+    "lat": 49.295,
+    "lon": 8.6985,
+    "city": "Wiesloch"
+  },
+  "69181": {
+    "lat": 49.3474,
+    "lon": 8.6873,
+    "city": "Leimen"
+  },
+  "69189": {
+    "lat": 49.2934,
+    "lon": 8.6417,
+    "city": "SAP AG Walldorf"
+  },
+  "69190": {
+    "lat": 49.3064,
+    "lon": 8.6424,
+    "city": "Walldorf"
+  },
+  "69198": {
+    "lat": 49.4737,
+    "lon": 8.6636,
+    "city": "Schriesheim"
+  },
+  "69207": {
+    "lat": 49.3428,
+    "lon": 8.6592,
+    "city": "Sandhausen"
+  },
+  "69214": {
+    "lat": 49.4019,
+    "lon": 8.6364,
+    "city": "Eppelheim"
+  },
+  "69221": {
+    "lat": 49.4503,
+    "lon": 8.6747,
+    "city": "Dossenheim"
+  },
+  "69226": {
+    "lat": 49.3239,
+    "lon": 8.6956,
+    "city": "Nußloch"
+  },
+  "69231": {
+    "lat": 49.2694,
+    "lon": 8.7034,
+    "city": "Rauenberg"
+  },
+  "69234": {
+    "lat": 49.2842,
+    "lon": 8.7381,
+    "city": "Dielheim"
+  },
+  "69239": {
+    "lat": 49.4074,
+    "lon": 8.8434,
+    "city": "Neckarsteinach"
+  },
+  "69242": {
+    "lat": 49.2486,
+    "lon": 8.7267,
+    "city": "Mühlhausen"
+  },
+  "69245": {
+    "lat": 49.3561,
+    "lon": 8.7794,
+    "city": "Bammental"
+  },
+  "69250": {
+    "lat": 49.4366,
+    "lon": 8.8088,
+    "city": "Schönau"
+  },
+  "69251": {
+    "lat": 49.3664,
+    "lon": 8.7497,
+    "city": "Gaiberg"
+  },
+  "69253": {
+    "lat": 49.4833,
+    "lon": 8.795,
+    "city": "Heiligkreuzsteinach"
+  },
+  "69254": {
+    "lat": 49.2472,
+    "lon": 8.6828,
+    "city": "Malsch"
+  },
+  "69256": {
+    "lat": 49.3408,
+    "lon": 8.8003,
+    "city": "Mauer"
+  },
+  "69257": {
+    "lat": 49.3614,
+    "lon": 8.8036,
+    "city": "Wiesenbach"
+  },
+  "69259": {
+    "lat": 49.4706,
+    "lon": 8.7536,
+    "city": "Wilhelmsfeld"
+  },
+  "69412": {
+    "lat": 49.4668,
+    "lon": 8.9902,
+    "city": "Eberbach"
+  },
+  "69427": {
+    "lat": 49.5344,
+    "lon": 9.2044,
+    "city": "Mudau"
+  },
+  "69429": {
+    "lat": 49.4592,
+    "lon": 9.0919,
+    "city": "Waldbrunn"
+  },
+  "69434": {
+    "lat": 49.463,
+    "lon": 8.862,
+    "city": "Heddesbach"
+  },
+  "69436": {
+    "lat": 49.4111,
+    "lon": 8.9278,
+    "city": "Schönbrunn"
+  },
+  "69437": {
+    "lat": 49.4,
+    "lon": 9.0667,
+    "city": "Neckargerach"
+  },
+  "69439": {
+    "lat": 49.4192,
+    "lon": 9.0406,
+    "city": "Zwingenberg"
+  },
+  "69465": {
+    "lat": 49.5541,
+    "lon": 8.6637,
+    "city": "Freudenberg & Co."
+  },
+  "69469": {
+    "lat": 49.5489,
+    "lon": 8.667,
+    "city": "Weinheim"
+  },
+  "69483": {
+    "lat": 49.57,
+    "lon": 8.8317,
+    "city": "Wald-Michelbach"
+  },
+  "69488": {
+    "lat": 49.5625,
+    "lon": 8.7069,
+    "city": "Birkenau"
+  },
+  "69493": {
+    "lat": 49.5062,
+    "lon": 8.6657,
+    "city": "Hirschberg an der Bergstraße"
+  },
+  "69502": {
+    "lat": 49.5907,
+    "lon": 8.6478,
+    "city": "Hemsbach"
+  },
+  "69509": {
+    "lat": 49.5992,
+    "lon": 8.7347,
+    "city": "Mörlenbach"
+  },
+  "69514": {
+    "lat": 49.6133,
+    "lon": 8.6539,
+    "city": "Laudenbach"
+  },
+  "69517": {
+    "lat": 49.5325,
+    "lon": 8.7295,
+    "city": "Gorxheimertal"
+  },
+  "69518": {
+    "lat": 49.5367,
+    "lon": 8.7875,
+    "city": "Abtsteinach"
+  },
+  "70131": {
+    "lat": 48.7855,
+    "lon": 9.176,
+    "city": "LBS Süd Landesbausparkasse Süd"
+  },
+  "70134": {
+    "lat": 48.772,
+    "lon": 9.1642,
+    "city": "Generali Deutschland Versicherung AG"
+  },
+  "70135": {
+    "lat": 48.7702,
+    "lon": 9.1559,
+    "city": "Stuttgarter Lebensversicherung a.G"
+  },
+  "70136": {
+    "lat": 48.7761,
+    "lon": 9.1746,
+    "city": "UniCredit Bank AG"
+  },
+  "70137": {
+    "lat": 48.7781,
+    "lon": 9.1667,
+    "city": "HUK-Coburg"
+  },
+  "70138": {
+    "lat": 48.778,
+    "lon": 9.1692,
+    "city": "DPV Direct GmbH"
+  },
+  "70139": {
+    "lat": 48.7863,
+    "lon": 9.1808,
+    "city": "Sparda Bank Baden-Württemberg eG"
+  },
+  "70140": {
+    "lat": 48.7816,
+    "lon": 9.1767,
+    "city": "Commerzbank AG"
+  },
+  "70141": {
+    "lat": 48.7734,
+    "lon": 9.1679,
+    "city": "Finanzamt Stuttgart 2"
+  },
+  "70143": {
+    "lat": 48.8246,
+    "lon": 9.2739,
+    "city": "Deutsche Post AG NL Renten Service"
+  },
+  "70144": {
+    "lat": 48.786,
+    "lon": 9.1809,
+    "city": "Landesbank Baden-Württemberg"
+  },
+  "70145": {
+    "lat": 48.7936,
+    "lon": 9.1902,
+    "city": "Agentur für Arbeit Stuttgart"
+  },
+  "70146": {
+    "lat": 48.7915,
+    "lon": 9.1993,
+    "city": "Familienkasse Baden-Württemberg-Ost"
+  },
+  "70148": {
+    "lat": 48.7784,
+    "lon": 9.1774,
+    "city": "Postbank Niederlassung Stuttgart"
+  },
+  "70149": {
+    "lat": 48.7882,
+    "lon": 9.1836,
+    "city": "SüdFactoring GmbH"
+  },
+  "70150": {
+    "lat": 48.7936,
+    "lon": 9.2036,
+    "city": "SWR"
+  },
+  "70151": {
+    "lat": 48.7708,
+    "lon": 9.1681,
+    "city": "Allianz Lebensversicherungs-AG"
+  },
+  "70152": {
+    "lat": 48.7755,
+    "lon": 9.1854,
+    "city": "Allianz ONE-Business Solutions GmbH Verwaltungspost"
+  },
+  "70153": {
+    "lat": 48.8016,
+    "lon": 9.1848,
+    "city": "AOK - Die Gesundheitskasse Stuttgart"
+  },
+  "70154": {
+    "lat": 48.7871,
+    "lon": 9.1904,
+    "city": "Amtsgericht -Mahnabteilung-"
+  },
+  "70155": {
+    "lat": 48.7882,
+    "lon": 9.1836,
+    "city": "SüdLeasing GmbH"
+  },
+  "70158": {
+    "lat": 48.7636,
+    "lon": 9.1611,
+    "city": "Statistisches Landesamt"
+  },
+  "70161": {
+    "lat": 48.7749,
+    "lon": 9.178,
+    "city": "Landeshauptstadt Stuttgart"
+  },
+  "70162": {
+    "lat": 48.7786,
+    "lon": 9.1709,
+    "city": "Motor Presse Stuttgart GmbH & Co. KG"
+  },
+  "70166": {
+    "lat": 48.7485,
+    "lon": 9.1661,
+    "city": "HALLESCHE Krankenversicherung a.G."
+  },
+  "70167": {
+    "lat": 48.7815,
+    "lon": 9.178,
+    "city": "EnBW Service GmbH"
+  },
+  "70168": {
+    "lat": 48.7801,
+    "lon": 9.1782,
+    "city": "Deutsche Postbank AG Niederlassung Stuttgart"
+  },
+  "70171": {
+    "lat": 48.7893,
+    "lon": 9.2085,
+    "city": "Hauptzollamt Stuttgart Zentralstellen"
+  },
+  "70173": {
+    "lat": 48.7727,
+    "lon": 9.18,
+    "city": "Stuttgart"
+  },
+  "70174": {
+    "lat": 48.7824,
+    "lon": 9.1825,
+    "city": "Stuttgart"
+  },
+  "70176": {
+    "lat": 48.7718,
+    "lon": 9.1686,
+    "city": "Stuttgart"
+  },
+  "70178": {
+    "lat": 48.7694,
+    "lon": 9.1721,
+    "city": "Stuttgart"
+  },
+  "70180": {
+    "lat": 48.7653,
+    "lon": 9.1758,
+    "city": "Stuttgart"
+  },
+  "70182": {
+    "lat": 48.7706,
+    "lon": 9.1827,
+    "city": "Stuttgart"
+  },
+  "70184": {
+    "lat": 48.7699,
+    "lon": 9.1921,
+    "city": "Stuttgart"
+  },
+  "70186": {
+    "lat": 48.7693,
+    "lon": 9.1938,
+    "city": "Stuttgart"
+  },
+  "70188": {
+    "lat": 48.7774,
+    "lon": 9.2008,
+    "city": "Stuttgart"
+  },
+  "70190": {
+    "lat": 48.7791,
+    "lon": 9.1977,
+    "city": "Stuttgart"
+  },
+  "70191": {
+    "lat": 48.7899,
+    "lon": 9.1932,
+    "city": "Stuttgart"
+  },
+  "70192": {
+    "lat": 48.7919,
+    "lon": 9.1781,
+    "city": "Stuttgart"
+  },
+  "70193": {
+    "lat": 48.7729,
+    "lon": 9.1677,
+    "city": "Stuttgart"
+  },
+  "70195": {
+    "lat": 48.7715,
+    "lon": 9.1568,
+    "city": "Stuttgart"
+  },
+  "70197": {
+    "lat": 48.7669,
+    "lon": 9.1659,
+    "city": "Stuttgart"
+  },
+  "70199": {
+    "lat": 48.7631,
+    "lon": 9.1673,
+    "city": "Stuttgart"
+  },
+  "70320": {
+    "lat": 48.8103,
+    "lon": 9.1807,
+    "city": "Mercedes-Benz Bank AG"
+  },
+  "70322": {
+    "lat": 48.7854,
+    "lon": 9.2411,
+    "city": "Daimler AG"
+  },
+  "70323": {
+    "lat": 48.7673,
+    "lon": 9.2476,
+    "city": "Kodak AG"
+  },
+  "70324": {
+    "lat": 48.7665,
+    "lon": 9.2569,
+    "city": "Kodak GmbH"
+  },
+  "70327": {
+    "lat": 48.7747,
+    "lon": 9.2445,
+    "city": "Stuttgart"
+  },
+  "70329": {
+    "lat": 48.7673,
+    "lon": 9.2481,
+    "city": "Stuttgart"
+  },
+  "70345": {
+    "lat": 48.8233,
+    "lon": 9.2239,
+    "city": "Alliance Healthcare Deutschland GmbH"
+  },
+  "70363": {
+    "lat": 48.8,
+    "lon": 9.2201,
+    "city": "Staatliche Lotterie-Einnahme Werner Peters OHG"
+  },
+  "70365": {
+    "lat": 48.8096,
+    "lon": 9.1914,
+    "city": "SPARKASSEN-VERSICHERUNG"
+  },
+  "70366": {
+    "lat": 48.8,
+    "lon": 9.2201,
+    "city": "Staatliche Lotterie-Einnahme Glöckle"
+  },
+  "70367": {
+    "lat": 48.8,
+    "lon": 9.2201,
+    "city": "Glöckle Staatliche Lotterie-Einnahme"
+  },
+  "70369": {
+    "lat": 48.8077,
+    "lon": 9.2241,
+    "city": "Gehe AG"
+  },
+  "70372": {
+    "lat": 48.8041,
+    "lon": 9.2159,
+    "city": "Stuttgart"
+  },
+  "70374": {
+    "lat": 48.7943,
+    "lon": 9.2114,
+    "city": "Stuttgart"
+  },
+  "70376": {
+    "lat": 48.8018,
+    "lon": 9.2075,
+    "city": "Stuttgart"
+  },
+  "70378": {
+    "lat": 48.837,
+    "lon": 9.227,
+    "city": "Stuttgart"
+  },
+  "70429": {
+    "lat": 48.8425,
+    "lon": 9.2123,
+    "city": "Deutsche Rentenversicherung Baden-Württemberg"
+  },
+  "70431": {
+    "lat": 48.8383,
+    "lon": 9.1889,
+    "city": "ADP Employer Services GmbH"
+  },
+  "70432": {
+    "lat": 48.8307,
+    "lon": 9.159,
+    "city": "Dürr Systems GmbH"
+  },
+  "70435": {
+    "lat": 48.8001,
+    "lon": 9.1745,
+    "city": "Stuttgart"
+  },
+  "70437": {
+    "lat": 48.826,
+    "lon": 9.1978,
+    "city": "Stuttgart"
+  },
+  "70439": {
+    "lat": 48.8233,
+    "lon": 9.1585,
+    "city": "Stuttgart"
+  },
+  "70464": {
+    "lat": 48.8172,
+    "lon": 9.1656,
+    "city": "Robert Bosch GmbH"
+  },
+  "70465": {
+    "lat": 48.7755,
+    "lon": 8.9045,
+    "city": "Robert Bosch GmbH Renningen"
+  },
+  "70466": {
+    "lat": 48.8148,
+    "lon": 9.1737,
+    "city": "Coperion GmbH Stuttgart"
+  },
+  "70467": {
+    "lat": 48.8023,
+    "lon": 9.2236,
+    "city": "Postbeamtenkrankenkasse"
+  },
+  "70469": {
+    "lat": 48.7969,
+    "lon": 9.1707,
+    "city": "Stuttgart"
+  },
+  "70494": {
+    "lat": 48.8215,
+    "lon": 9.0958,
+    "city": "R + V Versicherung"
+  },
+  "70496": {
+    "lat": 48.8237,
+    "lon": 9.0986,
+    "city": "S. Zimmermann GmbH"
+  },
+  "70499": {
+    "lat": 48.807,
+    "lon": 9.1197,
+    "city": "Stuttgart"
+  },
+  "70537": {
+    "lat": 48.7119,
+    "lon": 9.1679,
+    "city": "ENBW Energie Baden-Württemberg AG Infrastruktur Standort Stuttgart"
+  },
+  "70538": {
+    "lat": 48.6972,
+    "lon": 9.1435,
+    "city": "Robert Bosch Power Tools GmbH"
+  },
+  "70539": {
+    "lat": 48.7202,
+    "lon": 9.1298,
+    "city": "DEKRA Automobil GmbH"
+  },
+  "70545": {
+    "lat": 48.7387,
+    "lon": 9.1115,
+    "city": "mobilcom-debitel AG"
+  },
+  "70546": {
+    "lat": 48.7239,
+    "lon": 9.1699,
+    "city": "Daimler AG"
+  },
+  "70547": {
+    "lat": 48.725,
+    "lon": 9.1234,
+    "city": "S-Communication Service GmbH"
+  },
+  "70549": {
+    "lat": 48.7225,
+    "lon": 9.1193,
+    "city": "W. Kohlhammer GmbH"
+  },
+  "70550": {
+    "lat": 48.7451,
+    "lon": 9.1044,
+    "city": "Universität Stuttgart"
+  },
+  "70551": {
+    "lat": 48.732,
+    "lon": 9.1085,
+    "city": "Fraunhofer Gesellschaft"
+  },
+  "70552": {
+    "lat": 48.7764,
+    "lon": 9.1629,
+    "city": "Volksfürsorge Schadenzentrum"
+  },
+  "70556": {
+    "lat": 48.7764,
+    "lon": 9.1629,
+    "city": "Generali Schadenbüro"
+  },
+  "70560": {
+    "lat": 48.7305,
+    "lon": 9.149,
+    "city": "Hansa Metallwerke AG"
+  },
+  "70563": {
+    "lat": 48.7406,
+    "lon": 9.1442,
+    "city": "Stuttgart"
+  },
+  "70565": {
+    "lat": 48.7277,
+    "lon": 9.1382,
+    "city": "Stuttgart"
+  },
+  "70567": {
+    "lat": 48.7387,
+    "lon": 9.161,
+    "city": "Stuttgart"
+  },
+  "70569": {
+    "lat": 48.7464,
+    "lon": 9.1255,
+    "city": "Stuttgart"
+  },
+  "70593": {
+    "lat": 48.7119,
+    "lon": 9.2141,
+    "city": "Universität Hohenheim"
+  },
+  "70594": {
+    "lat": 48.71,
+    "lon": 9.1993,
+    "city": "Eugen Ulmer KG"
+  },
+  "70597": {
+    "lat": 48.7446,
+    "lon": 9.1597,
+    "city": "Stuttgart"
+  },
+  "70599": {
+    "lat": 48.7158,
+    "lon": 9.2046,
+    "city": "Stuttgart"
+  },
+  "70619": {
+    "lat": 48.7499,
+    "lon": 9.2169,
+    "city": "Stuttgart"
+  },
+  "70627": {
+    "lat": 48.694,
+    "lon": 9.1924,
+    "city": "Landesmesse Stuttgart GmbH"
+  },
+  "70628": {
+    "lat": 48.694,
+    "lon": 9.1924,
+    "city": "Schenker Eurocargo (Deutschland) AG"
+  },
+  "70629": {
+    "lat": 48.7252,
+    "lon": 9.1977,
+    "city": "Stuttgart"
+  },
+  "70637": {
+    "lat": 48.8148,
+    "lon": 9.1639,
+    "city": "Deutsche Post AG Direkt Marketing Center"
+  },
+  "70640": {
+    "lat": 48.824,
+    "lon": 9.2983,
+    "city": "Deutsche Post AG Niederlassung BRIEF Stuttgart"
+  },
+  "70644": {
+    "lat": 48.8023,
+    "lon": 9.2236,
+    "city": "Postbeamtenkrankenkasse"
+  },
+  "70730": {
+    "lat": 48.8212,
+    "lon": 9.2681,
+    "city": "Landesamt für Besoldung und Versorgung Baden-Württemberg"
+  },
+  "70731": {
+    "lat": 48.8182,
+    "lon": 9.2701,
+    "city": "Norgren GmbH"
+  },
+  "70732": {
+    "lat": 48.7636,
+    "lon": 9.1611,
+    "city": "Statistisches Landesamt"
+  },
+  "70734": {
+    "lat": 48.8086,
+    "lon": 9.2792,
+    "city": "Fellbach"
+  },
+  "70736": {
+    "lat": 48.8239,
+    "lon": 9.272,
+    "city": "Fellbach"
+  },
+  "70764": {
+    "lat": 48.6972,
+    "lon": 9.1435,
+    "city": "Robert Bosch PowerTools GmbH & Co.KG"
+  },
+  "70765": {
+    "lat": 48.6964,
+    "lon": 9.1454,
+    "city": "Konradin Business GmbH"
+  },
+  "70766": {
+    "lat": 48.6957,
+    "lon": 9.1613,
+    "city": "Minol Messtechnik W. Lehmann GmbH & Co. KG"
+  },
+  "70767": {
+    "lat": 48.6988,
+    "lon": 9.1415,
+    "city": "Stadtverwaltung alle Ämter"
+  },
+  "70768": {
+    "lat": 48.6729,
+    "lon": 9.1777,
+    "city": "MultiBus AG"
+  },
+  "70769": {
+    "lat": 48.6944,
+    "lon": 9.1659,
+    "city": "Hilco Textil GmbH"
+  },
+  "70771": {
+    "lat": 48.6941,
+    "lon": 9.1681,
+    "city": "Leinfelden-Echterdingen"
+  },
+  "70788": {
+    "lat": 48.6598,
+    "lon": 9.2258,
+    "city": "Dataplace GmbH"
+  },
+  "70790": {
+    "lat": 48.5359,
+    "lon": 9.791,
+    "city": "Bettenring eG"
+  },
+  "70791": {
+    "lat": 48.6581,
+    "lon": 9.2231,
+    "city": "HERMA GmbH"
+  },
+  "70792": {
+    "lat": 48.6544,
+    "lon": 9.2134,
+    "city": "Filderklinik"
+  },
+  "70794": {
+    "lat": 48.657,
+    "lon": 9.2205,
+    "city": "Filderstadt"
+  },
+  "70801": {
+    "lat": 48.8623,
+    "lon": 9.1879,
+    "city": "Wüstenrot AG"
+  },
+  "70803": {
+    "lat": 48.8569,
+    "lon": 9.1781,
+    "city": "Stadtverwaltung"
+  },
+  "70804": {
+    "lat": 48.8618,
+    "lon": 9.179,
+    "city": "Arvato Direct Services Stuttgart GmbH"
+  },
+  "70806": {
+    "lat": 48.8616,
+    "lon": 9.1857,
+    "city": "Kornwestheim"
+  },
+  "70821": {
+    "lat": 48.8504,
+    "lon": 9.1099,
+    "city": "VBH Deutschland GmbH NL Korntal-Münchingen"
+  },
+  "70822": {
+    "lat": 48.8436,
+    "lon": 9.1194,
+    "city": "Fashy GmbH"
+  },
+  "70825": {
+    "lat": 48.8167,
+    "lon": 9.1167,
+    "city": "Korntal-Münchingen"
+  },
+  "70836": {
+    "lat": 48.8035,
+    "lon": 9.0714,
+    "city": "Develop GmbH"
+  },
+  "70839": {
+    "lat": 48.7995,
+    "lon": 9.0632,
+    "city": "Gerlingen"
+  },
+  "71028": {
+    "lat": 48.6848,
+    "lon": 8.9842,
+    "city": "Emil Kriegbaum GmbH u. Co. KG"
+  },
+  "71029": {
+    "lat": 48.9412,
+    "lon": 9.0219,
+    "city": "Krauß MC"
+  },
+  "71032": {
+    "lat": 48.6821,
+    "lon": 9.0117,
+    "city": "Böblingen"
+  },
+  "71034": {
+    "lat": 48.6902,
+    "lon": 8.9705,
+    "city": "Böblingen"
+  },
+  "71058": {
+    "lat": 48.7067,
+    "lon": 8.9981,
+    "city": "AOK - Die Gesundheitskasse"
+  },
+  "71060": {
+    "lat": 48.7066,
+    "lon": 9.0114,
+    "city": "Radio BB"
+  },
+  "71063": {
+    "lat": 48.7094,
+    "lon": 8.9988,
+    "city": "Sindelfingen"
+  },
+  "71065": {
+    "lat": 48.7023,
+    "lon": 9.0219,
+    "city": "Sindelfingen"
+  },
+  "71067": {
+    "lat": 48.7233,
+    "lon": 9.0077,
+    "city": "Sindelfingen"
+  },
+  "71069": {
+    "lat": 48.7172,
+    "lon": 8.9684,
+    "city": "Sindelfingen"
+  },
+  "71083": {
+    "lat": 48.5952,
+    "lon": 8.8665,
+    "city": "Herrenberg"
+  },
+  "71087": {
+    "lat": 48.6313,
+    "lon": 9.0309,
+    "city": "Hänssler-Verlag GmbH"
+  },
+  "71088": {
+    "lat": 48.6397,
+    "lon": 9.0115,
+    "city": "Holzgerlingen"
+  },
+  "71093": {
+    "lat": 48.6227,
+    "lon": 9.0635,
+    "city": "Weil im Schönbuch"
+  },
+  "71101": {
+    "lat": 48.6587,
+    "lon": 9.0601,
+    "city": "Schönaich"
+  },
+  "71106": {
+    "lat": 48.7447,
+    "lon": 8.9668,
+    "city": "Magstadt"
+  },
+  "71111": {
+    "lat": 48.6383,
+    "lon": 9.1326,
+    "city": "Waldenbuch"
+  },
+  "71116": {
+    "lat": 48.6418,
+    "lon": 8.9007,
+    "city": "Gärtringen"
+  },
+  "71120": {
+    "lat": 48.7083,
+    "lon": 8.9183,
+    "city": "Grafenau"
+  },
+  "71125": {
+    "lat": 48.5244,
+    "lon": 8.8431,
+    "city": "Mayfair Edition GmbH"
+  },
+  "71126": {
+    "lat": 48.55,
+    "lon": 8.8167,
+    "city": "Gäufelden"
+  },
+  "71131": {
+    "lat": 48.575,
+    "lon": 8.7865,
+    "city": "Jettingen"
+  },
+  "71134": {
+    "lat": 48.6785,
+    "lon": 8.8952,
+    "city": "Aidlingen"
+  },
+  "71137": {
+    "lat": 48.6518,
+    "lon": 8.9465,
+    "city": "IBM Deutschland GmbH"
+  },
+  "71139": {
+    "lat": 48.6588,
+    "lon": 8.9412,
+    "city": "Ehningen"
+  },
+  "71144": {
+    "lat": 48.6667,
+    "lon": 9.1167,
+    "city": "Steinenbronn"
+  },
+  "71148": {
+    "lat": 48.5244,
+    "lon": 8.8431,
+    "city": "Wellness Direct GmbH"
+  },
+  "71149": {
+    "lat": 48.5206,
+    "lon": 8.837,
+    "city": "Bondorf"
+  },
+  "71154": {
+    "lat": 48.6225,
+    "lon": 8.8901,
+    "city": "Nufringen"
+  },
+  "71155": {
+    "lat": 48.6311,
+    "lon": 8.9963,
+    "city": "Altdorf"
+  },
+  "71157": {
+    "lat": 48.6242,
+    "lon": 8.966,
+    "city": "Hildrizhausen"
+  },
+  "71159": {
+    "lat": 48.5332,
+    "lon": 8.7745,
+    "city": "Mötzingen"
+  },
+  "71226": {
+    "lat": 48.7973,
+    "lon": 9.0121,
+    "city": "LEWA GmbH"
+  },
+  "71229": {
+    "lat": 48.8,
+    "lon": 9.0167,
+    "city": "Leonberg"
+  },
+  "71252": {
+    "lat": 48.8215,
+    "lon": 9.0668,
+    "city": "Siemens AG"
+  },
+  "71254": {
+    "lat": 48.8267,
+    "lon": 9.067,
+    "city": "Ditzingen"
+  },
+  "71261": {
+    "lat": 48.7562,
+    "lon": 8.8645,
+    "city": "Verlag Nussbaum"
+  },
+  "71263": {
+    "lat": 48.7495,
+    "lon": 8.8718,
+    "city": "Weil der Stadt"
+  },
+  "71272": {
+    "lat": 48.7697,
+    "lon": 8.9387,
+    "city": "Renningen"
+  },
+  "71277": {
+    "lat": 48.8081,
+    "lon": 8.9454,
+    "city": "Rutesheim"
+  },
+  "71282": {
+    "lat": 48.8667,
+    "lon": 9.0333,
+    "city": "Hemmingen"
+  },
+  "71287": {
+    "lat": 48.8469,
+    "lon": 8.9283,
+    "city": "Weissach"
+  },
+  "71292": {
+    "lat": 48.8333,
+    "lon": 8.8333,
+    "city": "Friolzheim"
+  },
+  "71296": {
+    "lat": 48.8066,
+    "lon": 8.8674,
+    "city": "Heimsheim"
+  },
+  "71297": {
+    "lat": 48.8667,
+    "lon": 8.8667,
+    "city": "Mönsheim"
+  },
+  "71299": {
+    "lat": 48.85,
+    "lon": 8.8333,
+    "city": "Wimsheim"
+  },
+  "71327": {
+    "lat": 48.8257,
+    "lon": 9.3103,
+    "city": "Agentur für Arbeit Waiblingen"
+  },
+  "71328": {
+    "lat": 48.829,
+    "lon": 9.3106,
+    "city": "AOK Rems-Murr"
+  },
+  "71332": {
+    "lat": 48.8285,
+    "lon": 9.3131,
+    "city": "Waiblingen"
+  },
+  "71334": {
+    "lat": 48.843,
+    "lon": 9.31,
+    "city": "Waiblingen"
+  },
+  "71336": {
+    "lat": 48.8333,
+    "lon": 9.3,
+    "city": "Waiblingen"
+  },
+  "71361": {
+    "lat": 48.8728,
+    "lon": 9.3911,
+    "city": "Stadtverwaltung"
+  },
+  "71364": {
+    "lat": 48.8756,
+    "lon": 9.3982,
+    "city": "Winnenden"
+  },
+  "71384": {
+    "lat": 48.8092,
+    "lon": 9.3774,
+    "city": "Weinstadt"
+  },
+  "71394": {
+    "lat": 48.8075,
+    "lon": 9.3224,
+    "city": "Kernen im Remstal"
+  },
+  "71397": {
+    "lat": 48.8879,
+    "lon": 9.3927,
+    "city": "Leutenbach"
+  },
+  "71404": {
+    "lat": 48.843,
+    "lon": 9.3626,
+    "city": "Korb"
+  },
+  "71409": {
+    "lat": 48.8773,
+    "lon": 9.3496,
+    "city": "Schwaikheim"
+  },
+  "71520": {
+    "lat": 48.9509,
+    "lon": 9.4345,
+    "city": "Südbund"
+  },
+  "71522": {
+    "lat": 48.9474,
+    "lon": 9.4372,
+    "city": "Backnang"
+  },
+  "71540": {
+    "lat": 48.9819,
+    "lon": 9.5705,
+    "city": "Murrhardt"
+  },
+  "71543": {
+    "lat": 49.0601,
+    "lon": 9.3878,
+    "city": "Wüstenrot"
+  },
+  "71546": {
+    "lat": 48.9667,
+    "lon": 9.4,
+    "city": "Aspach"
+  },
+  "71549": {
+    "lat": 48.9333,
+    "lon": 9.5,
+    "city": "Auenwald"
+  },
+  "71554": {
+    "lat": 48.9301,
+    "lon": 9.4769,
+    "city": "Weissach im Tal"
+  },
+  "71560": {
+    "lat": 49.003,
+    "lon": 9.5003,
+    "city": "Sulzbach an der Murr"
+  },
+  "71563": {
+    "lat": 48.9227,
+    "lon": 9.3236,
+    "city": "Affalterbach"
+  },
+  "71566": {
+    "lat": 48.9156,
+    "lon": 9.5698,
+    "city": "Althütte"
+  },
+  "71570": {
+    "lat": 48.9827,
+    "lon": 9.4585,
+    "city": "Oppenweiler"
+  },
+  "71573": {
+    "lat": 48.9066,
+    "lon": 9.4682,
+    "city": "Allmersbach im Tal"
+  },
+  "71576": {
+    "lat": 48.9281,
+    "lon": 9.3724,
+    "city": "Burgstetten"
+  },
+  "71577": {
+    "lat": 49.0537,
+    "lon": 9.5136,
+    "city": "Großerlach"
+  },
+  "71579": {
+    "lat": 49.0408,
+    "lon": 9.4444,
+    "city": "Spiegelberg"
+  },
+  "71629": {
+    "lat": 48.8904,
+    "lon": 9.195,
+    "city": "Agentur für Arbeit Ludwigsburg"
+  },
+  "71630": {
+    "lat": 48.8832,
+    "lon": 9.1897,
+    "city": "Wüstenrot Bank AG"
+  },
+  "71631": {
+    "lat": 48.8938,
+    "lon": 9.198,
+    "city": "Klinikum Ludwigsburg"
+  },
+  "71632": {
+    "lat": 48.8903,
+    "lon": 9.1855,
+    "city": "mhplus Betriebskrankenkasse"
+  },
+  "71634": {
+    "lat": 48.9076,
+    "lon": 9.1776,
+    "city": "Ludwigsburg"
+  },
+  "71636": {
+    "lat": 48.8901,
+    "lon": 9.1746,
+    "city": "Ludwigsburg"
+  },
+  "71638": {
+    "lat": 48.8909,
+    "lon": 9.1898,
+    "city": "Ludwigsburg"
+  },
+  "71640": {
+    "lat": 48.8924,
+    "lon": 9.218,
+    "city": "Ludwigsburg"
+  },
+  "71642": {
+    "lat": 48.907,
+    "lon": 9.2174,
+    "city": "Ludwigsburg"
+  },
+  "71665": {
+    "lat": 48.9356,
+    "lon": 8.9604,
+    "city": "Vaihingen an der Enz"
+  },
+  "71672": {
+    "lat": 48.97,
+    "lon": 9.3286,
+    "city": "Marbach am Neckar"
+  },
+  "71679": {
+    "lat": 48.9053,
+    "lon": 9.135,
+    "city": "Asperg"
+  },
+  "71686": {
+    "lat": 48.8783,
+    "lon": 9.2673,
+    "city": "Remseck am Neckar"
+  },
+  "71691": {
+    "lat": 48.932,
+    "lon": 9.2024,
+    "city": "Freiberg am Neckar"
+  },
+  "71696": {
+    "lat": 48.8874,
+    "lon": 9.1269,
+    "city": "Möglingen"
+  },
+  "71701": {
+    "lat": 48.8764,
+    "lon": 9.0744,
+    "city": "Schwieberdingen"
+  },
+  "71706": {
+    "lat": 48.9049,
+    "lon": 9.0806,
+    "city": "Markgröningen"
+  },
+  "71711": {
+    "lat": 48.963,
+    "lon": 9.2711,
+    "city": "Murr"
+  },
+  "71717": {
+    "lat": 49.0394,
+    "lon": 9.315,
+    "city": "Beilstein"
+  },
+  "71718": {
+    "lat": 49.0621,
+    "lon": 9.367,
+    "city": "Billensbach"
+  },
+  "71720": {
+    "lat": 49.0261,
+    "lon": 9.3208,
+    "city": "Oberstenfeld"
+  },
+  "71723": {
+    "lat": 49.0015,
+    "lon": 9.2935,
+    "city": "Großbottwar"
+  },
+  "71726": {
+    "lat": 48.9467,
+    "lon": 9.2421,
+    "city": "Benningen am Neckar"
+  },
+  "71729": {
+    "lat": 48.9426,
+    "lon": 9.2962,
+    "city": "Erdmannhausen"
+  },
+  "71732": {
+    "lat": 48.9199,
+    "lon": 9.1156,
+    "city": "Tamm"
+  },
+  "71735": {
+    "lat": 48.8794,
+    "lon": 8.965,
+    "city": "Eberdingen"
+  },
+  "71737": {
+    "lat": 48.943,
+    "lon": 9.3408,
+    "city": "Kirchberg an der Murr"
+  },
+  "71739": {
+    "lat": 48.9265,
+    "lon": 9.027,
+    "city": "Oberriexingen"
+  },
+  "72070": {
+    "lat": 48.5241,
+    "lon": 9.0177,
+    "city": "Tübingen"
+  },
+  "72072": {
+    "lat": 48.5166,
+    "lon": 9.0581,
+    "city": "Tübingen"
+  },
+  "72074": {
+    "lat": 48.5311,
+    "lon": 9.0705,
+    "city": "Tübingen"
+  },
+  "72076": {
+    "lat": 48.5369,
+    "lon": 9.0536,
+    "city": "Tübingen"
+  },
+  "72105": {
+    "lat": 48.4728,
+    "lon": 8.9468,
+    "city": "TeamBank AG"
+  },
+  "72108": {
+    "lat": 48.4796,
+    "lon": 8.95,
+    "city": "Rottenburg am Neckar"
+  },
+  "72116": {
+    "lat": 48.4057,
+    "lon": 9.0542,
+    "city": "Mössingen"
+  },
+  "72119": {
+    "lat": 48.5534,
+    "lon": 8.9722,
+    "city": "Ammerbuch"
+  },
+  "72124": {
+    "lat": 48.5593,
+    "lon": 9.2075,
+    "city": "Pliezhausen"
+  },
+  "72127": {
+    "lat": 48.5229,
+    "lon": 9.1198,
+    "city": "Kusterdingen"
+  },
+  "72131": {
+    "lat": 48.4167,
+    "lon": 9.0333,
+    "city": "Ofterdingen"
+  },
+  "72135": {
+    "lat": 48.6076,
+    "lon": 9.1004,
+    "city": "Dettenhausen"
+  },
+  "72138": {
+    "lat": 48.5331,
+    "lon": 9.1473,
+    "city": "Kirchentellinsfurt"
+  },
+  "72141": {
+    "lat": 48.587,
+    "lon": 9.1814,
+    "city": "Walddorfhäslach"
+  },
+  "72144": {
+    "lat": 48.4536,
+    "lon": 9.0555,
+    "city": "Dußlingen"
+  },
+  "72145": {
+    "lat": 48.4125,
+    "lon": 8.8874,
+    "city": "Hirrlingen"
+  },
+  "72147": {
+    "lat": 48.431,
+    "lon": 9.0699,
+    "city": "Nehren"
+  },
+  "72149": {
+    "lat": 48.4833,
+    "lon": 8.8833,
+    "city": "Neustetten"
+  },
+  "72160": {
+    "lat": 48.4889,
+    "lon": 8.6734,
+    "city": "Horb am Neckar"
+  },
+  "72172": {
+    "lat": 48.3624,
+    "lon": 8.6331,
+    "city": "Sulz am Neckar"
+  },
+  "72175": {
+    "lat": 48.3501,
+    "lon": 8.509,
+    "city": "Dornhan"
+  },
+  "72178": {
+    "lat": 48.5,
+    "lon": 8.5667,
+    "city": "Waldachtal"
+  },
+  "72181": {
+    "lat": 48.4333,
+    "lon": 8.8167,
+    "city": "Starzach"
+  },
+  "72184": {
+    "lat": 48.4833,
+    "lon": 8.75,
+    "city": "Eutingen im Gäu"
+  },
+  "72186": {
+    "lat": 48.3926,
+    "lon": 8.7104,
+    "city": "Empfingen"
+  },
+  "72189": {
+    "lat": 48.3345,
+    "lon": 8.6639,
+    "city": "Vöhringen"
+  },
+  "72200": {
+    "lat": 48.5534,
+    "lon": 8.7259,
+    "city": "Agentur für Arbeit Nagold"
+  },
+  "72202": {
+    "lat": 48.5498,
+    "lon": 8.7237,
+    "city": "Nagold"
+  },
+  "72213": {
+    "lat": 48.5865,
+    "lon": 8.604,
+    "city": "Altensteig"
+  },
+  "72218": {
+    "lat": 48.6234,
+    "lon": 8.7452,
+    "city": "Wildberg"
+  },
+  "72221": {
+    "lat": 48.5207,
+    "lon": 8.6443,
+    "city": "Haiterbach"
+  },
+  "72224": {
+    "lat": 48.5833,
+    "lon": 8.6833,
+    "city": "Ebhausen"
+  },
+  "72226": {
+    "lat": 48.6167,
+    "lon": 8.5167,
+    "city": "Simmersfeld"
+  },
+  "72227": {
+    "lat": 48.5667,
+    "lon": 8.6167,
+    "city": "Egenhausen"
+  },
+  "72229": {
+    "lat": 48.5667,
+    "lon": 8.7,
+    "city": "Rohrdorf"
+  },
+  "72250": {
+    "lat": 48.467,
+    "lon": 8.4137,
+    "city": "Freudenstadt"
+  },
+  "72270": {
+    "lat": 48.5032,
+    "lon": 8.377,
+    "city": "Baiersbronn"
+  },
+  "72275": {
+    "lat": 48.3451,
+    "lon": 8.402,
+    "city": "Alpirsbach"
+  },
+  "72280": {
+    "lat": 48.472,
+    "lon": 8.4982,
+    "city": "Dornstetten"
+  },
+  "72285": {
+    "lat": 48.5265,
+    "lon": 8.5658,
+    "city": "Pfalzgrafenweiler"
+  },
+  "72290": {
+    "lat": 48.4,
+    "lon": 8.45,
+    "city": "Loßburg"
+  },
+  "72291": {
+    "lat": 48.3667,
+    "lon": 8.4833,
+    "city": "Betzweiler-Wälde"
+  },
+  "72293": {
+    "lat": 48.4425,
+    "lon": 8.5112,
+    "city": "Glatten"
+  },
+  "72294": {
+    "lat": 48.5729,
+    "lon": 8.5454,
+    "city": "Grömbach"
+  },
+  "72296": {
+    "lat": 48.4548,
+    "lon": 8.5513,
+    "city": "Schopfloch"
+  },
+  "72297": {
+    "lat": 48.5919,
+    "lon": 8.4178,
+    "city": "Seewald"
+  },
+  "72299": {
+    "lat": 48.5667,
+    "lon": 8.5667,
+    "city": "Wörnersberg"
+  },
+  "72332": {
+    "lat": 48.2723,
+    "lon": 8.8545,
+    "city": "Agentur für Arbeit Balingen"
+  },
+  "72334": {
+    "lat": 48.2749,
+    "lon": 8.8563,
+    "city": "Spitta GmbH"
+  },
+  "72336": {
+    "lat": 48.2753,
+    "lon": 8.8546,
+    "city": "Balingen"
+  },
+  "72348": {
+    "lat": 48.2864,
+    "lon": 8.7236,
+    "city": "Rosenfeld"
+  },
+  "72351": {
+    "lat": 48.2877,
+    "lon": 8.8124,
+    "city": "Geislingen"
+  },
+  "72355": {
+    "lat": 48.21,
+    "lon": 8.7595,
+    "city": "Schömberg"
+  },
+  "72356": {
+    "lat": 48.242,
+    "lon": 8.7414,
+    "city": "Dautmergen"
+  },
+  "72358": {
+    "lat": 48.2369,
+    "lon": 8.7733,
+    "city": "Dormettingen"
+  },
+  "72359": {
+    "lat": 48.2285,
+    "lon": 8.7923,
+    "city": "Dotternhausen"
+  },
+  "72361": {
+    "lat": 48.1983,
+    "lon": 8.8363,
+    "city": "Hausen am Tann"
+  },
+  "72362": {
+    "lat": 48.1326,
+    "lon": 8.8915,
+    "city": "Nusplingen"
+  },
+  "72364": {
+    "lat": 48.163,
+    "lon": 8.8611,
+    "city": "Obernheim"
+  },
+  "72365": {
+    "lat": 48.1937,
+    "lon": 8.7952,
+    "city": "Ratshausen"
+  },
+  "72367": {
+    "lat": 48.1898,
+    "lon": 8.7649,
+    "city": "Weilen unter den Rinnen"
+  },
+  "72369": {
+    "lat": 48.2205,
+    "lon": 8.7193,
+    "city": "Zimmern unter der Burg"
+  },
+  "72379": {
+    "lat": 48.3515,
+    "lon": 8.9632,
+    "city": "Hechingen"
+  },
+  "72393": {
+    "lat": 48.2911,
+    "lon": 9.1129,
+    "city": "Burladingen"
+  },
+  "72401": {
+    "lat": 48.3661,
+    "lon": 8.8036,
+    "city": "Haigerloch"
+  },
+  "72406": {
+    "lat": 48.3101,
+    "lon": 8.9174,
+    "city": "Bisingen"
+  },
+  "72411": {
+    "lat": 48.3889,
+    "lon": 8.977,
+    "city": "Bodelshausen"
+  },
+  "72414": {
+    "lat": 48.3817,
+    "lon": 8.8894,
+    "city": "Rangendingen"
+  },
+  "72415": {
+    "lat": 48.3323,
+    "lon": 8.887,
+    "city": "Grosselfingen"
+  },
+  "72417": {
+    "lat": 48.3279,
+    "lon": 9.041,
+    "city": "Jungingen"
+  },
+  "72419": {
+    "lat": 48.2477,
+    "lon": 9.1831,
+    "city": "Neufra"
+  },
+  "72458": {
+    "lat": 48.2135,
+    "lon": 9.0263,
+    "city": "Albstadt"
+  },
+  "72459": {
+    "lat": 48.2167,
+    "lon": 9.0167,
+    "city": "Albstadt"
+  },
+  "72461": {
+    "lat": 48.251,
+    "lon": 9.0182,
+    "city": "Albstadt"
+  },
+  "72469": {
+    "lat": 48.1832,
+    "lon": 8.9657,
+    "city": "Meßstetten"
+  },
+  "72474": {
+    "lat": 48.1833,
+    "lon": 9.1167,
+    "city": "Winterlingen"
+  },
+  "72475": {
+    "lat": 48.244,
+    "lon": 9.0914,
+    "city": "Bitz"
+  },
+  "72477": {
+    "lat": 48.1,
+    "lon": 9,
+    "city": "Schwenningen"
+  },
+  "72479": {
+    "lat": 48.178,
+    "lon": 9.0906,
+    "city": "Straßberg"
+  },
+  "72488": {
+    "lat": 48.0883,
+    "lon": 9.2303,
+    "city": "Sigmaringen"
+  },
+  "72501": {
+    "lat": 48.2524,
+    "lon": 9.2235,
+    "city": "Gammertingen"
+  },
+  "72505": {
+    "lat": 48.0165,
+    "lon": 9.2476,
+    "city": "Krauchenwies"
+  },
+  "72510": {
+    "lat": 48.1167,
+    "lon": 9.0833,
+    "city": "Stetten am kalten Markt"
+  },
+  "72511": {
+    "lat": 48.1113,
+    "lon": 9.2724,
+    "city": "Bingen"
+  },
+  "72513": {
+    "lat": 48.216,
+    "lon": 9.2317,
+    "city": "Hettingen"
+  },
+  "72514": {
+    "lat": 48.0703,
+    "lon": 9.18,
+    "city": "Inzigkofen"
+  },
+  "72516": {
+    "lat": 48.0729,
+    "lon": 9.2949,
+    "city": "Scheer"
+  },
+  "72517": {
+    "lat": 48.0659,
+    "lon": 9.2621,
+    "city": "Sigmaringendorf"
+  },
+  "72519": {
+    "lat": 48.1851,
+    "lon": 9.2108,
+    "city": "Veringenstadt"
+  },
+  "72525": {
+    "lat": 48.4113,
+    "lon": 9.497,
+    "city": "Münsingen"
+  },
+  "72531": {
+    "lat": 48.3448,
+    "lon": 9.3511,
+    "city": "Hohenstein"
+  },
+  "72532": {
+    "lat": 48.3998,
+    "lon": 9.3906,
+    "city": "Gomadingen"
+  },
+  "72534": {
+    "lat": 48.2753,
+    "lon": 9.4776,
+    "city": "Hayingen"
+  },
+  "72535": {
+    "lat": 48.4456,
+    "lon": 9.6642,
+    "city": "Heroldstatt"
+  },
+  "72537": {
+    "lat": 48.3761,
+    "lon": 9.566,
+    "city": "Mehrstetten"
+  },
+  "72539": {
+    "lat": 48.2764,
+    "lon": 9.36,
+    "city": "Pfronstetten"
+  },
+  "72555": {
+    "lat": 48.537,
+    "lon": 9.2833,
+    "city": "Metzingen"
+  },
+  "72574": {
+    "lat": 48.4911,
+    "lon": 9.4001,
+    "city": "Bad Urach"
+  },
+  "72581": {
+    "lat": 48.5308,
+    "lon": 9.3446,
+    "city": "Dettingen an der Erms"
+  },
+  "72582": {
+    "lat": 48.524,
+    "lon": 9.4615,
+    "city": "Grabenstetten"
+  },
+  "72584": {
+    "lat": 48.5198,
+    "lon": 9.4079,
+    "city": "Hülben"
+  },
+  "72585": {
+    "lat": 48.5603,
+    "lon": 9.2688,
+    "city": "Riederich"
+  },
+  "72587": {
+    "lat": 48.4984,
+    "lon": 9.5426,
+    "city": "Römerstein"
+  },
+  "72589": {
+    "lat": 48.5151,
+    "lon": 9.6242,
+    "city": "Westerheim"
+  },
+  "72622": {
+    "lat": 48.6256,
+    "lon": 9.342,
+    "city": "Nürtingen"
+  },
+  "72631": {
+    "lat": 48.6333,
+    "lon": 9.2667,
+    "city": "Aichtal"
+  },
+  "72636": {
+    "lat": 48.5935,
+    "lon": 9.3601,
+    "city": "Frickenhausen"
+  },
+  "72639": {
+    "lat": 48.5546,
+    "lon": 9.3755,
+    "city": "Neuffen"
+  },
+  "72644": {
+    "lat": 48.65,
+    "lon": 9.3667,
+    "city": "Oberboihingen"
+  },
+  "72649": {
+    "lat": 48.65,
+    "lon": 9.2833,
+    "city": "Wolfschlugen"
+  },
+  "72654": {
+    "lat": 48.5898,
+    "lon": 9.2348,
+    "city": "Neckartenzlingen"
+  },
+  "72655": {
+    "lat": 48.5942,
+    "lon": 9.2716,
+    "city": "Altdorf"
+  },
+  "72657": {
+    "lat": 48.5914,
+    "lon": 9.2219,
+    "city": "Altenriet"
+  },
+  "72658": {
+    "lat": 48.5718,
+    "lon": 9.2683,
+    "city": "Bempflingen"
+  },
+  "72660": {
+    "lat": 48.5693,
+    "lon": 9.4041,
+    "city": "Beuren"
+  },
+  "72661": {
+    "lat": 48.565,
+    "lon": 9.3019,
+    "city": "Grafenberg"
+  },
+  "72663": {
+    "lat": 48.5905,
+    "lon": 9.3078,
+    "city": "Großbettlingen"
+  },
+  "72664": {
+    "lat": 48.5584,
+    "lon": 9.3358,
+    "city": "Kohlberg"
+  },
+  "72666": {
+    "lat": 48.6117,
+    "lon": 9.2637,
+    "city": "Neckartailfingen"
+  },
+  "72667": {
+    "lat": 48.6043,
+    "lon": 9.2227,
+    "city": "Schlaitdorf"
+  },
+  "72669": {
+    "lat": 48.6545,
+    "lon": 9.358,
+    "city": "Unterensingen"
+  },
+  "72757": {
+    "lat": 48.4935,
+    "lon": 9.2098,
+    "city": "Stadtverwaltung"
+  },
+  "72758": {
+    "lat": 48.4867,
+    "lon": 9.2227,
+    "city": "Agentur für Arbeit Reutlingen"
+  },
+  "72760": {
+    "lat": 48.5094,
+    "lon": 9.204,
+    "city": "Reutlingen"
+  },
+  "72762": {
+    "lat": 48.4845,
+    "lon": 9.1939,
+    "city": "Reutlingen"
+  },
+  "72764": {
+    "lat": 48.4931,
+    "lon": 9.2125,
+    "city": "Reutlingen"
+  },
+  "72766": {
+    "lat": 48.511,
+    "lon": 9.2232,
+    "city": "Reutlingen"
+  },
+  "72768": {
+    "lat": 48.4833,
+    "lon": 9.2167,
+    "city": "Reutlingen"
+  },
+  "72770": {
+    "lat": 48.4942,
+    "lon": 9.1666,
+    "city": "Reutlingen"
+  },
+  "72780": {
+    "lat": 48.4965,
+    "lon": 9.1479,
+    "city": "Deutsche Post AG Niederlassung BRIEF Reutlingen"
+  },
+  "72781": {
+    "lat": 48.7885,
+    "lon": 9.18,
+    "city": "Verlag Das Beste GmbH Reader's Digest Deutschland"
+  },
+  "72793": {
+    "lat": 48.4646,
+    "lon": 9.228,
+    "city": "Pfullingen"
+  },
+  "72800": {
+    "lat": 48.4869,
+    "lon": 9.2595,
+    "city": "Eningen unter Achalm"
+  },
+  "72805": {
+    "lat": 48.4396,
+    "lon": 9.2528,
+    "city": "Lichtenstein"
+  },
+  "72810": {
+    "lat": 48.4535,
+    "lon": 9.0958,
+    "city": "Gomaringen"
+  },
+  "72813": {
+    "lat": 48.4833,
+    "lon": 9.3167,
+    "city": "Sankt Johann"
+  },
+  "72818": {
+    "lat": 48.3084,
+    "lon": 9.2449,
+    "city": "Trochtelfingen"
+  },
+  "72820": {
+    "lat": 48.3833,
+    "lon": 9.1833,
+    "city": "Sonnenbühl"
+  },
+  "72827": {
+    "lat": 48.5167,
+    "lon": 9.15,
+    "city": "Wannweil"
+  },
+  "72829": {
+    "lat": 48.3925,
+    "lon": 9.3008,
+    "city": "Engstingen"
+  },
+  "73025": {
+    "lat": 48.703,
+    "lon": 9.6592,
+    "city": "Agentur für Arbeit Göppingen"
+  },
+  "73027": {
+    "lat": 48.7,
+    "lon": 9.6583,
+    "city": "Innungskrankenkasse Göppingen"
+  },
+  "73033": {
+    "lat": 48.7075,
+    "lon": 9.6514,
+    "city": "Göppingen"
+  },
+  "73035": {
+    "lat": 48.7,
+    "lon": 9.6667,
+    "city": "Göppingen"
+  },
+  "73037": {
+    "lat": 48.6959,
+    "lon": 9.6647,
+    "city": "Göppingen"
+  },
+  "73047": {
+    "lat": 48.6899,
+    "lon": 9.7281,
+    "city": "Deutsche Post AG Niederlassung BRIEF Göppingen"
+  },
+  "73054": {
+    "lat": 48.6944,
+    "lon": 9.7009,
+    "city": "Eislingen/Fils"
+  },
+  "73061": {
+    "lat": 48.716,
+    "lon": 9.5236,
+    "city": "Ebersbach an der Fils"
+  },
+  "73066": {
+    "lat": 48.7048,
+    "lon": 9.5857,
+    "city": "Uhingen"
+  },
+  "73072": {
+    "lat": 48.6854,
+    "lon": 9.8105,
+    "city": "Donzdorf"
+  },
+  "73079": {
+    "lat": 48.6793,
+    "lon": 9.7553,
+    "city": "Süßen"
+  },
+  "73084": {
+    "lat": 48.692,
+    "lon": 9.7371,
+    "city": "Salach"
+  },
+  "73087": {
+    "lat": 48.6436,
+    "lon": 9.613,
+    "city": "Boll"
+  },
+  "73092": {
+    "lat": 48.6618,
+    "lon": 9.6498,
+    "city": "Heiningen"
+  },
+  "73095": {
+    "lat": 48.6914,
+    "lon": 9.5649,
+    "city": "Albershausen"
+  },
+  "73098": {
+    "lat": 48.7308,
+    "lon": 9.6442,
+    "city": "Rechberghausen"
+  },
+  "73099": {
+    "lat": 48.7623,
+    "lon": 9.5999,
+    "city": "Adelberg"
+  },
+  "73101": {
+    "lat": 48.6356,
+    "lon": 9.5637,
+    "city": "Aichelberg"
+  },
+  "73102": {
+    "lat": 48.7473,
+    "lon": 9.6611,
+    "city": "Birenbach"
+  },
+  "73104": {
+    "lat": 48.7538,
+    "lon": 9.6318,
+    "city": "Börtlingen"
+  },
+  "73105": {
+    "lat": 48.6408,
+    "lon": 9.6354,
+    "city": "Dürnau"
+  },
+  "73107": {
+    "lat": 48.6526,
+    "lon": 9.6704,
+    "city": "Eschenbach"
+  },
+  "73108": {
+    "lat": 48.6402,
+    "lon": 9.6507,
+    "city": "Gammelshausen"
+  },
+  "73110": {
+    "lat": 48.6665,
+    "lon": 9.5746,
+    "city": "Hattenhofen"
+  },
+  "73111": {
+    "lat": 48.7101,
+    "lon": 9.8651,
+    "city": "Lauterstein"
+  },
+  "73113": {
+    "lat": 48.7365,
+    "lon": 9.7484,
+    "city": "Ottenbach"
+  },
+  "73114": {
+    "lat": 48.6532,
+    "lon": 9.7062,
+    "city": "Schlat"
+  },
+  "73116": {
+    "lat": 48.7599,
+    "lon": 9.6873,
+    "city": "Wäschenbeuren"
+  },
+  "73117": {
+    "lat": 48.7293,
+    "lon": 9.6117,
+    "city": "Wangen"
+  },
+  "73119": {
+    "lat": 48.6488,
+    "lon": 9.5714,
+    "city": "Zell unter Aichelberg"
+  },
+  "73207": {
+    "lat": 48.7107,
+    "lon": 9.4195,
+    "city": "Plochingen"
+  },
+  "73227": {
+    "lat": 48.6242,
+    "lon": 9.4507,
+    "city": "cisbox GmbH"
+  },
+  "73228": {
+    "lat": 48.6456,
+    "lon": 9.4413,
+    "city": "BKK Scheufelen"
+  },
+  "73230": {
+    "lat": 48.6468,
+    "lon": 9.4538,
+    "city": "Kirchheim unter Teck"
+  },
+  "73235": {
+    "lat": 48.6157,
+    "lon": 9.5375,
+    "city": "Weilheim an der Teck"
+  },
+  "73240": {
+    "lat": 48.6712,
+    "lon": 9.3763,
+    "city": "Wendlingen am Neckar"
+  },
+  "73249": {
+    "lat": 48.6931,
+    "lon": 9.4153,
+    "city": "Wernau"
+  },
+  "73252": {
+    "lat": 48.5581,
+    "lon": 9.4663,
+    "city": "Lenningen"
+  },
+  "73257": {
+    "lat": 48.6833,
+    "lon": 9.3667,
+    "city": "Köngen"
+  },
+  "73262": {
+    "lat": 48.7101,
+    "lon": 9.4643,
+    "city": "Reichenbach an der Fils"
+  },
+  "73265": {
+    "lat": 48.6167,
+    "lon": 9.45,
+    "city": "Dettingen unter Teck"
+  },
+  "73266": {
+    "lat": 48.5991,
+    "lon": 9.4915,
+    "city": "Bissingen an der Teck"
+  },
+  "73268": {
+    "lat": 48.5566,
+    "lon": 9.4321,
+    "city": "Erkenbrechtsweiler"
+  },
+  "73269": {
+    "lat": 48.6928,
+    "lon": 9.4649,
+    "city": "Hochdorf"
+  },
+  "73271": {
+    "lat": 48.6333,
+    "lon": 9.5167,
+    "city": "Holzmaden"
+  },
+  "73272": {
+    "lat": 48.5787,
+    "lon": 9.5645,
+    "city": "Neidlingen"
+  },
+  "73274": {
+    "lat": 48.6708,
+    "lon": 9.4572,
+    "city": "Notzingen"
+  },
+  "73275": {
+    "lat": 48.646,
+    "lon": 9.527,
+    "city": "Ohmden"
+  },
+  "73277": {
+    "lat": 48.5874,
+    "lon": 9.4498,
+    "city": "Owen"
+  },
+  "73278": {
+    "lat": 48.6736,
+    "lon": 9.5181,
+    "city": "Schlierbach"
+  },
+  "73309": {
+    "lat": 48.6211,
+    "lon": 9.8312,
+    "city": "WMF Group GmbH"
+  },
+  "73312": {
+    "lat": 48.6089,
+    "lon": 9.8123,
+    "city": "Geislingen an der Steige"
+  },
+  "73326": {
+    "lat": 48.5971,
+    "lon": 9.7189,
+    "city": "Deggingen"
+  },
+  "73329": {
+    "lat": 48.6358,
+    "lon": 9.7999,
+    "city": "Kuchen"
+  },
+  "73333": {
+    "lat": 48.6598,
+    "lon": 9.7809,
+    "city": "Gingen an der Fils"
+  },
+  "73337": {
+    "lat": 48.5999,
+    "lon": 9.7959,
+    "city": "Bad Überkingen"
+  },
+  "73340": {
+    "lat": 48.5788,
+    "lon": 9.8739,
+    "city": "Amstetten"
+  },
+  "73342": {
+    "lat": 48.5883,
+    "lon": 9.7039,
+    "city": "Bad Ditzenbach"
+  },
+  "73344": {
+    "lat": 48.5948,
+    "lon": 9.6439,
+    "city": "Gruibingen"
+  },
+  "73345": {
+    "lat": 48.5472,
+    "lon": 9.6736,
+    "city": "Hohenstadt"
+  },
+  "73347": {
+    "lat": 48.5667,
+    "lon": 9.65,
+    "city": "Mühlhausen im Täle"
+  },
+  "73349": {
+    "lat": 48.5613,
+    "lon": 9.6254,
+    "city": "Wiesensteig"
+  },
+  "73425": {
+    "lat": 48.8341,
+    "lon": 10.093,
+    "city": "Agentur für Arbeit Aalen"
+  },
+  "73427": {
+    "lat": 48.7946,
+    "lon": 9.8019,
+    "city": "Kreissparkasse Ostalb"
+  },
+  "73428": {
+    "lat": 48.8347,
+    "lon": 10.0961,
+    "city": "Finanzamt"
+  },
+  "73430": {
+    "lat": 48.8409,
+    "lon": 10.0931,
+    "city": "Aalen"
+  },
+  "73431": {
+    "lat": 48.822,
+    "lon": 10.0654,
+    "city": "Aalen"
+  },
+  "73432": {
+    "lat": 48.8333,
+    "lon": 10.1,
+    "city": "Aalen"
+  },
+  "73433": {
+    "lat": 48.8641,
+    "lon": 10.1044,
+    "city": "Aalen"
+  },
+  "73434": {
+    "lat": 48.8333,
+    "lon": 10.1,
+    "city": "Aalen"
+  },
+  "73441": {
+    "lat": 48.8585,
+    "lon": 10.3542,
+    "city": "Bopfingen"
+  },
+  "73446": {
+    "lat": 48.7823,
+    "lon": 10.105,
+    "city": "Owema"
+  },
+  "73447": {
+    "lat": 48.7838,
+    "lon": 10.1052,
+    "city": "Oberkochen"
+  },
+  "73450": {
+    "lat": 48.7551,
+    "lon": 10.3304,
+    "city": "Neresheim"
+  },
+  "73453": {
+    "lat": 48.895,
+    "lon": 10.0017,
+    "city": "Abtsgmünd"
+  },
+  "73457": {
+    "lat": 48.8086,
+    "lon": 10.0277,
+    "city": "Essingen"
+  },
+  "73460": {
+    "lat": 48.8927,
+    "lon": 10.1006,
+    "city": "Hüttlingen"
+  },
+  "73463": {
+    "lat": 48.8833,
+    "lon": 10.1833,
+    "city": "Westhausen"
+  },
+  "73466": {
+    "lat": 48.8713,
+    "lon": 10.2422,
+    "city": "Lauchheim"
+  },
+  "73467": {
+    "lat": 48.8792,
+    "lon": 10.4003,
+    "city": "Kirchheim am Ries"
+  },
+  "73469": {
+    "lat": 48.85,
+    "lon": 10.4333,
+    "city": "Riesbürg"
+  },
+  "73477": {
+    "lat": 48.9599,
+    "lon": 10.1284,
+    "city": "Landgericht"
+  },
+  "73479": {
+    "lat": 48.9623,
+    "lon": 10.1545,
+    "city": "Ellwangen (Jagst)"
+  },
+  "73485": {
+    "lat": 48.9333,
+    "lon": 10.3667,
+    "city": "Unterschneidheim"
+  },
+  "73486": {
+    "lat": 48.9548,
+    "lon": 10.0047,
+    "city": "Adelmannsfelden"
+  },
+  "73488": {
+    "lat": 49.0167,
+    "lon": 10.2167,
+    "city": "Ellenberg"
+  },
+  "73489": {
+    "lat": 49.0306,
+    "lon": 10.0975,
+    "city": "Jagstzell"
+  },
+  "73491": {
+    "lat": 48.928,
+    "lon": 10.0689,
+    "city": "Neuler"
+  },
+  "73492": {
+    "lat": 48.9333,
+    "lon": 10.15,
+    "city": "Rainau"
+  },
+  "73494": {
+    "lat": 49.0189,
+    "lon": 10.0296,
+    "city": "Rosenberg"
+  },
+  "73495": {
+    "lat": 49,
+    "lon": 10.3,
+    "city": "Stödtlen"
+  },
+  "73497": {
+    "lat": 48.9787,
+    "lon": 10.3613,
+    "city": "Tannhausen"
+  },
+  "73499": {
+    "lat": 49.0305,
+    "lon": 10.2724,
+    "city": "Wört"
+  },
+  "73520": {
+    "lat": 48.7821,
+    "lon": 9.8513,
+    "city": "BARMER"
+  },
+  "73521": {
+    "lat": 48.7821,
+    "lon": 9.8513,
+    "city": "BARMER"
+  },
+  "73522": {
+    "lat": 48.8038,
+    "lon": 9.8071,
+    "city": "Weleda AG"
+  },
+  "73524": {
+    "lat": 48.7821,
+    "lon": 9.8513,
+    "city": "BARMER"
+  },
+  "73525": {
+    "lat": 48.7989,
+    "lon": 9.7989,
+    "city": "Schwäbisch Gmünd"
+  },
+  "73527": {
+    "lat": 48.8333,
+    "lon": 9.8088,
+    "city": "Täferrot"
+  },
+  "73529": {
+    "lat": 48.7852,
+    "lon": 9.8176,
+    "city": "Schwäbisch Gmünd"
+  },
+  "73538": {
+    "lat": 48.7866,
+    "lon": 9.9372,
+    "city": "Triumph International GmbH"
+  },
+  "73540": {
+    "lat": 48.7927,
+    "lon": 9.9337,
+    "city": "Heubach"
+  },
+  "73547": {
+    "lat": 48.7983,
+    "lon": 9.6914,
+    "city": "Lorch"
+  },
+  "73550": {
+    "lat": 48.7661,
+    "lon": 9.8213,
+    "city": "Waldstetten"
+  },
+  "73553": {
+    "lat": 48.8438,
+    "lon": 9.7186,
+    "city": "Alfdorf"
+  },
+  "73557": {
+    "lat": 48.8259,
+    "lon": 9.7971,
+    "city": "Mutlangen"
+  },
+  "73560": {
+    "lat": 48.8196,
+    "lon": 9.9213,
+    "city": "Böbingen an der Rems"
+  },
+  "73563": {
+    "lat": 48.8232,
+    "lon": 9.9625,
+    "city": "Mögglingen"
+  },
+  "73565": {
+    "lat": 48.8806,
+    "lon": 9.7622,
+    "city": "Spraitbach"
+  },
+  "73566": {
+    "lat": 48.7535,
+    "lon": 9.9875,
+    "city": "Bartholomä"
+  },
+  "73568": {
+    "lat": 48.8563,
+    "lon": 9.7965,
+    "city": "Durlangen"
+  },
+  "73569": {
+    "lat": 48.8914,
+    "lon": 9.8897,
+    "city": "Eschach"
+  },
+  "73571": {
+    "lat": 48.8612,
+    "lon": 9.884,
+    "city": "Göggingen"
+  },
+  "73572": {
+    "lat": 48.8522,
+    "lon": 9.9439,
+    "city": "Heuchlingen"
+  },
+  "73574": {
+    "lat": 48.8317,
+    "lon": 9.8789,
+    "city": "Iggingen"
+  },
+  "73575": {
+    "lat": 48.8494,
+    "lon": 9.8775,
+    "city": "Leinzell"
+  },
+  "73577": {
+    "lat": 48.8828,
+    "lon": 9.8151,
+    "city": "Ruppertshofen"
+  },
+  "73579": {
+    "lat": 48.8734,
+    "lon": 9.9174,
+    "city": "Schechingen"
+  },
+  "73614": {
+    "lat": 48.8054,
+    "lon": 9.5272,
+    "city": "Schorndorf"
+  },
+  "73630": {
+    "lat": 48.8151,
+    "lon": 9.4239,
+    "city": "Remshalden"
+  },
+  "73635": {
+    "lat": 48.8852,
+    "lon": 9.5293,
+    "city": "Rudersberg"
+  },
+  "73642": {
+    "lat": 48.8768,
+    "lon": 9.6343,
+    "city": "Welzheim"
+  },
+  "73650": {
+    "lat": 48.7992,
+    "lon": 9.4791,
+    "city": "Winterbach"
+  },
+  "73655": {
+    "lat": 48.7988,
+    "lon": 9.5959,
+    "city": "Plüderhausen"
+  },
+  "73660": {
+    "lat": 48.8168,
+    "lon": 9.5769,
+    "city": "Urbach"
+  },
+  "73663": {
+    "lat": 48.8667,
+    "lon": 9.4667,
+    "city": "Berglen"
+  },
+  "73666": {
+    "lat": 48.7422,
+    "lon": 9.4494,
+    "city": "Baltmannsweiler"
+  },
+  "73667": {
+    "lat": 48.9302,
+    "lon": 9.639,
+    "city": "Kaisersbach"
+  },
+  "73669": {
+    "lat": 48.75,
+    "lon": 9.4833,
+    "city": "Lichtenwald"
+  },
+  "73726": {
+    "lat": 48.7343,
+    "lon": 9.3138,
+    "city": "Amtsgericht"
+  },
+  "73728": {
+    "lat": 48.7394,
+    "lon": 9.3061,
+    "city": "Esslingen am Neckar"
+  },
+  "73730": {
+    "lat": 48.7323,
+    "lon": 9.3255,
+    "city": "Esslingen am Neckar"
+  },
+  "73732": {
+    "lat": 48.769,
+    "lon": 9.3122,
+    "city": "Esslingen am Neckar"
+  },
+  "73733": {
+    "lat": 48.75,
+    "lon": 9.3,
+    "city": "Esslingen am Neckar"
+  },
+  "73734": {
+    "lat": 48.7361,
+    "lon": 9.2977,
+    "city": "Esslingen am Neckar"
+  },
+  "73760": {
+    "lat": 48.727,
+    "lon": 9.2495,
+    "city": "Ostfildern"
+  },
+  "73765": {
+    "lat": 48.6833,
+    "lon": 9.2833,
+    "city": "Neuhausen auf den Fildern"
+  },
+  "73770": {
+    "lat": 48.6955,
+    "lon": 9.3167,
+    "city": "Denkendorf"
+  },
+  "73773": {
+    "lat": 48.7503,
+    "lon": 9.387,
+    "city": "Aichwald"
+  },
+  "73776": {
+    "lat": 48.7227,
+    "lon": 9.3808,
+    "city": "Altbach"
+  },
+  "73779": {
+    "lat": 48.7122,
+    "lon": 9.3861,
+    "city": "Deizisau"
+  },
+  "74064": {
+    "lat": 49.1676,
+    "lon": 9.2386,
+    "city": "Finanzamt"
+  },
+  "74065": {
+    "lat": 49.1643,
+    "lon": 9.2162,
+    "city": "Fiat Automobil AG"
+  },
+  "74066": {
+    "lat": 49.1624,
+    "lon": 9.2156,
+    "city": "FCA Bank Deutschland GmbH Personalabteilung"
+  },
+  "74067": {
+    "lat": 49.132,
+    "lon": 9.217,
+    "city": "Bestfoods Deutschland GmbH & Co. OHG"
+  },
+  "74068": {
+    "lat": 49.1346,
+    "lon": 9.2133,
+    "city": "Agentur für Arbeit Heilbronn"
+  },
+  "74071": {
+    "lat": 50.9235,
+    "lon": 6.8714,
+    "city": "GDF Suez Energy Services Germany GmbH"
+  },
+  "74072": {
+    "lat": 49.1423,
+    "lon": 9.2234,
+    "city": "Heilbronn"
+  },
+  "74074": {
+    "lat": 49.1286,
+    "lon": 9.2214,
+    "city": "Heilbronn"
+  },
+  "74076": {
+    "lat": 49.1618,
+    "lon": 9.2193,
+    "city": "Heilbronn"
+  },
+  "74078": {
+    "lat": 49.1566,
+    "lon": 9.1746,
+    "city": "Heilbronn"
+  },
+  "74080": {
+    "lat": 49.1386,
+    "lon": 9.1954,
+    "city": "Heilbronn"
+  },
+  "74081": {
+    "lat": 49.1236,
+    "lon": 9.197,
+    "city": "Heilbronn"
+  },
+  "74099": {
+    "lat": 49.1815,
+    "lon": 9.1552,
+    "city": "Deutsche Post AG Niederlassung BRIEF Heilbronn"
+  },
+  "74166": {
+    "lat": 49.1718,
+    "lon": 9.2231,
+    "city": "Kaufland Dienstleistung GmbH & Co. KG"
+  },
+  "74167": {
+    "lat": 49.183,
+    "lon": 9.2363,
+    "city": "Lidl Stiftung & Co. KG"
+  },
+  "74168": {
+    "lat": 49.1817,
+    "lon": 9.2327,
+    "city": "Dialog-Service-Center GmbH"
+  },
+  "74169": {
+    "lat": 49.1831,
+    "lon": 9.2175,
+    "city": "arvato direct services Neckarsulm GmbH"
+  },
+  "74170": {
+    "lat": 49.1942,
+    "lon": 9.2326,
+    "city": "PVS Fulfillment-Service GmbH"
+  },
+  "74172": {
+    "lat": 49.1891,
+    "lon": 9.2253,
+    "city": "Neckarsulm"
+  },
+  "74177": {
+    "lat": 49.2344,
+    "lon": 9.2145,
+    "city": "Bad Friedrichshall"
+  },
+  "74182": {
+    "lat": 49.1361,
+    "lon": 9.3774,
+    "city": "Obersulm"
+  },
+  "74189": {
+    "lat": 49.1513,
+    "lon": 9.2876,
+    "city": "Weinsberg"
+  },
+  "74193": {
+    "lat": 49.1449,
+    "lon": 9.0553,
+    "city": "Schwaigern"
+  },
+  "74196": {
+    "lat": 49.235,
+    "lon": 9.3322,
+    "city": "Neuenstadt am Kocher"
+  },
+  "74199": {
+    "lat": 49.0894,
+    "lon": 9.2752,
+    "city": "Untergruppenbach"
+  },
+  "74206": {
+    "lat": 49.2297,
+    "lon": 9.1565,
+    "city": "Bad Wimpfen"
+  },
+  "74211": {
+    "lat": 49.1464,
+    "lon": 9.1169,
+    "city": "Leingarten"
+  },
+  "74214": {
+    "lat": 49.3524,
+    "lon": 9.5088,
+    "city": "Schöntal"
+  },
+  "74219": {
+    "lat": 49.3249,
+    "lon": 9.3584,
+    "city": "Möckmühl"
+  },
+  "74223": {
+    "lat": 49.1031,
+    "lon": 9.2108,
+    "city": "Flein"
+  },
+  "74226": {
+    "lat": 49.1086,
+    "lon": 9.1278,
+    "city": "Nordheim"
+  },
+  "74229": {
+    "lat": 49.2403,
+    "lon": 9.2533,
+    "city": "Oedheim"
+  },
+  "74232": {
+    "lat": 49.0682,
+    "lon": 9.2907,
+    "city": "Abstatt"
+  },
+  "74235": {
+    "lat": 49.1725,
+    "lon": 9.2683,
+    "city": "Erlenbach"
+  },
+  "74238": {
+    "lat": 49.3879,
+    "lon": 9.6355,
+    "city": "Krautheim"
+  },
+  "74239": {
+    "lat": 49.2586,
+    "lon": 9.3894,
+    "city": "Hardthausen am Kocher"
+  },
+  "74243": {
+    "lat": 49.2169,
+    "lon": 9.4049,
+    "city": "Langenbrettach"
+  },
+  "74245": {
+    "lat": 49.0956,
+    "lon": 9.38,
+    "city": "Löwenstein"
+  },
+  "74246": {
+    "lat": 49.1803,
+    "lon": 9.3211,
+    "city": "Eberstadt"
+  },
+  "74248": {
+    "lat": 49.1467,
+    "lon": 9.3219,
+    "city": "Ellhofen"
+  },
+  "74249": {
+    "lat": 49.3106,
+    "lon": 9.4683,
+    "city": "Jagsthausen"
+  },
+  "74251": {
+    "lat": 49.1311,
+    "lon": 9.3272,
+    "city": "Lehrensteinsfeld"
+  },
+  "74252": {
+    "lat": 49.1778,
+    "lon": 9.0433,
+    "city": "Massenbachhausen"
+  },
+  "74254": {
+    "lat": 49.2458,
+    "lon": 9.1606,
+    "city": "Offenau"
+  },
+  "74255": {
+    "lat": 49.3647,
+    "lon": 9.34,
+    "city": "Roigheim"
+  },
+  "74257": {
+    "lat": 49.2111,
+    "lon": 9.2019,
+    "city": "Untereisesheim"
+  },
+  "74259": {
+    "lat": 49.3183,
+    "lon": 9.4221,
+    "city": "Widdern"
+  },
+  "74319": {
+    "lat": 48.9538,
+    "lon": 9.1347,
+    "city": "Dürr Dental SE"
+  },
+  "74321": {
+    "lat": 48.9441,
+    "lon": 9.1175,
+    "city": "Bietigheim-Bissingen"
+  },
+  "74336": {
+    "lat": 49.0779,
+    "lon": 9.066,
+    "city": "Brackenheim"
+  },
+  "74337": {
+    "lat": 49.0651,
+    "lon": 9.064,
+    "city": "Botenheim"
+  },
+  "74343": {
+    "lat": 48.9584,
+    "lon": 9.0708,
+    "city": "Sachsenheim"
+  },
+  "74348": {
+    "lat": 49.0734,
+    "lon": 9.1457,
+    "city": "Lauffen am Neckar"
+  },
+  "74354": {
+    "lat": 48.998,
+    "lon": 9.1427,
+    "city": "Besigheim"
+  },
+  "74357": {
+    "lat": 49.0402,
+    "lon": 9.0939,
+    "city": "Bönnigheim"
+  },
+  "74360": {
+    "lat": 49.0555,
+    "lon": 9.246,
+    "city": "Ilsfeld"
+  },
+  "74363": {
+    "lat": 49.0664,
+    "lon": 9.0017,
+    "city": "Güglingen"
+  },
+  "74366": {
+    "lat": 49.045,
+    "lon": 9.1422,
+    "city": "Kirchheim am Neckar"
+  },
+  "74369": {
+    "lat": 49.0036,
+    "lon": 9.1064,
+    "city": "Löchgau"
+  },
+  "74372": {
+    "lat": 48.9667,
+    "lon": 9.0167,
+    "city": "Sersheim"
+  },
+  "74374": {
+    "lat": 49.0561,
+    "lon": 8.9269,
+    "city": "Zaberfeld"
+  },
+  "74376": {
+    "lat": 49.0283,
+    "lon": 9.1556,
+    "city": "Gemmrigheim"
+  },
+  "74379": {
+    "lat": 48.9611,
+    "lon": 9.1761,
+    "city": "Ingersheim"
+  },
+  "74382": {
+    "lat": 49.0469,
+    "lon": 9.19,
+    "city": "Neckarwestheim"
+  },
+  "74385": {
+    "lat": 48.9592,
+    "lon": 9.2031,
+    "city": "Pleidelsheim"
+  },
+  "74388": {
+    "lat": 49.0833,
+    "lon": 9.1931,
+    "city": "Talheim"
+  },
+  "74389": {
+    "lat": 49.045,
+    "lon": 9.0369,
+    "city": "Cleebronn"
+  },
+  "74391": {
+    "lat": 49.0225,
+    "lon": 9.0972,
+    "city": "Erligheim"
+  },
+  "74392": {
+    "lat": 49.0097,
+    "lon": 9.0592,
+    "city": "Freudental"
+  },
+  "74394": {
+    "lat": 48.9941,
+    "lon": 9.1863,
+    "city": "Hessigheim"
+  },
+  "74395": {
+    "lat": 49.0008,
+    "lon": 9.2078,
+    "city": "Mundelsheim"
+  },
+  "74397": {
+    "lat": 49.0644,
+    "lon": 8.9764,
+    "city": "Pfaffenhofen"
+  },
+  "74399": {
+    "lat": 49.0142,
+    "lon": 9.1511,
+    "city": "Walheim"
+  },
+  "74405": {
+    "lat": 49.0003,
+    "lon": 9.7695,
+    "city": "Gaildorf"
+  },
+  "74417": {
+    "lat": 48.9333,
+    "lon": 9.7444,
+    "city": "Gschwend"
+  },
+  "74420": {
+    "lat": 49.0144,
+    "lon": 9.6672,
+    "city": "Oberrot"
+  },
+  "74423": {
+    "lat": 49.0567,
+    "lon": 9.8992,
+    "city": "Obersontheim"
+  },
+  "74424": {
+    "lat": 49.0417,
+    "lon": 9.9086,
+    "city": "Bühlertann"
+  },
+  "74426": {
+    "lat": 49.0033,
+    "lon": 9.9206,
+    "city": "Bühlerzell"
+  },
+  "74427": {
+    "lat": 48.986,
+    "lon": 9.712,
+    "city": "Fichtenberg"
+  },
+  "74429": {
+    "lat": 48.9667,
+    "lon": 9.85,
+    "city": "Sulzbach-Laufen"
+  },
+  "74509": {
+    "lat": 49.1093,
+    "lon": 9.735,
+    "city": "Agentur für Arbeit Schwäbisch Hall"
+  },
+  "74520": {
+    "lat": 49.1129,
+    "lon": 9.7465,
+    "city": "Bausparkasse Schwäbisch Hall AG"
+  },
+  "74523": {
+    "lat": 49.1113,
+    "lon": 9.7391,
+    "city": "Schwäbisch Hall"
+  },
+  "74532": {
+    "lat": 49.1702,
+    "lon": 9.9183,
+    "city": "Ilshofen"
+  },
+  "74535": {
+    "lat": 49.0761,
+    "lon": 9.5564,
+    "city": "Mainhardt"
+  },
+  "74538": {
+    "lat": 49.0833,
+    "lon": 9.7,
+    "city": "Rosengarten"
+  },
+  "74541": {
+    "lat": 49.0843,
+    "lon": 9.8791,
+    "city": "Vellberg"
+  },
+  "74542": {
+    "lat": 49.1992,
+    "lon": 9.7906,
+    "city": "Braunsbach"
+  },
+  "74544": {
+    "lat": 49.0703,
+    "lon": 9.7625,
+    "city": "Michelbach an der Bilz"
+  },
+  "74545": {
+    "lat": 49.118,
+    "lon": 9.6433,
+    "city": "Michelfeld"
+  },
+  "74547": {
+    "lat": 49.1525,
+    "lon": 9.7338,
+    "city": "Untermünkheim"
+  },
+  "74549": {
+    "lat": 49.1675,
+    "lon": 9.8447,
+    "city": "Wolpertshausen"
+  },
+  "74564": {
+    "lat": 49.1344,
+    "lon": 10.0719,
+    "city": "Crailsheim"
+  },
+  "74569": {
+    "lat": 49.2996,
+    "lon": 9.9601,
+    "city": "Sigloch Distribution"
+  },
+  "74571": {
+    "lat": 49.2996,
+    "lon": 9.9601,
+    "city": "Verlag Das Beste GmbH Versandabteilung"
+  },
+  "74572": {
+    "lat": 49.2978,
+    "lon": 9.9739,
+    "city": "Blaufelden"
+  },
+  "74575": {
+    "lat": 49.3453,
+    "lon": 9.9794,
+    "city": "Schrozberg"
+  },
+  "74579": {
+    "lat": 49.0667,
+    "lon": 10.2167,
+    "city": "Fichtenau"
+  },
+  "74582": {
+    "lat": 49.2517,
+    "lon": 9.9219,
+    "city": "Gerabronn"
+  },
+  "74585": {
+    "lat": 49.25,
+    "lon": 10.0167,
+    "city": "Rot am See"
+  },
+  "74586": {
+    "lat": 49.0833,
+    "lon": 9.9833,
+    "city": "Frankenhardt"
+  },
+  "74587": {
+    "lat": 49.1707,
+    "lon": 10.0801,
+    "city": "eleven teamsports GmbH"
+  },
+  "74588": {
+    "lat": 49.1707,
+    "lon": 10.0801,
+    "city": "eleven teamsports GmbH"
+  },
+  "74589": {
+    "lat": 49.1695,
+    "lon": 10.0796,
+    "city": "Satteldorf"
+  },
+  "74592": {
+    "lat": 49.2006,
+    "lon": 9.9823,
+    "city": "Kirchberg an der Jagst"
+  },
+  "74594": {
+    "lat": 49.1333,
+    "lon": 10.1833,
+    "city": "Kreßberg"
+  },
+  "74595": {
+    "lat": 49.254,
+    "lon": 9.8567,
+    "city": "Langenburg"
+  },
+  "74597": {
+    "lat": 49.0614,
+    "lon": 10.0927,
+    "city": "Stimpfach"
+  },
+  "74599": {
+    "lat": 49.2104,
+    "lon": 10.0622,
+    "city": "Wallhausen"
+  },
+  "74611": {
+    "lat": 49.2004,
+    "lon": 9.5022,
+    "city": "Finanzamt"
+  },
+  "74613": {
+    "lat": 49.1988,
+    "lon": 9.5072,
+    "city": "Öhringen"
+  },
+  "74626": {
+    "lat": 49.1794,
+    "lon": 9.4383,
+    "city": "Bretzfeld"
+  },
+  "74629": {
+    "lat": 49.1781,
+    "lon": 9.505,
+    "city": "Pfedelbach"
+  },
+  "74632": {
+    "lat": 49.2049,
+    "lon": 9.58,
+    "city": "Neuenstein"
+  },
+  "74635": {
+    "lat": 49.2278,
+    "lon": 9.69,
+    "city": "Kupferzell"
+  },
+  "74638": {
+    "lat": 49.1847,
+    "lon": 9.6399,
+    "city": "Waldenburg"
+  },
+  "74639": {
+    "lat": 49.2564,
+    "lon": 9.5181,
+    "city": "Zweiflingen"
+  },
+  "74650": {
+    "lat": 49.2593,
+    "lon": 9.6826,
+    "city": "Adolf Würth GmbH & Co. KG"
+  },
+  "74651": {
+    "lat": 49.2866,
+    "lon": 9.6835,
+    "city": "ZIEHL-ABEGG SE"
+  },
+  "74653": {
+    "lat": 49.2911,
+    "lon": 9.6683,
+    "city": "Künzelsau"
+  },
+  "74670": {
+    "lat": 49.2887,
+    "lon": 9.5603,
+    "city": "Forchtenberg"
+  },
+  "74673": {
+    "lat": 49.3403,
+    "lon": 9.8008,
+    "city": "Mulfingen"
+  },
+  "74676": {
+    "lat": 49.2952,
+    "lon": 9.616,
+    "city": "Niedernhall"
+  },
+  "74677": {
+    "lat": 49.3835,
+    "lon": 9.7073,
+    "city": "Dörzbach"
+  },
+  "74679": {
+    "lat": 49.2972,
+    "lon": 9.5953,
+    "city": "Weißbach"
+  },
+  "74706": {
+    "lat": 49.43,
+    "lon": 9.4225,
+    "city": "Osterburken"
+  },
+  "74722": {
+    "lat": 49.52,
+    "lon": 9.324,
+    "city": "Buchen (Odenwald)"
+  },
+  "74731": {
+    "lat": 49.5836,
+    "lon": 9.3664,
+    "city": "Walldürn"
+  },
+  "74736": {
+    "lat": 49.6119,
+    "lon": 9.4719,
+    "city": "Hardheim"
+  },
+  "74740": {
+    "lat": 49.4015,
+    "lon": 9.3925,
+    "city": "Adelsheim"
+  },
+  "74743": {
+    "lat": 49.4422,
+    "lon": 9.3342,
+    "city": "Seckach"
+  },
+  "74744": {
+    "lat": 49.5083,
+    "lon": 9.5269,
+    "city": "Ahorn"
+  },
+  "74746": {
+    "lat": 49.6025,
+    "lon": 9.4286,
+    "city": "Höpfingen"
+  },
+  "74747": {
+    "lat": 49.3939,
+    "lon": 9.5325,
+    "city": "Ravenstein"
+  },
+  "74749": {
+    "lat": 49.4558,
+    "lon": 9.4731,
+    "city": "Rosenberg"
+  },
+  "74819": {
+    "lat": 49.3524,
+    "lon": 9.1442,
+    "city": "BAMA GmbH"
+  },
+  "74821": {
+    "lat": 49.3536,
+    "lon": 9.1511,
+    "city": "Mosbach"
+  },
+  "74831": {
+    "lat": 49.2833,
+    "lon": 9.1604,
+    "city": "Gundelsheim"
+  },
+  "74832": {
+    "lat": 49.2784,
+    "lon": 9.1944,
+    "city": "Bachenau"
+  },
+  "74834": {
+    "lat": 49.3897,
+    "lon": 9.2106,
+    "city": "Elztal"
+  },
+  "74838": {
+    "lat": 49.4619,
+    "lon": 9.2111,
+    "city": "Limbach"
+  },
+  "74842": {
+    "lat": 49.3486,
+    "lon": 9.2539,
+    "city": "Billigheim"
+  },
+  "74847": {
+    "lat": 49.3519,
+    "lon": 9.0908,
+    "city": "Obrigheim"
+  },
+  "74850": {
+    "lat": 49.3956,
+    "lon": 9.2728,
+    "city": "Schefflenz"
+  },
+  "74855": {
+    "lat": 49.3,
+    "lon": 9.15,
+    "city": "Haßmersheim"
+  },
+  "74858": {
+    "lat": 49.3569,
+    "lon": 8.9869,
+    "city": "Aglasterhausen"
+  },
+  "74861": {
+    "lat": 49.2918,
+    "lon": 9.2698,
+    "city": "Neudenau"
+  },
+  "74862": {
+    "lat": 49.3683,
+    "lon": 9.0581,
+    "city": "Binau"
+  },
+  "74864": {
+    "lat": 49.4314,
+    "lon": 9.1506,
+    "city": "Fahrenbach"
+  },
+  "74865": {
+    "lat": 49.3192,
+    "lon": 9.1328,
+    "city": "Neckarzimmern"
+  },
+  "74867": {
+    "lat": 49.3869,
+    "lon": 9.0106,
+    "city": "Neunkirchen"
+  },
+  "74869": {
+    "lat": 49.3711,
+    "lon": 8.9832,
+    "city": "Schwarzach"
+  },
+  "74887": {
+    "lat": 49.2527,
+    "lon": 8.8775,
+    "city": "Finanzamt Sinsheim"
+  },
+  "74889": {
+    "lat": 49.2529,
+    "lon": 8.8787,
+    "city": "Sinsheim"
+  },
+  "74903": {
+    "lat": 49.2126,
+    "lon": 9.0644,
+    "city": "EOS KSI Inkasso Deutschland GmbH"
+  },
+  "74904": {
+    "lat": 49.2391,
+    "lon": 9.1049,
+    "city": "Vesalius Klinik"
+  },
+  "74906": {
+    "lat": 49.2385,
+    "lon": 9.1018,
+    "city": "Bad Rappenau"
+  },
+  "74909": {
+    "lat": 49.3217,
+    "lon": 8.8194,
+    "city": "Meckesheim"
+  },
+  "74912": {
+    "lat": 49.205,
+    "lon": 8.9917,
+    "city": "Kirchardt"
+  },
+  "74915": {
+    "lat": 49.2951,
+    "lon": 8.9177,
+    "city": "Waibstadt"
+  },
+  "74918": {
+    "lat": 49.2331,
+    "lon": 8.7705,
+    "city": "Angelbachtal"
+  },
+  "74921": {
+    "lat": 49.31,
+    "lon": 9,
+    "city": "Helmstadt-Bargen"
+  },
+  "74924": {
+    "lat": 49.2963,
+    "lon": 8.9638,
+    "city": "Neckarbischofsheim"
+  },
+  "74925": {
+    "lat": 49.3392,
+    "lon": 8.9078,
+    "city": "Epfenbach"
+  },
+  "74927": {
+    "lat": 49.3194,
+    "lon": 8.8653,
+    "city": "Eschelbronn"
+  },
+  "74928": {
+    "lat": 49.2919,
+    "lon": 9.0817,
+    "city": "Hüffenhardt"
+  },
+  "74930": {
+    "lat": 49.1908,
+    "lon": 8.9308,
+    "city": "Ittlingen"
+  },
+  "74931": {
+    "lat": 49.3664,
+    "lon": 8.8917,
+    "city": "Lobbach"
+  },
+  "74933": {
+    "lat": 49.3167,
+    "lon": 8.8847,
+    "city": "Neidenstein"
+  },
+  "74934": {
+    "lat": 49.355,
+    "lon": 8.9453,
+    "city": "Reichartshausen"
+  },
+  "74936": {
+    "lat": 49.2697,
+    "lon": 9.0897,
+    "city": "Siegelsbach"
+  },
+  "74937": {
+    "lat": 49.3464,
+    "lon": 8.8833,
+    "city": "Spechbach"
+  },
+  "74939": {
+    "lat": 49.2964,
+    "lon": 8.8225,
+    "city": "Zuzenhausen"
+  },
+  "75013": {
+    "lat": 49.109,
+    "lon": 8.6626,
+    "city": "Rechbergklinik"
+  },
+  "75015": {
+    "lat": 49.0369,
+    "lon": 8.7075,
+    "city": "Bretten"
+  },
+  "75031": {
+    "lat": 49.1364,
+    "lon": 8.9123,
+    "city": "Eppingen"
+  },
+  "75038": {
+    "lat": 49.0656,
+    "lon": 8.8031,
+    "city": "Oberderdingen"
+  },
+  "75045": {
+    "lat": 49.0257,
+    "lon": 8.5861,
+    "city": "Walzbachtal"
+  },
+  "75050": {
+    "lat": 49.1564,
+    "lon": 8.9819,
+    "city": "Gemmingen"
+  },
+  "75053": {
+    "lat": 49.0592,
+    "lon": 8.6583,
+    "city": "Gondelsheim"
+  },
+  "75056": {
+    "lat": 49.1047,
+    "lon": 8.8558,
+    "city": "Sulzfeld"
+  },
+  "75057": {
+    "lat": 49.0775,
+    "lon": 8.8456,
+    "city": "Kürnbach"
+  },
+  "75059": {
+    "lat": 49.1067,
+    "lon": 8.8128,
+    "city": "Zaisenhausen"
+  },
+  "75093": {
+    "lat": 48.9123,
+    "lon": 8.7163,
+    "city": "Deutsche Post AG Niederlassung BRIEF Pforzheim"
+  },
+  "75158": {
+    "lat": 48.8908,
+    "lon": 8.7028,
+    "city": "Stadtverwaltung"
+  },
+  "75159": {
+    "lat": 48.8908,
+    "lon": 8.6924,
+    "city": "AOK-Die Gesundheitskasse Enzkreis und Stadt Pforzheim"
+  },
+  "75162": {
+    "lat": 48.8924,
+    "lon": 8.699,
+    "city": "Sparkasse Pforzheim Calw"
+  },
+  "75166": {
+    "lat": 48.9012,
+    "lon": 8.6692,
+    "city": "Diemer GmbH & Co."
+  },
+  "75169": {
+    "lat": 48.8763,
+    "lon": 8.6761,
+    "city": "Fine Goods GmbH & Co.KG"
+  },
+  "75170": {
+    "lat": 48.8931,
+    "lon": 8.6831,
+    "city": "Bader GmbH & Co. Großversandhaus"
+  },
+  "75172": {
+    "lat": 48.8919,
+    "lon": 8.6985,
+    "city": "Pforzheim"
+  },
+  "75173": {
+    "lat": 48.8833,
+    "lon": 8.7,
+    "city": "Pforzheim"
+  },
+  "75175": {
+    "lat": 48.8915,
+    "lon": 8.7156,
+    "city": "Pforzheim"
+  },
+  "75177": {
+    "lat": 48.8833,
+    "lon": 8.7,
+    "city": "Pforzheim"
+  },
+  "75179": {
+    "lat": 48.9006,
+    "lon": 8.6697,
+    "city": "Pforzheim"
+  },
+  "75180": {
+    "lat": 48.8696,
+    "lon": 8.6704,
+    "city": "Pforzheim"
+  },
+  "75181": {
+    "lat": 48.8851,
+    "lon": 8.7307,
+    "city": "Pforzheim"
+  },
+  "75194": {
+    "lat": 48.9527,
+    "lon": 8.5714,
+    "city": "Versandhaus Karlheinz Jung GmbH"
+  },
+  "75196": {
+    "lat": 48.9513,
+    "lon": 8.5732,
+    "city": "Remchingen"
+  },
+  "75203": {
+    "lat": 48.9659,
+    "lon": 8.6057,
+    "city": "Königsbach-Stein"
+  },
+  "75210": {
+    "lat": 48.9,
+    "lon": 8.5833,
+    "city": "Keltern"
+  },
+  "75217": {
+    "lat": 48.8667,
+    "lon": 8.6333,
+    "city": "Birkenfeld"
+  },
+  "75223": {
+    "lat": 48.9167,
+    "lon": 8.7833,
+    "city": "Niefern-Öschelbronn"
+  },
+  "75228": {
+    "lat": 48.9167,
+    "lon": 8.6667,
+    "city": "Ispringen"
+  },
+  "75233": {
+    "lat": 48.824,
+    "lon": 8.8013,
+    "city": "Tiefenbronn"
+  },
+  "75236": {
+    "lat": 48.93,
+    "lon": 8.6448,
+    "city": "Kämpfelbach"
+  },
+  "75239": {
+    "lat": 48.95,
+    "lon": 8.6667,
+    "city": "Eisingen"
+  },
+  "75242": {
+    "lat": 48.7926,
+    "lon": 8.7765,
+    "city": "Neuhausen"
+  },
+  "75245": {
+    "lat": 48.9667,
+    "lon": 8.7,
+    "city": "Neulingen"
+  },
+  "75248": {
+    "lat": 48.9667,
+    "lon": 8.75,
+    "city": "Ölbronn-Dürrn"
+  },
+  "75249": {
+    "lat": 48.9333,
+    "lon": 8.75,
+    "city": "Kieselbronn"
+  },
+  "75305": {
+    "lat": 48.8452,
+    "lon": 8.5957,
+    "city": "Neuenbürg"
+  },
+  "75323": {
+    "lat": 48.75,
+    "lon": 8.55,
+    "city": "Bad Wildbad im Schwarzwald"
+  },
+  "75328": {
+    "lat": 48.7871,
+    "lon": 8.645,
+    "city": "Schömberg"
+  },
+  "75331": {
+    "lat": 48.8333,
+    "lon": 8.65,
+    "city": "Engelsbrand"
+  },
+  "75334": {
+    "lat": 48.8466,
+    "lon": 8.5431,
+    "city": "Straubenhardt"
+  },
+  "75335": {
+    "lat": 48.8,
+    "lon": 8.5,
+    "city": "Dobel"
+  },
+  "75337": {
+    "lat": 48.6664,
+    "lon": 8.4708,
+    "city": "Enzklösterle"
+  },
+  "75339": {
+    "lat": 48.8,
+    "lon": 8.5833,
+    "city": "Höfen an der Enz"
+  },
+  "75363": {
+    "lat": 48.7186,
+    "lon": 8.7376,
+    "city": "Finanzamt"
+  },
+  "75365": {
+    "lat": 48.7142,
+    "lon": 8.7403,
+    "city": "Calw"
+  },
+  "75378": {
+    "lat": 48.7743,
+    "lon": 8.7297,
+    "city": "Bad Liebenzell"
+  },
+  "75382": {
+    "lat": 48.7232,
+    "lon": 8.7943,
+    "city": "Althengstett"
+  },
+  "75385": {
+    "lat": 48.6905,
+    "lon": 8.6928,
+    "city": "Bad Teinach-Zavelstein"
+  },
+  "75387": {
+    "lat": 48.6609,
+    "lon": 8.6961,
+    "city": "Neubulach"
+  },
+  "75389": {
+    "lat": 48.6667,
+    "lon": 8.6,
+    "city": "Neuweiler"
+  },
+  "75391": {
+    "lat": 48.6953,
+    "lon": 8.8291,
+    "city": "Gechingen"
+  },
+  "75392": {
+    "lat": 48.6513,
+    "lon": 8.8242,
+    "city": "Deckenpfronn"
+  },
+  "75394": {
+    "lat": 48.7333,
+    "lon": 8.6667,
+    "city": "Oberreichenbach"
+  },
+  "75395": {
+    "lat": 48.7263,
+    "lon": 8.8482,
+    "city": "Ostelsheim"
+  },
+  "75397": {
+    "lat": 48.7513,
+    "lon": 8.8114,
+    "city": "Simmozheim"
+  },
+  "75399": {
+    "lat": 48.825,
+    "lon": 8.7088,
+    "city": "Unterreichenbach"
+  },
+  "75415": {
+    "lat": 48.9521,
+    "lon": 8.8513,
+    "city": "Mühlacker Tagblatt"
+  },
+  "75417": {
+    "lat": 48.9475,
+    "lon": 8.8367,
+    "city": "Mühlacker"
+  },
+  "75428": {
+    "lat": 48.9562,
+    "lon": 8.9246,
+    "city": "Illingen"
+  },
+  "75433": {
+    "lat": 48.9996,
+    "lon": 8.8034,
+    "city": "Maulbronn"
+  },
+  "75438": {
+    "lat": 49.0249,
+    "lon": 8.7561,
+    "city": "Knittlingen"
+  },
+  "75443": {
+    "lat": 48.9667,
+    "lon": 8.8,
+    "city": "Ötisheim"
+  },
+  "75446": {
+    "lat": 48.8833,
+    "lon": 8.85,
+    "city": "Wiernsheim"
+  },
+  "75447": {
+    "lat": 49.0514,
+    "lon": 8.8508,
+    "city": "Sternenfels"
+  },
+  "75449": {
+    "lat": 48.8667,
+    "lon": 8.8167,
+    "city": "Wurmberg"
+  },
+  "76006": {
+    "lat": 49.008,
+    "lon": 8.42,
+    "city": "Karlsruhe"
+  },
+  "76070": {
+    "lat": 49.0316,
+    "lon": 8.3579,
+    "city": "AOK Baden-Württemberg"
+  },
+  "76073": {
+    "lat": 49.0045,
+    "lon": 8.4381,
+    "city": "Regierungspräsidium Karlsruhe Zentrale Bußgeldstelle"
+  },
+  "76088": {
+    "lat": 49.0057,
+    "lon": 8.4017,
+    "city": "Familienkasse Baden-Württemberg-West"
+  },
+  "76089": {
+    "lat": 49.0027,
+    "lon": 8.386,
+    "city": "Agentur für Arbeit Karlsruhe"
+  },
+  "76097": {
+    "lat": 49.0047,
+    "lon": 8.3962,
+    "city": "AOK- Die Gesundheitskasse BD Mittlerer Oberrhein"
+  },
+  "76098": {
+    "lat": 48.9945,
+    "lon": 8.3987,
+    "city": "Generali Versicherung"
+  },
+  "76107": {
+    "lat": 49.0056,
+    "lon": 8.4369,
+    "city": "EnBW Contracting GmbH"
+  },
+  "76109": {
+    "lat": 49.0057,
+    "lon": 8.4017,
+    "city": "Deutsche Post AG Abt. interServ SNL P&P"
+  },
+  "76110": {
+    "lat": 49.0057,
+    "lon": 8.4017,
+    "city": "Deutsche Post AG SCI / Service Center International Business Services"
+  },
+  "76111": {
+    "lat": 49.0045,
+    "lon": 8.4045,
+    "city": "Deutsche Post AG SNL Rechnungswesen Accounting Shared Service Center BV"
+  },
+  "76112": {
+    "lat": 48.9989,
+    "lon": 8.398,
+    "city": "Karlsruher Lebensversicherung AG"
+  },
+  "76113": {
+    "lat": 49.0107,
+    "lon": 8.4056,
+    "city": "Landeskreditbank"
+  },
+  "76114": {
+    "lat": 48.9819,
+    "lon": 8.3695,
+    "city": "Badenia Bausparkasse"
+  },
+  "76115": {
+    "lat": 48.9881,
+    "lon": 8.3732,
+    "city": "Heinrich Heine GmbH"
+  },
+  "76117": {
+    "lat": 49.0089,
+    "lon": 8.3974,
+    "city": "Allianz Private Krankenversicherung"
+  },
+  "76118": {
+    "lat": 49.0057,
+    "lon": 8.4017,
+    "city": "Deutsche Postbank AG Niederlassung Karlsruhe"
+  },
+  "76119": {
+    "lat": 49.0104,
+    "lon": 8.4,
+    "city": "BBBank Karlsruhe"
+  },
+  "76120": {
+    "lat": 49.0206,
+    "lon": 8.4681,
+    "city": "MONA GmbH & Co"
+  },
+  "76121": {
+    "lat": 48.9971,
+    "lon": 8.3792,
+    "city": "Karlsruher Versicherung AG"
+  },
+  "76122": {
+    "lat": 49.0046,
+    "lon": 8.3796,
+    "city": "Deutsche Rentenversicherung Baden-Württemberg"
+  },
+  "76123": {
+    "lat": 49.0028,
+    "lon": 8.3809,
+    "city": "Berufsgenossenschaft der Bauwirtschaft Bezirksverwaltung Karlsruhe"
+  },
+  "76124": {
+    "lat": 49.0086,
+    "lon": 8.4035,
+    "city": "Stadt Karlsruhe"
+  },
+  "76125": {
+    "lat": 49.0065,
+    "lon": 8.4008,
+    "city": "DAK-Gesundheit"
+  },
+  "76126": {
+    "lat": 49.0061,
+    "lon": 8.4006,
+    "city": "L'Oreal"
+  },
+  "76127": {
+    "lat": 49.0038,
+    "lon": 8.3979,
+    "city": "PBeaKK"
+  },
+  "76128": {
+    "lat": 49.0103,
+    "lon": 8.4112,
+    "city": "Badische Unfallkasse"
+  },
+  "76131": {
+    "lat": 49.0078,
+    "lon": 8.4199,
+    "city": "Karlsruhe"
+  },
+  "76133": {
+    "lat": 49.0083,
+    "lon": 8.3979,
+    "city": "Karlsruhe"
+  },
+  "76135": {
+    "lat": 48.9907,
+    "lon": 8.3719,
+    "city": "Karlsruhe"
+  },
+  "76137": {
+    "lat": 49.0019,
+    "lon": 8.4287,
+    "city": "Karlsruhe"
+  },
+  "76139": {
+    "lat": 49.0047,
+    "lon": 8.3858,
+    "city": "Karlsruhe"
+  },
+  "76147": {
+    "lat": 49.0477,
+    "lon": 8.3912,
+    "city": "BADISCHE NEUESTE NACHRICHTEN Badendruck GmbH"
+  },
+  "76149": {
+    "lat": 49.0401,
+    "lon": 8.3936,
+    "city": "Karlsruhe"
+  },
+  "76150": {
+    "lat": 49.0107,
+    "lon": 8.3851,
+    "city": "Tiefbauamt"
+  },
+  "76180": {
+    "lat": 49.0056,
+    "lon": 8.4369,
+    "city": "EnBW Service GmbH"
+  },
+  "76181": {
+    "lat": 49.0238,
+    "lon": 8.3486,
+    "city": "Siemens"
+  },
+  "76182": {
+    "lat": 49.0173,
+    "lon": 8.3468,
+    "city": "Michelin Reifenwerke"
+  },
+  "76185": {
+    "lat": 49.0111,
+    "lon": 8.3601,
+    "city": "Karlsruhe"
+  },
+  "76187": {
+    "lat": 49.0224,
+    "lon": 8.3742,
+    "city": "Karlsruhe"
+  },
+  "76189": {
+    "lat": 49.0148,
+    "lon": 8.3521,
+    "city": "Karlsruhe"
+  },
+  "76199": {
+    "lat": 48.9661,
+    "lon": 8.4043,
+    "city": "Karlsruhe"
+  },
+  "76225": {
+    "lat": 49.0071,
+    "lon": 8.459,
+    "city": "Angiomed AG"
+  },
+  "76227": {
+    "lat": 49.0003,
+    "lon": 8.4776,
+    "city": "Karlsruhe"
+  },
+  "76228": {
+    "lat": 49.0047,
+    "lon": 8.3858,
+    "city": "Karlsruhe"
+  },
+  "76229": {
+    "lat": 49.0047,
+    "lon": 8.3858,
+    "city": "Karlsruhe"
+  },
+  "76230": {
+    "lat": 48.9911,
+    "lon": 8.4686,
+    "city": "dm-drogeriemarkt GmbH & Co KG"
+  },
+  "76240": {
+    "lat": 49.0138,
+    "lon": 8.3979,
+    "city": "Versorgungsanstalt des Bundes und der Länder"
+  },
+  "76243": {
+    "lat": 49.0057,
+    "lon": 8.4017,
+    "city": "Deutsche Post AG Direkt Marketing Center Karlsruhe"
+  },
+  "76245": {
+    "lat": 49.0052,
+    "lon": 8.4143,
+    "city": "Landesbank Baden-Württemberg"
+  },
+  "76246": {
+    "lat": 48.9819,
+    "lon": 8.3695,
+    "city": "AachenMünchener Lebensversicherung AG"
+  },
+  "76247": {
+    "lat": 49.0081,
+    "lon": 8.4041,
+    "city": "Bezirksstelle für Naturschutz"
+  },
+  "76248": {
+    "lat": 49.0012,
+    "lon": 8.3594,
+    "city": "Deutsche Post AG Niederlassung BRIEF Karlsruhe"
+  },
+  "76249": {
+    "lat": 49.0012,
+    "lon": 8.3594,
+    "city": "Deutsche Post AG Nachsendezentrum Karlsruhe"
+  },
+  "76253": {
+    "lat": 49.0012,
+    "lon": 8.3594,
+    "city": "Deutsche Post AG Rücksendezentrum Karlsruhe"
+  },
+  "76273": {
+    "lat": 48.9477,
+    "lon": 8.4058,
+    "city": "WWF (MVS)"
+  },
+  "76275": {
+    "lat": 48.9409,
+    "lon": 8.4076,
+    "city": "Ettlingen"
+  },
+  "76287": {
+    "lat": 48.9685,
+    "lon": 8.307,
+    "city": "Rheinstetten"
+  },
+  "76297": {
+    "lat": 49.0967,
+    "lon": 8.4896,
+    "city": "Stutensee"
+  },
+  "76307": {
+    "lat": 48.9167,
+    "lon": 8.5,
+    "city": "Karlsbad"
+  },
+  "76314": {
+    "lat": 48.8893,
+    "lon": 8.3123,
+    "city": "CTDI GmbH"
+  },
+  "76316": {
+    "lat": 48.8833,
+    "lon": 8.3333,
+    "city": "Malsch"
+  },
+  "76327": {
+    "lat": 49.0044,
+    "lon": 8.5209,
+    "city": "Pfinztal"
+  },
+  "76332": {
+    "lat": 48.7979,
+    "lon": 8.4362,
+    "city": "Bad Herrenalb"
+  },
+  "76337": {
+    "lat": 48.9183,
+    "lon": 8.4923,
+    "city": "Waldbronn"
+  },
+  "76344": {
+    "lat": 49.0901,
+    "lon": 8.3988,
+    "city": "Eggenstein-Leopoldshafen"
+  },
+  "76351": {
+    "lat": 49.132,
+    "lon": 8.4124,
+    "city": "Linkenheim-Hochstetten"
+  },
+  "76356": {
+    "lat": 49.0546,
+    "lon": 8.5268,
+    "city": "Weingarten"
+  },
+  "76359": {
+    "lat": 48.8667,
+    "lon": 8.45,
+    "city": "Marxzell"
+  },
+  "76432": {
+    "lat": 48.8631,
+    "lon": 8.2137,
+    "city": "Sexy"
+  },
+  "76437": {
+    "lat": 48.8585,
+    "lon": 8.2096,
+    "city": "Rastatt"
+  },
+  "76448": {
+    "lat": 48.9333,
+    "lon": 8.2667,
+    "city": "Durmersheim"
+  },
+  "76456": {
+    "lat": 48.8279,
+    "lon": 8.2542,
+    "city": "Kuppenheim"
+  },
+  "76461": {
+    "lat": 48.8667,
+    "lon": 8.2833,
+    "city": "Muggensturm"
+  },
+  "76467": {
+    "lat": 48.9092,
+    "lon": 8.252,
+    "city": "Bietigheim"
+  },
+  "76470": {
+    "lat": 48.8909,
+    "lon": 8.2344,
+    "city": "Ötigheim"
+  },
+  "76473": {
+    "lat": 48.8217,
+    "lon": 8.1431,
+    "city": "Iffezheim"
+  },
+  "76474": {
+    "lat": 48.95,
+    "lon": 8.2333,
+    "city": "Au am Rhein"
+  },
+  "76476": {
+    "lat": 48.8377,
+    "lon": 8.2841,
+    "city": "Bischweier"
+  },
+  "76477": {
+    "lat": 48.9333,
+    "lon": 8.2167,
+    "city": "Elchesheim-Illingen"
+  },
+  "76479": {
+    "lat": 48.901,
+    "lon": 8.1969,
+    "city": "Steinmauern"
+  },
+  "76517": {
+    "lat": 48.7952,
+    "lon": 8.1937,
+    "city": "GRENKE AG"
+  },
+  "76519": {
+    "lat": 48.7781,
+    "lon": 8.2166,
+    "city": "Süd-Westdeutsche Inkasso GmbH"
+  },
+  "76520": {
+    "lat": 48.7662,
+    "lon": 8.2284,
+    "city": "Finanzamt"
+  },
+  "76521": {
+    "lat": 48.7781,
+    "lon": 8.2155,
+    "city": "Rae Haas & Kollegen Rechtsanwaltsgesellschaft mbH"
+  },
+  "76522": {
+    "lat": 48.7494,
+    "lon": 8.2234,
+    "city": "SWR-Südwestrundfunk"
+  },
+  "76523": {
+    "lat": 48.7551,
+    "lon": 8.238,
+    "city": "Sonnenverlag GmbH"
+  },
+  "76524": {
+    "lat": 48.7888,
+    "lon": 8.1914,
+    "city": "Agis-Verlag GmbH"
+  },
+  "76526": {
+    "lat": 48.7847,
+    "lon": 8.2071,
+    "city": "Sans Soucis"
+  },
+  "76527": {
+    "lat": 48.7781,
+    "lon": 8.2166,
+    "city": "InFoScore Consumer Data GmbH"
+  },
+  "76530": {
+    "lat": 48.7663,
+    "lon": 8.2031,
+    "city": "Baden-Baden"
+  },
+  "76532": {
+    "lat": 48.8038,
+    "lon": 8.1308,
+    "city": "Baden-Baden"
+  },
+  "76534": {
+    "lat": 48.715,
+    "lon": 8.1442,
+    "city": "Baden-Baden"
+  },
+  "76547": {
+    "lat": 48.7667,
+    "lon": 8.1667,
+    "city": "Sinzheim"
+  },
+  "76549": {
+    "lat": 48.8,
+    "lon": 8.1167,
+    "city": "Hügelsheim"
+  },
+  "76568": {
+    "lat": 48.8052,
+    "lon": 8.3188,
+    "city": "Daimler AG"
+  },
+  "76571": {
+    "lat": 48.8,
+    "lon": 8.3333,
+    "city": "Gaggenau"
+  },
+  "76593": {
+    "lat": 48.7703,
+    "lon": 8.3431,
+    "city": "Gernsbach"
+  },
+  "76596": {
+    "lat": 48.6833,
+    "lon": 8.35,
+    "city": "Forbach"
+  },
+  "76597": {
+    "lat": 48.7721,
+    "lon": 8.3846,
+    "city": "Loffenau"
+  },
+  "76599": {
+    "lat": 48.7276,
+    "lon": 8.3538,
+    "city": "Weisenbach"
+  },
+  "76642": {
+    "lat": 49.1226,
+    "lon": 8.5764,
+    "city": "Sulzer Weise GmbH"
+  },
+  "76643": {
+    "lat": 49.1262,
+    "lon": 8.5916,
+    "city": "Finanzamt"
+  },
+  "76646": {
+    "lat": 49.1243,
+    "lon": 8.598,
+    "city": "Bruchsal"
+  },
+  "76661": {
+    "lat": 49.2317,
+    "lon": 8.4607,
+    "city": "Philippsburg"
+  },
+  "76669": {
+    "lat": 49.2069,
+    "lon": 8.6436,
+    "city": "Bad Schönborn"
+  },
+  "76676": {
+    "lat": 49.1669,
+    "lon": 8.4924,
+    "city": "Graben-Neudorf"
+  },
+  "76684": {
+    "lat": 49.2191,
+    "lon": 8.7119,
+    "city": "Östringen"
+  },
+  "76689": {
+    "lat": 49.1347,
+    "lon": 8.5303,
+    "city": "Karlsdorf-Neuthard"
+  },
+  "76694": {
+    "lat": 49.1586,
+    "lon": 8.5808,
+    "city": "Forst"
+  },
+  "76698": {
+    "lat": 49.163,
+    "lon": 8.6316,
+    "city": "Ubstadt-Weiher"
+  },
+  "76703": {
+    "lat": 49.1396,
+    "lon": 8.7715,
+    "city": "Kraichtal"
+  },
+  "76706": {
+    "lat": 49.1717,
+    "lon": 8.4242,
+    "city": "Dettenheim"
+  },
+  "76707": {
+    "lat": 49.19,
+    "lon": 8.5406,
+    "city": "Hambrücken"
+  },
+  "76709": {
+    "lat": 49.2225,
+    "lon": 8.6311,
+    "city": "Kronau"
+  },
+  "76725": {
+    "lat": 49.2214,
+    "lon": 8.3708,
+    "city": "Daimler AG"
+  },
+  "76726": {
+    "lat": 49.2231,
+    "lon": 8.3639,
+    "city": "Germersheim"
+  },
+  "76742": {
+    "lat": 49.0493,
+    "lon": 8.2805,
+    "city": "Mercedes-Benz AG"
+  },
+  "76744": {
+    "lat": 49.057,
+    "lon": 8.1684,
+    "city": "Wörth am Rhein"
+  },
+  "76751": {
+    "lat": 49.0929,
+    "lon": 8.2747,
+    "city": "Jockgrim"
+  },
+  "76756": {
+    "lat": 49.1983,
+    "lon": 8.2794,
+    "city": "Bellheim"
+  },
+  "76761": {
+    "lat": 49.1531,
+    "lon": 8.2929,
+    "city": "Rülzheim"
+  },
+  "76764": {
+    "lat": 49.1181,
+    "lon": 8.2781,
+    "city": "Rheinzabern"
+  },
+  "76767": {
+    "lat": 49.0173,
+    "lon": 8.2502,
+    "city": "Hagenbach"
+  },
+  "76768": {
+    "lat": 48.9833,
+    "lon": 8.2,
+    "city": "Berg (Pfalz)"
+  },
+  "76770": {
+    "lat": 49.1111,
+    "lon": 8.2453,
+    "city": "Hatzenbühl"
+  },
+  "76771": {
+    "lat": 49.1658,
+    "lon": 8.3264,
+    "city": "Hördt"
+  },
+  "76773": {
+    "lat": 49.1458,
+    "lon": 8.3144,
+    "city": "Kuhardt"
+  },
+  "76774": {
+    "lat": 49.1242,
+    "lon": 8.3453,
+    "city": "Leimersheim"
+  },
+  "76776": {
+    "lat": 48.9833,
+    "lon": 8.25,
+    "city": "Neuburg am Rhein"
+  },
+  "76777": {
+    "lat": 49.1178,
+    "lon": 8.3194,
+    "city": "Neupotz"
+  },
+  "76779": {
+    "lat": 48.9812,
+    "lon": 8.1399,
+    "city": "Scheibenhardt"
+  },
+  "76825": {
+    "lat": 49.1964,
+    "lon": 8.1176,
+    "city": "Finanzamt"
+  },
+  "76826": {
+    "lat": 49.2086,
+    "lon": 8.1254,
+    "city": "Gummi-Mayer"
+  },
+  "76828": {
+    "lat": 49.195,
+    "lon": 8.1307,
+    "city": "Agentur für Arbeit Landau in der Pfalz"
+  },
+  "76829": {
+    "lat": 49.1925,
+    "lon": 8.0549,
+    "city": "Ranschbach"
+  },
+  "76831": {
+    "lat": 49.1666,
+    "lon": 8.0589,
+    "city": "Eschbach"
+  },
+  "76833": {
+    "lat": 49.2297,
+    "lon": 8.0948,
+    "city": "Walsheim"
+  },
+  "76835": {
+    "lat": 49.2533,
+    "lon": 8.0936,
+    "city": "Hainfeld"
+  },
+  "76846": {
+    "lat": 49.1921,
+    "lon": 7.8549,
+    "city": "Hauenstein"
+  },
+  "76848": {
+    "lat": 49.1793,
+    "lon": 7.8872,
+    "city": "Lug"
+  },
+  "76855": {
+    "lat": 49.2061,
+    "lon": 7.9753,
+    "city": "Annweiler am Trifels"
+  },
+  "76857": {
+    "lat": 49.1945,
+    "lon": 7.9657,
+    "city": "Silz"
+  },
+  "76863": {
+    "lat": 49.147,
+    "lon": 8.2383,
+    "city": "Herxheimweyher"
+  },
+  "76865": {
+    "lat": 49.1474,
+    "lon": 8.1379,
+    "city": "Insheim"
+  },
+  "76870": {
+    "lat": 49.0828,
+    "lon": 8.1972,
+    "city": "Kandel"
+  },
+  "76872": {
+    "lat": 49.0938,
+    "lon": 8.1327,
+    "city": "Winden"
+  },
+  "76877": {
+    "lat": 49.1955,
+    "lon": 8.1978,
+    "city": "Offenbach an der Queich"
+  },
+  "76878": {
+    "lat": 49.215,
+    "lon": 8.1745,
+    "city": "Hornbach Baumarkt AG"
+  },
+  "76879": {
+    "lat": 49.2178,
+    "lon": 8.206,
+    "city": "Bornheim"
+  },
+  "76887": {
+    "lat": 49.1001,
+    "lon": 7.9841,
+    "city": "Böllenborn"
+  },
+  "76889": {
+    "lat": 49.0931,
+    "lon": 7.9946,
+    "city": "Dierbach"
+  },
+  "76891": {
+    "lat": 49.0961,
+    "lon": 7.8255,
+    "city": "Rumbach"
+  },
+  "77633": {
+    "lat": 48.4659,
+    "lon": 7.8788,
+    "city": "Dr. Hall Versand GmbH"
+  },
+  "77642": {
+    "lat": 48.4731,
+    "lon": 7.9778,
+    "city": "Agentur für Arbeit Offenburg"
+  },
+  "77644": {
+    "lat": 48.482,
+    "lon": 7.9535,
+    "city": "DKNO GmbH"
+  },
+  "77646": {
+    "lat": 48.4377,
+    "lon": 7.9322,
+    "city": "Printus GmbH"
+  },
+  "77647": {
+    "lat": 48.4815,
+    "lon": 7.9207,
+    "city": "Markant Handel u. Service GmbH Handelsmarkt GmbH"
+  },
+  "77652": {
+    "lat": 48.4765,
+    "lon": 7.9438,
+    "city": "Offenburg"
+  },
+  "77654": {
+    "lat": 48.4651,
+    "lon": 7.9559,
+    "city": "Offenburg"
+  },
+  "77656": {
+    "lat": 48.4639,
+    "lon": 7.9313,
+    "city": "Offenburg"
+  },
+  "77663": {
+    "lat": 48.482,
+    "lon": 7.9535,
+    "city": "Deutsche Post AG Niederlassung Produktion BRIEF Offenburg"
+  },
+  "77694": {
+    "lat": 48.573,
+    "lon": 7.8152,
+    "city": "Kehl"
+  },
+  "77704": {
+    "lat": 48.5324,
+    "lon": 8.0786,
+    "city": "Oberkirch"
+  },
+  "77709": {
+    "lat": 48.305,
+    "lon": 8.2162,
+    "city": "Wolfach"
+  },
+  "77716": {
+    "lat": 48.2744,
+    "lon": 8.0883,
+    "city": "Hofstetten"
+  },
+  "77723": {
+    "lat": 48.4048,
+    "lon": 8.0143,
+    "city": "Gengenbach"
+  },
+  "77728": {
+    "lat": 48.4733,
+    "lon": 8.1597,
+    "city": "Oppenau"
+  },
+  "77731": {
+    "lat": 48.5407,
+    "lon": 7.8931,
+    "city": "Willstätt"
+  },
+  "77736": {
+    "lat": 48.3465,
+    "lon": 8.067,
+    "city": "Zell am Harmersbach"
+  },
+  "77740": {
+    "lat": 48.4333,
+    "lon": 8.2167,
+    "city": "Bad Peterstal-Griesbach"
+  },
+  "77743": {
+    "lat": 48.45,
+    "lon": 7.825,
+    "city": "Neuried"
+  },
+  "77746": {
+    "lat": 48.45,
+    "lon": 7.8833,
+    "city": "Schutterwald"
+  },
+  "77749": {
+    "lat": 48.4167,
+    "lon": 7.9167,
+    "city": "Hohberg"
+  },
+  "77756": {
+    "lat": 48.2843,
+    "lon": 8.176,
+    "city": "Hausach"
+  },
+  "77761": {
+    "lat": 48.2893,
+    "lon": 8.3417,
+    "city": "Schiltach"
+  },
+  "77767": {
+    "lat": 48.5333,
+    "lon": 7.9833,
+    "city": "Appenweier"
+  },
+  "77770": {
+    "lat": 48.4935,
+    "lon": 8.0174,
+    "city": "Durbach"
+  },
+  "77773": {
+    "lat": 48.312,
+    "lon": 8.3721,
+    "city": "Schenkenzell"
+  },
+  "77776": {
+    "lat": 48.4,
+    "lon": 8.3333,
+    "city": "Bad Rippoldsau-Schapbach"
+  },
+  "77781": {
+    "lat": 48.3333,
+    "lon": 8.0333,
+    "city": "Biberach"
+  },
+  "77784": {
+    "lat": 48.3736,
+    "lon": 8.1254,
+    "city": "Oberharmersbach"
+  },
+  "77787": {
+    "lat": 48.4,
+    "lon": 8.0833,
+    "city": "Nordrach"
+  },
+  "77790": {
+    "lat": 48.3,
+    "lon": 8.05,
+    "city": "Steinach"
+  },
+  "77791": {
+    "lat": 48.406,
+    "lon": 7.9867,
+    "city": "Berghaupten"
+  },
+  "77793": {
+    "lat": 48.2484,
+    "lon": 8.2129,
+    "city": "Gutach (Schwarzwaldbahn)"
+  },
+  "77794": {
+    "lat": 48.5207,
+    "lon": 8.1151,
+    "city": "Lautenbach"
+  },
+  "77796": {
+    "lat": 48.25,
+    "lon": 8.1167,
+    "city": "Mühlenbach"
+  },
+  "77797": {
+    "lat": 48.4322,
+    "lon": 7.9938,
+    "city": "Ohlsbach"
+  },
+  "77799": {
+    "lat": 48.4516,
+    "lon": 7.9718,
+    "city": "Ortenberg"
+  },
+  "77813": {
+    "lat": 48.6971,
+    "lon": 8.1293,
+    "city": "Bosch"
+  },
+  "77815": {
+    "lat": 48.6968,
+    "lon": 8.1352,
+    "city": "Bühl"
+  },
+  "77830": {
+    "lat": 48.6857,
+    "lon": 8.1888,
+    "city": "Bühlertal"
+  },
+  "77833": {
+    "lat": 48.6702,
+    "lon": 8.1132,
+    "city": "Ottersweier"
+  },
+  "77836": {
+    "lat": 48.7583,
+    "lon": 8.05,
+    "city": "Rheinmünster"
+  },
+  "77839": {
+    "lat": 48.7261,
+    "lon": 8.0049,
+    "city": "Lichtenau"
+  },
+  "77855": {
+    "lat": 48.6312,
+    "lon": 8.0761,
+    "city": "Achern"
+  },
+  "77866": {
+    "lat": 48.666,
+    "lon": 7.9366,
+    "city": "Rheinau"
+  },
+  "77869": {
+    "lat": 48.5812,
+    "lon": 8.0047,
+    "city": "Silvana B.V."
+  },
+  "77871": {
+    "lat": 48.5885,
+    "lon": 8.0132,
+    "city": "Renchen"
+  },
+  "77876": {
+    "lat": 48.5918,
+    "lon": 8.1169,
+    "city": "Kappelrodeck"
+  },
+  "77880": {
+    "lat": 48.6397,
+    "lon": 8.0937,
+    "city": "Sasbach"
+  },
+  "77883": {
+    "lat": 48.5667,
+    "lon": 8.15,
+    "city": "Ottenhöfen im Schwarzwald"
+  },
+  "77886": {
+    "lat": 48.65,
+    "lon": 8.1333,
+    "city": "Lauf"
+  },
+  "77887": {
+    "lat": 48.6167,
+    "lon": 8.1333,
+    "city": "Sasbachwalden"
+  },
+  "77889": {
+    "lat": 48.5762,
+    "lon": 8.1705,
+    "city": "Seebach"
+  },
+  "77926": {
+    "lat": 48.3603,
+    "lon": 7.8129,
+    "city": "Zalando Logistics SE & Co. KG"
+  },
+  "77929": {
+    "lat": 48.3503,
+    "lon": 7.8194,
+    "city": "Deutsche Post AG Niederlassung Produktion Paket Deutschland Lahr"
+  },
+  "77931": {
+    "lat": 48.34,
+    "lon": 7.8667,
+    "city": "Finanzamt"
+  },
+  "77933": {
+    "lat": 48.3372,
+    "lon": 7.8704,
+    "city": "Lahr/Schwarzwald"
+  },
+  "77944": {
+    "lat": 48.367,
+    "lon": 7.883,
+    "city": "Friesenheim"
+  },
+  "77948": {
+    "lat": 48.3667,
+    "lon": 7.8833,
+    "city": "Friesenheim"
+  },
+  "77955": {
+    "lat": 48.257,
+    "lon": 7.8125,
+    "city": "Ettenheim"
+  },
+  "77960": {
+    "lat": 48.3106,
+    "lon": 7.9407,
+    "city": "Seelbach"
+  },
+  "77963": {
+    "lat": 48.3667,
+    "lon": 7.7624,
+    "city": "Schwanau"
+  },
+  "77966": {
+    "lat": 48.2838,
+    "lon": 7.766,
+    "city": "Kappel-Grafenhausen"
+  },
+  "77971": {
+    "lat": 48.2956,
+    "lon": 7.8251,
+    "city": "Kippenheim"
+  },
+  "77972": {
+    "lat": 48.2864,
+    "lon": 7.8141,
+    "city": "Mahlberg"
+  },
+  "77974": {
+    "lat": 48.4103,
+    "lon": 7.7727,
+    "city": "Meißenheim"
+  },
+  "77975": {
+    "lat": 48.2477,
+    "lon": 7.7782,
+    "city": "Ringsheim"
+  },
+  "77977": {
+    "lat": 48.2667,
+    "lon": 7.7333,
+    "city": "Rust"
+  },
+  "77978": {
+    "lat": 48.2667,
+    "lon": 7.95,
+    "city": "Schuttertal"
+  },
+  "78041": {
+    "lat": 48.0543,
+    "lon": 8.4646,
+    "city": "Agentur für Arbeit Villingen-Schwenningen"
+  },
+  "78044": {
+    "lat": 48.0662,
+    "lon": 8.542,
+    "city": "Schwenninger BKK"
+  },
+  "78045": {
+    "lat": 48.0606,
+    "lon": 8.4659,
+    "city": "Landratsamt"
+  },
+  "78046": {
+    "lat": 48.0635,
+    "lon": 8.5382,
+    "city": "Volksbank Donau-Neckar eG"
+  },
+  "78048": {
+    "lat": 48.0667,
+    "lon": 8.45,
+    "city": "Villingen-Schwenningen"
+  },
+  "78050": {
+    "lat": 48.0667,
+    "lon": 8.45,
+    "city": "Villingen-Schwenningen"
+  },
+  "78052": {
+    "lat": 48.0667,
+    "lon": 8.45,
+    "city": "Villingen-Schwenningen"
+  },
+  "78054": {
+    "lat": 48.0667,
+    "lon": 8.45,
+    "city": "Villingen-Schwenningen"
+  },
+  "78056": {
+    "lat": 48.0667,
+    "lon": 8.45,
+    "city": "Villingen-Schwenningen"
+  },
+  "78060": {
+    "lat": 48.0709,
+    "lon": 8.5714,
+    "city": "Deutsche Post AG Briefzentrum Villingen-Schwenningen"
+  },
+  "78073": {
+    "lat": 48.0209,
+    "lon": 8.5306,
+    "city": "Bad Dürrheim"
+  },
+  "78078": {
+    "lat": 48.1333,
+    "lon": 8.5333,
+    "city": "Niedereschach"
+  },
+  "78083": {
+    "lat": 48.0899,
+    "lon": 8.5501,
+    "city": "Dauchingen"
+  },
+  "78086": {
+    "lat": 48.0167,
+    "lon": 8.4667,
+    "city": "Brigachtal"
+  },
+  "78087": {
+    "lat": 48.1004,
+    "lon": 8.4222,
+    "city": "Mönchweiler"
+  },
+  "78089": {
+    "lat": 48.0795,
+    "lon": 8.3657,
+    "city": "Unterkirnach"
+  },
+  "78098": {
+    "lat": 48.1363,
+    "lon": 8.2365,
+    "city": "Triberg"
+  },
+  "78112": {
+    "lat": 48.1272,
+    "lon": 8.3351,
+    "city": "Sankt Georgen im Schwarzwald"
+  },
+  "78120": {
+    "lat": 48.0516,
+    "lon": 8.2071,
+    "city": "Furtwangen im Schwarzwald"
+  },
+  "78126": {
+    "lat": 48.1381,
+    "lon": 8.4197,
+    "city": "Königsfeld im Schwarzwald"
+  },
+  "78132": {
+    "lat": 48.2107,
+    "lon": 8.2327,
+    "city": "Hornberg"
+  },
+  "78136": {
+    "lat": 48.1423,
+    "lon": 8.2029,
+    "city": "Schonach im Schwarzwald"
+  },
+  "78141": {
+    "lat": 48.1055,
+    "lon": 8.2039,
+    "city": "Schönwald im Schwarzwald"
+  },
+  "78144": {
+    "lat": 48.1904,
+    "lon": 8.3518,
+    "city": "Tennenbronn"
+  },
+  "78147": {
+    "lat": 48.05,
+    "lon": 8.3,
+    "city": "Vöhrenbach"
+  },
+  "78148": {
+    "lat": 48.05,
+    "lon": 8.15,
+    "city": "Gütenbach"
+  },
+  "78166": {
+    "lat": 47.9551,
+    "lon": 8.4971,
+    "city": "Donaueschingen"
+  },
+  "78176": {
+    "lat": 47.8406,
+    "lon": 8.5333,
+    "city": "Blumberg"
+  },
+  "78183": {
+    "lat": 47.9254,
+    "lon": 8.4883,
+    "city": "Hüfingen"
+  },
+  "78187": {
+    "lat": 47.925,
+    "lon": 8.65,
+    "city": "Geisingen"
+  },
+  "78194": {
+    "lat": 47.9333,
+    "lon": 8.7333,
+    "city": "Immendingen"
+  },
+  "78199": {
+    "lat": 47.9296,
+    "lon": 8.4481,
+    "city": "Bräunlingen"
+  },
+  "78221": {
+    "lat": 47.7615,
+    "lon": 8.8386,
+    "city": "Alusuisse"
+  },
+  "78224": {
+    "lat": 47.7593,
+    "lon": 8.8403,
+    "city": "Singen"
+  },
+  "78234": {
+    "lat": 47.8553,
+    "lon": 8.7734,
+    "city": "Engen"
+  },
+  "78239": {
+    "lat": 47.7346,
+    "lon": 8.8401,
+    "city": "Rielasingen-Worblingen"
+  },
+  "78244": {
+    "lat": 47.7351,
+    "lon": 8.7769,
+    "city": "Gottmadingen"
+  },
+  "78247": {
+    "lat": 47.7667,
+    "lon": 8.7833,
+    "city": "Hilzingen"
+  },
+  "78250": {
+    "lat": 47.8213,
+    "lon": 8.6612,
+    "city": "Tengen"
+  },
+  "78253": {
+    "lat": 47.858,
+    "lon": 8.8978,
+    "city": "Eigeltingen"
+  },
+  "78256": {
+    "lat": 47.8,
+    "lon": 8.9333,
+    "city": "Steißlingen"
+  },
+  "78259": {
+    "lat": 47.811,
+    "lon": 8.8122,
+    "city": "Mühlhausen-Ehingen"
+  },
+  "78262": {
+    "lat": 47.7,
+    "lon": 8.75,
+    "city": "Gailingen am Hochrhein"
+  },
+  "78266": {
+    "lat": 47.7,
+    "lon": 8.6833,
+    "city": "Büsingen am Hochrhein"
+  },
+  "78267": {
+    "lat": 47.8424,
+    "lon": 8.8538,
+    "city": "Aach"
+  },
+  "78269": {
+    "lat": 47.8167,
+    "lon": 8.8667,
+    "city": "Volkertshausen"
+  },
+  "78315": {
+    "lat": 47.7419,
+    "lon": 8.971,
+    "city": "Radolfzell am Bodensee"
+  },
+  "78333": {
+    "lat": 47.8511,
+    "lon": 9.0091,
+    "city": "Stockach"
+  },
+  "78337": {
+    "lat": 47.6619,
+    "lon": 8.8867,
+    "city": "Öhningen"
+  },
+  "78343": {
+    "lat": 47.6833,
+    "lon": 8.9833,
+    "city": "Gaienhofen"
+  },
+  "78345": {
+    "lat": 47.7244,
+    "lon": 8.9348,
+    "city": "Moos"
+  },
+  "78351": {
+    "lat": 47.8182,
+    "lon": 9.0554,
+    "city": "Bodman-Ludwigshafen"
+  },
+  "78354": {
+    "lat": 47.7968,
+    "lon": 9.0974,
+    "city": "Sipplingen"
+  },
+  "78355": {
+    "lat": 47.885,
+    "lon": 9.1082,
+    "city": "Hohenfels"
+  },
+  "78357": {
+    "lat": 47.9167,
+    "lon": 9.0167,
+    "city": "Mühlingen"
+  },
+  "78359": {
+    "lat": 47.8427,
+    "lon": 8.9591,
+    "city": "Orsingen-Nenzingen"
+  },
+  "78454": {
+    "lat": 47.6721,
+    "lon": 9.1588,
+    "city": "Agentur für Arbeit Konstanz"
+  },
+  "78455": {
+    "lat": 47.6727,
+    "lon": 9.1555,
+    "city": "PaLaGo GmbH"
+  },
+  "78457": {
+    "lat": 47.6895,
+    "lon": 9.1882,
+    "city": "Universität Konstanz"
+  },
+  "78458": {
+    "lat": 49.9815,
+    "lon": 9.2761,
+    "city": "Helvetisches Münzkontor GmbH Aktion"
+  },
+  "78459": {
+    "lat": 47.6727,
+    "lon": 9.1598,
+    "city": "Landratsamt"
+  },
+  "78461": {
+    "lat": 47.6713,
+    "lon": 9.181,
+    "city": "Deutsche Telekom AG Niederlassung Konstanz"
+  },
+  "78462": {
+    "lat": 47.6613,
+    "lon": 9.1752,
+    "city": "Konstanz"
+  },
+  "78464": {
+    "lat": 47.6723,
+    "lon": 9.1834,
+    "city": "Konstanz"
+  },
+  "78465": {
+    "lat": 47.6667,
+    "lon": 9.1833,
+    "city": "Konstanz"
+  },
+  "78467": {
+    "lat": 47.6744,
+    "lon": 9.1649,
+    "city": "Konstanz"
+  },
+  "78476": {
+    "lat": 47.7154,
+    "lon": 9.0714,
+    "city": "Allensbach"
+  },
+  "78479": {
+    "lat": 47.6889,
+    "lon": 9.0635,
+    "city": "Reichenau"
+  },
+  "78532": {
+    "lat": 47.9846,
+    "lon": 8.8177,
+    "city": "Tuttlingen"
+  },
+  "78549": {
+    "lat": 48.0748,
+    "lon": 8.7351,
+    "city": "Spaichingen"
+  },
+  "78554": {
+    "lat": 48.1,
+    "lon": 8.7,
+    "city": "Aldingen"
+  },
+  "78559": {
+    "lat": 48.1343,
+    "lon": 8.7543,
+    "city": "Gosheim"
+  },
+  "78564": {
+    "lat": 48.1393,
+    "lon": 8.8208,
+    "city": "Wehingen"
+  },
+  "78567": {
+    "lat": 48.0196,
+    "lon": 8.9232,
+    "city": "Fridingen an der Donau"
+  },
+  "78570": {
+    "lat": 48.0312,
+    "lon": 8.8836,
+    "city": "Mühlheim an der Donau"
+  },
+  "78573": {
+    "lat": 48,
+    "lon": 8.7833,
+    "city": "Wurmlingen"
+  },
+  "78576": {
+    "lat": 47.9333,
+    "lon": 8.8833,
+    "city": "Emmingen-Liptingen"
+  },
+  "78579": {
+    "lat": 47.9726,
+    "lon": 8.9276,
+    "city": "Neuhausen ob Eck"
+  },
+  "78580": {
+    "lat": 48.0667,
+    "lon": 8.9333,
+    "city": "Bärenthal"
+  },
+  "78582": {
+    "lat": 48.0667,
+    "lon": 8.7667,
+    "city": "Balgheim"
+  },
+  "78583": {
+    "lat": 48.1,
+    "lon": 8.8,
+    "city": "Böttingen"
+  },
+  "78585": {
+    "lat": 48.1167,
+    "lon": 8.8333,
+    "city": "Bubsheim"
+  },
+  "78586": {
+    "lat": 48.1741,
+    "lon": 8.7853,
+    "city": "Deilingen"
+  },
+  "78588": {
+    "lat": 48.1111,
+    "lon": 8.7382,
+    "city": "Denkingen"
+  },
+  "78589": {
+    "lat": 48.0562,
+    "lon": 8.7934,
+    "city": "Dürbheim"
+  },
+  "78591": {
+    "lat": 48.0397,
+    "lon": 8.6749,
+    "city": "Durchhausen"
+  },
+  "78592": {
+    "lat": 48.1172,
+    "lon": 8.8564,
+    "city": "Egesheim"
+  },
+  "78594": {
+    "lat": 48.05,
+    "lon": 8.7,
+    "city": "Gunningen"
+  },
+  "78595": {
+    "lat": 48.0537,
+    "lon": 8.7247,
+    "city": "Hausen ob Verena"
+  },
+  "78597": {
+    "lat": 48.0667,
+    "lon": 8.9667,
+    "city": "Irndorf"
+  },
+  "78598": {
+    "lat": 48.1,
+    "lon": 8.8667,
+    "city": "Königsheim"
+  },
+  "78600": {
+    "lat": 48.0523,
+    "lon": 8.8896,
+    "city": "Kolbingen"
+  },
+  "78601": {
+    "lat": 48.0748,
+    "lon": 8.8351,
+    "city": "Mahlstetten"
+  },
+  "78603": {
+    "lat": 48.0833,
+    "lon": 8.9,
+    "city": "Renquishausen"
+  },
+  "78604": {
+    "lat": 48.0167,
+    "lon": 8.7667,
+    "city": "Rietheim-Weilheim"
+  },
+  "78606": {
+    "lat": 48.0167,
+    "lon": 8.7167,
+    "city": "Seitingen-Oberflacht"
+  },
+  "78607": {
+    "lat": 48.0167,
+    "lon": 8.6667,
+    "city": "Talheim"
+  },
+  "78609": {
+    "lat": 48.0333,
+    "lon": 8.6,
+    "city": "Tuningen"
+  },
+  "78628": {
+    "lat": 48.1678,
+    "lon": 8.6272,
+    "city": "Rottweil"
+  },
+  "78647": {
+    "lat": 48.0767,
+    "lon": 8.6441,
+    "city": "Trossingen"
+  },
+  "78652": {
+    "lat": 48.1123,
+    "lon": 8.6074,
+    "city": "Deißlingen"
+  },
+  "78655": {
+    "lat": 48.2124,
+    "lon": 8.5062,
+    "city": "Dunningen"
+  },
+  "78658": {
+    "lat": 48.1666,
+    "lon": 8.5944,
+    "city": "Zimmern ob Rottweil"
+  },
+  "78661": {
+    "lat": 48.2048,
+    "lon": 8.6486,
+    "city": "Dietingen"
+  },
+  "78662": {
+    "lat": 48.2333,
+    "lon": 8.55,
+    "city": "Bösingen"
+  },
+  "78664": {
+    "lat": 48.25,
+    "lon": 8.4667,
+    "city": "Eschbronn"
+  },
+  "78665": {
+    "lat": 48.1271,
+    "lon": 8.7077,
+    "city": "Frittlingen"
+  },
+  "78667": {
+    "lat": 48.2,
+    "lon": 8.5833,
+    "city": "Villingendorf"
+  },
+  "78669": {
+    "lat": 48.1474,
+    "lon": 8.7037,
+    "city": "Wellendingen"
+  },
+  "78711": {
+    "lat": 48.2293,
+    "lon": 8.3836,
+    "city": "SBK-Siemens-Betriebskrankenkasse Schramberg"
+  },
+  "78713": {
+    "lat": 48.224,
+    "lon": 8.3858,
+    "city": "Schramberg"
+  },
+  "78727": {
+    "lat": 48.3005,
+    "lon": 8.5738,
+    "city": "Oberndorf am Neckar"
+  },
+  "78730": {
+    "lat": 48.2333,
+    "lon": 8.35,
+    "city": "Lauterbach"
+  },
+  "78733": {
+    "lat": 48.2672,
+    "lon": 8.4023,
+    "city": "Aichhalden"
+  },
+  "78736": {
+    "lat": 48.25,
+    "lon": 8.6,
+    "city": "Epfendorf"
+  },
+  "78737": {
+    "lat": 48.2917,
+    "lon": 8.4917,
+    "city": "Fluorn-Winzeln"
+  },
+  "78739": {
+    "lat": 48.1833,
+    "lon": 8.4167,
+    "city": "Hardt"
+  },
+  "79071": {
+    "lat": 47.9915,
+    "lon": 7.795,
+    "city": "CG Car Garantie Versicherungs AG"
+  },
+  "79073": {
+    "lat": 47.9963,
+    "lon": 7.8367,
+    "city": "HUK-Coburg"
+  },
+  "79077": {
+    "lat": 47.9986,
+    "lon": 7.8474,
+    "city": "AOK - Die Gesundheitskasse"
+  },
+  "79078": {
+    "lat": 48.003,
+    "lon": 7.8315,
+    "city": "Agentur für Arbeit Freiburg"
+  },
+  "79079": {
+    "lat": 48.0048,
+    "lon": 7.8524,
+    "city": "Finanzamt Freiburg-Stadt"
+  },
+  "79080": {
+    "lat": 48.0028,
+    "lon": 7.8532,
+    "city": "Herder GmbH u. Co. KG Verlag"
+  },
+  "79081": {
+    "lat": 48.0009,
+    "lon": 7.8505,
+    "city": "Fachbereich Gesundheitsamt"
+  },
+  "79083": {
+    "lat": 47.9965,
+    "lon": 7.8518,
+    "city": "Regierungspräsidium Freiburg"
+  },
+  "79084": {
+    "lat": 48.0011,
+    "lon": 7.8331,
+    "city": "Amt für Bürgerservice und Informationsverarbeitung"
+  },
+  "79086": {
+    "lat": 48.0061,
+    "lon": 7.8521,
+    "city": "Versorgungsamt Freiburg"
+  },
+  "79088": {
+    "lat": 48.0335,
+    "lon": 7.8504,
+    "city": "Triaz Waschbär"
+  },
+  "79090": {
+    "lat": 48.0346,
+    "lon": 7.8585,
+    "city": "Adecco"
+  },
+  "79091": {
+    "lat": 47.9892,
+    "lon": 7.7899,
+    "city": "Haufe-Lexware GmbH & Co.KG"
+  },
+  "79093": {
+    "lat": 48.0335,
+    "lon": 7.8504,
+    "city": "Triaz GmbH"
+  },
+  "79094": {
+    "lat": 47.9991,
+    "lon": 7.853,
+    "city": "Siemens AG"
+  },
+  "79095": {
+    "lat": 47.9997,
+    "lon": 7.8423,
+    "city": "Südwestfunk"
+  },
+  "79098": {
+    "lat": 47.9942,
+    "lon": 7.847,
+    "city": "Freiburg im Breisgau"
+  },
+  "79100": {
+    "lat": 47.9809,
+    "lon": 7.8327,
+    "city": "Freiburg im Breisgau"
+  },
+  "79102": {
+    "lat": 48,
+    "lon": 7.85,
+    "city": "Freiburg im Breisgau"
+  },
+  "79104": {
+    "lat": 48.0098,
+    "lon": 7.8545,
+    "city": "Freiburg im Breisgau"
+  },
+  "79106": {
+    "lat": 48,
+    "lon": 7.85,
+    "city": "Freiburg im Breisgau"
+  },
+  "79108": {
+    "lat": 48.0339,
+    "lon": 7.8418,
+    "city": "Freiburg im Breisgau"
+  },
+  "79110": {
+    "lat": 48.0207,
+    "lon": 7.8167,
+    "city": "Freiburg im Breisgau"
+  },
+  "79111": {
+    "lat": 47.9809,
+    "lon": 7.7957,
+    "city": "Freiburg im Breisgau"
+  },
+  "79112": {
+    "lat": 48,
+    "lon": 7.85,
+    "city": "Freiburg im Breisgau"
+  },
+  "79114": {
+    "lat": 48.0018,
+    "lon": 7.818,
+    "city": "Freiburg im Breisgau"
+  },
+  "79115": {
+    "lat": 47.9793,
+    "lon": 7.822,
+    "city": "Freiburg im Breisgau"
+  },
+  "79117": {
+    "lat": 47.9874,
+    "lon": 7.8945,
+    "city": "Freiburg im Breisgau"
+  },
+  "79138": {
+    "lat": 48.003,
+    "lon": 7.8315,
+    "city": "Agentur für Arbeit Freiburg"
+  },
+  "79139": {
+    "lat": 47.9773,
+    "lon": 7.8289,
+    "city": "Deutsche Post AG Direkt Marketing Center"
+  },
+  "79140": {
+    "lat": 48.0394,
+    "lon": 7.8193,
+    "city": "Deutsche Post AG Niederlassung BRIEF Freiburg"
+  },
+  "79183": {
+    "lat": 48.0959,
+    "lon": 7.9637,
+    "city": "Waldkirch"
+  },
+  "79188": {
+    "lat": 47.9216,
+    "lon": 7.6908,
+    "city": "Reha-Zentrum"
+  },
+  "79189": {
+    "lat": 47.9167,
+    "lon": 7.7,
+    "city": "Bad Krozingen"
+  },
+  "79194": {
+    "lat": 48.0463,
+    "lon": 7.8829,
+    "city": "Heuweiler"
+  },
+  "79199": {
+    "lat": 47.9667,
+    "lon": 7.95,
+    "city": "Kirchzarten"
+  },
+  "79206": {
+    "lat": 48.0328,
+    "lon": 7.5829,
+    "city": "Breisach am Rhein"
+  },
+  "79211": {
+    "lat": 48.0667,
+    "lon": 7.8833,
+    "city": "Denzlingen"
+  },
+  "79215": {
+    "lat": 48.1863,
+    "lon": 8.0516,
+    "city": "Elzach"
+  },
+  "79219": {
+    "lat": 47.8823,
+    "lon": 7.7282,
+    "city": "Staufen im Breisgau"
+  },
+  "79224": {
+    "lat": 48.0333,
+    "lon": 7.7667,
+    "city": "Umkirch"
+  },
+  "79227": {
+    "lat": 47.9585,
+    "lon": 7.7575,
+    "city": "Schallstadt"
+  },
+  "79232": {
+    "lat": 48.0681,
+    "lon": 7.7788,
+    "city": "March"
+  },
+  "79235": {
+    "lat": 48.0833,
+    "lon": 7.6333,
+    "city": "Vogtsburg im Kaiserstuhl"
+  },
+  "79238": {
+    "lat": 47.9156,
+    "lon": 7.7519,
+    "city": "Ehrenkirchen"
+  },
+  "79241": {
+    "lat": 48.043,
+    "lon": 7.6476,
+    "city": "Ihringen"
+  },
+  "79244": {
+    "lat": 47.85,
+    "lon": 7.7833,
+    "city": "Münstertal"
+  },
+  "79249": {
+    "lat": 47.9667,
+    "lon": 7.8333,
+    "city": "Merzhausen"
+  },
+  "79252": {
+    "lat": 47.9833,
+    "lon": 7.9667,
+    "city": "Stegen"
+  },
+  "79254": {
+    "lat": 47.9333,
+    "lon": 7.95,
+    "city": "Oberried"
+  },
+  "79256": {
+    "lat": 47.9614,
+    "lon": 8.0091,
+    "city": "Buchenbach"
+  },
+  "79258": {
+    "lat": 47.9333,
+    "lon": 7.6333,
+    "city": "Hartheim"
+  },
+  "79261": {
+    "lat": 48.1167,
+    "lon": 7.9833,
+    "city": "Gutach im Breisgau"
+  },
+  "79263": {
+    "lat": 48.1004,
+    "lon": 8.0525,
+    "city": "Simonswald"
+  },
+  "79268": {
+    "lat": 48.0764,
+    "lon": 7.7248,
+    "city": "Bötzingen"
+  },
+  "79271": {
+    "lat": 48.0147,
+    "lon": 8.0329,
+    "city": "Sankt Peter"
+  },
+  "79274": {
+    "lat": 48.008,
+    "lon": 8.0928,
+    "city": "Sankt Märgen"
+  },
+  "79276": {
+    "lat": 48.0833,
+    "lon": 7.8167,
+    "city": "Reute"
+  },
+  "79279": {
+    "lat": 48.0667,
+    "lon": 7.85,
+    "city": "Vörstetten"
+  },
+  "79280": {
+    "lat": 47.95,
+    "lon": 7.8333,
+    "city": "Au"
+  },
+  "79282": {
+    "lat": 47.8583,
+    "lon": 7.6917,
+    "city": "Ballrechten-Dottingen"
+  },
+  "79283": {
+    "lat": 47.9214,
+    "lon": 7.7899,
+    "city": "Bollschweil"
+  },
+  "79285": {
+    "lat": 47.9578,
+    "lon": 7.7765,
+    "city": "Ebringen"
+  },
+  "79286": {
+    "lat": 48.0508,
+    "lon": 7.9634,
+    "city": "Glottertal"
+  },
+  "79288": {
+    "lat": 48.05,
+    "lon": 7.7333,
+    "city": "Gottenheim"
+  },
+  "79289": {
+    "lat": 47.9333,
+    "lon": 7.8667,
+    "city": "Horben"
+  },
+  "79291": {
+    "lat": 48.0167,
+    "lon": 7.6833,
+    "city": "Merdingen"
+  },
+  "79292": {
+    "lat": 47.9333,
+    "lon": 7.75,
+    "city": "Pfaffenweiler"
+  },
+  "79294": {
+    "lat": 47.9333,
+    "lon": 7.8167,
+    "city": "Sölden"
+  },
+  "79295": {
+    "lat": 47.8412,
+    "lon": 7.7078,
+    "city": "Sulzburg"
+  },
+  "79297": {
+    "lat": 48.144,
+    "lon": 8.0469,
+    "city": "Winden im Elztal"
+  },
+  "79299": {
+    "lat": 47.95,
+    "lon": 7.8167,
+    "city": "Wittnau"
+  },
+  "79310": {
+    "lat": 48.129,
+    "lon": 7.825,
+    "city": "BKK Abrechnungszentrum"
+  },
+  "79312": {
+    "lat": 48.121,
+    "lon": 7.8536,
+    "city": "Emmendingen"
+  },
+  "79330": {
+    "lat": 48.1055,
+    "lon": 7.7834,
+    "city": "Sommer Verlag GmbH"
+  },
+  "79331": {
+    "lat": 48.1295,
+    "lon": 7.8121,
+    "city": "Teningen"
+  },
+  "79336": {
+    "lat": 48.2188,
+    "lon": 7.7775,
+    "city": "Herbolzheim"
+  },
+  "79341": {
+    "lat": 48.1963,
+    "lon": 7.7697,
+    "city": "Kenzingen"
+  },
+  "79346": {
+    "lat": 48.1333,
+    "lon": 7.7,
+    "city": "Endingen am Kaiserstuhl"
+  },
+  "79348": {
+    "lat": 48.1667,
+    "lon": 7.9167,
+    "city": "Freiamt"
+  },
+  "79350": {
+    "lat": 48.1021,
+    "lon": 7.9076,
+    "city": "Sexau"
+  },
+  "79353": {
+    "lat": 48.1228,
+    "lon": 7.7389,
+    "city": "Bahlingen am Kaiserstuhl"
+  },
+  "79356": {
+    "lat": 48.0833,
+    "lon": 7.7333,
+    "city": "Eichstetten am Kaiserstuhl"
+  },
+  "79359": {
+    "lat": 48.15,
+    "lon": 7.75,
+    "city": "Riegel am Kaiserstuhl"
+  },
+  "79361": {
+    "lat": 48.1333,
+    "lon": 7.6167,
+    "city": "Sasbach am Kaiserstuhl"
+  },
+  "79362": {
+    "lat": 48.1667,
+    "lon": 7.7,
+    "city": "Forchheim"
+  },
+  "79364": {
+    "lat": 48.1572,
+    "lon": 7.7861,
+    "city": "Malterdingen"
+  },
+  "79365": {
+    "lat": 48.2266,
+    "lon": 7.7109,
+    "city": "Rheinhausen"
+  },
+  "79367": {
+    "lat": 48.1994,
+    "lon": 7.6771,
+    "city": "Weisweil"
+  },
+  "79369": {
+    "lat": 48.1667,
+    "lon": 7.65,
+    "city": "Wyhl am Kaiserstuhl"
+  },
+  "79379": {
+    "lat": 47.8082,
+    "lon": 7.6303,
+    "city": "Müllheim"
+  },
+  "79395": {
+    "lat": 47.8143,
+    "lon": 7.5601,
+    "city": "Neuenburg am Rhein"
+  },
+  "79400": {
+    "lat": 47.7139,
+    "lon": 7.6624,
+    "city": "Kandern"
+  },
+  "79410": {
+    "lat": 47.8022,
+    "lon": 7.6724,
+    "city": "Badenweiler"
+  },
+  "79415": {
+    "lat": 47.7315,
+    "lon": 7.5576,
+    "city": "Bad Bellingen"
+  },
+  "79418": {
+    "lat": 47.757,
+    "lon": 7.5764,
+    "city": "Schliengen"
+  },
+  "79423": {
+    "lat": 47.8747,
+    "lon": 7.6572,
+    "city": "Heitersheim"
+  },
+  "79424": {
+    "lat": 47.7833,
+    "lon": 7.6,
+    "city": "Auggen"
+  },
+  "79426": {
+    "lat": 47.8475,
+    "lon": 7.638,
+    "city": "Buggingen"
+  },
+  "79427": {
+    "lat": 47.891,
+    "lon": 7.6554,
+    "city": "Eschbach"
+  },
+  "79429": {
+    "lat": 47.7333,
+    "lon": 7.7083,
+    "city": "Malsburg-Marzell"
+  },
+  "79513": {
+    "lat": 47.6324,
+    "lon": 7.6594,
+    "city": "Röttlerweiler"
+  },
+  "79533": {
+    "lat": 47.6148,
+    "lon": 7.6667,
+    "city": "Agentur für Arbeit Lörrach"
+  },
+  "79537": {
+    "lat": 47.6142,
+    "lon": 7.6628,
+    "city": "Finanzamt"
+  },
+  "79539": {
+    "lat": 47.6181,
+    "lon": 7.6589,
+    "city": "Lörrach"
+  },
+  "79540": {
+    "lat": 47.6167,
+    "lon": 7.6667,
+    "city": "Lörrach"
+  },
+  "79541": {
+    "lat": 47.6335,
+    "lon": 7.6922,
+    "city": "Lörrach"
+  },
+  "79574": {
+    "lat": 47.6014,
+    "lon": 7.6046,
+    "city": "Wampfler AG"
+  },
+  "79576": {
+    "lat": 47.5933,
+    "lon": 7.6208,
+    "city": "Weil am Rhein"
+  },
+  "79578": {
+    "lat": 47.65,
+    "lon": 7.733,
+    "city": "Steinen"
+  },
+  "79585": {
+    "lat": 47.65,
+    "lon": 7.7333,
+    "city": "Steinen"
+  },
+  "79588": {
+    "lat": 47.65,
+    "lon": 7.5667,
+    "city": "Efringen-Kirchen"
+  },
+  "79589": {
+    "lat": 47.6333,
+    "lon": 7.6167,
+    "city": "Binzen"
+  },
+  "79591": {
+    "lat": 47.6333,
+    "lon": 7.6,
+    "city": "Eimeldingen"
+  },
+  "79592": {
+    "lat": 47.65,
+    "lon": 7.6,
+    "city": "Fischingen"
+  },
+  "79594": {
+    "lat": 47.5885,
+    "lon": 7.6909,
+    "city": "Inzlingen"
+  },
+  "79595": {
+    "lat": 47.6412,
+    "lon": 7.642,
+    "city": "Rümmingen"
+  },
+  "79597": {
+    "lat": 47.65,
+    "lon": 7.6333,
+    "city": "Schallbach"
+  },
+  "79599": {
+    "lat": 47.6553,
+    "lon": 7.6511,
+    "city": "Wittlingen"
+  },
+  "79618": {
+    "lat": 47.5723,
+    "lon": 7.7842,
+    "city": "Rheinfelden"
+  },
+  "79639": {
+    "lat": 47.55,
+    "lon": 7.6833,
+    "city": "Grenzach-Wyhlen"
+  },
+  "79650": {
+    "lat": 47.6511,
+    "lon": 7.8209,
+    "city": "Schopfheim"
+  },
+  "79662": {
+    "lat": 47.6195,
+    "lon": 7.905,
+    "city": "Novartis Pharma Produktion"
+  },
+  "79664": {
+    "lat": 47.6298,
+    "lon": 7.9042,
+    "city": "Wehr"
+  },
+  "79669": {
+    "lat": 47.7055,
+    "lon": 7.8525,
+    "city": "Zell im Wiesental"
+  },
+  "79674": {
+    "lat": 47.8294,
+    "lon": 7.9438,
+    "city": "Todtnau"
+  },
+  "79677": {
+    "lat": 47.7854,
+    "lon": 7.8879,
+    "city": "Tunau"
+  },
+  "79682": {
+    "lat": 47.7401,
+    "lon": 8.0018,
+    "city": "Todtmoos"
+  },
+  "79683": {
+    "lat": 47.7739,
+    "lon": 7.8272,
+    "city": "Bürchau"
+  },
+  "79685": {
+    "lat": 47.7417,
+    "lon": 7.9083,
+    "city": "Häg-Ehrsberg"
+  },
+  "79686": {
+    "lat": 47.6534,
+    "lon": 7.8972,
+    "city": "Hasel"
+  },
+  "79688": {
+    "lat": 47.6833,
+    "lon": 7.85,
+    "city": "Hausen im Wiesental"
+  },
+  "79689": {
+    "lat": 47.6463,
+    "lon": 7.7821,
+    "city": "Maulburg"
+  },
+  "79691": {
+    "lat": 47.7956,
+    "lon": 7.8274,
+    "city": "Neuenweg"
+  },
+  "79692": {
+    "lat": 47.7361,
+    "lon": 7.7982,
+    "city": "Raich"
+  },
+  "79694": {
+    "lat": 47.8,
+    "lon": 7.9167,
+    "city": "Utzenfeld"
+  },
+  "79695": {
+    "lat": 47.8414,
+    "lon": 7.882,
+    "city": "Wieden"
+  },
+  "79697": {
+    "lat": 47.7479,
+    "lon": 7.7675,
+    "city": "Wies"
+  },
+  "79699": {
+    "lat": 47.688,
+    "lon": 7.798,
+    "city": "Wieslet"
+  },
+  "79713": {
+    "lat": 47.5537,
+    "lon": 7.9461,
+    "city": "Bad Säckingen"
+  },
+  "79725": {
+    "lat": 47.5651,
+    "lon": 8.0604,
+    "city": "Laufenburg"
+  },
+  "79730": {
+    "lat": 47.5549,
+    "lon": 8.0218,
+    "city": "Murg"
+  },
+  "79733": {
+    "lat": 47.6427,
+    "lon": 8.0748,
+    "city": "Görwihl"
+  },
+  "79736": {
+    "lat": 47.619,
+    "lon": 7.9787,
+    "city": "Rickenbach"
+  },
+  "79737": {
+    "lat": 47.6667,
+    "lon": 8,
+    "city": "Herrischried"
+  },
+  "79739": {
+    "lat": 47.5931,
+    "lon": 7.8784,
+    "city": "Schwörstadt"
+  },
+  "79749": {
+    "lat": 47.6206,
+    "lon": 8.2183,
+    "city": "AOK - Die Gesundheitskasse Bezirksdirektion Waldshut Tiengen"
+  },
+  "79761": {
+    "lat": 47.6232,
+    "lon": 8.2172,
+    "city": "Waldshut-Tiengen"
+  },
+  "79771": {
+    "lat": 47.65,
+    "lon": 8.4,
+    "city": "Klettgau"
+  },
+  "79774": {
+    "lat": 47.5908,
+    "lon": 8.1295,
+    "city": "Albbruck"
+  },
+  "79777": {
+    "lat": 47.7167,
+    "lon": 8.3167,
+    "city": "Ühlingen-Birkendorf"
+  },
+  "79780": {
+    "lat": 47.7458,
+    "lon": 8.4481,
+    "city": "Stühlingen"
+  },
+  "79787": {
+    "lat": 47.627,
+    "lon": 8.3144,
+    "city": "Lauchringen"
+  },
+  "79790": {
+    "lat": 47.6,
+    "lon": 8.32,
+    "city": "Küssaberg"
+  },
+  "79793": {
+    "lat": 47.6602,
+    "lon": 8.3675,
+    "city": "Wutöschingen"
+  },
+  "79798": {
+    "lat": 47.65,
+    "lon": 8.5667,
+    "city": "Jestetten"
+  },
+  "79801": {
+    "lat": 47.57,
+    "lon": 8.4325,
+    "city": "Hohentengen am Hochrhein"
+  },
+  "79802": {
+    "lat": 47.6233,
+    "lon": 8.4851,
+    "city": "Dettighofen"
+  },
+  "79804": {
+    "lat": 47.6095,
+    "lon": 8.1671,
+    "city": "Dogern"
+  },
+  "79805": {
+    "lat": 47.7,
+    "lon": 8.4,
+    "city": "Eggingen"
+  },
+  "79807": {
+    "lat": 47.6333,
+    "lon": 8.5667,
+    "city": "Lottstetten"
+  },
+  "79809": {
+    "lat": 47.6667,
+    "lon": 8.2333,
+    "city": "Weilheim"
+  },
+  "79821": {
+    "lat": 47.9111,
+    "lon": 8.2156,
+    "city": "Finanzamt Freiburg - Land"
+  },
+  "79822": {
+    "lat": 47.921,
+    "lon": 8.1906,
+    "city": "Titisee-Neustadt"
+  },
+  "79837": {
+    "lat": 47.7486,
+    "lon": 8.1202,
+    "city": "Ibach"
+  },
+  "79843": {
+    "lat": 47.8841,
+    "lon": 8.3438,
+    "city": "Löffingen"
+  },
+  "79848": {
+    "lat": 47.8186,
+    "lon": 8.3414,
+    "city": "Bonndorf im Schwarzwald"
+  },
+  "79853": {
+    "lat": 47.8683,
+    "lon": 8.2021,
+    "city": "Lenzkirch"
+  },
+  "79856": {
+    "lat": 47.9028,
+    "lon": 8.107,
+    "city": "Hinterzarten"
+  },
+  "79859": {
+    "lat": 47.8167,
+    "lon": 8.1833,
+    "city": "Schluchsee"
+  },
+  "79862": {
+    "lat": 47.7333,
+    "lon": 8.1667,
+    "city": "Höchenschwand"
+  },
+  "79865": {
+    "lat": 47.775,
+    "lon": 8.2573,
+    "city": "Grafenhausen"
+  },
+  "79868": {
+    "lat": 47.865,
+    "lon": 8.0704,
+    "city": "Feldberg"
+  },
+  "79871": {
+    "lat": 47.9667,
+    "lon": 8.2667,
+    "city": "Eisenbach (Hochschwarzwald)"
+  },
+  "79872": {
+    "lat": 47.8002,
+    "lon": 8.0383,
+    "city": "Bernau"
+  },
+  "79874": {
+    "lat": 47.9333,
+    "lon": 8.0833,
+    "city": "Breitnau"
+  },
+  "79875": {
+    "lat": 47.7295,
+    "lon": 8.1,
+    "city": "Dachsberg"
+  },
+  "79877": {
+    "lat": 47.9178,
+    "lon": 8.2563,
+    "city": "Friedenweiler"
+  },
+  "79879": {
+    "lat": 47.8333,
+    "lon": 8.4333,
+    "city": "Wutach"
+  },
+  "80097": {
+    "lat": 48.145,
+    "lon": 11.5581,
+    "city": "Generalstaatsanwaltschaft"
+  },
+  "80200": {
+    "lat": 48.0906,
+    "lon": 11.6556,
+    "city": "Siemens AG"
+  },
+  "80217": {
+    "lat": 48.1444,
+    "lon": 11.5493,
+    "city": "Deutsche Post AG Direkt Marketing Center"
+  },
+  "80218": {
+    "lat": 48.1452,
+    "lon": 11.6819,
+    "city": "FNZ Bank AG"
+  },
+  "80219": {
+    "lat": 48.1449,
+    "lon": 11.485,
+    "city": "Mirion Medical GmbH"
+  },
+  "80221": {
+    "lat": 48.1434,
+    "lon": 11.5721,
+    "city": "Hypo Real Estate Holding GmbH"
+  },
+  "80222": {
+    "lat": 48.1384,
+    "lon": 11.5501,
+    "city": "HUK-Coburg Versicherungsgruppe"
+  },
+  "80240": {
+    "lat": 48.1153,
+    "lon": 11.5974,
+    "city": "Nokia Solutions and Networks GmbH & Co. KG"
+  },
+  "80248": {
+    "lat": 48.1325,
+    "lon": 11.6203,
+    "city": "DeutschlandCard GmbH"
+  },
+  "80249": {
+    "lat": 48.1414,
+    "lon": 11.5728,
+    "city": "Computershare Deutschland"
+  },
+  "80250": {
+    "lat": 48.1282,
+    "lon": 11.6089,
+    "city": "Serviceplan Gruppe SE & Co. KG"
+  },
+  "80251": {
+    "lat": 48.1437,
+    "lon": 11.5363,
+    "city": "Check 24 Vergleichsportal Versicherungen AG"
+  },
+  "80258": {
+    "lat": 48.1397,
+    "lon": 11.5276,
+    "city": "GlaxoSmithKline Consumer Healthcare GmbH & Co. KG a Haleon company"
+  },
+  "80259": {
+    "lat": 48.1464,
+    "lon": 11.5427,
+    "city": "Allianz Bank"
+  },
+  "80260": {
+    "lat": 48.1769,
+    "lon": 11.5326,
+    "city": "Telefonica O2 Germany GmbH & Co. OHG"
+  },
+  "80263": {
+    "lat": 48.1601,
+    "lon": 11.5755,
+    "city": "Boesche Staatliche Lotterieeinnahme"
+  },
+  "80264": {
+    "lat": 48.1745,
+    "lon": 11.5289,
+    "city": "VHV Vereinigte Hannoversche Versicherung a.G."
+  },
+  "80266": {
+    "lat": 48.1406,
+    "lon": 11.5295,
+    "city": "AOK Bayern - Die Gesundheitskasse Direktion München"
+  },
+  "80267": {
+    "lat": 48.1503,
+    "lon": 11.5511,
+    "city": "Berufsgenossenschaft der Bauwirtschaft Bezirksverwaltung München"
+  },
+  "80268": {
+    "lat": 48.1464,
+    "lon": 11.5737,
+    "city": "DZ BANK AG Deutsche Genossenschaftsbank"
+  },
+  "80269": {
+    "lat": 48.1451,
+    "lon": 11.5436,
+    "city": "Finanzamt München / Abt. II"
+  },
+  "80270": {
+    "lat": 48.1527,
+    "lon": 11.5138,
+    "city": "Berufsgenossenschaft Handel und Warenlogistik, Regionaldirektion Südost"
+  },
+  "80271": {
+    "lat": 48.1378,
+    "lon": 11.5571,
+    "city": "Deutsche Bank AG"
+  },
+  "80272": {
+    "lat": 48.1406,
+    "lon": 11.5837,
+    "city": "Münchener Hypothekenbank eG"
+  },
+  "80273": {
+    "lat": 48.1397,
+    "lon": 11.573,
+    "city": "Commerzbank AG"
+  },
+  "80275": {
+    "lat": 48.143,
+    "lon": 11.5653,
+    "city": "Finanzamt München / Abt.- Körperschaften"
+  },
+  "80276": {
+    "lat": 48.1426,
+    "lon": 11.5668,
+    "city": "Finanzamt München / Abt. I"
+  },
+  "80277": {
+    "lat": 48.1444,
+    "lon": 11.573,
+    "city": "BayernLB Bayerische Landesbank"
+  },
+  "80278": {
+    "lat": 48.1515,
+    "lon": 11.5982,
+    "city": "UniCredit Bank AG"
+  },
+  "80279": {
+    "lat": 48.1328,
+    "lon": 11.5666,
+    "city": "KREISSPARKASSE MÜNCHEN STARNBERG EBERSBERG"
+  },
+  "80280": {
+    "lat": 48.1429,
+    "lon": 11.5525,
+    "city": "LBS Bayerische Landesbausparkasse"
+  },
+  "80281": {
+    "lat": 48.1458,
+    "lon": 11.5786,
+    "city": "Deutsche Bundesbank Hauptverwaltung München"
+  },
+  "80282": {
+    "lat": 48.1386,
+    "lon": 11.5556,
+    "city": "Münchener Zeitungs-Verlag GmbH & Co"
+  },
+  "80283": {
+    "lat": 48.1344,
+    "lon": 11.5581,
+    "city": "Münchener Verein"
+  },
+  "80285": {
+    "lat": 48.0883,
+    "lon": 11.6429,
+    "city": "Donner & Reuschel AG"
+  },
+  "80287": {
+    "lat": 48.1724,
+    "lon": 11.5323,
+    "city": "Stadtwerke München"
+  },
+  "80289": {
+    "lat": 48.1371,
+    "lon": 11.6354,
+    "city": "Süddeutscher Verlag GmbH"
+  },
+  "80290": {
+    "lat": 48.1489,
+    "lon": 11.568,
+    "city": "Technische Universität München Präsidialbüro W. A. Herrmann"
+  },
+  "80291": {
+    "lat": 48.1046,
+    "lon": 11.6453,
+    "city": "Allianz Private Krankenversicherungs-AG"
+  },
+  "80292": {
+    "lat": 48.1449,
+    "lon": 11.5519,
+    "city": "WWK - Versicherung"
+  },
+  "80294": {
+    "lat": 48.149,
+    "lon": 11.5219,
+    "city": "E.ON Bayern AG"
+  },
+  "80295": {
+    "lat": 48.1379,
+    "lon": 11.5223,
+    "city": "Schweitzer Fachinformationen oHG"
+  },
+  "80297": {
+    "lat": 48.1325,
+    "lon": 11.5839,
+    "city": "Deutsches Patent- und Markenamt"
+  },
+  "80298": {
+    "lat": 48.1266,
+    "lon": 11.5706,
+    "city": "Europäisches Patentamt"
+  },
+  "80300": {
+    "lat": 48.1441,
+    "lon": 11.5546,
+    "city": "Bayerischer Rundfunk"
+  },
+  "80301": {
+    "lat": 48.1454,
+    "lon": 11.543,
+    "city": "Finanzamt München / Abt. III"
+  },
+  "80302": {
+    "lat": 48.1463,
+    "lon": 11.5455,
+    "city": "Finanzamt München / Abt. IV"
+  },
+  "80303": {
+    "lat": 48.1463,
+    "lon": 11.5455,
+    "city": "Finanzamt München / Abt. V"
+  },
+  "80304": {
+    "lat": 48.1255,
+    "lon": 11.5591,
+    "city": "Agentur für Arbeit München"
+  },
+  "80306": {
+    "lat": 48.1314,
+    "lon": 11.5856,
+    "city": "Deutsches Museum"
+  },
+  "80308": {
+    "lat": 48.1367,
+    "lon": 11.5688,
+    "city": "Debeka Versicherungen und Bausparkasse"
+  },
+  "80309": {
+    "lat": 48.1395,
+    "lon": 11.5691,
+    "city": "Erzbischöfliches Ordinariat München"
+  },
+  "80310": {
+    "lat": 48.1153,
+    "lon": 11.5974,
+    "city": "Betriebs-Center für Banken AG"
+  },
+  "80311": {
+    "lat": 48.1499,
+    "lon": 11.6175,
+    "city": "UniCredit Bank GmbH"
+  },
+  "80313": {
+    "lat": 48.1378,
+    "lon": 11.5753,
+    "city": "Stadtverwaltung"
+  },
+  "80314": {
+    "lat": 48.1153,
+    "lon": 11.5974,
+    "city": "Deutsche Postbank AG Niederlassung München"
+  },
+  "80315": {
+    "lat": 48.1405,
+    "lon": 11.57,
+    "city": "Amtsgericht München"
+  },
+  "80316": {
+    "lat": 48.1403,
+    "lon": 11.5645,
+    "city": "Landgericht München I"
+  },
+  "80317": {
+    "lat": 48.1153,
+    "lon": 11.5974,
+    "city": "Deutsche Postbank AG Niederlassung München"
+  },
+  "80318": {
+    "lat": 48.1347,
+    "lon": 11.5651,
+    "city": "Deutsche Postbank AG Niederlassung München"
+  },
+  "80319": {
+    "lat": 48.1449,
+    "lon": 11.485,
+    "city": "LKV Landeskuratorium für tierische Veredelung Bayern e. V."
+  },
+  "80320": {
+    "lat": 48.1451,
+    "lon": 11.5552,
+    "city": "Landgericht München II"
+  },
+  "80322": {
+    "lat": 48.1489,
+    "lon": 11.5238,
+    "city": "Deutsche Post AG Niederlassung BRIEF München"
+  },
+  "80323": {
+    "lat": 48.1364,
+    "lon": 11.5614,
+    "city": "Thüga AG"
+  },
+  "80324": {
+    "lat": 48.1449,
+    "lon": 11.485,
+    "city": "CSG GmbH"
+  },
+  "80325": {
+    "lat": 48.158,
+    "lon": 11.5565,
+    "city": "Amtsgericht München"
+  },
+  "80326": {
+    "lat": 48.1387,
+    "lon": 11.5697,
+    "city": "Livv.at"
+  },
+  "80327": {
+    "lat": 48.1411,
+    "lon": 11.574,
+    "city": "Genossenschaftsverband Bayern e.V."
+  },
+  "80328": {
+    "lat": 48.1499,
+    "lon": 11.5733,
+    "city": "VdK Der Sozialverband Bayern e. V."
+  },
+  "80329": {
+    "lat": 48.1585,
+    "lon": 11.5256,
+    "city": "SOS-Kinderdörfer"
+  },
+  "80331": {
+    "lat": 48.1345,
+    "lon": 11.571,
+    "city": "München"
+  },
+  "80333": {
+    "lat": 48.1452,
+    "lon": 11.5668,
+    "city": "München"
+  },
+  "80335": {
+    "lat": 48.1427,
+    "lon": 11.5552,
+    "city": "München"
+  },
+  "80336": {
+    "lat": 48.1345,
+    "lon": 11.559,
+    "city": "München"
+  },
+  "80337": {
+    "lat": 48.1224,
+    "lon": 11.5449,
+    "city": "München"
+  },
+  "80339": {
+    "lat": 48.1388,
+    "lon": 11.5341,
+    "city": "München"
+  },
+  "80340": {
+    "lat": 48.0965,
+    "lon": 11.515,
+    "city": "Creditreform München Frühschulz und Wipperling KG"
+  },
+  "80466": {
+    "lat": 48.1238,
+    "lon": 11.5517,
+    "city": "Landeshauptstadt München Kreisverwaltungsreferat"
+  },
+  "80469": {
+    "lat": 48.1299,
+    "lon": 11.5732,
+    "city": "München"
+  },
+  "80524": {
+    "lat": 48.1434,
+    "lon": 11.5767,
+    "city": "Bayer. Staatsministerium des Innern"
+  },
+  "80525": {
+    "lat": 48.1422,
+    "lon": 11.5908,
+    "city": "Bayerisches Staatsministerium für Wirtschaft, Verkehr und Technologie"
+  },
+  "80530": {
+    "lat": 48.1383,
+    "lon": 11.5906,
+    "city": "Versicherungskammer Bayern"
+  },
+  "80534": {
+    "lat": 48.1385,
+    "lon": 11.586,
+    "city": "Regierung von Oberbayern"
+  },
+  "80535": {
+    "lat": 48.1444,
+    "lon": 11.5837,
+    "city": "LfA Förderbank"
+  },
+  "80538": {
+    "lat": 48.1401,
+    "lon": 11.5885,
+    "city": "München"
+  },
+  "80539": {
+    "lat": 48.15,
+    "lon": 11.5833,
+    "city": "München"
+  },
+  "80632": {
+    "lat": 48.155,
+    "lon": 11.5347,
+    "city": "BARMER"
+  },
+  "80634": {
+    "lat": 48.1492,
+    "lon": 11.5328,
+    "city": "München"
+  },
+  "80636": {
+    "lat": 48.1558,
+    "lon": 11.5409,
+    "city": "München"
+  },
+  "80637": {
+    "lat": 48.1725,
+    "lon": 11.5284,
+    "city": "München"
+  },
+  "80638": {
+    "lat": 48.1595,
+    "lon": 11.4932,
+    "city": "München"
+  },
+  "80639": {
+    "lat": 48.1526,
+    "lon": 11.5154,
+    "city": "München"
+  },
+  "80682": {
+    "lat": 48.1449,
+    "lon": 11.485,
+    "city": "Kantar Deutschland GmbH"
+  },
+  "80684": {
+    "lat": 48.1343,
+    "lon": 11.521,
+    "city": "TÜV SÜD AG"
+  },
+  "80686": {
+    "lat": 48.138,
+    "lon": 11.507,
+    "city": "München"
+  },
+  "80687": {
+    "lat": 48.1414,
+    "lon": 11.502,
+    "city": "München"
+  },
+  "80689": {
+    "lat": 48.1291,
+    "lon": 11.4895,
+    "city": "München"
+  },
+  "80700": {
+    "lat": 48.1403,
+    "lon": 11.6057,
+    "city": "GlaxoSmithKline GmbH & Co. KG"
+  },
+  "80786": {
+    "lat": 48.1925,
+    "lon": 11.6077,
+    "city": "Alphabet Fuhrparkmanagement GmbH"
+  },
+  "80787": {
+    "lat": 48.1877,
+    "lon": 11.6022,
+    "city": "BMW Bank AG"
+  },
+  "80788": {
+    "lat": 48.1942,
+    "lon": 11.5904,
+    "city": "BMW AG"
+  },
+  "80789": {
+    "lat": 48.1749,
+    "lon": 11.5861,
+    "city": "DBV-Winterthur Versicherungen"
+  },
+  "80790": {
+    "lat": 48.1544,
+    "lon": 11.5886,
+    "city": "Allianz ONE-Business Solutions GmbH Hauptverwaltung"
+  },
+  "80791": {
+    "lat": 48.1671,
+    "lon": 11.5747,
+    "city": "DII GmbH"
+  },
+  "80792": {
+    "lat": 48.1589,
+    "lon": 11.5604,
+    "city": "Bay. Staatsministerium f. Arbeit u. Sozialordnung, Familie u. Frauen"
+  },
+  "80794": {
+    "lat": 48.154,
+    "lon": 11.5837,
+    "city": "Oskar Schunck GmbH & Co. KG"
+  },
+  "80796": {
+    "lat": 48.15,
+    "lon": 11.5833,
+    "city": "München"
+  },
+  "80797": {
+    "lat": 48.1611,
+    "lon": 11.5586,
+    "city": "München"
+  },
+  "80798": {
+    "lat": 48.15,
+    "lon": 11.5833,
+    "city": "München"
+  },
+  "80799": {
+    "lat": 48.15,
+    "lon": 11.5833,
+    "city": "München"
+  },
+  "80801": {
+    "lat": 48.15,
+    "lon": 11.5833,
+    "city": "München"
+  },
+  "80802": {
+    "lat": 48.1665,
+    "lon": 11.5903,
+    "city": "München"
+  },
+  "80803": {
+    "lat": 48.15,
+    "lon": 11.5833,
+    "city": "München"
+  },
+  "80804": {
+    "lat": 48.1738,
+    "lon": 11.5858,
+    "city": "München"
+  },
+  "80805": {
+    "lat": 48.1725,
+    "lon": 11.5964,
+    "city": "München"
+  },
+  "80807": {
+    "lat": 48.1827,
+    "lon": 11.5759,
+    "city": "München"
+  },
+  "80809": {
+    "lat": 48.1787,
+    "lon": 11.5617,
+    "city": "München"
+  },
+  "80920": {
+    "lat": 48.1817,
+    "lon": 11.5974,
+    "city": "OSRAM GmbH"
+  },
+  "80931": {
+    "lat": 48.1887,
+    "lon": 11.6271,
+    "city": "Bayr. Rundfunk Fernsehstudio Freimann"
+  },
+  "80933": {
+    "lat": 48.2225,
+    "lon": 11.548,
+    "city": "München"
+  },
+  "80935": {
+    "lat": 48.2043,
+    "lon": 11.5585,
+    "city": "München"
+  },
+  "80937": {
+    "lat": 48.1974,
+    "lon": 11.5721,
+    "city": "München"
+  },
+  "80939": {
+    "lat": 48.2054,
+    "lon": 11.6238,
+    "city": "München"
+  },
+  "80991": {
+    "lat": 48.1787,
+    "lon": 11.515,
+    "city": "Bayerischer Skiverband"
+  },
+  "80992": {
+    "lat": 48.1776,
+    "lon": 11.5169,
+    "city": "München"
+  },
+  "80993": {
+    "lat": 48.1823,
+    "lon": 11.5331,
+    "city": "München"
+  },
+  "80995": {
+    "lat": 48.1976,
+    "lon": 11.5181,
+    "city": "München"
+  },
+  "80997": {
+    "lat": 48.1834,
+    "lon": 11.4784,
+    "city": "München"
+  },
+  "80999": {
+    "lat": 48.1853,
+    "lon": 11.4643,
+    "city": "München"
+  },
+  "81236": {
+    "lat": 48.1437,
+    "lon": 11.4735,
+    "city": "Berufsgenossenschaft Holz und Metall Bezirksverwaltung"
+  },
+  "81237": {
+    "lat": 48.1435,
+    "lon": 11.4747,
+    "city": "Berufsgenossenschaft der Bauwirtschaft Bezirksverwaltung München (Tiefbau)"
+  },
+  "81238": {
+    "lat": 48.1461,
+    "lon": 11.4571,
+    "city": "DSZ Druckschriften - und Zeitungsverlag GmbH"
+  },
+  "81241": {
+    "lat": 48.1475,
+    "lon": 11.4635,
+    "city": "München"
+  },
+  "81243": {
+    "lat": 48.1465,
+    "lon": 11.4506,
+    "city": "München"
+  },
+  "81245": {
+    "lat": 48.1616,
+    "lon": 11.4141,
+    "city": "München"
+  },
+  "81247": {
+    "lat": 48.1662,
+    "lon": 11.4673,
+    "city": "München"
+  },
+  "81248": {
+    "lat": 48.1616,
+    "lon": 11.4141,
+    "city": "München"
+  },
+  "81249": {
+    "lat": 48.15,
+    "lon": 11.5833,
+    "city": "München"
+  },
+  "81340": {
+    "lat": 48.1114,
+    "lon": 11.5504,
+    "city": "CASHCONTROL Consulting GmbH"
+  },
+  "81350": {
+    "lat": 48.1335,
+    "lon": 11.5283,
+    "city": "ADAC Zuhause Versicherung AG"
+  },
+  "81355": {
+    "lat": 48.1335,
+    "lon": 11.5283,
+    "city": "ADAC Service GmbH Assistance Regulierung"
+  },
+  "81356": {
+    "lat": 48.1335,
+    "lon": 11.5283,
+    "city": "ADAC Versicherung AG Assistance Regulierung"
+  },
+  "81357": {
+    "lat": 48.0965,
+    "lon": 11.5329,
+    "city": "Continentale Lebensversicherung a.G."
+  },
+  "81358": {
+    "lat": 48.0965,
+    "lon": 11.5329,
+    "city": "Continentale Krankenversicherung Kundendienst - Centrum"
+  },
+  "81359": {
+    "lat": 48.1335,
+    "lon": 11.5283,
+    "city": "ADAC e.V. Schadenregulierung"
+  },
+  "81360": {
+    "lat": 48.1335,
+    "lon": 11.5283,
+    "city": "ADAC e. V."
+  },
+  "81362": {
+    "lat": 48.1335,
+    "lon": 11.5283,
+    "city": "ADAC Versicherung"
+  },
+  "81363": {
+    "lat": 48.1335,
+    "lon": 11.5283,
+    "city": "ADAC Autoversicherung AG"
+  },
+  "81364": {
+    "lat": 48.1335,
+    "lon": 11.5283,
+    "city": "ADAC Rechtsschutz Versicherung AG"
+  },
+  "81365": {
+    "lat": 48.1335,
+    "lon": 11.5283,
+    "city": "ADAC Versicherung AG"
+  },
+  "81366": {
+    "lat": 48.1176,
+    "lon": 11.531,
+    "city": "Porr GmbH & Co. KGaA"
+  },
+  "81367": {
+    "lat": 48.1227,
+    "lon": 11.453,
+    "city": "Philip Morris GmbH"
+  },
+  "81369": {
+    "lat": 48.1125,
+    "lon": 11.5306,
+    "city": "München"
+  },
+  "81371": {
+    "lat": 48.1167,
+    "lon": 11.5478,
+    "city": "München"
+  },
+  "81373": {
+    "lat": 48.1171,
+    "lon": 11.5393,
+    "city": "München"
+  },
+  "81375": {
+    "lat": 48.1188,
+    "lon": 11.4917,
+    "city": "München"
+  },
+  "81377": {
+    "lat": 48.1204,
+    "lon": 11.5001,
+    "city": "München"
+  },
+  "81379": {
+    "lat": 48.0988,
+    "lon": 11.5204,
+    "city": "München"
+  },
+  "81475": {
+    "lat": 48.15,
+    "lon": 11.5833,
+    "city": "München"
+  },
+  "81476": {
+    "lat": 48.0844,
+    "lon": 11.4923,
+    "city": "München"
+  },
+  "81477": {
+    "lat": 48.0834,
+    "lon": 11.5036,
+    "city": "München"
+  },
+  "81479": {
+    "lat": 48.0915,
+    "lon": 11.5392,
+    "city": "München"
+  },
+  "81531": {
+    "lat": 48.1114,
+    "lon": 11.5504,
+    "city": "CASHCONTROL Consulting GmbH"
+  },
+  "81533": {
+    "lat": 48.1042,
+    "lon": 11.6004,
+    "city": "Zonzoo GmbH"
+  },
+  "81534": {
+    "lat": 48.1532,
+    "lon": 11.6205,
+    "city": "Beihilfe-Service Gesellschaft mbH"
+  },
+  "81535": {
+    "lat": 48.1135,
+    "lon": 11.5881,
+    "city": "Bayern-Versicherung"
+  },
+  "81536": {
+    "lat": 48.1084,
+    "lon": 11.5825,
+    "city": "Agfa-Gevaert AG"
+  },
+  "81537": {
+    "lat": 48.1377,
+    "lon": 11.5898,
+    "city": "Bayerische Beamtenkrankenkasse AG"
+  },
+  "81539": {
+    "lat": 48.1102,
+    "lon": 11.5899,
+    "city": "München"
+  },
+  "81541": {
+    "lat": 48.1159,
+    "lon": 11.5795,
+    "city": "München"
+  },
+  "81543": {
+    "lat": 48.1203,
+    "lon": 11.5733,
+    "city": "München"
+  },
+  "81545": {
+    "lat": 48.0827,
+    "lon": 11.5619,
+    "city": "München"
+  },
+  "81547": {
+    "lat": 48.0982,
+    "lon": 11.5821,
+    "city": "München"
+  },
+  "81549": {
+    "lat": 48.1089,
+    "lon": 11.6074,
+    "city": "München"
+  },
+  "81550": {
+    "lat": 48.1383,
+    "lon": 11.5906,
+    "city": "Versicherungskammer Bayern"
+  },
+  "81627": {
+    "lat": 48.1363,
+    "lon": 11.5943,
+    "city": "Bayerischer Landtag"
+  },
+  "81655": {
+    "lat": 48.1282,
+    "lon": 11.6089,
+    "city": "Serviceplan Gruppe SE & Co. KG"
+  },
+  "81658": {
+    "lat": 48.1329,
+    "lon": 11.6108,
+    "city": "Medizinischer Dienst der Krankenversicherung Bayern"
+  },
+  "81660": {
+    "lat": 48.131,
+    "lon": 11.612,
+    "city": "Landeshauptstadt München Baureferat"
+  },
+  "81662": {
+    "lat": 48.1206,
+    "lon": 11.6071,
+    "city": "Techniker Krankenkasse Servicezentrum Beitrag"
+  },
+  "81663": {
+    "lat": 48.0444,
+    "lon": 11.6234,
+    "city": "Airbus Group"
+  },
+  "81664": {
+    "lat": 48.127,
+    "lon": 11.6202,
+    "city": "Siemens AG"
+  },
+  "81665": {
+    "lat": 48.1323,
+    "lon": 11.6137,
+    "city": "Deutsche Telekom AG"
+  },
+  "81667": {
+    "lat": 48.1285,
+    "lon": 11.5975,
+    "city": "München"
+  },
+  "81669": {
+    "lat": 48.1226,
+    "lon": 11.6035,
+    "city": "München"
+  },
+  "81671": {
+    "lat": 48.1223,
+    "lon": 11.6205,
+    "city": "München"
+  },
+  "81673": {
+    "lat": 48.1265,
+    "lon": 11.6317,
+    "city": "München"
+  },
+  "81675": {
+    "lat": 48.1352,
+    "lon": 11.6039,
+    "city": "München"
+  },
+  "81677": {
+    "lat": 48.1381,
+    "lon": 11.6147,
+    "city": "München"
+  },
+  "81679": {
+    "lat": 48.1512,
+    "lon": 11.6103,
+    "city": "München"
+  },
+  "81713": {
+    "lat": 48.097,
+    "lon": 11.6458,
+    "city": "Deutsche Rentenversicherung Knappschaft-Bahn-See Gesch.-St. München"
+  },
+  "81716": {
+    "lat": 48.3659,
+    "lon": 10.8578,
+    "city": "Dialog-Lebensversicherung AG"
+  },
+  "81718": {
+    "lat": 48.105,
+    "lon": 11.6394,
+    "city": "Dialog Versicherung AG"
+  },
+  "81723": {
+    "lat": 48.1383,
+    "lon": 11.5692,
+    "city": "Generali Versicherung"
+  },
+  "81725": {
+    "lat": 48.1051,
+    "lon": 11.6421,
+    "city": "AMB Generali Schadenmanagement GmbH"
+  },
+  "81726": {
+    "lat": 48.0808,
+    "lon": 11.6161,
+    "city": "Infineon Technologies AG"
+  },
+  "81727": {
+    "lat": 48.1046,
+    "lon": 11.6453,
+    "city": "Allianz Private Krankenversicherungs-AG Niederlassung München"
+  },
+  "81728": {
+    "lat": 48.1032,
+    "lon": 11.6454,
+    "city": "D.A.S. Direktion"
+  },
+  "81729": {
+    "lat": 48.1029,
+    "lon": 11.6481,
+    "city": "Deutsche Rentenversicherung Bayern Süd"
+  },
+  "81731": {
+    "lat": 48.105,
+    "lon": 11.6394,
+    "city": "Generali Versicherung AG"
+  },
+  "81732": {
+    "lat": 48.0983,
+    "lon": 11.6458,
+    "city": "BAYERISCHE BEAMTEN VERSICHERUNGEN"
+  },
+  "81733": {
+    "lat": 48.1032,
+    "lon": 11.6454,
+    "city": "ERGO Versicherung AG"
+  },
+  "81735": {
+    "lat": 48.1134,
+    "lon": 11.6466,
+    "city": "München"
+  },
+  "81737": {
+    "lat": 48.1098,
+    "lon": 11.6183,
+    "city": "München"
+  },
+  "81739": {
+    "lat": 48.15,
+    "lon": 11.5833,
+    "city": "München"
+  },
+  "81823": {
+    "lat": 48.1344,
+    "lon": 11.6926,
+    "city": "Messe München GmbH"
+  },
+  "81825": {
+    "lat": 48.118,
+    "lon": 11.6612,
+    "city": "München"
+  },
+  "81827": {
+    "lat": 48.1147,
+    "lon": 11.6972,
+    "city": "München"
+  },
+  "81829": {
+    "lat": 48.1404,
+    "lon": 11.6802,
+    "city": "München"
+  },
+  "81911": {
+    "lat": 48.1873,
+    "lon": 11.6518,
+    "city": "Swiss Re Europe S.A. Niederlassung Deutschland"
+  },
+  "81918": {
+    "lat": 48.1532,
+    "lon": 11.6169,
+    "city": "BayWa AG"
+  },
+  "81919": {
+    "lat": 48.149,
+    "lon": 11.6221,
+    "city": "Bayerische Ärzteversorgung"
+  },
+  "81920": {
+    "lat": 48.149,
+    "lon": 11.6221,
+    "city": "Zusatzversorgungskasse der bayerischen Gemeinden"
+  },
+  "81921": {
+    "lat": 48.1488,
+    "lon": 11.6233,
+    "city": "Bayer. Versorgungskammer"
+  },
+  "81925": {
+    "lat": 48.1642,
+    "lon": 11.6218,
+    "city": "München"
+  },
+  "81927": {
+    "lat": 48.1611,
+    "lon": 11.6394,
+    "city": "München"
+  },
+  "81929": {
+    "lat": 48.1408,
+    "lon": 11.6366,
+    "city": "München"
+  },
+  "81987": {
+    "lat": 48.1489,
+    "lon": 11.5238,
+    "city": "INA-NZ BZA"
+  },
+  "81988": {
+    "lat": 48.1489,
+    "lon": 11.5238,
+    "city": "Deutsche Post AG Rücksendezentrum München"
+  },
+  "81989": {
+    "lat": 48.1489,
+    "lon": 11.5238,
+    "city": "Deutsche Post AG Nachsendezentrum München"
+  },
+  "81995": {
+    "lat": 48.1489,
+    "lon": 11.5238,
+    "city": "Deutsche Post AG SB-Nachsende-/Lagerservice"
+  },
+  "81999": {
+    "lat": 48.1489,
+    "lon": 11.5238,
+    "city": "Deutsche Post AG Nachsendungsauftragszentrum"
+  },
+  "82008": {
+    "lat": 48.066,
+    "lon": 11.6156,
+    "city": "Unterhaching"
+  },
+  "82024": {
+    "lat": 48.0486,
+    "lon": 11.617,
+    "city": "Taufkirchen"
+  },
+  "82030": {
+    "lat": 48.0669,
+    "lon": 11.5483,
+    "city": "Wealthcap Kapitalverwaltungsgesellschaft mbH"
+  },
+  "82031": {
+    "lat": 48.0395,
+    "lon": 11.5232,
+    "city": "Grünwald"
+  },
+  "82032": {
+    "lat": 48.0182,
+    "lon": 11.5888,
+    "city": "Deisenhofen bei München"
+  },
+  "82038": {
+    "lat": 48.0306,
+    "lon": 11.5798,
+    "city": "Arval Deutschland GmbH"
+  },
+  "82039": {
+    "lat": 48.0305,
+    "lon": 11.5855,
+    "city": "Sigma"
+  },
+  "82041": {
+    "lat": 48.0245,
+    "lon": 11.5974,
+    "city": "Oberhaching"
+  },
+  "82047": {
+    "lat": 48.0442,
+    "lon": 11.5107,
+    "city": "Peroxid-Chemie GmbH"
+  },
+  "82049": {
+    "lat": 48.0612,
+    "lon": 11.5215,
+    "city": "Pullach im Isartal"
+  },
+  "82054": {
+    "lat": 47.9586,
+    "lon": 11.5674,
+    "city": "Sauerlach"
+  },
+  "82057": {
+    "lat": 47.95,
+    "lon": 11.4333,
+    "city": "Icking"
+  },
+  "82061": {
+    "lat": 48.0932,
+    "lon": 11.4656,
+    "city": "Neuried"
+  },
+  "82064": {
+    "lat": 48.0049,
+    "lon": 11.5141,
+    "city": "Straßlach-Dingharting"
+  },
+  "82065": {
+    "lat": 48.0203,
+    "lon": 11.4869,
+    "city": "Baierbrunn"
+  },
+  "82067": {
+    "lat": 47.9889,
+    "lon": 11.4434,
+    "city": "Kloster Schäftlarn"
+  },
+  "82069": {
+    "lat": 47.9903,
+    "lon": 11.4559,
+    "city": "Schäftlarn"
+  },
+  "82110": {
+    "lat": 48.1339,
+    "lon": 11.3765,
+    "city": "Germering"
+  },
+  "82131": {
+    "lat": 48.0692,
+    "lon": 11.377,
+    "city": "Gauting"
+  },
+  "82140": {
+    "lat": 48.2,
+    "lon": 11.3333,
+    "city": "Olching"
+  },
+  "82152": {
+    "lat": 48.1034,
+    "lon": 11.4124,
+    "city": "Planegg"
+  },
+  "82166": {
+    "lat": 48.1188,
+    "lon": 11.4294,
+    "city": "Gräfelfing"
+  },
+  "82175": {
+    "lat": 48.1736,
+    "lon": 11.3661,
+    "city": "Amway GmbH"
+  },
+  "82178": {
+    "lat": 48.15,
+    "lon": 11.35,
+    "city": "Puchheim"
+  },
+  "82194": {
+    "lat": 48.2,
+    "lon": 11.3667,
+    "city": "Gröbenzell"
+  },
+  "82205": {
+    "lat": 48.1075,
+    "lon": 11.2936,
+    "city": "Gilching"
+  },
+  "82211": {
+    "lat": 47.9989,
+    "lon": 11.1768,
+    "city": "Herrsching am Ammersee"
+  },
+  "82216": {
+    "lat": 48.2167,
+    "lon": 11.2667,
+    "city": "Maisach"
+  },
+  "82223": {
+    "lat": 48.1667,
+    "lon": 11.3167,
+    "city": "Eichenau"
+  },
+  "82229": {
+    "lat": 48.0351,
+    "lon": 11.214,
+    "city": "Seefeld"
+  },
+  "82234": {
+    "lat": 48.0745,
+    "lon": 11.2482,
+    "city": "Weßling"
+  },
+  "82237": {
+    "lat": 48.0725,
+    "lon": 11.2017,
+    "city": "Wörthsee"
+  },
+  "82239": {
+    "lat": 48.1403,
+    "lon": 11.3014,
+    "city": "Alling"
+  },
+  "82254": {
+    "lat": 48.1658,
+    "lon": 11.2216,
+    "city": "ESG Elektroniksystem- und Logistik GmbH"
+  },
+  "82256": {
+    "lat": 48.179,
+    "lon": 11.2547,
+    "city": "Fürstenfeldbruck"
+  },
+  "82266": {
+    "lat": 48.0764,
+    "lon": 11.1523,
+    "city": "Inning am Ammersee"
+  },
+  "82269": {
+    "lat": 48.1174,
+    "lon": 11.0322,
+    "city": "Geltendorf"
+  },
+  "82272": {
+    "lat": 48.1556,
+    "lon": 11.0785,
+    "city": "Moorenweis"
+  },
+  "82275": {
+    "lat": 48.1833,
+    "lon": 11.2833,
+    "city": "Emmering"
+  },
+  "82276": {
+    "lat": 48.1833,
+    "lon": 11.1167,
+    "city": "Adelshofen"
+  },
+  "82278": {
+    "lat": 48.2333,
+    "lon": 11.0667,
+    "city": "Althegnenberg"
+  },
+  "82279": {
+    "lat": 48.0833,
+    "lon": 11.1167,
+    "city": "Eching am Ammersee"
+  },
+  "82281": {
+    "lat": 48.2833,
+    "lon": 11.1667,
+    "city": "Egenhofen"
+  },
+  "82282": {
+    "lat": 48.2833,
+    "lon": 11.1667,
+    "city": "Pischertshofen"
+  },
+  "82284": {
+    "lat": 48.1167,
+    "lon": 11.1667,
+    "city": "Grafrath"
+  },
+  "82285": {
+    "lat": 48.2223,
+    "lon": 11.1155,
+    "city": "Hattenhofen"
+  },
+  "82287": {
+    "lat": 48.1667,
+    "lon": 11.1333,
+    "city": "Jesenwang"
+  },
+  "82288": {
+    "lat": 48.1167,
+    "lon": 11.1333,
+    "city": "Kottgeisering"
+  },
+  "82290": {
+    "lat": 48.1667,
+    "lon": 11.1667,
+    "city": "Landsberied"
+  },
+  "82291": {
+    "lat": 48.2084,
+    "lon": 11.1633,
+    "city": "Mammendorf"
+  },
+  "82293": {
+    "lat": 48.25,
+    "lon": 11.1,
+    "city": "Mittelstetten"
+  },
+  "82294": {
+    "lat": 48.2382,
+    "lon": 11.1557,
+    "city": "Oberschweinbach"
+  },
+  "82296": {
+    "lat": 48.1413,
+    "lon": 11.204,
+    "city": "Schöngeising"
+  },
+  "82297": {
+    "lat": 48.2167,
+    "lon": 11,
+    "city": "Steindorf"
+  },
+  "82299": {
+    "lat": 48.1053,
+    "lon": 11.083,
+    "city": "Türkenfeld"
+  },
+  "82317": {
+    "lat": 47.9988,
+    "lon": 11.3483,
+    "city": "Finanzamt"
+  },
+  "82319": {
+    "lat": 48.0019,
+    "lon": 11.3442,
+    "city": "Starnberg"
+  },
+  "82322": {
+    "lat": 48.0135,
+    "lon": 11.425,
+    "city": "Deutsche Post AG Niederlassung BRIEF Starnberg"
+  },
+  "82327": {
+    "lat": 47.9094,
+    "lon": 11.2803,
+    "city": "Tutzing"
+  },
+  "82335": {
+    "lat": 47.9674,
+    "lon": 11.3545,
+    "city": "Berg"
+  },
+  "82340": {
+    "lat": 47.946,
+    "lon": 11.2933,
+    "city": "Feldafing"
+  },
+  "82343": {
+    "lat": 47.9667,
+    "lon": 11.3,
+    "city": "Pöcking"
+  },
+  "82346": {
+    "lat": 47.9746,
+    "lon": 11.1828,
+    "city": "Andechs"
+  },
+  "82347": {
+    "lat": 47.866,
+    "lon": 11.2939,
+    "city": "Bernried"
+  },
+  "82349": {
+    "lat": 48.1,
+    "lon": 11.4,
+    "city": "Pentenried"
+  },
+  "82360": {
+    "lat": 47.8395,
+    "lon": 11.143,
+    "city": "Finanzamt"
+  },
+  "82362": {
+    "lat": 47.8376,
+    "lon": 11.1489,
+    "city": "Weilheim in Oberbayern"
+  },
+  "82363": {
+    "lat": 47.834,
+    "lon": 11.1461,
+    "city": "Agentur für Arbeit Weilheim i. OB"
+  },
+  "82377": {
+    "lat": 47.7529,
+    "lon": 11.377,
+    "city": "Penzberg"
+  },
+  "82380": {
+    "lat": 47.8047,
+    "lon": 11.0699,
+    "city": "Peißenberg"
+  },
+  "82383": {
+    "lat": 47.8,
+    "lon": 11,
+    "city": "Hohenpeißenberg"
+  },
+  "82386": {
+    "lat": 47.775,
+    "lon": 11.15,
+    "city": "Huglfing"
+  },
+  "82387": {
+    "lat": 47.7513,
+    "lon": 11.3085,
+    "city": "Antdorf"
+  },
+  "82389": {
+    "lat": 47.7556,
+    "lon": 10.9888,
+    "city": "Böbing"
+  },
+  "82390": {
+    "lat": 47.7917,
+    "lon": 11.2,
+    "city": "Eberfing"
+  },
+  "82392": {
+    "lat": 47.7333,
+    "lon": 11.2833,
+    "city": "Habach"
+  },
+  "82393": {
+    "lat": 47.7667,
+    "lon": 11.3167,
+    "city": "Iffeldorf"
+  },
+  "82395": {
+    "lat": 47.7333,
+    "lon": 11.2167,
+    "city": "Obersöchering"
+  },
+  "82396": {
+    "lat": 47.9,
+    "lon": 11.1833,
+    "city": "Pähl"
+  },
+  "82398": {
+    "lat": 47.811,
+    "lon": 11.1324,
+    "city": "Polling"
+  },
+  "82399": {
+    "lat": 47.9167,
+    "lon": 11.1,
+    "city": "Raisting"
+  },
+  "82401": {
+    "lat": 47.7333,
+    "lon": 10.9667,
+    "city": "Rottenbuch"
+  },
+  "82402": {
+    "lat": 47.8247,
+    "lon": 11.3022,
+    "city": "Seeshaupt"
+  },
+  "82404": {
+    "lat": 47.7246,
+    "lon": 11.3329,
+    "city": "Sindelsdorf"
+  },
+  "82405": {
+    "lat": 47.8741,
+    "lon": 11.0246,
+    "city": "Wessobrunn"
+  },
+  "82407": {
+    "lat": 47.874,
+    "lon": 11.1592,
+    "city": "Wielenbach"
+  },
+  "82409": {
+    "lat": 47.7015,
+    "lon": 10.9375,
+    "city": "Wildsteig"
+  },
+  "82418": {
+    "lat": 47.6896,
+    "lon": 11.2067,
+    "city": "Riegsee"
+  },
+  "82431": {
+    "lat": 47.6586,
+    "lon": 11.3682,
+    "city": "Kochel am See"
+  },
+  "82432": {
+    "lat": 47.6167,
+    "lon": 11.35,
+    "city": "Urfeld, Oberbayern"
+  },
+  "82433": {
+    "lat": 47.6667,
+    "lon": 11.05,
+    "city": "Bad Kohlgrub"
+  },
+  "82435": {
+    "lat": 47.6833,
+    "lon": 11,
+    "city": "Bad Bayersoien"
+  },
+  "82436": {
+    "lat": 47.7333,
+    "lon": 11.1833,
+    "city": "Eglfing"
+  },
+  "82438": {
+    "lat": 47.6,
+    "lon": 11.1833,
+    "city": "Eschenlohe"
+  },
+  "82439": {
+    "lat": 47.676,
+    "lon": 11.3011,
+    "city": "Großweil"
+  },
+  "82441": {
+    "lat": 47.6333,
+    "lon": 11.2333,
+    "city": "Ohlstadt"
+  },
+  "82442": {
+    "lat": 47.6664,
+    "lon": 11.0247,
+    "city": "Saulgrub"
+  },
+  "82444": {
+    "lat": 47.658,
+    "lon": 11.3149,
+    "city": "Schlehdorf"
+  },
+  "82445": {
+    "lat": 47.6167,
+    "lon": 11.15,
+    "city": "Schwaigen"
+  },
+  "82447": {
+    "lat": 47.7167,
+    "lon": 11.2,
+    "city": "Spatzenhausen"
+  },
+  "82449": {
+    "lat": 47.7167,
+    "lon": 11.15,
+    "city": "Uffing am Staffelsee"
+  },
+  "82467": {
+    "lat": 47.4921,
+    "lon": 11.0958,
+    "city": "Garmisch-Partenkirchen"
+  },
+  "82475": {
+    "lat": 47.4166,
+    "lon": 10.9795,
+    "city": "Schneefernerhaus"
+  },
+  "82481": {
+    "lat": 47.4422,
+    "lon": 11.2619,
+    "city": "Mittenwald"
+  },
+  "82487": {
+    "lat": 47.5981,
+    "lon": 11.0669,
+    "city": "Oberammergau"
+  },
+  "82488": {
+    "lat": 47.5667,
+    "lon": 11.1,
+    "city": "Ettal"
+  },
+  "82490": {
+    "lat": 47.5304,
+    "lon": 11.1115,
+    "city": "Farchant"
+  },
+  "82491": {
+    "lat": 47.4761,
+    "lon": 11.0241,
+    "city": "Grainau"
+  },
+  "82493": {
+    "lat": 47.5,
+    "lon": 11.2833,
+    "city": "Klais"
+  },
+  "82494": {
+    "lat": 47.5052,
+    "lon": 11.2792,
+    "city": "Krün"
+  },
+  "82496": {
+    "lat": 47.5598,
+    "lon": 11.1392,
+    "city": "Oberau"
+  },
+  "82497": {
+    "lat": 47.6166,
+    "lon": 11.0272,
+    "city": "Unterammergau"
+  },
+  "82499": {
+    "lat": 47.5167,
+    "lon": 11.2833,
+    "city": "Wallgau"
+  },
+  "82515": {
+    "lat": 47.9129,
+    "lon": 11.4217,
+    "city": "Wolfratshausen"
+  },
+  "82538": {
+    "lat": 47.8577,
+    "lon": 11.4805,
+    "city": "Geretsried"
+  },
+  "82541": {
+    "lat": 47.9,
+    "lon": 11.3667,
+    "city": "Münsing"
+  },
+  "82544": {
+    "lat": 47.9232,
+    "lon": 11.5052,
+    "city": "Egling"
+  },
+  "82547": {
+    "lat": 47.8539,
+    "lon": 11.4059,
+    "city": "Eurasburg"
+  },
+  "82549": {
+    "lat": 47.8155,
+    "lon": 11.4806,
+    "city": "Königsdorf"
+  },
+  "83018": {
+    "lat": 47.8552,
+    "lon": 12.1139,
+    "city": "Agentur für Arbeit Rosenheim"
+  },
+  "83019": {
+    "lat": 47.845,
+    "lon": 12.0833,
+    "city": "TM Börsenverlag AG"
+  },
+  "83022": {
+    "lat": 47.855,
+    "lon": 12.1232,
+    "city": "Rosenheim"
+  },
+  "83024": {
+    "lat": 47.8748,
+    "lon": 12.111,
+    "city": "Rosenheim"
+  },
+  "83026": {
+    "lat": 47.8391,
+    "lon": 12.1026,
+    "city": "Rosenheim"
+  },
+  "83034": {
+    "lat": 47.842,
+    "lon": 12.0772,
+    "city": "Deutsche Post AG Niederlassung BRIEF Rosenheim"
+  },
+  "83043": {
+    "lat": 47.8638,
+    "lon": 12.0105,
+    "city": "Bad Aibling"
+  },
+  "83052": {
+    "lat": 47.8786,
+    "lon": 11.911,
+    "city": "Bruckmühl"
+  },
+  "83059": {
+    "lat": 47.8496,
+    "lon": 12.067,
+    "city": "Kolbermoor"
+  },
+  "83064": {
+    "lat": 47.7905,
+    "lon": 12.1109,
+    "city": "Raubling"
+  },
+  "83071": {
+    "lat": 47.8539,
+    "lon": 12.1856,
+    "city": "Stephanskirchen"
+  },
+  "83075": {
+    "lat": 47.7733,
+    "lon": 12.0097,
+    "city": "Bad Feilnbach"
+  },
+  "83080": {
+    "lat": 47.6482,
+    "lon": 12.1724,
+    "city": "Oberaudorf"
+  },
+  "83083": {
+    "lat": 47.8387,
+    "lon": 12.2078,
+    "city": "Riedering"
+  },
+  "83088": {
+    "lat": 47.6141,
+    "lon": 12.191,
+    "city": "Kiefersfelden"
+  },
+  "83093": {
+    "lat": 47.909,
+    "lon": 12.2979,
+    "city": "Bad Endorf"
+  },
+  "83098": {
+    "lat": 47.74,
+    "lon": 12.0917,
+    "city": "Brannenburg"
+  },
+  "83101": {
+    "lat": 47.7971,
+    "lon": 12.1701,
+    "city": "Rohrdorf"
+  },
+  "83104": {
+    "lat": 47.9351,
+    "lon": 12.0152,
+    "city": "Tuntenhausen"
+  },
+  "83109": {
+    "lat": 47.891,
+    "lon": 12.081,
+    "city": "Großkarolinenfeld"
+  },
+  "83112": {
+    "lat": 47.8038,
+    "lon": 12.2851,
+    "city": "Frasdorf"
+  },
+  "83115": {
+    "lat": 47.7737,
+    "lon": 12.14,
+    "city": "Neubeuern"
+  },
+  "83119": {
+    "lat": 48.0005,
+    "lon": 12.4053,
+    "city": "Obing"
+  },
+  "83122": {
+    "lat": 47.7765,
+    "lon": 12.1914,
+    "city": "Samerberg"
+  },
+  "83123": {
+    "lat": 47.9914,
+    "lon": 12.3079,
+    "city": "Amerang"
+  },
+  "83125": {
+    "lat": 47.927,
+    "lon": 12.3792,
+    "city": "Eggstätt"
+  },
+  "83126": {
+    "lat": 47.7258,
+    "lon": 12.1242,
+    "city": "Flintsbach"
+  },
+  "83128": {
+    "lat": 47.952,
+    "lon": 12.2752,
+    "city": "Halfing"
+  },
+  "83129": {
+    "lat": 47.9538,
+    "lon": 12.3291,
+    "city": "Höslwang"
+  },
+  "83131": {
+    "lat": 47.7423,
+    "lon": 12.1561,
+    "city": "Nußdorf am Inn"
+  },
+  "83132": {
+    "lat": 47.9772,
+    "lon": 12.39,
+    "city": "Pittenhart"
+  },
+  "83134": {
+    "lat": 47.8932,
+    "lon": 12.2024,
+    "city": "Prutting"
+  },
+  "83135": {
+    "lat": 47.9291,
+    "lon": 12.1239,
+    "city": "Schechen"
+  },
+  "83137": {
+    "lat": 47.9833,
+    "lon": 12.25,
+    "city": "Schonstett"
+  },
+  "83139": {
+    "lat": 47.9312,
+    "lon": 12.2296,
+    "city": "Söchtenau"
+  },
+  "83209": {
+    "lat": 47.856,
+    "lon": 12.3462,
+    "city": "Prien am Chiemsee"
+  },
+  "83224": {
+    "lat": 47.7822,
+    "lon": 12.4685,
+    "city": "Grassau"
+  },
+  "83228": {
+    "lat": 47.766,
+    "lon": 12.3244,
+    "city": "Taunus BKK Versichertenservice"
+  },
+  "83229": {
+    "lat": 47.7769,
+    "lon": 12.323,
+    "city": "Aschau im Chiemgau"
+  },
+  "83233": {
+    "lat": 47.8117,
+    "lon": 12.3757,
+    "city": "Bernau am Chiemsee"
+  },
+  "83236": {
+    "lat": 47.8167,
+    "lon": 12.4833,
+    "city": "Übersee"
+  },
+  "83242": {
+    "lat": 47.6587,
+    "lon": 12.5281,
+    "city": "Reit im Winkl"
+  },
+  "83246": {
+    "lat": 47.7333,
+    "lon": 12.4667,
+    "city": "Unterwössen"
+  },
+  "83250": {
+    "lat": 47.7586,
+    "lon": 12.4622,
+    "city": "Marquartstein"
+  },
+  "83253": {
+    "lat": 47.8808,
+    "lon": 12.3371,
+    "city": "Rimsting"
+  },
+  "83254": {
+    "lat": 47.8895,
+    "lon": 12.4004,
+    "city": "Breitbrunn am Chiemsee"
+  },
+  "83256": {
+    "lat": 47.8667,
+    "lon": 12.4167,
+    "city": "Chiemsee"
+  },
+  "83257": {
+    "lat": 47.8845,
+    "lon": 12.4181,
+    "city": "Gstadt am Chiemsee"
+  },
+  "83259": {
+    "lat": 47.721,
+    "lon": 12.3948,
+    "city": "Schleching"
+  },
+  "83274": {
+    "lat": 47.8672,
+    "lon": 12.6229,
+    "city": "Agentur für Arbeit Traunstein"
+  },
+  "83276": {
+    "lat": 47.8702,
+    "lon": 12.6389,
+    "city": "Justizbehörden"
+  },
+  "83278": {
+    "lat": 47.8682,
+    "lon": 12.6433,
+    "city": "Traunstein"
+  },
+  "83301": {
+    "lat": 47.9627,
+    "lon": 12.5923,
+    "city": "Traunreut"
+  },
+  "83308": {
+    "lat": 48.0175,
+    "lon": 12.5346,
+    "city": "Trostberg"
+  },
+  "83313": {
+    "lat": 47.8228,
+    "lon": 12.6428,
+    "city": "Siegsdorf"
+  },
+  "83317": {
+    "lat": 47.8492,
+    "lon": 12.8192,
+    "city": "Teisendorf"
+  },
+  "83324": {
+    "lat": 47.7667,
+    "lon": 12.65,
+    "city": "Ruhpolding"
+  },
+  "83329": {
+    "lat": 47.9254,
+    "lon": 12.7253,
+    "city": "Wonneberg"
+  },
+  "83334": {
+    "lat": 47.763,
+    "lon": 12.7515,
+    "city": "Inzell"
+  },
+  "83339": {
+    "lat": 47.8926,
+    "lon": 12.5401,
+    "city": "Chieming"
+  },
+  "83342": {
+    "lat": 48.0783,
+    "lon": 12.5701,
+    "city": "Tacherting"
+  },
+  "83344": {
+    "lat": 47.804,
+    "lon": 12.583,
+    "city": "Bergen"
+  },
+  "83346": {
+    "lat": 47.8036,
+    "lon": 12.5828,
+    "city": "Bergen"
+  },
+  "83349": {
+    "lat": 48.002,
+    "lon": 12.637,
+    "city": "Palling"
+  },
+  "83352": {
+    "lat": 48.0026,
+    "lon": 12.5367,
+    "city": "Altenmarkt an der Alz"
+  },
+  "83355": {
+    "lat": 47.8453,
+    "lon": 12.5433,
+    "city": "Grabenstätt"
+  },
+  "83358": {
+    "lat": 47.9667,
+    "lon": 12.4667,
+    "city": "Seeon-Seebruck"
+  },
+  "83359": {
+    "lat": 47.8667,
+    "lon": 12.7,
+    "city": "Hallabruck"
+  },
+  "83361": {
+    "lat": 48.0348,
+    "lon": 12.4633,
+    "city": "Kienberg"
+  },
+  "83362": {
+    "lat": 47.8667,
+    "lon": 12.7,
+    "city": "Surberg"
+  },
+  "83364": {
+    "lat": 47.844,
+    "lon": 12.7342,
+    "city": "Graben bei Neukirchen am Teisenberg"
+  },
+  "83365": {
+    "lat": 47.9056,
+    "lon": 12.5961,
+    "city": "Nußdorf"
+  },
+  "83367": {
+    "lat": 47.9123,
+    "lon": 12.8151,
+    "city": "Petting"
+  },
+  "83368": {
+    "lat": 47.9833,
+    "lon": 12.5667,
+    "city": "Anning bei Sankt Georgen, Chiemgau"
+  },
+  "83370": {
+    "lat": 47.9667,
+    "lon": 12.4667,
+    "city": "Seeon-Seebruck"
+  },
+  "83371": {
+    "lat": 48,
+    "lon": 12.55,
+    "city": "Roitham bei Stein an der Traun"
+  },
+  "83373": {
+    "lat": 47.9594,
+    "lon": 12.7293,
+    "city": "Taching am See"
+  },
+  "83374": {
+    "lat": 47.9427,
+    "lon": 12.6306,
+    "city": "Niedling"
+  },
+  "83376": {
+    "lat": 47.9425,
+    "lon": 12.5049,
+    "city": "Castrum"
+  },
+  "83377": {
+    "lat": 47.8426,
+    "lon": 12.6061,
+    "city": "Vachendorf"
+  },
+  "83379": {
+    "lat": 47.9167,
+    "lon": 12.7167,
+    "city": "Wonneberg"
+  },
+  "83394": {
+    "lat": 47.8353,
+    "lon": 12.9781,
+    "city": "MVS Mail & Vertriebsservice Ges.m.b.H."
+  },
+  "83395": {
+    "lat": 47.8409,
+    "lon": 12.9811,
+    "city": "Freilassing"
+  },
+  "83404": {
+    "lat": 47.8131,
+    "lon": 12.9405,
+    "city": "Ainring"
+  },
+  "83410": {
+    "lat": 47.9357,
+    "lon": 12.9286,
+    "city": "Laufen"
+  },
+  "83413": {
+    "lat": 47.9977,
+    "lon": 12.8263,
+    "city": "Fridolfing"
+  },
+  "83416": {
+    "lat": 47.875,
+    "lon": 12.9417,
+    "city": "Saaldorf-Surheim"
+  },
+  "83417": {
+    "lat": 47.953,
+    "lon": 12.8343,
+    "city": "Kirchanschöring"
+  },
+  "83435": {
+    "lat": 47.7295,
+    "lon": 12.8782,
+    "city": "Bad Reichenhall"
+  },
+  "83451": {
+    "lat": 47.7667,
+    "lon": 12.9167,
+    "city": "Piding"
+  },
+  "83454": {
+    "lat": 47.8019,
+    "lon": 12.8581,
+    "city": "Anger"
+  },
+  "83457": {
+    "lat": 47.7167,
+    "lon": 12.9,
+    "city": "Bayerisch Gmain"
+  },
+  "83458": {
+    "lat": 47.6833,
+    "lon": 12.8,
+    "city": "Schneizlreuth"
+  },
+  "83471": {
+    "lat": 47.6165,
+    "lon": 12.9945,
+    "city": "Berchtesgaden"
+  },
+  "83483": {
+    "lat": 47.6312,
+    "lon": 12.983,
+    "city": "Bischofswiesen"
+  },
+  "83486": {
+    "lat": 47.6167,
+    "lon": 12.9,
+    "city": "Ramsau"
+  },
+  "83487": {
+    "lat": 47.6966,
+    "lon": 13.0434,
+    "city": "Marktschellenberg"
+  },
+  "83489": {
+    "lat": 47.6254,
+    "lon": 12.9741,
+    "city": "Strub"
+  },
+  "83508": {
+    "lat": 48.0571,
+    "lon": 12.1863,
+    "city": "MEGGLE GmbH & Co. KG"
+  },
+  "83512": {
+    "lat": 48.0525,
+    "lon": 12.2234,
+    "city": "Wasserburg am Inn"
+  },
+  "83527": {
+    "lat": 48.1687,
+    "lon": 12.188,
+    "city": "Kirchdorf"
+  },
+  "83530": {
+    "lat": 48.0667,
+    "lon": 12.3667,
+    "city": "Schnaitsee"
+  },
+  "83533": {
+    "lat": 48.0561,
+    "lon": 12.1647,
+    "city": "Edling"
+  },
+  "83536": {
+    "lat": 48.15,
+    "lon": 12.2833,
+    "city": "Gars am Inn"
+  },
+  "83539": {
+    "lat": 48.0857,
+    "lon": 12.113,
+    "city": "Pfaffing"
+  },
+  "83543": {
+    "lat": 47.9819,
+    "lon": 12.1281,
+    "city": "Rott am Inn"
+  },
+  "83544": {
+    "lat": 48.107,
+    "lon": 12.1119,
+    "city": "Albaching"
+  },
+  "83546": {
+    "lat": 48.1792,
+    "lon": 12.3041,
+    "city": "Biburg, Gemeinde Gars am Inn"
+  },
+  "83547": {
+    "lat": 48.0833,
+    "lon": 12.2667,
+    "city": "Babensham"
+  },
+  "83549": {
+    "lat": 48.0411,
+    "lon": 12.2427,
+    "city": "Eiselfing"
+  },
+  "83550": {
+    "lat": 47.9976,
+    "lon": 12.0564,
+    "city": "Emmering"
+  },
+  "83552": {
+    "lat": 48.0284,
+    "lon": 12.3103,
+    "city": "Durrhausen"
+  },
+  "83553": {
+    "lat": 48.0316,
+    "lon": 12.056,
+    "city": "Frauenneuharting"
+  },
+  "83555": {
+    "lat": 48.15,
+    "lon": 12.2833,
+    "city": "Haiden bei Gars Bahnhof"
+  },
+  "83556": {
+    "lat": 47.994,
+    "lon": 12.1773,
+    "city": "Griesstätt"
+  },
+  "83558": {
+    "lat": 48.1505,
+    "lon": 12.0934,
+    "city": "Maitenbeth"
+  },
+  "83559": {
+    "lat": 48.1532,
+    "lon": 12.3173,
+    "city": "Reiser, Gemeinde Gars am Inn"
+  },
+  "83561": {
+    "lat": 48.0181,
+    "lon": 12.1451,
+    "city": "Ramerberg"
+  },
+  "83562": {
+    "lat": 48.1167,
+    "lon": 12.1667,
+    "city": "Rechtmehring"
+  },
+  "83564": {
+    "lat": 48.1081,
+    "lon": 12.2101,
+    "city": "Soyen"
+  },
+  "83565": {
+    "lat": 48.0163,
+    "lon": 12.0163,
+    "city": "Ast, Gemeinde Frauenneuharting"
+  },
+  "83567": {
+    "lat": 48.1167,
+    "lon": 12.3333,
+    "city": "Unterreit"
+  },
+  "83569": {
+    "lat": 47.9469,
+    "lon": 12.1813,
+    "city": "Vogtareuth"
+  },
+  "83607": {
+    "lat": 47.8766,
+    "lon": 11.7018,
+    "city": "Holzkirchen"
+  },
+  "83620": {
+    "lat": 47.9075,
+    "lon": 11.8427,
+    "city": "Feldkirchen-Westerham"
+  },
+  "83623": {
+    "lat": 47.8487,
+    "lon": 11.5953,
+    "city": "Dietramszell"
+  },
+  "83624": {
+    "lat": 47.909,
+    "lon": 11.6755,
+    "city": "Otterfing"
+  },
+  "83626": {
+    "lat": 47.8931,
+    "lon": 11.7791,
+    "city": "Valley"
+  },
+  "83627": {
+    "lat": 47.8322,
+    "lon": 11.7217,
+    "city": "Warngau"
+  },
+  "83629": {
+    "lat": 47.8584,
+    "lon": 11.7992,
+    "city": "Weyarn"
+  },
+  "83646": {
+    "lat": 47.7472,
+    "lon": 11.5544,
+    "city": "Bad Tölz"
+  },
+  "83661": {
+    "lat": 47.6833,
+    "lon": 11.5667,
+    "city": "Lenggries"
+  },
+  "83666": {
+    "lat": 47.7725,
+    "lon": 11.6731,
+    "city": "Waakirchen"
+  },
+  "83670": {
+    "lat": 47.7467,
+    "lon": 11.4593,
+    "city": "Bad Heilbrunn"
+  },
+  "83671": {
+    "lat": 47.7062,
+    "lon": 11.4152,
+    "city": "Benediktbeuern"
+  },
+  "83673": {
+    "lat": 47.7201,
+    "lon": 11.4123,
+    "city": "Bichl"
+  },
+  "83674": {
+    "lat": 47.75,
+    "lon": 11.5833,
+    "city": "Gaißach"
+  },
+  "83676": {
+    "lat": 47.6057,
+    "lon": 11.4338,
+    "city": "Jachenau"
+  },
+  "83677": {
+    "lat": 47.7667,
+    "lon": 11.625,
+    "city": "Greiling"
+  },
+  "83679": {
+    "lat": 47.8054,
+    "lon": 11.644,
+    "city": "Sachsenkam"
+  },
+  "83684": {
+    "lat": 47.7123,
+    "lon": 11.7582,
+    "city": "Tegernsee"
+  },
+  "83700": {
+    "lat": 47.6897,
+    "lon": 11.7706,
+    "city": "Rottach-Egern"
+  },
+  "83703": {
+    "lat": 47.7512,
+    "lon": 11.7381,
+    "city": "Gmund am Tegernsee"
+  },
+  "83707": {
+    "lat": 47.7167,
+    "lon": 11.7167,
+    "city": "Bad Wiessee"
+  },
+  "83708": {
+    "lat": 47.6408,
+    "lon": 11.7449,
+    "city": "Kreuth"
+  },
+  "83714": {
+    "lat": 47.789,
+    "lon": 11.8338,
+    "city": "Miesbach"
+  },
+  "83727": {
+    "lat": 47.7362,
+    "lon": 11.8594,
+    "city": "Schliersee"
+  },
+  "83730": {
+    "lat": 47.7195,
+    "lon": 11.9508,
+    "city": "Fischbachau"
+  },
+  "83734": {
+    "lat": 47.7466,
+    "lon": 11.8407,
+    "city": "Hausham"
+  },
+  "83735": {
+    "lat": 47.6744,
+    "lon": 12.0145,
+    "city": "Bayrischzell"
+  },
+  "83737": {
+    "lat": 47.8333,
+    "lon": 11.9167,
+    "city": "Irschenberg"
+  },
+  "83739": {
+    "lat": 47.8333,
+    "lon": 11.9167,
+    "city": "Hofreuth bei Wörnsmühl"
+  },
+  "84018": {
+    "lat": 48.5435,
+    "lon": 12.1436,
+    "city": "Agentur für Arbeit Landshut"
+  },
+  "84022": {
+    "lat": 48.5471,
+    "lon": 12.136,
+    "city": "Deutsche Post AG Direkt Marketing Center"
+  },
+  "84023": {
+    "lat": 48.5452,
+    "lon": 12.1661,
+    "city": "Gewerbeaufsichtsamt"
+  },
+  "84024": {
+    "lat": 48.5385,
+    "lon": 12.1572,
+    "city": "Deutsche Rentenversicherung Bayern Süd Landshut"
+  },
+  "84026": {
+    "lat": 48.5391,
+    "lon": 12.1566,
+    "city": "Finanzamt Landshut"
+  },
+  "84028": {
+    "lat": 48.5359,
+    "lon": 12.1523,
+    "city": "Landshut"
+  },
+  "84030": {
+    "lat": 48.5684,
+    "lon": 12.1538,
+    "city": "Landshut"
+  },
+  "84032": {
+    "lat": 48.5446,
+    "lon": 12.13,
+    "city": "Altdorf"
+  },
+  "84034": {
+    "lat": 48.5359,
+    "lon": 12.1325,
+    "city": "Landshut"
+  },
+  "84036": {
+    "lat": 48.518,
+    "lon": 12.157,
+    "city": "Landshut"
+  },
+  "84048": {
+    "lat": 48.6418,
+    "lon": 11.7809,
+    "city": "Mainburg"
+  },
+  "84051": {
+    "lat": 48.6133,
+    "lon": 12.2183,
+    "city": "Essenbach"
+  },
+  "84056": {
+    "lat": 48.7023,
+    "lon": 12.0272,
+    "city": "Rottenburg an der Laaber"
+  },
+  "84061": {
+    "lat": 48.6926,
+    "lon": 12.2044,
+    "city": "Ergoldsbach"
+  },
+  "84066": {
+    "lat": 48.7664,
+    "lon": 12.231,
+    "city": "Mallersdorf-Pfaffenberg"
+  },
+  "84069": {
+    "lat": 48.8342,
+    "lon": 12.1395,
+    "city": "Schierling"
+  },
+  "84072": {
+    "lat": 48.5584,
+    "lon": 11.7414,
+    "city": "Au in der Hallertau"
+  },
+  "84076": {
+    "lat": 48.6647,
+    "lon": 11.9659,
+    "city": "Pfeffenhausen"
+  },
+  "84079": {
+    "lat": 48.5224,
+    "lon": 11.9945,
+    "city": "Bruckberg"
+  },
+  "84082": {
+    "lat": 48.8,
+    "lon": 12.3167,
+    "city": "Laberweinting"
+  },
+  "84085": {
+    "lat": 48.8232,
+    "lon": 12.0513,
+    "city": "Langquaid"
+  },
+  "84088": {
+    "lat": 48.7352,
+    "lon": 12.1929,
+    "city": "Neufahrn in Niederbayern"
+  },
+  "84089": {
+    "lat": 48.6921,
+    "lon": 11.7083,
+    "city": "Aiglsbach"
+  },
+  "84091": {
+    "lat": 48.6507,
+    "lon": 11.8485,
+    "city": "Attenhofen"
+  },
+  "84092": {
+    "lat": 48.7045,
+    "lon": 12.2975,
+    "city": "Bayerbach"
+  },
+  "84094": {
+    "lat": 48.7076,
+    "lon": 11.8098,
+    "city": "Elsendorf"
+  },
+  "84095": {
+    "lat": 48.591,
+    "lon": 12.0206,
+    "city": "Furth"
+  },
+  "84097": {
+    "lat": 48.7886,
+    "lon": 12.072,
+    "city": "Herrngiersdorf"
+  },
+  "84098": {
+    "lat": 48.6576,
+    "lon": 12.0307,
+    "city": "Hohenthann"
+  },
+  "84100": {
+    "lat": 48.6,
+    "lon": 12.3167,
+    "city": "Niederaichbach"
+  },
+  "84101": {
+    "lat": 48.6167,
+    "lon": 11.95,
+    "city": "Obersüßbach"
+  },
+  "84103": {
+    "lat": 48.65,
+    "lon": 12.3333,
+    "city": "Postau"
+  },
+  "84104": {
+    "lat": 48.6,
+    "lon": 11.7667,
+    "city": "Rudelzhausen"
+  },
+  "84106": {
+    "lat": 48.6,
+    "lon": 11.8833,
+    "city": "Volkenschwand"
+  },
+  "84107": {
+    "lat": 48.6,
+    "lon": 12.05,
+    "city": "Weihmichl"
+  },
+  "84109": {
+    "lat": 48.623,
+    "lon": 12.3394,
+    "city": "Wörth an der Isar"
+  },
+  "84130": {
+    "lat": 48.6424,
+    "lon": 12.4928,
+    "city": "Dingolfing"
+  },
+  "84137": {
+    "lat": 48.453,
+    "lon": 12.356,
+    "city": "Vilsbiburg"
+  },
+  "84140": {
+    "lat": 48.437,
+    "lon": 12.5642,
+    "city": "Gangkofen"
+  },
+  "84144": {
+    "lat": 48.4761,
+    "lon": 12.2582,
+    "city": "Geisenhausen"
+  },
+  "84149": {
+    "lat": 48.3663,
+    "lon": 12.256,
+    "city": "Velden"
+  },
+  "84152": {
+    "lat": 48.7189,
+    "lon": 12.4405,
+    "city": "Mengkofen"
+  },
+  "84155": {
+    "lat": 48.3833,
+    "lon": 12.3833,
+    "city": "Bodenkirchen"
+  },
+  "84160": {
+    "lat": 48.5463,
+    "lon": 12.5312,
+    "city": "Frontenhausen"
+  },
+  "84162": {
+    "lat": 48.5531,
+    "lon": 12.5537,
+    "city": "mhplus"
+  },
+  "84163": {
+    "lat": 48.55,
+    "lon": 12.5667,
+    "city": "Marklkofen"
+  },
+  "84164": {
+    "lat": 48.6766,
+    "lon": 12.4974,
+    "city": "Moosthenning"
+  },
+  "84166": {
+    "lat": 48.55,
+    "lon": 12.2667,
+    "city": "Adlkofen"
+  },
+  "84168": {
+    "lat": 48.5265,
+    "lon": 12.4606,
+    "city": "Aham"
+  },
+  "84169": {
+    "lat": 48.45,
+    "lon": 12.1667,
+    "city": "Altfraunhofen"
+  },
+  "84171": {
+    "lat": 48.4167,
+    "lon": 12.2,
+    "city": "Baierbach"
+  },
+  "84172": {
+    "lat": 48.4478,
+    "lon": 12.0357,
+    "city": "Buch am Erlbach"
+  },
+  "84174": {
+    "lat": 48.5,
+    "lon": 12.0667,
+    "city": "Eching"
+  },
+  "84175": {
+    "lat": 48.4859,
+    "lon": 12.3963,
+    "city": "Gerzen"
+  },
+  "84177": {
+    "lat": 48.6374,
+    "lon": 12.5356,
+    "city": "Gottfrieding"
+  },
+  "84178": {
+    "lat": 48.5333,
+    "lon": 12.3667,
+    "city": "Kröning"
+  },
+  "84180": {
+    "lat": 48.6167,
+    "lon": 12.4333,
+    "city": "Loiching"
+  },
+  "84181": {
+    "lat": 48.4,
+    "lon": 12.2167,
+    "city": "Neufraunhofen"
+  },
+  "84183": {
+    "lat": 48.6167,
+    "lon": 12.3833,
+    "city": "Niederviehbach"
+  },
+  "84184": {
+    "lat": 48.5,
+    "lon": 12.1,
+    "city": "Tiefenbach"
+  },
+  "84186": {
+    "lat": 48.4488,
+    "lon": 12.1069,
+    "city": "Vilsheim"
+  },
+  "84187": {
+    "lat": 48.6587,
+    "lon": 12.3693,
+    "city": "Weng"
+  },
+  "84189": {
+    "lat": 48.35,
+    "lon": 12.3333,
+    "city": "Wurmsham"
+  },
+  "84307": {
+    "lat": 48.4051,
+    "lon": 12.7575,
+    "city": "Eggenfelden"
+  },
+  "84323": {
+    "lat": 48.3912,
+    "lon": 12.6095,
+    "city": "Massing"
+  },
+  "84326": {
+    "lat": 48.4641,
+    "lon": 12.6902,
+    "city": "Rimbach"
+  },
+  "84329": {
+    "lat": 48.3533,
+    "lon": 12.786,
+    "city": "Wurmannsquick"
+  },
+  "84332": {
+    "lat": 48.406,
+    "lon": 12.8226,
+    "city": "Hebertsfelden"
+  },
+  "84333": {
+    "lat": 48.5333,
+    "lon": 12.75,
+    "city": "Malgersdorf"
+  },
+  "84335": {
+    "lat": 48.35,
+    "lon": 12.7333,
+    "city": "Mitterskirchen"
+  },
+  "84337": {
+    "lat": 48.4833,
+    "lon": 12.85,
+    "city": "Schönau"
+  },
+  "84339": {
+    "lat": 48.3833,
+    "lon": 12.6667,
+    "city": "Unterdietfurt"
+  },
+  "84347": {
+    "lat": 48.432,
+    "lon": 12.9381,
+    "city": "Pfarrkirchen"
+  },
+  "84359": {
+    "lat": 48.2655,
+    "lon": 13.0231,
+    "city": "Simbach am Inn"
+  },
+  "84364": {
+    "lat": 48.4449,
+    "lon": 13.091,
+    "city": "Bad Birnbach"
+  },
+  "84367": {
+    "lat": 48.3154,
+    "lon": 12.9075,
+    "city": "Reut"
+  },
+  "84371": {
+    "lat": 48.3947,
+    "lon": 13.0063,
+    "city": "Triftern"
+  },
+  "84375": {
+    "lat": 48.2475,
+    "lon": 12.9845,
+    "city": "Kirchdorf am Inn"
+  },
+  "84378": {
+    "lat": 48.4925,
+    "lon": 12.925,
+    "city": "Dietersburg"
+  },
+  "84381": {
+    "lat": 48.5333,
+    "lon": 12.95,
+    "city": "Johanniskirchen"
+  },
+  "84384": {
+    "lat": 48.3292,
+    "lon": 12.987,
+    "city": "Wittibreut"
+  },
+  "84385": {
+    "lat": 48.529,
+    "lon": 13.054,
+    "city": "Egglham"
+  },
+  "84387": {
+    "lat": 48.2543,
+    "lon": 12.9579,
+    "city": "Julbach"
+  },
+  "84389": {
+    "lat": 48.4167,
+    "lon": 12.9,
+    "city": "Postmünster"
+  },
+  "84405": {
+    "lat": 48.2704,
+    "lon": 12.1606,
+    "city": "Dorfen"
+  },
+  "84416": {
+    "lat": 48.3422,
+    "lon": 12.1363,
+    "city": "Inning am Holz"
+  },
+  "84419": {
+    "lat": 48.266,
+    "lon": 12.2694,
+    "city": "Schwindegg"
+  },
+  "84424": {
+    "lat": 48.212,
+    "lon": 12.0567,
+    "city": "Isen"
+  },
+  "84427": {
+    "lat": 48.2167,
+    "lon": 12.1333,
+    "city": "Sankt Wolfgang"
+  },
+  "84428": {
+    "lat": 48.3123,
+    "lon": 12.2734,
+    "city": "Buchbach"
+  },
+  "84431": {
+    "lat": 48.246,
+    "lon": 12.3409,
+    "city": "Heldenstein"
+  },
+  "84432": {
+    "lat": 48.3833,
+    "lon": 12.1333,
+    "city": "Hohenpolding"
+  },
+  "84434": {
+    "lat": 48.4,
+    "lon": 12.05,
+    "city": "Kirchberg"
+  },
+  "84435": {
+    "lat": 48.2574,
+    "lon": 12.0497,
+    "city": "Lengdorf"
+  },
+  "84437": {
+    "lat": 48.2,
+    "lon": 12.2833,
+    "city": "Reichertsheim"
+  },
+  "84439": {
+    "lat": 48.3833,
+    "lon": 12.0833,
+    "city": "Steinkirchen"
+  },
+  "84453": {
+    "lat": 48.2503,
+    "lon": 12.5215,
+    "city": "Mühldorf am Inn"
+  },
+  "84478": {
+    "lat": 48.2085,
+    "lon": 12.3989,
+    "city": "Waldkraiburg"
+  },
+  "84489": {
+    "lat": 48.1693,
+    "lon": 12.8314,
+    "city": "Burghausen"
+  },
+  "84494": {
+    "lat": 48.3318,
+    "lon": 12.5018,
+    "city": "Lohkirchen"
+  },
+  "84503": {
+    "lat": 48.2253,
+    "lon": 12.6766,
+    "city": "Altötting"
+  },
+  "84508": {
+    "lat": 48.1675,
+    "lon": 12.7325,
+    "city": "Burgkirchen an der Alz"
+  },
+  "84513": {
+    "lat": 48.2718,
+    "lon": 12.584,
+    "city": "Erharting"
+  },
+  "84518": {
+    "lat": 48.1345,
+    "lon": 12.5815,
+    "city": "Garching an der Alz"
+  },
+  "84524": {
+    "lat": 48.241,
+    "lon": 12.69,
+    "city": "Neuötting"
+  },
+  "84529": {
+    "lat": 48.0616,
+    "lon": 12.7676,
+    "city": "Tittmoning"
+  },
+  "84533": {
+    "lat": 48.2406,
+    "lon": 12.876,
+    "city": "Marktl"
+  },
+  "84539": {
+    "lat": 48.2644,
+    "lon": 12.4192,
+    "city": "Ampfing"
+  },
+  "84543": {
+    "lat": 48.2667,
+    "lon": 12.65,
+    "city": "Winhöring"
+  },
+  "84544": {
+    "lat": 48.1985,
+    "lon": 12.35,
+    "city": "Aschau am Inn"
+  },
+  "84546": {
+    "lat": 48.4,
+    "lon": 12.45,
+    "city": "Egglkofen"
+  },
+  "84547": {
+    "lat": 48.2,
+    "lon": 12.7667,
+    "city": "Emmerting"
+  },
+  "84549": {
+    "lat": 48.1163,
+    "lon": 12.5427,
+    "city": "Engelsberg"
+  },
+  "84550": {
+    "lat": 48.0833,
+    "lon": 12.6,
+    "city": "Feichten an der Alz"
+  },
+  "84552": {
+    "lat": 48.3386,
+    "lon": 12.6623,
+    "city": "Geratskirchen"
+  },
+  "84553": {
+    "lat": 48.1333,
+    "lon": 12.6833,
+    "city": "Halsbach, Kreis Altötting"
+  },
+  "84555": {
+    "lat": 48.1667,
+    "lon": 12.3833,
+    "city": "Jettenbach"
+  },
+  "84556": {
+    "lat": 48.2,
+    "lon": 12.7,
+    "city": "Kastl"
+  },
+  "84558": {
+    "lat": 48.0953,
+    "lon": 12.6651,
+    "city": "Halsbach"
+  },
+  "84559": {
+    "lat": 48.1819,
+    "lon": 12.4307,
+    "city": "Kraiburg am Inn"
+  },
+  "84561": {
+    "lat": 48.1833,
+    "lon": 12.7833,
+    "city": "Mehring"
+  },
+  "84562": {
+    "lat": 48.2667,
+    "lon": 12.4667,
+    "city": "Mettenheim"
+  },
+  "84564": {
+    "lat": 48.3,
+    "lon": 12.3833,
+    "city": "Oberbergkirchen"
+  },
+  "84565": {
+    "lat": 48.1833,
+    "lon": 12.5167,
+    "city": "Oberneukirchen"
+  },
+  "84567": {
+    "lat": 48.2834,
+    "lon": 12.775,
+    "city": "Perach"
+  },
+  "84568": {
+    "lat": 48.3071,
+    "lon": 12.5983,
+    "city": "Pleiskirchen"
+  },
+  "84570": {
+    "lat": 48.2167,
+    "lon": 12.5667,
+    "city": "Polling"
+  },
+  "84571": {
+    "lat": 48.2907,
+    "lon": 12.7262,
+    "city": "Reischach"
+  },
+  "84573": {
+    "lat": 48.3333,
+    "lon": 12.4333,
+    "city": "Schönberg"
+  },
+  "84574": {
+    "lat": 48.15,
+    "lon": 12.45,
+    "city": "Taufkirchen"
+  },
+  "84576": {
+    "lat": 48.2272,
+    "lon": 12.6114,
+    "city": "Teising"
+  },
+  "84577": {
+    "lat": 48.2122,
+    "lon": 12.5995,
+    "city": "Tüßling"
+  },
+  "84579": {
+    "lat": 48.1667,
+    "lon": 12.6167,
+    "city": "Unterneukirchen"
+  },
+  "85037": {
+    "lat": 48.7686,
+    "lon": 11.4309,
+    "city": "Agentur für Arbeit Ingolstadt"
+  },
+  "85046": {
+    "lat": 48.7544,
+    "lon": 11.4465,
+    "city": "Amtsgericht"
+  },
+  "85047": {
+    "lat": 48.763,
+    "lon": 11.4256,
+    "city": "Stadt Ingolstadt"
+  },
+  "85049": {
+    "lat": 48.7667,
+    "lon": 11.4147,
+    "city": "Ingolstadt"
+  },
+  "85051": {
+    "lat": 48.7212,
+    "lon": 11.4096,
+    "city": "Ingolstadt"
+  },
+  "85053": {
+    "lat": 48.7515,
+    "lon": 11.4588,
+    "city": "Ingolstadt"
+  },
+  "85055": {
+    "lat": 48.776,
+    "lon": 11.4459,
+    "city": "Ingolstadt"
+  },
+  "85057": {
+    "lat": 48.775,
+    "lon": 11.3914,
+    "city": "Ingolstadt"
+  },
+  "85071": {
+    "lat": 48.89,
+    "lon": 11.1865,
+    "city": "Finanzamt Eichstätt"
+  },
+  "85072": {
+    "lat": 48.8885,
+    "lon": 11.1968,
+    "city": "Eichstätt"
+  },
+  "85077": {
+    "lat": 48.7166,
+    "lon": 11.4939,
+    "city": "Manching"
+  },
+  "85080": {
+    "lat": 48.8071,
+    "lon": 11.368,
+    "city": "Gaimersheim"
+  },
+  "85084": {
+    "lat": 48.6577,
+    "lon": 11.4661,
+    "city": "Reichertshofen"
+  },
+  "85088": {
+    "lat": 48.7698,
+    "lon": 11.6185,
+    "city": "Vohburg an der Donau"
+  },
+  "85092": {
+    "lat": 48.814,
+    "lon": 11.5049,
+    "city": "Kösching"
+  },
+  "85095": {
+    "lat": 48.9284,
+    "lon": 11.457,
+    "city": "Denkendorf"
+  },
+  "85098": {
+    "lat": 48.7667,
+    "lon": 11.5333,
+    "city": "Großmehring"
+  },
+  "85101": {
+    "lat": 48.8103,
+    "lon": 11.4587,
+    "city": "Lenting"
+  },
+  "85104": {
+    "lat": 48.8082,
+    "lon": 11.6901,
+    "city": "Pförring"
+  },
+  "85107": {
+    "lat": 48.6707,
+    "lon": 11.4698,
+    "city": "Baar-Ebenhausen"
+  },
+  "85110": {
+    "lat": 48.9526,
+    "lon": 11.3975,
+    "city": "Kipfenberg"
+  },
+  "85111": {
+    "lat": 48.8403,
+    "lon": 11.2191,
+    "city": "Adelschlag"
+  },
+  "85113": {
+    "lat": 48.8608,
+    "lon": 11.3679,
+    "city": "Böhmfeld"
+  },
+  "85114": {
+    "lat": 48.8069,
+    "lon": 11.2921,
+    "city": "Buxheim"
+  },
+  "85116": {
+    "lat": 48.7833,
+    "lon": 11.2333,
+    "city": "Egweil"
+  },
+  "85117": {
+    "lat": 48.8167,
+    "lon": 11.3167,
+    "city": "Eitensheim"
+  },
+  "85119": {
+    "lat": 48.7333,
+    "lon": 11.5833,
+    "city": "Ernsgaden"
+  },
+  "85120": {
+    "lat": 48.8225,
+    "lon": 11.4617,
+    "city": "Hepberg"
+  },
+  "85122": {
+    "lat": 48.85,
+    "lon": 11.3167,
+    "city": "Hitzhofen"
+  },
+  "85123": {
+    "lat": 48.6833,
+    "lon": 11.4167,
+    "city": "Karlskron"
+  },
+  "85125": {
+    "lat": 49.0016,
+    "lon": 11.3831,
+    "city": "Kinding"
+  },
+  "85126": {
+    "lat": 48.7667,
+    "lon": 11.6833,
+    "city": "Münchsmünster"
+  },
+  "85128": {
+    "lat": 48.7995,
+    "lon": 11.2259,
+    "city": "Nassenfels"
+  },
+  "85129": {
+    "lat": 48.8294,
+    "lon": 11.5933,
+    "city": "Oberdolling"
+  },
+  "85131": {
+    "lat": 48.95,
+    "lon": 11.2,
+    "city": "Pollenfeld"
+  },
+  "85132": {
+    "lat": 48.9,
+    "lon": 11.1,
+    "city": "Schernfeld"
+  },
+  "85134": {
+    "lat": 48.8558,
+    "lon": 11.4554,
+    "city": "Stammham"
+  },
+  "85135": {
+    "lat": 48.9968,
+    "lon": 11.2115,
+    "city": "Titting"
+  },
+  "85137": {
+    "lat": 48.9167,
+    "lon": 11.3,
+    "city": "Walting"
+  },
+  "85139": {
+    "lat": 48.8225,
+    "lon": 11.4143,
+    "city": "Wettstetten"
+  },
+  "85217": {
+    "lat": 48.238,
+    "lon": 11.35,
+    "city": "BKK ProVita"
+  },
+  "85219": {
+    "lat": 48.2613,
+    "lon": 11.4414,
+    "city": "Sparkasse Dachau"
+  },
+  "85221": {
+    "lat": 48.26,
+    "lon": 11.434,
+    "city": "Dachau"
+  },
+  "85229": {
+    "lat": 48.3606,
+    "lon": 11.3779,
+    "city": "Markt Indersdorf"
+  },
+  "85232": {
+    "lat": 48.2567,
+    "lon": 11.3649,
+    "city": "Bergkirchen"
+  },
+  "85235": {
+    "lat": 48.3023,
+    "lon": 11.1811,
+    "city": "Odelzhausen"
+  },
+  "85238": {
+    "lat": 48.4097,
+    "lon": 11.4706,
+    "city": "Petershausen"
+  },
+  "85241": {
+    "lat": 48.2896,
+    "lon": 11.4653,
+    "city": "Hebertshausen"
+  },
+  "85244": {
+    "lat": 48.3297,
+    "lon": 11.4467,
+    "city": "Röhrmoos"
+  },
+  "85247": {
+    "lat": 48.3032,
+    "lon": 11.3557,
+    "city": "Schwabhausen"
+  },
+  "85250": {
+    "lat": 48.3877,
+    "lon": 11.2569,
+    "city": "Altomünster"
+  },
+  "85253": {
+    "lat": 48.3318,
+    "lon": 11.3034,
+    "city": "Erdweg"
+  },
+  "85254": {
+    "lat": 48.2911,
+    "lon": 11.2636,
+    "city": "Sulzemoos"
+  },
+  "85256": {
+    "lat": 48.3667,
+    "lon": 11.4667,
+    "city": "Vierkirchen"
+  },
+  "85258": {
+    "lat": 48.3833,
+    "lon": 11.4167,
+    "city": "Weichs"
+  },
+  "85259": {
+    "lat": 48.2998,
+    "lon": 11.2391,
+    "city": "Wiedenzhausen"
+  },
+  "85273": {
+    "lat": 48.5258,
+    "lon": 11.5082,
+    "city": "Hipp GmbH & Co Vertrieb KG"
+  },
+  "85276": {
+    "lat": 48.5153,
+    "lon": 11.5025,
+    "city": "Hettenshausen"
+  },
+  "85283": {
+    "lat": 48.6038,
+    "lon": 11.6257,
+    "city": "Wolnzach"
+  },
+  "85290": {
+    "lat": 48.6843,
+    "lon": 11.6123,
+    "city": "Geisenfeld"
+  },
+  "85293": {
+    "lat": 48.4667,
+    "lon": 11.5167,
+    "city": "Reichertshausen"
+  },
+  "85296": {
+    "lat": 48.6167,
+    "lon": 11.5667,
+    "city": "Rohrbach"
+  },
+  "85298": {
+    "lat": 48.5,
+    "lon": 11.4667,
+    "city": "Scheyern"
+  },
+  "85301": {
+    "lat": 48.5033,
+    "lon": 11.6045,
+    "city": "Schweitenkirchen"
+  },
+  "85302": {
+    "lat": 48.4928,
+    "lon": 11.3615,
+    "city": "Gerolsbach"
+  },
+  "85304": {
+    "lat": 48.4833,
+    "lon": 11.5,
+    "city": "Ilmmünster"
+  },
+  "85305": {
+    "lat": 48.4333,
+    "lon": 11.4167,
+    "city": "Jetzendorf"
+  },
+  "85307": {
+    "lat": 48.4749,
+    "lon": 11.5646,
+    "city": "Paunzhausen"
+  },
+  "85309": {
+    "lat": 48.6167,
+    "lon": 11.4667,
+    "city": "Pörnbach"
+  },
+  "85322": {
+    "lat": 48.3993,
+    "lon": 11.7517,
+    "city": "Agentur für Arbeit Freising"
+  },
+  "85350": {
+    "lat": 48.3966,
+    "lon": 11.7393,
+    "city": "FH Weihenstephan"
+  },
+  "85354": {
+    "lat": 48.3938,
+    "lon": 11.7331,
+    "city": "Freising"
+  },
+  "85356": {
+    "lat": 48.3924,
+    "lon": 11.7569,
+    "city": "Freising"
+  },
+  "85359": {
+    "lat": 48.3555,
+    "lon": 11.7424,
+    "city": "Deutsche Post AG Niederlassung BRIEF Freising"
+  },
+  "85366": {
+    "lat": 48.4619,
+    "lon": 11.9575,
+    "city": "Nau GmbH"
+  },
+  "85368": {
+    "lat": 48.4832,
+    "lon": 11.9373,
+    "city": "Wang"
+  },
+  "85374": {
+    "lat": 48.3123,
+    "lon": 11.6495,
+    "city": "Office Discount"
+  },
+  "85375": {
+    "lat": 48.3159,
+    "lon": 11.6632,
+    "city": "Neufahrn bei Freising"
+  },
+  "85376": {
+    "lat": 48.3167,
+    "lon": 11.6667,
+    "city": "Hetzenhausen"
+  },
+  "85385": {
+    "lat": 48.3254,
+    "lon": 11.6711,
+    "city": "MZV"
+  },
+  "85386": {
+    "lat": 48.3,
+    "lon": 11.6167,
+    "city": "Eching"
+  },
+  "85391": {
+    "lat": 48.4333,
+    "lon": 11.6,
+    "city": "Allershausen"
+  },
+  "85395": {
+    "lat": 48.4924,
+    "lon": 11.7348,
+    "city": "Wolfersdorf"
+  },
+  "85399": {
+    "lat": 48.3275,
+    "lon": 11.7514,
+    "city": "Hallbergmoos"
+  },
+  "85402": {
+    "lat": 48.4061,
+    "lon": 11.6125,
+    "city": "Kranzberg"
+  },
+  "85405": {
+    "lat": 48.5364,
+    "lon": 11.8073,
+    "city": "Nandlstadt"
+  },
+  "85406": {
+    "lat": 48.45,
+    "lon": 11.7667,
+    "city": "Zolling"
+  },
+  "85408": {
+    "lat": 48.55,
+    "lon": 11.95,
+    "city": "Gammelsdorf"
+  },
+  "85410": {
+    "lat": 48.4584,
+    "lon": 11.828,
+    "city": "Haag an der Amper"
+  },
+  "85411": {
+    "lat": 48.4241,
+    "lon": 11.5252,
+    "city": "Hohenkammer"
+  },
+  "85413": {
+    "lat": 48.55,
+    "lon": 11.8667,
+    "city": "Hörgertshausen"
+  },
+  "85414": {
+    "lat": 48.4667,
+    "lon": 11.65,
+    "city": "Kirchdorf an der Amper"
+  },
+  "85416": {
+    "lat": 48.4333,
+    "lon": 11.85,
+    "city": "Langenbach"
+  },
+  "85417": {
+    "lat": 48.409,
+    "lon": 11.7938,
+    "city": "Marzling"
+  },
+  "85419": {
+    "lat": 48.5167,
+    "lon": 11.9,
+    "city": "Mauern"
+  },
+  "85435": {
+    "lat": 48.306,
+    "lon": 11.9069,
+    "city": "Erding"
+  },
+  "85445": {
+    "lat": 48.3167,
+    "lon": 11.85,
+    "city": "Oberding"
+  },
+  "85447": {
+    "lat": 48.3667,
+    "lon": 12,
+    "city": "Fraunberg"
+  },
+  "85452": {
+    "lat": 48.2771,
+    "lon": 11.8445,
+    "city": "Moosinning"
+  },
+  "85456": {
+    "lat": 48.406,
+    "lon": 11.9886,
+    "city": "Wartenberg"
+  },
+  "85457": {
+    "lat": 48.2453,
+    "lon": 11.9021,
+    "city": "Wörth"
+  },
+  "85459": {
+    "lat": 48.3841,
+    "lon": 11.9301,
+    "city": "Berglern"
+  },
+  "85461": {
+    "lat": 48.3147,
+    "lon": 11.9869,
+    "city": "Bockhorn"
+  },
+  "85462": {
+    "lat": 48.3596,
+    "lon": 11.8911,
+    "city": "Eitting"
+  },
+  "85464": {
+    "lat": 48.2162,
+    "lon": 11.8241,
+    "city": "Finsing"
+  },
+  "85465": {
+    "lat": 48.4257,
+    "lon": 11.9722,
+    "city": "Langenpreising"
+  },
+  "85467": {
+    "lat": 48.2333,
+    "lon": 11.85,
+    "city": "Neuching"
+  },
+  "85469": {
+    "lat": 48.2584,
+    "lon": 11.9753,
+    "city": "Walpertskirchen"
+  },
+  "85521": {
+    "lat": 48.0649,
+    "lon": 11.6633,
+    "city": "Ottobrunn"
+  },
+  "85540": {
+    "lat": 48.1088,
+    "lon": 11.7265,
+    "city": "Haar"
+  },
+  "85551": {
+    "lat": 48.1766,
+    "lon": 11.7556,
+    "city": "Kirchheim bei München"
+  },
+  "85560": {
+    "lat": 48.0771,
+    "lon": 11.9706,
+    "city": "Ebersberg"
+  },
+  "85567": {
+    "lat": 48.0336,
+    "lon": 11.9379,
+    "city": "Bruck"
+  },
+  "85570": {
+    "lat": 48.2031,
+    "lon": 11.8762,
+    "city": "Ottenhofen"
+  },
+  "85577": {
+    "lat": 48.0803,
+    "lon": 11.6382,
+    "city": "Universität der Bundeswehr München"
+  },
+  "85579": {
+    "lat": 48.0771,
+    "lon": 11.6581,
+    "city": "Neubiberg"
+  },
+  "85586": {
+    "lat": 48.17,
+    "lon": 11.8186,
+    "city": "Poing"
+  },
+  "85591": {
+    "lat": 48.1054,
+    "lon": 11.7682,
+    "city": "Vaterstetten"
+  },
+  "85598": {
+    "lat": 48.1148,
+    "lon": 11.7959,
+    "city": "Baldham"
+  },
+  "85599": {
+    "lat": 48.1422,
+    "lon": 11.788,
+    "city": "Parsdorf"
+  },
+  "85604": {
+    "lat": 48.0843,
+    "lon": 11.8245,
+    "city": "Zorneding"
+  },
+  "85608": {
+    "lat": 48.1459,
+    "lon": 11.6815,
+    "city": "Allianz Global Assistance International S.A. Deutschland"
+  },
+  "85609": {
+    "lat": 48.1711,
+    "lon": 11.7167,
+    "city": "Aschheim"
+  },
+  "85614": {
+    "lat": 48.0714,
+    "lon": 11.8888,
+    "city": "Kirchseeon"
+  },
+  "85617": {
+    "lat": 47.993,
+    "lon": 12.0064,
+    "city": "Aßling"
+  },
+  "85622": {
+    "lat": 48.1481,
+    "lon": 11.731,
+    "city": "Feldkirchen"
+  },
+  "85625": {
+    "lat": 47.9688,
+    "lon": 11.8836,
+    "city": "Glonn"
+  },
+  "85630": {
+    "lat": 48.0791,
+    "lon": 11.7436,
+    "city": "Grasbrunn"
+  },
+  "85635": {
+    "lat": 48.0193,
+    "lon": 11.7191,
+    "city": "Höhenkirchen-Siegertsbrunn"
+  },
+  "85639": {
+    "lat": 48.0751,
+    "lon": 11.723,
+    "city": "W.L. Gore & Associates GmbH"
+  },
+  "85640": {
+    "lat": 48.0758,
+    "lon": 11.7157,
+    "city": "Putzbrunn"
+  },
+  "85643": {
+    "lat": 48.0868,
+    "lon": 12.0314,
+    "city": "Steinhöring"
+  },
+  "85646": {
+    "lat": 48.1517,
+    "lon": 11.8533,
+    "city": "Anzing"
+  },
+  "85649": {
+    "lat": 48.0065,
+    "lon": 11.684,
+    "city": "Brunnthal"
+  },
+  "85652": {
+    "lat": 48.1956,
+    "lon": 11.8007,
+    "city": "Pliening"
+  },
+  "85653": {
+    "lat": 47.9701,
+    "lon": 11.7775,
+    "city": "Aying"
+  },
+  "85655": {
+    "lat": 47.9602,
+    "lon": 11.8366,
+    "city": "Loibersdorf bei Großhelfendorf"
+  },
+  "85656": {
+    "lat": 48.2151,
+    "lon": 11.9951,
+    "city": "Buch am Buchrain"
+  },
+  "85658": {
+    "lat": 48.0041,
+    "lon": 11.7953,
+    "city": "Egmating"
+  },
+  "85659": {
+    "lat": 48.1834,
+    "lon": 11.9772,
+    "city": "Forstern"
+  },
+  "85661": {
+    "lat": 48.1687,
+    "lon": 11.9124,
+    "city": "Forstinning"
+  },
+  "85662": {
+    "lat": 48.0478,
+    "lon": 11.7022,
+    "city": "Hohenbrunn"
+  },
+  "85664": {
+    "lat": 48.1561,
+    "lon": 11.9946,
+    "city": "Hohenlinden"
+  },
+  "85665": {
+    "lat": 48.0321,
+    "lon": 11.8751,
+    "city": "Moosach"
+  },
+  "85667": {
+    "lat": 48.022,
+    "lon": 11.8133,
+    "city": "Oberpframmern"
+  },
+  "85669": {
+    "lat": 48.1991,
+    "lon": 11.9437,
+    "city": "Pastetten"
+  },
+  "85711": {
+    "lat": 48.2781,
+    "lon": 11.5803,
+    "city": "Spedicam GmbH"
+  },
+  "85716": {
+    "lat": 48.2804,
+    "lon": 11.5768,
+    "city": "Unterschleißheim"
+  },
+  "85736": {
+    "lat": 48.2393,
+    "lon": 11.665,
+    "city": "VWR International GmbH"
+  },
+  "85737": {
+    "lat": 48.2333,
+    "lon": 11.6833,
+    "city": "Ismaning"
+  },
+  "85746": {
+    "lat": 48.2501,
+    "lon": 11.6289,
+    "city": "Swiss Life AG Niederlassung für Deutschland"
+  },
+  "85747": {
+    "lat": 48.2537,
+    "lon": 11.6421,
+    "city": "OSRAM GmbH"
+  },
+  "85748": {
+    "lat": 48.249,
+    "lon": 11.651,
+    "city": "Garching bei München"
+  },
+  "85757": {
+    "lat": 48.2167,
+    "lon": 11.4667,
+    "city": "Karlsfeld"
+  },
+  "85761": {
+    "lat": 48.2212,
+    "lon": 11.589,
+    "city": "Helmholtz Zentrum München"
+  },
+  "85762": {
+    "lat": 48.2352,
+    "lon": 11.5686,
+    "city": "Bundesamt für Strahlenschutz Institut für Strahlenhygiene"
+  },
+  "85764": {
+    "lat": 48.25,
+    "lon": 11.5667,
+    "city": "Oberschleißheim"
+  },
+  "85769": {
+    "lat": 48.1877,
+    "lon": 11.6462,
+    "city": "Allianz Versicherungs-AG Dienstleistungsgebiet Südost"
+  },
+  "85770": {
+    "lat": 48.1877,
+    "lon": 11.6462,
+    "city": "AllSecur Deutschland AG"
+  },
+  "85773": {
+    "lat": 48.1895,
+    "lon": 11.6471,
+    "city": "ProSieben Media AG"
+  },
+  "85774": {
+    "lat": 48.1925,
+    "lon": 11.6429,
+    "city": "Unterföhring"
+  },
+  "85777": {
+    "lat": 48.3532,
+    "lon": 11.5552,
+    "city": "Fahrenzhausen"
+  },
+  "85778": {
+    "lat": 48.3155,
+    "lon": 11.5545,
+    "city": "Haimhausen"
+  },
+  "85821": {
+    "lat": 48.3321,
+    "lon": 11.741,
+    "city": "Techniker Krankenkasse"
+  },
+  "86121": {
+    "lat": 48.3648,
+    "lon": 10.8903,
+    "city": "HUK-Coburg"
+  },
+  "86130": {
+    "lat": 48.3636,
+    "lon": 10.8883,
+    "city": "Dialog Lebensversicherungs AG"
+  },
+  "86131": {
+    "lat": 48.3472,
+    "lon": 10.884,
+    "city": "Weltbild GmbH & Co. KG"
+  },
+  "86132": {
+    "lat": 48.3727,
+    "lon": 10.9091,
+    "city": "Berufsgenossenschaft Energie Textil Elektro Medienerzeugnisse"
+  },
+  "86133": {
+    "lat": 48.3957,
+    "lon": 10.9197,
+    "city": "Presse-Druck- und Verlags-GmbH"
+  },
+  "86134": {
+    "lat": 48.368,
+    "lon": 10.8901,
+    "city": "AOK Bayern - Die Gesundheitskasse Direktion Augsburg"
+  },
+  "86135": {
+    "lat": 48.3913,
+    "lon": 10.666,
+    "city": "NCR GmbH"
+  },
+  "86136": {
+    "lat": 48.3629,
+    "lon": 10.8941,
+    "city": "LEDVANCE GmbH"
+  },
+  "86140": {
+    "lat": 48.3611,
+    "lon": 10.8998,
+    "city": "Haus St. Ulrich Tagungs- u.Seelsorge- zentrum der Diözese Augsburg KdöR"
+  },
+  "86141": {
+    "lat": 48.3736,
+    "lon": 10.8964,
+    "city": "Diözese Augsburg K.d.ö.R"
+  },
+  "86142": {
+    "lat": 48.3688,
+    "lon": 10.8921,
+    "city": "Amtsgericht Augsburg"
+  },
+  "86143": {
+    "lat": 48.3683,
+    "lon": 10.8981,
+    "city": "Stadt Augsburg"
+  },
+  "86144": {
+    "lat": 48.3685,
+    "lon": 10.8848,
+    "city": "Finanzamt Augsburg-Land"
+  },
+  "86145": {
+    "lat": 48.3722,
+    "lon": 10.8943,
+    "city": "Regierung von Schwaben"
+  },
+  "86147": {
+    "lat": 48.3709,
+    "lon": 10.8996,
+    "city": "IKK classic"
+  },
+  "86150": {
+    "lat": 48.3673,
+    "lon": 10.8921,
+    "city": "Augsburg"
+  },
+  "86152": {
+    "lat": 48.3718,
+    "lon": 10.8925,
+    "city": "Augsburg"
+  },
+  "86153": {
+    "lat": 48.3664,
+    "lon": 10.9034,
+    "city": "Augsburg"
+  },
+  "86154": {
+    "lat": 48.3932,
+    "lon": 10.8814,
+    "city": "Augsburg"
+  },
+  "86156": {
+    "lat": 48.3815,
+    "lon": 10.8548,
+    "city": "Augsburg"
+  },
+  "86157": {
+    "lat": 48.3643,
+    "lon": 10.8761,
+    "city": "Augsburg"
+  },
+  "86159": {
+    "lat": 48.3509,
+    "lon": 10.895,
+    "city": "Augsburg"
+  },
+  "86161": {
+    "lat": 48.3505,
+    "lon": 10.9133,
+    "city": "Augsburg"
+  },
+  "86163": {
+    "lat": 48.3553,
+    "lon": 10.9431,
+    "city": "Augsburg"
+  },
+  "86165": {
+    "lat": 48.3822,
+    "lon": 10.9337,
+    "city": "Augsburg"
+  },
+  "86167": {
+    "lat": 48.3877,
+    "lon": 10.9161,
+    "city": "Augsburg"
+  },
+  "86169": {
+    "lat": 48.405,
+    "lon": 10.9061,
+    "city": "Augsburg"
+  },
+  "86177": {
+    "lat": 48.3267,
+    "lon": 10.903,
+    "city": "Bayerisches Landesamt für Umwelt"
+  },
+  "86179": {
+    "lat": 48.3109,
+    "lon": 10.9001,
+    "city": "Augsburg"
+  },
+  "86197": {
+    "lat": 48.3501,
+    "lon": 10.8788,
+    "city": "Staatsanwaltschaft Augsburg"
+  },
+  "86199": {
+    "lat": 48.3291,
+    "lon": 10.8578,
+    "city": "Augsburg"
+  },
+  "86216": {
+    "lat": 48.3495,
+    "lon": 10.9172,
+    "city": "Handwerkskammer für Schwaben"
+  },
+  "86218": {
+    "lat": 48.3771,
+    "lon": 10.8863,
+    "city": "Agentur für Arbeit Augsburg"
+  },
+  "86219": {
+    "lat": 48.3819,
+    "lon": 10.888,
+    "city": "manroland AG"
+  },
+  "86220": {
+    "lat": 48.3394,
+    "lon": 10.8843,
+    "city": "Deutsche Post AG GB Vertrieb GWK Direkt Marketing Center"
+  },
+  "86221": {
+    "lat": 48.3953,
+    "lon": 10.8785,
+    "city": "Sonepar Deutschland Region Süd GmbH"
+  },
+  "86222": {
+    "lat": 48.366,
+    "lon": 10.8915,
+    "city": "UniCredit Bank AG"
+  },
+  "86223": {
+    "lat": 48.3872,
+    "lon": 10.8833,
+    "city": "Deutsche Rentenversicherung Schwaben"
+  },
+  "86225": {
+    "lat": 48.4116,
+    "lon": 10.8659,
+    "city": "Deutsche Post AG Niederlassung Betrieb Augsburg"
+  },
+  "86226": {
+    "lat": 48.363,
+    "lon": 10.8954,
+    "city": "BARMER"
+  },
+  "86313": {
+    "lat": 48.3551,
+    "lon": 10.9778,
+    "city": "Stadt Friedberg"
+  },
+  "86316": {
+    "lat": 48.3569,
+    "lon": 10.9846,
+    "city": "Friedberg"
+  },
+  "86343": {
+    "lat": 48.2751,
+    "lon": 10.8918,
+    "city": "Königsbrunn"
+  },
+  "86356": {
+    "lat": 48.3925,
+    "lon": 10.8333,
+    "city": "Neusäß"
+  },
+  "86368": {
+    "lat": 48.4243,
+    "lon": 10.8727,
+    "city": "Gersthofen"
+  },
+  "86379": {
+    "lat": 48.2457,
+    "lon": 10.36,
+    "city": "BORGERS Süd GmbH"
+  },
+  "86381": {
+    "lat": 48.2418,
+    "lon": 10.3632,
+    "city": "Krumbach"
+  },
+  "86391": {
+    "lat": 48.3664,
+    "lon": 10.8464,
+    "city": "Stadtbergen"
+  },
+  "86397": {
+    "lat": 48.2638,
+    "lon": 10.8193,
+    "city": "Trevira GmbH & Co KG"
+  },
+  "86399": {
+    "lat": 48.2709,
+    "lon": 10.8339,
+    "city": "Bobingen"
+  },
+  "86405": {
+    "lat": 48.5459,
+    "lon": 10.8518,
+    "city": "Meitingen"
+  },
+  "86415": {
+    "lat": 48.2656,
+    "lon": 10.9846,
+    "city": "Mering"
+  },
+  "86420": {
+    "lat": 48.3532,
+    "lon": 10.7821,
+    "city": "Diedorf"
+  },
+  "86424": {
+    "lat": 48.3483,
+    "lon": 10.5889,
+    "city": "Dinkelscherben"
+  },
+  "86436": {
+    "lat": 48.294,
+    "lon": 10.9637,
+    "city": "WEKA Verlagsservice GmbH"
+  },
+  "86438": {
+    "lat": 48.3038,
+    "lon": 10.9709,
+    "city": "Kissing"
+  },
+  "86441": {
+    "lat": 48.4001,
+    "lon": 10.5992,
+    "city": "Zusmarshausen"
+  },
+  "86444": {
+    "lat": 48.4667,
+    "lon": 10.9833,
+    "city": "Affing"
+  },
+  "86447": {
+    "lat": 48.5154,
+    "lon": 10.9409,
+    "city": "Aindling"
+  },
+  "86450": {
+    "lat": 48.465,
+    "lon": 10.5906,
+    "city": "Altenmünster"
+  },
+  "86453": {
+    "lat": 48.3848,
+    "lon": 11.0467,
+    "city": "Dasing"
+  },
+  "86456": {
+    "lat": 48.45,
+    "lon": 10.8167,
+    "city": "Gablingen"
+  },
+  "86459": {
+    "lat": 48.329,
+    "lon": 10.7328,
+    "city": "Gessertshausen"
+  },
+  "86462": {
+    "lat": 48.4833,
+    "lon": 10.85,
+    "city": "Langweid am Lech"
+  },
+  "86465": {
+    "lat": 48.4574,
+    "lon": 10.6985,
+    "city": "Welden"
+  },
+  "86469": {
+    "lat": 48.2901,
+    "lon": 10.4561,
+    "city": "E. Raiss GmbH & Co. KG"
+  },
+  "86470": {
+    "lat": 48.2833,
+    "lon": 10.4692,
+    "city": "Thannhausen"
+  },
+  "86473": {
+    "lat": 48.2924,
+    "lon": 10.535,
+    "city": "Ziemetshausen"
+  },
+  "86476": {
+    "lat": 48.3028,
+    "lon": 10.3613,
+    "city": "Neuburg an der Kammel"
+  },
+  "86477": {
+    "lat": 48.4246,
+    "lon": 10.7183,
+    "city": "Adelsried"
+  },
+  "86479": {
+    "lat": 48.229,
+    "lon": 10.5395,
+    "city": "Aichen"
+  },
+  "86480": {
+    "lat": 48.1946,
+    "lon": 10.3767,
+    "city": "Aletshausen"
+  },
+  "86482": {
+    "lat": 48.4056,
+    "lon": 10.7774,
+    "city": "Aystetten"
+  },
+  "86483": {
+    "lat": 48.2423,
+    "lon": 10.4937,
+    "city": "Balzhausen"
+  },
+  "86485": {
+    "lat": 48.5178,
+    "lon": 10.8114,
+    "city": "Biberbach"
+  },
+  "86486": {
+    "lat": 48.44,
+    "lon": 10.7053,
+    "city": "Bonstetten"
+  },
+  "86488": {
+    "lat": 48.2378,
+    "lon": 10.2995,
+    "city": "Breitenthal"
+  },
+  "86489": {
+    "lat": 48.2555,
+    "lon": 10.327,
+    "city": "Deisenhausen"
+  },
+  "86491": {
+    "lat": 48.2055,
+    "lon": 10.3156,
+    "city": "Ebershausen"
+  },
+  "86492": {
+    "lat": 48.1833,
+    "lon": 10.9833,
+    "city": "Egling an der Paar"
+  },
+  "86494": {
+    "lat": 48.4897,
+    "lon": 10.6738,
+    "city": "Emersacker"
+  },
+  "86495": {
+    "lat": 48.3333,
+    "lon": 11.0833,
+    "city": "Eurasburg"
+  },
+  "86497": {
+    "lat": 48.3951,
+    "lon": 10.6828,
+    "city": "Horgau"
+  },
+  "86498": {
+    "lat": 48.1833,
+    "lon": 10.2667,
+    "city": "Kettershausen"
+  },
+  "86500": {
+    "lat": 48.342,
+    "lon": 10.6946,
+    "city": "Kutzenhausen"
+  },
+  "86502": {
+    "lat": 48.5333,
+    "lon": 10.7,
+    "city": "Laugna"
+  },
+  "86504": {
+    "lat": 48.2459,
+    "lon": 10.9853,
+    "city": "Merching"
+  },
+  "86505": {
+    "lat": 48.3097,
+    "lon": 10.455,
+    "city": "Münsterhausen"
+  },
+  "86507": {
+    "lat": 48.2279,
+    "lon": 10.8634,
+    "city": "Kleinaitingen"
+  },
+  "86508": {
+    "lat": 48.4833,
+    "lon": 10.9333,
+    "city": "Rehling"
+  },
+  "86510": {
+    "lat": 48.2901,
+    "lon": 11.0438,
+    "city": "Ried"
+  },
+  "86511": {
+    "lat": 48.2167,
+    "lon": 10.9667,
+    "city": "Schmiechen"
+  },
+  "86513": {
+    "lat": 48.2643,
+    "lon": 10.4459,
+    "city": "Ursberg"
+  },
+  "86514": {
+    "lat": 48.3167,
+    "lon": 10.65,
+    "city": "Ustersbach"
+  },
+  "86517": {
+    "lat": 48.25,
+    "lon": 10.8,
+    "city": "Wehringen"
+  },
+  "86519": {
+    "lat": 48.2667,
+    "lon": 10.3333,
+    "city": "Wiesenbach"
+  },
+  "86529": {
+    "lat": 48.5607,
+    "lon": 11.2607,
+    "city": "Schrobenhausen"
+  },
+  "86551": {
+    "lat": 48.4576,
+    "lon": 11.1341,
+    "city": "Aichach"
+  },
+  "86554": {
+    "lat": 48.5838,
+    "lon": 11.0876,
+    "city": "Pöttmes"
+  },
+  "86556": {
+    "lat": 48.491,
+    "lon": 11.1869,
+    "city": "Kühbach"
+  },
+  "86558": {
+    "lat": 48.5935,
+    "lon": 11.3827,
+    "city": "Hohenwart"
+  },
+  "86559": {
+    "lat": 48.3567,
+    "lon": 11.1385,
+    "city": "Adelzhausen"
+  },
+  "86561": {
+    "lat": 48.5333,
+    "lon": 11.3,
+    "city": "Aresing"
+  },
+  "86562": {
+    "lat": 48.6333,
+    "lon": 11.25,
+    "city": "Berg im Gau"
+  },
+  "86564": {
+    "lat": 48.629,
+    "lon": 11.3092,
+    "city": "Brunnen"
+  },
+  "86565": {
+    "lat": 48.5,
+    "lon": 11.2333,
+    "city": "Gachenbach"
+  },
+  "86567": {
+    "lat": 48.4296,
+    "lon": 11.3543,
+    "city": "Hilgertshausen-Tandern"
+  },
+  "86568": {
+    "lat": 48.4833,
+    "lon": 11.0667,
+    "city": "Hollenbach"
+  },
+  "86570": {
+    "lat": 48.5129,
+    "lon": 11.1146,
+    "city": "Inchenhofen"
+  },
+  "86571": {
+    "lat": 48.6066,
+    "lon": 11.2138,
+    "city": "Langenmosen"
+  },
+  "86573": {
+    "lat": 48.423,
+    "lon": 11.0685,
+    "city": "Obergriesbach"
+  },
+  "86574": {
+    "lat": 48.5167,
+    "lon": 11.0333,
+    "city": "Petersdorf"
+  },
+  "86576": {
+    "lat": 48.4629,
+    "lon": 11.2488,
+    "city": "Schiltberg"
+  },
+  "86577": {
+    "lat": 48.4,
+    "lon": 11.1667,
+    "city": "Sielenbach"
+  },
+  "86579": {
+    "lat": 48.5768,
+    "lon": 11.3354,
+    "city": "Waidhofen"
+  },
+  "86606": {
+    "lat": 48.7153,
+    "lon": 10.7887,
+    "city": "Agentur für Arbeit Donauwörth"
+  },
+  "86607": {
+    "lat": 48.7172,
+    "lon": 10.7782,
+    "city": "Stadtverwaltung"
+  },
+  "86609": {
+    "lat": 48.718,
+    "lon": 10.7793,
+    "city": "Donauwörth"
+  },
+  "86633": {
+    "lat": 48.7322,
+    "lon": 11.1871,
+    "city": "Neuburg an der Donau"
+  },
+  "86637": {
+    "lat": 48.5631,
+    "lon": 10.6815,
+    "city": "Wertingen"
+  },
+  "86640": {
+    "lat": 48.6904,
+    "lon": 10.9139,
+    "city": "Dehner Holding GmbH & Co. KG"
+  },
+  "86641": {
+    "lat": 48.6903,
+    "lon": 10.9161,
+    "city": "Rain"
+  },
+  "86643": {
+    "lat": 48.7594,
+    "lon": 11.0454,
+    "city": "Rennertshofen"
+  },
+  "86646": {
+    "lat": 48.6053,
+    "lon": 10.7277,
+    "city": "Erwin Müller"
+  },
+  "86647": {
+    "lat": 48.6,
+    "lon": 10.7167,
+    "city": "Buttenwiesen"
+  },
+  "86650": {
+    "lat": 48.8746,
+    "lon": 10.7245,
+    "city": "Wemding"
+  },
+  "86652": {
+    "lat": 48.8469,
+    "lon": 10.8593,
+    "city": "Hama GmbH & Co. KG"
+  },
+  "86653": {
+    "lat": 48.8179,
+    "lon": 10.8815,
+    "city": "Monheim"
+  },
+  "86655": {
+    "lat": 48.7867,
+    "lon": 10.6893,
+    "city": "Harburg"
+  },
+  "86657": {
+    "lat": 48.7169,
+    "lon": 10.6177,
+    "city": "Bissingen"
+  },
+  "86660": {
+    "lat": 48.6732,
+    "lon": 10.6838,
+    "city": "Tapfheim"
+  },
+  "86663": {
+    "lat": 48.6833,
+    "lon": 10.8167,
+    "city": "Asbach-Bäumenheim"
+  },
+  "86666": {
+    "lat": 48.7004,
+    "lon": 11.016,
+    "city": "Burgheim"
+  },
+  "86668": {
+    "lat": 48.6819,
+    "lon": 11.285,
+    "city": "Karlshuld"
+  },
+  "86669": {
+    "lat": 48.6667,
+    "lon": 11.2167,
+    "city": "Königsmoos"
+  },
+  "86672": {
+    "lat": 48.5653,
+    "lon": 10.9086,
+    "city": "Thierhaupten"
+  },
+  "86673": {
+    "lat": 48.7606,
+    "lon": 11.2574,
+    "city": "Bergheim"
+  },
+  "86674": {
+    "lat": 48.5833,
+    "lon": 10.9667,
+    "city": "Baar"
+  },
+  "86675": {
+    "lat": 48.7833,
+    "lon": 10.8333,
+    "city": "Buchdorf"
+  },
+  "86676": {
+    "lat": 48.6333,
+    "lon": 11.1,
+    "city": "Ehekirchen"
+  },
+  "86678": {
+    "lat": 48.6,
+    "lon": 10.8,
+    "city": "Ehingen"
+  },
+  "86679": {
+    "lat": 48.6,
+    "lon": 10.8667,
+    "city": "Ellgau"
+  },
+  "86681": {
+    "lat": 48.8321,
+    "lon": 10.7654,
+    "city": "Fünfstetten"
+  },
+  "86682": {
+    "lat": 48.7,
+    "lon": 10.8833,
+    "city": "Genderkingen"
+  },
+  "86684": {
+    "lat": 48.6112,
+    "lon": 10.9484,
+    "city": "Holzheim"
+  },
+  "86685": {
+    "lat": 48.8251,
+    "lon": 10.7033,
+    "city": "Huisheim"
+  },
+  "86687": {
+    "lat": 48.7675,
+    "lon": 10.7964,
+    "city": "Kaisheim"
+  },
+  "86688": {
+    "lat": 48.7415,
+    "lon": 10.945,
+    "city": "Marxheim"
+  },
+  "86690": {
+    "lat": 48.657,
+    "lon": 10.8056,
+    "city": "Mertingen"
+  },
+  "86692": {
+    "lat": 48.6225,
+    "lon": 10.9017,
+    "city": "Münster"
+  },
+  "86694": {
+    "lat": 48.7167,
+    "lon": 10.9333,
+    "city": "Niederschönenfeld"
+  },
+  "86695": {
+    "lat": 48.6037,
+    "lon": 10.8206,
+    "city": "Nordendorf"
+  },
+  "86697": {
+    "lat": 48.722,
+    "lon": 11.1115,
+    "city": "Oberhausen"
+  },
+  "86698": {
+    "lat": 48.6667,
+    "lon": 10.8667,
+    "city": "Oberndorf am Lech"
+  },
+  "86700": {
+    "lat": 48.8725,
+    "lon": 10.8002,
+    "city": "Otting"
+  },
+  "86701": {
+    "lat": 48.6865,
+    "lon": 11.1562,
+    "city": "Rohrenfels"
+  },
+  "86703": {
+    "lat": 48.85,
+    "lon": 10.95,
+    "city": "Rögling"
+  },
+  "86704": {
+    "lat": 48.8167,
+    "lon": 10.9667,
+    "city": "Tagmersheim"
+  },
+  "86706": {
+    "lat": 48.7171,
+    "lon": 11.3214,
+    "city": "Weichering"
+  },
+  "86707": {
+    "lat": 48.5694,
+    "lon": 10.8286,
+    "city": "Westendorf"
+  },
+  "86709": {
+    "lat": 48.9035,
+    "lon": 10.7813,
+    "city": "Wolferstadt"
+  },
+  "86720": {
+    "lat": 48.8512,
+    "lon": 10.4887,
+    "city": "Nördlingen"
+  },
+  "86732": {
+    "lat": 48.9527,
+    "lon": 10.6046,
+    "city": "Oettingen in Bayern"
+  },
+  "86733": {
+    "lat": 48.85,
+    "lon": 10.6167,
+    "city": "Alerheim"
+  },
+  "86735": {
+    "lat": 48.7462,
+    "lon": 10.4678,
+    "city": "Forheim"
+  },
+  "86736": {
+    "lat": 49.0079,
+    "lon": 10.6224,
+    "city": "Auhausen"
+  },
+  "86738": {
+    "lat": 48.8667,
+    "lon": 10.5667,
+    "city": "Deiningen"
+  },
+  "86739": {
+    "lat": 48.8083,
+    "lon": 10.4661,
+    "city": "Ederheim"
+  },
+  "86741": {
+    "lat": 48.9642,
+    "lon": 10.5543,
+    "city": "Ehingen am Ries"
+  },
+  "86742": {
+    "lat": 48.9724,
+    "lon": 10.4575,
+    "city": "Fremdingen"
+  },
+  "86744": {
+    "lat": 48.9584,
+    "lon": 10.6249,
+    "city": "Hainsfarth"
+  },
+  "86745": {
+    "lat": 48.784,
+    "lon": 10.5349,
+    "city": "Hohenaltheim"
+  },
+  "86747": {
+    "lat": 48.9275,
+    "lon": 10.4987,
+    "city": "Maihingen"
+  },
+  "86748": {
+    "lat": 48.9257,
+    "lon": 10.4708,
+    "city": "Marktoffingen"
+  },
+  "86750": {
+    "lat": 48.9333,
+    "lon": 10.65,
+    "city": "Megesheim"
+  },
+  "86751": {
+    "lat": 48.776,
+    "lon": 10.5804,
+    "city": "Mönchsdeggingen"
+  },
+  "86753": {
+    "lat": 48.8092,
+    "lon": 10.5902,
+    "city": "Möttingen"
+  },
+  "86754": {
+    "lat": 48.9167,
+    "lon": 10.6,
+    "city": "Munningen"
+  },
+  "86756": {
+    "lat": 48.8167,
+    "lon": 10.5167,
+    "city": "Reimlingen"
+  },
+  "86757": {
+    "lat": 48.8874,
+    "lon": 10.4759,
+    "city": "Wallerstein"
+  },
+  "86759": {
+    "lat": 48.8923,
+    "lon": 10.6133,
+    "city": "Wechingen"
+  },
+  "86807": {
+    "lat": 48.0372,
+    "lon": 10.7255,
+    "city": "Buchloe"
+  },
+  "86825": {
+    "lat": 48.0067,
+    "lon": 10.5967,
+    "city": "Bad Wörishofen"
+  },
+  "86830": {
+    "lat": 48.1793,
+    "lon": 10.7568,
+    "city": "Schwabmünchen"
+  },
+  "86833": {
+    "lat": 48.1,
+    "lon": 10.65,
+    "city": "Ettringen"
+  },
+  "86836": {
+    "lat": 48.1627,
+    "lon": 10.8163,
+    "city": "Graben"
+  },
+  "86842": {
+    "lat": 48.064,
+    "lon": 10.6416,
+    "city": "Türkheim"
+  },
+  "86845": {
+    "lat": 48.2275,
+    "lon": 10.7795,
+    "city": "Großaitingen"
+  },
+  "86850": {
+    "lat": 48.2905,
+    "lon": 10.6559,
+    "city": "Fischach"
+  },
+  "86853": {
+    "lat": 48.1459,
+    "lon": 10.7589,
+    "city": "Langerringen"
+  },
+  "86854": {
+    "lat": 48.0667,
+    "lon": 10.6833,
+    "city": "Amberg"
+  },
+  "86856": {
+    "lat": 48.1609,
+    "lon": 10.7175,
+    "city": "Hiltenfingen"
+  },
+  "86857": {
+    "lat": 48.1184,
+    "lon": 10.8111,
+    "city": "Hurlach"
+  },
+  "86859": {
+    "lat": 48.0667,
+    "lon": 10.8,
+    "city": "Igling"
+  },
+  "86860": {
+    "lat": 47.9993,
+    "lon": 10.7257,
+    "city": "Jengen"
+  },
+  "86862": {
+    "lat": 48.092,
+    "lon": 10.7398,
+    "city": "Lamerdingen"
+  },
+  "86863": {
+    "lat": 48.2667,
+    "lon": 10.6,
+    "city": "Langenneufnach"
+  },
+  "86865": {
+    "lat": 48.1368,
+    "lon": 10.582,
+    "city": "Markt Wald"
+  },
+  "86866": {
+    "lat": 48.2417,
+    "lon": 10.6403,
+    "city": "Mickhausen"
+  },
+  "86868": {
+    "lat": 48.1764,
+    "lon": 10.5975,
+    "city": "Mittelneufnach"
+  },
+  "86869": {
+    "lat": 47.9436,
+    "lon": 10.7427,
+    "city": "Oberostendorf"
+  },
+  "86871": {
+    "lat": 48.0667,
+    "lon": 10.5833,
+    "city": "Rammingen"
+  },
+  "86872": {
+    "lat": 48.1803,
+    "lon": 10.6401,
+    "city": "Scherstetten"
+  },
+  "86874": {
+    "lat": 48.1022,
+    "lon": 10.5607,
+    "city": "Tussenhausen"
+  },
+  "86875": {
+    "lat": 47.9968,
+    "lon": 10.7779,
+    "city": "Waal"
+  },
+  "86877": {
+    "lat": 48.2261,
+    "lon": 10.5884,
+    "city": "Walkertshofen"
+  },
+  "86879": {
+    "lat": 48.0395,
+    "lon": 10.6741,
+    "city": "Wiedergeltingen"
+  },
+  "86894": {
+    "lat": 48.0661,
+    "lon": 10.8589,
+    "city": "Verlag Moderne Industrie"
+  },
+  "86895": {
+    "lat": 48.0661,
+    "lon": 10.8589,
+    "city": "Rhenus Medien Logistik GmbH & Co.KG"
+  },
+  "86896": {
+    "lat": 48.0499,
+    "lon": 10.8717,
+    "city": "Amtsgericht"
+  },
+  "86899": {
+    "lat": 48.0482,
+    "lon": 10.8828,
+    "city": "Landsberg am Lech"
+  },
+  "86911": {
+    "lat": 47.9508,
+    "lon": 11.1031,
+    "city": "Dießen am Ammersee"
+  },
+  "86915": {
+    "lat": 48.0847,
+    "lon": 10.8604,
+    "city": "Hilti"
+  },
+  "86916": {
+    "lat": 48.0912,
+    "lon": 10.8791,
+    "city": "Kaufering"
+  },
+  "86919": {
+    "lat": 48.0261,
+    "lon": 11.0861,
+    "city": "Utting am Ammersee"
+  },
+  "86920": {
+    "lat": 47.9167,
+    "lon": 10.85,
+    "city": "Denklingen"
+  },
+  "86922": {
+    "lat": 48.087,
+    "lon": 11.0239,
+    "city": "Eresing"
+  },
+  "86923": {
+    "lat": 48.0222,
+    "lon": 11.011,
+    "city": "Finning"
+  },
+  "86925": {
+    "lat": 47.9333,
+    "lon": 10.8167,
+    "city": "Fuchstal"
+  },
+  "86926": {
+    "lat": 48.0706,
+    "lon": 11.0835,
+    "city": "Greifenberg"
+  },
+  "86928": {
+    "lat": 48.0085,
+    "lon": 10.9711,
+    "city": "Hofstetten"
+  },
+  "86929": {
+    "lat": 48.0748,
+    "lon": 10.9274,
+    "city": "Penzing"
+  },
+  "86931": {
+    "lat": 48.2007,
+    "lon": 10.928,
+    "city": "Prittriching"
+  },
+  "86932": {
+    "lat": 48.0247,
+    "lon": 10.9221,
+    "city": "Pürgen"
+  },
+  "86934": {
+    "lat": 47.9228,
+    "lon": 10.9285,
+    "city": "Reichling"
+  },
+  "86935": {
+    "lat": 47.9047,
+    "lon": 10.9729,
+    "city": "Rott"
+  },
+  "86937": {
+    "lat": 48.1677,
+    "lon": 10.8957,
+    "city": "Scheuring"
+  },
+  "86938": {
+    "lat": 48.053,
+    "lon": 11.0914,
+    "city": "Schondorf am Ammersee"
+  },
+  "86940": {
+    "lat": 48.0456,
+    "lon": 10.9276,
+    "city": "Schwifting"
+  },
+  "86941": {
+    "lat": 48.0957,
+    "lon": 11.0452,
+    "city": "Sankt Ottilien"
+  },
+  "86943": {
+    "lat": 47.973,
+    "lon": 10.9577,
+    "city": "Thaining"
+  },
+  "86944": {
+    "lat": 47.9833,
+    "lon": 10.8333,
+    "city": "Unterdießen"
+  },
+  "86946": {
+    "lat": 47.95,
+    "lon": 10.9167,
+    "city": "Vilgertshofen"
+  },
+  "86947": {
+    "lat": 48.1172,
+    "lon": 10.9216,
+    "city": "Weil"
+  },
+  "86949": {
+    "lat": 48.0667,
+    "lon": 11.0333,
+    "city": "Windach"
+  },
+  "86956": {
+    "lat": 47.8124,
+    "lon": 10.8966,
+    "city": "Schongau"
+  },
+  "86971": {
+    "lat": 47.7955,
+    "lon": 10.9295,
+    "city": "Peiting"
+  },
+  "86972": {
+    "lat": 47.8236,
+    "lon": 10.8747,
+    "city": "Altenstadt"
+  },
+  "86974": {
+    "lat": 47.9,
+    "lon": 10.9333,
+    "city": "Apfeldorf"
+  },
+  "86975": {
+    "lat": 47.737,
+    "lon": 10.7771,
+    "city": "Bernbeuren"
+  },
+  "86977": {
+    "lat": 47.7769,
+    "lon": 10.8172,
+    "city": "Burggen"
+  },
+  "86978": {
+    "lat": 47.85,
+    "lon": 10.9,
+    "city": "Hohenfurch"
+  },
+  "86980": {
+    "lat": 47.8167,
+    "lon": 10.7833,
+    "city": "Ingenried"
+  },
+  "86981": {
+    "lat": 47.8833,
+    "lon": 10.9167,
+    "city": "Kinsau"
+  },
+  "86983": {
+    "lat": 47.7016,
+    "lon": 10.7949,
+    "city": "Lechbruck"
+  },
+  "86984": {
+    "lat": 47.6833,
+    "lon": 10.8,
+    "city": "Prem"
+  },
+  "86986": {
+    "lat": 47.825,
+    "lon": 10.8362,
+    "city": "Schwabbruck"
+  },
+  "86987": {
+    "lat": 47.8333,
+    "lon": 10.8333,
+    "city": "Schwabsoien"
+  },
+  "86989": {
+    "lat": 47.7,
+    "lon": 10.8667,
+    "city": "Steingaden"
+  },
+  "87428": {
+    "lat": 47.7322,
+    "lon": 10.3159,
+    "city": "Agentur für Arbeit Kempten"
+  },
+  "87432": {
+    "lat": 47.7291,
+    "lon": 10.3162,
+    "city": "Finanzamt"
+  },
+  "87435": {
+    "lat": 47.7184,
+    "lon": 10.3132,
+    "city": "Kempten"
+  },
+  "87437": {
+    "lat": 47.7229,
+    "lon": 10.3288,
+    "city": "Kempten"
+  },
+  "87439": {
+    "lat": 47.7177,
+    "lon": 10.2989,
+    "city": "Kempten"
+  },
+  "87443": {
+    "lat": 47.7603,
+    "lon": 10.3229,
+    "city": "Deutsche Post AG Kempten (Allgäu)"
+  },
+  "87448": {
+    "lat": 47.6732,
+    "lon": 10.307,
+    "city": "Waltenhofen"
+  },
+  "87452": {
+    "lat": 47.8041,
+    "lon": 10.2143,
+    "city": "Altusried"
+  },
+  "87459": {
+    "lat": 47.5822,
+    "lon": 10.5496,
+    "city": "Pfronten"
+  },
+  "87463": {
+    "lat": 47.8079,
+    "lon": 10.2895,
+    "city": "Dietmannsried"
+  },
+  "87466": {
+    "lat": 47.6333,
+    "lon": 10.4333,
+    "city": "Oy-Mittelberg"
+  },
+  "87471": {
+    "lat": 47.6944,
+    "lon": 10.3445,
+    "city": "Durach"
+  },
+  "87474": {
+    "lat": 47.6959,
+    "lon": 10.2393,
+    "city": "Buchenberg"
+  },
+  "87477": {
+    "lat": 47.6603,
+    "lon": 10.3499,
+    "city": "Sulzberg"
+  },
+  "87480": {
+    "lat": 47.6417,
+    "lon": 10.1273,
+    "city": "Weitnau"
+  },
+  "87484": {
+    "lat": 47.6234,
+    "lon": 10.5024,
+    "city": "Nesselwang"
+  },
+  "87487": {
+    "lat": 47.7478,
+    "lon": 10.2299,
+    "city": "Wiggensbach"
+  },
+  "87488": {
+    "lat": 47.7333,
+    "lon": 10.3833,
+    "city": "Betzigau"
+  },
+  "87490": {
+    "lat": 47.8,
+    "lon": 10.35,
+    "city": "Haldenwang"
+  },
+  "87491": {
+    "lat": 47.5741,
+    "lon": 10.4472,
+    "city": "Jungholz"
+  },
+  "87493": {
+    "lat": 47.7833,
+    "lon": 10.3,
+    "city": "Lauben"
+  },
+  "87494": {
+    "lat": 47.6667,
+    "lon": 10.55,
+    "city": "Rückholz"
+  },
+  "87496": {
+    "lat": 47.8333,
+    "lon": 10.3833,
+    "city": "Untrasried"
+  },
+  "87497": {
+    "lat": 47.603,
+    "lon": 10.4097,
+    "city": "Wertach"
+  },
+  "87499": {
+    "lat": 47.7667,
+    "lon": 10.4,
+    "city": "Wildpoldsried"
+  },
+  "87509": {
+    "lat": 47.56,
+    "lon": 10.2139,
+    "city": "Immenstadt im Allgäu"
+  },
+  "87527": {
+    "lat": 47.5091,
+    "lon": 10.258,
+    "city": "Sonthofen"
+  },
+  "87534": {
+    "lat": 47.5557,
+    "lon": 10.0224,
+    "city": "Oberstaufen"
+  },
+  "87538": {
+    "lat": 47.4611,
+    "lon": 10.2096,
+    "city": "Bolsterlang"
+  },
+  "87541": {
+    "lat": 47.5062,
+    "lon": 10.3723,
+    "city": "Bad Hindelang"
+  },
+  "87544": {
+    "lat": 47.5421,
+    "lon": 10.2585,
+    "city": "Blaichach"
+  },
+  "87545": {
+    "lat": 47.5355,
+    "lon": 10.2849,
+    "city": "Burgberg im Allgäu"
+  },
+  "87547": {
+    "lat": 47.6,
+    "lon": 10.1167,
+    "city": "Missen-Wilhams"
+  },
+  "87549": {
+    "lat": 47.5743,
+    "lon": 10.2917,
+    "city": "Rettenberg"
+  },
+  "87561": {
+    "lat": 47.4072,
+    "lon": 10.2794,
+    "city": "Oberstdorf"
+  },
+  "87600": {
+    "lat": 47.8824,
+    "lon": 10.6219,
+    "city": "Kaufbeuren"
+  },
+  "87616": {
+    "lat": 47.7512,
+    "lon": 10.5877,
+    "city": "Wald"
+  },
+  "87629": {
+    "lat": 47.5714,
+    "lon": 10.7017,
+    "city": "Füssen"
+  },
+  "87634": {
+    "lat": 47.8352,
+    "lon": 10.4269,
+    "city": "Günzach"
+  },
+  "87637": {
+    "lat": 47.6319,
+    "lon": 10.6036,
+    "city": "Seeg"
+  },
+  "87640": {
+    "lat": 47.8306,
+    "lon": 10.6402,
+    "city": "Biessenhofen"
+  },
+  "87642": {
+    "lat": 47.6316,
+    "lon": 10.8202,
+    "city": "Halblech"
+  },
+  "87645": {
+    "lat": 47.5604,
+    "lon": 10.7721,
+    "city": "Schwangau"
+  },
+  "87647": {
+    "lat": 47.7754,
+    "lon": 10.4877,
+    "city": "Kraftisried"
+  },
+  "87648": {
+    "lat": 47.8167,
+    "lon": 10.5333,
+    "city": "Aitrang"
+  },
+  "87650": {
+    "lat": 47.9444,
+    "lon": 10.5401,
+    "city": "Baisweil"
+  },
+  "87651": {
+    "lat": 47.8297,
+    "lon": 10.7262,
+    "city": "Bidingen"
+  },
+  "87653": {
+    "lat": 47.9167,
+    "lon": 10.5167,
+    "city": "Eggenthal"
+  },
+  "87654": {
+    "lat": 47.8748,
+    "lon": 10.5346,
+    "city": "Friesenried"
+  },
+  "87656": {
+    "lat": 47.9232,
+    "lon": 10.6721,
+    "city": "Germaringen"
+  },
+  "87657": {
+    "lat": 47.7067,
+    "lon": 10.5101,
+    "city": "Görisried"
+  },
+  "87659": {
+    "lat": 47.6167,
+    "lon": 10.6333,
+    "city": "Hopferau"
+  },
+  "87660": {
+    "lat": 47.9082,
+    "lon": 10.5718,
+    "city": "Irsee"
+  },
+  "87662": {
+    "lat": 47.8917,
+    "lon": 10.75,
+    "city": "Kaltental"
+  },
+  "87663": {
+    "lat": 47.7,
+    "lon": 10.6,
+    "city": "Lengenwang"
+  },
+  "87665": {
+    "lat": 47.8936,
+    "lon": 10.6713,
+    "city": "Mauerstetten"
+  },
+  "87666": {
+    "lat": 47.93,
+    "lon": 10.6136,
+    "city": "Pforzen"
+  },
+  "87668": {
+    "lat": 47.95,
+    "lon": 10.65,
+    "city": "Rieden"
+  },
+  "87669": {
+    "lat": 47.6167,
+    "lon": 10.7167,
+    "city": "Rieden am Forggensee"
+  },
+  "87671": {
+    "lat": 47.8958,
+    "lon": 10.4157,
+    "city": "Ronsberg"
+  },
+  "87672": {
+    "lat": 47.65,
+    "lon": 10.7167,
+    "city": "Roßhaupten"
+  },
+  "87674": {
+    "lat": 47.8167,
+    "lon": 10.5833,
+    "city": "Ruderatshofen"
+  },
+  "87675": {
+    "lat": 47.7563,
+    "lon": 10.7194,
+    "city": "Stötten am Auerberg"
+  },
+  "87677": {
+    "lat": 47.8833,
+    "lon": 10.7167,
+    "city": "Stöttwang"
+  },
+  "87679": {
+    "lat": 47.9333,
+    "lon": 10.7167,
+    "city": "Westendorf"
+  },
+  "87697": {
+    "lat": 48.0035,
+    "lon": 10.1765,
+    "city": "GEFRO GmbH & Co. KG"
+  },
+  "87700": {
+    "lat": 47.9837,
+    "lon": 10.1853,
+    "city": "Memmingen"
+  },
+  "87719": {
+    "lat": 48.0458,
+    "lon": 10.4922,
+    "city": "Mindelheim"
+  },
+  "87724": {
+    "lat": 47.9413,
+    "lon": 10.2997,
+    "city": "Ottobeuren"
+  },
+  "87727": {
+    "lat": 48.145,
+    "lon": 10.2533,
+    "city": "Babenhausen"
+  },
+  "87730": {
+    "lat": 47.8771,
+    "lon": 10.2221,
+    "city": "Bad Grönenbach"
+  },
+  "87733": {
+    "lat": 47.9473,
+    "lon": 10.3961,
+    "city": "Markt Rettenbach"
+  },
+  "87734": {
+    "lat": 47.9667,
+    "lon": 10.2167,
+    "city": "Benningen"
+  },
+  "87736": {
+    "lat": 47.8833,
+    "lon": 10.3,
+    "city": "Böhen"
+  },
+  "87737": {
+    "lat": 48.0752,
+    "lon": 10.1952,
+    "city": "Boos"
+  },
+  "87739": {
+    "lat": 48.1333,
+    "lon": 10.4,
+    "city": "Breitenbrunn"
+  },
+  "87740": {
+    "lat": 48,
+    "lon": 10.1333,
+    "city": "Buxheim"
+  },
+  "87742": {
+    "lat": 48.0093,
+    "lon": 10.5016,
+    "city": "Dirlewang"
+  },
+  "87743": {
+    "lat": 48.0871,
+    "lon": 10.2849,
+    "city": "Egg an der Günz"
+  },
+  "87745": {
+    "lat": 48.1667,
+    "lon": 10.5167,
+    "city": "Eppishausen"
+  },
+  "87746": {
+    "lat": 48.0373,
+    "lon": 10.3357,
+    "city": "Erkheim"
+  },
+  "87748": {
+    "lat": 48.0728,
+    "lon": 10.1522,
+    "city": "Fellheim"
+  },
+  "87749": {
+    "lat": 47.9667,
+    "lon": 10.2667,
+    "city": "Hawangen"
+  },
+  "87751": {
+    "lat": 48.0333,
+    "lon": 10.15,
+    "city": "Heimertingen"
+  },
+  "87752": {
+    "lat": 48.025,
+    "lon": 10.259,
+    "city": "Holzgünz"
+  },
+  "87754": {
+    "lat": 48.05,
+    "lon": 10.4167,
+    "city": "Kammlach"
+  },
+  "87755": {
+    "lat": 48.1504,
+    "lon": 10.3102,
+    "city": "Kirchhaslach"
+  },
+  "87757": {
+    "lat": 48.187,
+    "lon": 10.4661,
+    "city": "Kirchheim in Schwaben"
+  },
+  "87758": {
+    "lat": 47.9043,
+    "lon": 10.1572,
+    "city": "Kronburg"
+  },
+  "87760": {
+    "lat": 47.9459,
+    "lon": 10.2394,
+    "city": "Lachen"
+  },
+  "87761": {
+    "lat": 48.0593,
+    "lon": 10.2901,
+    "city": "Lauben"
+  },
+  "87763": {
+    "lat": 47.8982,
+    "lon": 10.1178,
+    "city": "Lautrach"
+  },
+  "87764": {
+    "lat": 47.8563,
+    "lon": 10.1298,
+    "city": "Legau"
+  },
+  "87766": {
+    "lat": 47.988,
+    "lon": 10.2229,
+    "city": "Memmingerberg"
+  },
+  "87767": {
+    "lat": 48.0576,
+    "lon": 10.1832,
+    "city": "Niederrieden"
+  },
+  "87769": {
+    "lat": 48.0889,
+    "lon": 10.4261,
+    "city": "Oberrieden"
+  },
+  "87770": {
+    "lat": 48.1085,
+    "lon": 10.2985,
+    "city": "Oberschönegg"
+  },
+  "87772": {
+    "lat": 48.1188,
+    "lon": 10.455,
+    "city": "Pfaffenhausen"
+  },
+  "87773": {
+    "lat": 48.1,
+    "lon": 10.15,
+    "city": "Pleß"
+  },
+  "87775": {
+    "lat": 48.1307,
+    "lon": 10.4789,
+    "city": "Salgen"
+  },
+  "87776": {
+    "lat": 48.007,
+    "lon": 10.3546,
+    "city": "Sontheim"
+  },
+  "87778": {
+    "lat": 48.0238,
+    "lon": 10.4447,
+    "city": "Stetten"
+  },
+  "87779": {
+    "lat": 48,
+    "lon": 10.2167,
+    "city": "Trunkelsberg"
+  },
+  "87781": {
+    "lat": 48.0057,
+    "lon": 10.2667,
+    "city": "Ungerhausen"
+  },
+  "87782": {
+    "lat": 47.9667,
+    "lon": 10.4667,
+    "city": "Unteregg"
+  },
+  "87784": {
+    "lat": 48.0167,
+    "lon": 10.3,
+    "city": "Westerheim"
+  },
+  "87785": {
+    "lat": 48.1212,
+    "lon": 10.2258,
+    "city": "Winterrieden"
+  },
+  "87787": {
+    "lat": 47.8935,
+    "lon": 10.2672,
+    "city": "Wolfertschwenden"
+  },
+  "87789": {
+    "lat": 47.9167,
+    "lon": 10.2,
+    "city": "Woringen"
+  },
+  "88038": {
+    "lat": 47.6607,
+    "lon": 9.4918,
+    "city": "ZF Friedrichshafen AG"
+  },
+  "88039": {
+    "lat": 47.6702,
+    "lon": 9.3924,
+    "city": "SOSTAR GmbH"
+  },
+  "88040": {
+    "lat": 47.6575,
+    "lon": 9.472,
+    "city": "Rolls-Royce Solutions GmbH"
+  },
+  "88041": {
+    "lat": 47.6597,
+    "lon": 9.4719,
+    "city": "AOK"
+  },
+  "88045": {
+    "lat": 47.6544,
+    "lon": 9.4726,
+    "city": "Friedrichshafen"
+  },
+  "88046": {
+    "lat": 47.6578,
+    "lon": 9.4852,
+    "city": "Friedrichshafen"
+  },
+  "88048": {
+    "lat": 47.6727,
+    "lon": 9.4299,
+    "city": "Friedrichshafen"
+  },
+  "88069": {
+    "lat": 47.6686,
+    "lon": 9.5913,
+    "city": "Tettnang"
+  },
+  "88074": {
+    "lat": 47.7,
+    "lon": 9.5667,
+    "city": "Meckenbeuren"
+  },
+  "88079": {
+    "lat": 47.5976,
+    "lon": 9.5971,
+    "city": "Kressbronn am Bodensee"
+  },
+  "88085": {
+    "lat": 47.5986,
+    "lon": 9.5416,
+    "city": "Langenargen"
+  },
+  "88086": {
+    "lat": 47.665,
+    "lon": 9.359,
+    "city": "Immenstaad am Bodensee"
+  },
+  "88090": {
+    "lat": 47.6653,
+    "lon": 9.359,
+    "city": "Immenstaad am Bodensee"
+  },
+  "88094": {
+    "lat": 47.7241,
+    "lon": 9.4698,
+    "city": "Oberteuringen"
+  },
+  "88097": {
+    "lat": 47.6248,
+    "lon": 9.542,
+    "city": "Eriskirch"
+  },
+  "88099": {
+    "lat": 47.6574,
+    "lon": 9.7033,
+    "city": "Neukirch"
+  },
+  "88129": {
+    "lat": 47.5518,
+    "lon": 9.7034,
+    "city": "Stadtverwaltung"
+  },
+  "88131": {
+    "lat": 47.5584,
+    "lon": 9.6876,
+    "city": "Bodolz"
+  },
+  "88138": {
+    "lat": 47.5938,
+    "lon": 9.7586,
+    "city": "Sigmarszell"
+  },
+  "88142": {
+    "lat": 47.5667,
+    "lon": 9.6333,
+    "city": "Wasserburg (Bodensee)"
+  },
+  "88145": {
+    "lat": 47.6417,
+    "lon": 9.8333,
+    "city": "Hergatz"
+  },
+  "88147": {
+    "lat": 47.6333,
+    "lon": 9.7167,
+    "city": "Achberg"
+  },
+  "88149": {
+    "lat": 47.5739,
+    "lon": 9.6104,
+    "city": "Nonnenhorn"
+  },
+  "88161": {
+    "lat": 47.6028,
+    "lon": 9.8855,
+    "city": "Lindenberg im Allgäu"
+  },
+  "88167": {
+    "lat": 47.6277,
+    "lon": 10.0057,
+    "city": "Gestratz"
+  },
+  "88171": {
+    "lat": 47.5826,
+    "lon": 9.9135,
+    "city": "Weiler-Simmerberg"
+  },
+  "88175": {
+    "lat": 47.5814,
+    "lon": 9.8483,
+    "city": "Scheidegg"
+  },
+  "88178": {
+    "lat": 47.6296,
+    "lon": 9.903,
+    "city": "Heimenkirch"
+  },
+  "88179": {
+    "lat": 47.563,
+    "lon": 9.9445,
+    "city": "Oberreute"
+  },
+  "88209": {
+    "lat": 47.787,
+    "lon": 9.6166,
+    "city": "Berufsakademie"
+  },
+  "88212": {
+    "lat": 47.7815,
+    "lon": 9.6183,
+    "city": "Ravensburg"
+  },
+  "88213": {
+    "lat": 47.7715,
+    "lon": 9.5575,
+    "city": "Ravensburg"
+  },
+  "88214": {
+    "lat": 47.7814,
+    "lon": 9.6118,
+    "city": "Ravensburg"
+  },
+  "88225": {
+    "lat": 47.8204,
+    "lon": 9.637,
+    "city": "Deutsche Post AG Niederlassung BRIEF Ravensburg"
+  },
+  "88226": {
+    "lat": 47.7814,
+    "lon": 9.6053,
+    "city": "Deutsche Post AG Direkt Marketing Center"
+  },
+  "88237": {
+    "lat": 47.6894,
+    "lon": 9.8297,
+    "city": "Finanzamt"
+  },
+  "88239": {
+    "lat": 47.6895,
+    "lon": 9.8325,
+    "city": "Wangen im Allgäu"
+  },
+  "88248": {
+    "lat": 47.7986,
+    "lon": 9.6292,
+    "city": "Finanzamt Ravensburg"
+  },
+  "88250": {
+    "lat": 47.8101,
+    "lon": 9.6386,
+    "city": "Weingarten"
+  },
+  "88255": {
+    "lat": 47.8393,
+    "lon": 9.6592,
+    "city": "Baindt"
+  },
+  "88260": {
+    "lat": 47.6667,
+    "lon": 9.9333,
+    "city": "Argenbühl"
+  },
+  "88263": {
+    "lat": 47.8,
+    "lon": 9.5,
+    "city": "Horgenzell"
+  },
+  "88267": {
+    "lat": 47.7667,
+    "lon": 9.7667,
+    "city": "Vogt"
+  },
+  "88271": {
+    "lat": 47.8661,
+    "lon": 9.4262,
+    "city": "Wilhelmsdorf"
+  },
+  "88273": {
+    "lat": 47.8667,
+    "lon": 9.5833,
+    "city": "Fronreute"
+  },
+  "88276": {
+    "lat": 47.8167,
+    "lon": 9.6,
+    "city": "Berg"
+  },
+  "88279": {
+    "lat": 47.7,
+    "lon": 9.75,
+    "city": "Amtzell"
+  },
+  "88281": {
+    "lat": 47.77,
+    "lon": 9.6735,
+    "city": "Schlier"
+  },
+  "88284": {
+    "lat": 47.8947,
+    "lon": 9.612,
+    "city": "Wolpertswende"
+  },
+  "88285": {
+    "lat": 47.7101,
+    "lon": 9.6884,
+    "city": "Bodnegg"
+  },
+  "88287": {
+    "lat": 47.7442,
+    "lon": 9.6559,
+    "city": "Grünkraut"
+  },
+  "88289": {
+    "lat": 47.7571,
+    "lon": 9.7134,
+    "city": "Waldburg"
+  },
+  "88297": {
+    "lat": 48.1866,
+    "lon": 10.3785,
+    "city": "Bürgermeisteramt"
+  },
+  "88299": {
+    "lat": 47.8267,
+    "lon": 10.0205,
+    "city": "Leutkirch im Allgäu"
+  },
+  "88315": {
+    "lat": 47.6985,
+    "lon": 10.0365,
+    "city": "Stadtverwaltung"
+  },
+  "88316": {
+    "lat": 47.6926,
+    "lon": 10.0386,
+    "city": "Isny im Allgäu"
+  },
+  "88317": {
+    "lat": 47.893,
+    "lon": 10.0784,
+    "city": "Aichstetten"
+  },
+  "88319": {
+    "lat": 47.9333,
+    "lon": 10.0833,
+    "city": "Aitrach"
+  },
+  "88326": {
+    "lat": 47.9508,
+    "lon": 9.6374,
+    "city": "Aulendorf"
+  },
+  "88336": {
+    "lat": 47.9307,
+    "lon": 9.759,
+    "city": "Versandhaus Walz GmbH"
+  },
+  "88339": {
+    "lat": 47.9203,
+    "lon": 9.7549,
+    "city": "Bad Waldsee"
+  },
+  "88348": {
+    "lat": 48.0204,
+    "lon": 9.5486,
+    "city": "Bad Saulgau"
+  },
+  "88353": {
+    "lat": 47.7889,
+    "lon": 9.8838,
+    "city": "Kißlegg"
+  },
+  "88356": {
+    "lat": 47.95,
+    "lon": 9.3833,
+    "city": "Ostrach"
+  },
+  "88361": {
+    "lat": 47.9476,
+    "lon": 9.5166,
+    "city": "Boms"
+  },
+  "88364": {
+    "lat": 47.8203,
+    "lon": 9.7949,
+    "city": "Wolfegg"
+  },
+  "88367": {
+    "lat": 48.0295,
+    "lon": 9.3774,
+    "city": "Hohentengen"
+  },
+  "88368": {
+    "lat": 47.85,
+    "lon": 9.75,
+    "city": "Bergatreute"
+  },
+  "88370": {
+    "lat": 47.9,
+    "lon": 9.5167,
+    "city": "Ebenweiler"
+  },
+  "88371": {
+    "lat": 47.9667,
+    "lon": 9.5833,
+    "city": "Ebersbach-Musbach"
+  },
+  "88373": {
+    "lat": 47.8833,
+    "lon": 9.4833,
+    "city": "Fleischwangen"
+  },
+  "88374": {
+    "lat": 47.95,
+    "lon": 9.45,
+    "city": "Hoßkirch"
+  },
+  "88376": {
+    "lat": 47.9333,
+    "lon": 9.4167,
+    "city": "Königseggwald"
+  },
+  "88377": {
+    "lat": 47.9093,
+    "lon": 9.4285,
+    "city": "Riedhausen"
+  },
+  "88379": {
+    "lat": 47.9,
+    "lon": 9.4584,
+    "city": "Guggenhausen"
+  },
+  "88396": {
+    "lat": 48.0978,
+    "lon": 9.7934,
+    "city": "Landratsamt"
+  },
+  "88397": {
+    "lat": 48.1105,
+    "lon": 9.7982,
+    "city": "Boehringer Ingelheim Pharma GmbH & Co.KG"
+  },
+  "88400": {
+    "lat": 48.0971,
+    "lon": 9.8016,
+    "city": "Biberach an der Riß"
+  },
+  "88410": {
+    "lat": 47.908,
+    "lon": 9.8969,
+    "city": "Bad Wurzach"
+  },
+  "88416": {
+    "lat": 48.0508,
+    "lon": 9.9642,
+    "city": "Erlenmoos"
+  },
+  "88422": {
+    "lat": 48.0838,
+    "lon": 9.6072,
+    "city": "Dürnau"
+  },
+  "88427": {
+    "lat": 48.0117,
+    "lon": 9.6704,
+    "city": "Bad Schussenried"
+  },
+  "88430": {
+    "lat": 48.013,
+    "lon": 10.0303,
+    "city": "Rot an der Rot"
+  },
+  "88433": {
+    "lat": 48.1702,
+    "lon": 9.7943,
+    "city": "Schemmerhofen"
+  },
+  "88436": {
+    "lat": 47.9993,
+    "lon": 9.872,
+    "city": "Eberhardzell"
+  },
+  "88437": {
+    "lat": 48.1333,
+    "lon": 9.8833,
+    "city": "Maselheim"
+  },
+  "88441": {
+    "lat": 48.0833,
+    "lon": 9.75,
+    "city": "Mittelbiberach"
+  },
+  "88444": {
+    "lat": 48.0667,
+    "lon": 9.8333,
+    "city": "Ummendorf"
+  },
+  "88447": {
+    "lat": 48.1286,
+    "lon": 9.7975,
+    "city": "Warthausen"
+  },
+  "88448": {
+    "lat": 48.1333,
+    "lon": 9.7,
+    "city": "Attenweiler"
+  },
+  "88450": {
+    "lat": 48.0426,
+    "lon": 10.0823,
+    "city": "Berkheim"
+  },
+  "88451": {
+    "lat": 48.1,
+    "lon": 10.1167,
+    "city": "Dettingen an der Iller"
+  },
+  "88453": {
+    "lat": 48.09,
+    "lon": 10.073,
+    "city": "Erolzheim"
+  },
+  "88454": {
+    "lat": 48.0256,
+    "lon": 9.7878,
+    "city": "Hochdorf"
+  },
+  "88456": {
+    "lat": 48.0255,
+    "lon": 9.742,
+    "city": "Ingoldingen"
+  },
+  "88457": {
+    "lat": 48.0833,
+    "lon": 10.1333,
+    "city": "Kirchdorf an der Iller"
+  },
+  "88459": {
+    "lat": 48,
+    "lon": 10.0833,
+    "city": "Tannheim"
+  },
+  "88471": {
+    "lat": 48.2279,
+    "lon": 9.8787,
+    "city": "Laupheim"
+  },
+  "88477": {
+    "lat": 48.1742,
+    "lon": 9.9754,
+    "city": "Schwendi"
+  },
+  "88480": {
+    "lat": 48.2589,
+    "lon": 9.8975,
+    "city": "Achstetten"
+  },
+  "88481": {
+    "lat": 48.1833,
+    "lon": 10.0833,
+    "city": "Balzheim"
+  },
+  "88483": {
+    "lat": 48.2333,
+    "lon": 9.9333,
+    "city": "Burgrieden"
+  },
+  "88484": {
+    "lat": 48.1167,
+    "lon": 9.9833,
+    "city": "Gutenzell-Hürbel"
+  },
+  "88486": {
+    "lat": 48.1333,
+    "lon": 10.0833,
+    "city": "Kirchberg an der Iller"
+  },
+  "88487": {
+    "lat": 48.1833,
+    "lon": 9.9,
+    "city": "Mietingen"
+  },
+  "88489": {
+    "lat": 48.189,
+    "lon": 10.0209,
+    "city": "Wain"
+  },
+  "88498": {
+    "lat": 48.1469,
+    "lon": 9.4838,
+    "city": "Silit-Werke GmbH & Co. KG"
+  },
+  "88499": {
+    "lat": 48.1779,
+    "lon": 9.4803,
+    "city": "Altheim"
+  },
+  "88512": {
+    "lat": 48.0495,
+    "lon": 9.3301,
+    "city": "Mengen"
+  },
+  "88515": {
+    "lat": 48.1485,
+    "lon": 9.3776,
+    "city": "Langenenslingen"
+  },
+  "88518": {
+    "lat": 48.0667,
+    "lon": 9.4333,
+    "city": "Herbertingen"
+  },
+  "88521": {
+    "lat": 48.1,
+    "lon": 9.4667,
+    "city": "Ertingen"
+  },
+  "88524": {
+    "lat": 48.15,
+    "lon": 9.6167,
+    "city": "Uttenweiler"
+  },
+  "88525": {
+    "lat": 48.1167,
+    "lon": 9.5333,
+    "city": "Dürmentingen"
+  },
+  "88527": {
+    "lat": 48.1673,
+    "lon": 9.5222,
+    "city": "Unlingen"
+  },
+  "88529": {
+    "lat": 48.234,
+    "lon": 9.4623,
+    "city": "Zwiefalten"
+  },
+  "88605": {
+    "lat": 47.9692,
+    "lon": 9.1116,
+    "city": "Sauldorf"
+  },
+  "88629": {
+    "lat": 47.9216,
+    "lon": 9.2541,
+    "city": "Geberit GmbH"
+  },
+  "88630": {
+    "lat": 47.9261,
+    "lon": 9.2578,
+    "city": "Pfullendorf"
+  },
+  "88631": {
+    "lat": 48.05,
+    "lon": 8.9667,
+    "city": "Beuron"
+  },
+  "88633": {
+    "lat": 47.8209,
+    "lon": 9.3128,
+    "city": "Heiligenberg"
+  },
+  "88634": {
+    "lat": 47.85,
+    "lon": 9.2,
+    "city": "Herdwangen-Schönach"
+  },
+  "88636": {
+    "lat": 47.8623,
+    "lon": 9.3724,
+    "city": "Illmensee"
+  },
+  "88637": {
+    "lat": 48.0265,
+    "lon": 8.9996,
+    "city": "Buchheim"
+  },
+  "88639": {
+    "lat": 47.9333,
+    "lon": 9.1667,
+    "city": "Wald"
+  },
+  "88660": {
+    "lat": 47.763,
+    "lon": 9.1686,
+    "city": "AOK - Die Gesundheitskasse Bodenseekreis"
+  },
+  "88662": {
+    "lat": 47.7698,
+    "lon": 9.1714,
+    "city": "Überlingen"
+  },
+  "88677": {
+    "lat": 47.7192,
+    "lon": 9.3903,
+    "city": "Markdorf"
+  },
+  "88682": {
+    "lat": 47.7626,
+    "lon": 9.2903,
+    "city": "Salem"
+  },
+  "88690": {
+    "lat": 47.7333,
+    "lon": 9.25,
+    "city": "Uhldingen-Mühlhofen"
+  },
+  "88693": {
+    "lat": 47.8,
+    "lon": 9.4,
+    "city": "Deggenhausertal"
+  },
+  "88696": {
+    "lat": 47.8097,
+    "lon": 9.1717,
+    "city": "Owingen"
+  },
+  "88697": {
+    "lat": 47.7333,
+    "lon": 9.35,
+    "city": "Bermatingen"
+  },
+  "88699": {
+    "lat": 47.8144,
+    "lon": 9.2735,
+    "city": "Frickingen"
+  },
+  "88709": {
+    "lat": 47.6805,
+    "lon": 9.2939,
+    "city": "Meersburg"
+  },
+  "88718": {
+    "lat": 47.7126,
+    "lon": 9.2678,
+    "city": "Daisendorf"
+  },
+  "88719": {
+    "lat": 47.6901,
+    "lon": 9.2986,
+    "city": "Stetten"
+  },
+  "89040": {
+    "lat": 48.417,
+    "lon": 9.964,
+    "city": "Ulm"
+  },
+  "89065": {
+    "lat": 48.4016,
+    "lon": 10.003,
+    "city": "Agentur für Arbeit Ulm"
+  },
+  "89068": {
+    "lat": 48.4281,
+    "lon": 9.9851,
+    "city": "Müller GmbH u. Co. KG"
+  },
+  "89069": {
+    "lat": 48.4236,
+    "lon": 9.954,
+    "city": "Universität Ulm"
+  },
+  "89070": {
+    "lat": 48.389,
+    "lon": 9.9727,
+    "city": "GARDENA GmbH"
+  },
+  "89073": {
+    "lat": 48.4015,
+    "lon": 9.9927,
+    "city": "Ulm"
+  },
+  "89075": {
+    "lat": 48.4171,
+    "lon": 9.9635,
+    "city": "Ulm"
+  },
+  "89077": {
+    "lat": 48.3981,
+    "lon": 9.97,
+    "city": "Ulm"
+  },
+  "89079": {
+    "lat": 48.3568,
+    "lon": 9.9601,
+    "city": "Ulm"
+  },
+  "89081": {
+    "lat": 48.4425,
+    "lon": 9.9857,
+    "city": "Ulm"
+  },
+  "89090": {
+    "lat": 48.3847,
+    "lon": 10.0377,
+    "city": "Deutsche Post AG Niederlassung BRIEF Ulm"
+  },
+  "89129": {
+    "lat": 48.523,
+    "lon": 10.1239,
+    "city": "Langenau"
+  },
+  "89134": {
+    "lat": 48.4181,
+    "lon": 9.9106,
+    "city": "Blaustein"
+  },
+  "89143": {
+    "lat": 48.4203,
+    "lon": 9.7843,
+    "city": "Blaubeuren"
+  },
+  "89150": {
+    "lat": 48.48,
+    "lon": 9.6926,
+    "city": "Laichingen"
+  },
+  "89155": {
+    "lat": 48.3284,
+    "lon": 9.8875,
+    "city": "Erbach"
+  },
+  "89160": {
+    "lat": 48.491,
+    "lon": 9.8983,
+    "city": "Dornstadt"
+  },
+  "89165": {
+    "lat": 48.2107,
+    "lon": 10.0716,
+    "city": "Dietenheim"
+  },
+  "89168": {
+    "lat": 48.5413,
+    "lon": 10.2351,
+    "city": "Niederstotzingen"
+  },
+  "89171": {
+    "lat": 48.3167,
+    "lon": 10.0167,
+    "city": "Illerkirchberg"
+  },
+  "89173": {
+    "lat": 48.5434,
+    "lon": 9.92,
+    "city": "Lonsee"
+  },
+  "89174": {
+    "lat": 48.5833,
+    "lon": 10.0333,
+    "city": "Altheim (Alb)"
+  },
+  "89176": {
+    "lat": 48.5296,
+    "lon": 10.1917,
+    "city": "Asselfingen"
+  },
+  "89177": {
+    "lat": 48.5465,
+    "lon": 10.0701,
+    "city": "Ballendorf"
+  },
+  "89179": {
+    "lat": 48.4833,
+    "lon": 9.9833,
+    "city": "Beimerstetten"
+  },
+  "89180": {
+    "lat": 48.4681,
+    "lon": 9.7786,
+    "city": "Berghülen"
+  },
+  "89182": {
+    "lat": 48.4996,
+    "lon": 10.0258,
+    "city": "Bernstadt"
+  },
+  "89183": {
+    "lat": 48.5242,
+    "lon": 9.9938,
+    "city": "Holzkirch"
+  },
+  "89185": {
+    "lat": 48.2797,
+    "lon": 9.9425,
+    "city": "Hüttisheim"
+  },
+  "89186": {
+    "lat": 48.2702,
+    "lon": 10.0515,
+    "city": "Illerrieden"
+  },
+  "89188": {
+    "lat": 48.5214,
+    "lon": 9.7343,
+    "city": "Merklingen"
+  },
+  "89189": {
+    "lat": 48.5468,
+    "lon": 10.0197,
+    "city": "Neenstetten"
+  },
+  "89191": {
+    "lat": 48.5376,
+    "lon": 9.8096,
+    "city": "Nellingen"
+  },
+  "89192": {
+    "lat": 48.5181,
+    "lon": 10.172,
+    "city": "Rammingen"
+  },
+  "89194": {
+    "lat": 48.2728,
+    "lon": 9.9929,
+    "city": "Schnürpflingen"
+  },
+  "89195": {
+    "lat": 48.3,
+    "lon": 9.9914,
+    "city": "Staig"
+  },
+  "89197": {
+    "lat": 48.5525,
+    "lon": 9.9961,
+    "city": "Weidenstetten"
+  },
+  "89198": {
+    "lat": 48.5192,
+    "lon": 9.9549,
+    "city": "Westerstetten"
+  },
+  "89229": {
+    "lat": 48.3998,
+    "lon": 10.0154,
+    "city": "Landratsamt"
+  },
+  "89231": {
+    "lat": 48.4,
+    "lon": 10.0167,
+    "city": "Neu-Ulm"
+  },
+  "89233": {
+    "lat": 48.4,
+    "lon": 10.0167,
+    "city": "Neu-Ulm"
+  },
+  "89250": {
+    "lat": 48.3244,
+    "lon": 10.0444,
+    "city": "Senden"
+  },
+  "89257": {
+    "lat": 48.2234,
+    "lon": 10.1035,
+    "city": "Illertissen"
+  },
+  "89264": {
+    "lat": 48.305,
+    "lon": 10.1605,
+    "city": "Weißenhorn"
+  },
+  "89269": {
+    "lat": 48.2784,
+    "lon": 10.0824,
+    "city": "Vöhringen"
+  },
+  "89275": {
+    "lat": 48.45,
+    "lon": 10.1,
+    "city": "Elchingen"
+  },
+  "89278": {
+    "lat": 48.4283,
+    "lon": 10.1236,
+    "city": "Nersingen"
+  },
+  "89281": {
+    "lat": 48.1603,
+    "lon": 10.1144,
+    "city": "Altenstadt"
+  },
+  "89284": {
+    "lat": 48.3545,
+    "lon": 10.1618,
+    "city": "Pfaffenhofen an der Roth"
+  },
+  "89287": {
+    "lat": 48.2573,
+    "lon": 10.0909,
+    "city": "Bellenberg"
+  },
+  "89290": {
+    "lat": 48.2248,
+    "lon": 10.1805,
+    "city": "Buch"
+  },
+  "89291": {
+    "lat": 48.3833,
+    "lon": 10.1,
+    "city": "Holzheim"
+  },
+  "89293": {
+    "lat": 48.1216,
+    "lon": 10.1281,
+    "city": "Kellmünz"
+  },
+  "89294": {
+    "lat": 48.1758,
+    "lon": 10.1891,
+    "city": "Oberroth"
+  },
+  "89296": {
+    "lat": 48.15,
+    "lon": 10.1667,
+    "city": "Osterberg"
+  },
+  "89297": {
+    "lat": 48.2759,
+    "lon": 10.2314,
+    "city": "Roggenburg"
+  },
+  "89299": {
+    "lat": 48.1956,
+    "lon": 10.1711,
+    "city": "Unterroth"
+  },
+  "89312": {
+    "lat": 48.456,
+    "lon": 10.277,
+    "city": "Günzburg"
+  },
+  "89331": {
+    "lat": 48.4316,
+    "lon": 10.4099,
+    "city": "Burgau"
+  },
+  "89335": {
+    "lat": 48.3712,
+    "lon": 10.3071,
+    "city": "Ichenhausen"
+  },
+  "89340": {
+    "lat": 48.45,
+    "lon": 10.2228,
+    "city": "Leipheim"
+  },
+  "89343": {
+    "lat": 48.3896,
+    "lon": 10.4381,
+    "city": "Jettingen-Scheppach"
+  },
+  "89344": {
+    "lat": 48.5065,
+    "lon": 10.4578,
+    "city": "Aislingen"
+  },
+  "89346": {
+    "lat": 48.4,
+    "lon": 10.2,
+    "city": "Bibertal"
+  },
+  "89347": {
+    "lat": 48.4333,
+    "lon": 10.25,
+    "city": "Bubesheim"
+  },
+  "89349": {
+    "lat": 48.3405,
+    "lon": 10.4528,
+    "city": "Burtenbach"
+  },
+  "89350": {
+    "lat": 48.4667,
+    "lon": 10.4286,
+    "city": "Dürrlauingen"
+  },
+  "89352": {
+    "lat": 48.3397,
+    "lon": 10.3189,
+    "city": "Ellzee"
+  },
+  "89353": {
+    "lat": 48.5,
+    "lon": 10.4833,
+    "city": "Glött"
+  },
+  "89355": {
+    "lat": 48.5,
+    "lon": 10.4,
+    "city": "Gundremmingen"
+  },
+  "89356": {
+    "lat": 48.4376,
+    "lon": 10.4482,
+    "city": "Haldenwang"
+  },
+  "89358": {
+    "lat": 48.3833,
+    "lon": 10.3667,
+    "city": "Kammeltal"
+  },
+  "89359": {
+    "lat": 48.4167,
+    "lon": 10.2833,
+    "city": "Kötz"
+  },
+  "89361": {
+    "lat": 48.4344,
+    "lon": 10.5242,
+    "city": "Landensberg"
+  },
+  "89362": {
+    "lat": 48.4826,
+    "lon": 10.3625,
+    "city": "Offingen"
+  },
+  "89364": {
+    "lat": 48.4588,
+    "lon": 10.3524,
+    "city": "Rettenbach"
+  },
+  "89365": {
+    "lat": 48.4244,
+    "lon": 10.4427,
+    "city": "Röfingen"
+  },
+  "89367": {
+    "lat": 48.3481,
+    "lon": 10.2938,
+    "city": "Waldstetten"
+  },
+  "89368": {
+    "lat": 48.4667,
+    "lon": 10.4833,
+    "city": "Winterbach"
+  },
+  "89407": {
+    "lat": 48.5815,
+    "lon": 10.4953,
+    "city": "Dillingen an der Donau"
+  },
+  "89415": {
+    "lat": 48.5654,
+    "lon": 10.4297,
+    "city": "Lauingen (Donau)"
+  },
+  "89420": {
+    "lat": 48.6112,
+    "lon": 10.5682,
+    "city": "Höchstädt an der Donau"
+  },
+  "89423": {
+    "lat": 48.551,
+    "lon": 10.3689,
+    "city": "Gundelfingen an der Donau"
+  },
+  "89426": {
+    "lat": 48.6313,
+    "lon": 10.4245,
+    "city": "Mödingen"
+  },
+  "89428": {
+    "lat": 48.6612,
+    "lon": 10.31,
+    "city": "Syrgenstein"
+  },
+  "89429": {
+    "lat": 48.6322,
+    "lon": 10.3205,
+    "city": "Bachhagel"
+  },
+  "89431": {
+    "lat": 48.5463,
+    "lon": 10.3128,
+    "city": "Bächingen an der Brenz"
+  },
+  "89432": {
+    "lat": 48.558,
+    "lon": 10.6425,
+    "city": "Binswangen"
+  },
+  "89434": {
+    "lat": 48.6314,
+    "lon": 10.6199,
+    "city": "Blindheim"
+  },
+  "89435": {
+    "lat": 48.6545,
+    "lon": 10.4986,
+    "city": "Finningen"
+  },
+  "89437": {
+    "lat": 48.5998,
+    "lon": 10.374,
+    "city": "Haunsheim"
+  },
+  "89438": {
+    "lat": 48.5142,
+    "lon": 10.5306,
+    "city": "Holzheim"
+  },
+  "89440": {
+    "lat": 48.65,
+    "lon": 10.55,
+    "city": "Lutzingen"
+  },
+  "89441": {
+    "lat": 48.5703,
+    "lon": 10.3161,
+    "city": "Medlingen"
+  },
+  "89443": {
+    "lat": 48.65,
+    "lon": 10.65,
+    "city": "Schwenningen"
+  },
+  "89444": {
+    "lat": 48.5089,
+    "lon": 10.6147,
+    "city": "Villenbach"
+  },
+  "89446": {
+    "lat": 48.6524,
+    "lon": 10.3988,
+    "city": "Ziertheim"
+  },
+  "89447": {
+    "lat": 48.6736,
+    "lon": 10.3252,
+    "city": "Zöschingen"
+  },
+  "89449": {
+    "lat": 48.531,
+    "lon": 10.6356,
+    "city": "Zusamaltheim"
+  },
+  "89516": {
+    "lat": 48.6834,
+    "lon": 10.1589,
+    "city": "Paul-Hartmann AG"
+  },
+  "89517": {
+    "lat": 48.6743,
+    "lon": 10.155,
+    "city": "SBK-Siemens-Betriebskrankenkasse"
+  },
+  "89518": {
+    "lat": 48.6785,
+    "lon": 10.1413,
+    "city": "Heidenheim an der Brenz"
+  },
+  "89520": {
+    "lat": 48.6873,
+    "lon": 10.1601,
+    "city": "Heidenheim an der Brenz"
+  },
+  "89522": {
+    "lat": 48.6833,
+    "lon": 10.15,
+    "city": "Heidenheim an der Brenz"
+  },
+  "89537": {
+    "lat": 48.5887,
+    "lon": 10.2058,
+    "city": "Giengen an der Brenz"
+  },
+  "89542": {
+    "lat": 48.6217,
+    "lon": 10.176,
+    "city": "Herbrechtingen"
+  },
+  "89547": {
+    "lat": 48.6225,
+    "lon": 10.0198,
+    "city": "Gerstetten"
+  },
+  "89551": {
+    "lat": 48.7432,
+    "lon": 10.1119,
+    "city": "Königsbronn"
+  },
+  "89555": {
+    "lat": 48.6909,
+    "lon": 10.0638,
+    "city": "Steinheim am Albuch"
+  },
+  "89558": {
+    "lat": 48.6833,
+    "lon": 9.9333,
+    "city": "Böhmenkirch"
+  },
+  "89561": {
+    "lat": 48.7,
+    "lon": 10.3667,
+    "city": "Dischingen"
+  },
+  "89564": {
+    "lat": 48.6996,
+    "lon": 10.2421,
+    "city": "Nattheim"
+  },
+  "89567": {
+    "lat": 48.5524,
+    "lon": 10.291,
+    "city": "Sontheim an der Brenz"
+  },
+  "89568": {
+    "lat": 48.5954,
+    "lon": 10.2607,
+    "city": "Hermaringen"
+  },
+  "89582": {
+    "lat": 48.2822,
+    "lon": 9.7198,
+    "city": "Sappi Ehingen AG"
+  },
+  "89584": {
+    "lat": 48.2713,
+    "lon": 9.6339,
+    "city": "Lauterach"
+  },
+  "89597": {
+    "lat": 48.2168,
+    "lon": 9.6375,
+    "city": "Munderkingen"
+  },
+  "89601": {
+    "lat": 48.3758,
+    "lon": 9.7327,
+    "city": "Schelklingen"
+  },
+  "89604": {
+    "lat": 48.3305,
+    "lon": 9.7242,
+    "city": "Allmendingen"
+  },
+  "89605": {
+    "lat": 48.328,
+    "lon": 9.7704,
+    "city": "Altheim"
+  },
+  "89607": {
+    "lat": 48.2119,
+    "lon": 9.6565,
+    "city": "Emerkingen"
+  },
+  "89608": {
+    "lat": 48.2667,
+    "lon": 9.7833,
+    "city": "Griesingen"
+  },
+  "89610": {
+    "lat": 48.3,
+    "lon": 9.8333,
+    "city": "Oberdischingen"
+  },
+  "89611": {
+    "lat": 48.2368,
+    "lon": 9.5591,
+    "city": "Obermarchtal"
+  },
+  "89613": {
+    "lat": 48.1764,
+    "lon": 9.6795,
+    "city": "Grundsheim"
+  },
+  "89614": {
+    "lat": 48.2864,
+    "lon": 9.8026,
+    "city": "Öpfingen"
+  },
+  "89616": {
+    "lat": 48.2348,
+    "lon": 9.6896,
+    "city": "Rottenacker"
+  },
+  "89617": {
+    "lat": 48.2392,
+    "lon": 9.6098,
+    "city": "Untermarchtal"
+  },
+  "89619": {
+    "lat": 48.2031,
+    "lon": 9.6884,
+    "city": "Unterstadion"
+  },
+  "90051": {
+    "lat": 49.4456,
+    "lon": 11.0789,
+    "city": "Sparda-Bank Nürnberg eG"
+  },
+  "90290": {
+    "lat": 49.3894,
+    "lon": 11.1756,
+    "city": "Amazon"
+  },
+  "90291": {
+    "lat": 49.3894,
+    "lon": 11.1756,
+    "city": "Amazon"
+  },
+  "90292": {
+    "lat": 49.3894,
+    "lon": 11.1756,
+    "city": "Amazon"
+  },
+  "90293": {
+    "lat": 49.3894,
+    "lon": 11.1756,
+    "city": "Amazon"
+  },
+  "90300": {
+    "lat": 49.4455,
+    "lon": 11.0769,
+    "city": "Agentur für Arbeit Nürnberg"
+  },
+  "90310": {
+    "lat": 49.4288,
+    "lon": 11.1318,
+    "city": "TeamBank AG"
+  },
+  "90311": {
+    "lat": 49.4278,
+    "lon": 11.0205,
+    "city": "Deutsche Post AG Service Team CAS"
+  },
+  "90312": {
+    "lat": 49.4478,
+    "lon": 11.0869,
+    "city": "HUK - Coburg"
+  },
+  "90313": {
+    "lat": 49.4642,
+    "lon": 11.1186,
+    "city": "AachenMünchener Versicherung AG"
+  },
+  "90316": {
+    "lat": 49.4541,
+    "lon": 11.0625,
+    "city": "Familienkasse Bayern-Nord"
+  },
+  "90317": {
+    "lat": 48.1449,
+    "lon": 11.485,
+    "city": "BNP Paribas S.A. Niederlassung Deutschland"
+  },
+  "90318": {
+    "lat": 49.4483,
+    "lon": 11.0918,
+    "city": "BNP Paribas S.A. Niederlassung Deutschland"
+  },
+  "90319": {
+    "lat": 49.438,
+    "lon": 11.0698,
+    "city": "GfK SE Nürnberg"
+  },
+  "90321": {
+    "lat": 49.458,
+    "lon": 11.0865,
+    "city": "T-Nova"
+  },
+  "90324": {
+    "lat": 49.4542,
+    "lon": 11.0886,
+    "city": "interServ GmbH Interscan Zustellurkunden"
+  },
+  "90325": {
+    "lat": 49.4511,
+    "lon": 11.0797,
+    "city": "UniCredit Bank GmbH"
+  },
+  "90327": {
+    "lat": 49.4445,
+    "lon": 11.0799,
+    "city": "LEONI AG"
+  },
+  "90328": {
+    "lat": 49.4459,
+    "lon": 11.0886,
+    "city": "PSD Bank Nürnberg eG"
+  },
+  "90329": {
+    "lat": 49.4126,
+    "lon": 11.0777,
+    "city": "Revue-Vertriebs GmbH"
+  },
+  "90330": {
+    "lat": 49.4468,
+    "lon": 11.0711,
+    "city": "AOK"
+  },
+  "90331": {
+    "lat": 49.4526,
+    "lon": 11.0742,
+    "city": "Sozialgericht Nürnberg"
+  },
+  "90332": {
+    "lat": 49.4727,
+    "lon": 11.1,
+    "city": "Urlichs"
+  },
+  "90334": {
+    "lat": 49.4546,
+    "lon": 11.1187,
+    "city": "NÜRNBERGER Lebensversicherung AG"
+  },
+  "90335": {
+    "lat": 49.4284,
+    "lon": 11.0453,
+    "city": "Bosch Rexroth AG, NuP2/LOG3"
+  },
+  "90336": {
+    "lat": 49.4518,
+    "lon": 11.0589,
+    "city": "Zentrum Bayern Familie und Soziales Region Mittelfranken"
+  },
+  "90337": {
+    "lat": 49.4546,
+    "lon": 11.1187,
+    "city": "NÜRNBERGER Allgemeine Versicherungs-AG"
+  },
+  "90338": {
+    "lat": 49.4482,
+    "lon": 11.063,
+    "city": "N-ERGIE Aktiengesellschaft"
+  },
+  "90339": {
+    "lat": 49.4459,
+    "lon": 11.071,
+    "city": "Finanzamt Nürnberg-Süd"
+  },
+  "90340": {
+    "lat": 49.4626,
+    "lon": 11.066,
+    "city": "Klinikum Nürnberg"
+  },
+  "90341": {
+    "lat": 49.4589,
+    "lon": 11.0885,
+    "city": "DeTe Card Service GmbH"
+  },
+  "90344": {
+    "lat": 49.4587,
+    "lon": 11.0119,
+    "city": "Ergo Direkt AG"
+  },
+  "90345": {
+    "lat": 49.4276,
+    "lon": 11.0219,
+    "city": "Telefonica Germany GmbH & Co. OHG O2"
+  },
+  "90346": {
+    "lat": 49.4546,
+    "lon": 11.1187,
+    "city": "Nürnberger Krankenversicherung AG"
+  },
+  "90347": {
+    "lat": 49.4487,
+    "lon": 11.0635,
+    "city": "BSQ Bauspar AG AG"
+  },
+  "90351": {
+    "lat": 49.4542,
+    "lon": 11.0886,
+    "city": "interServ GmbH Interscan Zustellurkunden"
+  },
+  "90352": {
+    "lat": 49.4235,
+    "lon": 11.1403,
+    "city": "Deutsche Post AG Belegarchiv Nürnberg"
+  },
+  "90353": {
+    "lat": 49.4229,
+    "lon": 11.1349,
+    "city": "Deutsche Post NL BRIEF Zentrale Nachbuchungsstelle"
+  },
+  "90356": {
+    "lat": 49.4691,
+    "lon": 11.0848,
+    "city": "RE-INvent Retail GmbH"
+  },
+  "90357": {
+    "lat": 49.4589,
+    "lon": 11.0885,
+    "city": "Deutsche Telekom T-Com"
+  },
+  "90359": {
+    "lat": 49.4542,
+    "lon": 11.0886,
+    "city": "interServ GmbH Interscan Zustellurkunden"
+  },
+  "90360": {
+    "lat": 49.4496,
+    "lon": 11.0607,
+    "city": "Oberlandesgericht"
+  },
+  "90402": {
+    "lat": 49.4504,
+    "lon": 11.0778,
+    "city": "Nürnberg"
+  },
+  "90403": {
+    "lat": 49.4541,
+    "lon": 11.0768,
+    "city": "Nürnberg"
+  },
+  "90408": {
+    "lat": 49.4678,
+    "lon": 11.0693,
+    "city": "Nürnberg"
+  },
+  "90409": {
+    "lat": 49.4478,
+    "lon": 11.0683,
+    "city": "Nürnberg"
+  },
+  "90411": {
+    "lat": 49.4897,
+    "lon": 11.1064,
+    "city": "Nürnberg"
+  },
+  "90419": {
+    "lat": 49.4639,
+    "lon": 11.0671,
+    "city": "Nürnberg"
+  },
+  "90425": {
+    "lat": 49.4732,
+    "lon": 11.0567,
+    "city": "Nürnberg"
+  },
+  "90427": {
+    "lat": 49.5178,
+    "lon": 11.0058,
+    "city": "Nürnberg"
+  },
+  "90429": {
+    "lat": 49.4599,
+    "lon": 11.0275,
+    "city": "Nürnberg"
+  },
+  "90431": {
+    "lat": 49.4453,
+    "lon": 11.0222,
+    "city": "Nürnberg"
+  },
+  "90439": {
+    "lat": 49.4358,
+    "lon": 11.0384,
+    "city": "Nürnberg"
+  },
+  "90441": {
+    "lat": 49.4324,
+    "lon": 11.0497,
+    "city": "Nürnberg"
+  },
+  "90443": {
+    "lat": 49.446,
+    "lon": 11.0782,
+    "city": "Nürnberg"
+  },
+  "90449": {
+    "lat": 49.4177,
+    "lon": 11.0297,
+    "city": "Nürnberg"
+  },
+  "90451": {
+    "lat": 49.4072,
+    "lon": 11.0352,
+    "city": "Nürnberg"
+  },
+  "90453": {
+    "lat": 49.3834,
+    "lon": 11.0416,
+    "city": "Nürnberg"
+  },
+  "90455": {
+    "lat": 49.4478,
+    "lon": 11.0683,
+    "city": "Nürnberg"
+  },
+  "90457": {
+    "lat": 49.3984,
+    "lon": 11.174,
+    "city": "Moorenbrunn"
+  },
+  "90459": {
+    "lat": 49.4403,
+    "lon": 11.0809,
+    "city": "Nürnberg"
+  },
+  "90461": {
+    "lat": 49.4361,
+    "lon": 11.0925,
+    "city": "Nürnberg"
+  },
+  "90469": {
+    "lat": 49.4092,
+    "lon": 11.092,
+    "city": "Nürnberg"
+  },
+  "90471": {
+    "lat": 49.417,
+    "lon": 11.1251,
+    "city": "Nürnberg"
+  },
+  "90473": {
+    "lat": 49.4044,
+    "lon": 11.1341,
+    "city": "Nürnberg"
+  },
+  "90475": {
+    "lat": 49.4075,
+    "lon": 11.1649,
+    "city": "Nürnberg"
+  },
+  "90478": {
+    "lat": 49.443,
+    "lon": 11.0948,
+    "city": "Nürnberg"
+  },
+  "90480": {
+    "lat": 49.4371,
+    "lon": 11.1194,
+    "city": "Nürnberg"
+  },
+  "90482": {
+    "lat": 49.464,
+    "lon": 11.1491,
+    "city": "Nürnberg"
+  },
+  "90489": {
+    "lat": 49.4586,
+    "lon": 11.0974,
+    "city": "Nürnberg"
+  },
+  "90491": {
+    "lat": 49.4741,
+    "lon": 11.1296,
+    "city": "Nürnberg"
+  },
+  "90499": {
+    "lat": 49.4229,
+    "lon": 11.1349,
+    "city": "Deutsche Post AG Niederlassung BRIEF Nürnberg"
+  },
+  "90511": {
+    "lat": 49.4382,
+    "lon": 10.9489,
+    "city": "Gudrun Sjöden GmbH"
+  },
+  "90513": {
+    "lat": 49.4424,
+    "lon": 10.9541,
+    "city": "Zirndorf"
+  },
+  "90518": {
+    "lat": 49.3856,
+    "lon": 11.3573,
+    "city": "Altdorf"
+  },
+  "90522": {
+    "lat": 49.4228,
+    "lon": 10.9577,
+    "city": "Oberasbach"
+  },
+  "90530": {
+    "lat": 49.3523,
+    "lon": 11.1507,
+    "city": "Wendelstein"
+  },
+  "90537": {
+    "lat": 49.376,
+    "lon": 11.2143,
+    "city": "Feucht"
+  },
+  "90542": {
+    "lat": 49.5833,
+    "lon": 11.25,
+    "city": "Eckental"
+  },
+  "90546": {
+    "lat": 49.4145,
+    "lon": 11.0143,
+    "city": "Möbel Krügel GmbH"
+  },
+  "90547": {
+    "lat": 49.406,
+    "lon": 10.9991,
+    "city": "Stein bei Nürnberg"
+  },
+  "90552": {
+    "lat": 49.483,
+    "lon": 11.2412,
+    "city": "Röthenbach an der Pegnitz"
+  },
+  "90556": {
+    "lat": 49.4728,
+    "lon": 10.8667,
+    "city": "Cadolzburg"
+  },
+  "90559": {
+    "lat": 49.352,
+    "lon": 11.3115,
+    "city": "Burgthann"
+  },
+  "90562": {
+    "lat": 49.5452,
+    "lon": 11.1445,
+    "city": "Kalchreuth"
+  },
+  "90571": {
+    "lat": 49.4695,
+    "lon": 11.2006,
+    "city": "Schwaig"
+  },
+  "90574": {
+    "lat": 49.3957,
+    "lon": 10.8885,
+    "city": "Roßtal"
+  },
+  "90579": {
+    "lat": 49.4946,
+    "lon": 10.7923,
+    "city": "Langenzenn"
+  },
+  "90584": {
+    "lat": 49.2513,
+    "lon": 11.2366,
+    "city": "Allersberg"
+  },
+  "90587": {
+    "lat": 49.5238,
+    "lon": 10.8855,
+    "city": "Veitsbronn"
+  },
+  "90592": {
+    "lat": 49.3578,
+    "lon": 11.2433,
+    "city": "Schwarzenbruck"
+  },
+  "90596": {
+    "lat": 49.3249,
+    "lon": 11.1227,
+    "city": "Schwanstetten"
+  },
+  "90599": {
+    "lat": 49.4,
+    "lon": 10.6898,
+    "city": "Dietenhofen"
+  },
+  "90602": {
+    "lat": 49.2962,
+    "lon": 11.2866,
+    "city": "Pyrbaum"
+  },
+  "90607": {
+    "lat": 49.4976,
+    "lon": 11.2475,
+    "city": "Rückersdorf"
+  },
+  "90610": {
+    "lat": 49.3896,
+    "lon": 11.2989,
+    "city": "Winkelhaid"
+  },
+  "90613": {
+    "lat": 49.4,
+    "lon": 10.7833,
+    "city": "Großhabersdorf"
+  },
+  "90614": {
+    "lat": 49.4233,
+    "lon": 10.8501,
+    "city": "Ammerndorf"
+  },
+  "90616": {
+    "lat": 49.4569,
+    "lon": 10.6455,
+    "city": "Neuhof an der Zenn"
+  },
+  "90617": {
+    "lat": 49.524,
+    "lon": 10.8319,
+    "city": "Puschendorf"
+  },
+  "90619": {
+    "lat": 49.4581,
+    "lon": 10.5936,
+    "city": "Trautskirchen"
+  },
+  "90725": {
+    "lat": 49.4687,
+    "lon": 11.0027,
+    "city": "Bayerisches Landesamt für Statistik und Datenverarbeitung"
+  },
+  "90742": {
+    "lat": 49.4649,
+    "lon": 10.9958,
+    "city": "Agentur für Arbeit Nebenstelle Fürth"
+  },
+  "90744": {
+    "lat": 49.4736,
+    "lon": 10.6748,
+    "city": "Stadt Fürth"
+  },
+  "90752": {
+    "lat": 49.4584,
+    "lon": 11.0405,
+    "city": "Quelle Kundenservice"
+  },
+  "90754": {
+    "lat": 49.4699,
+    "lon": 11.0181,
+    "city": "Quelle Shop"
+  },
+  "90762": {
+    "lat": 49.4706,
+    "lon": 10.9971,
+    "city": "Fürth"
+  },
+  "90763": {
+    "lat": 49.5069,
+    "lon": 10.9565,
+    "city": "Fürth"
+  },
+  "90765": {
+    "lat": 49.483,
+    "lon": 11.004,
+    "city": "Fürth"
+  },
+  "90766": {
+    "lat": 49.4865,
+    "lon": 10.9608,
+    "city": "Fürth"
+  },
+  "90768": {
+    "lat": 49.4954,
+    "lon": 10.9444,
+    "city": "Fürth"
+  },
+  "91048": {
+    "lat": 49.5938,
+    "lon": 11.0067,
+    "city": "ZBI GmbH"
+  },
+  "91050": {
+    "lat": 49.5837,
+    "lon": 10.9999,
+    "city": "Siemens AG"
+  },
+  "91051": {
+    "lat": 49.5796,
+    "lon": 11.0017,
+    "city": "Amtsgericht"
+  },
+  "91052": {
+    "lat": 49.5888,
+    "lon": 11.0098,
+    "city": "Erlangen"
+  },
+  "91054": {
+    "lat": 49.596,
+    "lon": 11.0296,
+    "city": "Erlangen"
+  },
+  "91056": {
+    "lat": 49.5986,
+    "lon": 10.9675,
+    "city": "Erlangen"
+  },
+  "91058": {
+    "lat": 49.55,
+    "lon": 11.0036,
+    "city": "Erlangen"
+  },
+  "91060": {
+    "lat": 49.5909,
+    "lon": 11.0121,
+    "city": "Siemens AG Healthcare Sector"
+  },
+  "91072": {
+    "lat": 49.5724,
+    "lon": 10.8908,
+    "city": "PUMA SE"
+  },
+  "91074": {
+    "lat": 49.568,
+    "lon": 10.8856,
+    "city": "Herzogenaurach"
+  },
+  "91077": {
+    "lat": 49.6097,
+    "lon": 11.1346,
+    "city": "Hetzles"
+  },
+  "91080": {
+    "lat": 49.6077,
+    "lon": 11.0638,
+    "city": "Spardorf"
+  },
+  "91083": {
+    "lat": 49.6581,
+    "lon": 11.0359,
+    "city": "Baiersdorf"
+  },
+  "91085": {
+    "lat": 49.6228,
+    "lon": 10.8253,
+    "city": "Weisendorf"
+  },
+  "91086": {
+    "lat": 49.5833,
+    "lon": 10.8333,
+    "city": "Aurachtal"
+  },
+  "91088": {
+    "lat": 49.6274,
+    "lon": 11.0172,
+    "city": "Bubenreuth"
+  },
+  "91090": {
+    "lat": 49.6593,
+    "lon": 11.0932,
+    "city": "Effeltrich"
+  },
+  "91091": {
+    "lat": 49.6325,
+    "lon": 10.8748,
+    "city": "Großenseebach"
+  },
+  "91093": {
+    "lat": 49.6273,
+    "lon": 10.91,
+    "city": "Heßdorf"
+  },
+  "91094": {
+    "lat": 49.6405,
+    "lon": 11.071,
+    "city": "Langensendelbach"
+  },
+  "91096": {
+    "lat": 49.6333,
+    "lon": 11,
+    "city": "Möhrendorf"
+  },
+  "91097": {
+    "lat": 49.5895,
+    "lon": 10.7689,
+    "city": "Oberreichenbach"
+  },
+  "91099": {
+    "lat": 49.6634,
+    "lon": 11.0708,
+    "city": "Poxdorf"
+  },
+  "91124": {
+    "lat": 49.3262,
+    "lon": 11.0317,
+    "city": "Finanzamt"
+  },
+  "91125": {
+    "lat": 49.3242,
+    "lon": 11.0444,
+    "city": "Schorsch & Co. print + mail service GmbH & Co. KG"
+  },
+  "91126": {
+    "lat": 49.3082,
+    "lon": 11.0254,
+    "city": "Schwabach"
+  },
+  "91152": {
+    "lat": 49.2412,
+    "lon": 11.0838,
+    "city": "Landratsamt Roth"
+  },
+  "91154": {
+    "lat": 49.2597,
+    "lon": 11.1457,
+    "city": "Roth"
+  },
+  "91161": {
+    "lat": 49.1905,
+    "lon": 11.1906,
+    "city": "Hilpoltstein"
+  },
+  "91166": {
+    "lat": 49.1897,
+    "lon": 11.0167,
+    "city": "Georgensgmünd"
+  },
+  "91171": {
+    "lat": 49.047,
+    "lon": 11.357,
+    "city": "Greding"
+  },
+  "91174": {
+    "lat": 49.1755,
+    "lon": 10.9245,
+    "city": "Spalt"
+  },
+  "91177": {
+    "lat": 49.0883,
+    "lon": 11.2215,
+    "city": "Thalmässing"
+  },
+  "91180": {
+    "lat": 49.1337,
+    "lon": 11.1273,
+    "city": "Heideck"
+  },
+  "91183": {
+    "lat": 49.2428,
+    "lon": 10.964,
+    "city": "Abenberg"
+  },
+  "91186": {
+    "lat": 49.2678,
+    "lon": 11.0589,
+    "city": "Büchenbach"
+  },
+  "91187": {
+    "lat": 49.15,
+    "lon": 11.0333,
+    "city": "Röttenbach"
+  },
+  "91189": {
+    "lat": 49.3411,
+    "lon": 10.8898,
+    "city": "Rohr"
+  },
+  "91205": {
+    "lat": 49.5077,
+    "lon": 11.2832,
+    "city": "FAUN GmbH"
+  },
+  "91207": {
+    "lat": 49.5139,
+    "lon": 11.2825,
+    "city": "Lauf an der Pegnitz"
+  },
+  "91217": {
+    "lat": 49.5108,
+    "lon": 11.4315,
+    "city": "Hersbruck"
+  },
+  "91220": {
+    "lat": 49.5596,
+    "lon": 11.3433,
+    "city": "Schnaittach"
+  },
+  "91224": {
+    "lat": 49.5044,
+    "lon": 11.511,
+    "city": "Pommelsbrunn"
+  },
+  "91227": {
+    "lat": 49.4517,
+    "lon": 11.31,
+    "city": "Leinburg"
+  },
+  "91230": {
+    "lat": 49.4937,
+    "lon": 11.4712,
+    "city": "Happurg"
+  },
+  "91233": {
+    "lat": 49.5246,
+    "lon": 11.3196,
+    "city": "Neunkirchen am Sand"
+  },
+  "91235": {
+    "lat": 49.607,
+    "lon": 11.5134,
+    "city": "Velden"
+  },
+  "91236": {
+    "lat": 49.4333,
+    "lon": 11.55,
+    "city": "Alfeld"
+  },
+  "91238": {
+    "lat": 49.4608,
+    "lon": 11.4063,
+    "city": "Engelthal"
+  },
+  "91239": {
+    "lat": 49.4985,
+    "lon": 11.3906,
+    "city": "Henfenfeld"
+  },
+  "91241": {
+    "lat": 49.556,
+    "lon": 11.4223,
+    "city": "Kirchensittenbach"
+  },
+  "91242": {
+    "lat": 49.5095,
+    "lon": 11.3416,
+    "city": "Ottensoos"
+  },
+  "91244": {
+    "lat": 49.5138,
+    "lon": 11.3727,
+    "city": "Reichenschwand"
+  },
+  "91245": {
+    "lat": 49.5977,
+    "lon": 11.339,
+    "city": "Simmelsdorf"
+  },
+  "91247": {
+    "lat": 49.5572,
+    "lon": 11.4942,
+    "city": "Vorra"
+  },
+  "91249": {
+    "lat": 49.4977,
+    "lon": 11.5687,
+    "city": "Weigendorf"
+  },
+  "91257": {
+    "lat": 49.7522,
+    "lon": 11.5419,
+    "city": "Pegnitz"
+  },
+  "91275": {
+    "lat": 49.6938,
+    "lon": 11.621,
+    "city": "Auerbach in der Oberpfalz"
+  },
+  "91278": {
+    "lat": 49.7713,
+    "lon": 11.4078,
+    "city": "Pottenstein"
+  },
+  "91281": {
+    "lat": 49.7487,
+    "lon": 11.7254,
+    "city": "Kirchenthumbach"
+  },
+  "91282": {
+    "lat": 49.6817,
+    "lon": 11.4177,
+    "city": "Betzenstein"
+  },
+  "91284": {
+    "lat": 49.628,
+    "lon": 11.5507,
+    "city": "Neuhaus an der Pegnitz"
+  },
+  "91286": {
+    "lat": 49.7,
+    "lon": 11.35,
+    "city": "Obertrubach"
+  },
+  "91287": {
+    "lat": 49.6524,
+    "lon": 11.4693,
+    "city": "Plech"
+  },
+  "91289": {
+    "lat": 49.8122,
+    "lon": 11.5827,
+    "city": "Schnabelwaid"
+  },
+  "91299": {
+    "lat": 49.719,
+    "lon": 11.0637,
+    "city": "Finanzamt"
+  },
+  "91301": {
+    "lat": 49.7175,
+    "lon": 11.0588,
+    "city": "Forchheim"
+  },
+  "91315": {
+    "lat": 49.7062,
+    "lon": 10.8133,
+    "city": "Höchstadt an der Aisch"
+  },
+  "91320": {
+    "lat": 49.7815,
+    "lon": 11.1817,
+    "city": "Ebermannstadt"
+  },
+  "91322": {
+    "lat": 49.6443,
+    "lon": 11.2497,
+    "city": "Gräfenberg"
+  },
+  "91325": {
+    "lat": 49.7122,
+    "lon": 10.895,
+    "city": "Adelsdorf"
+  },
+  "91327": {
+    "lat": 49.769,
+    "lon": 11.3384,
+    "city": "Gößweinstein"
+  },
+  "91330": {
+    "lat": 49.7696,
+    "lon": 11.057,
+    "city": "Eggolsheim"
+  },
+  "91332": {
+    "lat": 49.863,
+    "lon": 11.1719,
+    "city": "Heiligenstadt"
+  },
+  "91334": {
+    "lat": 49.6833,
+    "lon": 10.9333,
+    "city": "Hemhofen"
+  },
+  "91336": {
+    "lat": 49.6934,
+    "lon": 10.9988,
+    "city": "Heroldsbach"
+  },
+  "91338": {
+    "lat": 49.6232,
+    "lon": 11.2314,
+    "city": "Igensdorf"
+  },
+  "91341": {
+    "lat": 49.6643,
+    "lon": 10.9261,
+    "city": "Röttenbach"
+  },
+  "91344": {
+    "lat": 49.8465,
+    "lon": 11.3481,
+    "city": "Waischenfeld"
+  },
+  "91346": {
+    "lat": 49.8,
+    "lon": 11.2667,
+    "city": "Wiesenttal"
+  },
+  "91347": {
+    "lat": 49.8837,
+    "lon": 11.2269,
+    "city": "Aufseß"
+  },
+  "91349": {
+    "lat": 49.7018,
+    "lon": 11.2575,
+    "city": "Egloffstein"
+  },
+  "91350": {
+    "lat": 49.6951,
+    "lon": 10.8322,
+    "city": "Gremsdorf"
+  },
+  "91352": {
+    "lat": 49.7591,
+    "lon": 10.9795,
+    "city": "Hallerndorf"
+  },
+  "91353": {
+    "lat": 49.6895,
+    "lon": 11.0322,
+    "city": "Hausen"
+  },
+  "91355": {
+    "lat": 49.6607,
+    "lon": 11.3227,
+    "city": "Hiltpoltstein"
+  },
+  "91356": {
+    "lat": 49.7333,
+    "lon": 11.15,
+    "city": "Kirchehrenbach"
+  },
+  "91358": {
+    "lat": 49.6824,
+    "lon": 11.1433,
+    "city": "Kunreuth"
+  },
+  "91359": {
+    "lat": 49.7095,
+    "lon": 11.1722,
+    "city": "Leutenbach"
+  },
+  "91361": {
+    "lat": 49.6897,
+    "lon": 11.1021,
+    "city": "Pinzberg"
+  },
+  "91362": {
+    "lat": 49.7545,
+    "lon": 11.1743,
+    "city": "Pretzfeld"
+  },
+  "91364": {
+    "lat": 49.823,
+    "lon": 11.1891,
+    "city": "Unterleinleiter"
+  },
+  "91365": {
+    "lat": 49.75,
+    "lon": 11.1167,
+    "city": "Weilersbach"
+  },
+  "91367": {
+    "lat": 49.6309,
+    "lon": 11.2537,
+    "city": "Weißenohe"
+  },
+  "91369": {
+    "lat": 49.7133,
+    "lon": 11.1356,
+    "city": "Wiesenthau"
+  },
+  "91413": {
+    "lat": 49.5795,
+    "lon": 10.6113,
+    "city": "Neustadt an der Aisch"
+  },
+  "91438": {
+    "lat": 49.5027,
+    "lon": 10.4154,
+    "city": "Bad Windsheim"
+  },
+  "91443": {
+    "lat": 49.6693,
+    "lon": 10.4655,
+    "city": "Scheinfeld"
+  },
+  "91448": {
+    "lat": 49.5528,
+    "lon": 10.7128,
+    "city": "Emskirchen"
+  },
+  "91452": {
+    "lat": 49.4831,
+    "lon": 10.7156,
+    "city": "Wilhermsdorf"
+  },
+  "91456": {
+    "lat": 49.6,
+    "lon": 10.6333,
+    "city": "Diespeck"
+  },
+  "91459": {
+    "lat": 49.4937,
+    "lon": 10.6527,
+    "city": "Markt Erlbach"
+  },
+  "91460": {
+    "lat": 49.6251,
+    "lon": 10.536,
+    "city": "Baudenbach"
+  },
+  "91462": {
+    "lat": 49.6405,
+    "lon": 10.7065,
+    "city": "Dachsbach"
+  },
+  "91463": {
+    "lat": 49.5563,
+    "lon": 10.5407,
+    "city": "Dietersheim"
+  },
+  "91465": {
+    "lat": 49.5167,
+    "lon": 10.3333,
+    "city": "Ergersheim"
+  },
+  "91466": {
+    "lat": 49.6312,
+    "lon": 10.6913,
+    "city": "Gerhardshofen"
+  },
+  "91468": {
+    "lat": 49.6167,
+    "lon": 10.6333,
+    "city": "Gutenstetten"
+  },
+  "91469": {
+    "lat": 49.5333,
+    "lon": 10.7667,
+    "city": "Hagenbüchach"
+  },
+  "91471": {
+    "lat": 49.4802,
+    "lon": 10.3817,
+    "city": "Illesheim"
+  },
+  "91472": {
+    "lat": 49.5275,
+    "lon": 10.4818,
+    "city": "Ipsheim"
+  },
+  "91474": {
+    "lat": 49.6167,
+    "lon": 10.5167,
+    "city": "Langenfeld"
+  },
+  "91475": {
+    "lat": 49.6988,
+    "lon": 10.7671,
+    "city": "Lonnerstadt"
+  },
+  "91477": {
+    "lat": 49.6479,
+    "lon": 10.4249,
+    "city": "Markt Bibart"
+  },
+  "91478": {
+    "lat": 49.5909,
+    "lon": 10.3556,
+    "city": "Markt Nordheim"
+  },
+  "91480": {
+    "lat": 49.7011,
+    "lon": 10.5556,
+    "city": "Markt Taschendorf"
+  },
+  "91481": {
+    "lat": 49.6394,
+    "lon": 10.595,
+    "city": "Münchsteinach"
+  },
+  "91483": {
+    "lat": 49.7083,
+    "lon": 10.4342,
+    "city": "Oberscheinfeld"
+  },
+  "91484": {
+    "lat": 49.6028,
+    "lon": 10.4356,
+    "city": "Sugenheim"
+  },
+  "91486": {
+    "lat": 49.6708,
+    "lon": 10.7202,
+    "city": "Uehlfeld"
+  },
+  "91487": {
+    "lat": 49.6876,
+    "lon": 10.6516,
+    "city": "Vestenbergsgreuth"
+  },
+  "91489": {
+    "lat": 49.5642,
+    "lon": 10.7372,
+    "city": "Wilhelmsdorf"
+  },
+  "91511": {
+    "lat": 49.3014,
+    "lon": 10.5758,
+    "city": "Finanzamt"
+  },
+  "91520": {
+    "lat": 49.301,
+    "lon": 10.5652,
+    "city": "Agentur für Arbeit Ansbach"
+  },
+  "91522": {
+    "lat": 49.3048,
+    "lon": 10.5931,
+    "city": "Ansbach"
+  },
+  "91541": {
+    "lat": 49.3789,
+    "lon": 10.1871,
+    "city": "Rothenburg ob der Tauber"
+  },
+  "91550": {
+    "lat": 49.0694,
+    "lon": 10.3199,
+    "city": "Dinkelsbühl"
+  },
+  "91555": {
+    "lat": 49.1629,
+    "lon": 10.3385,
+    "city": "Feuchtwangen"
+  },
+  "91560": {
+    "lat": 49.3357,
+    "lon": 10.7874,
+    "city": "Heilsbronn"
+  },
+  "91564": {
+    "lat": 49.2833,
+    "lon": 10.7833,
+    "city": "Neuendettelsau"
+  },
+  "91567": {
+    "lat": 49.2378,
+    "lon": 10.5035,
+    "city": "Herrieden"
+  },
+  "91572": {
+    "lat": 49.1631,
+    "lon": 10.5557,
+    "city": "Bechhofen"
+  },
+  "91575": {
+    "lat": 49.2479,
+    "lon": 10.8265,
+    "city": "Windsbach"
+  },
+  "91578": {
+    "lat": 49.2987,
+    "lon": 10.4119,
+    "city": "Leutershausen"
+  },
+  "91580": {
+    "lat": 49.3,
+    "lon": 10.75,
+    "city": "Petersaurach"
+  },
+  "91583": {
+    "lat": 49.2985,
+    "lon": 10.2274,
+    "city": "Diebach"
+  },
+  "91586": {
+    "lat": 49.2775,
+    "lon": 10.6867,
+    "city": "Lichtenau"
+  },
+  "91587": {
+    "lat": 49.4333,
+    "lon": 10.1667,
+    "city": "Adelshofen"
+  },
+  "91589": {
+    "lat": 49.25,
+    "lon": 10.4167,
+    "city": "Aurach"
+  },
+  "91590": {
+    "lat": 49.3599,
+    "lon": 10.6992,
+    "city": "Bruckberg"
+  },
+  "91592": {
+    "lat": 49.3302,
+    "lon": 10.3348,
+    "city": "Buch am Wald"
+  },
+  "91593": {
+    "lat": 49.451,
+    "lon": 10.3239,
+    "city": "Burgbernheim"
+  },
+  "91595": {
+    "lat": 49.2333,
+    "lon": 10.5833,
+    "city": "Burgoberbach"
+  },
+  "91596": {
+    "lat": 49.1332,
+    "lon": 10.4789,
+    "city": "Burk"
+  },
+  "91598": {
+    "lat": 49.3548,
+    "lon": 10.4116,
+    "city": "Colmberg"
+  },
+  "91599": {
+    "lat": 49.1477,
+    "lon": 10.4231,
+    "city": "Dentlein am Forst"
+  },
+  "91601": {
+    "lat": 49.2535,
+    "lon": 10.2854,
+    "city": "Dombühl"
+  },
+  "91602": {
+    "lat": 49.1078,
+    "lon": 10.385,
+    "city": "Dürrwangen"
+  },
+  "91604": {
+    "lat": 49.4407,
+    "lon": 10.5224,
+    "city": "Flachslanden"
+  },
+  "91605": {
+    "lat": 49.45,
+    "lon": 10.2667,
+    "city": "Gallmersgarten"
+  },
+  "91607": {
+    "lat": 49.35,
+    "lon": 10.2,
+    "city": "Gebsattel"
+  },
+  "91608": {
+    "lat": 49.3664,
+    "lon": 10.3153,
+    "city": "Geslau"
+  },
+  "91610": {
+    "lat": 49.3,
+    "lon": 10.1667,
+    "city": "Insingen"
+  },
+  "91611": {
+    "lat": 49.3457,
+    "lon": 10.511,
+    "city": "Lehrberg"
+  },
+  "91613": {
+    "lat": 49.4416,
+    "lon": 10.3636,
+    "city": "Marktbergel"
+  },
+  "91614": {
+    "lat": 49.0185,
+    "lon": 10.3586,
+    "city": "Mönchsroth"
+  },
+  "91616": {
+    "lat": 49.3719,
+    "lon": 10.2256,
+    "city": "Neusitz"
+  },
+  "91617": {
+    "lat": 49.4167,
+    "lon": 10.4333,
+    "city": "Oberdachstetten"
+  },
+  "91619": {
+    "lat": 49.4519,
+    "lon": 10.4667,
+    "city": "Obernzenn"
+  },
+  "91620": {
+    "lat": 49.4706,
+    "lon": 10.2101,
+    "city": "Ohrenbach"
+  },
+  "91622": {
+    "lat": 49.4,
+    "lon": 10.5833,
+    "city": "Rügland"
+  },
+  "91623": {
+    "lat": 49.29,
+    "lon": 10.6597,
+    "city": "Sachsen"
+  },
+  "91625": {
+    "lat": 49.1705,
+    "lon": 10.2321,
+    "city": "Schnelldorf"
+  },
+  "91626": {
+    "lat": 49.1192,
+    "lon": 10.3077,
+    "city": "Schopfloch"
+  },
+  "91628": {
+    "lat": 49.4167,
+    "lon": 10.2167,
+    "city": "Steinsfeld"
+  },
+  "91629": {
+    "lat": 49.35,
+    "lon": 10.6167,
+    "city": "Weihenzell"
+  },
+  "91631": {
+    "lat": 49.2579,
+    "lon": 10.1569,
+    "city": "Wettringen"
+  },
+  "91632": {
+    "lat": 49.1667,
+    "lon": 10.4833,
+    "city": "Wieseth"
+  },
+  "91634": {
+    "lat": 49.0243,
+    "lon": 10.395,
+    "city": "Wilburgstetten"
+  },
+  "91635": {
+    "lat": 49.4,
+    "lon": 10.3,
+    "city": "Windelsbach"
+  },
+  "91637": {
+    "lat": 49.2581,
+    "lon": 10.2418,
+    "city": "Wörnitz"
+  },
+  "91639": {
+    "lat": 49.2267,
+    "lon": 10.7277,
+    "city": "Wolframs-Eschenbach"
+  },
+  "91709": {
+    "lat": 49.1141,
+    "lon": 10.7659,
+    "city": "Finanzamt"
+  },
+  "91710": {
+    "lat": 49.1166,
+    "lon": 10.7597,
+    "city": "Gunzenhausen"
+  },
+  "91717": {
+    "lat": 49.0433,
+    "lon": 10.5991,
+    "city": "Wassertrüdingen"
+  },
+  "91719": {
+    "lat": 49.0172,
+    "lon": 10.7435,
+    "city": "Heidenheim"
+  },
+  "91720": {
+    "lat": 49.1444,
+    "lon": 10.881,
+    "city": "Absberg"
+  },
+  "91722": {
+    "lat": 49.1443,
+    "lon": 10.6172,
+    "city": "Arberg"
+  },
+  "91723": {
+    "lat": 49.0554,
+    "lon": 10.792,
+    "city": "Dittenheim"
+  },
+  "91725": {
+    "lat": 49.0868,
+    "lon": 10.5407,
+    "city": "Ehingen"
+  },
+  "91726": {
+    "lat": 49.0534,
+    "lon": 10.5115,
+    "city": "Gerolfingen"
+  },
+  "91728": {
+    "lat": 49.0598,
+    "lon": 10.7127,
+    "city": "Gnotzheim"
+  },
+  "91729": {
+    "lat": 49.176,
+    "lon": 10.7712,
+    "city": "Haundorf"
+  },
+  "91731": {
+    "lat": 49.1011,
+    "lon": 10.4536,
+    "city": "Langfurth"
+  },
+  "91732": {
+    "lat": 49.2036,
+    "lon": 10.7042,
+    "city": "Merkendorf"
+  },
+  "91734": {
+    "lat": 49.2119,
+    "lon": 10.7978,
+    "city": "Mitteleschenbach"
+  },
+  "91735": {
+    "lat": 49.1545,
+    "lon": 10.7184,
+    "city": "Muhr am See"
+  },
+  "91737": {
+    "lat": 49.1762,
+    "lon": 10.658,
+    "city": "Ornbau"
+  },
+  "91738": {
+    "lat": 49.1059,
+    "lon": 10.8366,
+    "city": "Pfofeld"
+  },
+  "91740": {
+    "lat": 49.0554,
+    "lon": 10.5595,
+    "city": "Röckingen"
+  },
+  "91741": {
+    "lat": 49.0822,
+    "lon": 10.8528,
+    "city": "Theilenhofen"
+  },
+  "91743": {
+    "lat": 49.0798,
+    "lon": 10.6218,
+    "city": "Unterschwaningen"
+  },
+  "91744": {
+    "lat": 49.0388,
+    "lon": 10.4505,
+    "city": "Weiltingen"
+  },
+  "91746": {
+    "lat": 49.1982,
+    "lon": 10.6449,
+    "city": "Weidenbach"
+  },
+  "91747": {
+    "lat": 49,
+    "lon": 10.6667,
+    "city": "Westheim"
+  },
+  "91749": {
+    "lat": 49.0612,
+    "lon": 10.4812,
+    "city": "Wittelshofen"
+  },
+  "91757": {
+    "lat": 48.9547,
+    "lon": 10.9083,
+    "city": "Treuchtlingen"
+  },
+  "91780": {
+    "lat": 49.0325,
+    "lon": 10.9725,
+    "city": "Stadtverwaltung"
+  },
+  "91781": {
+    "lat": 49.0309,
+    "lon": 10.9722,
+    "city": "Weißenburg in Bayern"
+  },
+  "91785": {
+    "lat": 49.1047,
+    "lon": 10.9819,
+    "city": "Pleinfeld"
+  },
+  "91788": {
+    "lat": 48.9338,
+    "lon": 10.9743,
+    "city": "Pappenheim"
+  },
+  "91790": {
+    "lat": 49.0421,
+    "lon": 11.1168,
+    "city": "Bergen"
+  },
+  "91792": {
+    "lat": 49.0608,
+    "lon": 10.9678,
+    "city": "Ellingen"
+  },
+  "91793": {
+    "lat": 49.0465,
+    "lon": 10.865,
+    "city": "Alesheim"
+  },
+  "91795": {
+    "lat": 48.8683,
+    "lon": 11.0734,
+    "city": "Dollnstein"
+  },
+  "91796": {
+    "lat": 49.0775,
+    "lon": 11.0554,
+    "city": "Ettenstatt"
+  },
+  "91798": {
+    "lat": 49.0626,
+    "lon": 11.0053,
+    "city": "Höttingen"
+  },
+  "91799": {
+    "lat": 48.8932,
+    "lon": 10.9311,
+    "city": "Langenaltheim"
+  },
+  "91801": {
+    "lat": 49.0096,
+    "lon": 10.8447,
+    "city": "Markt Berolzheim"
+  },
+  "91802": {
+    "lat": 49.0333,
+    "lon": 10.8167,
+    "city": "Meinheim"
+  },
+  "91804": {
+    "lat": 48.8701,
+    "lon": 11.0076,
+    "city": "Mörnsheim"
+  },
+  "91805": {
+    "lat": 48.9207,
+    "lon": 10.7115,
+    "city": "Polsingen"
+  },
+  "91807": {
+    "lat": 48.8958,
+    "lon": 10.9956,
+    "city": "Solnhofen"
+  },
+  "91809": {
+    "lat": 48.8197,
+    "lon": 11.0888,
+    "city": "Wellheim"
+  },
+  "92219": {
+    "lat": 49.4444,
+    "lon": 11.8546,
+    "city": "Sieh an!"
+  },
+  "92224": {
+    "lat": 49.4429,
+    "lon": 11.8627,
+    "city": "Amberg"
+  },
+  "92226": {
+    "lat": 49.3948,
+    "lon": 11.9781,
+    "city": "Deutsche Post AG Briefzentrum Amberg"
+  },
+  "92227": {
+    "lat": 49.3118,
+    "lon": 12.1058,
+    "city": "Eurodiscount GmbH Aliva"
+  },
+  "92237": {
+    "lat": 49.5013,
+    "lon": 11.746,
+    "city": "Sulzbach-Rosenberg"
+  },
+  "92240": {
+    "lat": 49.5403,
+    "lon": 11.9437,
+    "city": "Conrad Electronic SE"
+  },
+  "92241": {
+    "lat": 49.5403,
+    "lon": 11.9437,
+    "city": "Conrad Electronic SE"
+  },
+  "92242": {
+    "lat": 49.544,
+    "lon": 11.9462,
+    "city": "Hirschau"
+  },
+  "92245": {
+    "lat": 49.4192,
+    "lon": 11.8883,
+    "city": "Kümmersbruck"
+  },
+  "92249": {
+    "lat": 49.6148,
+    "lon": 11.8026,
+    "city": "Vilseck"
+  },
+  "92253": {
+    "lat": 49.5469,
+    "lon": 12.0018,
+    "city": "Schnaittenbach"
+  },
+  "92256": {
+    "lat": 49.5339,
+    "lon": 11.803,
+    "city": "Hahnbach"
+  },
+  "92259": {
+    "lat": 49.5297,
+    "lon": 11.6259,
+    "city": "Neukirchen bei Sulzbach-Rosenberg"
+  },
+  "92260": {
+    "lat": 49.4412,
+    "lon": 11.7618,
+    "city": "Ammerthal"
+  },
+  "92262": {
+    "lat": 49.4167,
+    "lon": 11.6333,
+    "city": "Birgland"
+  },
+  "92263": {
+    "lat": 49.3938,
+    "lon": 11.9358,
+    "city": "Ebermannsdorf"
+  },
+  "92265": {
+    "lat": 49.5764,
+    "lon": 11.6959,
+    "city": "Edelsfeld"
+  },
+  "92266": {
+    "lat": 49.3406,
+    "lon": 11.9359,
+    "city": "Ensdorf"
+  },
+  "92268": {
+    "lat": 49.5276,
+    "lon": 11.586,
+    "city": "Etzelwang"
+  },
+  "92269": {
+    "lat": 49.4,
+    "lon": 12.05,
+    "city": "Fensterbach"
+  },
+  "92271": {
+    "lat": 49.6213,
+    "lon": 11.9082,
+    "city": "Freihung"
+  },
+  "92272": {
+    "lat": 49.4833,
+    "lon": 11.9833,
+    "city": "Freudenberg"
+  },
+  "92274": {
+    "lat": 49.5376,
+    "lon": 11.872,
+    "city": "Gebenbach"
+  },
+  "92275": {
+    "lat": 49.55,
+    "lon": 11.5333,
+    "city": "Hirschbach"
+  },
+  "92277": {
+    "lat": 49.2951,
+    "lon": 11.7991,
+    "city": "Hohenburg"
+  },
+  "92278": {
+    "lat": 49.45,
+    "lon": 11.6833,
+    "city": "Illschwang"
+  },
+  "92280": {
+    "lat": 49.3696,
+    "lon": 11.6826,
+    "city": "Kastl"
+  },
+  "92281": {
+    "lat": 49.6085,
+    "lon": 11.6314,
+    "city": "Königstein"
+  },
+  "92283": {
+    "lat": 49.3684,
+    "lon": 11.6029,
+    "city": "Lauterhofen"
+  },
+  "92284": {
+    "lat": 49.4756,
+    "lon": 11.7978,
+    "city": "Poppenricht"
+  },
+  "92286": {
+    "lat": 49.3236,
+    "lon": 11.9421,
+    "city": "Rieden"
+  },
+  "92287": {
+    "lat": 49.269,
+    "lon": 11.9243,
+    "city": "Schmidmühlen"
+  },
+  "92289": {
+    "lat": 49.402,
+    "lon": 11.755,
+    "city": "Ursensollen"
+  },
+  "92318": {
+    "lat": 49.2803,
+    "lon": 11.4628,
+    "city": "Neumarkt in der Oberpfalz"
+  },
+  "92331": {
+    "lat": 49.1579,
+    "lon": 11.7374,
+    "city": "Lupburg"
+  },
+  "92334": {
+    "lat": 49.1069,
+    "lon": 11.4414,
+    "city": "Berching"
+  },
+  "92339": {
+    "lat": 49.0341,
+    "lon": 11.4739,
+    "city": "Beilngries"
+  },
+  "92342": {
+    "lat": 49.2001,
+    "lon": 11.3303,
+    "city": "Freystadt"
+  },
+  "92345": {
+    "lat": 49.0375,
+    "lon": 11.5839,
+    "city": "Dietfurt an der Altmühl"
+  },
+  "92348": {
+    "lat": 49.3317,
+    "lon": 11.4403,
+    "city": "Berg bei Neumarkt in der Oberpfalz"
+  },
+  "92353": {
+    "lat": 49.3053,
+    "lon": 11.3572,
+    "city": "Postbauer-Heng"
+  },
+  "92355": {
+    "lat": 49.2515,
+    "lon": 11.6345,
+    "city": "Velburg"
+  },
+  "92358": {
+    "lat": 49.1571,
+    "lon": 11.6329,
+    "city": "Seubersdorf in der Oberpfalz"
+  },
+  "92360": {
+    "lat": 49.1695,
+    "lon": 11.4466,
+    "city": "Mühlhausen"
+  },
+  "92361": {
+    "lat": 49.25,
+    "lon": 11.4,
+    "city": "Berngau"
+  },
+  "92363": {
+    "lat": 49.0837,
+    "lon": 11.6198,
+    "city": "Breitenbrunn"
+  },
+  "92364": {
+    "lat": 49.2256,
+    "lon": 11.5397,
+    "city": "Deining"
+  },
+  "92366": {
+    "lat": 49.204,
+    "lon": 11.8484,
+    "city": "Hohenfels"
+  },
+  "92367": {
+    "lat": 49.3214,
+    "lon": 11.5031,
+    "city": "Pilsach"
+  },
+  "92369": {
+    "lat": 49.2333,
+    "lon": 11.4667,
+    "city": "Sengenthal"
+  },
+  "92400": {
+    "lat": 48.0903,
+    "lon": 11.6444,
+    "city": "AOK Landesverband Bayern Die Gesundheitskasse Zentrale"
+  },
+  "92419": {
+    "lat": 49.3256,
+    "lon": 12.1113,
+    "city": "Finanzamt"
+  },
+  "92421": {
+    "lat": 49.3236,
+    "lon": 12.0993,
+    "city": "Schwandorf"
+  },
+  "92422": {
+    "lat": 49.3277,
+    "lon": 12.1097,
+    "city": "Agentur für Arbeit Schwandorf"
+  },
+  "92431": {
+    "lat": 49.3478,
+    "lon": 12.3862,
+    "city": "Neunburg vorm Wald"
+  },
+  "92436": {
+    "lat": 49.2493,
+    "lon": 12.3071,
+    "city": "Bruck in der Oberpfalz"
+  },
+  "92439": {
+    "lat": 49.2708,
+    "lon": 12.3015,
+    "city": "Bodenwöhr"
+  },
+  "92442": {
+    "lat": 49.3167,
+    "lon": 12.1833,
+    "city": "Wackersdorf"
+  },
+  "92444": {
+    "lat": 49.3432,
+    "lon": 12.5296,
+    "city": "Rötz"
+  },
+  "92445": {
+    "lat": 49.291,
+    "lon": 12.4364,
+    "city": "Neukirchen-Balbini"
+  },
+  "92447": {
+    "lat": 49.3775,
+    "lon": 12.3449,
+    "city": "Schwarzhofen"
+  },
+  "92449": {
+    "lat": 49.2833,
+    "lon": 12.1833,
+    "city": "Steinberg"
+  },
+  "92507": {
+    "lat": 49.4535,
+    "lon": 12.18,
+    "city": "Nabburg"
+  },
+  "92519": {
+    "lat": 49.4046,
+    "lon": 12.0921,
+    "city": "Deutsche Steinzeug Cremer & Breuer AG"
+  },
+  "92521": {
+    "lat": 49.3877,
+    "lon": 12.1348,
+    "city": "Schwarzenfeld"
+  },
+  "92526": {
+    "lat": 49.4581,
+    "lon": 12.4167,
+    "city": "Oberviechtach"
+  },
+  "92530": {
+    "lat": 49.5324,
+    "lon": 12.1358,
+    "city": "Conrad Electronic SE"
+  },
+  "92533": {
+    "lat": 49.5393,
+    "lon": 12.1613,
+    "city": "Wernberg-Köblitz"
+  },
+  "92536": {
+    "lat": 49.4984,
+    "lon": 12.2064,
+    "city": "Pfreimd"
+  },
+  "92539": {
+    "lat": 49.5103,
+    "lon": 12.5476,
+    "city": "Schönsee"
+  },
+  "92540": {
+    "lat": 49.4055,
+    "lon": 12.2815,
+    "city": "Altendorf"
+  },
+  "92542": {
+    "lat": 49.4167,
+    "lon": 12.4167,
+    "city": "Dieterskirchen"
+  },
+  "92543": {
+    "lat": 49.45,
+    "lon": 12.2833,
+    "city": "Guteneck"
+  },
+  "92545": {
+    "lat": 49.45,
+    "lon": 12.3761,
+    "city": "Niedermurach"
+  },
+  "92546": {
+    "lat": 49.4234,
+    "lon": 12.0925,
+    "city": "Schmidgaden"
+  },
+  "92548": {
+    "lat": 49.4105,
+    "lon": 12.2274,
+    "city": "Schwarzach bei Nabburg"
+  },
+  "92549": {
+    "lat": 49.5066,
+    "lon": 12.6124,
+    "city": "Stadlern"
+  },
+  "92551": {
+    "lat": 49.4167,
+    "lon": 12.1333,
+    "city": "Stulln"
+  },
+  "92552": {
+    "lat": 49.4833,
+    "lon": 12.3833,
+    "city": "Teunz"
+  },
+  "92554": {
+    "lat": 49.3833,
+    "lon": 12.4667,
+    "city": "Thanstein"
+  },
+  "92555": {
+    "lat": 49.5211,
+    "lon": 12.2625,
+    "city": "Trausnitz"
+  },
+  "92557": {
+    "lat": 49.4833,
+    "lon": 12.5667,
+    "city": "Weiding"
+  },
+  "92559": {
+    "lat": 49.4269,
+    "lon": 12.4799,
+    "city": "Winklarn"
+  },
+  "92620": {
+    "lat": 49.6718,
+    "lon": 12.1632,
+    "city": "Agentur für Arbeit Weiden i. d. OPf."
+  },
+  "92624": {
+    "lat": 49.6806,
+    "lon": 12.0737,
+    "city": "Deutsche Post AG NL Philatelie Versandzentrum"
+  },
+  "92626": {
+    "lat": 49.6806,
+    "lon": 12.0737,
+    "city": "Verkaufsstelle für Sammlermünzen der Bundesrepublik Deutschland"
+  },
+  "92627": {
+    "lat": 49.6806,
+    "lon": 12.0737,
+    "city": "Deutsche Post AG Sonderstempelstelle Weiden"
+  },
+  "92628": {
+    "lat": 49.6806,
+    "lon": 12.0737,
+    "city": "Deutsche Post AG NL Philatelie Versandzentrum"
+  },
+  "92630": {
+    "lat": 49.6768,
+    "lon": 12.157,
+    "city": "Josef Witt GmbH"
+  },
+  "92631": {
+    "lat": 49.6806,
+    "lon": 12.0737,
+    "city": "Deutsche Post AG NL Philatelie Versandzentrum"
+  },
+  "92632": {
+    "lat": 49.6806,
+    "lon": 12.0737,
+    "city": "Deutsche Post AG NL Philatelie Versandzentrum"
+  },
+  "92633": {
+    "lat": 49.6726,
+    "lon": 12.16,
+    "city": "Agentur für Arbeit Weiden i. d. OPf."
+  },
+  "92637": {
+    "lat": 49.6835,
+    "lon": 12.1917,
+    "city": "Weiden"
+  },
+  "92648": {
+    "lat": 49.6238,
+    "lon": 12.3381,
+    "city": "Vohenstrauß"
+  },
+  "92655": {
+    "lat": 49.6989,
+    "lon": 11.8675,
+    "city": "Grafenwöhr"
+  },
+  "92660": {
+    "lat": 49.7329,
+    "lon": 12.1777,
+    "city": "Neustadt an der Waldnaab"
+  },
+  "92665": {
+    "lat": 49.7496,
+    "lon": 12.1299,
+    "city": "Kirchendemenreuth"
+  },
+  "92670": {
+    "lat": 49.8011,
+    "lon": 12.1571,
+    "city": "Windischeschenbach"
+  },
+  "92676": {
+    "lat": 49.7727,
+    "lon": 11.8263,
+    "city": "Speinshart"
+  },
+  "92681": {
+    "lat": 49.8398,
+    "lon": 12.0459,
+    "city": "Erbendorf"
+  },
+  "92685": {
+    "lat": 49.724,
+    "lon": 12.2759,
+    "city": "Floß"
+  },
+  "92690": {
+    "lat": 49.7686,
+    "lon": 11.9397,
+    "city": "Pressath"
+  },
+  "92693": {
+    "lat": 49.5835,
+    "lon": 12.5216,
+    "city": "Eslarn"
+  },
+  "92694": {
+    "lat": 49.6333,
+    "lon": 12.1,
+    "city": "Etzenricht"
+  },
+  "92696": {
+    "lat": 49.7333,
+    "lon": 12.35,
+    "city": "Flossenbürg"
+  },
+  "92697": {
+    "lat": 49.703,
+    "lon": 12.4208,
+    "city": "Georgenberg"
+  },
+  "92699": {
+    "lat": 49.6339,
+    "lon": 12.2175,
+    "city": "Bechtsrieth"
+  },
+  "92700": {
+    "lat": 49.65,
+    "lon": 11.95,
+    "city": "Kaltenbrunn, Oberpfalz"
+  },
+  "92702": {
+    "lat": 49.5912,
+    "lon": 12.0195,
+    "city": "Kohlberg"
+  },
+  "92703": {
+    "lat": 49.8333,
+    "lon": 12.1,
+    "city": "Krummennaab"
+  },
+  "92705": {
+    "lat": 49.5974,
+    "lon": 12.2584,
+    "city": "Leuchtenberg"
+  },
+  "92706": {
+    "lat": 49.5837,
+    "lon": 12.1492,
+    "city": "Luhe-Wildenau"
+  },
+  "92708": {
+    "lat": 49.6541,
+    "lon": 12.0407,
+    "city": "Mantel"
+  },
+  "92709": {
+    "lat": 49.5891,
+    "lon": 12.4104,
+    "city": "Moosbach"
+  },
+  "92711": {
+    "lat": 49.7292,
+    "lon": 12.0675,
+    "city": "Parkstein"
+  },
+  "92712": {
+    "lat": 49.6333,
+    "lon": 12.1667,
+    "city": "Pirk"
+  },
+  "92714": {
+    "lat": 49.6491,
+    "lon": 12.4063,
+    "city": "Pleystein"
+  },
+  "92715": {
+    "lat": 49.75,
+    "lon": 12.2333,
+    "city": "Püchersreuth"
+  },
+  "92717": {
+    "lat": 49.8438,
+    "lon": 12.1214,
+    "city": "Reuth bei Erbendorf"
+  },
+  "92718": {
+    "lat": 49.65,
+    "lon": 12.1667,
+    "city": "Schirmitz"
+  },
+  "92720": {
+    "lat": 49.7246,
+    "lon": 11.9976,
+    "city": "Schwarzenbach"
+  },
+  "92721": {
+    "lat": 49.7323,
+    "lon": 12.2055,
+    "city": "Störnstein"
+  },
+  "92723": {
+    "lat": 49.5146,
+    "lon": 12.3214,
+    "city": "Gleiritsch"
+  },
+  "92724": {
+    "lat": 49.8,
+    "lon": 11.9,
+    "city": "Trabitz"
+  },
+  "92726": {
+    "lat": 49.6422,
+    "lon": 12.4952,
+    "city": "Waidhaus"
+  },
+  "92727": {
+    "lat": 49.6722,
+    "lon": 12.3292,
+    "city": "Waldthurn"
+  },
+  "92729": {
+    "lat": 49.6333,
+    "lon": 12.0667,
+    "city": "Weiherhammer"
+  },
+  "93012": {
+    "lat": 49.0046,
+    "lon": 12.0984,
+    "city": "Agentur für Arbeit Regensburg"
+  },
+  "93013": {
+    "lat": 49.0046,
+    "lon": 12.0984,
+    "city": "Familienkasse Bayern-Süd"
+  },
+  "93037": {
+    "lat": 49.0124,
+    "lon": 12.107,
+    "city": "UniCredit Bank AG"
+  },
+  "93038": {
+    "lat": 49.013,
+    "lon": 12.0937,
+    "city": "HUK-Coburg"
+  },
+  "93039": {
+    "lat": 49.0164,
+    "lon": 12.092,
+    "city": "Regierung der Oberpfalz"
+  },
+  "93040": {
+    "lat": 48.9994,
+    "lon": 12.0937,
+    "city": "Universität"
+  },
+  "93041": {
+    "lat": 49.0118,
+    "lon": 12.0963,
+    "city": "E.ON Bayern"
+  },
+  "93042": {
+    "lat": 49.006,
+    "lon": 12.0908,
+    "city": "Finanzamt Regensburg"
+  },
+  "93043": {
+    "lat": 49.0153,
+    "lon": 12.0946,
+    "city": "Stadt Regensburg"
+  },
+  "93045": {
+    "lat": 49.0279,
+    "lon": 12.1276,
+    "city": "creation L"
+  },
+  "93047": {
+    "lat": 49.0168,
+    "lon": 12.0954,
+    "city": "Regensburg"
+  },
+  "93049": {
+    "lat": 49.0153,
+    "lon": 12.0577,
+    "city": "Regensburg"
+  },
+  "93051": {
+    "lat": 49.0007,
+    "lon": 12.0734,
+    "city": "Regensburg"
+  },
+  "93053": {
+    "lat": 48.9965,
+    "lon": 12.1202,
+    "city": "Regensburg"
+  },
+  "93055": {
+    "lat": 49.0143,
+    "lon": 12.1427,
+    "city": "Regensburg"
+  },
+  "93057": {
+    "lat": 49.0499,
+    "lon": 12.1006,
+    "city": "Regensburg"
+  },
+  "93059": {
+    "lat": 49.0312,
+    "lon": 12.1022,
+    "city": "Regensburg"
+  },
+  "93065": {
+    "lat": 49.0081,
+    "lon": 12.1155,
+    "city": "Zentrum Bayern Familie und Soziales Region Oberpfalz"
+  },
+  "93066": {
+    "lat": 49.0093,
+    "lon": 12.1093,
+    "city": "Amtsgericht Regensburg"
+  },
+  "93072": {
+    "lat": 48.9841,
+    "lon": 12.1895,
+    "city": "Krones AG"
+  },
+  "93073": {
+    "lat": 48.9874,
+    "lon": 12.201,
+    "city": "Neutraubling"
+  },
+  "93077": {
+    "lat": 48.9375,
+    "lon": 12.0449,
+    "city": "Bad Abbach"
+  },
+  "93080": {
+    "lat": 48.9834,
+    "lon": 12.0587,
+    "city": "Pentling"
+  },
+  "93083": {
+    "lat": 48.9667,
+    "lon": 12.1667,
+    "city": "Obertraubling"
+  },
+  "93086": {
+    "lat": 49.0009,
+    "lon": 12.4054,
+    "city": "Wörth an der Donau"
+  },
+  "93087": {
+    "lat": 48.9167,
+    "lon": 12.2,
+    "city": "Alteglofsheim"
+  },
+  "93089": {
+    "lat": 48.872,
+    "lon": 12.2821,
+    "city": "Aufhausen"
+  },
+  "93090": {
+    "lat": 49.0217,
+    "lon": 12.3037,
+    "city": "Bach an der Donau"
+  },
+  "93092": {
+    "lat": 49,
+    "lon": 12.2,
+    "city": "Barbing"
+  },
+  "93093": {
+    "lat": 49.0326,
+    "lon": 12.2046,
+    "city": "Donaustauf"
+  },
+  "93095": {
+    "lat": 48.9,
+    "lon": 12.2167,
+    "city": "Hagelstadt"
+  },
+  "93096": {
+    "lat": 48.9333,
+    "lon": 12.2,
+    "city": "Köfering"
+  },
+  "93098": {
+    "lat": 48.9536,
+    "lon": 12.2421,
+    "city": "Mintraching"
+  },
+  "93099": {
+    "lat": 48.8935,
+    "lon": 12.3736,
+    "city": "Mötzing"
+  },
+  "93101": {
+    "lat": 48.8582,
+    "lon": 12.2274,
+    "city": "Pfakofen"
+  },
+  "93102": {
+    "lat": 48.9631,
+    "lon": 12.3825,
+    "city": "Pfatter"
+  },
+  "93104": {
+    "lat": 48.8976,
+    "lon": 12.3507,
+    "city": "Riekofen"
+  },
+  "93105": {
+    "lat": 49.0239,
+    "lon": 12.173,
+    "city": "Tegernheim"
+  },
+  "93107": {
+    "lat": 48.9117,
+    "lon": 12.155,
+    "city": "Thalmassing"
+  },
+  "93109": {
+    "lat": 49.0167,
+    "lon": 12.3833,
+    "city": "Wiesent"
+  },
+  "93128": {
+    "lat": 49.1201,
+    "lon": 12.1303,
+    "city": "Regenstauf"
+  },
+  "93133": {
+    "lat": 49.2038,
+    "lon": 12.0445,
+    "city": "Burglengenfeld"
+  },
+  "93138": {
+    "lat": 49.0469,
+    "lon": 12.0913,
+    "city": "Lappersdorf"
+  },
+  "93142": {
+    "lat": 49.1996,
+    "lon": 12.0923,
+    "city": "Maxhütte-Haidhof"
+  },
+  "93149": {
+    "lat": 49.1942,
+    "lon": 12.2674,
+    "city": "Nittenau"
+  },
+  "93152": {
+    "lat": 49.0246,
+    "lon": 11.9613,
+    "city": "Nittendorf"
+  },
+  "93155": {
+    "lat": 49.0383,
+    "lon": 11.8522,
+    "city": "Hemau"
+  },
+  "93158": {
+    "lat": 49.2229,
+    "lon": 12.0873,
+    "city": "Teublitz"
+  },
+  "93161": {
+    "lat": 49,
+    "lon": 12.0333,
+    "city": "Sinzing"
+  },
+  "93164": {
+    "lat": 49.0836,
+    "lon": 11.8928,
+    "city": "Brunn"
+  },
+  "93167": {
+    "lat": 49.0975,
+    "lon": 12.488,
+    "city": "Falkenstein"
+  },
+  "93170": {
+    "lat": 49.0912,
+    "lon": 12.2474,
+    "city": "Bernhardswald"
+  },
+  "93173": {
+    "lat": 49.0756,
+    "lon": 12.1995,
+    "city": "Wenzenbach"
+  },
+  "93176": {
+    "lat": 49.0952,
+    "lon": 11.8097,
+    "city": "Beratzhausen"
+  },
+  "93177": {
+    "lat": 49.1,
+    "lon": 12.3,
+    "city": "Altenthann"
+  },
+  "93179": {
+    "lat": 49.0667,
+    "lon": 12.4,
+    "city": "Brennberg"
+  },
+  "93180": {
+    "lat": 49.0372,
+    "lon": 11.9104,
+    "city": "Deuerling"
+  },
+  "93182": {
+    "lat": 49.1167,
+    "lon": 11.9167,
+    "city": "Duggendorf"
+  },
+  "93183": {
+    "lat": 49.1547,
+    "lon": 11.9791,
+    "city": "Kallmünz"
+  },
+  "93185": {
+    "lat": 49.1229,
+    "lon": 12.5528,
+    "city": "Michelsneukirchen"
+  },
+  "93186": {
+    "lat": 49.0607,
+    "lon": 12.0078,
+    "city": "Pettendorf"
+  },
+  "93188": {
+    "lat": 49.0723,
+    "lon": 11.957,
+    "city": "Pielenhofen"
+  },
+  "93189": {
+    "lat": 49.1833,
+    "lon": 12.35,
+    "city": "Reichenbach"
+  },
+  "93191": {
+    "lat": 49.0667,
+    "lon": 12.45,
+    "city": "Rettenbach"
+  },
+  "93192": {
+    "lat": 49.15,
+    "lon": 12.35,
+    "city": "Wald"
+  },
+  "93194": {
+    "lat": 49.1833,
+    "lon": 12.3833,
+    "city": "Walderbach"
+  },
+  "93195": {
+    "lat": 49.1073,
+    "lon": 11.9781,
+    "city": "Wolfsegg"
+  },
+  "93197": {
+    "lat": 49.0785,
+    "lon": 12.1117,
+    "city": "Zeitlarn"
+  },
+  "93199": {
+    "lat": 49.1444,
+    "lon": 12.4141,
+    "city": "Zell"
+  },
+  "93308": {
+    "lat": 48.9195,
+    "lon": 11.8936,
+    "city": "EVD Pfiff GmbH"
+  },
+  "93309": {
+    "lat": 48.9173,
+    "lon": 11.8862,
+    "city": "Kelheim"
+  },
+  "93326": {
+    "lat": 48.8168,
+    "lon": 11.8498,
+    "city": "Abensberg"
+  },
+  "93333": {
+    "lat": 48.8071,
+    "lon": 11.7695,
+    "city": "Neustadt an der Donau"
+  },
+  "93336": {
+    "lat": 48.8992,
+    "lon": 11.652,
+    "city": "Altmannstein"
+  },
+  "93339": {
+    "lat": 48.9638,
+    "lon": 11.6888,
+    "city": "Riedenburg"
+  },
+  "93342": {
+    "lat": 48.9,
+    "lon": 11.9333,
+    "city": "Saal an der Donau"
+  },
+  "93343": {
+    "lat": 48.9347,
+    "lon": 11.7897,
+    "city": "Essing"
+  },
+  "93345": {
+    "lat": 48.8595,
+    "lon": 12.0063,
+    "city": "Hausen"
+  },
+  "93346": {
+    "lat": 48.9333,
+    "lon": 11.8667,
+    "city": "Ihrlerstein"
+  },
+  "93348": {
+    "lat": 48.771,
+    "lon": 11.9037,
+    "city": "Kirchdorf"
+  },
+  "93349": {
+    "lat": 48.85,
+    "lon": 11.65,
+    "city": "Mindelstetten"
+  },
+  "93351": {
+    "lat": 48.9973,
+    "lon": 11.8195,
+    "city": "Painten"
+  },
+  "93352": {
+    "lat": 48.7667,
+    "lon": 11.9667,
+    "city": "Rohr in Niederbayern"
+  },
+  "93354": {
+    "lat": 48.7725,
+    "lon": 11.8528,
+    "city": "Biburg"
+  },
+  "93356": {
+    "lat": 48.893,
+    "lon": 12.0117,
+    "city": "Teugn"
+  },
+  "93358": {
+    "lat": 48.7333,
+    "lon": 11.8333,
+    "city": "Train"
+  },
+  "93359": {
+    "lat": 48.7298,
+    "lon": 11.8985,
+    "city": "Wildenberg"
+  },
+  "93411": {
+    "lat": 49.223,
+    "lon": 12.6672,
+    "city": "Finanzamt"
+  },
+  "93413": {
+    "lat": 49.2257,
+    "lon": 12.655,
+    "city": "Cham"
+  },
+  "93426": {
+    "lat": 49.1943,
+    "lon": 12.5196,
+    "city": "Roding"
+  },
+  "93437": {
+    "lat": 49.3095,
+    "lon": 12.8416,
+    "city": "Furth im Wald"
+  },
+  "93444": {
+    "lat": 49.1765,
+    "lon": 12.8552,
+    "city": "Kötzting"
+  },
+  "93449": {
+    "lat": 49.378,
+    "lon": 12.7091,
+    "city": "Waldmünchen"
+  },
+  "93453": {
+    "lat": 49.2587,
+    "lon": 12.9687,
+    "city": "Neukirchen beim Heiligen Blut"
+  },
+  "93455": {
+    "lat": 49.15,
+    "lon": 12.65,
+    "city": "Traitsching"
+  },
+  "93458": {
+    "lat": 49.2988,
+    "lon": 12.9157,
+    "city": "Eschlkam"
+  },
+  "93462": {
+    "lat": 49.1967,
+    "lon": 13.0505,
+    "city": "Lam"
+  },
+  "93464": {
+    "lat": 49.4333,
+    "lon": 12.5833,
+    "city": "Tiefenbach"
+  },
+  "93466": {
+    "lat": 49.2,
+    "lon": 12.75,
+    "city": "Chamerau"
+  },
+  "93468": {
+    "lat": 49.162,
+    "lon": 12.7684,
+    "city": "Miltach"
+  },
+  "93470": {
+    "lat": 49.176,
+    "lon": 13.1055,
+    "city": "Lohberg"
+  },
+  "93471": {
+    "lat": 49.1301,
+    "lon": 12.9982,
+    "city": "Arnbruck"
+  },
+  "93473": {
+    "lat": 49.2766,
+    "lon": 12.8159,
+    "city": "Arnschwang"
+  },
+  "93474": {
+    "lat": 49.1915,
+    "lon": 12.9939,
+    "city": "Arrach"
+  },
+  "93476": {
+    "lat": 49.1667,
+    "lon": 12.8167,
+    "city": "Blaibach"
+  },
+  "93477": {
+    "lat": 49.3167,
+    "lon": 12.7333,
+    "city": "Gleißenberg"
+  },
+  "93479": {
+    "lat": 49.2,
+    "lon": 12.8833,
+    "city": "Grafenwiesen"
+  },
+  "93480": {
+    "lat": 49.2,
+    "lon": 12.9333,
+    "city": "Hohenwarth"
+  },
+  "93482": {
+    "lat": 49.2667,
+    "lon": 12.6167,
+    "city": "Pemfling"
+  },
+  "93483": {
+    "lat": 49.2333,
+    "lon": 12.55,
+    "city": "Pösing"
+  },
+  "93485": {
+    "lat": 49.2333,
+    "lon": 12.8833,
+    "city": "Rimbach"
+  },
+  "93486": {
+    "lat": 49.2151,
+    "lon": 12.7621,
+    "city": "Runding"
+  },
+  "93488": {
+    "lat": 49.35,
+    "lon": 12.6,
+    "city": "Schönthal"
+  },
+  "93489": {
+    "lat": 49.1604,
+    "lon": 12.5932,
+    "city": "Schorndorf"
+  },
+  "93491": {
+    "lat": 49.2676,
+    "lon": 12.5305,
+    "city": "Stamsried"
+  },
+  "93492": {
+    "lat": 49.4225,
+    "lon": 12.6157,
+    "city": "Treffelstein"
+  },
+  "93494": {
+    "lat": 49.2667,
+    "lon": 12.6667,
+    "city": "Waffenbrunn"
+  },
+  "93495": {
+    "lat": 49.2628,
+    "lon": 12.7631,
+    "city": "Weiding"
+  },
+  "93497": {
+    "lat": 49.25,
+    "lon": 12.6667,
+    "city": "Willmering"
+  },
+  "93499": {
+    "lat": 49.15,
+    "lon": 12.7333,
+    "city": "Zandt"
+  },
+  "94028": {
+    "lat": 48.5715,
+    "lon": 13.4594,
+    "city": "Agentur für Arbeit Passau"
+  },
+  "94030": {
+    "lat": 48.5726,
+    "lon": 13.4494,
+    "city": "StA"
+  },
+  "94032": {
+    "lat": 48.5732,
+    "lon": 13.4506,
+    "city": "Passau"
+  },
+  "94034": {
+    "lat": 48.589,
+    "lon": 13.3971,
+    "city": "Passau"
+  },
+  "94036": {
+    "lat": 48.5693,
+    "lon": 13.4122,
+    "city": "Passau"
+  },
+  "94051": {
+    "lat": 48.6496,
+    "lon": 13.6265,
+    "city": "Hauzenberg"
+  },
+  "94060": {
+    "lat": 48.4015,
+    "lon": 13.3132,
+    "city": "Pocking"
+  },
+  "94065": {
+    "lat": 48.7327,
+    "lon": 13.6008,
+    "city": "Waldkirchen"
+  },
+  "94072": {
+    "lat": 48.351,
+    "lon": 13.312,
+    "city": "Bad Füssing"
+  },
+  "94078": {
+    "lat": 48.8095,
+    "lon": 13.5477,
+    "city": "Freyung"
+  },
+  "94081": {
+    "lat": 48.5216,
+    "lon": 13.3175,
+    "city": "Fürstenzell"
+  },
+  "94086": {
+    "lat": 48.4557,
+    "lon": 13.1939,
+    "city": "Bad Griesbach im Rottal"
+  },
+  "94089": {
+    "lat": 48.7486,
+    "lon": 13.747,
+    "city": "Neureichenau"
+  },
+  "94094": {
+    "lat": 48.3595,
+    "lon": 13.197,
+    "city": "Malching"
+  },
+  "94099": {
+    "lat": 48.4333,
+    "lon": 13.3333,
+    "city": "Ruhstorf an der Rott"
+  },
+  "94104": {
+    "lat": 48.7215,
+    "lon": 13.3995,
+    "city": "Tittling"
+  },
+  "94107": {
+    "lat": 48.5743,
+    "lon": 13.6672,
+    "city": "Untergriesbach"
+  },
+  "94110": {
+    "lat": 48.6014,
+    "lon": 13.7873,
+    "city": "Wegscheid"
+  },
+  "94113": {
+    "lat": 48.6242,
+    "lon": 13.4003,
+    "city": "Tiefenbach"
+  },
+  "94116": {
+    "lat": 48.6728,
+    "lon": 13.4715,
+    "city": "Hutthurm"
+  },
+  "94118": {
+    "lat": 48.7333,
+    "lon": 13.7,
+    "city": "Jandelsbrunn"
+  },
+  "94121": {
+    "lat": 48.6167,
+    "lon": 13.4833,
+    "city": "Salzweg"
+  },
+  "94124": {
+    "lat": 48.6711,
+    "lon": 13.521,
+    "city": "Büchlberg"
+  },
+  "94127": {
+    "lat": 48.5,
+    "lon": 13.45,
+    "city": "Neuburg am Inn"
+  },
+  "94130": {
+    "lat": 48.5549,
+    "lon": 13.6373,
+    "city": "Obernzell"
+  },
+  "94133": {
+    "lat": 48.7386,
+    "lon": 13.5227,
+    "city": "Röhrnbach"
+  },
+  "94136": {
+    "lat": 48.6167,
+    "lon": 13.5333,
+    "city": "Thyrnau"
+  },
+  "94137": {
+    "lat": 48.4102,
+    "lon": 13.1441,
+    "city": "Bayerbach"
+  },
+  "94139": {
+    "lat": 48.7044,
+    "lon": 13.7933,
+    "city": "Breitenberg"
+  },
+  "94140": {
+    "lat": 48.2992,
+    "lon": 13.1503,
+    "city": "Ering"
+  },
+  "94142": {
+    "lat": 48.7167,
+    "lon": 13.4667,
+    "city": "Fürsteneck"
+  },
+  "94143": {
+    "lat": 48.8,
+    "lon": 13.65,
+    "city": "Grainet"
+  },
+  "94145": {
+    "lat": 48.8257,
+    "lon": 13.7765,
+    "city": "Haidmühle"
+  },
+  "94146": {
+    "lat": 48.8234,
+    "lon": 13.6037,
+    "city": "Hinterschmiding"
+  },
+  "94148": {
+    "lat": 48.3464,
+    "lon": 13.2672,
+    "city": "Kirchham"
+  },
+  "94149": {
+    "lat": 48.3667,
+    "lon": 13.1167,
+    "city": "Kößlarn"
+  },
+  "94151": {
+    "lat": 48.8897,
+    "lon": 13.5846,
+    "city": "Mauth"
+  },
+  "94152": {
+    "lat": 48.4609,
+    "lon": 13.4208,
+    "city": "Neuhaus am Inn"
+  },
+  "94154": {
+    "lat": 48.6833,
+    "lon": 13.3833,
+    "city": "Neukirchen vorm Wald"
+  },
+  "94155": {
+    "lat": 48.6167,
+    "lon": 13.2167,
+    "city": "Otterskirchen"
+  },
+  "94157": {
+    "lat": 48.7818,
+    "lon": 13.4384,
+    "city": "Perlesreut"
+  },
+  "94158": {
+    "lat": 48.8667,
+    "lon": 13.6833,
+    "city": "Philippsreut"
+  },
+  "94160": {
+    "lat": 48.8134,
+    "lon": 13.4713,
+    "city": "Ringelai"
+  },
+  "94161": {
+    "lat": 48.65,
+    "lon": 13.4167,
+    "city": "Ruderting"
+  },
+  "94163": {
+    "lat": 48.7731,
+    "lon": 13.3559,
+    "city": "Saldenburg"
+  },
+  "94164": {
+    "lat": 48.6833,
+    "lon": 13.7167,
+    "city": "Sonnen"
+  },
+  "94166": {
+    "lat": 48.3167,
+    "lon": 13.0833,
+    "city": "Stubenberg"
+  },
+  "94167": {
+    "lat": 48.4428,
+    "lon": 13.2696,
+    "city": "Tettenweis"
+  },
+  "94169": {
+    "lat": 48.7663,
+    "lon": 13.3155,
+    "city": "Thurmansbang"
+  },
+  "94209": {
+    "lat": 48.9719,
+    "lon": 13.1282,
+    "city": "Regen"
+  },
+  "94227": {
+    "lat": 49.0268,
+    "lon": 13.246,
+    "city": "Zwiesel"
+  },
+  "94232": {
+    "lat": 49.0804,
+    "lon": 12.8707,
+    "city": "AZH GmbH"
+  },
+  "94233": {
+    "lat": 49.0755,
+    "lon": 12.8897,
+    "city": "Zentrale Bußgeldstelle im Bayer. Polizeiverwaltungsamt"
+  },
+  "94234": {
+    "lat": 49.08,
+    "lon": 12.8857,
+    "city": "Viechtach"
+  },
+  "94239": {
+    "lat": 48.9722,
+    "lon": 12.9834,
+    "city": "Gotteszell"
+  },
+  "94244": {
+    "lat": 49.0434,
+    "lon": 12.9848,
+    "city": "Teisnach"
+  },
+  "94249": {
+    "lat": 49.0667,
+    "lon": 13.1,
+    "city": "Bodenmais"
+  },
+  "94250": {
+    "lat": 48.9717,
+    "lon": 12.9351,
+    "city": "Achslach"
+  },
+  "94252": {
+    "lat": 49.1167,
+    "lon": 13.2,
+    "city": "Bayerisch Eisenstein"
+  },
+  "94253": {
+    "lat": 48.918,
+    "lon": 13.0818,
+    "city": "Bischofsmais"
+  },
+  "94255": {
+    "lat": 49.0562,
+    "lon": 13.0347,
+    "city": "Böbrach"
+  },
+  "94256": {
+    "lat": 49.1076,
+    "lon": 13.0118,
+    "city": "Drachselsried"
+  },
+  "94258": {
+    "lat": 48.9889,
+    "lon": 13.3007,
+    "city": "Frauenau"
+  },
+  "94259": {
+    "lat": 48.9,
+    "lon": 13.1833,
+    "city": "Kirchberg im Wald"
+  },
+  "94261": {
+    "lat": 48.9105,
+    "lon": 13.2661,
+    "city": "Kirchdorf im Wald"
+  },
+  "94262": {
+    "lat": 49.0466,
+    "lon": 12.8612,
+    "city": "Kollnburg"
+  },
+  "94264": {
+    "lat": 49.015,
+    "lon": 13.1465,
+    "city": "Langdorf"
+  },
+  "94265": {
+    "lat": 49.0167,
+    "lon": 12.9833,
+    "city": "Patersdorf"
+  },
+  "94267": {
+    "lat": 49.0954,
+    "lon": 12.8261,
+    "city": "Prackenbach"
+  },
+  "94269": {
+    "lat": 48.9496,
+    "lon": 13.201,
+    "city": "Rinchnach"
+  },
+  "94310": {
+    "lat": 48.8889,
+    "lon": 12.6234,
+    "city": "MACROTRON AG"
+  },
+  "94312": {
+    "lat": 48.8986,
+    "lon": 12.6558,
+    "city": "Deutsche Post AG"
+  },
+  "94315": {
+    "lat": 48.8813,
+    "lon": 12.5739,
+    "city": "Straubing"
+  },
+  "94327": {
+    "lat": 48.9112,
+    "lon": 12.6896,
+    "city": "Bogen"
+  },
+  "94330": {
+    "lat": 48.8277,
+    "lon": 12.5974,
+    "city": "Salching"
+  },
+  "94333": {
+    "lat": 48.825,
+    "lon": 12.3965,
+    "city": "Geiselhöring"
+  },
+  "94336": {
+    "lat": 48.9465,
+    "lon": 12.7398,
+    "city": "Windberg"
+  },
+  "94339": {
+    "lat": 48.7757,
+    "lon": 12.5179,
+    "city": "Leiblfing"
+  },
+  "94342": {
+    "lat": 48.836,
+    "lon": 12.7363,
+    "city": "Irlbach"
+  },
+  "94344": {
+    "lat": 49.0407,
+    "lon": 12.5401,
+    "city": "Wiesenfelden"
+  },
+  "94345": {
+    "lat": 48.9428,
+    "lon": 12.4686,
+    "city": "Aholfing"
+  },
+  "94347": {
+    "lat": 49,
+    "lon": 12.6333,
+    "city": "Ascha"
+  },
+  "94348": {
+    "lat": 48.8941,
+    "lon": 12.4878,
+    "city": "Atting"
+  },
+  "94350": {
+    "lat": 49.0042,
+    "lon": 12.5948,
+    "city": "Falkenfels"
+  },
+  "94351": {
+    "lat": 48.8383,
+    "lon": 12.5278,
+    "city": "Feldkirchen"
+  },
+  "94353": {
+    "lat": 49.0241,
+    "lon": 12.7155,
+    "city": "Haibach"
+  },
+  "94354": {
+    "lat": 49.0035,
+    "lon": 12.6918,
+    "city": "Haselbach"
+  },
+  "94356": {
+    "lat": 48.95,
+    "lon": 12.55,
+    "city": "Kirchroth"
+  },
+  "94357": {
+    "lat": 49.0724,
+    "lon": 12.7111,
+    "city": "Konzell"
+  },
+  "94359": {
+    "lat": 49.0846,
+    "lon": 12.6559,
+    "city": "Loitzendorf"
+  },
+  "94360": {
+    "lat": 48.9763,
+    "lon": 12.6785,
+    "city": "Mitterfels"
+  },
+  "94362": {
+    "lat": 48.9751,
+    "lon": 12.7555,
+    "city": "Neukirchen"
+  },
+  "94363": {
+    "lat": 48.7957,
+    "lon": 12.642,
+    "city": "Oberschneiding"
+  },
+  "94365": {
+    "lat": 48.9167,
+    "lon": 12.6,
+    "city": "Parkstetten"
+  },
+  "94366": {
+    "lat": 48.95,
+    "lon": 12.8,
+    "city": "Perasdorf"
+  },
+  "94368": {
+    "lat": 48.8553,
+    "lon": 12.4398,
+    "city": "Perkam"
+  },
+  "94369": {
+    "lat": 48.905,
+    "lon": 12.4687,
+    "city": "Rain"
+  },
+  "94371": {
+    "lat": 49.0861,
+    "lon": 12.7491,
+    "city": "Rattenberg"
+  },
+  "94372": {
+    "lat": 49.0257,
+    "lon": 12.6592,
+    "city": "Rattiszell"
+  },
+  "94374": {
+    "lat": 48.9157,
+    "lon": 12.8114,
+    "city": "Schwarzach"
+  },
+  "94375": {
+    "lat": 49.051,
+    "lon": 12.655,
+    "city": "Stallwang"
+  },
+  "94377": {
+    "lat": 48.9542,
+    "lon": 12.6071,
+    "city": "Steinach"
+  },
+  "94379": {
+    "lat": 49.003,
+    "lon": 12.8266,
+    "city": "Sankt Englmar"
+  },
+  "94405": {
+    "lat": 48.6725,
+    "lon": 12.6932,
+    "city": "Landau an der Isar"
+  },
+  "94419": {
+    "lat": 48.5701,
+    "lon": 12.628,
+    "city": "Reisbach"
+  },
+  "94424": {
+    "lat": 48.5584,
+    "lon": 12.8167,
+    "city": "Arnstorf"
+  },
+  "94428": {
+    "lat": 48.6327,
+    "lon": 12.8559,
+    "city": "Eichendorf"
+  },
+  "94431": {
+    "lat": 48.7012,
+    "lon": 12.651,
+    "city": "Pilsting"
+  },
+  "94436": {
+    "lat": 48.5661,
+    "lon": 12.7389,
+    "city": "Simbach"
+  },
+  "94437": {
+    "lat": 48.6517,
+    "lon": 12.6078,
+    "city": "Mamming"
+  },
+  "94439": {
+    "lat": 48.6,
+    "lon": 12.9333,
+    "city": "Roßbach"
+  },
+  "94447": {
+    "lat": 48.7787,
+    "lon": 12.8751,
+    "city": "Plattling"
+  },
+  "94466": {
+    "lat": 48.837,
+    "lon": 12.9594,
+    "city": "Agentur für Arbeit Deggendorf"
+  },
+  "94469": {
+    "lat": 48.8409,
+    "lon": 12.9607,
+    "city": "Deggendorf"
+  },
+  "94474": {
+    "lat": 48.6269,
+    "lon": 13.1922,
+    "city": "Vilshofen"
+  },
+  "94481": {
+    "lat": 48.8577,
+    "lon": 13.3974,
+    "city": "Grafenau"
+  },
+  "94486": {
+    "lat": 48.7,
+    "lon": 13.0222,
+    "city": "Osterhofen"
+  },
+  "94491": {
+    "lat": 48.7725,
+    "lon": 13.0549,
+    "city": "Hengersberg"
+  },
+  "94496": {
+    "lat": 48.546,
+    "lon": 13.2225,
+    "city": "Ortenburg"
+  },
+  "94501": {
+    "lat": 48.57,
+    "lon": 13.0988,
+    "city": "Aidenbach"
+  },
+  "94505": {
+    "lat": 48.9167,
+    "lon": 12.8833,
+    "city": "Bernried"
+  },
+  "94508": {
+    "lat": 48.7541,
+    "lon": 13.1778,
+    "city": "Schöllnach"
+  },
+  "94513": {
+    "lat": 48.8397,
+    "lon": 13.3371,
+    "city": "Schönberg"
+  },
+  "94518": {
+    "lat": 48.9152,
+    "lon": 13.3623,
+    "city": "Spiegelau"
+  },
+  "94522": {
+    "lat": 48.7377,
+    "lon": 12.7474,
+    "city": "Wallersdorf"
+  },
+  "94526": {
+    "lat": 48.8551,
+    "lon": 12.9155,
+    "city": "Metten"
+  },
+  "94527": {
+    "lat": 48.7354,
+    "lon": 12.91,
+    "city": "Aholming"
+  },
+  "94529": {
+    "lat": 48.676,
+    "lon": 13.2954,
+    "city": "Aicha vorm Wald"
+  },
+  "94530": {
+    "lat": 48.8035,
+    "lon": 13.0995,
+    "city": "Auerbach"
+  },
+  "94532": {
+    "lat": 48.7241,
+    "lon": 13.2029,
+    "city": "Außernzell"
+  },
+  "94533": {
+    "lat": 48.697,
+    "lon": 12.9246,
+    "city": "Buchhofen"
+  },
+  "94535": {
+    "lat": 48.7139,
+    "lon": 13.2713,
+    "city": "Eging am See"
+  },
+  "94536": {
+    "lat": 48.8894,
+    "lon": 13.2999,
+    "city": "Eppenschlag"
+  },
+  "94538": {
+    "lat": 48.7167,
+    "lon": 13.3333,
+    "city": "Fürstenstein"
+  },
+  "94539": {
+    "lat": 48.8949,
+    "lon": 12.9751,
+    "city": "Grafling"
+  },
+  "94541": {
+    "lat": 48.8036,
+    "lon": 13.1537,
+    "city": "Grattersdorf"
+  },
+  "94542": {
+    "lat": 48.5,
+    "lon": 13.15,
+    "city": "Haarbach"
+  },
+  "94544": {
+    "lat": 48.6781,
+    "lon": 13.1192,
+    "city": "Hofkirchen"
+  },
+  "94545": {
+    "lat": 48.8498,
+    "lon": 13.4882,
+    "city": "Hohenau"
+  },
+  "94547": {
+    "lat": 48.7301,
+    "lon": 13.1423,
+    "city": "Iggensbach"
+  },
+  "94548": {
+    "lat": 48.8515,
+    "lon": 13.2754,
+    "city": "Innernzell"
+  },
+  "94550": {
+    "lat": 48.6667,
+    "lon": 13.0833,
+    "city": "Künzing"
+  },
+  "94551": {
+    "lat": 48.8438,
+    "lon": 13.1585,
+    "city": "Hunding"
+  },
+  "94553": {
+    "lat": 48.8333,
+    "lon": 12.8,
+    "city": "Mariaposching"
+  },
+  "94554": {
+    "lat": 48.7515,
+    "lon": 12.9611,
+    "city": "Moos"
+  },
+  "94556": {
+    "lat": 48.8842,
+    "lon": 13.4758,
+    "city": "Neuschönau"
+  },
+  "94557": {
+    "lat": 48.7656,
+    "lon": 13.0241,
+    "city": "Niederalteich"
+  },
+  "94559": {
+    "lat": 48.8833,
+    "lon": 12.8,
+    "city": "Niederwinkling"
+  },
+  "94560": {
+    "lat": 48.8619,
+    "lon": 12.8629,
+    "city": "Offenberg"
+  },
+  "94562": {
+    "lat": 48.7018,
+    "lon": 12.8248,
+    "city": "Oberpöring"
+  },
+  "94563": {
+    "lat": 48.7613,
+    "lon": 12.8088,
+    "city": "Otzing"
+  },
+  "94565": {
+    "lat": 48.6771,
+    "lon": 13.2258,
+    "city": "Erlhof bei Rathsmannsdorf"
+  },
+  "94566": {
+    "lat": 48.9,
+    "lon": 13.4167,
+    "city": "Sankt Oswald-Riedlhütte"
+  },
+  "94568": {
+    "lat": 48.9,
+    "lon": 13.4167,
+    "city": "Sankt Oswald-Riedlhütte"
+  },
+  "94569": {
+    "lat": 48.8167,
+    "lon": 12.8,
+    "city": "Stephansposching"
+  },
+  "94571": {
+    "lat": 48.85,
+    "lon": 13.0667,
+    "city": "Schaufling"
+  },
+  "94572": {
+    "lat": 48.8388,
+    "lon": 13.2286,
+    "city": "Schöfweg"
+  },
+  "94574": {
+    "lat": 48.6842,
+    "lon": 12.8804,
+    "city": "Wallerfing"
+  },
+  "94575": {
+    "lat": 48.6244,
+    "lon": 13.2219,
+    "city": "Windorf"
+  },
+  "94577": {
+    "lat": 48.7228,
+    "lon": 13.0775,
+    "city": "Winzer"
+  },
+  "94579": {
+    "lat": 48.7913,
+    "lon": 13.2597,
+    "city": "Zenting"
+  },
+  "95025": {
+    "lat": 50.3189,
+    "lon": 11.9074,
+    "city": "Fondsdepot Bank GmbH"
+  },
+  "95027": {
+    "lat": 50.3094,
+    "lon": 11.9099,
+    "city": "Agentur für Arbeit Hof"
+  },
+  "95028": {
+    "lat": 50.3209,
+    "lon": 11.9172,
+    "city": "Hof"
+  },
+  "95030": {
+    "lat": 50.3173,
+    "lon": 11.8961,
+    "city": "Hof"
+  },
+  "95032": {
+    "lat": 50.2953,
+    "lon": 11.9103,
+    "city": "Hof"
+  },
+  "95098": {
+    "lat": 50.1781,
+    "lon": 12.1325,
+    "city": "Rosenthal GmbH"
+  },
+  "95100": {
+    "lat": 50.1706,
+    "lon": 12.1305,
+    "city": "Selb"
+  },
+  "95111": {
+    "lat": 50.2492,
+    "lon": 12.0342,
+    "city": "Rehau"
+  },
+  "95119": {
+    "lat": 50.3303,
+    "lon": 11.7046,
+    "city": "Naila"
+  },
+  "95126": {
+    "lat": 50.2228,
+    "lon": 11.935,
+    "city": "Schwarzenbach an der Saale"
+  },
+  "95131": {
+    "lat": 50.2846,
+    "lon": 11.6249,
+    "city": "Schwarzenbach am Wald"
+  },
+  "95138": {
+    "lat": 50.3665,
+    "lon": 11.6444,
+    "city": "Bad Steben"
+  },
+  "95145": {
+    "lat": 50.2624,
+    "lon": 11.9348,
+    "city": "Oberkotzau"
+  },
+  "95152": {
+    "lat": 50.317,
+    "lon": 11.7502,
+    "city": "Selbitz"
+  },
+  "95158": {
+    "lat": 50.1519,
+    "lon": 11.9483,
+    "city": "Kirchenlamitz"
+  },
+  "95163": {
+    "lat": 50.1022,
+    "lon": 11.8885,
+    "city": "Weißenstadt"
+  },
+  "95168": {
+    "lat": 50.1301,
+    "lon": 12.0023,
+    "city": "Marktleuthen"
+  },
+  "95173": {
+    "lat": 50.1997,
+    "lon": 12.085,
+    "city": "Schönwald"
+  },
+  "95176": {
+    "lat": 50.2667,
+    "lon": 11.85,
+    "city": "Konradsreuth"
+  },
+  "95179": {
+    "lat": 50.3333,
+    "lon": 11.6,
+    "city": "Geroldsgrün"
+  },
+  "95180": {
+    "lat": 50.3747,
+    "lon": 11.7785,
+    "city": "Berg"
+  },
+  "95182": {
+    "lat": 50.2833,
+    "lon": 11.95,
+    "city": "Döhlau"
+  },
+  "95183": {
+    "lat": 50.3747,
+    "lon": 11.9189,
+    "city": "Töpen"
+  },
+  "95185": {
+    "lat": 50.3221,
+    "lon": 11.9978,
+    "city": "Gattendorf"
+  },
+  "95186": {
+    "lat": 50.1,
+    "lon": 12.0833,
+    "city": "Höchstädt im Fichtelgebirge"
+  },
+  "95188": {
+    "lat": 50.3752,
+    "lon": 11.7207,
+    "city": "Issigau"
+  },
+  "95189": {
+    "lat": 50.3333,
+    "lon": 11.85,
+    "city": "Köditz"
+  },
+  "95191": {
+    "lat": 50.3,
+    "lon": 11.8,
+    "city": "Leupoldsgrün"
+  },
+  "95192": {
+    "lat": 50.3833,
+    "lon": 11.6762,
+    "city": "Lichtenberg"
+  },
+  "95194": {
+    "lat": 50.3,
+    "lon": 12.05,
+    "city": "Regnitzlosau"
+  },
+  "95195": {
+    "lat": 50.0833,
+    "lon": 11.9833,
+    "city": "Röslau"
+  },
+  "95197": {
+    "lat": 50.2783,
+    "lon": 11.7417,
+    "city": "Schauenstein"
+  },
+  "95199": {
+    "lat": 50.1064,
+    "lon": 12.102,
+    "city": "Thierstein"
+  },
+  "95212": {
+    "lat": 50.1887,
+    "lon": 11.7974,
+    "city": "Goldner GmbH"
+  },
+  "95213": {
+    "lat": 50.1895,
+    "lon": 11.7882,
+    "city": "Münchberg"
+  },
+  "95233": {
+    "lat": 50.2356,
+    "lon": 11.7159,
+    "city": "Helmbrechts"
+  },
+  "95234": {
+    "lat": 50.1621,
+    "lon": 11.8435,
+    "city": "Sparneck"
+  },
+  "95236": {
+    "lat": 50.1455,
+    "lon": 11.6913,
+    "city": "Stammbach"
+  },
+  "95237": {
+    "lat": 50.1833,
+    "lon": 11.85,
+    "city": "Weißdorf"
+  },
+  "95239": {
+    "lat": 50.1333,
+    "lon": 11.8,
+    "city": "Zell"
+  },
+  "95326": {
+    "lat": 50.1007,
+    "lon": 11.4503,
+    "city": "Kulmbach"
+  },
+  "95336": {
+    "lat": 50.0999,
+    "lon": 11.3766,
+    "city": "Mainleus"
+  },
+  "95339": {
+    "lat": 50.0988,
+    "lon": 11.5927,
+    "city": "Wirsberg"
+  },
+  "95346": {
+    "lat": 50.1643,
+    "lon": 11.5035,
+    "city": "Stadtsteinach"
+  },
+  "95349": {
+    "lat": 50.0254,
+    "lon": 11.3935,
+    "city": "Thurnau"
+  },
+  "95352": {
+    "lat": 50.1731,
+    "lon": 11.6339,
+    "city": "Marktleugast"
+  },
+  "95355": {
+    "lat": 50.228,
+    "lon": 11.5551,
+    "city": "Presseck"
+  },
+  "95356": {
+    "lat": 50.2031,
+    "lon": 11.5936,
+    "city": "Grafengehaig"
+  },
+  "95358": {
+    "lat": 50.1552,
+    "lon": 11.5648,
+    "city": "Guttenberg"
+  },
+  "95359": {
+    "lat": 50.0367,
+    "lon": 11.352,
+    "city": "Kasendorf"
+  },
+  "95361": {
+    "lat": 50.1,
+    "lon": 11.5333,
+    "city": "Ködnitz"
+  },
+  "95362": {
+    "lat": 50.1396,
+    "lon": 11.5776,
+    "city": "Kupferberg"
+  },
+  "95364": {
+    "lat": 50.1264,
+    "lon": 11.5597,
+    "city": "Ludwigschorgast"
+  },
+  "95365": {
+    "lat": 50.2,
+    "lon": 11.4667,
+    "city": "Rugendorf"
+  },
+  "95367": {
+    "lat": 50.0667,
+    "lon": 11.55,
+    "city": "Trebgast"
+  },
+  "95369": {
+    "lat": 50.1333,
+    "lon": 11.5167,
+    "city": "Untersteinach"
+  },
+  "95440": {
+    "lat": 49.9468,
+    "lon": 11.578,
+    "city": "Zapf GmbH"
+  },
+  "95442": {
+    "lat": 49.9451,
+    "lon": 11.5781,
+    "city": "UniCredit Bank AG"
+  },
+  "95444": {
+    "lat": 49.9461,
+    "lon": 11.5762,
+    "city": "Bayreuth"
+  },
+  "95445": {
+    "lat": 49.9431,
+    "lon": 11.5592,
+    "city": "Bayreuth"
+  },
+  "95447": {
+    "lat": 49.9481,
+    "lon": 11.5783,
+    "city": "Bayreuth"
+  },
+  "95448": {
+    "lat": 49.9474,
+    "lon": 11.5993,
+    "city": "Bayreuth"
+  },
+  "95455": {
+    "lat": 49.9158,
+    "lon": 11.6078,
+    "city": "Deutsche Post AG Niederlassung BRIEF Bayreuth"
+  },
+  "95460": {
+    "lat": 50.0456,
+    "lon": 11.6724,
+    "city": "Bad Berneck im Fichtelgebirge"
+  },
+  "95463": {
+    "lat": 49.9817,
+    "lon": 11.6139,
+    "city": "Bindlach"
+  },
+  "95466": {
+    "lat": 49.9375,
+    "lon": 11.7527,
+    "city": "Weidenberg"
+  },
+  "95469": {
+    "lat": 49.8713,
+    "lon": 11.7812,
+    "city": "Speichersdorf"
+  },
+  "95473": {
+    "lat": 49.8494,
+    "lon": 11.6236,
+    "city": "Haag"
+  },
+  "95478": {
+    "lat": 49.8701,
+    "lon": 11.8908,
+    "city": "Kemnath"
+  },
+  "95482": {
+    "lat": 50.0954,
+    "lon": 11.7377,
+    "city": "Gefrees"
+  },
+  "95485": {
+    "lat": 49.9935,
+    "lon": 11.7787,
+    "city": "Warmensteinach"
+  },
+  "95488": {
+    "lat": 49.9348,
+    "lon": 11.4962,
+    "city": "Eckersdorf"
+  },
+  "95490": {
+    "lat": 49.9126,
+    "lon": 11.4659,
+    "city": "Mistelgau"
+  },
+  "95491": {
+    "lat": 49.85,
+    "lon": 11.4333,
+    "city": "Ahorntal"
+  },
+  "95493": {
+    "lat": 50.0512,
+    "lon": 11.8,
+    "city": "Bischofsgrün"
+  },
+  "95494": {
+    "lat": 49.9,
+    "lon": 11.5333,
+    "city": "Gesees"
+  },
+  "95496": {
+    "lat": 49.8874,
+    "lon": 11.4487,
+    "city": "Glashütten"
+  },
+  "95497": {
+    "lat": 50.0109,
+    "lon": 11.6875,
+    "city": "Goldkronach"
+  },
+  "95499": {
+    "lat": 50.0333,
+    "lon": 11.5667,
+    "city": "Harsdorf"
+  },
+  "95500": {
+    "lat": 49.9667,
+    "lon": 11.5333,
+    "city": "Heinersreuth"
+  },
+  "95502": {
+    "lat": 50.0667,
+    "lon": 11.6,
+    "city": "Himmelkron"
+  },
+  "95503": {
+    "lat": 49.9,
+    "lon": 11.5167,
+    "city": "Hummeltal"
+  },
+  "95505": {
+    "lat": 49.9,
+    "lon": 11.8667,
+    "city": "Immenreuth"
+  },
+  "95506": {
+    "lat": 49.8333,
+    "lon": 11.9,
+    "city": "Kastl"
+  },
+  "95508": {
+    "lat": 49.9,
+    "lon": 11.9,
+    "city": "Kulmain"
+  },
+  "95509": {
+    "lat": 50.0947,
+    "lon": 11.6547,
+    "city": "Marktschorgast"
+  },
+  "95511": {
+    "lat": 49.9126,
+    "lon": 11.5126,
+    "city": "Mistelbach"
+  },
+  "95512": {
+    "lat": 50.0167,
+    "lon": 11.5,
+    "city": "Neudrossenfeld"
+  },
+  "95514": {
+    "lat": 49.8167,
+    "lon": 11.8333,
+    "city": "Neustadt am Kulm"
+  },
+  "95515": {
+    "lat": 49.8833,
+    "lon": 11.3333,
+    "city": "Plankenfels"
+  },
+  "95517": {
+    "lat": 49.893,
+    "lon": 11.675,
+    "city": "Emtmannsberg"
+  },
+  "95519": {
+    "lat": 49.8107,
+    "lon": 11.7348,
+    "city": "Vorbach"
+  },
+  "95614": {
+    "lat": 50.0069,
+    "lon": 12.0892,
+    "city": "Glass GmbH"
+  },
+  "95615": {
+    "lat": 50.0044,
+    "lon": 12.0859,
+    "city": "Marktredwitz"
+  },
+  "95631": {
+    "lat": 50.0437,
+    "lon": 12.0456,
+    "city": "Finanzamt Wunsiedel"
+  },
+  "95632": {
+    "lat": 50.0392,
+    "lon": 12.0034,
+    "city": "Wunsiedel"
+  },
+  "95643": {
+    "lat": 49.8826,
+    "lon": 12.3311,
+    "city": "Tirschenreuth"
+  },
+  "95652": {
+    "lat": 50.0017,
+    "lon": 12.3043,
+    "city": "Waldsassen"
+  },
+  "95659": {
+    "lat": 50.0577,
+    "lon": 12.1868,
+    "city": "Arzberg"
+  },
+  "95666": {
+    "lat": 49.9493,
+    "lon": 12.2637,
+    "city": "Leonberg"
+  },
+  "95671": {
+    "lat": 49.8108,
+    "lon": 12.4332,
+    "city": "Bärnau"
+  },
+  "95676": {
+    "lat": 49.9082,
+    "lon": 12.1889,
+    "city": "Wiesau"
+  },
+  "95679": {
+    "lat": 49.9814,
+    "lon": 12.0629,
+    "city": "Waldershof"
+  },
+  "95680": {
+    "lat": 50.0167,
+    "lon": 12.0167,
+    "city": "Bad Alexandersbad"
+  },
+  "95682": {
+    "lat": 49.9597,
+    "lon": 11.9107,
+    "city": "Brand"
+  },
+  "95683": {
+    "lat": 49.95,
+    "lon": 11.9333,
+    "city": "Ebnath"
+  },
+  "95685": {
+    "lat": 49.8584,
+    "lon": 12.2268,
+    "city": "Falkenberg"
+  },
+  "95686": {
+    "lat": 50.0029,
+    "lon": 11.8542,
+    "city": "Fichtelberg"
+  },
+  "95688": {
+    "lat": 49.8826,
+    "lon": 12.1012,
+    "city": "Friedenfels"
+  },
+  "95689": {
+    "lat": 49.9226,
+    "lon": 12.1458,
+    "city": "Fuchsmühl"
+  },
+  "95691": {
+    "lat": 50.095,
+    "lon": 12.2201,
+    "city": "Hohenberg an der Eger"
+  },
+  "95692": {
+    "lat": 50.0109,
+    "lon": 12.2271,
+    "city": "Konnersreuth"
+  },
+  "95694": {
+    "lat": 49.9742,
+    "lon": 11.862,
+    "city": "Mehlmeisel"
+  },
+  "95695": {
+    "lat": 49.9109,
+    "lon": 12.5245,
+    "city": "Mähring"
+  },
+  "95697": {
+    "lat": 49.9833,
+    "lon": 11.9167,
+    "city": "Nagel"
+  },
+  "95698": {
+    "lat": 49.9804,
+    "lon": 12.4437,
+    "city": "Neualbenreuth"
+  },
+  "95700": {
+    "lat": 49.9333,
+    "lon": 11.9667,
+    "city": "Neusorg"
+  },
+  "95701": {
+    "lat": 49.9667,
+    "lon": 12.1667,
+    "city": "Pechbrunn"
+  },
+  "95703": {
+    "lat": 49.784,
+    "lon": 12.31,
+    "city": "Plößberg"
+  },
+  "95704": {
+    "lat": 49.9333,
+    "lon": 12,
+    "city": "Pullenreuth"
+  },
+  "95706": {
+    "lat": 50.0821,
+    "lon": 12.2274,
+    "city": "Schirnding"
+  },
+  "95707": {
+    "lat": 50.0761,
+    "lon": 12.1265,
+    "city": "Thiersheim"
+  },
+  "95709": {
+    "lat": 50.0167,
+    "lon": 11.95,
+    "city": "Tröstau"
+  },
+  "96035": {
+    "lat": 52.5025,
+    "lon": 13.407,
+    "city": "AMN Data Solutions GmbH"
+  },
+  "96039": {
+    "lat": 50.7393,
+    "lon": 7.1024,
+    "city": "HappyDigits Service Center"
+  },
+  "96044": {
+    "lat": 49.9211,
+    "lon": 10.9057,
+    "city": "Walter Günther"
+  },
+  "96045": {
+    "lat": 49.8997,
+    "lon": 10.8972,
+    "city": "Finanzamt"
+  },
+  "96047": {
+    "lat": 49.8934,
+    "lon": 10.8911,
+    "city": "Bamberg"
+  },
+  "96049": {
+    "lat": 49.88,
+    "lon": 10.8834,
+    "city": "Bamberg"
+  },
+  "96050": {
+    "lat": 49.8883,
+    "lon": 10.9185,
+    "city": "Bamberg"
+  },
+  "96052": {
+    "lat": 49.9083,
+    "lon": 10.8951,
+    "city": "Bamberg"
+  },
+  "96060": {
+    "lat": 49.9189,
+    "lon": 10.9223,
+    "city": "Deutsche Post AG Niederlassung BRIEF Bamberg"
+  },
+  "96061": {
+    "lat": 49.909,
+    "lon": 10.8718,
+    "city": "Arcor AG & Co"
+  },
+  "96063": {
+    "lat": 50.1069,
+    "lon": 8.6399,
+    "city": "DB Fernverkehr GmbH c/o GHP"
+  },
+  "96076": {
+    "lat": 52.5044,
+    "lon": 13.346,
+    "city": "GEMA Geschäftsstelle Berlin"
+  },
+  "96077": {
+    "lat": 49.9188,
+    "lon": 10.8951,
+    "city": "SPS Deutschland Postfach 100 163"
+  },
+  "96103": {
+    "lat": 49.929,
+    "lon": 10.8754,
+    "city": "Hallstadt"
+  },
+  "96106": {
+    "lat": 50.0955,
+    "lon": 10.7983,
+    "city": "Ebern"
+  },
+  "96110": {
+    "lat": 49.9757,
+    "lon": 11.033,
+    "city": "Scheßlitz"
+  },
+  "96114": {
+    "lat": 49.8179,
+    "lon": 10.9892,
+    "city": "Hirschaid"
+  },
+  "96117": {
+    "lat": 49.9301,
+    "lon": 10.9592,
+    "city": "Memmelsdorf"
+  },
+  "96120": {
+    "lat": 49.9109,
+    "lon": 10.8321,
+    "city": "Bischberg"
+  },
+  "96123": {
+    "lat": 49.9144,
+    "lon": 11.0103,
+    "city": "Litzendorf"
+  },
+  "96126": {
+    "lat": 50.2022,
+    "lon": 10.6429,
+    "city": "Ermershausen"
+  },
+  "96129": {
+    "lat": 49.8443,
+    "lon": 10.9721,
+    "city": "Strullendorf"
+  },
+  "96132": {
+    "lat": 49.7562,
+    "lon": 10.6187,
+    "city": "Schlüsselfeld"
+  },
+  "96135": {
+    "lat": 49.8654,
+    "lon": 10.8438,
+    "city": "Stegaurach"
+  },
+  "96138": {
+    "lat": 49.8283,
+    "lon": 10.7434,
+    "city": "Burgebrach"
+  },
+  "96142": {
+    "lat": 49.9379,
+    "lon": 11.2915,
+    "city": "Hollfeld"
+  },
+  "96145": {
+    "lat": 50.1897,
+    "lon": 10.842,
+    "city": "Seßlach"
+  },
+  "96146": {
+    "lat": 49.8,
+    "lon": 11.0167,
+    "city": "Altendorf"
+  },
+  "96148": {
+    "lat": 49.9859,
+    "lon": 10.8518,
+    "city": "Baunach"
+  },
+  "96149": {
+    "lat": 49.9721,
+    "lon": 10.8859,
+    "city": "Breitengüßbach"
+  },
+  "96151": {
+    "lat": 50.0167,
+    "lon": 10.7,
+    "city": "Breitbrunn"
+  },
+  "96152": {
+    "lat": 49.7331,
+    "lon": 10.6007,
+    "city": "Burghaslach"
+  },
+  "96154": {
+    "lat": 49.8273,
+    "lon": 10.5963,
+    "city": "Burgwindheim"
+  },
+  "96155": {
+    "lat": 49.8036,
+    "lon": 11.03,
+    "city": "Buttenheim"
+  },
+  "96157": {
+    "lat": 49.8481,
+    "lon": 10.4967,
+    "city": "Ebrach"
+  },
+  "96158": {
+    "lat": 49.8167,
+    "lon": 10.8667,
+    "city": "Frensdorf"
+  },
+  "96160": {
+    "lat": 49.7736,
+    "lon": 10.4706,
+    "city": "Geiselwind"
+  },
+  "96161": {
+    "lat": 50.0333,
+    "lon": 10.8,
+    "city": "Gerach"
+  },
+  "96163": {
+    "lat": 49.9371,
+    "lon": 10.9199,
+    "city": "Gundelsheim"
+  },
+  "96164": {
+    "lat": 49.9549,
+    "lon": 10.8778,
+    "city": "Kemmern"
+  },
+  "96166": {
+    "lat": 50.0443,
+    "lon": 10.7178,
+    "city": "Kirchlauter"
+  },
+  "96167": {
+    "lat": 49.946,
+    "lon": 11.1652,
+    "city": "Königsfeld"
+  },
+  "96169": {
+    "lat": 49.9732,
+    "lon": 10.7884,
+    "city": "Lauter"
+  },
+  "96170": {
+    "lat": 49.8948,
+    "lon": 10.7209,
+    "city": "Lisberg"
+  },
+  "96172": {
+    "lat": 49.7544,
+    "lon": 10.7756,
+    "city": "Mühlhausen"
+  },
+  "96173": {
+    "lat": 49.9325,
+    "lon": 10.8147,
+    "city": "Oberhaid"
+  },
+  "96175": {
+    "lat": 49.83,
+    "lon": 10.9284,
+    "city": "Pettstadt"
+  },
+  "96176": {
+    "lat": 50.15,
+    "lon": 10.7333,
+    "city": "Pfarrweisach"
+  },
+  "96178": {
+    "lat": 49.7667,
+    "lon": 10.8167,
+    "city": "Pommersfelden"
+  },
+  "96179": {
+    "lat": 50.015,
+    "lon": 10.8886,
+    "city": "Rattelsdorf"
+  },
+  "96181": {
+    "lat": 49.8833,
+    "lon": 10.6167,
+    "city": "Rauhenebrach"
+  },
+  "96182": {
+    "lat": 50.0167,
+    "lon": 10.8333,
+    "city": "Reckendorf"
+  },
+  "96184": {
+    "lat": 50.0634,
+    "lon": 10.7992,
+    "city": "Rentweinsdorf"
+  },
+  "96185": {
+    "lat": 49.857,
+    "lon": 10.6902,
+    "city": "Schönbrunn"
+  },
+  "96187": {
+    "lat": 50.0032,
+    "lon": 11.1976,
+    "city": "Stadelhofen"
+  },
+  "96188": {
+    "lat": 49.9719,
+    "lon": 10.7239,
+    "city": "Stettfeld"
+  },
+  "96190": {
+    "lat": 50.1275,
+    "lon": 10.8563,
+    "city": "Untermerzbach"
+  },
+  "96191": {
+    "lat": 49.9222,
+    "lon": 10.7772,
+    "city": "Viereth-Trunstadt"
+  },
+  "96193": {
+    "lat": 49.7519,
+    "lon": 10.7134,
+    "city": "Wachenroth"
+  },
+  "96194": {
+    "lat": 49.8667,
+    "lon": 10.7833,
+    "city": "Walsdorf"
+  },
+  "96196": {
+    "lat": 50.0326,
+    "lon": 11.1262,
+    "city": "Wattendorf"
+  },
+  "96197": {
+    "lat": 49.9761,
+    "lon": 11.3005,
+    "city": "Wonsees"
+  },
+  "96199": {
+    "lat": 50.0178,
+    "lon": 10.9324,
+    "city": "Zapfendorf"
+  },
+  "96215": {
+    "lat": 50.1457,
+    "lon": 11.0593,
+    "city": "Lichtenfels"
+  },
+  "96222": {
+    "lat": 50.1407,
+    "lon": 11.2469,
+    "city": "Baur Versand"
+  },
+  "96223": {
+    "lat": 50.1407,
+    "lon": 11.2469,
+    "city": "Baur Kaufhaus GmbH"
+  },
+  "96224": {
+    "lat": 50.1409,
+    "lon": 11.252,
+    "city": "Burgkunstadt"
+  },
+  "96231": {
+    "lat": 50.102,
+    "lon": 11.0013,
+    "city": "Bad Staffelstein"
+  },
+  "96237": {
+    "lat": 50.329,
+    "lon": 11.1527,
+    "city": "Ebersdorf"
+  },
+  "96242": {
+    "lat": 50.2167,
+    "lon": 11.1333,
+    "city": "Sonnefeld"
+  },
+  "96247": {
+    "lat": 50.168,
+    "lon": 11.1139,
+    "city": "Michelau in Oberfranken"
+  },
+  "96250": {
+    "lat": 50.0664,
+    "lon": 10.9583,
+    "city": "Ebensfeld"
+  },
+  "96253": {
+    "lat": 50.1942,
+    "lon": 10.9745,
+    "city": "Untersiemau"
+  },
+  "96257": {
+    "lat": 50.1784,
+    "lon": 11.2014,
+    "city": "Marktgraitz"
+  },
+  "96260": {
+    "lat": 50.0851,
+    "lon": 11.2402,
+    "city": "Weismain"
+  },
+  "96264": {
+    "lat": 50.125,
+    "lon": 11.2503,
+    "city": "Altenkunstadt"
+  },
+  "96268": {
+    "lat": 50.2511,
+    "lon": 11.2082,
+    "city": "Mitwitz"
+  },
+  "96269": {
+    "lat": 50.176,
+    "lon": 10.9505,
+    "city": "Großheirath"
+  },
+  "96271": {
+    "lat": 50.2299,
+    "lon": 11.0198,
+    "city": "Grub am Forst"
+  },
+  "96272": {
+    "lat": 50.1501,
+    "lon": 11.1712,
+    "city": "Hochstadt am Main"
+  },
+  "96274": {
+    "lat": 50.15,
+    "lon": 10.9,
+    "city": "Itzgrund"
+  },
+  "96275": {
+    "lat": 50.1667,
+    "lon": 11.1669,
+    "city": "Marktzeuln"
+  },
+  "96277": {
+    "lat": 50.2118,
+    "lon": 11.194,
+    "city": "Schneckenlohe"
+  },
+  "96279": {
+    "lat": 50.2035,
+    "lon": 11.1401,
+    "city": "Weidhausen bei Coburg"
+  },
+  "96317": {
+    "lat": 50.2396,
+    "lon": 11.3331,
+    "city": "Kronach"
+  },
+  "96328": {
+    "lat": 50.1912,
+    "lon": 11.2668,
+    "city": "Küps"
+  },
+  "96332": {
+    "lat": 50.3524,
+    "lon": 11.3097,
+    "city": "Pressig"
+  },
+  "96337": {
+    "lat": 50.486,
+    "lon": 11.3873,
+    "city": "Ludwigsstadt"
+  },
+  "96342": {
+    "lat": 50.3064,
+    "lon": 11.2817,
+    "city": "Stockheim"
+  },
+  "96346": {
+    "lat": 50.2685,
+    "lon": 11.4706,
+    "city": "Wallenfels"
+  },
+  "96349": {
+    "lat": 50.2944,
+    "lon": 11.4629,
+    "city": "Steinwiesen"
+  },
+  "96352": {
+    "lat": 50.3111,
+    "lon": 11.3728,
+    "city": "Wilhelmsthal"
+  },
+  "96355": {
+    "lat": 50.4698,
+    "lon": 11.2589,
+    "city": "Tettau"
+  },
+  "96358": {
+    "lat": 50.4114,
+    "lon": 11.3977,
+    "city": "Teuschnitz"
+  },
+  "96361": {
+    "lat": 50.439,
+    "lon": 11.3692,
+    "city": "Steinbach am Wald"
+  },
+  "96364": {
+    "lat": 50.25,
+    "lon": 11.3833,
+    "city": "Marktrodach"
+  },
+  "96365": {
+    "lat": 50.3741,
+    "lon": 11.5099,
+    "city": "Nordhalben"
+  },
+  "96367": {
+    "lat": 50.4,
+    "lon": 11.45,
+    "city": "Tschirn"
+  },
+  "96369": {
+    "lat": 50.2,
+    "lon": 11.35,
+    "city": "Weißenbrunn"
+  },
+  "96435": {
+    "lat": 50.2636,
+    "lon": 10.9591,
+    "city": "HUK-Coburg"
+  },
+  "96436": {
+    "lat": 50.2666,
+    "lon": 10.9599,
+    "city": "Agentur für Arbeit Coburg"
+  },
+  "96438": {
+    "lat": 50.2831,
+    "lon": 10.9736,
+    "city": "HUK24"
+  },
+  "96441": {
+    "lat": 50.2647,
+    "lon": 10.9666,
+    "city": "Amtsgericht Coburg Zentrales Mahngericht für Bayern"
+  },
+  "96444": {
+    "lat": 50.2636,
+    "lon": 10.9591,
+    "city": "HUK-Coburg"
+  },
+  "96447": {
+    "lat": 50.2636,
+    "lon": 10.9591,
+    "city": "HUK-Coburg"
+  },
+  "96448": {
+    "lat": 50.2636,
+    "lon": 10.9591,
+    "city": "HUK-Coburg"
+  },
+  "96450": {
+    "lat": 50.2594,
+    "lon": 10.9638,
+    "city": "Coburg"
+  },
+  "96465": {
+    "lat": 50.3298,
+    "lon": 11.1206,
+    "city": "Neustadt bei Coburg"
+  },
+  "96472": {
+    "lat": 50.2952,
+    "lon": 11.0412,
+    "city": "Rödental"
+  },
+  "96475": {
+    "lat": 50.3379,
+    "lon": 10.7804,
+    "city": "HABA Sales GmbH & Co. KG"
+  },
+  "96476": {
+    "lat": 50.3333,
+    "lon": 10.7833,
+    "city": "Bad Rodach"
+  },
+  "96479": {
+    "lat": 50.256,
+    "lon": 10.8799,
+    "city": "Weitramsdorf"
+  },
+  "96482": {
+    "lat": 50.2376,
+    "lon": 10.9542,
+    "city": "Ahorn"
+  },
+  "96484": {
+    "lat": 50.3212,
+    "lon": 10.907,
+    "city": "Meeder"
+  },
+  "96486": {
+    "lat": 50.3333,
+    "lon": 10.9667,
+    "city": "Lautertal"
+  },
+  "96487": {
+    "lat": 50.2833,
+    "lon": 11,
+    "city": "Dörfles-Esbach"
+  },
+  "96489": {
+    "lat": 50.22,
+    "lon": 10.9909,
+    "city": "Niederfüllbach"
+  },
+  "96515": {
+    "lat": 50.3592,
+    "lon": 11.1746,
+    "city": "Sonneberg"
+  },
+  "96523": {
+    "lat": 50.4407,
+    "lon": 11.1921,
+    "city": "Steinach"
+  },
+  "96524": {
+    "lat": 50.35,
+    "lon": 11.231,
+    "city": "Föritz"
+  },
+  "96528": {
+    "lat": 50.3999,
+    "lon": 11.0177,
+    "city": "Bachfeld"
+  },
+  "97024": {
+    "lat": 49.7823,
+    "lon": 9.9296,
+    "city": "Agentur für Arbeit Würzburg"
+  },
+  "97025": {
+    "lat": 49.7999,
+    "lon": 9.917,
+    "city": "Zentrum Bayern Familie und Soziales (ZBFS)"
+  },
+  "97064": {
+    "lat": 49.7908,
+    "lon": 9.9352,
+    "city": "Kneipp GmbH"
+  },
+  "97066": {
+    "lat": 49.7971,
+    "lon": 9.941,
+    "city": "HUK -Coburg"
+  },
+  "97067": {
+    "lat": 49.7903,
+    "lon": 9.9423,
+    "city": "Hochtief AG"
+  },
+  "97070": {
+    "lat": 49.7971,
+    "lon": 9.9337,
+    "city": "Würzburg"
+  },
+  "97072": {
+    "lat": 49.7829,
+    "lon": 9.9366,
+    "city": "Würzburg"
+  },
+  "97074": {
+    "lat": 49.7802,
+    "lon": 9.9416,
+    "city": "Würzburg"
+  },
+  "97076": {
+    "lat": 49.8044,
+    "lon": 9.977,
+    "city": "Würzburg"
+  },
+  "97078": {
+    "lat": 49.8118,
+    "lon": 9.9635,
+    "city": "Würzburg"
+  },
+  "97080": {
+    "lat": 49.8017,
+    "lon": 9.9058,
+    "city": "Würzburg"
+  },
+  "97082": {
+    "lat": 49.7899,
+    "lon": 9.9206,
+    "city": "Würzburg"
+  },
+  "97084": {
+    "lat": 49.7685,
+    "lon": 9.9382,
+    "city": "Würzburg"
+  },
+  "97099": {
+    "lat": 49.7896,
+    "lon": 10.0321,
+    "city": "Frankonia Handels GmbH & Co. KG"
+  },
+  "97101": {
+    "lat": 49.7991,
+    "lon": 9.9474,
+    "city": "Deutsche Post AG Direkt Marketing Center"
+  },
+  "97103": {
+    "lat": 49.799,
+    "lon": 9.9514,
+    "city": "DATA M-Services"
+  },
+  "97199": {
+    "lat": 49.6643,
+    "lon": 10.0623,
+    "city": "Ochsenfurt"
+  },
+  "97204": {
+    "lat": 49.7845,
+    "lon": 9.8822,
+    "city": "Höchberg"
+  },
+  "97209": {
+    "lat": 49.8328,
+    "lon": 9.8817,
+    "city": "Veitshöchheim"
+  },
+  "97215": {
+    "lat": 49.5511,
+    "lon": 10.2102,
+    "city": "Uffenheim"
+  },
+  "97218": {
+    "lat": 49.7753,
+    "lon": 9.9936,
+    "city": "Gerbrunn"
+  },
+  "97222": {
+    "lat": 49.8569,
+    "lon": 9.9571,
+    "city": "Rimpar"
+  },
+  "97225": {
+    "lat": 49.8974,
+    "lon": 9.8175,
+    "city": "Zellingen"
+  },
+  "97227": {
+    "lat": 49.7929,
+    "lon": 10.0314,
+    "city": "Edeka Handelsgesellschaft Nordbayern- Sachsen-Thüringen mbH"
+  },
+  "97228": {
+    "lat": 49.7923,
+    "lon": 10.0259,
+    "city": "Rottendorf"
+  },
+  "97230": {
+    "lat": 49.829,
+    "lon": 10.0059,
+    "city": "Estenfeld"
+  },
+  "97232": {
+    "lat": 49.6531,
+    "lon": 9.9444,
+    "city": "Giebelstadt"
+  },
+  "97234": {
+    "lat": 49.7319,
+    "lon": 9.9148,
+    "city": "Reichenberg"
+  },
+  "97236": {
+    "lat": 49.7602,
+    "lon": 9.9828,
+    "city": "Randersacker"
+  },
+  "97237": {
+    "lat": 49.7167,
+    "lon": 9.75,
+    "city": "Altertheim"
+  },
+  "97239": {
+    "lat": 49.5527,
+    "lon": 10.0653,
+    "city": "Aub"
+  },
+  "97241": {
+    "lat": 49.8885,
+    "lon": 10.0768,
+    "city": "Bergtheim"
+  },
+  "97243": {
+    "lat": 49.5173,
+    "lon": 10.0091,
+    "city": "Bieberehren"
+  },
+  "97244": {
+    "lat": 49.5991,
+    "lon": 9.8799,
+    "city": "Bütthard"
+  },
+  "97246": {
+    "lat": 49.7239,
+    "lon": 9.9996,
+    "city": "Eibelstadt"
+  },
+  "97247": {
+    "lat": 49.8833,
+    "lon": 10.1667,
+    "city": "Eisenheim"
+  },
+  "97249": {
+    "lat": 49.7597,
+    "lon": 9.8311,
+    "city": "Eisingen"
+  },
+  "97250": {
+    "lat": 49.8597,
+    "lon": 9.8442,
+    "city": "Erlabrunn"
+  },
+  "97252": {
+    "lat": 49.6667,
+    "lon": 10.0833,
+    "city": "Frickenhausen am Main"
+  },
+  "97253": {
+    "lat": 49.6333,
+    "lon": 10,
+    "city": "Gaukönigshofen"
+  },
+  "97255": {
+    "lat": 49.5828,
+    "lon": 10.0114,
+    "city": "Gelchsheim"
+  },
+  "97256": {
+    "lat": 49.6836,
+    "lon": 9.9022,
+    "city": "Geroldshausen"
+  },
+  "97258": {
+    "lat": 49.5866,
+    "lon": 10.1451,
+    "city": "Ippesheim"
+  },
+  "97259": {
+    "lat": 49.8167,
+    "lon": 9.7667,
+    "city": "Greußenheim"
+  },
+  "97261": {
+    "lat": 49.8697,
+    "lon": 9.905,
+    "city": "Güntersleben"
+  },
+  "97262": {
+    "lat": 49.9333,
+    "lon": 10.0167,
+    "city": "Hausen bei Würzburg"
+  },
+  "97264": {
+    "lat": 49.7618,
+    "lon": 9.708,
+    "city": "Helmstadt"
+  },
+  "97265": {
+    "lat": 49.7994,
+    "lon": 9.815,
+    "city": "Hettstadt"
+  },
+  "97267": {
+    "lat": 49.9239,
+    "lon": 9.8017,
+    "city": "Himmelstadt"
+  },
+  "97268": {
+    "lat": 49.6561,
+    "lon": 9.8578,
+    "city": "Kirchheim"
+  },
+  "97270": {
+    "lat": 49.7428,
+    "lon": 9.8439,
+    "city": "Kist"
+  },
+  "97271": {
+    "lat": 49.7003,
+    "lon": 9.8447,
+    "city": "Kleinrinderfeld"
+  },
+  "97273": {
+    "lat": 49.85,
+    "lon": 10.0333,
+    "city": "Kürnach"
+  },
+  "97274": {
+    "lat": 49.8619,
+    "lon": 9.8049,
+    "city": "Leinach"
+  },
+  "97276": {
+    "lat": 49.8375,
+    "lon": 9.8639,
+    "city": "Margetshöchheim"
+  },
+  "97277": {
+    "lat": 49.7309,
+    "lon": 9.6716,
+    "city": "Neubrunn"
+  },
+  "97279": {
+    "lat": 49.8631,
+    "lon": 10.1267,
+    "city": "Prosselsheim"
+  },
+  "97280": {
+    "lat": 49.8048,
+    "lon": 9.6948,
+    "city": "Remlingen"
+  },
+  "97282": {
+    "lat": 49.9125,
+    "lon": 9.8819,
+    "city": "Retzstadt"
+  },
+  "97283": {
+    "lat": 49.5572,
+    "lon": 9.9781,
+    "city": "Riedenheim"
+  },
+  "97285": {
+    "lat": 49.502,
+    "lon": 9.9538,
+    "city": "Röttingen"
+  },
+  "97286": {
+    "lat": 49.7052,
+    "lon": 10.0214,
+    "city": "Sommerhausen"
+  },
+  "97288": {
+    "lat": 49.754,
+    "lon": 10.0306,
+    "city": "Theilheim"
+  },
+  "97289": {
+    "lat": 49.9414,
+    "lon": 9.8586,
+    "city": "Thüngen"
+  },
+  "97291": {
+    "lat": 49.8783,
+    "lon": 9.8492,
+    "city": "Thüngersheim"
+  },
+  "97292": {
+    "lat": 49.7881,
+    "lon": 9.7055,
+    "city": "Uettingen"
+  },
+  "97294": {
+    "lat": 49.8689,
+    "lon": 10.044,
+    "city": "Unterpleichfeld"
+  },
+  "97295": {
+    "lat": 49.7586,
+    "lon": 9.8036,
+    "city": "Waldbrunn"
+  },
+  "97297": {
+    "lat": 49.7883,
+    "lon": 9.8467,
+    "city": "Waldbüttelbrunn"
+  },
+  "97299": {
+    "lat": 49.8121,
+    "lon": 9.8696,
+    "city": "Zell am Main"
+  },
+  "97318": {
+    "lat": 49.7532,
+    "lon": 10.117,
+    "city": "Kitzingen"
+  },
+  "97320": {
+    "lat": 49.7522,
+    "lon": 10.165,
+    "city": "Buchbrunn"
+  },
+  "97332": {
+    "lat": 49.8635,
+    "lon": 10.2281,
+    "city": "Volkach"
+  },
+  "97334": {
+    "lat": 49.8396,
+    "lon": 10.1956,
+    "city": "Sommerach"
+  },
+  "97337": {
+    "lat": 49.8029,
+    "lon": 10.1652,
+    "city": "Dettelbach"
+  },
+  "97340": {
+    "lat": 49.6538,
+    "lon": 10.147,
+    "city": "Segnitz"
+  },
+  "97342": {
+    "lat": 49.6651,
+    "lon": 10.1736,
+    "city": "Seinsheim"
+  },
+  "97346": {
+    "lat": 49.7024,
+    "lon": 10.2604,
+    "city": "Iphofen"
+  },
+  "97348": {
+    "lat": 49.7,
+    "lon": 10.258,
+    "city": "Rödelsee"
+  },
+  "97350": {
+    "lat": 49.7079,
+    "lon": 10.219,
+    "city": "Mainbernheim"
+  },
+  "97353": {
+    "lat": 49.7945,
+    "lon": 10.3451,
+    "city": "Wiesentheid"
+  },
+  "97355": {
+    "lat": 49.7595,
+    "lon": 10.3295,
+    "city": "Castell"
+  },
+  "97357": {
+    "lat": 49.8193,
+    "lon": 10.3477,
+    "city": "Prichsenstadt"
+  },
+  "97359": {
+    "lat": 49.7996,
+    "lon": 10.2298,
+    "city": "Schwarzach am Main"
+  },
+  "97412": {
+    "lat": 50.05,
+    "lon": 10.2333,
+    "city": "Schweinfurt"
+  },
+  "97418": {
+    "lat": 50.0434,
+    "lon": 10.2197,
+    "city": "Agentur für Arbeit Schweinfurt"
+  },
+  "97419": {
+    "lat": 50.0326,
+    "lon": 10.0116,
+    "city": "SKF GmbH"
+  },
+  "97420": {
+    "lat": 50.0412,
+    "lon": 10.2304,
+    "city": "Finanzamt"
+  },
+  "97421": {
+    "lat": 50.0442,
+    "lon": 10.2267,
+    "city": "Schweinfurt"
+  },
+  "97422": {
+    "lat": 50.0545,
+    "lon": 10.2441,
+    "city": "Schweinfurt"
+  },
+  "97424": {
+    "lat": 50.0348,
+    "lon": 10.2064,
+    "city": "Schweinfurt"
+  },
+  "97437": {
+    "lat": 50.0352,
+    "lon": 10.5156,
+    "city": "Haßfurt"
+  },
+  "97440": {
+    "lat": 49.982,
+    "lon": 10.0988,
+    "city": "Werneck"
+  },
+  "97447": {
+    "lat": 49.8938,
+    "lon": 10.3313,
+    "city": "Gerolzhofen"
+  },
+  "97450": {
+    "lat": 49.9777,
+    "lon": 9.9698,
+    "city": "Arnstein"
+  },
+  "97453": {
+    "lat": 50.0501,
+    "lon": 10.3081,
+    "city": "Schonungen"
+  },
+  "97456": {
+    "lat": 50.0721,
+    "lon": 10.2197,
+    "city": "Dittelbrunn"
+  },
+  "97461": {
+    "lat": 50.1368,
+    "lon": 10.5232,
+    "city": "Hofheim in Unterfranken"
+  },
+  "97464": {
+    "lat": 50.0615,
+    "lon": 10.1827,
+    "city": "Niederwerrn"
+  },
+  "97469": {
+    "lat": 50.0167,
+    "lon": 10.2833,
+    "city": "Gochsheim"
+  },
+  "97475": {
+    "lat": 50.0024,
+    "lon": 10.6098,
+    "city": "Zeil am Main"
+  },
+  "97478": {
+    "lat": 49.9833,
+    "lon": 10.55,
+    "city": "Knetzgau"
+  },
+  "97483": {
+    "lat": 49.9715,
+    "lon": 10.6671,
+    "city": "Eltmann"
+  },
+  "97486": {
+    "lat": 50.0808,
+    "lon": 10.5676,
+    "city": "Königsberg in Bayern"
+  },
+  "97488": {
+    "lat": 50.1871,
+    "lon": 10.3616,
+    "city": "Stadtlauringen"
+  },
+  "97490": {
+    "lat": 50.1,
+    "lon": 10.1424,
+    "city": "Poppenhausen"
+  },
+  "97491": {
+    "lat": 50.15,
+    "lon": 10.4333,
+    "city": "Aidhausen"
+  },
+  "97493": {
+    "lat": 50.0103,
+    "lon": 10.1809,
+    "city": "Bergrheinfeld"
+  },
+  "97494": {
+    "lat": 50.2167,
+    "lon": 10.5167,
+    "city": "Bundorf"
+  },
+  "97496": {
+    "lat": 50.1415,
+    "lon": 10.6498,
+    "city": "Burgpreppach"
+  },
+  "97497": {
+    "lat": 49.9071,
+    "lon": 10.3903,
+    "city": "Dingolshausen"
+  },
+  "97499": {
+    "lat": 49.9667,
+    "lon": 10.4167,
+    "city": "Donnersdorf"
+  },
+  "97500": {
+    "lat": 49.9857,
+    "lon": 10.6744,
+    "city": "Ebelsbach"
+  },
+  "97502": {
+    "lat": 50.062,
+    "lon": 10.1369,
+    "city": "Euerbach"
+  },
+  "97503": {
+    "lat": 50.0333,
+    "lon": 10.35,
+    "city": "Gädheim"
+  },
+  "97505": {
+    "lat": 50.0429,
+    "lon": 10.1561,
+    "city": "Geldersheim"
+  },
+  "97506": {
+    "lat": 50,
+    "lon": 10.2,
+    "city": "Grafenrheinfeld"
+  },
+  "97508": {
+    "lat": 49.9833,
+    "lon": 10.3167,
+    "city": "Grettstadt"
+  },
+  "97509": {
+    "lat": 49.9167,
+    "lon": 10.2333,
+    "city": "Kolitzheim"
+  },
+  "97511": {
+    "lat": 49.8681,
+    "lon": 10.3213,
+    "city": "Lülsfeld"
+  },
+  "97513": {
+    "lat": 49.9,
+    "lon": 10.4333,
+    "city": "Michelau im Steigerwald"
+  },
+  "97514": {
+    "lat": 49.9271,
+    "lon": 10.6333,
+    "city": "Oberaurach"
+  },
+  "97516": {
+    "lat": 49.8605,
+    "lon": 10.41,
+    "city": "Oberschwarzach"
+  },
+  "97517": {
+    "lat": 50.1654,
+    "lon": 10.2048,
+    "city": "Rannungen"
+  },
+  "97519": {
+    "lat": 50.1,
+    "lon": 10.4667,
+    "city": "Riedbach"
+  },
+  "97520": {
+    "lat": 49.9833,
+    "lon": 10.2167,
+    "city": "Röthlein"
+  },
+  "97522": {
+    "lat": 49.9833,
+    "lon": 10.6,
+    "city": "Sand am Main"
+  },
+  "97523": {
+    "lat": 49.9217,
+    "lon": 10.1387,
+    "city": "Schwanfeld"
+  },
+  "97525": {
+    "lat": 49.9904,
+    "lon": 10.2478,
+    "city": "Schwebheim"
+  },
+  "97526": {
+    "lat": 50.039,
+    "lon": 10.2599,
+    "city": "Sennfeld"
+  },
+  "97528": {
+    "lat": 50.2408,
+    "lon": 10.5628,
+    "city": "Sulzdorf an der Lederhecke"
+  },
+  "97529": {
+    "lat": 49.95,
+    "lon": 10.3333,
+    "city": "Sulzheim"
+  },
+  "97531": {
+    "lat": 50.0111,
+    "lon": 10.4278,
+    "city": "Theres"
+  },
+  "97532": {
+    "lat": 50.0918,
+    "lon": 10.2686,
+    "city": "Üchtelhausen"
+  },
+  "97534": {
+    "lat": 49.9643,
+    "lon": 10.12,
+    "city": "Waigolshausen"
+  },
+  "97535": {
+    "lat": 50.0948,
+    "lon": 10.0302,
+    "city": "Wasserlosen"
+  },
+  "97537": {
+    "lat": 49.9167,
+    "lon": 10.1667,
+    "city": "Wipfeld"
+  },
+  "97539": {
+    "lat": 50.0167,
+    "lon": 10.4667,
+    "city": "Wonfurt"
+  },
+  "97615": {
+    "lat": 50.3243,
+    "lon": 10.2193,
+    "city": "Finanzamt"
+  },
+  "97616": {
+    "lat": 50.3151,
+    "lon": 10.2094,
+    "city": "Salz"
+  },
+  "97618": {
+    "lat": 50.3331,
+    "lon": 10.2512,
+    "city": "Unsleben"
+  },
+  "97631": {
+    "lat": 50.3008,
+    "lon": 10.4689,
+    "city": "Bad Königshofen im Grabfeld"
+  },
+  "97633": {
+    "lat": 50.312,
+    "lon": 10.4366,
+    "city": "Höchheim"
+  },
+  "97638": {
+    "lat": 50.4285,
+    "lon": 10.3033,
+    "city": "Mellrichstadt"
+  },
+  "97640": {
+    "lat": 50.4192,
+    "lon": 10.3043,
+    "city": "Hendungen"
+  },
+  "97645": {
+    "lat": 50.46,
+    "lon": 10.2306,
+    "city": "Ostheim vor der Rhön"
+  },
+  "97647": {
+    "lat": 50.4874,
+    "lon": 10.1794,
+    "city": "Hausen"
+  },
+  "97650": {
+    "lat": 50.5205,
+    "lon": 10.1458,
+    "city": "Fladungen"
+  },
+  "97653": {
+    "lat": 50.4024,
+    "lon": 10.0075,
+    "city": "Bischofsheim an der Rhön"
+  },
+  "97654": {
+    "lat": 50.4008,
+    "lon": 10.2037,
+    "city": "Bastheim"
+  },
+  "97656": {
+    "lat": 50.4412,
+    "lon": 10.1169,
+    "city": "Oberelsbach"
+  },
+  "97657": {
+    "lat": 50.3482,
+    "lon": 10.0081,
+    "city": "Sandberg"
+  },
+  "97659": {
+    "lat": 50.381,
+    "lon": 10.1044,
+    "city": "Schönau an der Brend"
+  },
+  "97685": {
+    "lat": 50.1981,
+    "lon": 10.0782,
+    "city": "Landratsamt"
+  },
+  "97688": {
+    "lat": 50.2023,
+    "lon": 10.0778,
+    "city": "Bad Kissingen"
+  },
+  "97702": {
+    "lat": 50.2464,
+    "lon": 10.2019,
+    "city": "Münnerstadt"
+  },
+  "97705": {
+    "lat": 50.2713,
+    "lon": 9.9916,
+    "city": "Burkardroth"
+  },
+  "97708": {
+    "lat": 50.2665,
+    "lon": 10.079,
+    "city": "Bad Bocklet"
+  },
+  "97711": {
+    "lat": 50.1921,
+    "lon": 10.2972,
+    "city": "Maßbach"
+  },
+  "97714": {
+    "lat": 50.15,
+    "lon": 10.1333,
+    "city": "Oerlenbach"
+  },
+  "97717": {
+    "lat": 50.1483,
+    "lon": 10.0217,
+    "city": "Sulzthal"
+  },
+  "97720": {
+    "lat": 50.2206,
+    "lon": 10.123,
+    "city": "Nüdlingen"
+  },
+  "97723": {
+    "lat": 50.199,
+    "lon": 9.9588,
+    "city": "Oberthulba"
+  },
+  "97724": {
+    "lat": 50.2764,
+    "lon": 10.1794,
+    "city": "Burglauer"
+  },
+  "97725": {
+    "lat": 50.1474,
+    "lon": 9.9615,
+    "city": "Elfershausen"
+  },
+  "97727": {
+    "lat": 50.1082,
+    "lon": 9.9337,
+    "city": "Fuchsstadt"
+  },
+  "97729": {
+    "lat": 50.1404,
+    "lon": 10.0678,
+    "city": "Ramsthal"
+  },
+  "97737": {
+    "lat": 50.0495,
+    "lon": 9.7059,
+    "city": "Gemünden am Main"
+  },
+  "97753": {
+    "lat": 49.9603,
+    "lon": 9.7724,
+    "city": "Karlstadt"
+  },
+  "97762": {
+    "lat": 50.1163,
+    "lon": 9.8914,
+    "city": "Hammelburg"
+  },
+  "97769": {
+    "lat": 50.3085,
+    "lon": 9.7898,
+    "city": "Bad Brückenau"
+  },
+  "97772": {
+    "lat": 50.3776,
+    "lon": 9.9109,
+    "city": "Wildflecken"
+  },
+  "97773": {
+    "lat": 50.1782,
+    "lon": 9.5755,
+    "city": "Aura im Sinngrund"
+  },
+  "97775": {
+    "lat": 50.1497,
+    "lon": 9.6512,
+    "city": "Burgsinn"
+  },
+  "97776": {
+    "lat": 49.9859,
+    "lon": 9.809,
+    "city": "Eußenheim"
+  },
+  "97778": {
+    "lat": 50.15,
+    "lon": 9.5833,
+    "city": "Fellen"
+  },
+  "97779": {
+    "lat": 50.2806,
+    "lon": 9.8955,
+    "city": "Geroda"
+  },
+  "97780": {
+    "lat": 50.0167,
+    "lon": 9.7833,
+    "city": "Gössenheim"
+  },
+  "97782": {
+    "lat": 50.1227,
+    "lon": 9.7405,
+    "city": "Gräfendorf"
+  },
+  "97783": {
+    "lat": 50.0409,
+    "lon": 9.7853,
+    "city": "Karsbach"
+  },
+  "97785": {
+    "lat": 50.1922,
+    "lon": 9.617,
+    "city": "Mittelsinn"
+  },
+  "97786": {
+    "lat": 50.3956,
+    "lon": 9.7725,
+    "city": "Motten"
+  },
+  "97788": {
+    "lat": 50.0333,
+    "lon": 9.65,
+    "city": "Neuendorf"
+  },
+  "97789": {
+    "lat": 50.2833,
+    "lon": 9.8,
+    "city": "Oberleichtersbach"
+  },
+  "97791": {
+    "lat": 50.2088,
+    "lon": 9.6155,
+    "city": "Obersinn"
+  },
+  "97792": {
+    "lat": 50.3199,
+    "lon": 9.861,
+    "city": "Riedenberg"
+  },
+  "97794": {
+    "lat": 50.0935,
+    "lon": 9.648,
+    "city": "Rieneck"
+  },
+  "97795": {
+    "lat": 50.2681,
+    "lon": 9.8628,
+    "city": "Schondra"
+  },
+  "97797": {
+    "lat": 50.1667,
+    "lon": 9.7833,
+    "city": "Wartmannsroth"
+  },
+  "97799": {
+    "lat": 50.2619,
+    "lon": 9.6724,
+    "city": "Zeitlofs"
+  },
+  "97813": {
+    "lat": 49.9986,
+    "lon": 9.575,
+    "city": "Bosch Rexroth AG"
+  },
+  "97814": {
+    "lat": 50.0142,
+    "lon": 9.5904,
+    "city": "Bosch Rexroth AG"
+  },
+  "97816": {
+    "lat": 49.9892,
+    "lon": 9.5722,
+    "city": "Lohr am Main"
+  },
+  "97828": {
+    "lat": 49.8454,
+    "lon": 9.6036,
+    "city": "Marktheidenfeld"
+  },
+  "97833": {
+    "lat": 50.0647,
+    "lon": 9.4689,
+    "city": "Frammersbach"
+  },
+  "97834": {
+    "lat": 49.8586,
+    "lon": 9.6956,
+    "city": "Birkenfeld"
+  },
+  "97836": {
+    "lat": 49.8703,
+    "lon": 9.4892,
+    "city": "Bischbrunn"
+  },
+  "97837": {
+    "lat": 49.8193,
+    "lon": 9.6273,
+    "city": "Erlenbach bei Marktheidenfeld"
+  },
+  "97839": {
+    "lat": 49.8553,
+    "lon": 9.5258,
+    "city": "Esselbach"
+  },
+  "97840": {
+    "lat": 49.8694,
+    "lon": 9.6022,
+    "city": "Hafenlohr"
+  },
+  "97842": {
+    "lat": 49.867,
+    "lon": 9.6381,
+    "city": "Karbach"
+  },
+  "97843": {
+    "lat": 50,
+    "lon": 9.4167,
+    "city": "Neuhütten"
+  },
+  "97845": {
+    "lat": 49.9302,
+    "lon": 9.5681,
+    "city": "Neustadt am Main"
+  },
+  "97846": {
+    "lat": 50.0418,
+    "lon": 9.5199,
+    "city": "Partenstein"
+  },
+  "97848": {
+    "lat": 49.9831,
+    "lon": 9.5083,
+    "city": "Rechtenbach"
+  },
+  "97849": {
+    "lat": 49.8956,
+    "lon": 9.6264,
+    "city": "Roden"
+  },
+  "97851": {
+    "lat": 49.8914,
+    "lon": 9.5926,
+    "city": "Rothenfels"
+  },
+  "97852": {
+    "lat": 49.835,
+    "lon": 9.4639,
+    "city": "Schollbrunn"
+  },
+  "97854": {
+    "lat": 49.9528,
+    "lon": 9.6694,
+    "city": "Steinfeld"
+  },
+  "97855": {
+    "lat": 49.8006,
+    "lon": 9.6067,
+    "city": "Triefenstein"
+  },
+  "97857": {
+    "lat": 49.9017,
+    "lon": 9.6712,
+    "city": "Urspringen"
+  },
+  "97859": {
+    "lat": 50.0333,
+    "lon": 9.4333,
+    "city": "Wiesthal"
+  },
+  "97877": {
+    "lat": 49.759,
+    "lon": 9.5085,
+    "city": "Wertheim"
+  },
+  "97892": {
+    "lat": 49.7682,
+    "lon": 9.5182,
+    "city": "Kreuzwertheim"
+  },
+  "97896": {
+    "lat": 49.7535,
+    "lon": 9.3275,
+    "city": "Freudenberg"
+  },
+  "97900": {
+    "lat": 49.6694,
+    "lon": 9.5236,
+    "city": "Külsheim"
+  },
+  "97901": {
+    "lat": 49.8286,
+    "lon": 9.4014,
+    "city": "Altenbuch"
+  },
+  "97903": {
+    "lat": 49.7435,
+    "lon": 9.3203,
+    "city": "Collenberg"
+  },
+  "97904": {
+    "lat": 49.7806,
+    "lon": 9.3803,
+    "city": "Dorfprozelten"
+  },
+  "97906": {
+    "lat": 49.7853,
+    "lon": 9.4442,
+    "city": "Faulbach"
+  },
+  "97907": {
+    "lat": 49.7919,
+    "lon": 9.4936,
+    "city": "Hasloch"
+  },
+  "97909": {
+    "lat": 49.7847,
+    "lon": 9.4118,
+    "city": "Stadtprozelten"
+  },
+  "97922": {
+    "lat": 49.5653,
+    "lon": 9.7082,
+    "city": "Lauda-Königshofen"
+  },
+  "97941": {
+    "lat": 49.6247,
+    "lon": 9.6628,
+    "city": "Tauberbischofsheim"
+  },
+  "97944": {
+    "lat": 49.4796,
+    "lon": 9.6401,
+    "city": "Boxberg"
+  },
+  "97947": {
+    "lat": 49.6095,
+    "lon": 9.7472,
+    "city": "Grünsfeld"
+  },
+  "97950": {
+    "lat": 49.6654,
+    "lon": 9.7336,
+    "city": "Großrinderfeld"
+  },
+  "97953": {
+    "lat": 49.6203,
+    "lon": 9.5958,
+    "city": "Königheim"
+  },
+  "97956": {
+    "lat": 49.6708,
+    "lon": 9.6394,
+    "city": "Werbach"
+  },
+  "97957": {
+    "lat": 49.6192,
+    "lon": 9.8422,
+    "city": "Wittighausen"
+  },
+  "97959": {
+    "lat": 49.4281,
+    "lon": 9.6861,
+    "city": "Assamstadt"
+  },
+  "97980": {
+    "lat": 49.4925,
+    "lon": 9.7736,
+    "city": "Bad Mergentheim"
+  },
+  "97990": {
+    "lat": 49.4787,
+    "lon": 9.8998,
+    "city": "Weikersheim"
+  },
+  "97993": {
+    "lat": 49.4694,
+    "lon": 10.0312,
+    "city": "Creglingen"
+  },
+  "97996": {
+    "lat": 49.4,
+    "lon": 9.9194,
+    "city": "Niederstetten"
+  },
+  "97999": {
+    "lat": 49.4944,
+    "lon": 9.8169,
+    "city": "Igersheim"
+  },
+  "98496": {
+    "lat": 50.6113,
+    "lon": 10.6848,
+    "city": "Agentur für Arbeit Thüringen Südwest"
+  },
+  "98497": {
+    "lat": 50.6113,
+    "lon": 10.6848,
+    "city": "Agentur für Arbeit Thüringen Südwest"
+  },
+  "98523": {
+    "lat": 50.6367,
+    "lon": 10.7015,
+    "city": "AOK PLUS - Die Gesundheitskasse für Sachsen und Thüringen"
+  },
+  "98527": {
+    "lat": 50.608,
+    "lon": 10.6957,
+    "city": "Suhl"
+  },
+  "98528": {
+    "lat": 50.6,
+    "lon": 10.7,
+    "city": "Suhl"
+  },
+  "98529": {
+    "lat": 50.6,
+    "lon": 10.7,
+    "city": "Suhl"
+  },
+  "98530": {
+    "lat": 50.5675,
+    "lon": 10.557,
+    "city": "Rohr"
+  },
+  "98544": {
+    "lat": 50.6564,
+    "lon": 10.6605,
+    "city": "Zella-Mehlis"
+  },
+  "98547": {
+    "lat": 50.6391,
+    "lon": 10.5157,
+    "city": "Viernau"
+  },
+  "98553": {
+    "lat": 50.5314,
+    "lon": 10.7221,
+    "city": "Ahlstädt"
+  },
+  "98554": {
+    "lat": 50.65,
+    "lon": 10.6,
+    "city": "Benshausen"
+  },
+  "98559": {
+    "lat": 50.6912,
+    "lon": 10.7591,
+    "city": "Oberhof"
+  },
+  "98574": {
+    "lat": 50.7214,
+    "lon": 10.4439,
+    "city": "Schmalkalden"
+  },
+  "98587": {
+    "lat": 50.701,
+    "lon": 10.5681,
+    "city": "Bermbach"
+  },
+  "98590": {
+    "lat": 50.7072,
+    "lon": 10.2937,
+    "city": "Rosa"
+  },
+  "98593": {
+    "lat": 50.7716,
+    "lon": 10.4684,
+    "city": "Floh-Seligenthal"
+  },
+  "98596": {
+    "lat": 50.7833,
+    "lon": 10.4167,
+    "city": "Trusetal"
+  },
+  "98597": {
+    "lat": 50.7496,
+    "lon": 10.367,
+    "city": "Heßles"
+  },
+  "98599": {
+    "lat": 50.8241,
+    "lon": 10.4445,
+    "city": "Brotterode"
+  },
+  "98610": {
+    "lat": 50.5753,
+    "lon": 10.4158,
+    "city": "Rhön-Rennsteig-Sparkasse Meiningen"
+  },
+  "98617": {
+    "lat": 50.5357,
+    "lon": 10.4226,
+    "city": "Herpf"
+  },
+  "98630": {
+    "lat": 50.3968,
+    "lon": 10.5114,
+    "city": "Milz"
+  },
+  "98631": {
+    "lat": 50.4498,
+    "lon": 10.4423,
+    "city": "Bibra"
+  },
+  "98634": {
+    "lat": 50.6073,
+    "lon": 10.1894,
+    "city": "Birx"
+  },
+  "98639": {
+    "lat": 50.6242,
+    "lon": 10.392,
+    "city": "Metzels"
+  },
+  "98646": {
+    "lat": 50.4244,
+    "lon": 10.6553,
+    "city": "Reurieth"
+  },
+  "98660": {
+    "lat": 50.4934,
+    "lon": 10.6228,
+    "city": "Themar"
+  },
+  "98663": {
+    "lat": 50.2728,
+    "lon": 10.6966,
+    "city": "Hellingen"
+  },
+  "98666": {
+    "lat": 50.5198,
+    "lon": 10.9709,
+    "city": "Masserberg"
+  },
+  "98667": {
+    "lat": 50.5233,
+    "lon": 10.8667,
+    "city": "Schleusegrund"
+  },
+  "98669": {
+    "lat": 50.3687,
+    "lon": 10.716,
+    "city": "Veilsdorf"
+  },
+  "98673": {
+    "lat": 50.4472,
+    "lon": 10.8711,
+    "city": "Brünn"
+  },
+  "98678": {
+    "lat": 50.4472,
+    "lon": 10.9495,
+    "city": "Sachsenbrunn"
+  },
+  "98693": {
+    "lat": 50.7032,
+    "lon": 10.9038,
+    "city": "Ilmenau"
+  },
+  "98701": {
+    "lat": 50.5965,
+    "lon": 11.0152,
+    "city": "Böhlen"
+  },
+  "98704": {
+    "lat": 50.689,
+    "lon": 10.9799,
+    "city": "Wolfsberg"
+  },
+  "98708": {
+    "lat": 50.6437,
+    "lon": 11.0181,
+    "city": "Gehren"
+  },
+  "98711": {
+    "lat": 50.5965,
+    "lon": 10.8356,
+    "city": "Frauenwald"
+  },
+  "98714": {
+    "lat": 50.6333,
+    "lon": 10.8667,
+    "city": "Stützerbach"
+  },
+  "98716": {
+    "lat": 50.7179,
+    "lon": 10.8386,
+    "city": "Geraberg"
+  },
+  "98724": {
+    "lat": 50.4935,
+    "lon": 11.1488,
+    "city": "Lauscha"
+  },
+  "98739": {
+    "lat": 50.5291,
+    "lon": 11.2186,
+    "city": "Piesau"
+  },
+  "98743": {
+    "lat": 50.5246,
+    "lon": 11.3068,
+    "city": "Gräfenthal"
+  },
+  "98744": {
+    "lat": 50.5855,
+    "lon": 11.1546,
+    "city": "Meura"
+  },
+  "98746": {
+    "lat": 50.563,
+    "lon": 11.0591,
+    "city": "Katzhütte"
+  },
+  "98749": {
+    "lat": 50.4747,
+    "lon": 11.0657,
+    "city": "Steinheid"
+  },
+  "99060": {
+    "lat": 50.978,
+    "lon": 11.1307,
+    "city": "Zalando Logistics SE & Co. KG"
+  },
+  "99068": {
+    "lat": 50.9594,
+    "lon": 11.0441,
+    "city": "Agentur für Arbeit Thüringen Mitte"
+  },
+  "99073": {
+    "lat": 51.0011,
+    "lon": 10.9996,
+    "city": "OBI Bau- und Heimwerkermärkte GmbH & Co. Franchise Center KG Abt. REWE/ZRP Erfurt"
+  },
+  "99075": {
+    "lat": 50.9779,
+    "lon": 11.1301,
+    "city": "Deutsche Post, Geschäftsbereich Vertrieb Direkt Marketing Center"
+  },
+  "99077": {
+    "lat": 50.9793,
+    "lon": 11.0362,
+    "city": "Commerzbank AG Erfurt"
+  },
+  "99078": {
+    "lat": 50.9871,
+    "lon": 11.0247,
+    "city": "Mobilcom Cityline GmbH"
+  },
+  "99079": {
+    "lat": 50.9778,
+    "lon": 11.0268,
+    "city": "N.L. Chrestensen Erfurter Samen- und Pflanzenzucht GmbH"
+  },
+  "99080": {
+    "lat": 50.9625,
+    "lon": 10.9952,
+    "city": "MCS GmbH Media & Communication Systeme"
+  },
+  "99081": {
+    "lat": 50.9707,
+    "lon": 11.0475,
+    "city": "Kinderkanal ARD/ ZDF"
+  },
+  "99084": {
+    "lat": 50.9746,
+    "lon": 11.0297,
+    "city": "Erfurt"
+  },
+  "99085": {
+    "lat": 50.9945,
+    "lon": 11.0528,
+    "city": "Erfurt"
+  },
+  "99086": {
+    "lat": 50.994,
+    "lon": 11.0276,
+    "city": "Erfurt"
+  },
+  "99087": {
+    "lat": 51.021,
+    "lon": 11.0353,
+    "city": "Erfurt"
+  },
+  "99089": {
+    "lat": 50.9968,
+    "lon": 11.0079,
+    "city": "Erfurt"
+  },
+  "99091": {
+    "lat": 51.0143,
+    "lon": 10.9929,
+    "city": "Erfurt"
+  },
+  "99092": {
+    "lat": 50.973,
+    "lon": 10.9787,
+    "city": "Erfurt"
+  },
+  "99094": {
+    "lat": 50.9833,
+    "lon": 11.0333,
+    "city": "Erfurt"
+  },
+  "99096": {
+    "lat": 50.9643,
+    "lon": 11.041,
+    "city": "Erfurt"
+  },
+  "99097": {
+    "lat": 50.9833,
+    "lon": 11.0333,
+    "city": "Erfurt"
+  },
+  "99098": {
+    "lat": 50.9833,
+    "lon": 11.0333,
+    "city": "Erfurt"
+  },
+  "99099": {
+    "lat": 50.9751,
+    "lon": 11.0637,
+    "city": "Erfurt"
+  },
+  "99100": {
+    "lat": 51.0432,
+    "lon": 10.8429,
+    "city": "Dachwig"
+  },
+  "99102": {
+    "lat": 50.9091,
+    "lon": 11.0954,
+    "city": "Klettbach"
+  },
+  "99111": {
+    "lat": 50.9793,
+    "lon": 11.0362,
+    "city": "Stadtverwaltung Erfurt Abteilung Zentrale Dienste"
+  },
+  "99112": {
+    "lat": 50.9793,
+    "lon": 11.0362,
+    "city": "HUK-Coburg"
+  },
+  "99113": {
+    "lat": 50.9769,
+    "lon": 11.0128,
+    "city": "Bundesarbeitsgericht"
+  },
+  "99114": {
+    "lat": 50.9784,
+    "lon": 11.1229,
+    "city": "Deutsche Post AG Niederlassung BRIEF Erfurt"
+  },
+  "99115": {
+    "lat": 50.9726,
+    "lon": 10.9615,
+    "city": "CSG GmbH"
+  },
+  "99116": {
+    "lat": 50.9723,
+    "lon": 10.9599,
+    "city": "Vodafone Customer Care GmbH"
+  },
+  "99117": {
+    "lat": 50.9588,
+    "lon": 11.0517,
+    "city": "Deutsche Rentenversicherung Erfurt"
+  },
+  "99130": {
+    "lat": 50.8222,
+    "lon": 11.0172,
+    "city": "Marlishausen"
+  },
+  "99189": {
+    "lat": 51.0799,
+    "lon": 10.9403,
+    "city": "Gebesee"
+  },
+  "99192": {
+    "lat": 50.9303,
+    "lon": 10.895,
+    "city": "Gamstädt"
+  },
+  "99195": {
+    "lat": 51.0843,
+    "lon": 11.0897,
+    "city": "Nöda"
+  },
+  "99198": {
+    "lat": 51.0233,
+    "lon": 11.1433,
+    "city": "Udestedt"
+  },
+  "99310": {
+    "lat": 50.8332,
+    "lon": 11.0161,
+    "city": "Arnstadt"
+  },
+  "99326": {
+    "lat": 50.7547,
+    "lon": 11.083,
+    "city": "Ilmtal"
+  },
+  "99330": {
+    "lat": 50.7642,
+    "lon": 10.8053,
+    "city": "Crawinkel"
+  },
+  "99334": {
+    "lat": 50.8738,
+    "lon": 11.0467,
+    "city": "Elleben"
+  },
+  "99338": {
+    "lat": 50.7696,
+    "lon": 10.8749,
+    "city": "Plaue"
+  },
+  "99420": {
+    "lat": 50.9794,
+    "lon": 11.3292,
+    "city": "Staatliche Lotterie-Einnahme Harry Neugebauer"
+  },
+  "99421": {
+    "lat": 50.9821,
+    "lon": 11.3277,
+    "city": "Finanzamt Weimar"
+  },
+  "99423": {
+    "lat": 50.9804,
+    "lon": 11.3263,
+    "city": "Weimar"
+  },
+  "99425": {
+    "lat": 50.9833,
+    "lon": 11.3167,
+    "city": "Weimar"
+  },
+  "99427": {
+    "lat": 50.9867,
+    "lon": 11.3156,
+    "city": "Weimar"
+  },
+  "99428": {
+    "lat": 50.9807,
+    "lon": 11.2256,
+    "city": "Nohra"
+  },
+  "99437": {
+    "lat": 50.89,
+    "lon": 11.2661,
+    "city": "Zentralklinik Bad Berka GmbH"
+  },
+  "99438": {
+    "lat": 50.9168,
+    "lon": 11.2835,
+    "city": "Oettern"
+  },
+  "99439": {
+    "lat": 51.0551,
+    "lon": 11.3001,
+    "city": "Ramsla"
+  },
+  "99441": {
+    "lat": 50.9396,
+    "lon": 11.4323,
+    "city": "Magdala"
+  },
+  "99444": {
+    "lat": 50.8599,
+    "lon": 11.3439,
+    "city": "Blankenhain"
+  },
+  "99448": {
+    "lat": 50.8611,
+    "lon": 11.1939,
+    "city": "Nauendorf"
+  },
+  "99510": {
+    "lat": 51.0502,
+    "lon": 11.4816,
+    "city": "Apolda"
+  },
+  "99518": {
+    "lat": 51.0857,
+    "lon": 11.5913,
+    "city": "Reisdorf"
+  },
+  "99610": {
+    "lat": 51.1369,
+    "lon": 11.1973,
+    "city": "Sprötau"
+  },
+  "99625": {
+    "lat": 51.1962,
+    "lon": 11.2612,
+    "city": "Kölleda"
+  },
+  "99628": {
+    "lat": 51.1355,
+    "lon": 11.3937,
+    "city": "Buttstädt"
+  },
+  "99631": {
+    "lat": 51.2128,
+    "lon": 11.0498,
+    "city": "Günstedt"
+  },
+  "99634": {
+    "lat": 51.1569,
+    "lon": 10.9631,
+    "city": "Straußfurt"
+  },
+  "99636": {
+    "lat": 51.1875,
+    "lon": 11.3768,
+    "city": "Rastenberg"
+  },
+  "99638": {
+    "lat": 51.2505,
+    "lon": 11.1052,
+    "city": "Büchel"
+  },
+  "99706": {
+    "lat": 51.3697,
+    "lon": 10.8701,
+    "city": "Sondershausen"
+  },
+  "99707": {
+    "lat": 51.3572,
+    "lon": 11.0147,
+    "city": "Badra"
+  },
+  "99713": {
+    "lat": 51.279,
+    "lon": 10.7474,
+    "city": "Ebeleben"
+  },
+  "99718": {
+    "lat": 51.2561,
+    "lon": 10.9423,
+    "city": "Trebra"
+  },
+  "99734": {
+    "lat": 51.5018,
+    "lon": 10.7957,
+    "city": "Nordhausen"
+  },
+  "99735": {
+    "lat": 51.4665,
+    "lon": 10.6975,
+    "city": "Nohra"
+  },
+  "99738": {
+    "lat": 51.4968,
+    "lon": 10.7892,
+    "city": "Agentur für Arbeit Thüringen Nord"
+  },
+  "99752": {
+    "lat": 51.4593,
+    "lon": 10.5695,
+    "city": "Kraja"
+  },
+  "99755": {
+    "lat": 51.5378,
+    "lon": 10.6215,
+    "city": "Ellrich"
+  },
+  "99759": {
+    "lat": 51.4089,
+    "lon": 10.5882,
+    "city": "Rehungen"
+  },
+  "99762": {
+    "lat": 51.5457,
+    "lon": 10.8537,
+    "city": "Buchholz"
+  },
+  "99765": {
+    "lat": 51.4494,
+    "lon": 10.8937,
+    "city": "Hamma"
+  },
+  "99768": {
+    "lat": 51.5757,
+    "lon": 10.7847,
+    "city": "Ilfeld"
+  },
+  "99815": {
+    "lat": 50.9743,
+    "lon": 10.3183,
+    "city": "Deutsche Post AG Filialbezirksleitung"
+  },
+  "99817": {
+    "lat": 50.9807,
+    "lon": 10.3152,
+    "city": "Eisenach"
+  },
+  "99819": {
+    "lat": 50.9329,
+    "lon": 10.2772,
+    "city": "Marksuhl"
+  },
+  "99820": {
+    "lat": 51.0217,
+    "lon": 10.5101,
+    "city": "Behringen"
+  },
+  "99826": {
+    "lat": 51.0851,
+    "lon": 10.335,
+    "city": "Mihla"
+  },
+  "99830": {
+    "lat": 51.1369,
+    "lon": 10.2336,
+    "city": "Treffurt"
+  },
+  "99831": {
+    "lat": 51.0598,
+    "lon": 10.2154,
+    "city": "Ifta"
+  },
+  "99834": {
+    "lat": 50.9689,
+    "lon": 10.1423,
+    "city": "Oberellen"
+  },
+  "99837": {
+    "lat": 50.9321,
+    "lon": 10.0271,
+    "city": "Dippach"
+  },
+  "99842": {
+    "lat": 50.893,
+    "lon": 10.3657,
+    "city": "Ruhla"
+  },
+  "99846": {
+    "lat": 50.9167,
+    "lon": 10.4167,
+    "city": "Seebach"
+  },
+  "99848": {
+    "lat": 50.9628,
+    "lon": 10.4051,
+    "city": "Hörselberg"
+  },
+  "99867": {
+    "lat": 50.9482,
+    "lon": 10.7019,
+    "city": "Gotha"
+  },
+  "99869": {
+    "lat": 50.968,
+    "lon": 10.7063,
+    "city": "Haina"
+  },
+  "99878": {
+    "lat": 50.9175,
+    "lon": 10.5617,
+    "city": "BSPayone GmbH"
+  },
+  "99880": {
+    "lat": 50.9304,
+    "lon": 10.5858,
+    "city": "Aspach"
+  },
+  "99885": {
+    "lat": 50.8068,
+    "lon": 10.7488,
+    "city": "Wölfis"
+  },
+  "99887": {
+    "lat": 50.8415,
+    "lon": 10.6899,
+    "city": "Petriroda"
+  },
+  "99891": {
+    "lat": 50.8854,
+    "lon": 10.459,
+    "city": "Tabarz"
+  },
+  "99893": {
+    "lat": 50.9175,
+    "lon": 10.5617,
+    "city": "Citicorp Kartenservice GmbH"
+  },
+  "99894": {
+    "lat": 50.8523,
+    "lon": 10.5916,
+    "city": "Ernstroda"
+  },
+  "99897": {
+    "lat": 50.7925,
+    "lon": 10.6157,
+    "city": "Tambach-Dietharz"
+  },
+  "99947": {
+    "lat": 51.157,
+    "lon": 10.638,
+    "city": "Tottleben"
+  },
+  "99955": {
+    "lat": 51.1731,
+    "lon": 10.802,
+    "city": "Urleben"
+  },
+  "99958": {
+    "lat": 51.0959,
+    "lon": 10.7583,
+    "city": "Tonna"
+  },
+  "99974": {
+    "lat": 51.2365,
+    "lon": 10.45,
+    "city": "Unstruttal"
+  },
+  "99976": {
+    "lat": 51.2478,
+    "lon": 10.3289,
+    "city": "Anrode"
+  },
+  "99986": {
+    "lat": 51.144,
+    "lon": 10.4405,
+    "city": "Langula"
+  },
+  "99988": {
+    "lat": 51.1729,
+    "lon": 10.2905,
+    "city": "Heyerode"
+  },
+  "99991": {
+    "lat": 51.1485,
+    "lon": 10.5533,
+    "city": "Altengottern"
+  },
+  "99994": {
+    "lat": 51.2399,
+    "lon": 10.6709,
+    "city": "Schlotheim"
+  },
+  "99996": {
+    "lat": 51.2888,
+    "lon": 10.5803,
+    "city": "Menteroda"
+  },
+  "99998": {
+    "lat": 51.2125,
+    "lon": 10.5625,
+    "city": "Körner"
+  },
+  "04160": {
+    "lat": 51.3402,
+    "lon": 6.6526,
+    "city": "Fressnapf Tiernahrungs GmbH"
+  },
+  "03075": {
+    "lat": 51.9873,
+    "lon": 7.6339,
+    "city": "Landwirtschaftskammer Nordr./Westf Abt. Tierseuchenkasse"
+  },
+  "03039": {
+    "lat": 51.7591,
+    "lon": 14.328,
+    "city": "Agentur für Arbeit Cottbus"
+  },
+  "03065": {
+    "lat": 51.767,
+    "lon": 14.3801,
+    "city": "Deutsche Post AG Niederlassung BRIEF Cottbus"
+  },
+  "01053": {
+    "lat": 51.0562,
+    "lon": 13.7323,
+    "city": "Commerzbank AG"
+  },
+  "01054": {
+    "lat": 51.0377,
+    "lon": 13.7431,
+    "city": "Sächsische Aufbaubank"
+  },
+  "01055": {
+    "lat": 51.0569,
+    "lon": 13.7287,
+    "city": "Dresdner Druck-u.Verlagshaus GmbH &Co.KG Unternehmensbereich Zeitungen"
+  },
+  "01056": {
+    "lat": 51.0355,
+    "lon": 13.7404,
+    "city": "Finanzamt Dresden - Nord"
+  },
+  "01057": {
+    "lat": 51.0456,
+    "lon": 13.7387,
+    "city": "HUK-Coburg"
+  },
+  "01058": {
+    "lat": 51.0466,
+    "lon": 13.7268,
+    "city": "AOK Sachsen - Die Gesundheitskasse"
+  },
+  "01059": {
+    "lat": 51.0826,
+    "lon": 13.7258,
+    "city": "Deutsche Telekom AG, GSUS"
+  },
+  "01060": {
+    "lat": 51.1037,
+    "lon": 13.7709,
+    "city": "Mitteldeutscher Rundfunk Landesfunkhaus Sachsen"
+  },
+  "01062": {
+    "lat": 51.0289,
+    "lon": 13.7239,
+    "city": "Technische Universität"
+  },
+  "01063": {
+    "lat": 51.0334,
+    "lon": 13.7072,
+    "city": "Deutsche Post AG HR Service Germany"
+  },
+  "01064": {
+    "lat": 51.0387,
+    "lon": 13.7327,
+    "city": "ENSO Energie Sachsen Ost AG"
+  },
+  "01065": {
+    "lat": 51.0387,
+    "lon": 13.7327,
+    "city": "DREWAG - Stadtwerke Dresden GmbH"
+  },
+  "01070": {
+    "lat": 51.0334,
+    "lon": 13.7072,
+    "city": "Deutsche Post AG HR Service Germany"
+  },
+  "01095": {
+    "lat": 51.0573,
+    "lon": 13.7493,
+    "city": "Sächsische Staatskanzlei"
+  },
+  "01213": {
+    "lat": 51.0408,
+    "lon": 13.7198,
+    "city": "Agentur für Arbeit Dresden"
+  },
+  "01255": {
+    "lat": 51.0533,
+    "lon": 13.783,
+    "city": "R + V Versicherung Filialdirektion Dresden"
+  },
+  "01264": {
+    "lat": 51.0355,
+    "lon": 13.7404,
+    "city": "Finanzamt Dresden - Süd"
+  },
+  "01303": {
+    "lat": 51.0536,
+    "lon": 13.7608,
+    "city": "ZBI GmbH"
+  },
+  "01304": {
+    "lat": 51.0517,
+    "lon": 13.777,
+    "city": "Universitätsklinikum Carl Gustav Carus der TU Dresden"
+  },
+  "01305": {
+    "lat": 51.054,
+    "lon": 13.7588,
+    "city": "Ostsächsische Sparkasse Dresden"
+  },
+  "01332": {
+    "lat": 51.178,
+    "lon": 13.8417,
+    "city": "Amazon FC WRO2"
+  },
+  "01333": {
+    "lat": 51.1802,
+    "lon": 13.8384,
+    "city": "Deutsche Post AG Niederlassung BRIEF Dresden"
+  },
+  "01585": {
+    "lat": 51.3068,
+    "lon": 13.2854,
+    "city": "Agentur für Arbeit Riesa"
+  },
+  "01730": {
+    "lat": 50.9462,
+    "lon": 13.7706,
+    "city": "Klinik Bavaria"
+  },
+  "01793": {
+    "lat": 50.9544,
+    "lon": 13.9414,
+    "city": "Agentur für Arbeit Pirna"
+  },
+  "02619": {
+    "lat": 51.1551,
+    "lon": 14.4329,
+    "city": "Agentur für Arbeit Bautzen"
+  },
+  "02620": {
+    "lat": 51.1757,
+    "lon": 14.4294,
+    "city": "Landratsamt Bautzen"
+  },
+  "02621": {
+    "lat": 51.1823,
+    "lon": 14.4278,
+    "city": "Finanzamt Bautzen"
+  },
+  "02643": {
+    "lat": 51.1904,
+    "lon": 14.4587,
+    "city": "Deutsche Post AG Briefzentrum Bautzen"
+  },
+  "04022": {
+    "lat": 51.0466,
+    "lon": 13.7492,
+    "city": "Sächsische Aufbaubank"
+  },
+  "04024": {
+    "lat": 51.3987,
+    "lon": 12.198,
+    "city": "KEBA Gesellschaft für interne Services mbH"
+  },
+  "04056": {
+    "lat": 51.3514,
+    "lon": 12.4041,
+    "city": "Deutsche Post E-Post Solutions GmbH"
+  },
+  "04063": {
+    "lat": 51.0732,
+    "lon": 13.7602,
+    "city": "IKK classic Hauptverwaltung"
+  },
+  "04064": {
+    "lat": 51.0732,
+    "lon": 13.7602,
+    "city": "IKK classic Hauptverwaltung"
+  },
+  "04079": {
+    "lat": 51.3441,
+    "lon": 12.3944,
+    "city": "Deutsche Post AG, GB Vertrieb BRIEF GWK Direkt Marketing Center"
+  },
+  "04080": {
+    "lat": 51.3314,
+    "lon": 12.3866,
+    "city": "Universität Leipzig, Bereich Medizin"
+  },
+  "04081": {
+    "lat": 51.3381,
+    "lon": 12.3791,
+    "city": "Universität Leipzig"
+  },
+  "04082": {
+    "lat": 51.3987,
+    "lon": 12.198,
+    "city": "KEBA Gesellschaft für interne Services mbH"
+  },
+  "04083": {
+    "lat": 51.3364,
+    "lon": 12.3747,
+    "city": "Deutsche Bank AG Airport Business Center Leipzig-Halle"
+  },
+  "04084": {
+    "lat": 51.3342,
+    "lon": 12.3956,
+    "city": "Allianz Versicherungs-AG Zweigniederlassung Leipzig"
+  },
+  "04086": {
+    "lat": 51.3748,
+    "lon": 12.3232,
+    "city": "Agentur für Arbeit Leipzig"
+  },
+  "04087": {
+    "lat": 51.3413,
+    "lon": 12.3579,
+    "city": "AOK PLUS - Die Gesundheitskasse für Sachsen und Thüringen"
+  },
+  "04088": {
+    "lat": 51.3321,
+    "lon": 12.3746,
+    "city": "Leipziger Verlags- und Druckereigesellschaft mbH & Co. KG"
+  },
+  "04089": {
+    "lat": 51.3987,
+    "lon": 12.198,
+    "city": "Norisbank GmbH"
+  },
+  "04091": {
+    "lat": 51.3433,
+    "lon": 12.3693,
+    "city": "Industrie- u. Handelskammer zu Leipzig"
+  },
+  "04092": {
+    "lat": 51.335,
+    "lon": 12.3714,
+    "city": "Stadt Leipzig Neues Rathaus"
+  },
+  "04095": {
+    "lat": 51.3386,
+    "lon": 12.3848,
+    "city": "Deutsche Telekom AG, T-Com, TI NL Mitte Ost"
+  },
+  "04097": {
+    "lat": 51.3407,
+    "lon": 12.3856,
+    "city": "HUK-Coburg"
+  },
+  "04150": {
+    "lat": 51.3782,
+    "lon": 12.3119,
+    "city": "Vet Med Labor GmbH Division of IDEXX Laboratories"
+  },
+  "04151": {
+    "lat": 51.3748,
+    "lon": 12.3232,
+    "city": "Deutsche Rentenversicherung Mitteldeutschland"
+  },
+  "04227": {
+    "lat": 51.3297,
+    "lon": 12.3459,
+    "city": "Mey & Edlich"
+  },
+  "04310": {
+    "lat": 51.3301,
+    "lon": 12.4406,
+    "city": "DAVASO GmbH"
+  },
+  "04311": {
+    "lat": 51.3301,
+    "lon": 12.4406,
+    "city": "DAVASO GmbH"
+  },
+  "04312": {
+    "lat": 51.3301,
+    "lon": 12.4406,
+    "city": "DAVASO GmbH"
+  },
+  "04350": {
+    "lat": 51.4092,
+    "lon": 12.4474,
+    "city": "BMW"
+  },
+  "04360": {
+    "lat": 51.3156,
+    "lon": 12.3832,
+    "city": "Mitteldeutscher Rundfunk Zentrale Leipzig"
+  },
+  "04365": {
+    "lat": 51.4012,
+    "lon": 12.4038,
+    "city": "ista Shared services GmbH"
+  },
+  "04370": {
+    "lat": 51.4132,
+    "lon": 12.2907,
+    "city": "Deutsche Post DHL"
+  },
+  "04550": {
+    "lat": 51.1189,
+    "lon": 12.4899,
+    "city": "Landkreis Leipzig"
+  },
+  "04756": {
+    "lat": 51.2987,
+    "lon": 13.1193,
+    "city": "Agentur für Arbeit Oschatz"
+  },
+  "04855": {
+    "lat": 51.559,
+    "lon": 13.0077,
+    "city": "Landratsamt Nordsachsen"
+  },
+  "08037": {
+    "lat": 50.7204,
+    "lon": 12.484,
+    "city": "Agentur für Arbeit Zwickau"
+  },
+  "08048": {
+    "lat": 50.7952,
+    "lon": 12.4838,
+    "city": "Volkswagen Sachsen GmbH"
+  },
+  "08080": {
+    "lat": 50.6906,
+    "lon": 12.5644,
+    "city": "Deutsche Post AG Niederlassung BRIEF Zwickau"
+  },
+  "08081": {
+    "lat": 50.6685,
+    "lon": 12.3636,
+    "city": "Amazon FC PRG 2"
+  },
+  "08520": {
+    "lat": 50.4971,
+    "lon": 12.1225,
+    "city": "Agentur für Arbeit Plauen"
+  },
+  "09091": {
+    "lat": 50.8145,
+    "lon": 12.9113,
+    "city": "Agentur für Arbeit Chemnitz"
+  },
+  "09092": {
+    "lat": 50.8145,
+    "lon": 12.9113,
+    "city": "Familienkasse Sachsen"
+  },
+  "09093": {
+    "lat": 50.8126,
+    "lon": 12.8807,
+    "city": "Deutsche Post AG Briefzentrum Chemnitz"
+  },
+  "09094": {
+    "lat": 50.8344,
+    "lon": 12.9264,
+    "city": "HUK Coburg"
+  },
+  "09095": {
+    "lat": 50.8784,
+    "lon": 12.9032,
+    "city": "envia Mitteldeutsche Energie AG"
+  },
+  "09096": {
+    "lat": 50.8102,
+    "lon": 12.9048,
+    "city": "Deutsche Telekom AG Niederlassung Chemnitz"
+  },
+  "09097": {
+    "lat": 50.819,
+    "lon": 12.9064,
+    "city": "Finanzamt Chemnitz-Süd"
+  },
+  "09099": {
+    "lat": 50.8448,
+    "lon": 12.9179,
+    "city": "AOK - Die Gesundheitskasse"
+  },
+  "09100": {
+    "lat": 50.8145,
+    "lon": 12.9113,
+    "city": "Agentur für Arbeit Chemnitz"
+  },
+  "09103": {
+    "lat": 50.8324,
+    "lon": 12.9197,
+    "city": "Allianz Versicherungs-AG Filialdirektion Chemnitz"
+  },
+  "09105": {
+    "lat": 50.8166,
+    "lon": 12.9165,
+    "city": "Landesdirektion Sachsen"
+  },
+  "09106": {
+    "lat": 50.8326,
+    "lon": 12.9191,
+    "city": "Stadtverwaltung"
+  },
+  "09107": {
+    "lat": 50.8392,
+    "lon": 12.9273,
+    "city": "Technische Universität Chemnitz"
+  },
+  "09108": {
+    "lat": 50.8091,
+    "lon": 12.8419,
+    "city": "Bundesknappschaft"
+  },
+  "09109": {
+    "lat": 50.8058,
+    "lon": 12.8426,
+    "city": "Landesjustizkasse Chemnitz"
+  },
+  "09231": {
+    "lat": 50.8854,
+    "lon": 12.8028,
+    "city": "KOMSA AG"
+  },
+  "09450": {
+    "lat": 50.5781,
+    "lon": 13.0049,
+    "city": "Erzgebirgssparkasse"
+  },
+  "09453": {
+    "lat": 50.5854,
+    "lon": 13.0071,
+    "city": "Landratsamt Erzgebirgskreis"
+  },
+  "09454": {
+    "lat": 50.5874,
+    "lon": 13.0098,
+    "city": "Agentur für Arbeit Annaberg-Buchholz"
+  },
+  "09595": {
+    "lat": 50.911,
+    "lon": 13.3417,
+    "city": "Agentur für Arbeit Freiberg"
+  },
+  "09596": {
+    "lat": 50.913,
+    "lon": 13.3481,
+    "city": "Finanzamt Freiberg"
+  },
+  "09660": {
+    "lat": 50.9699,
+    "lon": 13.1194,
+    "city": "Agentur für Arbeit Hainichen"
+  },
+  "06073": {
+    "lat": 51.4972,
+    "lon": 11.9667,
+    "city": "Familienkasse Sachsen-Anhalt-Thüringen"
+  },
+  "06075": {
+    "lat": 51.4788,
+    "lon": 11.9878,
+    "city": "Mediengruppe Mitteldeutsche Zeitung GmbH & Co.KG"
+  },
+  "06076": {
+    "lat": 51.4821,
+    "lon": 11.9832,
+    "city": "envia Mitteldeutsche Energie AG Hauptdirektion Sachsen-Anhalt"
+  },
+  "06077": {
+    "lat": 51.4783,
+    "lon": 11.9796,
+    "city": "IHK Halle-Dessau"
+  },
+  "06089": {
+    "lat": 51.5078,
+    "lon": 11.9644,
+    "city": "Agentur für Arbeit Sachsen-Anhalt Süd"
+  },
+  "06090": {
+    "lat": 51.5078,
+    "lon": 11.9644,
+    "city": "Agentur für Arbeit Sachsen-Anhalt Süd"
+  },
+  "06091": {
+    "lat": 51.4853,
+    "lon": 12.0027,
+    "city": "BKK für Heilberufe"
+  },
+  "06092": {
+    "lat": 51.4962,
+    "lon": 11.9825,
+    "city": "Deutsche Rentenversicherung Mitteldeutschland"
+  },
+  "06094": {
+    "lat": 51.4865,
+    "lon": 11.9613,
+    "city": "AOK Sachsen - Anhalt"
+  },
+  "06095": {
+    "lat": 51.469,
+    "lon": 11.9852,
+    "city": "Amtsgericht"
+  },
+  "06097": {
+    "lat": 51.5003,
+    "lon": 11.9335,
+    "city": "Universitätsklinikum Medizinische Fakultät der Martin-Luther-Universität"
+  },
+  "06098": {
+    "lat": 51.4899,
+    "lon": 11.9696,
+    "city": "Uni- u. Landesbibliothek Sachsen/Anhalt"
+  },
+  "06099": {
+    "lat": 51.4847,
+    "lon": 11.9655,
+    "city": "Martin-Luther-Universität Halle-Wittenberg"
+  },
+  "06100": {
+    "lat": 51.4825,
+    "lon": 11.9715,
+    "city": "Stadt Halle"
+  },
+  "06103": {
+    "lat": 51.4807,
+    "lon": 11.9657,
+    "city": "Finanzämter in Halle ( Saale)"
+  },
+  "06104": {
+    "lat": 51.4301,
+    "lon": 11.9914,
+    "city": "Druck- und Lederfarben Halle(Saale) GmbH"
+  },
+  "06105": {
+    "lat": 51.4812,
+    "lon": 11.9252,
+    "city": "Jobcenter Halle (Saale)"
+  },
+  "06106": {
+    "lat": 51.4866,
+    "lon": 11.9303,
+    "city": "Victoria-Versicherungen"
+  },
+  "06144": {
+    "lat": 51.4695,
+    "lon": 11.9908,
+    "city": "Apotheke Zur Rose Offizin"
+  },
+  "06145": {
+    "lat": 51.5254,
+    "lon": 12.104,
+    "city": "Deutsche Post AG NL Betrieb Leipzig Betrieb Halle"
+  },
+  "06146": {
+    "lat": 51.4695,
+    "lon": 11.9833,
+    "city": "HUK-Coburg"
+  },
+  "06147": {
+    "lat": 51.4695,
+    "lon": 11.9908,
+    "city": "Zur Rose Pharma Abt. VfG"
+  },
+  "06252": {
+    "lat": 51.3473,
+    "lon": 12.169,
+    "city": "Klier GmbH"
+  },
+  "06291": {
+    "lat": 51.5191,
+    "lon": 11.5506,
+    "city": "Finanzamt Eisleben"
+  },
+  "06359": {
+    "lat": 51.7321,
+    "lon": 11.9776,
+    "city": "Landkreis Anhalt-Bitterfeld"
+  },
+  "06400": {
+    "lat": 51.7953,
+    "lon": 11.7447,
+    "city": "Salzlandkreis"
+  },
+  "06838": {
+    "lat": 51.841,
+    "lon": 12.2316,
+    "city": "Agentur für Arbeit Sachsen-Anhalt Ost"
+  },
+  "06839": {
+    "lat": 51.8385,
+    "lon": 12.2198,
+    "city": "Regierungspräsidium Dessau"
+  },
+  "06553": {
+    "lat": 51.3665,
+    "lon": 11.2944,
+    "city": "Bußgeldstelle"
+  },
+  "07497": {
+    "lat": 50.8729,
+    "lon": 12.0826,
+    "city": "Deutsche Rentenversicherung Bund"
+  },
+  "07499": {
+    "lat": 50.9073,
+    "lon": 12.0735,
+    "city": "Deutsche Post AG Niederlassung BRIEF Gera"
+  },
+  "07541": {
+    "lat": 50.8704,
+    "lon": 12.0838,
+    "city": "Agentur für Arbeit Thüringen Ost"
+  },
+  "07543": {
+    "lat": 50.8732,
+    "lon": 12.084,
+    "city": "Stadtverwaltung Gera"
+  },
+  "07584": {
+    "lat": 50.9304,
+    "lon": 12.0145,
+    "city": "Köstritzer Schwarzbierbrauerei"
+  },
+  "07737": {
+    "lat": 50.9298,
+    "lon": 11.5895,
+    "city": "Friedrich-Schiller-Universität"
+  },
+  "07738": {
+    "lat": 50.9275,
+    "lon": 11.583,
+    "city": "Deutsches Patentamt Außenstelle Jena"
+  },
+  "07739": {
+    "lat": 50.9281,
+    "lon": 11.5807,
+    "city": "JENOPTIK AG"
+  },
+  "07740": {
+    "lat": 50.9134,
+    "lon": 11.5863,
+    "city": "Carl Zeiss AG"
+  },
+  "01945": {
+    "lat": 51.4197,
+    "lon": 13.8781,
+    "city": "Tettau"
+  },
+  "01968": {
+    "lat": 51.5336,
+    "lon": 13.9548,
+    "city": "Schipkau"
+  },
+  "01979": {
+    "lat": 51.4881,
+    "lon": 13.7662,
+    "city": "Lauchhammer"
+  },
+  "01983": {
+    "lat": 51.6045,
+    "lon": 14.0709,
+    "city": "Neu-Seeland"
+  },
+  "01987": {
+    "lat": 51.4767,
+    "lon": 13.8556,
+    "city": "Schwarzheide"
+  },
+  "01990": {
+    "lat": 51.3896,
+    "lon": 13.7515,
+    "city": "Ortrand"
+  },
+  "01993": {
+    "lat": 51.5279,
+    "lon": 13.9051,
+    "city": "Schipkau"
+  },
+  "01994": {
+    "lat": 51.559,
+    "lon": 13.8963,
+    "city": "Schipkau"
+  },
+  "01996": {
+    "lat": 51.4547,
+    "lon": 14.0251,
+    "city": "Hosena"
+  },
+  "01998": {
+    "lat": 51.5461,
+    "lon": 13.912,
+    "city": "Schipkau"
+  },
+  "03042": {
+    "lat": 51.7612,
+    "lon": 14.3544,
+    "city": "Cottbus"
+  },
+  "03044": {
+    "lat": 51.7754,
+    "lon": 14.3374,
+    "city": "Cottbus"
+  },
+  "03046": {
+    "lat": 51.756,
+    "lon": 14.3197,
+    "city": "Cottbus"
+  },
+  "03048": {
+    "lat": 51.7403,
+    "lon": 14.3198,
+    "city": "Cottbus"
+  },
+  "03050": {
+    "lat": 51.7324,
+    "lon": 14.3347,
+    "city": "Cottbus"
+  },
+  "03051": {
+    "lat": 51.7667,
+    "lon": 14.3333,
+    "city": "Cottbus"
+  },
+  "03052": {
+    "lat": 51.7667,
+    "lon": 14.3333,
+    "city": "Cottbus"
+  },
+  "03053": {
+    "lat": 51.7667,
+    "lon": 14.3333,
+    "city": "Cottbus"
+  },
+  "03054": {
+    "lat": 51.7667,
+    "lon": 14.3333,
+    "city": "Cottbus"
+  },
+  "03055": {
+    "lat": 51.7667,
+    "lon": 14.3333,
+    "city": "Cottbus"
+  },
+  "03058": {
+    "lat": 51.6964,
+    "lon": 14.4125,
+    "city": "Sergen"
+  },
+  "03096": {
+    "lat": 51.8254,
+    "lon": 14.2206,
+    "city": "Guhrow"
+  },
+  "03099": {
+    "lat": 51.75,
+    "lon": 14.25,
+    "city": "Kolkwitz"
+  },
+  "03103": {
+    "lat": 51.6147,
+    "lon": 14.148,
+    "city": "Neu-Seeland"
+  },
+  "03116": {
+    "lat": 51.6541,
+    "lon": 14.2232,
+    "city": "Drebkau"
+  },
+  "03119": {
+    "lat": 51.5838,
+    "lon": 14.1708,
+    "city": "Welzow"
+  },
+  "03130": {
+    "lat": 51.5912,
+    "lon": 14.4656,
+    "city": "Bagenz"
+  },
+  "03139": {
+    "lat": 51.5667,
+    "lon": 14.3667,
+    "city": "Terpe"
+  },
+  "03149": {
+    "lat": 51.709,
+    "lon": 14.5921,
+    "city": "Wiesengrund"
+  },
+  "03159": {
+    "lat": 51.652,
+    "lon": 14.5938,
+    "city": "Döbern"
+  },
+  "03172": {
+    "lat": 51.931,
+    "lon": 14.6102,
+    "city": "Guben"
+  },
+  "03185": {
+    "lat": 51.8511,
+    "lon": 14.4268,
+    "city": "Peitz"
+  },
+  "03197": {
+    "lat": 51.8787,
+    "lon": 14.5042,
+    "city": "Drewitz"
+  },
+  "03202": {
+    "lat": 53.2435,
+    "lon": 14.2573,
+    "city": "Luckow-Petershagen"
+  },
+  "03205": {
+    "lat": 51.7198,
+    "lon": 13.9688,
+    "city": "Lug"
+  },
+  "03222": {
+    "lat": 51.8534,
+    "lon": 13.9177,
+    "city": "Ragow"
+  },
+  "03226": {
+    "lat": 51.8072,
+    "lon": 14.057,
+    "city": "Leipe"
+  },
+  "03229": {
+    "lat": 51.6667,
+    "lon": 14.0167,
+    "city": "Altdöbern"
+  },
+  "03238": {
+    "lat": 51.6065,
+    "lon": 13.6878,
+    "city": "Lugau"
+  },
+  "03246": {
+    "lat": 51.728,
+    "lon": 13.759,
+    "city": "Gahro"
+  },
+  "03249": {
+    "lat": 51.7084,
+    "lon": 13.659,
+    "city": "Bahren"
+  },
+  "03253": {
+    "lat": 51.6521,
+    "lon": 13.5044,
+    "city": "Trebbus"
+  },
+  "04895": {
+    "lat": 51.5875,
+    "lon": 13.2364,
+    "city": "Falkenberg/Elster"
+  },
+  "04910": {
+    "lat": 51.4699,
+    "lon": 13.494,
+    "city": "Haida"
+  },
+  "04916": {
+    "lat": 51.7815,
+    "lon": 13.2467,
+    "city": "Werchau"
+  },
+  "04924": {
+    "lat": 51.5175,
+    "lon": 13.364,
+    "city": "Bad Liebenwerda"
+  },
+  "04928": {
+    "lat": 51.4609,
+    "lon": 13.6166,
+    "city": "Kahla"
+  },
+  "04931": {
+    "lat": 51.4333,
+    "lon": 13.2167,
+    "city": "Mühlberg (Elbe)"
+  },
+  "04932": {
+    "lat": 51.4143,
+    "lon": 13.5417,
+    "city": "Prösen"
+  },
+  "04934": {
+    "lat": 51.4927,
+    "lon": 13.544,
+    "city": "Dreska"
+  },
+  "04936": {
+    "lat": 51.7374,
+    "lon": 13.413,
+    "city": "Körba"
+  },
+  "04938": {
+    "lat": 51.5167,
+    "lon": 13.3333,
+    "city": "Uebigau-Wahrenbrück"
+  },
+  "01067": {
+    "lat": 51.0547,
+    "lon": 13.7269,
+    "city": "Dresden"
+  },
+  "01069": {
+    "lat": 51.043,
+    "lon": 13.7373,
+    "city": "Dresden"
+  },
+  "01097": {
+    "lat": 51.0714,
+    "lon": 13.7399,
+    "city": "Dresden"
+  },
+  "01099": {
+    "lat": 51.0783,
+    "lon": 13.8051,
+    "city": "Dresden"
+  },
+  "01108": {
+    "lat": 51.1557,
+    "lon": 13.7825,
+    "city": "Dresden"
+  },
+  "01109": {
+    "lat": 51.1164,
+    "lon": 13.7468,
+    "city": "Dresden"
+  },
+  "01127": {
+    "lat": 51.079,
+    "lon": 13.7208,
+    "city": "Dresden"
+  },
+  "01129": {
+    "lat": 51.0967,
+    "lon": 13.736,
+    "city": "Dresden"
+  },
+  "01139": {
+    "lat": 51.0836,
+    "lon": 13.6981,
+    "city": "Dresden"
+  },
+  "01156": {
+    "lat": 51.0494,
+    "lon": 13.6214,
+    "city": "Dresden"
+  },
+  "01157": {
+    "lat": 51.0707,
+    "lon": 13.6729,
+    "city": "Dresden"
+  },
+  "01159": {
+    "lat": 51.0452,
+    "lon": 13.6996,
+    "city": "Dresden"
+  },
+  "01169": {
+    "lat": 51.0443,
+    "lon": 13.6738,
+    "city": "Dresden"
+  },
+  "01187": {
+    "lat": 51.0281,
+    "lon": 13.6943,
+    "city": "Dresden"
+  },
+  "01189": {
+    "lat": 51.05,
+    "lon": 13.75,
+    "city": "Dresden"
+  },
+  "01217": {
+    "lat": 51.05,
+    "lon": 13.75,
+    "city": "Dresden"
+  },
+  "01219": {
+    "lat": 51.021,
+    "lon": 13.7679,
+    "city": "Dresden"
+  },
+  "01237": {
+    "lat": 51.013,
+    "lon": 13.7988,
+    "city": "Dresden"
+  },
+  "01239": {
+    "lat": 51.0066,
+    "lon": 13.8089,
+    "city": "Dresden"
+  },
+  "01257": {
+    "lat": 51.0114,
+    "lon": 13.8054,
+    "city": "Dresden"
+  },
+  "01259": {
+    "lat": 51.05,
+    "lon": 13.75,
+    "city": "Dresden"
+  },
+  "01277": {
+    "lat": 51.0426,
+    "lon": 13.787,
+    "city": "Dresden"
+  },
+  "01279": {
+    "lat": 51.0425,
+    "lon": 13.7801,
+    "city": "Dresden"
+  },
+  "01307": {
+    "lat": 51.05,
+    "lon": 13.75,
+    "city": "Dresden"
+  },
+  "01309": {
+    "lat": 51.051,
+    "lon": 13.7784,
+    "city": "Dresden"
+  },
+  "01324": {
+    "lat": 51.05,
+    "lon": 13.75,
+    "city": "Dresden"
+  },
+  "01326": {
+    "lat": 51.0538,
+    "lon": 13.8155,
+    "city": "Dresden"
+  },
+  "01328": {
+    "lat": 51.05,
+    "lon": 13.75,
+    "city": "Dresden"
+  },
+  "01445": {
+    "lat": 51.1065,
+    "lon": 13.6605,
+    "city": "Radebeul"
+  },
+  "01454": {
+    "lat": 51.1364,
+    "lon": 13.9093,
+    "city": "Wachau"
+  },
+  "01458": {
+    "lat": 51.1833,
+    "lon": 13.8333,
+    "city": "Ottendorf-Okrilla"
+  },
+  "01465": {
+    "lat": 51.0917,
+    "lon": 13.8,
+    "city": "Dresden"
+  },
+  "01468": {
+    "lat": 51.1592,
+    "lon": 13.6802,
+    "city": "Moritzburg"
+  },
+  "01471": {
+    "lat": 51.2152,
+    "lon": 13.7281,
+    "city": "Radeburg"
+  },
+  "01477": {
+    "lat": 51.0942,
+    "lon": 13.9918,
+    "city": "Arnsdorf"
+  },
+  "01558": {
+    "lat": 51.2895,
+    "lon": 13.5335,
+    "city": "Großenhain"
+  },
+  "01561": {
+    "lat": 51.2955,
+    "lon": 13.6358,
+    "city": "Tauscha"
+  },
+  "01587": {
+    "lat": 51.2991,
+    "lon": 13.2848,
+    "city": "Riesa"
+  },
+  "01589": {
+    "lat": 51.3026,
+    "lon": 13.3097,
+    "city": "Riesa"
+  },
+  "01591": {
+    "lat": 51.3,
+    "lon": 13.3,
+    "city": "Riesa"
+  },
+  "01594": {
+    "lat": 51.2509,
+    "lon": 13.3072,
+    "city": "Stauchitz"
+  },
+  "01609": {
+    "lat": 51.3938,
+    "lon": 13.4036,
+    "city": "Gröditz"
+  },
+  "01612": {
+    "lat": 51.2994,
+    "lon": 13.3935,
+    "city": "Glaubitz"
+  },
+  "01616": {
+    "lat": 51.3525,
+    "lon": 13.2266,
+    "city": "Strehla"
+  },
+  "01619": {
+    "lat": 51.3606,
+    "lon": 13.3982,
+    "city": "Röderaue"
+  },
+  "01623": {
+    "lat": 51.1531,
+    "lon": 13.3178,
+    "city": "Lommatzsch"
+  },
+  "01640": {
+    "lat": 51.132,
+    "lon": 13.5831,
+    "city": "Coswig"
+  },
+  "01662": {
+    "lat": 51.1649,
+    "lon": 13.4859,
+    "city": "Meißen"
+  },
+  "01665": {
+    "lat": 51.1203,
+    "lon": 13.4426,
+    "city": "Taubenheim"
+  },
+  "01683": {
+    "lat": 51.0819,
+    "lon": 13.3598,
+    "city": "Nossen"
+  },
+  "01689": {
+    "lat": 51.1554,
+    "lon": 13.5687,
+    "city": "Niederau"
+  },
+  "01705": {
+    "lat": 51.0017,
+    "lon": 13.6488,
+    "city": "Freital"
+  },
+  "01723": {
+    "lat": 51.052,
+    "lon": 13.5366,
+    "city": "Wilsdruff"
+  },
+  "01728": {
+    "lat": 50.9929,
+    "lon": 13.7171,
+    "city": "Bannewitz"
+  },
+  "01731": {
+    "lat": 50.9453,
+    "lon": 13.7551,
+    "city": "Kreischa"
+  },
+  "01734": {
+    "lat": 50.9648,
+    "lon": 13.6431,
+    "city": "Rabenau"
+  },
+  "01737": {
+    "lat": 50.9791,
+    "lon": 13.5236,
+    "city": "Tharandt"
+  },
+  "01738": {
+    "lat": 50.9333,
+    "lon": 13.5667,
+    "city": "Dorfhain"
+  },
+  "01744": {
+    "lat": 50.8962,
+    "lon": 13.6691,
+    "city": "Dippoldiswalde"
+  },
+  "01762": {
+    "lat": 50.8266,
+    "lon": 13.6256,
+    "city": "Schmiedeberg"
+  },
+  "01768": {
+    "lat": 50.8487,
+    "lon": 13.7776,
+    "city": "Glashütte"
+  },
+  "01773": {
+    "lat": 50.7656,
+    "lon": 13.7533,
+    "city": "Altenberg"
+  },
+  "01774": {
+    "lat": 50.8996,
+    "lon": 13.5571,
+    "city": "Höckendorf"
+  },
+  "01776": {
+    "lat": 50.75,
+    "lon": 13.6333,
+    "city": "Hermsdorf/Erzgebirge"
+  },
+  "01778": {
+    "lat": 50.7574,
+    "lon": 13.7928,
+    "city": "Geising"
+  },
+  "01796": {
+    "lat": 50.9361,
+    "lon": 13.9623,
+    "city": "Pirna"
+  },
+  "01809": {
+    "lat": 50.9468,
+    "lon": 13.8475,
+    "city": "Dohna"
+  },
+  "01814": {
+    "lat": 50.921,
+    "lon": 14.156,
+    "city": "Porschdorf"
+  },
+  "01816": {
+    "lat": 50.8583,
+    "lon": 13.95,
+    "city": "Bad Gottleuba-Berggießhübel"
+  },
+  "01819": {
+    "lat": 50.8875,
+    "lon": 13.9,
+    "city": "Bahretal"
+  },
+  "01824": {
+    "lat": 50.9115,
+    "lon": 14.0834,
+    "city": "Rathen"
+  },
+  "01825": {
+    "lat": 50.8642,
+    "lon": 13.8569,
+    "city": "Liebstadt"
+  },
+  "01829": {
+    "lat": 50.9582,
+    "lon": 14.0309,
+    "city": "Stadt Wehlen"
+  },
+  "01833": {
+    "lat": 51.0412,
+    "lon": 14.0397,
+    "city": "Stolpen"
+  },
+  "01844": {
+    "lat": 51.0364,
+    "lon": 14.2215,
+    "city": "Hohwald"
+  },
+  "01847": {
+    "lat": 50.9883,
+    "lon": 14.0027,
+    "city": "Lohmen"
+  },
+  "01848": {
+    "lat": 50.9799,
+    "lon": 14.1141,
+    "city": "Hohnstein"
+  },
+  "01855": {
+    "lat": 50.9594,
+    "lon": 14.2613,
+    "city": "Sebnitz"
+  },
+  "01877": {
+    "lat": 51.1316,
+    "lon": 14.2479,
+    "city": "Rammenau"
+  },
+  "01896": {
+    "lat": 51.1795,
+    "lon": 14.0092,
+    "city": "Ohorn"
+  },
+  "01900": {
+    "lat": 51.1477,
+    "lon": 14.0513,
+    "city": "Großröhrsdorf"
+  },
+  "01904": {
+    "lat": 51.0802,
+    "lon": 14.3267,
+    "city": "Neukirch/Lausitz"
+  },
+  "01906": {
+    "lat": 51.1758,
+    "lon": 14.1733,
+    "city": "Burkau"
+  },
+  "01909": {
+    "lat": 51.1191,
+    "lon": 14.104,
+    "city": "Frankenthal"
+  },
+  "01917": {
+    "lat": 51.268,
+    "lon": 14.0937,
+    "city": "Kamenz"
+  },
+  "01920": {
+    "lat": 51.263,
+    "lon": 14.1613,
+    "city": "Steina"
+  },
+  "01936": {
+    "lat": 51.2666,
+    "lon": 13.9678,
+    "city": "Laußnitz"
+  },
+  "02625": {
+    "lat": 51.1825,
+    "lon": 14.4292,
+    "city": "Bautzen"
+  },
+  "02627": {
+    "lat": 51.1892,
+    "lon": 14.5319,
+    "city": "Radibor"
+  },
+  "02633": {
+    "lat": 51.1599,
+    "lon": 14.3384,
+    "city": "Göda"
+  },
+  "02681": {
+    "lat": 51.0879,
+    "lon": 14.4264,
+    "city": "Wilthen"
+  },
+  "02689": {
+    "lat": 51.0471,
+    "lon": 14.4298,
+    "city": "Sohland an der Spree"
+  },
+  "02692": {
+    "lat": 51.1257,
+    "lon": 14.4172,
+    "city": "Eulowitz"
+  },
+  "02694": {
+    "lat": 51.2503,
+    "lon": 14.514,
+    "city": "Guttau"
+  },
+  "02699": {
+    "lat": 51.2786,
+    "lon": 14.3194,
+    "city": "Neschwitz"
+  },
+  "02708": {
+    "lat": 51.0747,
+    "lon": 14.647,
+    "city": "Löbau"
+  },
+  "02727": {
+    "lat": 50.9773,
+    "lon": 14.6088,
+    "city": "Neugersdorf"
+  },
+  "02730": {
+    "lat": 51.0167,
+    "lon": 14.5833,
+    "city": "Ebersbach/Sachsen"
+  },
+  "02733": {
+    "lat": 51.1,
+    "lon": 14.5167,
+    "city": "Cunewalde"
+  },
+  "02736": {
+    "lat": 51.0704,
+    "lon": 14.5192,
+    "city": "Oppach"
+  },
+  "02739": {
+    "lat": 50.9827,
+    "lon": 14.6621,
+    "city": "Eibau"
+  },
+  "02742": {
+    "lat": 51.0319,
+    "lon": 14.5491,
+    "city": "Friedersdorf"
+  },
+  "02747": {
+    "lat": 51.0148,
+    "lon": 14.7531,
+    "city": "Herrnhut"
+  },
+  "02748": {
+    "lat": 51.05,
+    "lon": 14.85,
+    "city": "Bernstadt auf dem Eigen"
+  },
+  "02763": {
+    "lat": 50.9001,
+    "lon": 14.7704,
+    "city": "Zittau"
+  },
+  "02779": {
+    "lat": 50.9051,
+    "lon": 14.6936,
+    "city": "Hainewalde"
+  },
+  "02782": {
+    "lat": 50.9349,
+    "lon": 14.6019,
+    "city": "Seifhennersdorf"
+  },
+  "02785": {
+    "lat": 50.873,
+    "lon": 14.7704,
+    "city": "Olbersdorf"
+  },
+  "02788": {
+    "lat": 50.9574,
+    "lon": 14.8818,
+    "city": "Schlegel"
+  },
+  "02791": {
+    "lat": 50.9583,
+    "lon": 14.7083,
+    "city": "Oderwitz"
+  },
+  "02794": {
+    "lat": 50.95,
+    "lon": 14.65,
+    "city": "Leutersdorf"
+  },
+  "02796": {
+    "lat": 50.85,
+    "lon": 14.7,
+    "city": "Jonsdorf"
+  },
+  "02797": {
+    "lat": 50.85,
+    "lon": 14.75,
+    "city": "Oybin"
+  },
+  "02799": {
+    "lat": 50.8703,
+    "lon": 14.6503,
+    "city": "Waltersdorf"
+  },
+  "02826": {
+    "lat": 51.1503,
+    "lon": 14.9829,
+    "city": "Görlitz"
+  },
+  "02827": {
+    "lat": 51.149,
+    "lon": 14.9534,
+    "city": "Görlitz"
+  },
+  "02828": {
+    "lat": 51.1687,
+    "lon": 14.9693,
+    "city": "Görlitz"
+  },
+  "02829": {
+    "lat": 51.1875,
+    "lon": 14.874,
+    "city": "Neißeaue"
+  },
+  "02894": {
+    "lat": 51.1531,
+    "lon": 14.7771,
+    "city": "Vierkirchen"
+  },
+  "02899": {
+    "lat": 51.0406,
+    "lon": 14.9153,
+    "city": "Ostritz"
+  },
+  "02906": {
+    "lat": 51.2947,
+    "lon": 14.7211,
+    "city": "Mücka"
+  },
+  "02923": {
+    "lat": 51.2895,
+    "lon": 14.8768,
+    "city": "Horka"
+  },
+  "02929": {
+    "lat": 51.3635,
+    "lon": 14.9461,
+    "city": "Rothenburg/Oberlausitz"
+  },
+  "02943": {
+    "lat": 51.452,
+    "lon": 14.6035,
+    "city": "Weißwasser"
+  },
+  "02953": {
+    "lat": 51.5419,
+    "lon": 14.6896,
+    "city": "Gablenz"
+  },
+  "02956": {
+    "lat": 51.4,
+    "lon": 14.7833,
+    "city": "Rietschen"
+  },
+  "02957": {
+    "lat": 51.5078,
+    "lon": 14.7137,
+    "city": "Weißkeißel"
+  },
+  "02959": {
+    "lat": 51.5444,
+    "lon": 14.5556,
+    "city": "Schleife"
+  },
+  "02977": {
+    "lat": 51.4379,
+    "lon": 14.2355,
+    "city": "Hoyerswerda"
+  },
+  "02979": {
+    "lat": 51.5084,
+    "lon": 14.2667,
+    "city": "Spreetal"
+  },
+  "02991": {
+    "lat": 51.4597,
+    "lon": 14.1155,
+    "city": "Lauta"
+  },
+  "02994": {
+    "lat": 51.3798,
+    "lon": 14.0479,
+    "city": "Wiednitz"
+  },
+  "02997": {
+    "lat": 51.385,
+    "lon": 14.244,
+    "city": "Wittichenau"
+  },
+  "02999": {
+    "lat": 51.3716,
+    "lon": 14.4094,
+    "city": "Lohsa"
+  },
+  "04103": {
+    "lat": 51.3405,
+    "lon": 12.3827,
+    "city": "Leipzig"
+  },
+  "04105": {
+    "lat": 51.3489,
+    "lon": 12.3688,
+    "city": "Leipzig"
+  },
+  "04107": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04109": {
+    "lat": 51.342,
+    "lon": 12.375,
+    "city": "Leipzig"
+  },
+  "04129": {
+    "lat": 51.3674,
+    "lon": 12.3909,
+    "city": "Leipzig"
+  },
+  "04155": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04157": {
+    "lat": 51.3775,
+    "lon": 12.3599,
+    "city": "Leipzig"
+  },
+  "04158": {
+    "lat": 51.4035,
+    "lon": 12.3418,
+    "city": "Breitenfeld"
+  },
+  "04159": {
+    "lat": 51.3717,
+    "lon": 12.3321,
+    "city": "Leipzig"
+  },
+  "04177": {
+    "lat": 51.3425,
+    "lon": 12.323,
+    "city": "Leipzig"
+  },
+  "04178": {
+    "lat": 51.3566,
+    "lon": 12.2643,
+    "city": "Burghausen"
+  },
+  "04179": {
+    "lat": 51.329,
+    "lon": 12.3115,
+    "city": "Leipzig"
+  },
+  "04205": {
+    "lat": 51.3209,
+    "lon": 12.2793,
+    "city": "Leipzig"
+  },
+  "04207": {
+    "lat": 51.312,
+    "lon": 12.3077,
+    "city": "Leipzig"
+  },
+  "04209": {
+    "lat": 51.3148,
+    "lon": 12.2912,
+    "city": "Leipzig"
+  },
+  "04229": {
+    "lat": 51.3254,
+    "lon": 12.3341,
+    "city": "Leipzig"
+  },
+  "04249": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04275": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04277": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04279": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04288": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04289": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04299": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04315": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04316": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04317": {
+    "lat": 51.3329,
+    "lon": 12.4047,
+    "city": "Leipzig"
+  },
+  "04318": {
+    "lat": 51.3332,
+    "lon": 12.4195,
+    "city": "Leipzig"
+  },
+  "04319": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04328": {
+    "lat": 51.348,
+    "lon": 12.4313,
+    "city": "Sellerhausen-Stünz"
+  },
+  "04329": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04347": {
+    "lat": 51.3637,
+    "lon": 12.4312,
+    "city": "Leipzig"
+  },
+  "04349": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04356": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04357": {
+    "lat": 51.3667,
+    "lon": 12.3833,
+    "city": "Leipzig"
+  },
+  "04416": {
+    "lat": 51.2755,
+    "lon": 12.3691,
+    "city": "Markkleeberg"
+  },
+  "04420": {
+    "lat": 51.3042,
+    "lon": 12.1961,
+    "city": "Großlehna"
+  },
+  "04425": {
+    "lat": 51.3833,
+    "lon": 12.4833,
+    "city": "Taucha"
+  },
+  "04435": {
+    "lat": 51.3968,
+    "lon": 12.2214,
+    "city": "Schkeuditz"
+  },
+  "04442": {
+    "lat": 51.2187,
+    "lon": 12.3301,
+    "city": "Zwenkau"
+  },
+  "04451": {
+    "lat": 51.35,
+    "lon": 12.5333,
+    "city": "Borsdorf"
+  },
+  "04460": {
+    "lat": 51.2217,
+    "lon": 12.2235,
+    "city": "Kitzen"
+  },
+  "04463": {
+    "lat": 51.2667,
+    "lon": 12.5,
+    "city": "Großpösna"
+  },
+  "04509": {
+    "lat": 51.5041,
+    "lon": 12.352,
+    "city": "Zwochau"
+  },
+  "04519": {
+    "lat": 51.4333,
+    "lon": 12.3833,
+    "city": "Rackwitz"
+  },
+  "04523": {
+    "lat": 51.1586,
+    "lon": 12.2424,
+    "city": "Pegau"
+  },
+  "04539": {
+    "lat": 51.1554,
+    "lon": 12.2828,
+    "city": "Groitzsch"
+  },
+  "04552": {
+    "lat": 51.1166,
+    "lon": 12.4883,
+    "city": "Borna"
+  },
+  "04564": {
+    "lat": 51.2006,
+    "lon": 12.3862,
+    "city": "Böhlen"
+  },
+  "04565": {
+    "lat": 51.0888,
+    "lon": 12.4384,
+    "city": "Regis-Breitingen"
+  },
+  "04567": {
+    "lat": 51.1644,
+    "lon": 12.5526,
+    "city": "Kitzscher"
+  },
+  "04571": {
+    "lat": 51.1978,
+    "lon": 12.4145,
+    "city": "Rötha"
+  },
+  "04574": {
+    "lat": 51.1152,
+    "lon": 12.4081,
+    "city": "Deutzen"
+  },
+  "04575": {
+    "lat": 51.1499,
+    "lon": 12.4109,
+    "city": "Neukieritzsch"
+  },
+  "04579": {
+    "lat": 51.1893,
+    "lon": 12.4789,
+    "city": "Espenhain"
+  },
+  "04643": {
+    "lat": 51.0553,
+    "lon": 12.6967,
+    "city": "Geithain"
+  },
+  "04651": {
+    "lat": 51.1225,
+    "lon": 12.6389,
+    "city": "Eulatal"
+  },
+  "04654": {
+    "lat": 51.0572,
+    "lon": 12.5575,
+    "city": "Frohburg"
+  },
+  "04655": {
+    "lat": 51.0188,
+    "lon": 12.6042,
+    "city": "Kohren-Sahlis"
+  },
+  "04657": {
+    "lat": 51.0167,
+    "lon": 12.7167,
+    "city": "Narsdorf"
+  },
+  "04668": {
+    "lat": 51.2107,
+    "lon": 12.7239,
+    "city": "Grimma"
+  },
+  "04680": {
+    "lat": 51.1308,
+    "lon": 12.8099,
+    "city": "Colditz"
+  },
+  "04683": {
+    "lat": 51.2555,
+    "lon": 12.5692,
+    "city": "Naunhof"
+  },
+  "04685": {
+    "lat": 51.2709,
+    "lon": 12.7891,
+    "city": "Nerchau"
+  },
+  "04687": {
+    "lat": 51.2833,
+    "lon": 12.75,
+    "city": "Trebsen/Mulde"
+  },
+  "04688": {
+    "lat": 51.2616,
+    "lon": 12.8913,
+    "city": "Mutzschen"
+  },
+  "04703": {
+    "lat": 51.1563,
+    "lon": 12.941,
+    "city": "Leisnig"
+  },
+  "04720": {
+    "lat": 51.1299,
+    "lon": 13.1212,
+    "city": "Mochau"
+  },
+  "04736": {
+    "lat": 51.0728,
+    "lon": 13.02,
+    "city": "Waldheim"
+  },
+  "04741": {
+    "lat": 51.0742,
+    "lon": 13.1662,
+    "city": "Roßwein"
+  },
+  "04746": {
+    "lat": 51.0986,
+    "lon": 12.9739,
+    "city": "Hartha"
+  },
+  "04749": {
+    "lat": 51.2,
+    "lon": 13.1667,
+    "city": "Ostrau"
+  },
+  "04758": {
+    "lat": 51.3389,
+    "lon": 13.134,
+    "city": "Oschatz"
+  },
+  "04769": {
+    "lat": 51.2385,
+    "lon": 13.0568,
+    "city": "Mügeln"
+  },
+  "04774": {
+    "lat": 51.3649,
+    "lon": 12.9988,
+    "city": "Dahlen"
+  },
+  "04779": {
+    "lat": 51.2833,
+    "lon": 12.95,
+    "city": "Wermsdorf"
+  },
+  "04808": {
+    "lat": 51.3921,
+    "lon": 12.7978,
+    "city": "Wurzen"
+  },
+  "04821": {
+    "lat": 51.336,
+    "lon": 12.6102,
+    "city": "Brandis"
+  },
+  "04824": {
+    "lat": 51.3231,
+    "lon": 12.5622,
+    "city": "Beucha"
+  },
+  "04827": {
+    "lat": 51.3667,
+    "lon": 12.6333,
+    "city": "Machern"
+  },
+  "04828": {
+    "lat": 51.3607,
+    "lon": 12.7138,
+    "city": "Bennewitz"
+  },
+  "04838": {
+    "lat": 51.491,
+    "lon": 12.6541,
+    "city": "Laußig"
+  },
+  "04849": {
+    "lat": 51.6023,
+    "lon": 12.6629,
+    "city": "Kossa"
+  },
+  "04860": {
+    "lat": 51.5498,
+    "lon": 12.963,
+    "city": "Zinna"
+  },
+  "04862": {
+    "lat": 51.5,
+    "lon": 12.8,
+    "city": "Mockrehna"
+  },
+  "04874": {
+    "lat": 51.4826,
+    "lon": 13.1238,
+    "city": "Belgern"
+  },
+  "04880": {
+    "lat": 51.6225,
+    "lon": 12.8748,
+    "city": "Elsnig"
+  },
+  "04886": {
+    "lat": 51.5666,
+    "lon": 13.0704,
+    "city": "Arzberg"
+  },
+  "04889": {
+    "lat": 51.4572,
+    "lon": 12.9302,
+    "city": "Schildau"
+  },
+  "07919": {
+    "lat": 50.5721,
+    "lon": 11.9077,
+    "city": "Mühltroff"
+  },
+  "07952": {
+    "lat": 50.5867,
+    "lon": 12.0445,
+    "city": "Pausa"
+  },
+  "07985": {
+    "lat": 50.6001,
+    "lon": 12.1298,
+    "city": "Elsterberg"
+  },
+  "08056": {
+    "lat": 50.7114,
+    "lon": 12.4928,
+    "city": "Zwickau"
+  },
+  "08058": {
+    "lat": 50.7439,
+    "lon": 12.4781,
+    "city": "Zwickau"
+  },
+  "08060": {
+    "lat": 50.7188,
+    "lon": 12.4601,
+    "city": "Zwickau"
+  },
+  "08062": {
+    "lat": 50.6915,
+    "lon": 12.4734,
+    "city": "Zwickau"
+  },
+  "08064": {
+    "lat": 50.6752,
+    "lon": 12.4709,
+    "city": "Zwickau"
+  },
+  "08066": {
+    "lat": 50.7319,
+    "lon": 12.5251,
+    "city": "Zwickau"
+  },
+  "08107": {
+    "lat": 50.6128,
+    "lon": 12.5137,
+    "city": "Kirchberg"
+  },
+  "08112": {
+    "lat": 50.675,
+    "lon": 12.5148,
+    "city": "Wilkau-Haßlau"
+  },
+  "08115": {
+    "lat": 50.6925,
+    "lon": 12.4259,
+    "city": "Lichtentanne"
+  },
+  "08118": {
+    "lat": 50.6668,
+    "lon": 12.671,
+    "city": "Hartenstein"
+  },
+  "08132": {
+    "lat": 50.7449,
+    "lon": 12.5735,
+    "city": "Mülsen"
+  },
+  "08134": {
+    "lat": 50.6529,
+    "lon": 12.5954,
+    "city": "Wildenfels"
+  },
+  "08141": {
+    "lat": 50.6978,
+    "lon": 12.5555,
+    "city": "Reinsdorf"
+  },
+  "08144": {
+    "lat": 50.6333,
+    "lon": 12.4667,
+    "city": "Hirschfeld"
+  },
+  "08147": {
+    "lat": 50.5667,
+    "lon": 12.5083,
+    "city": "Crinitzberg"
+  },
+  "08209": {
+    "lat": 50.4924,
+    "lon": 12.4171,
+    "city": "Auerbach/Vogtland"
+  },
+  "08223": {
+    "lat": 50.4578,
+    "lon": 12.3425,
+    "city": "Werda"
+  },
+  "08228": {
+    "lat": 50.5308,
+    "lon": 12.4133,
+    "city": "Rodewisch"
+  },
+  "08233": {
+    "lat": 50.5425,
+    "lon": 12.3034,
+    "city": "Treuen"
+  },
+  "08236": {
+    "lat": 50.4837,
+    "lon": 12.3888,
+    "city": "Ellefeld"
+  },
+  "08237": {
+    "lat": 50.5389,
+    "lon": 12.4778,
+    "city": "Steinberg"
+  },
+  "08239": {
+    "lat": 50.471,
+    "lon": 12.2745,
+    "city": "Bergen"
+  },
+  "08248": {
+    "lat": 50.3667,
+    "lon": 12.4667,
+    "city": "Klingenthal/Sachsen"
+  },
+  "08258": {
+    "lat": 50.3114,
+    "lon": 12.3295,
+    "city": "Markneukirchen"
+  },
+  "08261": {
+    "lat": 50.3833,
+    "lon": 12.3167,
+    "city": "Schöneck/Vogtland"
+  },
+  "08262": {
+    "lat": 50.4398,
+    "lon": 12.4899,
+    "city": "Morgenröthe-Rautenkranz"
+  },
+  "08265": {
+    "lat": 50.3167,
+    "lon": 12.3667,
+    "city": "Erlbach"
+  },
+  "08267": {
+    "lat": 50.351,
+    "lon": 12.4224,
+    "city": "Zwota"
+  },
+  "08269": {
+    "lat": 50.435,
+    "lon": 12.415,
+    "city": "Hammerbrücke"
+  },
+  "08280": {
+    "lat": 50.5903,
+    "lon": 12.7066,
+    "city": "Aue"
+  },
+  "08289": {
+    "lat": 50.5947,
+    "lon": 12.6414,
+    "city": "Schneeberg"
+  },
+  "08294": {
+    "lat": 50.6218,
+    "lon": 12.7315,
+    "city": "Lößnitz"
+  },
+  "08297": {
+    "lat": 50.6303,
+    "lon": 12.81,
+    "city": "Zwönitz"
+  },
+  "08301": {
+    "lat": 50.5981,
+    "lon": 12.6588,
+    "city": "Schlema"
+  },
+  "08304": {
+    "lat": 50.5046,
+    "lon": 12.5216,
+    "city": "Schönheide"
+  },
+  "08309": {
+    "lat": 50.4943,
+    "lon": 12.5998,
+    "city": "Eibenstock"
+  },
+  "08312": {
+    "lat": 50.5667,
+    "lon": 12.7333,
+    "city": "Lauter/Sachsen"
+  },
+  "08315": {
+    "lat": 50.5762,
+    "lon": 12.7675,
+    "city": "Bernsbach"
+  },
+  "08318": {
+    "lat": 50.5439,
+    "lon": 12.5711,
+    "city": "Hundshübel"
+  },
+  "08321": {
+    "lat": 50.5667,
+    "lon": 12.65,
+    "city": "Zschorlau"
+  },
+  "08324": {
+    "lat": 50.5421,
+    "lon": 12.6864,
+    "city": "Bockau"
+  },
+  "08325": {
+    "lat": 50.5167,
+    "lon": 12.6,
+    "city": "Carlsfeld, Erzgebirge"
+  },
+  "08326": {
+    "lat": 50.4992,
+    "lon": 12.6512,
+    "city": "Sosa"
+  },
+  "08328": {
+    "lat": 50.5333,
+    "lon": 12.5333,
+    "city": "Stützengrün"
+  },
+  "08340": {
+    "lat": 50.5519,
+    "lon": 12.7873,
+    "city": "Beierfeld"
+  },
+  "08344": {
+    "lat": 50.5802,
+    "lon": 12.8069,
+    "city": "Grünhain"
+  },
+  "08349": {
+    "lat": 50.4526,
+    "lon": 12.7094,
+    "city": "Erlabrunn"
+  },
+  "08352": {
+    "lat": 50.526,
+    "lon": 12.8378,
+    "city": "Pöhla"
+  },
+  "08355": {
+    "lat": 50.4803,
+    "lon": 12.7934,
+    "city": "Rittersgrün"
+  },
+  "08359": {
+    "lat": 50.4667,
+    "lon": 12.7667,
+    "city": "Breitenbrunn/Erzgebirge"
+  },
+  "08371": {
+    "lat": 50.8199,
+    "lon": 12.5449,
+    "city": "Glauchau"
+  },
+  "08373": {
+    "lat": 50.85,
+    "lon": 12.5667,
+    "city": "Remse"
+  },
+  "08393": {
+    "lat": 50.8428,
+    "lon": 12.4737,
+    "city": "Meerane"
+  },
+  "08396": {
+    "lat": 50.8799,
+    "lon": 12.5496,
+    "city": "Oberwiera"
+  },
+  "08412": {
+    "lat": 50.7296,
+    "lon": 12.366,
+    "city": "Werdau"
+  },
+  "08427": {
+    "lat": 50.7,
+    "lon": 12.35,
+    "city": "Fraureuth"
+  },
+  "08428": {
+    "lat": 50.7558,
+    "lon": 12.3267,
+    "city": "Langenbernsdorf"
+  },
+  "08432": {
+    "lat": 50.7142,
+    "lon": 12.3999,
+    "city": "Steinpleis"
+  },
+  "08439": {
+    "lat": 50.7625,
+    "lon": 12.3714,
+    "city": "Langenhessen"
+  },
+  "08451": {
+    "lat": 50.809,
+    "lon": 12.3461,
+    "city": "Crimmitschau"
+  },
+  "08459": {
+    "lat": 50.8,
+    "lon": 12.3667,
+    "city": "Neukirchen/Pleiße"
+  },
+  "08468": {
+    "lat": 50.6225,
+    "lon": 12.3378,
+    "city": "Heinsdorfergrund"
+  },
+  "08485": {
+    "lat": 50.5694,
+    "lon": 12.3641,
+    "city": "Lengenfeld"
+  },
+  "08491": {
+    "lat": 50.5987,
+    "lon": 12.2469,
+    "city": "Limbach"
+  },
+  "08496": {
+    "lat": 50.6601,
+    "lon": 12.3562,
+    "city": "Neumark"
+  },
+  "08499": {
+    "lat": 50.6186,
+    "lon": 12.2654,
+    "city": "Mylau"
+  },
+  "08523": {
+    "lat": 50.4942,
+    "lon": 12.1353,
+    "city": "Plauen"
+  },
+  "08525": {
+    "lat": 50.5106,
+    "lon": 12.13,
+    "city": "Plauen"
+  },
+  "08527": {
+    "lat": 50.4935,
+    "lon": 12.1272,
+    "city": "Plauen"
+  },
+  "08529": {
+    "lat": 50.4921,
+    "lon": 12.1775,
+    "city": "Plauen"
+  },
+  "08538": {
+    "lat": 50.4412,
+    "lon": 11.9958,
+    "city": "Reuth"
+  },
+  "08539": {
+    "lat": 50.5453,
+    "lon": 12.037,
+    "city": "Mehltheuer"
+  },
+  "08541": {
+    "lat": 50.4851,
+    "lon": 12.2193,
+    "city": "Theuma"
+  },
+  "08543": {
+    "lat": 50.55,
+    "lon": 12.1833,
+    "city": "Pöhl"
+  },
+  "08547": {
+    "lat": 50.5,
+    "lon": 12.1333,
+    "city": "Jößnitz"
+  },
+  "08548": {
+    "lat": 50.543,
+    "lon": 12.0793,
+    "city": "Syrau"
+  },
+  "08606": {
+    "lat": 50.4094,
+    "lon": 12.2269,
+    "city": "Oelsnitz"
+  },
+  "08626": {
+    "lat": 50.335,
+    "lon": 12.2133,
+    "city": "Adorf"
+  },
+  "08645": {
+    "lat": 50.2819,
+    "lon": 12.2343,
+    "city": "Bad Elster"
+  },
+  "08648": {
+    "lat": 50.2167,
+    "lon": 12.3167,
+    "city": "Bad Brambach"
+  },
+  "09028": {
+    "lat": 50.8333,
+    "lon": 12.9167,
+    "city": "Chemnitz, Sachsen"
+  },
+  "09030": {
+    "lat": 50.8333,
+    "lon": 12.9167,
+    "city": "Chemnitz, Sachsen"
+  },
+  "09111": {
+    "lat": 50.8351,
+    "lon": 12.9222,
+    "city": "Chemnitz"
+  },
+  "09112": {
+    "lat": 50.827,
+    "lon": 12.9043,
+    "city": "Chemnitz"
+  },
+  "09113": {
+    "lat": 50.8507,
+    "lon": 12.8951,
+    "city": "Chemnitz"
+  },
+  "09114": {
+    "lat": 50.8574,
+    "lon": 12.8977,
+    "city": "Chemnitz"
+  },
+  "09116": {
+    "lat": 50.8213,
+    "lon": 12.884,
+    "city": "Chemnitz"
+  },
+  "09117": {
+    "lat": 50.8179,
+    "lon": 12.8379,
+    "city": "Chemnitz"
+  },
+  "09119": {
+    "lat": 50.8203,
+    "lon": 12.9056,
+    "city": "Chemnitz"
+  },
+  "09120": {
+    "lat": 50.8056,
+    "lon": 12.9067,
+    "city": "Chemnitz"
+  },
+  "09122": {
+    "lat": 50.7945,
+    "lon": 12.8875,
+    "city": "Chemnitz"
+  },
+  "09123": {
+    "lat": 50.7659,
+    "lon": 12.946,
+    "city": "Chemnitz"
+  },
+  "09125": {
+    "lat": 50.7963,
+    "lon": 12.9199,
+    "city": "Chemnitz"
+  },
+  "09126": {
+    "lat": 50.8197,
+    "lon": 12.9403,
+    "city": "Chemnitz"
+  },
+  "09127": {
+    "lat": 50.8284,
+    "lon": 12.9586,
+    "city": "Chemnitz"
+  },
+  "09128": {
+    "lat": 50.8333,
+    "lon": 12.9167,
+    "city": "Chemnitz, Sachsen"
+  },
+  "09130": {
+    "lat": 50.8376,
+    "lon": 12.9345,
+    "city": "Chemnitz"
+  },
+  "09131": {
+    "lat": 50.8333,
+    "lon": 12.9167,
+    "city": "Chemnitz"
+  },
+  "09212": {
+    "lat": 50.85,
+    "lon": 12.7733,
+    "city": "Pleißa"
+  },
+  "09217": {
+    "lat": 50.9133,
+    "lon": 12.806,
+    "city": "Burgstädt"
+  },
+  "09221": {
+    "lat": 50.7835,
+    "lon": 12.87,
+    "city": "Neukirchen/Erzgebirge"
+  },
+  "09224": {
+    "lat": 50.794,
+    "lon": 12.786,
+    "city": "Mittelbach bei Chemnitz"
+  },
+  "09227": {
+    "lat": 50.7705,
+    "lon": 12.9745,
+    "city": "Einsiedel bei Chemnitz"
+  },
+  "09228": {
+    "lat": 50.8832,
+    "lon": 12.8703,
+    "city": "Wittgensdorf"
+  },
+  "09232": {
+    "lat": 50.9,
+    "lon": 12.8,
+    "city": "Hartmannsdorf"
+  },
+  "09235": {
+    "lat": 50.7333,
+    "lon": 12.9167,
+    "city": "Burkhardtsdorf"
+  },
+  "09236": {
+    "lat": 50.9333,
+    "lon": 12.8833,
+    "city": "Claußnitz"
+  },
+  "09241": {
+    "lat": 50.9,
+    "lon": 12.7667,
+    "city": "Mühlau"
+  },
+  "09243": {
+    "lat": 50.9,
+    "lon": 12.7167,
+    "city": "Niederfrohna"
+  },
+  "09244": {
+    "lat": 50.9083,
+    "lon": 12.9917,
+    "city": "Lichtenau"
+  },
+  "09247": {
+    "lat": 50.8621,
+    "lon": 12.8339,
+    "city": "Röhrsdorf"
+  },
+  "09249": {
+    "lat": 50.9167,
+    "lon": 12.85,
+    "city": "Taura"
+  },
+  "09306": {
+    "lat": 51.0284,
+    "lon": 12.826,
+    "city": "Erlau"
+  },
+  "09322": {
+    "lat": 50.9334,
+    "lon": 12.7042,
+    "city": "Penig"
+  },
+  "09326": {
+    "lat": 51.0768,
+    "lon": 12.9072,
+    "city": "Geringswalde"
+  },
+  "09328": {
+    "lat": 50.9627,
+    "lon": 12.7559,
+    "city": "Lunzenau"
+  },
+  "09337": {
+    "lat": 50.8058,
+    "lon": 12.671,
+    "city": "Bernsdorf"
+  },
+  "09350": {
+    "lat": 50.7438,
+    "lon": 12.6453,
+    "city": "Lichtenstein/Sachsen"
+  },
+  "09353": {
+    "lat": 50.7823,
+    "lon": 12.7079,
+    "city": "Oberlungwitz"
+  },
+  "09355": {
+    "lat": 50.75,
+    "lon": 12.7167,
+    "city": "Gersdorf"
+  },
+  "09356": {
+    "lat": 50.7862,
+    "lon": 12.624,
+    "city": "Sankt Egidien"
+  },
+  "09366": {
+    "lat": 50.7155,
+    "lon": 12.7752,
+    "city": "Niederdorf"
+  },
+  "09376": {
+    "lat": 50.717,
+    "lon": 12.7217,
+    "city": "Oelsnitz/Erzgebirge"
+  },
+  "09380": {
+    "lat": 50.7,
+    "lon": 12.85,
+    "city": "Thalheim / Erzgebirge"
+  },
+  "09385": {
+    "lat": 50.75,
+    "lon": 12.7584,
+    "city": "Lugau/Erzgebirge"
+  },
+  "09387": {
+    "lat": 50.75,
+    "lon": 12.85,
+    "city": "Jahnsdorf/Erzgebirge"
+  },
+  "09390": {
+    "lat": 50.7,
+    "lon": 12.8833,
+    "city": "Gornsdorf"
+  },
+  "09392": {
+    "lat": 50.6833,
+    "lon": 12.9167,
+    "city": "Auerbach"
+  },
+  "09394": {
+    "lat": 50.7404,
+    "lon": 12.6806,
+    "city": "Hohndorf"
+  },
+  "09395": {
+    "lat": 50.6741,
+    "lon": 12.8819,
+    "city": "Hormersdorf"
+  },
+  "09399": {
+    "lat": 50.725,
+    "lon": 12.75,
+    "city": "Niederwürschnitz"
+  },
+  "09405": {
+    "lat": 50.7575,
+    "lon": 13.0468,
+    "city": "Zschopau"
+  },
+  "09419": {
+    "lat": 50.6708,
+    "lon": 12.9509,
+    "city": "Thum"
+  },
+  "09423": {
+    "lat": 50.7055,
+    "lon": 12.9694,
+    "city": "Gelenau/Erzgebirge"
+  },
+  "09427": {
+    "lat": 50.6493,
+    "lon": 12.9701,
+    "city": "Ehrenfriedersdorf"
+  },
+  "09429": {
+    "lat": 50.6555,
+    "lon": 13.0713,
+    "city": "Wolkenstein"
+  },
+  "09430": {
+    "lat": 50.6875,
+    "lon": 13.0174,
+    "city": "Drebach"
+  },
+  "09432": {
+    "lat": 50.7,
+    "lon": 13.0833,
+    "city": "Großolbersdorf"
+  },
+  "09435": {
+    "lat": 50.7041,
+    "lon": 13.0565,
+    "city": "Scharfenstein"
+  },
+  "09437": {
+    "lat": 50.7584,
+    "lon": 13.125,
+    "city": "Börnichen/Erzgebirge"
+  },
+  "09439": {
+    "lat": 50.75,
+    "lon": 13.0056,
+    "city": "Amtsberg"
+  },
+  "09456": {
+    "lat": 50.5832,
+    "lon": 13.0394,
+    "city": "Mildenau"
+  },
+  "09465": {
+    "lat": 50.5167,
+    "lon": 12.9833,
+    "city": "Sehmatal"
+  },
+  "09468": {
+    "lat": 50.6169,
+    "lon": 12.9294,
+    "city": "Geyer"
+  },
+  "09471": {
+    "lat": 50.525,
+    "lon": 13.0417,
+    "city": "Bärenstein"
+  },
+  "09474": {
+    "lat": 50.5167,
+    "lon": 12.95,
+    "city": "Crottendorf"
+  },
+  "09477": {
+    "lat": 50.5123,
+    "lon": 13.0946,
+    "city": "Jöhstadt"
+  },
+  "09481": {
+    "lat": 50.5584,
+    "lon": 12.8903,
+    "city": "Elterlein"
+  },
+  "09484": {
+    "lat": 50.4167,
+    "lon": 12.9833,
+    "city": "Oberwiesenthal"
+  },
+  "09487": {
+    "lat": 50.5588,
+    "lon": 12.9527,
+    "city": "Schlettau"
+  },
+  "09488": {
+    "lat": 50.6111,
+    "lon": 13.0138,
+    "city": "Wiesa"
+  },
+  "09496": {
+    "lat": 50.627,
+    "lon": 13.2031,
+    "city": "Pobershau"
+  },
+  "09509": {
+    "lat": 50.7241,
+    "lon": 13.2798,
+    "city": "Pockau"
+  },
+  "09514": {
+    "lat": 50.7191,
+    "lon": 13.1929,
+    "city": "Lengefeld"
+  },
+  "09517": {
+    "lat": 50.6591,
+    "lon": 13.2298,
+    "city": "Zöblitz"
+  },
+  "09518": {
+    "lat": 50.6333,
+    "lon": 13.1167,
+    "city": "Großrückerswalde"
+  },
+  "09526": {
+    "lat": 50.6807,
+    "lon": 13.3642,
+    "city": "Olbernhau"
+  },
+  "09544": {
+    "lat": 50.675,
+    "lon": 13.4667,
+    "city": "Neuhausen/Erzgebirge"
+  },
+  "09548": {
+    "lat": 50.6334,
+    "lon": 13.4584,
+    "city": "Deutschneudorf"
+  },
+  "09557": {
+    "lat": 50.8561,
+    "lon": 13.0741,
+    "city": "Flöha"
+  },
+  "09569": {
+    "lat": 50.8606,
+    "lon": 13.1773,
+    "city": "Gahlenz"
+  },
+  "09573": {
+    "lat": 50.8059,
+    "lon": 13.1344,
+    "city": "Leubsdorf"
+  },
+  "09575": {
+    "lat": 50.8,
+    "lon": 13.2333,
+    "city": "Eppendorf"
+  },
+  "09577": {
+    "lat": 50.8667,
+    "lon": 13.0167,
+    "city": "Niederwiesa"
+  },
+  "09579": {
+    "lat": 50.7702,
+    "lon": 13.1665,
+    "city": "Borstendorf"
+  },
+  "09599": {
+    "lat": 50.9109,
+    "lon": 13.3388,
+    "city": "Freiberg"
+  },
+  "09600": {
+    "lat": 50.9103,
+    "lon": 13.3632,
+    "city": "Oberschöna"
+  },
+  "09603": {
+    "lat": 50.966,
+    "lon": 13.2859,
+    "city": "Großschirma"
+  },
+  "09618": {
+    "lat": 50.8062,
+    "lon": 13.3237,
+    "city": "Brand-Erbisdorf"
+  },
+  "09619": {
+    "lat": 50.7593,
+    "lon": 13.4295,
+    "city": "Sayda"
+  },
+  "09623": {
+    "lat": 50.7703,
+    "lon": 13.5365,
+    "city": "Frauenstein"
+  },
+  "09627": {
+    "lat": 50.905,
+    "lon": 13.4206,
+    "city": "Bobritzsch"
+  },
+  "09629": {
+    "lat": 51.0082,
+    "lon": 13.3654,
+    "city": "Reinsberg"
+  },
+  "09633": {
+    "lat": 50.95,
+    "lon": 13.35,
+    "city": "Halsbrücke"
+  },
+  "09634": {
+    "lat": 51.0311,
+    "lon": 13.3081,
+    "city": "Siebenlehn"
+  },
+  "09638": {
+    "lat": 50.8333,
+    "lon": 13.4167,
+    "city": "Lichtenberg/Erzgebirge"
+  },
+  "09648": {
+    "lat": 51.001,
+    "lon": 12.9807,
+    "city": "Mittweida"
+  },
+  "09661": {
+    "lat": 50.956,
+    "lon": 13.0511,
+    "city": "Rossau"
+  },
+  "09669": {
+    "lat": 50.9259,
+    "lon": 13.0596,
+    "city": "Frankenberg/Sachsen"
+  },
+  "06108": {
+    "lat": 51.483,
+    "lon": 11.972,
+    "city": "Halle"
+  },
+  "06110": {
+    "lat": 51.4701,
+    "lon": 11.9675,
+    "city": "Halle"
+  },
+  "06112": {
+    "lat": 51.4753,
+    "lon": 11.9973,
+    "city": "Halle"
+  },
+  "06114": {
+    "lat": 51.5034,
+    "lon": 11.9622,
+    "city": "Halle"
+  },
+  "06116": {
+    "lat": 51.4862,
+    "lon": 12.0283,
+    "city": "Halle"
+  },
+  "06118": {
+    "lat": 51.5175,
+    "lon": 11.971,
+    "city": "Halle"
+  },
+  "06120": {
+    "lat": 51.5082,
+    "lon": 11.8838,
+    "city": "Halle"
+  },
+  "06122": {
+    "lat": 51.4804,
+    "lon": 11.9215,
+    "city": "Halle"
+  },
+  "06124": {
+    "lat": 51.4796,
+    "lon": 11.937,
+    "city": "Halle"
+  },
+  "06126": {
+    "lat": 51.5,
+    "lon": 12,
+    "city": "Halle"
+  },
+  "06128": {
+    "lat": 51.4507,
+    "lon": 11.9493,
+    "city": "Halle"
+  },
+  "06130": {
+    "lat": 51.441,
+    "lon": 11.9856,
+    "city": "Halle"
+  },
+  "06132": {
+    "lat": 51.4348,
+    "lon": 11.9815,
+    "city": "Halle"
+  },
+  "06179": {
+    "lat": 51.4595,
+    "lon": 11.8355,
+    "city": "Steuden"
+  },
+  "06184": {
+    "lat": 51.4121,
+    "lon": 12.0854,
+    "city": "Dölbau"
+  },
+  "06188": {
+    "lat": 51.5272,
+    "lon": 12.0999,
+    "city": "Queis"
+  },
+  "06193": {
+    "lat": 51.5916,
+    "lon": 11.9531,
+    "city": "Morl"
+  },
+  "06198": {
+    "lat": 51.5695,
+    "lon": 11.8151,
+    "city": "Dößel"
+  },
+  "06217": {
+    "lat": 51.3369,
+    "lon": 11.961,
+    "city": "Beuna"
+  },
+  "06231": {
+    "lat": 51.3007,
+    "lon": 12.1008,
+    "city": "Rodden"
+  },
+  "06237": {
+    "lat": 51.3057,
+    "lon": 12.0194,
+    "city": "Leuna"
+  },
+  "06242": {
+    "lat": 51.2836,
+    "lon": 11.8904,
+    "city": "Krumpa"
+  },
+  "06246": {
+    "lat": 51.3808,
+    "lon": 11.8882,
+    "city": "Milzau"
+  },
+  "06249": {
+    "lat": 51.3,
+    "lon": 11.8,
+    "city": "Mücheln (Geiseltal)"
+  },
+  "06254": {
+    "lat": 51.3581,
+    "lon": 12.1205,
+    "city": "Zöschen"
+  },
+  "06255": {
+    "lat": 51.3657,
+    "lon": 11.7848,
+    "city": "Wünsch"
+  },
+  "06258": {
+    "lat": 51.4,
+    "lon": 11.9988,
+    "city": "Schkopau"
+  },
+  "06259": {
+    "lat": 51.3114,
+    "lon": 11.9293,
+    "city": "Frankleben"
+  },
+  "06268": {
+    "lat": 51.3367,
+    "lon": 11.6209,
+    "city": "Schmon"
+  },
+  "06279": {
+    "lat": 51.4356,
+    "lon": 11.6347,
+    "city": "Farnstädt"
+  },
+  "06295": {
+    "lat": 51.5187,
+    "lon": 11.5826,
+    "city": "Hornburg"
+  },
+  "06308": {
+    "lat": 51.5813,
+    "lon": 11.4987,
+    "city": "Hübitz"
+  },
+  "06311": {
+    "lat": 51.55,
+    "lon": 11.5,
+    "city": "Helbra"
+  },
+  "06313": {
+    "lat": 51.5331,
+    "lon": 11.4856,
+    "city": "Ahlsdorf"
+  },
+  "06317": {
+    "lat": 51.4748,
+    "lon": 11.6772,
+    "city": "Amsdorf"
+  },
+  "06318": {
+    "lat": 51.4667,
+    "lon": 11.75,
+    "city": "Wansleben am See"
+  },
+  "06333": {
+    "lat": 51.6709,
+    "lon": 11.4486,
+    "city": "Sylda"
+  },
+  "06343": {
+    "lat": 51.5869,
+    "lon": 11.4,
+    "city": "Gorenzen"
+  },
+  "06347": {
+    "lat": 51.6224,
+    "lon": 11.6782,
+    "city": "Freist"
+  },
+  "06348": {
+    "lat": 51.6153,
+    "lon": 11.4898,
+    "city": "Großörner"
+  },
+  "06366": {
+    "lat": 51.7519,
+    "lon": 11.9709,
+    "city": "Köthen"
+  },
+  "06369": {
+    "lat": 51.7238,
+    "lon": 11.9882,
+    "city": "Cosa"
+  },
+  "06385": {
+    "lat": 51.8527,
+    "lon": 12.0446,
+    "city": "Aken"
+  },
+  "06386": {
+    "lat": 51.7709,
+    "lon": 12.0843,
+    "city": "Chörau"
+  },
+  "06388": {
+    "lat": 51.682,
+    "lon": 11.9367,
+    "city": "Piethen"
+  },
+  "06406": {
+    "lat": 51.7946,
+    "lon": 11.7401,
+    "city": "Bernburg"
+  },
+  "06408": {
+    "lat": 51.7647,
+    "lon": 11.7821,
+    "city": "Gröna"
+  },
+  "06420": {
+    "lat": 51.6725,
+    "lon": 11.7952,
+    "city": "Edlau"
+  },
+  "06425": {
+    "lat": 51.7043,
+    "lon": 11.6651,
+    "city": "Belleben"
+  },
+  "06429": {
+    "lat": 51.843,
+    "lon": 11.7814,
+    "city": "Pobzig"
+  },
+  "06449": {
+    "lat": 51.7902,
+    "lon": 11.4582,
+    "city": "Westdorf"
+  },
+  "06456": {
+    "lat": 51.7057,
+    "lon": 11.5396,
+    "city": "Mehringen"
+  },
+  "06458": {
+    "lat": 51.858,
+    "lon": 11.2646,
+    "city": "Heteborn"
+  },
+  "06463": {
+    "lat": 51.735,
+    "lon": 11.322,
+    "city": "Meisdorf"
+  },
+  "06464": {
+    "lat": 51.7958,
+    "lon": 11.3791,
+    "city": "Frose"
+  },
+  "06466": {
+    "lat": 51.8221,
+    "lon": 11.2866,
+    "city": "Gatersleben"
+  },
+  "06467": {
+    "lat": 51.7829,
+    "lon": 11.3124,
+    "city": "Hoym"
+  },
+  "06469": {
+    "lat": 51.8008,
+    "lon": 11.3349,
+    "city": "Nachterstedt"
+  },
+  "06484": {
+    "lat": 51.8158,
+    "lon": 11.1802,
+    "city": "Ditfurt"
+  },
+  "06493": {
+    "lat": 51.6192,
+    "lon": 11.1474,
+    "city": "Schielo"
+  },
+  "06502": {
+    "lat": 51.7594,
+    "lon": 11.0679,
+    "city": "Thale"
+  },
+  "06507": {
+    "lat": 51.7021,
+    "lon": 11.0516,
+    "city": "Rieder"
+  },
+  "06526": {
+    "lat": 51.5226,
+    "lon": 11.2852,
+    "city": "Wippra"
+  },
+  "06528": {
+    "lat": 51.4863,
+    "lon": 11.2777,
+    "city": "Horla"
+  },
+  "06536": {
+    "lat": 51.5013,
+    "lon": 11.0598,
+    "city": "Hayn"
+  },
+  "06537": {
+    "lat": 51.4278,
+    "lon": 11.091,
+    "city": "Kelbra"
+  },
+  "06542": {
+    "lat": 51.4206,
+    "lon": 11.4049,
+    "city": "Winkel"
+  },
+  "06543": {
+    "lat": 51.6346,
+    "lon": 11.3084,
+    "city": "Alterode"
+  },
+  "06547": {
+    "lat": 51.5822,
+    "lon": 10.9725,
+    "city": "Schwenda"
+  },
+  "06618": {
+    "lat": 51.1137,
+    "lon": 11.8346,
+    "city": "Molau"
+  },
+  "06628": {
+    "lat": 51.1245,
+    "lon": 11.6829,
+    "city": "Möllern"
+  },
+  "06632": {
+    "lat": 51.2379,
+    "lon": 11.7711,
+    "city": "Gröst"
+  },
+  "06636": {
+    "lat": 51.2273,
+    "lon": 11.668,
+    "city": "Golzen"
+  },
+  "06638": {
+    "lat": 51.2713,
+    "lon": 11.6577,
+    "city": "Karsdorf"
+  },
+  "06642": {
+    "lat": 51.2631,
+    "lon": 11.5357,
+    "city": "Nebra"
+  },
+  "06647": {
+    "lat": 51.1979,
+    "lon": 11.5386,
+    "city": "Lossa"
+  },
+  "06648": {
+    "lat": 51.1294,
+    "lon": 11.5094,
+    "city": "Tromsdorf"
+  },
+  "06667": {
+    "lat": 51.1869,
+    "lon": 11.9362,
+    "city": "Stößen"
+  },
+  "06679": {
+    "lat": 51.1824,
+    "lon": 12.075,
+    "city": "Webau"
+  },
+  "06682": {
+    "lat": 51.1186,
+    "lon": 12.0308,
+    "city": "Nessa"
+  },
+  "06686": {
+    "lat": 51.2275,
+    "lon": 12.1061,
+    "city": "Röcken"
+  },
+  "06688": {
+    "lat": 51.2615,
+    "lon": 12.0299,
+    "city": "Wengelsdorf"
+  },
+  "06712": {
+    "lat": 51.0351,
+    "lon": 12.1394,
+    "city": "Grana"
+  },
+  "06721": {
+    "lat": 51.0746,
+    "lon": 11.9431,
+    "city": "Waldau"
+  },
+  "06722": {
+    "lat": 51.032,
+    "lon": 11.9819,
+    "city": "Droyßig"
+  },
+  "06724": {
+    "lat": 51.0035,
+    "lon": 12.177,
+    "city": "Kayna"
+  },
+  "06725": {
+    "lat": 51.1183,
+    "lon": 12.2057,
+    "city": "Reuden"
+  },
+  "06727": {
+    "lat": 51.0963,
+    "lon": 12.1115,
+    "city": "Döbris"
+  },
+  "06729": {
+    "lat": 51.0686,
+    "lon": 12.2182,
+    "city": "Tröglitz"
+  },
+  "06731": {
+    "lat": 51.6229,
+    "lon": 12.2677,
+    "city": "Bitterfeld-Wolfen"
+  },
+  "06749": {
+    "lat": 51.633,
+    "lon": 12.3362,
+    "city": "Bitterfeld"
+  },
+  "06766": {
+    "lat": 51.6605,
+    "lon": 12.2387,
+    "city": "Bobbau"
+  },
+  "06773": {
+    "lat": 51.7526,
+    "lon": 12.5221,
+    "city": "Radis"
+  },
+  "06774": {
+    "lat": 51.6388,
+    "lon": 12.4921,
+    "city": "Rösa"
+  },
+  "06779": {
+    "lat": 51.7199,
+    "lon": 12.2434,
+    "city": "Marke"
+  },
+  "06780": {
+    "lat": 51.6186,
+    "lon": 12.1337,
+    "city": "Spören"
+  },
+  "06785": {
+    "lat": 51.8033,
+    "lon": 12.4331,
+    "city": "Kakau"
+  },
+  "06786": {
+    "lat": 51.8316,
+    "lon": 12.4406,
+    "city": "Gohrau"
+  },
+  "06791": {
+    "lat": 51.7236,
+    "lon": 12.3764,
+    "city": "Möhlau"
+  },
+  "06792": {
+    "lat": 51.6267,
+    "lon": 12.2534,
+    "city": "Sandersdorf"
+  },
+  "06794": {
+    "lat": 51.61,
+    "lon": 12.2329,
+    "city": "Glebitzsch"
+  },
+  "06796": {
+    "lat": 51.5579,
+    "lon": 12.2128,
+    "city": "Brehna"
+  },
+  "06800": {
+    "lat": 51.6873,
+    "lon": 12.3106,
+    "city": "Jeßnitz"
+  },
+  "06803": {
+    "lat": 51.6468,
+    "lon": 12.3007,
+    "city": "Greppin"
+  },
+  "06804": {
+    "lat": 51.6779,
+    "lon": 12.3732,
+    "city": "Muldenstein"
+  },
+  "06808": {
+    "lat": 51.5982,
+    "lon": 12.3084,
+    "city": "Holzweißig"
+  },
+  "06809": {
+    "lat": 51.5728,
+    "lon": 12.2762,
+    "city": "Roitzsch"
+  },
+  "06842": {
+    "lat": 51.8231,
+    "lon": 12.2598,
+    "city": "Dessau"
+  },
+  "06844": {
+    "lat": 51.8441,
+    "lon": 12.2475,
+    "city": "Dessau"
+  },
+  "06846": {
+    "lat": 51.8333,
+    "lon": 12.25,
+    "city": "Dessau"
+  },
+  "06847": {
+    "lat": 51.8221,
+    "lon": 12.1917,
+    "city": "Dessau"
+  },
+  "06849": {
+    "lat": 51.8083,
+    "lon": 12.241,
+    "city": "Dessau"
+  },
+  "06861": {
+    "lat": 51.8333,
+    "lon": 12.25,
+    "city": "Dessau-Roßlau"
+  },
+  "06862": {
+    "lat": 51.9081,
+    "lon": 12.218,
+    "city": "Roßlau"
+  },
+  "06868": {
+    "lat": 51.9806,
+    "lon": 12.3517,
+    "city": "Serno"
+  },
+  "06869": {
+    "lat": 51.9247,
+    "lon": 12.4691,
+    "city": "Buko"
+  },
+  "06886": {
+    "lat": 51.8744,
+    "lon": 12.606,
+    "city": "Lutherstadt Wittenberg"
+  },
+  "06888": {
+    "lat": 51.8647,
+    "lon": 12.7188,
+    "city": "Dabrun"
+  },
+  "06889": {
+    "lat": 51.8744,
+    "lon": 12.606,
+    "city": "Lutherstadt Wittenberg"
+  },
+  "06895": {
+    "lat": 51.9322,
+    "lon": 12.7625,
+    "city": "Zahna"
+  },
+  "06896": {
+    "lat": 51.9367,
+    "lon": 12.608,
+    "city": "Straach"
+  },
+  "06901": {
+    "lat": 51.7803,
+    "lon": 12.6956,
+    "city": "Dorna"
+  },
+  "06905": {
+    "lat": 51.6941,
+    "lon": 12.7261,
+    "city": "Meuro"
+  },
+  "06909": {
+    "lat": 51.7234,
+    "lon": 12.7918,
+    "city": "Trebitz"
+  },
+  "06917": {
+    "lat": 51.8096,
+    "lon": 12.9808,
+    "city": "Klöden"
+  },
+  "06918": {
+    "lat": 51.8753,
+    "lon": 12.8847,
+    "city": "Gentha"
+  },
+  "06922": {
+    "lat": 51.6905,
+    "lon": 12.9334,
+    "city": "Axien"
+  },
+  "06925": {
+    "lat": 51.7265,
+    "lon": 13.0284,
+    "city": "Löben"
+  },
+  "06926": {
+    "lat": 51.7972,
+    "lon": 13.1124,
+    "city": "Reicho"
+  },
+  "06928": {
+    "lat": 51.85,
+    "lon": 13.1167,
+    "city": "Linda (Elster)"
+  },
+  "04600": {
+    "lat": 50.9876,
+    "lon": 12.4368,
+    "city": "Altenburg"
+  },
+  "04603": {
+    "lat": 50.9728,
+    "lon": 12.4357,
+    "city": "Saara"
+  },
+  "04610": {
+    "lat": 51.0549,
+    "lon": 12.3527,
+    "city": "Meuselwitz"
+  },
+  "04613": {
+    "lat": 51.0973,
+    "lon": 12.3334,
+    "city": "Lucka"
+  },
+  "04617": {
+    "lat": 51.0146,
+    "lon": 12.3684,
+    "city": "Lödla"
+  },
+  "04618": {
+    "lat": 50.9351,
+    "lon": 12.5885,
+    "city": "Frohnsdorf"
+  },
+  "04626": {
+    "lat": 50.8972,
+    "lon": 12.3019,
+    "city": "Mehna"
+  },
+  "04639": {
+    "lat": 50.889,
+    "lon": 12.4329,
+    "city": "Gößnitz"
+  },
+  "06556": {
+    "lat": 51.3612,
+    "lon": 11.2896,
+    "city": "Artern"
+  },
+  "06567": {
+    "lat": 51.3517,
+    "lon": 11.1394,
+    "city": "Esperstedt"
+  },
+  "06571": {
+    "lat": 51.2996,
+    "lon": 11.3747,
+    "city": "Wiehe"
+  },
+  "06577": {
+    "lat": 51.274,
+    "lon": 11.2199,
+    "city": "Hemleben"
+  },
+  "06578": {
+    "lat": 51.2866,
+    "lon": 11.1237,
+    "city": "Kannawurf"
+  },
+  "07318": {
+    "lat": 50.6201,
+    "lon": 11.3087,
+    "city": "Wittgendorf"
+  },
+  "07330": {
+    "lat": 50.5448,
+    "lon": 11.3593,
+    "city": "Marktgölitz"
+  },
+  "07333": {
+    "lat": 50.65,
+    "lon": 11.4333,
+    "city": "Unterwellenborn"
+  },
+  "07334": {
+    "lat": 50.6392,
+    "lon": 11.4657,
+    "city": "Goßwitz"
+  },
+  "07336": {
+    "lat": 50.6596,
+    "lon": 11.4864,
+    "city": "Könitz"
+  },
+  "07338": {
+    "lat": 50.592,
+    "lon": 11.5091,
+    "city": "Drognitz"
+  },
+  "07343": {
+    "lat": 50.4636,
+    "lon": 11.5378,
+    "city": "Wurzbach"
+  },
+  "07349": {
+    "lat": 50.4743,
+    "lon": 11.4522,
+    "city": "Lehesten"
+  },
+  "07356": {
+    "lat": 50.4628,
+    "lon": 11.5967,
+    "city": "Lobenstein"
+  },
+  "07366": {
+    "lat": 50.4116,
+    "lon": 11.7009,
+    "city": "Harra"
+  },
+  "07368": {
+    "lat": 50.5125,
+    "lon": 11.675,
+    "city": "Remptendorf"
+  },
+  "07381": {
+    "lat": 50.6891,
+    "lon": 11.6329,
+    "city": "Moxa"
+  },
+  "07387": {
+    "lat": 50.6721,
+    "lon": 11.5193,
+    "city": "Krölpa"
+  },
+  "07389": {
+    "lat": 50.652,
+    "lon": 11.631,
+    "city": "Knau"
+  },
+  "07407": {
+    "lat": 50.758,
+    "lon": 11.3678,
+    "city": "Heilingen"
+  },
+  "07422": {
+    "lat": 50.6611,
+    "lon": 11.2488,
+    "city": "Rottenbach"
+  },
+  "07426": {
+    "lat": 50.6492,
+    "lon": 11.1257,
+    "city": "Oberhain"
+  },
+  "07427": {
+    "lat": 50.643,
+    "lon": 11.1919,
+    "city": "Schwarzburg"
+  },
+  "07429": {
+    "lat": 50.6162,
+    "lon": 11.2074,
+    "city": "Rohrbach"
+  },
+  "07545": {
+    "lat": 50.8782,
+    "lon": 12.0824,
+    "city": "Gera"
+  },
+  "07546": {
+    "lat": 50.8901,
+    "lon": 12.1019,
+    "city": "Gera"
+  },
+  "07548": {
+    "lat": 50.8667,
+    "lon": 12.0833,
+    "city": "Gera"
+  },
+  "07549": {
+    "lat": 50.8408,
+    "lon": 12.0756,
+    "city": "Gera"
+  },
+  "07551": {
+    "lat": 50.8412,
+    "lon": 12.1072,
+    "city": "Gera"
+  },
+  "07552": {
+    "lat": 50.8667,
+    "lon": 12.0833,
+    "city": "Gera"
+  },
+  "07554": {
+    "lat": 50.8943,
+    "lon": 12.1622,
+    "city": "Kauern"
+  },
+  "07557": {
+    "lat": 50.8024,
+    "lon": 12.0138,
+    "city": "Bocka"
+  },
+  "07570": {
+    "lat": 50.763,
+    "lon": 12.0126,
+    "city": "Weida"
+  },
+  "07580": {
+    "lat": 50.8329,
+    "lon": 12.2068,
+    "city": "Gauern"
+  },
+  "07586": {
+    "lat": 50.914,
+    "lon": 11.9849,
+    "city": "Kraftsdorf"
+  },
+  "07589": {
+    "lat": 50.8037,
+    "lon": 11.9357,
+    "city": "Saara"
+  },
+  "07607": {
+    "lat": 50.9824,
+    "lon": 11.8844,
+    "city": "Gösen"
+  },
+  "07613": {
+    "lat": 50.9666,
+    "lon": 11.9668,
+    "city": "Rauda"
+  },
+  "07616": {
+    "lat": 50.9584,
+    "lon": 11.7723,
+    "city": "Serba"
+  },
+  "07619": {
+    "lat": 51.0208,
+    "lon": 11.8024,
+    "city": "Schkölen"
+  },
+  "07629": {
+    "lat": 50.8783,
+    "lon": 11.8796,
+    "city": "Hermsdorf"
+  },
+  "07639": {
+    "lat": 50.9218,
+    "lon": 11.8885,
+    "city": "Weißenborn"
+  },
+  "07646": {
+    "lat": 50.8463,
+    "lon": 11.7558,
+    "city": "Tissa"
+  },
+  "07743": {
+    "lat": 50.9326,
+    "lon": 11.5868,
+    "city": "Jena"
+  },
+  "07745": {
+    "lat": 50.8933,
+    "lon": 11.5847,
+    "city": "Jena"
+  },
+  "07747": {
+    "lat": 50.8899,
+    "lon": 11.6086,
+    "city": "Jena"
+  },
+  "07749": {
+    "lat": 50.943,
+    "lon": 11.6034,
+    "city": "Jena"
+  },
+  "07751": {
+    "lat": 50.8957,
+    "lon": 11.6185,
+    "city": "Bucha"
+  },
+  "07768": {
+    "lat": 50.7967,
+    "lon": 11.5619,
+    "city": "Bibra"
+  },
+  "07774": {
+    "lat": 51.0346,
+    "lon": 11.7233,
+    "city": "Camburg"
+  },
+  "07778": {
+    "lat": 50.9975,
+    "lon": 11.6483,
+    "city": "Zimmern"
+  },
+  "07806": {
+    "lat": 50.708,
+    "lon": 11.7369,
+    "city": "Dreba"
+  },
+  "07819": {
+    "lat": 50.7368,
+    "lon": 11.8346,
+    "city": "Geroda"
+  },
+  "07907": {
+    "lat": 50.6203,
+    "lon": 11.8229,
+    "city": "Tegau"
+  },
+  "07922": {
+    "lat": 50.4946,
+    "lon": 11.8572,
+    "city": "Tanna"
+  },
+  "07924": {
+    "lat": 50.6038,
+    "lon": 11.7053,
+    "city": "Eßbach"
+  },
+  "07926": {
+    "lat": 50.4405,
+    "lon": 11.8593,
+    "city": "Gefell"
+  },
+  "07927": {
+    "lat": 50.4054,
+    "lon": 11.8183,
+    "city": "Hirschberg"
+  },
+  "07929": {
+    "lat": 50.4917,
+    "lon": 11.7,
+    "city": "Saalburg-Ebersdorf"
+  },
+  "07937": {
+    "lat": 50.6442,
+    "lon": 11.9862,
+    "city": "Zadelsdorf"
+  },
+  "07950": {
+    "lat": 50.7014,
+    "lon": 11.9918,
+    "city": "Staitz"
+  },
+  "07955": {
+    "lat": 50.7181,
+    "lon": 11.9066,
+    "city": "Auma"
+  },
+  "07957": {
+    "lat": 50.6932,
+    "lon": 12.0887,
+    "city": "Hain"
+  },
+  "07958": {
+    "lat": 50.7113,
+    "lon": 12.0543,
+    "city": "Hohenleuben"
+  },
+  "07973": {
+    "lat": 50.6578,
+    "lon": 12.1992,
+    "city": "Greiz"
+  },
+  "07980": {
+    "lat": 50.7177,
+    "lon": 12.1319,
+    "city": "Lunzig"
+  },
+  "07987": {
+    "lat": 50.6697,
+    "lon": 12.2652,
+    "city": "Mohlsdorf"
+  },
+  "07989": {
+    "lat": 50.7209,
+    "lon": 12.2469,
+    "city": "Teichwolframsdorf"
+  }
+} as const;

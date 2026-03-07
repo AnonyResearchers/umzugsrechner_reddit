@@ -5,7 +5,6 @@ import { PropertyType, Etage, LKWDistance } from '../../types/calculator';
 import { Card } from '../shared/Card';
 import { Input } from '../shared/Input';
 import { Select } from '../shared/Select';
-import { Button } from '../shared/Button';
 import { lookupCityFromPLZ } from '../../utils/plzLookup';
 
 interface LocationCardProps {

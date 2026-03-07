@@ -4,7 +4,8 @@ import type {
   CalculatorData,
   Location,
   Room,
-  FurnitureItem,
+  SelectedFurnitureItem,
+  CustomFurnitureItem,
   ServiceOptions,
   DisposalInfo,
   PriceEstimate,
@@ -12,6 +13,8 @@ import type {
   PropertyType,
   RoomType,
 } from '../types/calculator';
+import { LKWDistance } from '../types/calculator';
+import { calculatePrice as calculatePriceEstimate } from '../utils/priceCalculation';
 
 // Helper to generate UUID
 const generateId = (): string => {
@@ -25,7 +28,7 @@ const createInitialData = (): CalculatorData => ({
       id: generateId(),
       plz: '',
       propertyType: 'wohnung' as PropertyType,
-      lkwDistance: '0-20m',
+      lkwDistance: LKWDistance.ZERO_TO_20,
       halteverbotszone: false,
       stopOrder: 1,
     },
@@ -35,12 +38,14 @@ const createInitialData = (): CalculatorData => ({
       id: generateId(),
       plz: '',
       propertyType: 'wohnung' as PropertyType,
-      lkwDistance: '0-20m',
+      lkwDistance: LKWDistance.ZERO_TO_20,
       halteverbotszone: false,
       stopOrder: 2,
     },
   ],
   rooms: [],
+  furnitureItems: [],
+  customFurnitureItems: [],
   services: {
     packService: false,
     mountingService: false,
@@ -81,9 +86,15 @@ interface CalculatorStore extends WizardState {
   updateRoom: (id: string, updates: Partial<Room>) => void;
 
   // Furniture
-  addFurnitureToRoom: (roomId: string, furniture: Omit<FurnitureItem, 'id'>) => void;
-  removeFurnitureFromRoom: (roomId: string, furnitureId: string) => void;
-  updateFurniture: (roomId: string, furnitureId: string, updates: Partial<FurnitureItem>) => void;
+  addFurnitureItem: (furnitureItemId: number, roomId?: string) => void;
+  removeFurnitureItem: (id: string) => void;
+  updateFurnitureQuantity: (id: string, quantity: number) => void;
+  clearAllFurniture: () => void;
+
+  // Custom Furniture
+  addCustomFurnitureItem: (name: string, volumeLiters: number, roomId?: string) => void;
+  removeCustomFurnitureItem: (id: string) => void;
+  updateCustomFurnitureQuantity: (id: string, quantity: number) => void;
 
   // Services
   updateServices: (services: Partial<ServiceOptions>) => void;
@@ -153,7 +164,7 @@ export const useCalculatorStore = create<CalculatorStore>()(
           id: generateId(),
           plz: '',
           propertyType: 'wohnung' as PropertyType,
-          lkwDistance: '0-20m',
+          lkwDistance: LKWDistance.ZERO_TO_20,
           halteverbotszone: false,
           stopOrder: maxOrder + 1,
         };
@@ -203,7 +214,11 @@ export const useCalculatorStore = create<CalculatorStore>()(
         if (newIndex < 0 || newIndex >= data.beladestellen.length) return;
 
         const newArray = [...data.beladestellen];
-        [newArray[index], newArray[newIndex]] = [newArray[newIndex], newArray[index]];
+        const temp = newArray[index];
+        const swapItem = newArray[newIndex];
+        if (!temp || !swapItem) return;
+        newArray[index] = swapItem;
+        newArray[newIndex] = temp;
 
         // Update stop orders
         newArray.forEach((location, idx) => {
@@ -228,7 +243,7 @@ export const useCalculatorStore = create<CalculatorStore>()(
           id: generateId(),
           plz: '',
           propertyType: 'wohnung' as PropertyType,
-          lkwDistance: '0-20m',
+          lkwDistance: LKWDistance.ZERO_TO_20,
           halteverbotszone: false,
           stopOrder: maxOrder + 1,
         };
@@ -278,7 +293,11 @@ export const useCalculatorStore = create<CalculatorStore>()(
         if (newIndex < 0 || newIndex >= data.entladestellen.length) return;
 
         const newArray = [...data.entladestellen];
-        [newArray[index], newArray[newIndex]] = [newArray[newIndex], newArray[index]];
+        const temp = newArray[index];
+        const swapItem = newArray[newIndex];
+        if (!temp || !swapItem) return;
+        newArray[index] = swapItem;
+        newArray[newIndex] = temp;
 
         // Update stop orders
         const beladeCount = data.beladestellen.length;
@@ -302,8 +321,7 @@ export const useCalculatorStore = create<CalculatorStore>()(
         const newRoom: Room = {
           id: generateId(),
           type,
-          customName,
-          furnitureItems: [],
+          ...(customName !== undefined && { customName }),
         };
         set({
           data: {
@@ -342,61 +360,135 @@ export const useCalculatorStore = create<CalculatorStore>()(
       },
 
       // Furniture
-      addFurnitureToRoom: (roomId: string, furniture: Omit<FurnitureItem, 'id'>) => {
+      addFurnitureItem: (furnitureItemId: number, roomId?: string) => {
         const { data } = get();
-        const newFurniture: FurnitureItem = {
-          ...furniture,
+        // Check if this furniture item already exists
+        const existing = data.furnitureItems.find(f => f.furnitureItemId === furnitureItemId && f.roomId === roomId);
+
+        if (existing) {
+          // Increment quantity
+          set({
+            data: {
+              ...data,
+              furnitureItems: data.furnitureItems.map(f =>
+                f.id === existing.id
+                  ? { ...f, quantity: f.quantity + 1 }
+                  : f
+              ),
+              lastModified: new Date().toISOString(),
+            },
+            isDirty: true,
+          });
+        } else {
+          // Add new item
+          const newFurniture: SelectedFurnitureItem = {
+            id: generateId(),
+            furnitureItemId,
+            quantity: 1,
+            ...(roomId !== undefined && { roomId }),
+          };
+          set({
+            data: {
+              ...data,
+              furnitureItems: [...data.furnitureItems, newFurniture],
+              lastModified: new Date().toISOString(),
+            },
+            isDirty: true,
+          });
+        }
+      },
+
+      removeFurnitureItem: (id: string) => {
+        const { data } = get();
+        set({
+          data: {
+            ...data,
+            furnitureItems: data.furnitureItems.filter(f => f.id !== id),
+            lastModified: new Date().toISOString(),
+          },
+          isDirty: true,
+        });
+      },
+
+      updateFurnitureQuantity: (id: string, quantity: number) => {
+        const { data } = get();
+        if (quantity <= 0) {
+          // Remove item if quantity is 0 or less
+          get().removeFurnitureItem(id);
+        } else {
+          set({
+            data: {
+              ...data,
+              furnitureItems: data.furnitureItems.map(f =>
+                f.id === id ? { ...f, quantity } : f
+              ),
+              lastModified: new Date().toISOString(),
+            },
+            isDirty: true,
+          });
+        }
+      },
+
+      clearAllFurniture: () => {
+        const { data } = get();
+        set({
+          data: {
+            ...data,
+            furnitureItems: [],
+            lastModified: new Date().toISOString(),
+          },
+          isDirty: true,
+        });
+      },
+
+      // Custom Furniture
+      addCustomFurnitureItem: (name: string, volumeLiters: number, roomId?: string) => {
+        const { data } = get();
+        const newCustomFurniture: CustomFurnitureItem = {
           id: generateId(),
+          name,
+          volumeLiters,
+          quantity: 1,
+          ...(roomId !== undefined && { roomId }),
         };
         set({
           data: {
             ...data,
-            rooms: data.rooms.map(r =>
-              r.id === roomId
-                ? { ...r, furnitureItems: [...r.furnitureItems, newFurniture] }
-                : r
-            ),
+            customFurnitureItems: [...data.customFurnitureItems, newCustomFurniture],
             lastModified: new Date().toISOString(),
           },
           isDirty: true,
         });
       },
 
-      removeFurnitureFromRoom: (roomId: string, furnitureId: string) => {
+      removeCustomFurnitureItem: (id: string) => {
         const { data } = get();
         set({
           data: {
             ...data,
-            rooms: data.rooms.map(r =>
-              r.id === roomId
-                ? { ...r, furnitureItems: r.furnitureItems.filter(f => f.id !== furnitureId) }
-                : r
-            ),
+            customFurnitureItems: data.customFurnitureItems.filter(f => f.id !== id),
             lastModified: new Date().toISOString(),
           },
           isDirty: true,
         });
       },
 
-      updateFurniture: (roomId: string, furnitureId: string, updates: Partial<FurnitureItem>) => {
+      updateCustomFurnitureQuantity: (id: string, quantity: number) => {
         const { data } = get();
-        set({
-          data: {
-            ...data,
-            rooms: data.rooms.map(r =>
-              r.id === roomId
-                ? {
-                    ...r,
-                    furnitureItems: r.furnitureItems.map(f =>
-                      f.id === furnitureId ? { ...f, ...updates } : f
-                    ),
-                  }
-                : r
-            ),
-            lastModified: new Date().toISOString(),
-          },
-          isDirty: true,
-        });
+        if (quantity <= 0) {
+          get().removeCustomFurnitureItem(id);
+        } else {
+          set({
+            data: {
+              ...data,
+              customFurnitureItems: data.customFurnitureItems.map(f =>
+                f.id === id ? { ...f, quantity } : f
+              ),
+              lastModified: new Date().toISOString(),
+            },
+            isDirty: true,
+          });
+        }
       },
 
       // Services
@@ -514,34 +606,10 @@ export const useCalculatorStore = create<CalculatorStore>()(
         return JSON.stringify(data, null, 2);
       },
 
-      // Price calculation (basic implementation)
+      // Price calculation (uses real distance calculation)
       calculatePrice: (): PriceEstimate => {
         const { data } = get();
-
-        // Simple price calculation (will be enhanced later)
-        const basePrice = 500;
-        const distancePrice = 100; // Placeholder
-        const floorPrice = 50; // Placeholder
-        const servicePrice = Object.values(data.services).filter(Boolean).length * 100;
-        const disposalPrice = data.disposal.required ? 200 : 0;
-        const halteverbotszone = [...data.beladestellen, ...data.entladestellen]
-          .filter(l => l.halteverbotszone).length * 150;
-
-        const totalPrice = basePrice + distancePrice + floorPrice + servicePrice + disposalPrice + halteverbotszone;
-
-        return {
-          basePrice,
-          distancePrice,
-          floorPrice,
-          servicePrice,
-          disposalPrice,
-          halteverbotszone,
-          totalPrice,
-          priceRange: {
-            min: Math.floor(totalPrice * 0.85),
-            max: Math.ceil(totalPrice * 1.15),
-          },
-        };
+        return calculatePriceEstimate(data);
       },
 
       // Reset

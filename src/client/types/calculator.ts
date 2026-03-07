@@ -26,26 +26,41 @@ export enum LKWDistance {
   OVER_50 = '>50m',
 }
 
-// Room Types
+// Room Types (matching database structure with 14 room types)
 export enum RoomType {
-  WOHNZIMMER = 'wohnzimmer',
-  SCHLAFZIMMER = 'schlafzimmer',
-  KUECHE = 'kueche',
-  BADEZIMMER = 'badezimmer',
-  ARBEITSZIMMER = 'arbeitszimmer',
-  KINDERZIMMER = 'kinderzimmer',
-  KELLER = 'keller',
-  ANDERE = 'andere',
+  WOHNZIMMER = 'wohnzimmer',           // ID: 1
+  SCHLAFZIMMER = 'schlafzimmer',       // ID: 2
+  KINDERZIMMER = 'kinderzimmer',       // ID: 3
+  KUECHE = 'kueche',                   // ID: 4
+  WOHN_ESSZIMMER = 'wohn-esszimmer',   // ID: 5
+  BADEZIMMER = 'badezimmer',           // ID: 6
+  GAESTEZIMMER = 'gaestezimmer',       // ID: 7
+  ARBEITSZIMMER = 'arbeitszimmer',     // ID: 8 (Büro-/Arbeitszimmer)
+  ANKLEIDEZIMMER = 'ankleidezimmer',   // ID: 9
+  DIELE_FLUR = 'diele-flur',           // ID: 10
+  BALKON = 'balkon',                   // ID: 11 (Balkon/Terasse)
+  KELLER = 'keller',                   // ID: 12
+  GARAGE = 'garage',                   // ID: 13 (Garage/Garten)
+  ANDERE = 'andere',                   // ID: 14 (Sonstiges)
 }
 
-// Furniture Categories
-export enum FurnitureCategory {
-  MOEBEL = 'moebel',          // Furniture
-  KARTONS = 'kartons',        // Boxes
-  ELEKTRO = 'elektro',        // Electronics
-  PFLANZEN = 'pflanzen',      // Plants
-  SONSTIGES = 'sonstiges',    // Other
-}
+// Mapping from RoomType enum to database room IDs
+export const ROOM_TYPE_TO_DB_ID: Record<RoomType, number> = {
+  [RoomType.WOHNZIMMER]: 1,
+  [RoomType.SCHLAFZIMMER]: 2,
+  [RoomType.KINDERZIMMER]: 3,
+  [RoomType.KUECHE]: 4,
+  [RoomType.WOHN_ESSZIMMER]: 5,
+  [RoomType.BADEZIMMER]: 6,
+  [RoomType.GAESTEZIMMER]: 7,
+  [RoomType.ARBEITSZIMMER]: 8,
+  [RoomType.ANKLEIDEZIMMER]: 9,
+  [RoomType.DIELE_FLUR]: 10,
+  [RoomType.BALKON]: 11,
+  [RoomType.KELLER]: 12,
+  [RoomType.GARAGE]: 13,
+  [RoomType.ANDERE]: 14,
+};
 
 // Location (Beladestelle or Entladestelle)
 export interface Location {
@@ -64,17 +79,23 @@ export interface Room {
   id: string;                     // UUID for React keys
   type: RoomType;
   customName?: string;            // For "Andere" room type
-  furnitureItems: FurnitureItem[];
 }
 
-// Furniture Item
-export interface FurnitureItem {
+// Selected Furniture Item (user's selection with quantity)
+export interface SelectedFurnitureItem {
   id: string;                     // UUID for React keys
-  category: FurnitureCategory;
-  name: string;
-  quantity: number;
-  volume?: number;                // m³ (optional, for price calculation)
-  weight?: number;                // kg (optional)
+  furnitureItemId: number;        // Reference to database furniture item ID
+  quantity: number;               // How many of this item
+  roomId?: string;                // Optional: which room this belongs to
+}
+
+// Custom Furniture Item (user-defined furniture not in database)
+export interface CustomFurnitureItem {
+  id: string;                     // UUID for React keys
+  name: string;                   // Custom furniture name
+  volumeLiters: number;           // Volume in liters
+  quantity: number;               // How many of this item
+  roomId?: string;                // Optional: which room this belongs to
 }
 
 // Service Options
@@ -98,6 +119,8 @@ export interface CalculatorData {
   beladestellen: Location[];
   entladestellen: Location[];
   rooms: Room[];
+  furnitureItems: SelectedFurnitureItem[];  // User's selected furniture with quantities
+  customFurnitureItems: CustomFurnitureItem[];  // User-defined custom furniture
   services: ServiceOptions;
   disposal: DisposalInfo;
   createdAt: string;              // ISO timestamp

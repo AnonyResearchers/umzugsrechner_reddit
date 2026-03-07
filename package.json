@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "umzugsrechner",
-  "version": "0.0.8",
+  "version": "0.0.20",
   "license": "BSD-3-Clause",
   "type": "module",
   "scripts": {
@@ -43,6 +43,7 @@
     "@eslint/js": "9.39.2",
     "@tailwindcss/vite": "4.1.18",
     "@types/node": "^22.19.7",
+    "@types/node-fetch": "^2.6.13",
     "@types/react": "19.2.10",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "5.1.2",

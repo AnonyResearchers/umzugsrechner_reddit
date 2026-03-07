@@ -11,7 +11,7 @@ interface StepNavigationProps {
 
 export const StepNavigation = ({
   currentStep,
-  totalSteps,
+  totalSteps: _totalSteps,
   onBack,
   onNext,
   canGoNext = true,
