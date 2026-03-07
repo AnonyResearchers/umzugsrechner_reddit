@@ -1,6 +1,6 @@
 import './index.css';
 
-import { StrictMode } from 'react';
+import { StrictMode, useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 import { WizardLayout } from './components/wizard/WizardLayout';
 import { useCalculatorStore } from './store/calculatorStore';
@@ -9,6 +9,11 @@ import { Step2Entladestellen } from './components/steps/Step2Entladestellen';
 
 const App = () => {
   const { currentStep } = useCalculatorStore();
+
+  // Scroll to top when step changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [currentStep]);
 
   const renderStep = () => {
     switch (currentStep) {
