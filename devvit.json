@@ -47,5 +47,12 @@
   },
   "dev": {
     "subreddit": "umzugsrechner_dev"
+  },
+  "http": {
+    "fetch": {
+      "allowedDomains": [
+        "nominatim.openstreetmap.org"
+      ]
+    }
   }
 }
