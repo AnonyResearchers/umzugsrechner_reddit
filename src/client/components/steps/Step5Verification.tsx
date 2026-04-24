@@ -1,8 +1,10 @@
 import { useMemo } from 'react';
-import { FiMapPin, FiHome, FiPackage, FiEdit2, FiCheckCircle } from 'react-icons/fi';
+import { FiMapPin, FiHome, FiPackage, FiEdit2, FiCheckCircle, FiNavigation } from 'react-icons/fi';
 import { useCalculatorStore } from '../../store/calculatorStore';
 import { FURNITURE_ITEMS } from '../../data/furniture';
 import type { Etage } from '../../types/calculator';
+import { calculateTotalRouteDistance, getCityForPLZ } from '../../utils/distanceCalculation';
+import { formatRoomDisplayName } from '../../utils/roomFormatting';
 
 // Helper function to format Etage for display
 const formatEtage = (etage: Etage): string => {
@@ -22,7 +24,7 @@ export const Step5Verification = () => {
   const { data, goToStep } = useCalculatorStore();
   const { beladestellen, entladestellen, rooms, furnitureItems, customFurnitureItems } = data;
 
-  // Calculate totals
+  // Calculate totals and distance
   const totals = useMemo(() => {
     let totalVolumeLiters = 0;
     let totalFurnitureCount = 0;
@@ -42,11 +44,30 @@ export const Step5Verification = () => {
       totalVolumeLiters += customItem.volumeLiters * customItem.quantity;
     });
 
+    // Calculate route distance
+    const allStops = [
+      ...beladestellen.sort((a, b) => a.stopOrder - b.stopOrder),
+      ...entladestellen.sort((a, b) => a.stopOrder - b.stopOrder),
+    ];
+    const plzList = allStops.map(location => location.plz);
+    const totalDistance = calculateTotalRouteDistance(plzList);
+
+    // Check if all PLZs are the same (local move within same postal code)
+    const allPLZs = [...beladestellen, ...entladestellen].map(l => l.plz);
+    const uniquePLZs = new Set(allPLZs);
+    const isSamePLZ = uniquePLZs.size === 1;
+
+    // Get city name for same-PLZ moves
+    const cityName = isSamePLZ && allPLZs[0] ? getCityForPLZ(allPLZs[0]) : null;
+
     return {
       totalRooms: rooms.length,
       totalFurniture: totalFurnitureCount,
       totalVolumeM3: (totalVolumeLiters / 1000).toFixed(2),
       totalLocations: beladestellen.length + entladestellen.length,
+      totalDistance,
+      isSamePLZ,
+      cityName,
     };
   }, [furnitureItems, customFurnitureItems, rooms, beladestellen, entladestellen]);
 
@@ -168,6 +189,34 @@ export const Step5Verification = () => {
         </div>
       </div>
 
+      {/* Route Distance Info */}
+      <div className="bg-gradient-to-r from-indigo-50 to-blue-50 dark:from-indigo-900/20 dark:to-blue-900/20 border border-indigo-200 dark:border-indigo-800 rounded-lg p-4 mb-6">
+        <div className="flex items-center gap-3">
+          <FiNavigation className="text-indigo-600 dark:text-indigo-400" size={24} />
+          <div>
+            <h4 className="text-sm font-medium text-indigo-900 dark:text-indigo-100 mb-1">
+              Route & Entfernung
+            </h4>
+            {totals.isSamePLZ ? (
+              <p className="text-lg font-bold text-indigo-600 dark:text-indigo-400">
+                Lokaler Umzug in {totals.cityName || 'derselben Stadt'}
+              </p>
+            ) : (
+              <p className="text-lg font-bold text-indigo-600 dark:text-indigo-400">
+                {totals.totalDistance !== null ? (
+                  <>Geschätzte Entfernung: ~{totals.totalDistance} km</>
+                ) : (
+                  <>Entfernung wird berechnet...</>
+                )}
+              </p>
+            )}
+            <p className="text-xs text-indigo-700 dark:text-indigo-300 mt-1">
+              {beladestellen.length} Beladestelle{beladestellen.length > 1 ? 'n' : ''} → {entladestellen.length} Entladestelle{entladestellen.length > 1 ? 'n' : ''}
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Beladestellen Section */}
       <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 mb-4">
         <div className="flex items-center justify-between mb-4">
@@ -185,17 +234,27 @@ export const Step5Verification = () => {
         </div>
 
         <div className="space-y-3">
-          {beladestellen.map((location, index) => (
+          {beladestellen.map((location, index) => {
+            const cityName = getCityForPLZ(location.plz);
+            return (
             <div
               key={location.id}
               className="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-4 border border-gray-200 dark:border-gray-600"
             >
               <div className="flex items-start justify-between mb-2">
-                <div className="flex items-center gap-2">
-                  <span className="bg-blue-600 text-white text-xs font-bold rounded-full w-6 h-6 flex items-center justify-center">
-                    {index + 1}
-                  </span>
-                  <span className="font-semibold text-gray-900 dark:text-white">PLZ {location.plz}</span>
+                <div className="flex flex-col gap-1">
+                  <div className="flex items-center gap-2">
+                    <span className="bg-blue-600 text-white text-xs font-bold rounded-full w-6 h-6 flex items-center justify-center">
+                      {index + 1}
+                    </span>
+                    <span className="font-semibold text-gray-900 dark:text-white">PLZ {location.plz}</span>
+                  </div>
+                  {cityName && (
+                    <div className="flex items-center gap-1 ml-8 text-sm text-gray-600 dark:text-gray-400">
+                      <FiMapPin size={12} />
+                      <span>{cityName}</span>
+                    </div>
+                  )}
                 </div>
                 <span className="text-xs bg-blue-100 dark:bg-blue-900/40 text-blue-800 dark:text-blue-300 px-2 py-1 rounded">
                   {location.propertyType}
@@ -223,7 +282,8 @@ export const Step5Verification = () => {
                 )}
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 
@@ -244,17 +304,27 @@ export const Step5Verification = () => {
         </div>
 
         <div className="space-y-3">
-          {entladestellen.map((location, index) => (
+          {entladestellen.map((location, index) => {
+            const cityName = getCityForPLZ(location.plz);
+            return (
             <div
               key={location.id}
               className="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-4 border border-gray-200 dark:border-gray-600"
             >
               <div className="flex items-start justify-between mb-2">
-                <div className="flex items-center gap-2">
-                  <span className="bg-green-600 text-white text-xs font-bold rounded-full w-6 h-6 flex items-center justify-center">
-                    {beladestellen.length + index + 1}
-                  </span>
-                  <span className="font-semibold text-gray-900 dark:text-white">PLZ {location.plz}</span>
+                <div className="flex flex-col gap-1">
+                  <div className="flex items-center gap-2">
+                    <span className="bg-green-600 text-white text-xs font-bold rounded-full w-6 h-6 flex items-center justify-center">
+                      {beladestellen.length + index + 1}
+                    </span>
+                    <span className="font-semibold text-gray-900 dark:text-white">PLZ {location.plz}</span>
+                  </div>
+                  {cityName && (
+                    <div className="flex items-center gap-1 ml-8 text-sm text-gray-600 dark:text-gray-400">
+                      <FiMapPin size={12} />
+                      <span>{cityName}</span>
+                    </div>
+                  )}
                 </div>
                 <span className="text-xs bg-green-100 dark:bg-green-900/40 text-green-800 dark:text-green-300 px-2 py-1 rounded">
                   {location.propertyType}
@@ -282,7 +352,8 @@ export const Step5Verification = () => {
                 )}
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 
@@ -309,7 +380,7 @@ export const Step5Verification = () => {
               className="bg-purple-50 dark:bg-purple-900/20 border border-purple-200 dark:border-purple-800 rounded-lg px-3 py-2 text-sm"
             >
               <span className="font-medium text-purple-900 dark:text-purple-100">
-                {room.customName || room.type}
+                {formatRoomDisplayName(room)}
               </span>
             </div>
           ))}
@@ -345,7 +416,7 @@ export const Step5Verification = () => {
                   {/* Room Header */}
                   <div className="flex items-center justify-between mb-2">
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      {room.customName || room.type}
+                      {formatRoomDisplayName(room)}
                     </h4>
                     {hasItems && (
                       <span className="text-xs text-gray-500 dark:text-gray-400">

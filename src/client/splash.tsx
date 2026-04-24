@@ -10,8 +10,8 @@ export const Splash = () => {
     <div className="flex relative flex-col justify-center items-center min-h-screen gap-4 bg-white dark:bg-gray-900">
       <img
         className="object-contain w-1/2 max-w-[250px] mx-auto"
-        src="/snoo.png"
-        alt="Snoo"
+        src="/app-icon.png"
+        alt="Umzugsrechner Icon"
       />
       <div className="flex flex-col items-center gap-2">
         <h1 className="text-2xl font-bold text-center text-gray-900 dark:text-white">

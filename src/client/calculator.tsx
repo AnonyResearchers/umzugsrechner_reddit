@@ -9,6 +9,9 @@ import { Step2Entladestellen } from './components/steps/Step2Entladestellen';
 import { Step3Rooms } from './components/steps/Step3Rooms';
 import { Step4Furniture } from './components/steps/Step4Furniture';
 import { Step5Verification } from './components/steps/Step5Verification';
+import { Step6Services } from './components/steps/Step6Services';
+import { Step7Entsorgung } from './components/steps/Step7Entsorgung';
+import { Step8Results } from './components/steps/Step8Results';
 
 const App = () => {
   const { currentStep } = useCalculatorStore();
@@ -30,6 +33,12 @@ const App = () => {
         return <Step4Furniture />;
       case 5:
         return <Step5Verification />;
+      case 6:
+        return <Step6Services />;
+      case 7:
+        return <Step7Entsorgung />;
+      case 8:
+        return <Step8Results />;
       default:
         return (
           <div className="text-center py-12">

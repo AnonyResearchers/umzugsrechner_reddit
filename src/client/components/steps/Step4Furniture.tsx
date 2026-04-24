@@ -4,6 +4,7 @@ import { useCalculatorStore } from '../../store/calculatorStore';
 import { ROOM_TYPE_TO_DB_ID } from '../../types/calculator';
 import { FURNITURE_ITEMS, getFurnitureForRoom } from '../../data/furniture';
 import type { FurnitureItem } from '../../data/furniture';
+import { formatRoomDisplayName } from '../../utils/roomFormatting';
 
 export const Step4Furniture = () => {
   const {
@@ -218,7 +219,7 @@ export const Step4Furniture = () => {
                     : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-300'
                 }`}
               >
-                {room.customName || room.type}
+                {formatRoomDisplayName(room)}
               </button>
             ))}
           </div>

@@ -78,7 +78,8 @@ export interface Location {
 export interface Room {
   id: string;                     // UUID for React keys
   type: RoomType;
-  customName?: string;            // For "Andere" room type
+  customName?: string;            // Optional custom name for any room type
+  displayNumber?: number;         // Auto-assigned number for duplicate room types (2, 3, 4, etc.)
 }
 
 // Selected Furniture Item (user's selection with quantity)
@@ -100,18 +101,17 @@ export interface CustomFurnitureItem {
 
 // Service Options
 export interface ServiceOptions {
-  packService: boolean;           // Packservice
-  mountingService: boolean;       // Montageservice
-  cleaningService: boolean;       // Reinigungsservice
-  storageService: boolean;        // Einlagerungsservice
-  insuranceService: boolean;      // Versicherungsservice
+  assemblyService: boolean;       // Ab-/Aufbauen (for wardrobes and beds)
+  connectionService: boolean;     // Abschließen/Anschließen (for washing machines and dishwashers)
+  umzugskartons: number;          // Moving boxes quantity
+  kleiderboxen: number;           // Wardrobe boxes quantity
 }
 
 // Disposal Information (Entsorgung)
 export interface DisposalInfo {
   required: boolean;
-  items: string[];                // List of items to dispose
-  estimatedVolume?: number;       // m³
+  furnitureItems: SelectedFurnitureItem[];  // Furniture items to dispose (no roomId)
+  customFurnitureItems: CustomFurnitureItem[];  // Custom items to dispose (no roomId)
 }
 
 // Main Calculator Data
@@ -149,6 +149,14 @@ export interface PriceEstimate {
     min: number;
     max: number;
   };
+  // Additional breakdown for detailed display
+  movingVolumeM3: number;         // Total volume for moving (m³)
+  disposalVolumeM3: number;       // Total volume for disposal (m³)
+  distance: number;               // Total route distance (km)
+  movingPriceMin: number;         // Moving service minimum price
+  movingPriceMax: number;         // Moving service maximum price
+  disposalPriceMin: number;       // Disposal service minimum price
+  disposalPriceMax: number;       // Disposal service maximum price
 }
 
 // Validation Errors

@@ -15,6 +15,7 @@ import type {
 } from '../types/calculator';
 import { LKWDistance } from '../types/calculator';
 import { calculatePrice as calculatePriceEstimate } from '../utils/priceCalculation';
+import { calculateRoomDisplayNumber } from '../utils/roomFormatting';
 
 // Helper to generate UUID
 const generateId = (): string => {
@@ -47,15 +48,15 @@ const createInitialData = (): CalculatorData => ({
   furnitureItems: [],
   customFurnitureItems: [],
   services: {
-    packService: false,
-    mountingService: false,
-    cleaningService: false,
-    storageService: false,
-    insuranceService: false,
+    assemblyService: false,
+    connectionService: false,
+    umzugskartons: 0,
+    kleiderboxen: 0,
   },
   disposal: {
     required: false,
-    items: [],
+    furnitureItems: [],
+    customFurnitureItems: [],
   },
   createdAt: new Date().toISOString(),
   lastModified: new Date().toISOString(),
@@ -101,6 +102,12 @@ interface CalculatorStore extends WizardState {
 
   // Disposal
   updateDisposal: (disposal: Partial<DisposalInfo>) => void;
+  addDisposalFurniture: (furnitureItemId: number, quantity: number) => void;
+  removeDisposalFurniture: (id: string) => void;
+  updateDisposalFurnitureQuantity: (id: string, quantity: number) => void;
+  addCustomDisposalFurniture: (name: string, volumeLiters: number, quantity: number) => void;
+  removeCustomDisposalFurniture: (id: string) => void;
+  updateCustomDisposalFurniture: (id: string, updates: Partial<CustomFurnitureItem>) => void;
 
   // Validation
   validateStep: (step: number) => boolean;
@@ -318,10 +325,12 @@ export const useCalculatorStore = create<CalculatorStore>()(
       // Rooms
       addRoom: (type: RoomType, customName?: string) => {
         const { data } = get();
+        const displayNumber = calculateRoomDisplayNumber(type, data.rooms);
         const newRoom: Room = {
           id: generateId(),
           type,
           ...(customName !== undefined && { customName }),
+          ...(displayNumber > 1 && { displayNumber }),
         };
         set({
           data: {
@@ -523,6 +532,138 @@ export const useCalculatorStore = create<CalculatorStore>()(
         });
       },
 
+      addDisposalFurniture: (furnitureItemId: number, quantity: number = 1) => {
+        const { data } = get();
+        // Check if this furniture item already exists in disposal
+        const existing = data.disposal.furnitureItems.find(f => f.furnitureItemId === furnitureItemId);
+
+        if (existing) {
+          // Increment quantity
+          set({
+            data: {
+              ...data,
+              disposal: {
+                ...data.disposal,
+                furnitureItems: data.disposal.furnitureItems.map(f =>
+                  f.id === existing.id
+                    ? { ...f, quantity: f.quantity + quantity }
+                    : f
+                ),
+              },
+              lastModified: new Date().toISOString(),
+            },
+            isDirty: true,
+          });
+        } else {
+          // Add new item
+          const newFurniture: SelectedFurnitureItem = {
+            id: generateId(),
+            furnitureItemId,
+            quantity,
+          };
+          set({
+            data: {
+              ...data,
+              disposal: {
+                ...data.disposal,
+                furnitureItems: [...data.disposal.furnitureItems, newFurniture],
+              },
+              lastModified: new Date().toISOString(),
+            },
+            isDirty: true,
+          });
+        }
+      },
+
+      removeDisposalFurniture: (id: string) => {
+        const { data } = get();
+        set({
+          data: {
+            ...data,
+            disposal: {
+              ...data.disposal,
+              furnitureItems: data.disposal.furnitureItems.filter(f => f.id !== id),
+            },
+            lastModified: new Date().toISOString(),
+          },
+          isDirty: true,
+        });
+      },
+
+      updateDisposalFurnitureQuantity: (id: string, quantity: number) => {
+        const { data } = get();
+        if (quantity <= 0) {
+          get().removeDisposalFurniture(id);
+        } else {
+          set({
+            data: {
+              ...data,
+              disposal: {
+                ...data.disposal,
+                furnitureItems: data.disposal.furnitureItems.map(f =>
+                  f.id === id ? { ...f, quantity } : f
+                ),
+              },
+              lastModified: new Date().toISOString(),
+            },
+            isDirty: true,
+          });
+        }
+      },
+
+      addCustomDisposalFurniture: (name: string, volumeLiters: number, quantity: number = 1) => {
+        const { data } = get();
+        const newCustomFurniture: CustomFurnitureItem = {
+          id: generateId(),
+          name,
+          volumeLiters,
+          quantity,
+        };
+        set({
+          data: {
+            ...data,
+            disposal: {
+              ...data.disposal,
+              customFurnitureItems: [...data.disposal.customFurnitureItems, newCustomFurniture],
+            },
+            lastModified: new Date().toISOString(),
+          },
+          isDirty: true,
+        });
+      },
+
+      removeCustomDisposalFurniture: (id: string) => {
+        const { data } = get();
+        set({
+          data: {
+            ...data,
+            disposal: {
+              ...data.disposal,
+              customFurnitureItems: data.disposal.customFurnitureItems.filter(f => f.id !== id),
+            },
+            lastModified: new Date().toISOString(),
+          },
+          isDirty: true,
+        });
+      },
+
+      updateCustomDisposalFurniture: (id: string, updates: Partial<CustomFurnitureItem>) => {
+        const { data } = get();
+        set({
+          data: {
+            ...data,
+            disposal: {
+              ...data.disposal,
+              customFurnitureItems: data.disposal.customFurnitureItems.map(f =>
+                f.id === id ? { ...f, ...updates } : f
+              ),
+            },
+            lastModified: new Date().toISOString(),
+          },
+          isDirty: true,
+        });
+      },
+
       // Validation
       validateStep: (step: number): boolean => {
         const { data } = get();
@@ -542,15 +683,15 @@ export const useCalculatorStore = create<CalculatorStore>()(
           case 4: // Furniture (optional, always valid)
             return true;
 
-          case 5: // Services (optional, always valid)
+          case 5: // Verification (requires user confirmation in UI)
             return true;
 
-          case 6: // Entsorgung
+          case 6: // Services (optional, always valid)
+            return true;
+
+          case 7: // Entsorgung
             if (!data.disposal.required) return true;
-            return data.disposal.items.length > 0;
-
-          case 7: // Verification (requires user confirmation in UI)
-            return true;
+            return data.disposal.furnitureItems.length > 0 || data.disposal.customFurnitureItems.length > 0;
 
           case 8: // Results (always valid)
             return true;
